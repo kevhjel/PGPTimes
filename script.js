@@ -1,18 +1,22 @@
 async function loadBoard(){
-  // Load driver allowlist
-  let allowedDrivers = null;
+  // Load driver allowlist + IDs
+  let driverMap = {};
   try {
     const driverRes = await fetch('data/drivers.csv', { cache: 'no-store' });
     if (driverRes.ok) {
       const driverText = await driverRes.text();
-      allowedDrivers = driverText
-        .split(/\r?\n/)
-        .map(s => s.trim())
-        .filter(Boolean)
-        .map(s => s.toLowerCase());
+      driverText.split(/\r?\n/).forEach(line => {
+        const parts = line.split(',').map(s => s.trim());
+        if (parts.length >= 2) {
+          driverMap[parts[0].toLowerCase()] = {
+            name: parts[0],
+            id: parts[1]
+          };
+        }
+      });
     }
   } catch (_) {
-    // drivers.csv is optional; if missing, show everyone
+    // drivers.csv optional
   }
 
   // Load leaderboard data
@@ -22,9 +26,9 @@ async function loadBoard(){
   const tbody = document.querySelector('#board tbody');
   let racers = data.racers || [];
 
-  // Filter to drivers.csv if present
-  if (Array.isArray(allowedDrivers) && allowedDrivers.length > 0) {
-    racers = racers.filter(r => r.name && allowedDrivers.includes(r.name.toLowerCase()));
+  // Filter: only keep racers that exist in drivers.csv
+  if (Object.keys(driverMap).length > 0) {
+    racers = racers.filter(r => driverMap.hasOwnProperty((r.name || '').toLowerCase()));
   }
 
   // Render helper
@@ -32,16 +36,39 @@ async function loadBoard(){
     tbody.innerHTML = '';
     for (const r of list) {
       const tr = document.createElement('tr');
-      const cells = [
-        r.name || '',
-        (r.best_lap_seconds != null ? Number(r.best_lap_seconds).toFixed(3) : ''),
-        (r.best_heat_no || '')
-      ];
-      for (const c of cells) {
-        const td = document.createElement('td');
-        td.textContent = c;
-        tr.appendChild(td);
+
+      // Name as hyperlink to driver page
+      const tdName = document.createElement('td');
+      const key = (r.name || '').toLowerCase();
+      if (driverMap[key]) {
+        const a = document.createElement('a');
+        a.href = `https://pgpkent.clubspeedtiming.com/sp_center/RacerHistory.aspx?CustID=${driverMap[key].id}`;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = r.name || '';
+        tdName.appendChild(a);
+      } else {
+        tdName.textContent = r.name || '';
       }
+      tr.appendChild(tdName);
+
+      // Best lap
+      const tdLap = document.createElement('td');
+      tdLap.textContent = (r.best_lap_seconds != null ? Number(r.best_lap_seconds).toFixed(3) : '');
+      tr.appendChild(tdLap);
+
+      // HeatNo hyperlink
+      const tdHeat = document.createElement('td');
+      if (r.best_heat_no) {
+        const a = document.createElement('a');
+        a.href = `https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=${r.best_heat_no}`;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = r.best_heat_no;
+        tdHeat.appendChild(a);
+      }
+      tr.appendChild(tdHeat);
+
       tbody.appendChild(tr);
     }
   };
@@ -69,7 +96,6 @@ async function loadBoard(){
     apply();
   });
 
-  // Initial render
   render(racers);
 }
 loadBoard();
