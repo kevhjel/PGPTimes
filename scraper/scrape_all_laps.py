@@ -350,6 +350,13 @@ def main():
                         print(f"[debug] heat {heat}: fetch failed for '{tag}': {e}")
                     continue
 
+
+
+                if DEBUG and tag == "default":
+                    with open(f"debug_heat_{heat}_{tag}.html", "w", encoding="utf-8") as dbg:
+                        dbg.write(html)
+                    print(f"[debug] wrote debug_heat_{heat}_{tag}.html")
+                
                 # Parse laps immediately (even if we can't parse a date from THIS page)
                 laps_by_racer = parse_laps_by_racer_any(html)
                 num_keys = len(laps_by_racer)
