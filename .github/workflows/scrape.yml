@@ -3,7 +3,7 @@ name: Scrape ClubSpeed leaderboard
 on:
   # Manual trigger from the Actions tab
   workflow_dispatch:
-  # Weekly schedule: Mondays 09:00 UTC (adjust as you like)
+  # Weekly schedule: Mondays 09:00 UTC
   schedule:
     - cron: '0 9 * * 1'
 
@@ -31,34 +31,40 @@ jobs:
       # --- Best-lap leaderboard (site uses data/leaderboard.json) ---
       - name: Run leaderboard scraper (best laps)
         env:
-          CUST_ID: ${{ secrets.CUST_ID }}             # REQUIRED: your encoded CustID
+          CUST_ID: ${{ secrets.CUST_ID }}             # REQUIRED: your encoded CustID (e.g., MTExNDczMQ==)
           START_YEAR: "2025"                          # only include heats from 2025+
-          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }} # optional, defaults to PGP Kent
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }} # optional; defaults to PGP Kent if unset
           FILTER_DRIVERS: "0"                         # leave 0; UI filters via drivers.csv
         run: |
           python scraper/scrape.py
 
       # --- Per-driver full lap export (writes data/all_laps.csv) ---
+      # Set DEBUG=1 to also dump HTML into data/debug_html/*.html and commit them
       - name: Run ALL-LAPS scraper (per driver)
         env:
           START_YEAR: "2025"
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
-          DEBUG: "1"
+          DEBUG: "1"                   # set to "0" after you finish debugging
+          DEBUG_MAX_DUMPS: "6"         # max HTML files per driver (to limit repo noise)
+          DEBUG_DUMP_VARIANTS: "default,print"  # which variants to dump
         run: |
           python scraper/scrape_all_laps.py
-          
-      - name: Debug data files
-        run: |
-          ls -la data || true
-          wc -c data/leaderboard.json || true
-          wc -c data/all_laps.csv || true
-          head -n 30 data/all_laps.csv || true
-          
-      # Commit both output files (JSON + CSV)
+
+      # Optionally upload the debug HTML folder as an Action artifact (handy for quick download)
+      - name: Upload debug HTML (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html
+          path: data/debug_html
+          if-no-files-found: ignore
+
+      # Commit updated data and (optionally) debug HTML
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(data): update leaderboard and all_laps"
+          commit_message: "chore(data): update leaderboard, all_laps, and debug HTML"
           file_pattern: |
             data/leaderboard.json
             data/all_laps.csv
+            data/debug_html/*.html
