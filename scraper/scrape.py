@@ -177,7 +177,6 @@ def aggregate_best_across_heats(heat_nos: List[str], allowed_names_lower: Option
                 leaderboard[name] = {
                     "name": name,
                     "best_lap_seconds": best,
-                    "best_kart": kart,
                     "best_heat_no": heat,
                     # Store ISO in UTC-naive (site has no tz)—we keep what we parsed
                     "best_lap_datetime": heat_dt.replace(microsecond=0).isoformat() if heat_dt else None,
