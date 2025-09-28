@@ -43,51 +43,10 @@ def make_session() -> requests.Session:
     return s
 
 def fetch(session: requests.Session, url: str) -> str:
-    # Add a referer to look more like real navigation
     headers = {"Referer": BASE + "/sp_center/"}
     r = session.get(url, headers=headers, timeout=30, allow_redirects=True)
     r.raise_for_status()
     return r.text
-
-def has_lap_content(html: str) -> bool:
-    # quick signal that the page actually contains lap details
-    if "Lap Times by Racer" in html:
-        return True
-    # permissive: look for "Penalties:" or common lap/time patterns
-    if re.search(r"\(Penalties:\s*\d+\)", html):
-        return True
-    if re.search(r">\s*Lap\s*<", html, flags=re.I) and re.search(r">\s*Time\s*<", html, flags=re.I):
-        return True
-    if re.search(r"\b\d+\.\d{2,3}\b", html):  # looks like a time float
-        return True
-    return False
-
-def fetch_heat_html_any(session: requests.Session, heat: str) -> Tuple[str, str]:
-    """
-    Try multiple HeatDetails variants, return (html, variant_tag).
-    """
-    variants = [
-        (HEAT_DETAILS_URL.format(heat=heat), "default"),
-        (HEAT_DETAILS_URL_SHOW.format(heat=heat), "show"),
-        (HEAT_DETAILS_PRINT_URL.format(heat=heat), "print"),
-    ]
-    last_html = ""
-    for url, tag in variants:
-        try:
-            html = fetch(session, url)
-            last_html = html
-            if has_lap_content(html):
-                if DEBUG:
-                    print(f"[debug] heat {heat}: using variant '{tag}'")
-                return html, tag
-            else:
-                if DEBUG:
-                    print(f"[debug] heat {heat}: variant '{tag}' lacked visible lap content")
-        except Exception as e:
-            if DEBUG:
-                print(f"[debug] heat {heat}: fetch failed for '{tag}': {e}")
-            continue
-    return last_html, "last"  # return whatever we fetched last (may be empty)
 
 # ------------------- Date parsing -------------------
 def parse_us_datetime(text: str) -> Optional[dt.datetime]:
@@ -342,43 +301,81 @@ def main():
             # 2) Heats loop
             for idx, heat in enumerate(heat_nos, 1):
                 time.sleep(0.5)
-                try:
-                    heat_html, variant = fetch_heat_html_any(session, heat)
-                except Exception as e:
-                    print(f"[warn] heat fetch failed {heat}: {e}")
-                    continue
 
-                if DEBUG and "Lap Times by Racer" not in heat_html and variant != "print":
-                    print(f"[debug] heat {heat}: 'Lap Times by Racer' text not visible; variant={variant}")
+                # Try ALL variants, keep the one that yields the most racer sections
+                variants = [
+                    (HEAT_DETAILS_URL.format(heat=heat), "default"),
+                    (HEAT_DETAILS_URL_SHOW.format(heat=heat), "show"),
+                    (HEAT_DETAILS_PRINT_URL.format(heat=heat), "print"),
+                ]
+                best = {"variant": None, "html": None, "racer_laps": {}, "keys": 0}
 
-                heat_dt = heat_datetime_from_html(heat_html)
-                if not heat_dt:
+                for url, tag in variants:
+                    try:
+                        html = fetch(session, url)
+                    except Exception as e:
+                        if DEBUG:
+                            print(f"[debug] heat {heat}: fetch failed for '{tag}': {e}")
+                        continue
+
+                    # Year filter (do early; date should be present in all variants)
+                    heat_dt = heat_datetime_from_html(html)
+                    if not heat_dt:
+                        if DEBUG:
+                            print(f"[debug] heat {heat}: could not parse date in '{tag}'; trying next variant")
+                        continue
+                    if heat_dt.year < START_YEAR:
+                        if DEBUG:
+                            print(f"[debug] heat {heat}: {heat_dt.date()} < {START_YEAR}; skip whole heat")
+                        # Skip the entire heat quickly
+                        best = None
+                        break
+
+                    # Parse laps immediately
+                    laps_by_racer = parse_laps_by_racer_any(html)
+                    num_keys = len(laps_by_racer)
                     if DEBUG:
-                        print(f"[debug] heat {heat}: could not parse date; skipping")
-                    continue
-                if heat_dt.year < START_YEAR:
-                    if DEBUG:
-                        print(f"[debug] heat {heat}: {heat_dt.date()} < {START_YEAR}; skip")
+                        print(f"[debug] heat {heat}: variant '{tag}' produced {num_keys} racer sections")
+
+                    # Track the best variant (most racer keys)
+                    if num_keys > (best["keys"] if best else -1):
+                        best = {"variant": tag, "html": html, "racer_laps": laps_by_racer, "keys": num_keys, "heat_dt": heat_dt}
+
+                if best is None:
+                    # filtered out by date in one of the variants
                     continue
 
-                id_to_name = map_custid_to_name_in_heat(heat_html)
+                if not best["html"]:
+                    if DEBUG:
+                        print(f"[debug] heat {heat}: no variant returned usable HTML")
+                    continue
+
+                if DEBUG:
+                    print(f"[debug] heat {heat}: using variant '{best['variant']}' with {best['keys']} racer sections")
+
+                # Prefer the display name as shown in this heat
+                id_to_name = map_custid_to_name_in_heat(best["html"])
                 disp_name = id_to_name.get(driver_id, driver_name)
 
-                racer_laps = parse_laps_by_racer_any(heat_html)
-
-                # choose key for this driver
+                # Pick laps for this driver
+                racer_laps = best["racer_laps"]
                 laps = None
+
+                # exact
                 if disp_name in racer_laps:
                     laps = racer_laps[disp_name]
+                # case/space-insensitive
                 if laps is None:
                     disp_norm = norm(disp_name)
                     for k in list(racer_laps.keys()):
                         if norm(k) == disp_norm:
                             laps = racer_laps[k]; break
+                # prefix-safe (truncations)
                 if laps is None:
                     for k in list(racer_laps.keys()):
                         if norm(k).startswith(norm(disp_name)) or norm(disp_name).startswith(norm(k)):
                             laps = racer_laps[k]; break
+                # last-name containment (helps with global-table cases)
                 if laps is None and racer_laps:
                     last = (driver_name.strip().split()[-1] if driver_name.strip() else "").casefold()
                     for k in list(racer_laps.keys()):
@@ -388,15 +385,17 @@ def main():
                 if laps is None:
                     if DEBUG:
                         keys = list(racer_laps.keys())
-                        print(f"[debug] heat {heat}: no laps found for '{driver_name}' (disp='{disp_name}'). Names present: {keys[:8]}...")
+                        print(f"[debug] heat {heat}: no laps found for '{driver_name}' (disp='{disp_name}'). Names present: {keys[:10]}...")
                     continue
 
                 if DEBUG:
-                    print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={variant})")
+                    print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={best['variant']})")
 
-                iso = heat_dt.replace(microsecond=0).isoformat()
-                for lap_num, lap_sec in laps:
-                    w.writerow([disp_name, driver_id, heat, iso, lap_num, lap_sec])
+                iso = best["heat_dt"].replace(microsecond=0).isoformat()
+                with open(OUT_CSV, "a", newline="", encoding="utf-8") as fa:
+                    wa = csv.writer(fa)
+                    for lap_num, lap_sec in laps:
+                        wa.writerow([disp_name, driver_id, heat, iso, lap_num, lap_sec])
 
                 if idx % 10 == 0:
                     print(f"[info] {driver_name}: processed {idx}/{len(heat_nos)} heats")
