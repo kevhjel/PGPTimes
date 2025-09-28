@@ -1,4 +1,4 @@
-// Small CSV parser for simple, unquoted CSV (our all_laps.csv has no quoted commas)
+// Simple CSV parser for unquoted CSV
 function parseCSV(text) {
   const lines = text.split(/\r?\n/).filter(Boolean);
   const header = lines.shift().split(',').map(s => s.trim());
@@ -12,10 +12,44 @@ function parseCSV(text) {
 
 function getQuery() {
   const p = new URLSearchParams(location.search);
-  return {
-    id: p.get('id') || '',
-    name: p.get('name') || ''
-  };
+  return { id: p.get('id') || '', name: p.get('name') || '' };
+}
+
+// ------- Stats helpers -------
+function median(arr) {
+  if (!arr.length) return NaN;
+  const a = [...arr].sort((x, y) => x - y);
+  const mid = Math.floor(a.length / 2);
+  return a.length % 2 ? a[mid] : (a[mid - 1] + a[mid]) / 2;
+}
+function mean(arr) {
+  if (!arr.length) return NaN;
+  return arr.reduce((s, v) => s + v, 0) / arr.length;
+}
+function stdev(arr) {
+  if (arr.length < 2) return NaN;
+  const m = mean(arr);
+  const v = arr.reduce((s, v) => s + (v - m) ** 2, 0) / (arr.length - 1);
+  return Math.sqrt(v);
+}
+// Robust MAD-based outlier mask: |0.6745*(x - med)/MAD| > 3.5
+function mad(arr) {
+  if (!arr.length) return NaN;
+  const m = median(arr);
+  const absDev = arr.map(v => Math.abs(v - m));
+  return median(absDev);
+}
+function makeOutlierMask(arr) {
+  const m = median(arr);
+  const madVal = mad(arr);
+  if (!isFinite(m) || !isFinite(madVal) || madVal === 0) {
+    // If MAD is zero (e.g., all same), treat as no outliers
+    return arr.map(() => true);
+  }
+  return arr.map(v => {
+    const robustZ = 0.6745 * (v - m) / madVal;
+    return Math.abs(robustZ) <= 3.5;
+  });
 }
 
 (async function init(){
@@ -34,7 +68,7 @@ function getQuery() {
     driverLink.style.display = 'none';
   }
 
-  // Pull all laps and filter for this driver (2025+ is already enforced by the scraper)
+  // Pull all laps for this driver (2025+ is enforced by the scraper)
   let rows = [];
   try {
     const res = await fetch('data/all_laps.csv', { cache: 'no-store' });
@@ -46,47 +80,36 @@ function getQuery() {
     console.error(e);
   }
 
-  // Prepare scatter data: x = index across laps, y = lap_seconds
-  // We’ll also include tooltip info (heat_no and heat_datetime_iso)
-  const points = [];
-  let fastest = Infinity;
-  let slowest = -Infinity;
-  let heatsSet = new Set();
+  // Prepare base point set
+  const allPoints = [];
+  const allY = [];
+  const heatsSet = new Set();
 
   rows.forEach((r, idx) => {
     const y = Number(r.lap_seconds);
     if (!Number.isFinite(y)) return;
-    points.push({
-      x: idx + 1,
+    const p = {
+      x: idx + 1, // simple index
       y,
       heat_no: r.heat_no,
       when: r.heat_datetime_iso,
       lap_number: r.lap_number
-    });
-    if (y < fastest) fastest = y;
-    if (y > slowest) slowest = y;
+    };
+    allPoints.push(p);
+    allY.push(y);
     heatsSet.add(r.heat_no);
   });
 
+  // UI elements
   const summary = document.getElementById('summary');
-  if (points.length === 0) {
-    summary.textContent = 'No laps found for this driver (check that all_laps.csv is present and START_YEAR is set).';
-  } else {
-    summary.textContent = `Total laps: ${points.length} · Heats: ${heatsSet.size} · Fastest: ${fastest.toFixed(3)}s · Slowest: ${slowest.toFixed(3)}s`;
-  }
+  const statsRow = document.getElementById('statsRow');
+  const hideOutliersEl = document.getElementById('hideOutliers');
 
-  // Build scatter chart
+  // Chart.js
   const ctx = document.getElementById('lapChart').getContext('2d');
-  // Chart.js v4 scatter
-  new Chart(ctx, {
+  const chart = new Chart(ctx, {
     type: 'scatter',
-    data: {
-      datasets: [{
-        label: 'Lap seconds',
-        data: points,
-        pointRadius: 3
-      }]
-    },
+    data: { datasets: [{ label: 'Lap seconds', data: [], pointRadius: 3 }] },
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -94,12 +117,12 @@ function getQuery() {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: (ctx) => {
-              const p = ctx.raw;
+            label: (c) => {
+              const p = c.raw;
               return `Lap ${p.lap_number}: ${p.y.toFixed(3)}s (Heat ${p.heat_no})`;
             },
-            afterLabel: (ctx) => {
-              const p = ctx.raw;
+            afterLabel: (c) => {
+              const p = c.raw;
               return p.when ? `Date: ${p.when}` : '';
             }
           }
@@ -110,14 +133,55 @@ function getQuery() {
         }
       },
       scales: {
-        x: {
-          title: { display: true, text: 'Lap index (across all heats)' },
-          ticks: { autoSkip: true, maxTicksLimit: 12 }
-        },
-        y: {
-          title: { display: true, text: 'Lap time (s)' }
-        }
+        x: { title: { display: true, text: 'Lap index (across all heats)' }, ticks: { autoSkip: true, maxTicksLimit: 12 } },
+        y: { title: { display: true, text: 'Lap time (s)' } }
       }
     }
   });
+
+  function updateSummaryAndStats(points) {
+    if (!points.length) {
+      summary.textContent = 'No laps found for this driver (check that all_laps.csv is present and START_YEAR is set).';
+      statsRow.textContent = '';
+      return;
+    }
+    const yvals = points.map(p => p.y);
+    const fastest = Math.min(...yvals);
+    const med = median(yvals);
+    const mu = mean(yvals);
+    const sd = stdev(yvals);
+
+    summary.textContent = `Total laps: ${points.length} · Heats: ${heatsSet.size} · Fastest: ${fastest.toFixed(3)}s`;
+
+    statsRow.innerHTML = `
+      Laps: <strong>${points.length}</strong> &nbsp; | &nbsp;
+      Heats: <strong>${heatsSet.size}</strong> &nbsp; | &nbsp;
+      Best: <strong>${fastest.toFixed(3)}s</strong> &nbsp; | &nbsp;
+      Median: <strong>${isFinite(med) ? med.toFixed(3) : '—'}s</strong> &nbsp; | &nbsp;
+      Mean: <strong>${isFinite(mu) ? mu.toFixed(3) : '—'}s</strong> &nbsp; | &nbsp;
+      Stdev: <strong>${isFinite(sd) ? sd.toFixed(3) : '—'}s</strong>
+    `;
+  }
+
+  function applyOutlierFilter(points, hideOutliers) {
+    if (!hideOutliers || points.length < 5) return points; // not enough data to bother
+    const yvals = points.map(p => p.y);
+    const keepMask = makeOutlierMask(yvals);
+    return points.filter((_, i) => keepMask[i]);
+  }
+
+  function render() {
+    const filtered = applyOutlierFilter(allPoints, hideOutliersEl.checked);
+    chart.data.datasets[0].data = filtered;
+    chart.update();
+    updateSummaryAndStats(filtered);
+  }
+
+  // Initial paint
+  chart.data.datasets[0].data = allPoints;
+  chart.update();
+  updateSummaryAndStats(allPoints);
+
+  // Toggle outliers
+  hideOutliersEl.addEventListener('change', render);
 })();
