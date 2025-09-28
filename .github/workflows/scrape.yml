@@ -36,3 +36,16 @@ jobs:
         with:
           commit_message: "chore(data): update leaderboard.json"
           file_pattern: data/leaderboard.json
+          
+      - name: Run ALL-LAPS scraper
+        env:
+          START_YEAR: "2025"
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+        run: |
+          python scraper/scrape_all_laps.py
+
+      - name: Commit all_laps.csv
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): update all_laps.csv"
+          file_pattern: data/all_laps.csv
