@@ -76,6 +76,7 @@ jobs:
           file_pattern: |
             data/leaderboard.json
             data/all_laps.csv
+            data/all_laps.json
             data/debug_html/*.html
           add_options: '-A'
           commit_user_name: 'github-actions[bot]'
