@@ -8,21 +8,21 @@ from typing import Dict, List, Tuple, Optional
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-# ----------------------------------------------------
-# Config
-# ----------------------------------------------------
+# ------------------- Config -------------------
 BASE = os.environ.get("SITE_BASE_URL", "https://pgpkent.clubspeedtiming.com").rstrip("/")
-START_YEAR = int(os.environ.get("START_YEAR", "2025"))  # only include heats from this year onward
+START_YEAR = int(os.environ.get("START_YEAR", "2025"))
 DEBUG = os.environ.get("DEBUG", "0") == "1"
 
 RACER_HISTORY_URL = BASE + "/sp_center/RacerHistory.aspx?CustID={cust}"
 HEAT_DETAILS_URL = BASE + "/sp_center/HeatDetails.aspx?HeatNo={heat}"
+HEAT_DETAILS_URL_SHOW = BASE + "/sp_center/HeatDetails.aspx?HeatNo={heat}&ShowLapTimes=true"
+HEAT_DETAILS_PRINT_URL = BASE + "/sp_center/HeatDetailsPrint.aspx?HeatNo={heat}"
 
 DRIVERS_CSV = os.path.join("data", "drivers.csv")
 OUT_CSV = os.path.join("data", "all_laps.csv")
 
-# IMPORTANT: Pretend to be a real desktop browser so the server returns the full HTML
-HEADERS = {
+# Pretend to be a normal desktop browser
+BASE_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -31,24 +31,67 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
 
-# ----------------------------------------------------
-# HTTP
-# ----------------------------------------------------
-def fetch(url: str) -> str:
-    r = requests.get(url, headers=HEADERS, timeout=30)
+MONTHS = "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+
+# ------------------- HTTP helpers -------------------
+def make_session() -> requests.Session:
+    s = requests.Session()
+    s.headers.update(BASE_HEADERS)
+    return s
+
+def fetch(session: requests.Session, url: str) -> str:
+    # Add a referer to look more like real navigation
+    headers = {"Referer": BASE + "/sp_center/"}
+    r = session.get(url, headers=headers, timeout=30, allow_redirects=True)
     r.raise_for_status()
     return r.text
 
-# ----------------------------------------------------
-# Date parsing
-# ----------------------------------------------------
-MONTHS = "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+def has_lap_content(html: str) -> bool:
+    # quick signal that the page actually contains lap details
+    if "Lap Times by Racer" in html:
+        return True
+    # permissive: look for "Penalties:" or common lap/time patterns
+    if re.search(r"\(Penalties:\s*\d+\)", html):
+        return True
+    if re.search(r">\s*Lap\s*<", html, flags=re.I) and re.search(r">\s*Time\s*<", html, flags=re.I):
+        return True
+    if re.search(r"\b\d+\.\d{2,3}\b", html):  # looks like a time float
+        return True
+    return False
 
+def fetch_heat_html_any(session: requests.Session, heat: str) -> Tuple[str, str]:
+    """
+    Try multiple HeatDetails variants, return (html, variant_tag).
+    """
+    variants = [
+        (HEAT_DETAILS_URL.format(heat=heat), "default"),
+        (HEAT_DETAILS_URL_SHOW.format(heat=heat), "show"),
+        (HEAT_DETAILS_PRINT_URL.format(heat=heat), "print"),
+    ]
+    last_html = ""
+    for url, tag in variants:
+        try:
+            html = fetch(session, url)
+            last_html = html
+            if has_lap_content(html):
+                if DEBUG:
+                    print(f"[debug] heat {heat}: using variant '{tag}'")
+                return html, tag
+            else:
+                if DEBUG:
+                    print(f"[debug] heat {heat}: variant '{tag}' lacked visible lap content")
+        except Exception as e:
+            if DEBUG:
+                print(f"[debug] heat {heat}: fetch failed for '{tag}': {e}")
+            continue
+    return last_html, "last"  # return whatever we fetched last (may be empty)
+
+# ------------------- Date parsing -------------------
 def parse_us_datetime(text: str) -> Optional[dt.datetime]:
-    t = " ".join(text.split())  # normalize whitespace
-    # 9/27/2025 12:45(:30) PM
+    t = " ".join(text.split())
     m = re.search(r"(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}:\d{2}(?::\d{2})?)\s*([AP]M)", t, flags=re.I)
     if m:
         date_part, time_part, ampm = m.group(1), m.group(2), m.group(3).upper()
@@ -57,7 +100,6 @@ def parse_us_datetime(text: str) -> Optional[dt.datetime]:
             return dt.datetime.strptime(f"{date_part} {time_part}{ampm}", fmt)
         except ValueError:
             pass
-    # Sep 27, 2025 12:45(:30) PM
     m = re.search(rf"(({MONTHS})\s+\d{{1,2}},\s*\d{{4}})\s+(\d{{1,2}}:\d{{2}}(?::\d{{2}})?)\s*([AP]M)", t, flags=re.I)
     if m:
         date_part, time_part, ampm = m.group(1), m.group(3), m.group(4).upper()
@@ -66,7 +108,6 @@ def parse_us_datetime(text: str) -> Optional[dt.datetime]:
             return dt.datetime.strptime(f"{date_part} {time_part}{ampm}", fmt)
         except ValueError:
             pass
-    # Bare date -> assume noon
     m = re.search(r"(\d{1,2}/\d{1,2}/\d{4})", t)
     if m:
         try:
@@ -81,9 +122,7 @@ def heat_datetime_from_html(html: str) -> Optional[dt.datetime]:
     txt = soup.get_text(" ", strip=True)
     return parse_us_datetime(txt)
 
-# ----------------------------------------------------
-# Utilities
-# ----------------------------------------------------
+# ------------------- Utilities -------------------
 def extract_heatnos_from_history(html: str) -> List[str]:
     soup = BeautifulSoup(html, "html.parser")
     seen, heats = set(), []
@@ -111,17 +150,10 @@ def map_custid_to_name_in_heat(html: str) -> Dict[str, str]:
     return mapping
 
 def norm(s: str) -> str:
-    # normalize for matching: trim, collapse spaces, casefold
     return " ".join((s or "").split()).casefold()
 
-# ----------------------------------------------------
-# Lap parsers
-# ----------------------------------------------------
+# ------------------- Lap parsers -------------------
 def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    """
-    Parse 'Lap Times by Racer' plain-text section.
-    Returns { racer_name : [(lap_num, lap_seconds), ...] }
-    """
     text = BeautifulSoup(html, "html.parser").get_text("\n", strip=True)
     m = re.search(r"Lap Times by Racer\s*(.*)", text, flags=re.S)
     if not m:
@@ -130,16 +162,13 @@ def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
     result: Dict[str, List[Tuple[int, float]]] = {}
     i = 0
     while i < len(lines):
-        # pattern: <Name> on its own line, next line "(Penalties: N)"
         if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
             racer = lines[i].strip()
             i += 2
             laps: List[Tuple[int, float]] = []
             while i < len(lines):
-                # next racer block?
                 if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
                     break
-                # lap row like: "1 83.109 [2]" or "1 83.109"
                 lapm = re.match(r"\s*(\d+)\s+(\d+\.\d+)", lines[i])
                 if lapm:
                     laps.append((int(lapm.group(1)), float(lapm.group(2))))
@@ -151,9 +180,6 @@ def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
     return result
 
 def nearest_preceding_name(node: Tag) -> Optional[str]:
-    """
-    Given a per-driver lap table, look backwards in the DOM for a likely racer name.
-    """
     steps = 0
     cur = node
     while cur and steps < 12:
@@ -174,23 +200,16 @@ def nearest_preceding_name(node: Tag) -> Optional[str]:
     return None
 
 def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    """
-    Fallback: per-driver mini tables (first two columns 'Lap' and 'Time').
-    """
     soup = BeautifulSoup(html, "html.parser")
     result: Dict[str, List[Tuple[int, float]]] = {}
-
     for tbl in soup.find_all("table"):
         rows = tbl.find_all("tr")
         if len(rows) < 2:
             continue
-        # detect header row
         start_idx = 0
         hdr_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
         if hdr_cells and re.search(r"lap", " ".join(hdr_cells), flags=re.I):
             start_idx = 1
-
-        # small sample check: first couple rows should look like "int, float"
         sample_ok = False
         for r in rows[start_idx:start_idx + 2]:
             cells = [c.get_text(strip=True) for c in r.find_all("td")]
@@ -198,7 +217,6 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
                 sample_ok = True
         if not sample_ok:
             continue
-
         laps: List[Tuple[int, float]] = []
         for r in rows[start_idx:]:
             cells = [c.get_text(strip=True) for c in r.find_all("td")]
@@ -209,21 +227,15 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
                     pass
         if not laps:
             continue
-
         name = nearest_preceding_name(tbl)
         if not name:
             if DEBUG:
                 print("[debug] lap mini-table found but no preceding name; skipping a table")
             continue
         result.setdefault(name, []).extend(laps)
-
     return result
 
 def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
-    """
-    Most robust fallback: a single global table with columns like Lap | Driver/Name | Time.
-    Return (driver_name, lap_no, lap_sec) for ALL drivers; we'll group later.
-    """
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.find_all("table")
     candidates = []
@@ -238,7 +250,6 @@ def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
         header_str = " ".join(headers)
         if re.search(r"\blap\b", header_str) and re.search(r"\b(time|best|lap time)\b", header_str) and re.search(r"\b(driver|name)\b", header_str):
             candidates.append(tbl)
-
     results: List[Tuple[str, int, float]] = []
     for tbl in candidates:
         rows = tbl.find_all("tr")
@@ -247,7 +258,6 @@ def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
             cells = [c.get_text(strip=True) for c in r.find_all("td")]
             if len(cells) < 3:
                 continue
-            # try a few common permutations (lap, name, time)
             triplets = [
                 (cells[0], cells[1], cells[2]),
                 (cells[0], cells[2], cells[1]),
@@ -263,7 +273,6 @@ def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
                     except ValueError:
                         pass
             if not parsed:
-                # last resort: pick any int + any float + some other cell as name
                 ints = [i for i, x in enumerate(cells) if re.match(r"^\d+$", x)]
                 floats = [i for i, x in enumerate(cells) if re.match(r"^\d+(\.\d+)?$", x)]
                 if ints and floats:
@@ -281,9 +290,6 @@ def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
     return results
 
 def parse_laps_by_racer_any(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    """
-    Try multiple strategies and return { name : [(lap_no, lap_sec), ...] }.
-    """
     d = parse_laps_text_block(html)
     if d:
         return d
@@ -296,9 +302,7 @@ def parse_laps_by_racer_any(html: str) -> Dict[str, List[Tuple[int, float]]]:
         grouped.setdefault(name, []).append((lap_no, lap_sec))
     return grouped
 
-# ----------------------------------------------------
-# Drivers CSV
-# ----------------------------------------------------
+# ------------------- Drivers CSV -------------------
 def read_drivers_csv(path: str) -> List[Tuple[str, str]]:
     if not os.path.exists(path):
         raise SystemExit(f"Missing {path}. Expected 'Name,ID' per line.")
@@ -314,10 +318,9 @@ def read_drivers_csv(path: str) -> List[Tuple[str, str]]:
             out.append((parts[0], parts[1]))
     return out
 
-# ----------------------------------------------------
-# Main
-# ----------------------------------------------------
+# ------------------- Main -------------------
 def main():
+    session = make_session()
     drivers = read_drivers_csv(DRIVERS_CSV)
     os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
 
@@ -326,9 +329,9 @@ def main():
         w.writerow(["driver_name", "driver_id", "heat_no", "heat_datetime_iso", "lap_number", "lap_seconds"])
 
         for (driver_name, driver_id) in drivers:
-            # 1) heats for this driver
+            # 1) Driver history
             try:
-                hist_html = fetch(RACER_HISTORY_URL.format(cust=driver_id))
+                hist_html = fetch(session, RACER_HISTORY_URL.format(cust=driver_id))
             except Exception as e:
                 print(f"[warn] history fetch failed for {driver_name} ({driver_id}): {e}")
                 continue
@@ -336,18 +339,17 @@ def main():
             heat_nos = extract_heatnos_from_history(hist_html)
             print(f"[info] {driver_name}: found {len(heat_nos)} heats on history page")
 
-            # 2) visit each heat, filter by year, parse laps
+            # 2) Heats loop
             for idx, heat in enumerate(heat_nos, 1):
-                time.sleep(0.5)  # be polite
+                time.sleep(0.5)
                 try:
-                    heat_html = fetch(HEAT_DETAILS_URL.format(heat=heat))
+                    heat_html, variant = fetch_heat_html_any(session, heat)
                 except Exception as e:
                     print(f"[warn] heat fetch failed {heat}: {e}")
                     continue
 
-                # confirm the server sent the section at all
-                if DEBUG and "Lap Times by Racer" not in heat_html:
-                    print(f"[debug] heat {heat}: server HTML missing 'Lap Times by Racer' text block (will try table fallbacks)")
+                if DEBUG and "Lap Times by Racer" not in heat_html and variant != "print":
+                    print(f"[debug] heat {heat}: 'Lap Times by Racer' text not visible; variant={variant}")
 
                 heat_dt = heat_datetime_from_html(heat_html)
                 if not heat_dt:
@@ -364,31 +366,24 @@ def main():
 
                 racer_laps = parse_laps_by_racer_any(heat_html)
 
-                # pick the key for this driver
+                # choose key for this driver
                 laps = None
-                # exact
                 if disp_name in racer_laps:
                     laps = racer_laps[disp_name]
-                # case/space-insensitive
                 if laps is None:
                     disp_norm = norm(disp_name)
                     for k in list(racer_laps.keys()):
                         if norm(k) == disp_norm:
-                            laps = racer_laps[k]
-                            break
-                # prefix-safe (truncations)
+                            laps = racer_laps[k]; break
                 if laps is None:
                     for k in list(racer_laps.keys()):
                         if norm(k).startswith(norm(disp_name)) or norm(disp_name).startswith(norm(k)):
-                            laps = racer_laps[k]
-                            break
-                # last-name containment (helps in global-table cases)
+                            laps = racer_laps[k]; break
                 if laps is None and racer_laps:
                     last = (driver_name.strip().split()[-1] if driver_name.strip() else "").casefold()
                     for k in list(racer_laps.keys()):
                         if last and last in norm(k):
-                            laps = racer_laps[k]
-                            break
+                            laps = racer_laps[k]; break
 
                 if laps is None:
                     if DEBUG:
@@ -397,7 +392,7 @@ def main():
                     continue
 
                 if DEBUG:
-                    print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name}")
+                    print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={variant})")
 
                 iso = heat_dt.replace(microsecond=0).isoformat()
                 for lap_num, lap_sec in laps:
