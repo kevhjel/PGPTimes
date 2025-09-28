@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Driver Profile</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Chart.js from CDN for the scatter plot -->
+  <!-- Chart.js for the scatter plot -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -15,9 +15,23 @@
   </header>
 
   <main>
+    <section style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:8px;">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+        <input type="checkbox" id="hideOutliers" />
+        <span>Hide outliers (robust MAD)</span>
+      </label>
+    </section>
+
     <section>
       <canvas id="lapChart" style="max-width: 100%; height: 420px;"></canvas>
       <p class="updated" id="summary"></p>
+
+      <div id="stats" style="margin-top:8px; border:1px solid #1c2430; border-radius:10px; padding:12px; background:#0f1720;">
+        <strong>Stats</strong>
+        <div id="statsRow" style="margin-top:6px;">
+          <!-- filled by JS -->
+        </div>
+      </div>
     </section>
 
     <section style="margin-top:16px;">
@@ -26,7 +40,9 @@
   </main>
 
   <footer>
-    <small>Data from ClubSpeed · Personal project · <a href="https://pgpkent.clubspeedtiming.com" target="_blank" rel="noopener">PGP Kent</a></small>
+    <small>Data from ClubSpeed · Personal project ·
+      <a href="https://pgpkent.clubspeedtiming.com" target="_blank" rel="noopener">PGP Kent</a>
+    </small>
   </footer>
 
   <script src="driver.js"></script>
