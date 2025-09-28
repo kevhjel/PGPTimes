@@ -43,9 +43,17 @@ jobs:
         env:
           START_YEAR: "2025"
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          DEBUG: "1"
         run: |
           python scraper/scrape_all_laps.py
-
+          
+      - name: Debug data files
+        run: |
+          ls -la data || true
+          wc -c data/leaderboard.json || true
+          wc -c data/all_laps.csv || true
+          head -n 30 data/all_laps.csv || true
+          
       # Commit both output files (JSON + CSV)
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
