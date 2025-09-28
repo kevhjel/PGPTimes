@@ -1,17 +1,22 @@
 name: Scrape ClubSpeed leaderboard
 
 on:
-  workflow_dispatch:   # lets you trigger manually
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+  # Weekly schedule: Mondays 09:00 UTC (adjust as you like)
   schedule:
-    - cron: '0 9 * * 1'   # every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+
+permissions:
+  contents: write  # needed for committing updated data files
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # allow committing changes
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,29 +28,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run scraper
+      # --- Best-lap leaderboard (site uses data/leaderboard.json) ---
+      - name: Run leaderboard scraper (best laps)
         env:
-          CUST_ID: ${{ secrets.CUST_ID }}
-          YEARS: ${{ secrets.YEARS }}
-          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          CUST_ID: ${{ secrets.CUST_ID }}             # REQUIRED: your encoded CustID
+          START_YEAR: "2025"                          # only include heats from 2025+
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }} # optional, defaults to PGP Kent
+          FILTER_DRIVERS: "0"                         # leave 0; UI filters via drivers.csv
         run: |
           python scraper/scrape.py
 
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(data): update leaderboard.json"
-          file_pattern: data/leaderboard.json
-          
-      - name: Run ALL-LAPS scraper
+      # --- Per-driver full lap export (writes data/all_laps.csv) ---
+      - name: Run ALL-LAPS scraper (per driver)
         env:
           START_YEAR: "2025"
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
         run: |
           python scraper/scrape_all_laps.py
 
-      - name: Commit all_laps.csv
+      # Commit both output files (JSON + CSV)
+      - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(data): update all_laps.csv"
-          file_pattern: data/all_laps.csv
+          commit_message: "chore(data): update leaderboard and all_laps"
+          file_pattern: |
+            data/leaderboard.json
+            data/all_laps.csv
