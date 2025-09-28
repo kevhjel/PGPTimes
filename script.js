@@ -1,8 +1,20 @@
 async function loadBoard(){
+  // Load driver filter list
+  const driverRes = await fetch('data/drivers.csv', {cache:'no-store'});
+  const driverText = await driverRes.text();
+  const allowedDrivers = driverText
+    .split(/\r?\n/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0)
+    .map(s => s.toLowerCase());
+
+  // Load leaderboard data
   const res = await fetch('data/leaderboard.json', {cache:'no-store'});
   const data = await res.json();
   const tbody = document.querySelector('#board tbody');
-  let racers = data.racers || [];
+  let racers = (data.racers || []).filter(r =>
+    allowedDrivers.includes(r.name.toLowerCase())
+  );
 
   const updated = document.getElementById('updated');
   updated.textContent = 'Last updated: ' + (data.last_updated_utc || '—');
