@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Driver Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js (lightweight, one file) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="driverTitle">Driver Profile</h1>
+    <p class="sub">All laps from 2025 and newer (from your ClubSpeed heats).</p>
+  </header>
+
+  <main>
+    <div style="max-width:1000px;margin:16px auto;padding:12px;background:#0f1720;border:1px solid #1c2430;border-radius:12px;">
+      <canvas id="lapChart" height="240"></canvas>
+    </div>
+
+    <div style="max-width:1000px;margin:0 auto;padding:0 12px;">
+      <p class="updated" id="summary"></p>
+      <p class="updated">
+        External profile: <a id="externalLink" href="#" target="_blank" rel="noopener">Open on ClubSpeed</a>
+      </p>
+      <p><a href="./">← Back to leaderboard</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <small>Data from ClubSpeed · Personal project</small>
+  </footer>
+
+  <script src="profile.js"></script>
+</body>
+</html>
