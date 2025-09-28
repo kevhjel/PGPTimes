@@ -23,7 +23,15 @@ HEATS_TXT = os.path.join("data", "heats.txt")
 DRIVERS_CSV = os.path.join("data", "drivers.csv")
 
 HEADERS = {
-    "User-Agent": "clubspeed-leaderboard/1.2 (+github actions)"
+    # Pretend to be a real Chrome desktop
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
 }
 
 # ----------------------------
