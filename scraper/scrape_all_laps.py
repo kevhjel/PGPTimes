@@ -13,6 +13,14 @@ BASE = os.environ.get("SITE_BASE_URL", "https://pgpkent.clubspeedtiming.com").rs
 START_YEAR = int(os.environ.get("START_YEAR", "2025"))
 DEBUG = os.environ.get("DEBUG", "0") == "1"
 
+# NEW: control how many debug HTML files we dump per driver
+DEBUG_MAX_DUMPS = int(os.environ.get("DEBUG_MAX_DUMPS", "6"))
+# NEW: which variants to dump (comma-separated from {"default","show","print"})
+DEBUG_DUMP_VARIANTS = set(
+    v.strip().lower() for v in os.environ.get("DEBUG_DUMP_VARIANTS", "default,print").split(",")
+    if v.strip()
+)
+
 RACER_HISTORY_URL = BASE + "/sp_center/RacerHistory.aspx?CustID={cust}"
 HEAT_DETAILS_URL = BASE + "/sp_center/HeatDetails.aspx?HeatNo={heat}"
 HEAT_DETAILS_URL_SHOW = BASE + "/sp_center/HeatDetails.aspx?HeatNo={heat}&ShowLapTimes=true"
@@ -20,8 +28,9 @@ HEAT_DETAILS_PRINT_URL = BASE + "/sp_center/HeatDetailsPrint.aspx?HeatNo={heat}"
 
 DRIVERS_CSV = os.path.join("data", "drivers.csv")
 OUT_CSV = os.path.join("data", "all_laps.csv")
+# NEW: folder for HTML dumps
+DEBUG_DIR = os.path.join("data", "debug_html")
 
-# Pretend to be a normal desktop browser
 BASE_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -48,7 +57,7 @@ def fetch(session: requests.Session, url: str) -> str:
     r.raise_for_status()
     return r.text
 
-# ------------------- Date parsing -------------------
+# ------------------- Date parsing (unchanged) -------------------
 def parse_us_datetime(text: str) -> Optional[dt.datetime]:
     t = " ".join(text.split())
     m = re.search(r"(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}:\d{2}(?::\d{2})?)\s*([AP]M)", t, flags=re.I)
@@ -81,7 +90,7 @@ def heat_datetime_from_html(html: str) -> Optional[dt.datetime]:
     txt = soup.get_text(" ", strip=True)
     return parse_us_datetime(txt)
 
-# ------------------- Utilities -------------------
+# ------------------- Utilities (some unchanged) -------------------
 def extract_heatnos_from_history(html: str) -> List[str]:
     soup = BeautifulSoup(html, "html.parser")
     seen, heats = set(), []
@@ -95,10 +104,6 @@ def extract_heatnos_from_history(html: str) -> List[str]:
     return heats
 
 def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
-    """
-    Build heat_no -> datetime map by walking the table rows in RacerHistory.
-    This lets us apply START_YEAR even when the heat page doesn't show a parseable date.
-    """
     soup = BeautifulSoup(html, "html.parser")
     heat_dates: Dict[str, dt.datetime] = {}
     for a in soup.find_all("a", href=True):
@@ -106,11 +111,8 @@ def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
         if not m:
             continue
         heat = m.group(1)
-        # Find the date text near the link (e.g., in the same row)
         row = a.find_parent("tr")
-        date_text = ""
         if row:
-            # heuristic: scan cells in the row for something date-like
             cells = [c.get_text(" ", strip=True) for c in row.find_all("td")]
             for c in cells:
                 d = parse_us_datetime(c)
@@ -118,7 +120,6 @@ def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
                     heat_dates[heat] = d
                     break
         if heat not in heat_dates:
-            # fallback: try surrounding text
             t = a.get_text(" ", strip=True) + " " + (row.get_text(" ", strip=True) if row else "")
             d = parse_us_datetime(t)
             if d:
@@ -126,173 +127,47 @@ def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
     return heat_dates
 
 def map_custid_to_name_in_heat(html: str) -> Dict[str, str]:
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, "html-parser")
     mapping = {}
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if "RacerHistory.aspx" in href and "CustID=" in href:
             m = re.search(r"CustID=([^&\s]+)", href)
             if m:
-                cust = m.group(1)
-                name = a.get_text(strip=True)
-                if name:
-                    mapping[cust] = name
+                mapping[m.group(1)] = a.get_text(strip=True)
     return mapping
 
 def norm(s: str) -> str:
     return " ".join((s or "").split()).casefold()
 
-# ------------------- Lap parsers -------------------
-def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    text = BeautifulSoup(html, "html.parser").get_text("\n", strip=True)
-    m = re.search(r"Lap Times by Racer\s*(.*)", text, flags=re.S)
-    if not m:
-        return {}
-    lines = m.group(1).splitlines()
-    result: Dict[str, List[Tuple[int, float]]] = {}
-    i = 0
-    while i < len(lines):
-        if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
-            racer = lines[i].strip()
-            i += 2
-            laps: List[Tuple[int, float]] = []
-            while i < len(lines):
-                if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
-                    break
-                lapm = re.match(r"\s*(\d+)\s+(\d+\.\d+)", lines[i])
-                if lapm:
-                    laps.append((int(lapm.group(1)), float(lapm.group(2))))
-                i += 1
-            if laps:
-                result[racer] = laps
-        else:
-            i += 1
-    return result
+# ------------------- NEW: debug dump helper -------------------
+def dump_debug_html(heat: str, tag: str, html: str, driver_key: str, per_driver_counter: Dict[str, int]):
+    """
+    Save the fetched HTML under data/debug_html/ if DEBUG is on and we haven't exceeded the per-driver cap.
+    driver_key can be the driver's name or id to cap per driver.
+    """
+    if not DEBUG:
+        return
+    if tag.lower() not in DEBUG_DUMP_VARIANTS:
+        return
 
-def nearest_preceding_name(node: Tag) -> Optional[str]:
-    steps = 0
-    cur = node
-    while cur and steps < 12:
-        cur = cur.find_previous(string=True)
-        steps += 1
-        if not cur:
-            break
-        if isinstance(cur, NavigableString):
-            text = cur.strip()
-            if not text:
-                continue
-            if re.search(r"Lap Times by Racer", text, flags=re.I):
-                continue
-            if re.match(r"\(Penalties:\s*\d+\)", text):
-                continue
-            if 2 <= len(text.split()) <= 4 and len(text) <= 40:
-                return text
-    return None
+    os.makedirs(DEBUG_DIR, exist_ok=True)
+    count = per_driver_counter.get(driver_key, 0)
+    if count >= DEBUG_MAX_DUMPS:
+        return
+    safe_tag = tag.lower()
+    fname = f"{heat}_{safe_tag}.html"
+    path = os.path.join(DEBUG_DIR, fname)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    per_driver_counter[driver_key] = count + 1
+    print(f"[debug] wrote {path}")
 
-def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    soup = BeautifulSoup(html, "html.parser")
-    result: Dict[str, List[Tuple[int, float]]] = {}
-    for tbl in soup.find_all("table"):
-        rows = tbl.find_all("tr")
-        if len(rows) < 2:
-            continue
-        start_idx = 0
-        hdr_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
-        if hdr_cells and re.search(r"lap", " ".join(hdr_cells), flags=re.I):
-            start_idx = 1
-        sample_ok = False
-        for r in rows[start_idx:start_idx + 2]:
-            cells = [c.get_text(strip=True) for c in r.find_all("td")]
-            if len(cells) >= 2 and re.match(r"^\d+$", cells[0]) and re.match(r"^\d+\.\d+$", cells[1]):
-                sample_ok = True
-        if not sample_ok:
-            continue
-        laps: List[Tuple[int, float]] = []
-        for r in rows[start_idx:]:
-            cells = [c.get_text(strip=True) for c in r.find_all("td")]
-            if len(cells) >= 2 and re.match(r"^\d+$", cells[0]) and re.match(r"^\d+\.\d+$", cells[1]):
-                try:
-                    laps.append((int(cells[0]), float(cells[1])))
-                except ValueError:
-                    pass
-        if not laps:
-            continue
-        name = nearest_preceding_name(tbl)
-        if not name:
-            if DEBUG:
-                print("[debug] lap mini-table found but no preceding name; skipping a table")
-            continue
-        result.setdefault(name, []).extend(laps)
-    return result
+# ------------------- Parsers (same as previous version + your pre/text/table/global) -------------------
+# ... keep your existing parse_laps_text_block, parse_laps_dom_tables, parse_laps_pre_text (if added), parse_global_lap_table, parse_laps_by_racer_any ...
+# (Omitted here for brevity—do not remove your current implementations.)
 
-def parse_global_lap_table(html: str) -> List[Tuple[str, int, float]]:
-    soup = BeautifulSoup(html, "html.parser")
-    tables = soup.find_all("table")
-    candidates = []
-    for tbl in tables:
-        headers = [th.get_text(strip=True).lower() for th in tbl.find_all("th")]
-        if not headers:
-            first = tbl.find("tr")
-            if first:
-                headers = [td.get_text(strip=True).lower() for td in first.find_all("td")]
-        if not headers:
-            continue
-        header_str = " ".join(headers)
-        if re.search(r"\blap\b", header_str) and re.search(r"\b(time|best|lap time)\b", header_str) and re.search(r"\b(driver|name)\b", header_str):
-            candidates.append(tbl)
-    results: List[Tuple[str, int, float]] = []
-    for tbl in candidates:
-        rows = tbl.find_all("tr")
-        start = 1 if rows and rows[0].find_all("th") else 0
-        for r in rows[start:]:
-            cells = [c.get_text(strip=True) for c in r.find_all("td")]
-            if len(cells) < 3:
-                continue
-            triplets = [
-                (cells[0], cells[1], cells[2]),
-                (cells[0], cells[2], cells[1]),
-                (cells[1], cells[0], cells[2]),
-            ]
-            parsed = False
-            for a, b, c in triplets:
-                if re.match(r"^\d+$", a) and re.match(r"^\d+(\.\d+)?$", c) and b:
-                    try:
-                        results.append((b, int(a), float(c)))
-                        parsed = True
-                        break
-                    except ValueError:
-                        pass
-            if not parsed:
-                ints = [i for i, x in enumerate(cells) if re.match(r"^\d+$", x)]
-                floats = [i for i, x in enumerate(cells) if re.match(r"^\d+(\.\d+)?$", x)]
-                if ints and floats:
-                    try:
-                        lap_no = int(cells[ints[0]])
-                        lap_sec = float(cells[floats[0]])
-                        name_idx = 0
-                        while name_idx in (ints[0], floats[0]) and name_idx < len(cells) - 1:
-                            name_idx += 1
-                        name = cells[name_idx]
-                        if name:
-                            results.append((name, lap_no, lap_sec))
-                    except ValueError:
-                        pass
-    return results
-
-def parse_laps_by_racer_any(html: str) -> Dict[str, List[Tuple[int, float]]]:
-    d = parse_laps_text_block(html)
-    if d:
-        return d
-    d = parse_laps_dom_tables(html)
-    if d:
-        return d
-    rows = parse_global_lap_table(html)
-    grouped: Dict[str, List[Tuple[int, float]]] = {}
-    for name, lap_no, lap_sec in rows:
-        grouped.setdefault(name, []).append((lap_no, lap_sec))
-    return grouped
-
-# ------------------- Drivers CSV -------------------
+# ------------------- Drivers CSV (unchanged) -------------------
 def read_drivers_csv(path: str) -> List[Tuple[str, str]]:
     if not os.path.exists(path):
         raise SystemExit(f"Missing {path}. Expected 'Name,ID' per line.")
@@ -316,11 +191,13 @@ def main():
 
     # fresh write
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["driver_name", "driver_id", "heat_no", "heat_datetime_iso", "lap_number", "lap_seconds"])
+        csv.writer(f).writerow(["driver_name", "driver_id", "heat_no", "heat_datetime_iso", "lap_number", "lap_seconds"])
 
     for (driver_name, driver_id) in drivers:
-        # 1) Driver history + heat dates map
+        # cap debug dumps per driver
+        debug_counter: Dict[str, int] = {}
+
+        # history + heat date map
         try:
             hist_html = fetch(session, RACER_HISTORY_URL.format(cust=driver_id))
         except Exception as e:
@@ -331,9 +208,15 @@ def main():
         heat_date_map = map_heat_dates_from_history(hist_html)
         print(f"[info] {driver_name}: found {len(heat_nos)} heats on history page")
 
-        # 2) Heats loop
         for idx, heat in enumerate(heat_nos, 1):
             time.sleep(0.5)
+
+            # EARLY year filter using history date (keeps logs clean and saves fetches)
+            hist_dt = heat_date_map.get(heat)
+            if hist_dt and hist_dt.year < START_YEAR:
+                if DEBUG:
+                    print(f"[debug] heat {heat}: {hist_dt.date()} < {START_YEAR}; skip (from history)")
+                continue
 
             variants = [
                 (HEAT_DETAILS_URL.format(heat=heat), "default"),
@@ -350,20 +233,14 @@ def main():
                         print(f"[debug] heat {heat}: fetch failed for '{tag}': {e}")
                     continue
 
+                # NEW: dump HTML for this variant (capped per driver)
+                dump_debug_html(heat, tag, html, driver_id, debug_counter)
 
-
-                if DEBUG and tag == "default":
-                    with open(f"debug_heat_{heat}_{tag}.html", "w", encoding="utf-8") as dbg:
-                        dbg.write(html)
-                    print(f"[debug] wrote debug_heat_{heat}_{tag}.html")
-                
-                # Parse laps immediately (even if we can't parse a date from THIS page)
+                # parse now
                 laps_by_racer = parse_laps_by_racer_any(html)
                 num_keys = len(laps_by_racer)
                 if DEBUG:
                     print(f"[debug] heat {heat}: variant '{tag}' produced {num_keys} racer sections")
-
-                # Track the best variant
                 if num_keys > best["keys"]:
                     best = {"variant": tag, "html": html, "racer_laps": laps_by_racer, "keys": num_keys}
 
@@ -375,42 +252,32 @@ def main():
             if DEBUG:
                 print(f"[debug] heat {heat}: using variant '{best['variant']}' with {best['keys']} racer sections")
 
-            # Determine the date (prefer page, else from history map)
+            # Determine the date to write (prefer page, fallback to history)
             page_dt = heat_datetime_from_html(best["html"])
-            hist_dt = heat_date_map.get(heat)
             heat_dt = page_dt or hist_dt
-            if not heat_dt and DEBUG:
-                print(f"[debug] heat {heat}: no parseable date on page or history; writing empty date")
-
-            # START_YEAR filter (only if we have a date to compare)
             if heat_dt and heat_dt.year < START_YEAR:
                 if DEBUG:
                     print(f"[debug] heat {heat}: {heat_dt.date()} < {START_YEAR}; skip")
                 continue
 
-            # Prefer the display name as shown in this heat
+            # map CustID -> display name for this heat
             id_to_name = map_custid_to_name_in_heat(best["html"])
             disp_name = id_to_name.get(driver_id, driver_name)
 
-            # Pick laps for this driver
+            # pick laps for this driver
             racer_laps = best["racer_laps"]
             laps = None
-
-            # exact
             if disp_name in racer_laps:
                 laps = racer_laps[disp_name]
-            # case/space-insensitive
             if laps is None:
                 disp_norm = norm(disp_name)
                 for k in list(racer_laps.keys()):
                     if norm(k) == disp_norm:
                         laps = racer_laps[k]; break
-            # prefix-safe (truncations)
             if laps is None:
                 for k in list(racer_laps.keys()):
                     if norm(k).startswith(norm(disp_name)) or norm(disp_name).startswith(norm(k)):
                         laps = racer_laps[k]; break
-            # last-name containment (helps with global-table cases)
             if laps is None and racer_laps:
                 last = (driver_name.strip().split()[-1] if driver_name.strip() else "").casefold()
                 for k in list(racer_laps.keys()):
