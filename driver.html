@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Driver Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js from CDN for the scatter plot -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="driverTitle">Driver Profile</h1>
+    <p class="sub"><a href="./">&larr; Back to Leaderboard</a></p>
+  </header>
+
+  <main>
+    <section>
+      <canvas id="lapChart" style="max-width: 100%; height: 420px;"></canvas>
+      <p class="updated" id="summary"></p>
+    </section>
+
+    <section style="margin-top:16px;">
+      <a id="driverLink" target="_blank" rel="noopener">Open driver page on ClubSpeed</a>
+    </section>
+  </main>
+
+  <footer>
+    <small>Data from ClubSpeed · Personal project · <a href="https://pgpkent.clubspeedtiming.com" target="_blank" rel="noopener">PGP Kent</a></small>
+  </footer>
+
+  <script src="driver.js"></script>
+</body>
+</html>
