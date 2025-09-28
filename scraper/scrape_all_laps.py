@@ -2,6 +2,7 @@
 import os
 import re
 import csv
+import json
 import time
 import datetime as dt
 from typing import Dict, List, Tuple, Optional
@@ -28,6 +29,7 @@ HEAT_DETAILS_PRINT_URL = BASE + "/sp_center/HeatDetailsPrint.aspx?HeatNo={heat}"
 
 DRIVERS_CSV = os.path.join("data", "drivers.csv")
 OUT_CSV = os.path.join("data", "all_laps.csv")
+OUT_JSON = os.path.join("data", "all_laps.json")
 DEBUG_DIR = os.path.join("data", "debug_html")
 
 BASE_HEADERS = {
@@ -105,17 +107,6 @@ def extract_heatnos_from_history(html: str) -> List[str]:
                 heats.append(h)
     return heats
 
-
-def _extract_leading_float(s: str) -> Optional[float]:
-    """Return the first float-like number found in a string, e.g. '81.26 [2]' -> 81.26"""
-    m = re.search(r"(\d+(?:\.\d+)?)", s.strip())
-    if not m:
-        return None
-    try:
-        return float(m.group(1))
-    except ValueError:
-        return None
-
 def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
     """
     Build heat_no -> datetime map by walking table rows in RacerHistory.
@@ -180,6 +171,16 @@ def dump_debug_html(heat: str, tag: str, html: str, driver_key: str, per_driver_
     print(f"[debug] wrote {path}")
 
 # ------------------- Lap parsers -------------------
+def _extract_leading_float(s: str) -> Optional[float]:
+    """Return the first float-like number found in a string, e.g. '81.26 [2]' -> 81.26"""
+    m = re.search(r"(\d+(?:\.\d+)?)", s.strip())
+    if not m:
+        return None
+    try:
+        return float(m.group(1))
+    except ValueError:
+        return None
+
 def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
     """
     Parse 'Lap Times by Racer' plain-text section from full-page text.
@@ -246,16 +247,16 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
     soup = BeautifulSoup(html, "html.parser")
     result: Dict[str, List[Tuple[int, float]]] = {}
 
-    # 1) First, handle explicit ClubSpeed structure: class="LapTimes"
+    # 1) Explicit ClubSpeed structure: class="LapTimes"
     for tbl in soup.find_all("table", class_="LapTimes"):
-        # name is in the thead th
+        # driver name is in the thead th
         thead = tbl.find("thead")
         name = None
         if thead:
             th = thead.find("th")
             if th:
                 name = th.get_text(strip=True)
-        # parse rows from tbody
+
         laps: List[Tuple[int, float]] = []
         for r in tbl.find_all("tr"):
             tds = r.find_all("td")
@@ -274,22 +275,19 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
                     lap_sec = _extract_leading_float(time_txt)
                     if lap_sec is not None:
                         laps.append((lap_no, lap_sec))
-        # finalize if we have both name and laps
+
         if name and laps:
             result.setdefault(name, []).extend(laps)
 
-    # 2) Generic fallback: any 2-col “Lap / Time” table preceded by a name line
-    #    (keeps support for other venues/layouts)
+    # 2) Generic fallback (keeps support for other venues/layouts)
     if not result:
         for tbl in soup.find_all("table"):
             rows = tbl.find_all("tr")
             if len(rows) < 2:
                 continue
-            # header cells?
             hdr_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
             start_idx = 1 if hdr_cells and re.search(r"\blap\b", " ".join(hdr_cells), flags=re.I) else 0
 
-            # sample check: row looks like: <td>lap_num</td><td>time</td>
             sample_ok = False
             for r in rows[start_idx:start_idx + 2]:
                 cells = [c.get_text(strip=True) for c in r.find_all("td")]
@@ -458,9 +456,12 @@ def main():
     drivers = read_drivers_csv(DRIVERS_CSV)
     os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
 
-    # fresh write
+    # Start fresh CSV
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
         csv.writer(f).writerow(["driver_name", "driver_id", "heat_no", "heat_datetime_iso", "lap_number", "lap_seconds"])
+
+    # We'll also collect rows for JSON
+    json_rows: List[Dict[str, object]] = []
 
     for (driver_name, driver_id) in drivers:
         # cap debug dumps per driver
@@ -563,14 +564,36 @@ def main():
                 print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={best['variant']})")
 
             iso = heat_dt.replace(microsecond=0).isoformat() if heat_dt else ""
+
+            # Write CSV rows + also capture for JSON
             with open(OUT_CSV, "a", newline="", encoding="utf-8") as fa:
                 wa = csv.writer(fa)
                 for lap_num, lap_sec in laps:
                     wa.writerow([disp_name, driver_id, heat, iso, lap_num, lap_sec])
+                    json_rows.append({
+                        "driver_name": disp_name,
+                        "driver_id": driver_id,
+                        "heat_no": heat,
+                        "heat_datetime_iso": iso,
+                        "lap_number": int(lap_num),
+                        "lap_seconds": float(lap_sec),
+                    })
 
             if idx % 10 == 0:
                 print(f"[info] {driver_name}: processed {idx}/{len(heat_nos)} heats")
 
+    # ----- Write JSON (full mirror of CSV records) -----
+    os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
+    generated_at = dt.datetime.utcnow().isoformat() + "Z"
+    with open(OUT_JSON, "w", encoding="utf-8") as jf:
+        json.dump({"generated_at": generated_at, "rows": json_rows}, jf, indent=2)
+    print(f"[info] Wrote {OUT_JSON}")
+
+    # ----- Force a visible diff in CSV with a metadata line -----
+    # Add a trailing comment line indicating generation time.
+    # This ensures a commit occurs even if the rows themselves didn't change.
+    with open(OUT_CSV, "a", encoding="utf-8") as f:
+        f.write(f"# generated_at {generated_at}\n")
     print(f"[info] Wrote {OUT_CSV}")
 
 if __name__ == "__main__":
