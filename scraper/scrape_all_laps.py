@@ -105,6 +105,17 @@ def extract_heatnos_from_history(html: str) -> List[str]:
                 heats.append(h)
     return heats
 
+
+def _extract_leading_float(s: str) -> Optional[float]:
+    """Return the first float-like number found in a string, e.g. '81.26 [2]' -> 81.26"""
+    m = re.search(r"(\d+(?:\.\d+)?)", s.strip())
+    if not m:
+        return None
+    try:
+        return float(m.group(1))
+    except ValueError:
+        return None
+
 def map_heat_dates_from_history(html: str) -> Dict[str, dt.datetime]:
     """
     Build heat_no -> datetime map by walking table rows in RacerHistory.
@@ -223,41 +234,94 @@ def nearest_preceding_name(node: Tag) -> Optional[str]:
 
 def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
     """
-    Fallback: per-driver mini tables (two columns Lap/Time).
+    Parse per-driver mini tables. Supports ClubSpeed's:
+      <table class="LapTimes">
+        <thead><th colspan="2">Driver Name</th></thead>
+        <tbody>
+          <tr><td colspan="2">(Penalties: 0)</td></tr>
+          <tr class="LapTimesRow"><td>1</td><td>81.884 [2]</td></tr>
+          ...
+    Falls back to generic two-column detection with nearest-preceding name.
     """
     soup = BeautifulSoup(html, "html.parser")
     result: Dict[str, List[Tuple[int, float]]] = {}
-    for tbl in soup.find_all("table"):
-        rows = tbl.find_all("tr")
-        if len(rows) < 2:
-            continue
-        start_idx = 0
-        hdr_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
-        if hdr_cells and re.search(r"\blap\b", " ".join(hdr_cells), flags=re.I):
-            start_idx = 1
-        sample_ok = False
-        for r in rows[start_idx:start_idx + 2]:
-            cells = [c.get_text(strip=True) for c in r.find_all("td")]
-            if len(cells) >= 2 and re.match(r"^\d+$", cells[0]) and re.match(r"^\d+(?:\.\d+)?$", cells[1]):
-                sample_ok = True
-        if not sample_ok:
-            continue
+
+    # 1) First, handle explicit ClubSpeed structure: class="LapTimes"
+    for tbl in soup.find_all("table", class_="LapTimes"):
+        # name is in the thead th
+        thead = tbl.find("thead")
+        name = None
+        if thead:
+            th = thead.find("th")
+            if th:
+                name = th.get_text(strip=True)
+        # parse rows from tbody
         laps: List[Tuple[int, float]] = []
-        for r in rows[start_idx:]:
-            cells = [c.get_text(strip=True) for c in r.find_all("td")]
-            if len(cells) >= 2 and re.match(r"^\d+$", cells[0]) and re.match(r"^\d+(?:\.\d+)?$", cells[1]):
-                try:
-                    laps.append((int(cells[0]), float(cells[1])))
-                except ValueError:
-                    pass
-        if not laps:
-            continue
-        name = nearest_preceding_name(tbl)
-        if not name:
-            if DEBUG:
-                print("[debug] lap mini-table found but no preceding name; skipping a table")
-            continue
-        result.setdefault(name, []).extend(laps)
+        for r in tbl.find_all("tr"):
+            tds = r.find_all("td")
+            if not tds:
+                continue
+            # skip penalties and blanks
+            if len(tds) == 1 and "penalties" in tds[0].get_text(strip=True).lower():
+                continue
+            if len(tds) >= 2:
+                lap_txt = tds[0].get_text(strip=True)
+                time_txt = tds[1].get_text(strip=True)
+                if lap_txt == "&nbsp;" or time_txt == "&nbsp;":
+                    continue
+                if re.match(r"^\d+$", lap_txt):
+                    lap_no = int(lap_txt)
+                    lap_sec = _extract_leading_float(time_txt)
+                    if lap_sec is not None:
+                        laps.append((lap_no, lap_sec))
+        # finalize if we have both name and laps
+        if name and laps:
+            result.setdefault(name, []).extend(laps)
+
+    # 2) Generic fallback: any 2-col “Lap / Time” table preceded by a name line
+    #    (keeps support for other venues/layouts)
+    if not result:
+        for tbl in soup.find_all("table"):
+            rows = tbl.find_all("tr")
+            if len(rows) < 2:
+                continue
+            # header cells?
+            hdr_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
+            start_idx = 1 if hdr_cells and re.search(r"\blap\b", " ".join(hdr_cells), flags=re.I) else 0
+
+            # sample check: row looks like: <td>lap_num</td><td>time</td>
+            sample_ok = False
+            for r in rows[start_idx:start_idx + 2]:
+                cells = [c.get_text(strip=True) for c in r.find_all("td")]
+                if len(cells) >= 2 and re.match(r"^\d+$", cells[0]) and _extract_leading_float(cells[1]) is not None:
+                    sample_ok = True
+            if not sample_ok:
+                continue
+
+            laps: List[Tuple[int, float]] = []
+            for r in rows[start_idx:]:
+                cells = [c.get_text(strip=True) for c in r.find_all("td")]
+                if len(cells) >= 2 and re.match(r"^\d+$", cells[0]):
+                    lap_no = int(cells[0])
+                    lap_sec = _extract_leading_float(cells[1])
+                    if lap_sec is not None:
+                        laps.append((lap_no, lap_sec))
+            if not laps:
+                continue
+
+            # try to find a nearby name if no thead th
+            name = None
+            thead = tbl.find("thead")
+            if thead:
+                th = thead.find("th")
+                if th:
+                    name = th.get_text(strip=True)
+            if not name:
+                name = nearest_preceding_name(tbl)
+
+            if name and laps:
+                result.setdefault(name, []).extend(laps)
+
     return result
 
 def parse_laps_pre_text(html: str) -> Dict[str, List[Tuple[int, float]]]:
