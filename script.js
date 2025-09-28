@@ -37,20 +37,21 @@ async function loadBoard(){
     for (const r of list) {
       const tr = document.createElement('tr');
 
-      // Name as hyperlink to driver page
+      // Name as hyperlink to local profile page (with fallback to plain text)
       const tdName = document.createElement('td');
       const key = (r.name || '').toLowerCase();
       if (driverMap[key]) {
         const a = document.createElement('a');
-        a.href = `https://pgpkent.clubspeedtiming.com/sp_center/RacerHistory.aspx?CustID=${driverMap[key].id}`;
-        a.target = "_blank";
-        a.rel = "noopener";
+        const id = driverMap[key].id;
+        const nameParam = encodeURIComponent(r.name || '');
+        a.href = `profile.html?id=${encodeURIComponent(id)}&name=${nameParam}`;
         a.textContent = r.name || '';
         tdName.appendChild(a);
       } else {
         tdName.textContent = r.name || '';
       }
       tr.appendChild(tdName);
+
 
       // Best lap
       const tdLap = document.createElement('td');
