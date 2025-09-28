@@ -37,14 +37,14 @@ async function loadBoard(){
     for (const r of list) {
       const tr = document.createElement('tr');
 
-      // Name as hyperlink to local profile page (with fallback to plain text)
+      // Name -> local driver profile page
       const tdName = document.createElement('td');
       const key = (r.name || '').toLowerCase();
       if (driverMap[key]) {
         const a = document.createElement('a');
-        const id = driverMap[key].id;
-        const nameParam = encodeURIComponent(r.name || '');
-        a.href = `profile.html?id=${encodeURIComponent(id)}&name=${nameParam}`;
+        const custId = driverMap[key].id;
+        const encodedName = encodeURIComponent(r.name || '');
+        a.href = `driver.html?id=${encodeURIComponent(custId)}&name=${encodedName}`;
         a.textContent = r.name || '';
         tdName.appendChild(a);
       } else {
@@ -52,13 +52,12 @@ async function loadBoard(){
       }
       tr.appendChild(tdName);
 
-
       // Best lap
       const tdLap = document.createElement('td');
       tdLap.textContent = (r.best_lap_seconds != null ? Number(r.best_lap_seconds).toFixed(3) : '');
       tr.appendChild(tdLap);
 
-      // HeatNo hyperlink
+      // HeatNo hyperlink -> ClubSpeed heat page
       const tdHeat = document.createElement('td');
       if (r.best_heat_no) {
         const a = document.createElement('a');
