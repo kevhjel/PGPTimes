@@ -236,4 +236,72 @@ def main():
     drivers = read_drivers_csv(DRIVERS_CSV)
     os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
 
-    w
+    with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["driver_name", "driver_id", "heat_no", "heat_datetime_iso", "lap_number", "lap_seconds"])
+
+        for (driver_name, driver_id) in drivers:
+            try:
+                hist_html = fetch(RACER_HISTORY_URL.format(cust=driver_id))
+            except Exception as e:
+                print(f"[warn] history fetch failed for {driver_name} ({driver_id}): {e}")
+                continue
+
+            heat_nos = extract_heatnos_from_history(hist_html)
+            print(f"[info] {driver_name}: found {len(heat_nos)} heats on history page")
+
+            for idx, heat in enumerate(heat_nos, 1):
+                time.sleep(0.5)
+                try:
+                    heat_html = fetch(HEAT_DETAILS_URL.format(heat=heat))
+                except Exception as e:
+                    print(f"[warn] heat fetch failed {heat}: {e}")
+                    continue
+
+                heat_dt = heat_datetime_from_html(heat_html)
+                if not heat_dt:
+                    if DEBUG:
+                        print(f"[debug] heat {heat}: could not parse date; skipping")
+                    continue
+                if heat_dt.year < START_YEAR:
+                    if DEBUG:
+                        print(f"[debug] heat {heat}: {heat_dt.date()} < {START_YEAR}; skip")
+                    continue
+
+                id_to_name = map_custid_to_name_in_heat(heat_html)
+                # prefer the display name in THIS heat; fallback to CSV name
+                disp_name = id_to_name.get(driver_id, driver_name)
+
+                racer_laps = parse_laps_by_racer_any(heat_html)
+
+                # Exact
+                laps = racer_laps.get(disp_name)
+                # Case/space-insensitive
+                if laps is None:
+                    disp_norm = norm(disp_name)
+                    for k in list(racer_laps.keys()):
+                        if norm(k) == disp_norm:
+                            laps = racer_laps[k]; break
+                # Prefix-safe (handles truncation like "Michael Standi...")
+                if laps is None:
+                    for k in list(racer_laps.keys()):
+                        if norm(k).startswith(norm(disp_name)) or norm(disp_name).startswith(norm(k)):
+                            laps = racer_laps[k]; break
+
+                if laps is None:
+                    if DEBUG:
+                        keys = list(racer_laps.keys())
+                        print(f"[debug] heat {heat}: no laps found for '{driver_name}' (disp='{disp_name}'). Names present: {keys[:5]}...")
+                    continue
+
+                iso = heat_dt.replace(microsecond=0).isoformat()
+                for lap_num, lap_sec in laps:
+                    w.writerow([disp_name, driver_id, heat, iso, lap_num, lap_sec])
+
+                if idx % 10 == 0:
+                    print(f"[info] {driver_name}: processed {idx}/{len(heat_nos)} heats")
+
+    print(f"[info] Wrote {OUT_CSV}")
+
+if __name__ == "__main__":
+    main()
