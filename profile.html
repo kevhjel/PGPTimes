@@ -36,11 +36,9 @@
       gap: 8px 16px;
       margin-bottom: 12px;
     }
-    h1 {
-      font-size: clamp(20px, 3vw, 28px);
-      margin: 0;
-    }
+    h1 { font-size: clamp(20px, 3vw, 28px); margin: 0; }
     .subtle { color: var(--muted); font-size: 14px; }
+
     .controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 16px; }
     button {
       background: var(--primary);
@@ -52,16 +50,20 @@
       cursor: pointer;
     }
     button.secondary { background: #0ea5e9; }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px; }
     .chart-card { margin: 0 auto 14px; }
+    /* Height is clamped so it never gets too big or too small */
     .chart-wrap {
       position: relative;
       width: 100%;
-      height: 260vh;     /* 👈 desktop chart height */
+      height: clamp(180px, 38vh, 420px);
     }
     @media (max-width: 640px) {
-      .chart-wrap { height: 180px; }   /* 👈 mobile chart height */
+      .chart-wrap { height: clamp(160px, 34vh, 320px); }
     }
+
     .stats {
       display: grid;
       grid-template-columns: repeat(6, minmax(0,1fr));
@@ -106,76 +108,161 @@
 (async function() {
   const SITE_BASE = 'https://pgpkent.clubspeedtiming.com';
   const DATA_URL = 'data/all_laps.json';
+
   const qs = new URLSearchParams(location.search);
   const driverId = qs.get('id') || '';
   const driverName = (qs.get('name') || '').trim();
 
-  function fmt(n,d=3){return Number(n).toFixed(d);}
-  function median(a){if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const m=Math.floor(s.length/2);return s.length%2?s[m]:(s[m-1]+s[m])/2;}
-  function quantile(a,q){if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const pos=(s.length-1)*q,base=Math.floor(pos),rest=pos-base;return s[base]+(s[base+1]!==undefined?rest*(s[base+1]-s[base]):0);}
-  function iqrFilter(v,k=1.5){if(!v.length)return{low:-Infinity,high:Infinity};const q1=quantile(v,0.25),q3=quantile(v,0.75),iqr=q3-q1;return{low:q1-k*iqr,high:q3+k*iqr};}
-  function buildStats(y){if(!y.length)return{count:0,best:NaN,mean:NaN,med:NaN,p90:NaN,latest:NaN};const c=y.length,best=Math.min(...y),mean=y.reduce((a,b)=>a+b,0)/c,med=median(y),p90=quantile(y,0.9),latest=y[y.length-1];return{count:c,best,mean,med,p90,latest};}
-  function renderStats(el,s){el.innerHTML=`<div class="stat"><span class="label">Laps</span>${s.count}</div>
+  // ---------- helpers ----------
+  function fmt(n,d=3){ const x=Number(n); return Number.isFinite(x)?x.toFixed(d):'–'; }
+  function median(a){ if(!a.length) return NaN; const s=[...a].sort((x,y)=>x-y); const m=Math.floor(s.length/2); return s.length%2?s[m]:(s[m-1]+s[m])/2; }
+  function quantile(a,q){ if(!a.length) return NaN; const s=[...a].sort((x,y)=>x-y); const pos=(s.length-1)*q, base=Math.floor(pos), rest=pos-base; return s[base]+(s[base+1]!==undefined?rest*(s[base+1]-s[base]):0); }
+  function iqrBounds(v,k=1.5){ if(!v.length) return {low:-Infinity, high:Infinity}; const q1=quantile(v,0.25), q3=quantile(v,0.75), iqr=q3-q1; return {low:q1-k*iqr, high:q3+k*iqr}; }
+  function buildStats(y){ const arr=y.filter(v=>!Number.isNaN(v)); if(!arr.length) return {count:0,best:NaN,mean:NaN,med:NaN,p90:NaN,latest:NaN}; const count=arr.length, best=Math.min(...arr), mean=arr.reduce((a,b)=>a+b,0)/count, med=median(arr), p90=quantile(arr,0.9), latest=arr[arr.length-1]; return {count,best,mean,med,p90,latest}; }
+  function renderStats(el,s){ el.innerHTML=`
+    <div class="stat"><span class="label">Laps</span>${s.count}</div>
     <div class="stat"><span class="label">Best</span>${fmt(s.best)}</div>
     <div class="stat"><span class="label">Mean</span>${fmt(s.mean)}</div>
     <div class="stat"><span class="label">Median</span>${fmt(s.med)}</div>
     <div class="stat"><span class="label">p90</span>${fmt(s.p90)}</div>
-    <div class="stat"><span class="label">Latest</span>${fmt(s.latest)}</div>`;}
+    <div class="stat"><span class="label">Latest</span>${fmt(s.latest)}</div>`; }
 
-  const res=await fetch(DATA_URL,{cache:'no-store'});
-  const payload=await res.json();
-  const rows=(payload.rows||[]).filter(r=>r.driver_id===driverId);
-  rows.sort((a,b)=>(a.heat_datetime_iso||'').localeCompare(b.heat_datetime_iso||''));
-  const displayName=driverName||rows[0]?.driver_name||'Driver';
-  document.getElementById('title').textContent=displayName;
-  document.getElementById('subtitle').textContent=`${rows.length} laps`;
-  document.getElementById('driverLink').innerHTML=`<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank">View on ClubSpeed ↗</a>`;
+  // ---------- fetch data ----------
+  const res = await fetch(DATA_URL, { cache: 'no-store' });
+  if (!res.ok) { document.getElementById('title').textContent = 'Driver (data error)'; return; }
+  const payload = await res.json();
+  const rows = (payload.rows || []).filter(r => r.driver_id === driverId);
+  rows.sort((a,b) => (a.heat_datetime_iso||'').localeCompare(b.heat_datetime_iso||''));
 
-  const meta=rows.map(r=>({lap:Number(r.lap_number),heat:r.heat_no,date:r.heat_datetime_iso||''}));
-  const laps=rows.map(r=>Number(r.lap_seconds));
-  const ctx=document.getElementById('chart').getContext('2d');
+  const displayName = driverName || rows[0]?.driver_name || 'Driver';
+  document.getElementById('title').textContent = displayName;
+  document.getElementById('subtitle').textContent = `${rows.length} laps`;
+  document.getElementById('driverLink').innerHTML =
+    `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 
-  let filtered=false, ignoreOutLaps=false;
+  const labels = rows.map((_,i)=>`${i+1}`);
+  const meta = rows.map(r => ({ lap: Number(r.lap_number), heat: r.heat_no, date: r.heat_datetime_iso || '' }));
+  const laps = rows.map(r => Number(r.lap_seconds));
+
+  // ---------- Chart.js performance defaults ----------
+  // Global defaults to keep things snappy
+  Chart.defaults.animation = false;
+  Chart.defaults.responsiveAnimationDuration = 0;
+  Chart.defaults.elements.point.radius = 0;      // no circles
+  Chart.defaults.elements.point.hitRadius = 3;   // easy hover
+  Chart.defaults.elements.line.borderWidth = 1.5;
+  Chart.defaults.plugins.legend.display = false;
+
+  const ctx = document.getElementById('chart').getContext('2d');
+
+  let filtered = false;
+  let ignoreOutLaps = false;
+
   function filteredData(){
-    let data=laps.map((v,i)=>({y:v,lap:meta[i].lap}));
-    if(ignoreOutLaps) data=data.map(d=>d.lap===1?{...d,y:NaN}:d);
-    if(filtered){
-      const vals=data.filter(d=>!isNaN(d.y)).map(d=>d.y);
-      const {low,high}=iqrFilter(vals,1.5);
-      data=data.map(d=>(d.y>=low&&d.y<=high)?d:{...d,y:NaN});
+    // Build objects so we can apply multiple filters without losing positions
+    let data = laps.map((y,i)=>({ y, lap: meta[i].lap }));
+    if (ignoreOutLaps) data = data.map(d => d.lap === 1 ? { ...d, y: NaN } : d);
+    if (filtered) {
+      const vals = data.filter(d => !Number.isNaN(d.y)).map(d => d.y);
+      const {low, high} = iqrBounds(vals, 1.5);
+      data = data.map(d => (d.y >= low && d.y <= high) ? d : { ...d, y: NaN });
     }
-    return data.map(d=>d.y);
+    return data.map(d => d.y);
   }
 
-  const chart=new Chart(ctx,{
-    type:'line',
-    data:{labels:rows.map((_,i)=>`${i+1}`),datasets:[{label:'Lap time (s)',data:filteredData(),tension:0.25,pointRadius:2.5,borderWidth:2}]},
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}
+  const chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Lap time (s)',
+        data: filteredData(),
+        tension: 0,                 // straight lines (faster than smoothing)
+        parsing: false,             // we supply primitive numbers already
+        spanGaps: true,             // skip NaNs cleanly
+        // Decimation: massively speeds up large datasets while preserving shape
+        // (Chart.js built-in plugin)
+        decimation: {
+          enabled: true,
+          algorithm: 'lttb',        // largest-triangle-three-buckets
+          samples: 1000             // target samples (tweak as you like)
+        }
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,   // let CSS height control the canvas
+      normalized: true,             // optimizes numeric data processing
+      interaction: { mode: 'nearest', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          title: { display: true, text: 'Lap # (chronological across heats)' },
+          ticks: { maxTicksLimit: 10 }   // keep labels light
+        },
+        y: {
+          title: { display: true, text: 'Seconds (lower is faster)' },
+          ticks: {
+            callback: (v) => Number.isFinite(v) ? v.toFixed(0) : ''
+          }
+        }
+      },
+      plugins: {
+        tooltip: {
+          // keep tooltips simple for perf
+          callbacks: {
+            title: (items) => {
+              const i = items[0].dataIndex;
+              const m = meta[i];
+              const date = m?.date ? new Date(m.date).toLocaleString() : '';
+              return `Lap ${i+1} • Heat ${m?.heat ?? ''}${date ? ` • ${date}` : ''}`;
+            },
+            label: (item) => ` ${item.dataset.label}: ${fmt(item.parsed.y)}s`
+          }
+        }
+      }
+    }
   });
 
-  const statsEl=document.getElementById('statsRow');
-  renderStats(statsEl,buildStats(laps));
+  // ---------- Stats + Controls ----------
+  const statsEl = document.getElementById('statsRow');
+  function updateStatsFromChart(){
+    const arr = chart.data.datasets[0].data.filter(v => !Number.isNaN(v));
+    renderStats(statsEl, buildStats(arr));
+  }
+  updateStatsFromChart();
 
-  document.getElementById('toggleOutliers').onclick=()=>{
-    filtered=!filtered;
-    document.getElementById('toggleOutliers').textContent=filtered?'Show outliers':'Hide outliers';
-    chart.data.datasets[0].data=filteredData();chart.update();
-    renderStats(statsEl,buildStats(chart.data.datasets[0].data.filter(v=>!isNaN(v))));
+  const btnOutliers = document.getElementById('toggleOutliers');
+  const btnOutLaps  = document.getElementById('toggleOutLaps');
+
+  btnOutliers.onclick = () => {
+    filtered = !filtered;
+    btnOutliers.textContent = filtered ? 'Show outliers' : 'Hide outliers';
+    chart.data.datasets[0].data = filteredData();
+    chart.update();
+    updateStatsFromChart();
   };
 
-  document.getElementById('toggleOutLaps').onclick=()=>{
-    ignoreOutLaps=!ignoreOutLaps;
-    document.getElementById('toggleOutLaps').textContent=ignoreOutLaps?'Include out laps':'Ignore out laps';
-    chart.data.datasets[0].data=filteredData();chart.update();
-    renderStats(statsEl,buildStats(chart.data.datasets[0].data.filter(v=>!isNaN(v))));
+  btnOutLaps.onclick = () => {
+    ignoreOutLaps = !ignoreOutLaps;
+    btnOutLaps.textContent = ignoreOutLaps ? 'Include out laps' : 'Ignore out laps';
+    chart.data.datasets[0].data = filteredData();
+    chart.update();
+    updateStatsFromChart();
   };
 
-  document.getElementById('resetZoom').onclick=()=>{
-    filtered=false;ignoreOutLaps=false;
-    document.getElementById('toggleOutliers').textContent='Hide outliers';
-    document.getElementById('toggleOutLaps').textContent='Ignore out laps';
-    chart.data.datasets[0].data=filteredData();chart.update();
-    renderStats(statsEl,buildStats(laps));
+  document.getElementById('resetZoom').onclick = () => {
+    filtered = false;
+    ignoreOutLaps = false;
+    btnOutliers.textContent = 'Hide outliers';
+    btnOutLaps.textContent  = 'Ignore out laps';
+    chart.data.datasets[0].data = filteredData();
+    // clear any manual y-limits (if you add them later)
+    chart.options.scales.y.min = undefined;
+    chart.options.scales.y.max = undefined;
+    chart.update();
+    updateStatsFromChart();
+    document.querySelector('.chart-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 })();
 </script>
