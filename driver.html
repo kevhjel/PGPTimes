@@ -9,52 +9,56 @@
 
   <style>
     :root {
-      --fg: #e2e8f0;
-      --muted: #94a3b8;
-      --bg: #0f172a;
-      --card: #1e293b;
-      --primary: #3b82f6;
-      --border: #334155;
+      --fg: #e2e8f0;       /* text on dark */
+      --muted: #94a3b8;    /* subtle text */
+      --bg: #0b1220;       /* page background */
+      --card: #111827;     /* panel background */
+      --primary: #60a5fa;  /* accents & points */
+      --trend: #22d3ee;    /* trendline */
+      --border: #1f2937;   /* borders/grid */
+      --grid: #253042;     /* chart gridlines */
     }
+
     html, body {
       margin: 0; padding: 0;
       background: var(--bg); color: var(--fg);
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
       line-height: 1.35;
     }
-    .wrap { max-width: 860px; margin: 12px auto; padding: 0 12px; }
-    header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: 8px; }
+    .wrap { max-width: 980px; margin: 12px auto; padding: 0 12px; }
+
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: 10px; }
     h1 { font-size: clamp(18px, 2.6vw, 24px); margin: 0; }
     .subtle { color: var(--muted); font-size: 12px }
 
-    .controls { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 10px }
-    button {
-      background: var(--primary); color: #fff; border: 0;
-      border-radius: 7px; padding: 6px 10px; font-size: 13px; cursor: pointer;
+    .controls { display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; margin: 8px 0 12px }
+    .check {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--card); color: var(--fg);
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 6px 10px; font-size: 13px;
     }
-    button.secondary { background: #0ea5e9 }
-    .switch {
-      display: inline-flex; align-items: center; gap: 6px;
-      background: #1e293b; color: var(--fg);
-      border: 1px solid var(--border); border-radius: 7px;
-      padding: 4px 8px; font-size: 12px
+    .check input { transform: scale(1.15); accent-color: var(--primary); }
+    .btn {
+      background: var(--primary); color: #0b1220; border: 0;
+      border-radius: 8px; padding: 8px 12px; font-size: 13px; cursor: pointer;
     }
 
-    .card { background: var(--card); border: 1px solid var(--border);
-      border-radius: 10px; padding: 8px }
-    .chart-card { margin: 0 auto 10px }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px }
+    .chart-card { margin: 0 auto 12px }
+
     /* Chart uses 60% of screen height */
     .chart-wrap { position: relative; width: 100%; height: 60vh }
 
     .stats {
-      display: grid; grid-template-columns: repeat(3, minmax(0,1fr));
-      gap: 6px; font-size: 12px; margin-bottom: 10px
+      display: grid; grid-template-columns: repeat(6, minmax(0,1fr));
+      gap: 8px; font-size: 12px; margin-bottom: 10px;
     }
     .stat { background: #0f172a; border: 1px solid var(--border);
-      border-radius: 8px; padding: 6px; text-align: center }
+      border-radius: 8px; padding: 8px; text-align: center }
     .stat .label { display: block; color: var(--muted); font-size: 11px }
 
-    footer { margin: 12px 0 18px; font-size: 13px }
+    footer { margin: 12px 0 24px; font-size: 13px }
     a { color: var(--primary); text-decoration: none }
     a:hover { text-decoration: underline }
   </style>
@@ -67,11 +71,10 @@
     </header>
 
     <div class="controls">
-      <button id="toggleOutliers" class="secondary">Hide outliers</button>
-      <button id="toggleOutLaps" class="secondary">Ignore out laps</button>
-      <span class="switch"><input type="checkbox" id="perfMode" checked> Performance mode</span>
-      <span class="switch"><input type="checkbox" id="tooltips"> Tooltips</span>
-      <button id="reset">Reset</button>
+      <label class="check"><input type="checkbox" id="chkOutliers" /> Hide outliers</label>
+      <label class="check"><input type="checkbox" id="chkOutLaps" checked /> Ignore out laps</label>
+      <label class="check"><input type="checkbox" id="chkTooltips" /> Tooltips</label>
+      <button id="btnReset" class="btn">Reset</button>
     </div>
 
     <div class="card chart-card">
@@ -91,7 +94,7 @@
   const driverId=qs.get('id')||'';
   const driverName=(qs.get('name')||'').trim();
 
-  // helpers
+  // ---------- helpers ----------
   const fmt=(n,d=3)=>Number.isFinite(Number(n))?Number(n).toFixed(d):'–';
   const median=a=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const m=Math.floor(s.length/2);return s.length%2?s[m]:(s[m-1]+s[m])/2;}
   const quantile=(a,q)=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const pos=(s.length-1)*q,base=Math.floor(pos),rest=pos-base;return s[base]+(s[base+1]!==void 0?rest*(s[base+1]-s[base]):0);}
@@ -105,7 +108,7 @@
     <div class="stat"><span class="label">p90</span>${fmt(s.p90)}</div>
     <div class="stat"><span class="label">Latest</span>${fmt(s.latest)}</div>`;}
 
-  // fetch data
+  // ---------- fetch data ----------
   const res=await fetch(DATA_URL,{cache:'no-store'});
   if(!res.ok){document.getElementById('title').textContent='Driver (data error)';return;}
   const payload=await res.json();
@@ -118,74 +121,183 @@
   document.getElementById('driverLink').innerHTML=
     `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 
-  const labels=rows.map((_,i)=>`${i+1}`);
-  const meta=rows.map(r=>({lap:Number(r.lap_number),heat:r.heat_no,date:r.heat_datetime_iso||''}));
-  const allLaps=rows.map(r=>Number(r.lap_seconds));
+  // Prepare data
+  const N = rows.length;
+  const labels = rows.map((_,i)=>i+1);  // 1..N
+  const meta   = rows.map(r=>({ lap:Number(r.lap_number), heat:r.heat_no, date:r.heat_datetime_iso||'' }));
+  const yAll   = rows.map(r=>Number(r.lap_seconds));
 
-  // Chart.js defaults
-  Chart.defaults.color= getComputedStyle(document.documentElement).getPropertyValue('--fg');
-  Chart.defaults.plugins.legend.display=false;
-  Chart.defaults.elements.point.radius=0;
+  // ---------- Chart.js global dark defaults ----------
+  Chart.defaults.color = getComputedStyle(document.documentElement).getPropertyValue('--fg').trim();
+  Chart.defaults.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--grid').trim();
+  Chart.defaults.plugins.legend.display = false;
+  Chart.defaults.animation = false;
+  Chart.defaults.responsiveAnimationDuration = 0;
 
   const ctx=document.getElementById('chart').getContext('2d');
 
-  let hideOutliers=false, ignoreOutLaps=true, perfMode=true, tooltips=false;
+  // Filter toggles
+  const chkOutliers = document.getElementById('chkOutliers');
+  const chkOutLaps  = document.getElementById('chkOutLaps');
+  const chkTooltips = document.getElementById('chkTooltips');
 
-  function computeData(){
-    let data=allLaps.map((y,i)=>({y,lap:meta[i].lap}));
-    if(ignoreOutLaps) data=data.map(d=>d.lap===1?{...d,y:NaN}:d);
-    if(hideOutliers){
-      const vals=data.filter(d=>!Number.isNaN(d.y)).map(d=>d.y);
-      const {low,high}=iqrBounds(vals,1.5);
-      data=data.map(d=>(d.y>=low && d.y<=high)?d:{...d,y:NaN});
+  function filteredPoints(){
+    // Base points are scatter points with x=index (1..N), y=lap_seconds
+    let pts = yAll.map((y,i)=>({ x: i+1, y, lap: meta[i].lap, heat: meta[i].heat, date: meta[i].date }));
+
+    if (chkOutLaps.checked) {
+      pts = pts.map(p => p.lap === 1 ? { ...p, y: NaN } : p);
     }
-    return data.map(d=>d.y);
+    if (chkOutliers.checked) {
+      const vals = pts.filter(p => !Number.isNaN(p.y)).map(p => p.y);
+      const {low, high} = iqrBounds(vals, 1.5);
+      pts = pts.map(p => (p.y >= low && p.y <= high) ? p : { ...p, y: NaN });
+    }
+    return pts;
+  }
+
+  function linearRegression(points){
+    // points: array of {x, y} with finite y; returns {m, b}
+    const pts = points.filter(p => Number.isFinite(p.y));
+    const n = pts.length;
+    if (n < 2) return { m: 0, b: NaN, ok: false };
+    let sumX=0, sumY=0, sumXY=0, sumXX=0;
+    for (const p of pts){ sumX+=p.x; sumY+=p.y; sumXY+=p.x*p.y; sumXX+=p.x*p.x; }
+    const denom = (n*sumXX - sumX*sumX);
+    if (denom === 0) return { m: 0, b: NaN, ok: false };
+    const m = (n*sumXY - sumX*sumY) / denom;
+    const b = (sumY - m*sumX) / n;
+    return { m, b, ok: true };
+  }
+
+  function makeDatasets(){
+    const pts = filteredPoints();
+
+    // Scatter dataset
+    const scatter = {
+      type: 'scatter',
+      label: 'Lap time (s)',
+      data: pts.map(p => ({ x: p.x, y: p.y })),   // keep x indices
+      pointRadius: 2,
+      pointHoverRadius: 3,
+      pointBackgroundColor: 'rgba(96,165,250,0.9)',   // --primary-ish
+      pointBorderColor: 'rgba(96,165,250,0.9)',
+      showLine: false,
+      spanGaps: true,
+      parsing: false,
+    };
+
+    // Trendline over visible points
+    const lr = linearRegression(pts);
+    let trend = {
+      type: 'line',
+      label: 'Trend',
+      data: [],
+      borderColor: getComputedStyle(document.documentElement).getPropertyValue('--trend').trim() || '#22d3ee',
+      borderWidth: 2,
+      pointRadius: 0,
+      tension: 0,
+      spanGaps: true,
+      parsing: false,
+    };
+    if (lr.ok) {
+      // Determine domain where there are visible points
+      const xs = pts.filter(p => Number.isFinite(p.y)).map(p => p.x);
+      if (xs.length) {
+        const minX = Math.min(...xs);
+        const maxX = Math.max(...xs);
+        const y1 = lr.m * minX + lr.b;
+        const y2 = lr.m * maxX + lr.b;
+        trend.data = [{ x: minX, y: y1 }, { x: maxX, y: y2 }];
+      }
+    }
+
+    return [scatter, trend];
   }
 
   function makeOptions(){
     return {
-      responsive:true,
-      maintainAspectRatio:false,
-      interaction:{mode:'nearest',intersect:false},
-      scales:{
-        x:{grid:{color:'#334155'},ticks:{color:'#94a3b8'}},
-        y:{grid:{color:'#334155'},ticks:{color:'#94a3b8'}}
+      responsive: true,
+      maintainAspectRatio: false,   // CSS height controls canvas
+      normalized: true,
+      scales: {
+        x: {
+          type: 'linear',
+          min: 1,
+          max: Math.max(1, N),
+          grid: { color: 'rgba(37,48,66,0.6)' },  // --grid
+          ticks: { color: 'var(--muted)' },
+          title: { display: true, text: 'Lap # (chronological across heats)' }
+        },
+        y: {
+          grid: { color: 'rgba(37,48,66,0.6)' },
+          ticks: { color: 'var(--muted)', callback: v => Number.isFinite(v) ? v.toFixed(0) : '' },
+          title: { display: true, text: 'Seconds (lower is faster)' }
+        }
       },
-      plugins:{
-        tooltip:{enabled:tooltips}
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          enabled: chkTooltips.checked,
+          callbacks: {
+            title: (items) => {
+              // For scatter, x is lap index across all heats (not 'lap_number')
+              const i = items[0].dataIndex;
+              return `Point ${i+1}`;
+            },
+            label: (item) => {
+              const idx = item.dataIndex;
+              const p = filteredPoints()[idx]; // align with current filtered set
+              const lapStr  = Number.isFinite(p?.lap)  ? `Lap #${p.lap}` : 'Lap –';
+              const heatStr = p?.heat ? `Heat ${p.heat}` : 'Heat –';
+              const valStr  = Number.isFinite(item.parsed.y) ? `${fmt(item.parsed.y)}s` : '–';
+              return ` ${lapStr} • ${heatStr} • ${valStr}`;
+            }
+          }
+        }
       }
     };
   }
 
-  const chart=new Chart(ctx,{
-    type:'line',
-    data:{ labels, datasets:[{ label:'Lap time (s)', data: computeData(), borderColor:'#3b82f6', spanGaps:true }] },
+  // Build initial chart
+  const chart = new Chart(ctx, {
+    data: { datasets: makeDatasets() },
     options: makeOptions()
   });
 
-  const statsEl=document.getElementById('statsRow');
-  const updateStats=()=>renderStats(statsEl, buildStats(chart.data.datasets[0].data.filter(v=>!Number.isNaN(v))));
-  updateStats();
+  // Stats
+  const statsEl = document.getElementById('statsRow');
+  function updateStatsFromChart(){
+    // Use scatter dataset for stats
+    const data = chart.data.datasets[0].data.map(p => p.y).filter(v => Number.isFinite(v));
+    renderStats(statsEl, buildStats(data));
+  }
+  updateStatsFromChart();
 
-  // controls
-  document.getElementById('toggleOutliers').onclick=()=>{
-    hideOutliers=!hideOutliers;
-    chart.data.datasets[0].data=computeData(); chart.update(); updateStats();
+  // Controls
+  function rebuild(){
+    chart.data.datasets = makeDatasets();
+    chart.options = makeOptions();
+    chart.update();
+    updateStatsFromChart();
+  }
+
+  chkOutliers.onchange = rebuild;
+  chkOutLaps.onchange  = rebuild;
+  chkTooltips.onchange = rebuild;
+
+  document.getElementById('btnReset').onclick = () => {
+    chkOutliers.checked = false;
+    chkOutLaps.checked  = true;
+    chkTooltips.checked = false;
+    rebuild();
+    document.querySelector('.chart-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  document.getElementById('toggleOutLaps').onclick=()=>{
-    ignoreOutLaps=!ignoreOutLaps;
-    chart.data.datasets[0].data=computeData(); chart.update(); updateStats();
-  };
-  document.getElementById('perfMode').onchange=(e)=>{
-    perfMode=e.target.checked; chart.update(); updateStats();
-  };
-  document.getElementById('tooltips').onchange=(e)=>{
-    tooltips=e.target.checked; chart.options=makeOptions(); chart.update();
-  };
-  document.getElementById('reset').onclick=()=>{
-    hideOutliers=false; ignoreOutLaps=true; perfMode=true; tooltips=false;
-    chart.data.datasets[0].data=computeData(); chart.options=makeOptions(); chart.update(); updateStats();
-  };
+
+  // Header/link
+  document.getElementById('subtitle').textContent = `${rows.length} laps`;
+  document.getElementById('driverLink').innerHTML =
+    `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 })();
 </script>
 </body>
