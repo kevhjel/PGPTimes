@@ -9,14 +9,14 @@
 
   <style>
     :root {
-      --fg: #e2e8f0;
-      --muted: #94a3b8;
-      --bg: #0b1220;
-      --card: #111827;
-      --primary: #60a5fa;
-      --trend: #22d3ee;
-      --border: #1f2937;
-      --grid: #253042;
+      --fg: #e2e8f0;       /* text on dark */
+      --muted: #94a3b8;    /* subtle text */
+      --bg: #0b1220;       /* page background */
+      --card: #111827;     /* panel background */
+      --primary: #60a5fa;  /* accents & points */
+      --trend: #22d3ee;    /* trendline */
+      --border: #1f2937;   /* borders/grid */
+      --grid: #253042;     /* chart gridlines */
     }
 
     html, body {
@@ -30,19 +30,6 @@
     header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: 10px; }
     h1 { font-size: clamp(18px, 2.6vw, 24px); margin: 0; }
     .subtle { color: var(--muted); font-size: 12px }
-
-    .back-link {
-      display:inline-block;
-      margin-right:12px;
-      padding:6px 10px;
-      border:1px solid var(--border);
-      border-radius:6px;
-      background:var(--card);
-      color:var(--fg);
-      text-decoration:none;
-      font-size:14px;
-    }
-    .back-link:hover { text-decoration: underline }
 
     .controls { display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; margin: 8px 0 12px }
     .check {
@@ -59,6 +46,8 @@
 
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px }
     .chart-card { margin: 0 auto 12px }
+
+    /* Chart uses 60% of screen height */
     .chart-wrap { position: relative; width: 100%; height: 60vh }
 
     .stats {
@@ -77,7 +66,6 @@
 <body>
   <div class="wrap">
     <header>
-      <a href="index.html" class="back-link">← Back</a>
       <h1 id="title">Driver</h1>
       <span class="subtle" id="subtitle"></span>
     </header>
@@ -100,12 +88,13 @@
 <script>
 (async function(){
   const SITE_BASE='https://pgpkent.clubspeedtiming.com';
-  const DATA_URL='data/all_laps.json?v='+Date.now();
+  const DATA_URL='data/all_laps.json';
 
   const qs=new URLSearchParams(location.search);
   const driverId=qs.get('id')||'';
   const driverName=(qs.get('name')||'').trim();
 
+  // ---------- helpers ----------
   const fmt=(n,d=3)=>Number.isFinite(Number(n))?Number(n).toFixed(d):'–';
   const median=a=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const m=Math.floor(s.length/2);return s.length%2?s[m]:(s[m-1]+s[m])/2;}
   const quantile=(a,q)=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const pos=(s.length-1)*q,base=Math.floor(pos),rest=pos-base;return s[base]+(s[base+1]!==void 0?rest*(s[base+1]-s[base]):0);}
@@ -119,83 +108,196 @@
     <div class="stat"><span class="label">p90</span>${fmt(s.p90)}</div>
     <div class="stat"><span class="label">Latest</span>${fmt(s.latest)}</div>`;}
 
+  // ---------- fetch data ----------
   const res=await fetch(DATA_URL,{cache:'no-store'});
   if(!res.ok){document.getElementById('title').textContent='Driver (data error)';return;}
   const payload=await res.json();
   const rows=(payload.rows||[]).filter(r=>r.driver_id===driverId);
-
-  if(rows.length===0){
-    document.getElementById('subtitle').textContent="No lap data found.";
-    return;
-  }
-
   rows.sort((a,b)=>(a.heat_datetime_iso||'').localeCompare(b.heat_datetime_iso||''));
+
   const displayName=driverName||rows[0]?.driver_name||'Driver';
   document.getElementById('title').textContent=displayName;
   document.getElementById('subtitle').textContent=`${rows.length} laps`;
   document.getElementById('driverLink').innerHTML=
     `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 
-  const meta=rows.map(r=>({ lap:Number(r.lap_number), heat:r.heat_no, date:r.heat_datetime_iso||'' }));
-  const yAll=rows.map(r=>Number(r.lap_seconds));
+  // Prepare data
+  const N = rows.length;
+  const labels = rows.map((_,i)=>i+1);  // 1..N
+  const meta   = rows.map(r=>({ lap:Number(r.lap_number), heat:r.heat_no, date:r.heat_datetime_iso||'' }));
+  const yAll   = rows.map(r=>Number(r.lap_seconds));
 
-  Chart.defaults.color=getComputedStyle(document.documentElement).getPropertyValue('--fg').trim();
-  Chart.defaults.borderColor=getComputedStyle(document.documentElement).getPropertyValue('--grid').trim();
-  Chart.defaults.plugins.legend.display=false;
+  // ---------- Chart.js global dark defaults ----------
+  Chart.defaults.color = getComputedStyle(document.documentElement).getPropertyValue('--fg').trim();
+  Chart.defaults.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--grid').trim();
+  Chart.defaults.plugins.legend.display = false;
+  Chart.defaults.animation = false;
+  Chart.defaults.responsiveAnimationDuration = 0;
 
   const ctx=document.getElementById('chart').getContext('2d');
-  const chkOutliers=document.getElementById('chkOutliers');
-  const chkOutLaps=document.getElementById('chkOutLaps');
-  const chkTooltips=document.getElementById('chkTooltips');
+
+  // Filter toggles
+  const chkOutliers = document.getElementById('chkOutliers');
+  const chkOutLaps  = document.getElementById('chkOutLaps');
+  const chkTooltips = document.getElementById('chkTooltips');
 
   function filteredPoints(){
-    let pts=yAll.map((y,i)=>({ x:i+1,y,lap:meta[i].lap,heat:meta[i].heat,date:meta[i].date }));
-    if(chkOutLaps.checked){ pts=pts.map(p=>p.lap===1?{...p,y:NaN}:p); }
-    if(chkOutliers.checked){
-      const vals=pts.filter(p=>!Number.isNaN(p.y)).map(p=>p.y);
-      const {low,high}=iqrBounds(vals,1.5);
-      pts=pts.map(p=>(p.y>=low&&p.y<=high)?p:{...p,y:NaN});
+    // Base points are scatter points with x=index (1..N), y=lap_seconds
+    let pts = yAll.map((y,i)=>({ x: i+1, y, lap: meta[i].lap, heat: meta[i].heat, date: meta[i].date }));
+
+    if (chkOutLaps.checked) {
+      pts = pts.map(p => p.lap === 1 ? { ...p, y: NaN } : p);
+    }
+    if (chkOutliers.checked) {
+      const vals = pts.filter(p => !Number.isNaN(p.y)).map(p => p.y);
+      const {low, high} = iqrBounds(vals, 1.5);
+      pts = pts.map(p => (p.y >= low && p.y <= high) ? p : { ...p, y: NaN });
     }
     return pts;
   }
 
   function linearRegression(points){
-    const pts=points.filter(p=>Number.isFinite(p.y));
-    const n=pts.length;if(n<2)return{m:0,b:NaN,ok:false};
-    let sumX=0,sumY=0,sumXY=0,sumXX=0;
-    for(const p of pts){sumX+=p.x;sumY+=p.y;sumXY+=p.x*p.y;sumXX+=p.x*p.x;}
-    const denom=(n*sumXX-sumX*sumX);if(denom===0)return{m:0,b:NaN,ok:false};
-    const m=(n*sumXY-sumX*sumY)/denom;const b=(sumY-m*sumX)/n;
-    return{m,b,ok:true};
+    // points: array of {x, y} with finite y; returns {m, b}
+    const pts = points.filter(p => Number.isFinite(p.y));
+    const n = pts.length;
+    if (n < 2) return { m: 0, b: NaN, ok: false };
+    let sumX=0, sumY=0, sumXY=0, sumXX=0;
+    for (const p of pts){ sumX+=p.x; sumY+=p.y; sumXY+=p.x*p.y; sumXX+=p.x*p.x; }
+    const denom = (n*sumXX - sumX*sumX);
+    if (denom === 0) return { m: 0, b: NaN, ok: false };
+    const m = (n*sumXY - sumX*sumY) / denom;
+    const b = (sumY - m*sumX) / n;
+    return { m, b, ok: true };
   }
 
   function makeDatasets(){
-    const pts=filteredPoints();
-    const scatter={type:'scatter',label:'Lap Times',data:pts.map(p=>({x:p.x,y:p.y})),
-      pointRadius:2,pointBackgroundColor:'rgba(96,165,250,0.9)',showLine:false,spanGaps:true};
-    const lr=linearRegression(pts);let trend={type:'line',label:'Trend',data:[],borderColor:getComputedStyle(document.documentElement).getPropertyValue('--trend').trim(),borderWidth:2,pointRadius:0,tension:0,spanGaps:true};
-    if(lr.ok){const xs=pts.filter(p=>Number.isFinite(p.y)).map(p=>p.x);
-      if(xs.length){const minX=Math.min(...xs),maxX=Math.max(...xs);
-        trend.data=[{x:minX,y:lr.m*minX+lr.b},{x:maxX,y:lr.m*maxX+lr.b}];}}
-    return [scatter,trend];
+    const pts = filteredPoints();
+
+    // Scatter dataset
+    const scatter = {
+      type: 'scatter',
+      label: 'Lap time (s)',
+      data: pts.map(p => ({ x: p.x, y: p.y })),   // keep x indices
+      pointRadius: 2,
+      pointHoverRadius: 3,
+      pointBackgroundColor: 'rgba(96,165,250,0.9)',   // --primary-ish
+      pointBorderColor: 'rgba(96,165,250,0.9)',
+      showLine: false,
+      spanGaps: true,
+      parsing: false,
+    };
+
+    // Trendline over visible points
+    const lr = linearRegression(pts);
+    let trend = {
+      type: 'line',
+      label: 'Trend',
+      data: [],
+      borderColor: getComputedStyle(document.documentElement).getPropertyValue('--trend').trim() || '#22d3ee',
+      borderWidth: 2,
+      pointRadius: 0,
+      tension: 0,
+      spanGaps: true,
+      parsing: false,
+    };
+    if (lr.ok) {
+      // Determine domain where there are visible points
+      const xs = pts.filter(p => Number.isFinite(p.y)).map(p => p.x);
+      if (xs.length) {
+        const minX = Math.min(...xs);
+        const maxX = Math.max(...xs);
+        const y1 = lr.m * minX + lr.b;
+        const y2 = lr.m * maxX + lr.b;
+        trend.data = [{ x: minX, y: y1 }, { x: maxX, y: y2 }];
+      }
+    }
+
+    return [scatter, trend];
   }
 
   function makeOptions(){
-    return{responsive:true,maintainAspectRatio:false,scales:{
-      x:{type:'linear',title:{display:true,text:'Lap index'}},
-      y:{title:{display:true,text:'Seconds'}}
-    },
-    plugins:{tooltip:{enabled:chkTooltips.checked,callbacks:{
-      label:(item)=>{const idx=item.dataIndex;const p=filteredPoints()[idx];return`Lap ${p.lap} • Heat ${p.heat} • ${fmt(item.parsed.y)}s`;}}}}};
+    return {
+      responsive: true,
+      maintainAspectRatio: false,   // CSS height controls canvas
+      normalized: true,
+      scales: {
+        x: {
+          type: 'linear',
+          min: 1,
+          max: Math.max(1, N),
+          grid: { color: 'rgba(37,48,66,0.6)' },  // --grid
+          ticks: { color: 'var(--muted)' },
+          title: { display: true, text: 'Lap # (chronological across heats)' }
+        },
+        y: {
+          grid: { color: 'rgba(37,48,66,0.6)' },
+          ticks: { color: 'var(--muted)', callback: v => Number.isFinite(v) ? v.toFixed(0) : '' },
+          title: { display: true, text: 'Seconds (lower is faster)' }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          enabled: chkTooltips.checked,
+          callbacks: {
+            title: (items) => {
+              // For scatter, x is lap index across all heats (not 'lap_number')
+              const i = items[0].dataIndex;
+              return `Point ${i+1}`;
+            },
+            label: (item) => {
+              const idx = item.dataIndex;
+              const p = filteredPoints()[idx]; // align with current filtered set
+              const lapStr  = Number.isFinite(p?.lap)  ? `Lap #${p.lap}` : 'Lap –';
+              const heatStr = p?.heat ? `Heat ${p.heat}` : 'Heat –';
+              const valStr  = Number.isFinite(item.parsed.y) ? `${fmt(item.parsed.y)}s` : '–';
+              return ` ${lapStr} • ${heatStr} • ${valStr}`;
+            }
+          }
+        }
+      }
+    };
   }
 
-  const chart=new Chart(ctx,{data:{datasets:makeDatasets()},options:makeOptions()});
-  function updateStats(){const data=chart.data.datasets[0].data.map(p=>p.y).filter(v=>Number.isFinite(v));renderStats(document.getElementById('statsRow'),buildStats(data));}
-  updateStats();
+  // Build initial chart
+  const chart = new Chart(ctx, {
+    data: { datasets: makeDatasets() },
+    options: makeOptions()
+  });
 
-  function rebuild(){chart.data.datasets=makeDatasets();chart.options=makeOptions();chart.update();updateStats();}
-  chkOutliers.onchange=rebuild;chkOutLaps.onchange=rebuild;chkTooltips.onchange=rebuild;
-  document.getElementById('btnReset').onclick=()=>{chkOutliers.checked=false;chkOutLaps.checked=true;chkTooltips.checked=false;rebuild();};
+  // Stats
+  const statsEl = document.getElementById('statsRow');
+  function updateStatsFromChart(){
+    // Use scatter dataset for stats
+    const data = chart.data.datasets[0].data.map(p => p.y).filter(v => Number.isFinite(v));
+    renderStats(statsEl, buildStats(data));
+  }
+  updateStatsFromChart();
+
+  // Controls
+  function rebuild(){
+    chart.data.datasets = makeDatasets();
+    chart.options = makeOptions();
+    chart.update();
+    updateStatsFromChart();
+  }
+
+  chkOutliers.onchange = rebuild;
+  chkOutLaps.onchange  = rebuild;
+  chkTooltips.onchange = rebuild;
+
+  document.getElementById('btnReset').onclick = () => {
+    chkOutliers.checked = false;
+    chkOutLaps.checked  = true;
+    chkTooltips.checked = false;
+    rebuild();
+    document.querySelector('.chart-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  // Header/link
+  document.getElementById('subtitle').textContent = `${rows.length} laps`;
+  document.getElementById('driverLink').innerHTML =
+    `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 })();
 </script>
 </body>
