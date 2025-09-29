@@ -240,7 +240,7 @@ def parse_laps_text_block(html: str) -> Dict[str, List[Tuple[int, float]]]:
         if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
             racer = lines[i].strip()
             i += 2
-            laps: List[Tuple[int, float]]] = []
+            laps: List[Tuple[int, float]] = []
             while i < len(lines):
                 if i + 1 < len(lines) and re.match(r"\(Penalties:\s*\d+\)", lines[i + 1]):
                     break
