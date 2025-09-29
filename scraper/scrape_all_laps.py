@@ -94,50 +94,6 @@ def heat_datetime_from_html(html: str) -> Optional[dt.datetime]:
     txt = soup.get_text(" ", strip=True)
     return parse_us_datetime(txt)
 
-# ------------------- Heat type detection -------------------
-def detect_heat_type(html: str) -> Optional[str]:
-    """
-    Try to read the 'Heat Type' from the page.
-    We look for common patterns and fall back to scanning text.
-    Returns a string like 'Sprint Race', 'Endurance Race', etc., or None if unknown.
-    """
-    soup = BeautifulSoup(html, "html.parser")
-
-    # 1) Specific ids/labels sometimes used by ClubSpeed skins
-    #   e.g. <span id="lblHeatType">Endurance Race</span>
-    for cand_id in ["lblHeatType", "ctl00_ContentPlaceHolder1_lblHeatType", "HeatTypeLabel"]:
-        el = soup.find(id=cand_id)
-        if el:
-            t = el.get_text(" ", strip=True)
-            if t:
-                return t
-
-    # 2) Look for "Heat Type" label followed by a value in nearby cells/spans
-    #    e.g. <td>Heat Type:</td><td>Endurance Race</td>
-    for td in soup.find_all(["td", "th", "span"], string=re.compile(r"\bHeat\s*Type\b", re.I)):
-        # check siblings
-        parent = td.parent if isinstance(td, Tag) else None
-        if parent and isinstance(parent, Tag):
-            txts = [c.get_text(" ", strip=True) for c in parent.find_all(["td", "th", "span"]) if isinstance(c, Tag)]
-            # if we find something like ["Heat Type:", "Endurance Race"]
-            for i, s in enumerate(txts):
-                if re.search(r"\bHeat\s*Type\b", s, re.I) and i + 1 < len(txts):
-                    val = txts[i + 1].strip()
-                    if val and not re.search(r"\bHeat\s*Type\b", val, re.I):
-                        return val
-
-    # 3) Fallback: scan whole text for a "Heat Type: X" pattern
-    text = soup.get_text(" ", strip=True)
-    m = re.search(r"Heat\s*Type\s*:\s*([A-Za-z ]+)", text, flags=re.I)
-    if m:
-        return m.group(1).strip()
-
-    # 4) As a last resort, if the page mentions "Endurance" strongly, return it
-    if re.search(r"\bEndur\w*\b", text, flags=re.I):
-        return "Endurance (detected)"
-
-    return None
-
 # ------------------- Utilities -------------------
 def extract_heatnos_from_history(html: str) -> List[str]:
     soup = BeautifulSoup(html, "html.parser")
@@ -213,6 +169,45 @@ def dump_debug_html(heat: str, tag: str, html: str, driver_key: str, per_driver_
         f.write(html)
     per_driver_counter[driver_key] = count + 1
     print(f"[debug] wrote {path}")
+
+# ------------------- Race type detection -------------------
+def detect_race_type(html: str) -> Optional[str]:
+    """
+    Return the race type string if present, e.g., 'Endurance Race', else None.
+    Primary signal: <span id="lblRaceType" class="ItemTitle">Endurance Race</span>
+    Fallback: look for nearby text hints.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    # Primary: exact id used by ClubSpeed
+    el = soup.find(id="lblRaceType")
+    if el:
+        t = el.get_text(" ", strip=True)
+        if t:
+            return t
+
+    # Fallback 1: look for "Race Type" label followed by a sibling or next cell
+    label = soup.find(string=re.compile(r"\bRace\s*Type\b", flags=re.I))
+    if label:
+        # try next element text
+        nxt = label.parent.find_next(string=True)
+        if nxt:
+            t = " ".join(nxt.strip().split())
+            if t:
+                return t
+
+    # Fallback 2: scan item titles
+    for sp in soup.select(".ItemTitle"):
+        t = sp.get_text(" ", strip=True)
+        if re.search(r"endurance", t, flags=re.I):
+            return t
+
+    # Fallback 3: brute text search
+    txt = soup.get_text(" ", strip=True)
+    m = re.search(r"(Endurance\s+Race)", txt, flags=re.I)
+    if m:
+        return m.group(1)
+
+    return None
 
 # ------------------- Lap parsers -------------------
 def _extract_leading_float(s: str) -> Optional[float]:
@@ -340,7 +335,7 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
             if not sample_ok:
                 continue
 
-            laps: List[Tuple[int, float]] = []
+            laps: List[Tuple[int, float]]] = []
             for r in rows[start_idx:]:
                 cells = [c.get_text(strip=True) for c in r.find_all("td")]
                 if len(cells) >= 2 and re.match(r"^\d+$", cells[0]):
@@ -563,6 +558,14 @@ def main():
                     print(f"[debug] heat {heat}: no variant returned usable HTML")
                 continue
 
+            # ---------- NEW: skip endurance race types ----------
+            race_type = detect_race_type(best["html"]) or ""
+            if "endurance" in race_type.lower():
+                if DEBUG:
+                    print(f"[debug] heat {heat}: skipping due to race type '{race_type}'")
+                continue
+            # -----------------------------------------------------
+
             if DEBUG:
                 print(f"[debug] heat {heat}: using variant '{best['variant']}' with {best['keys']} racer sections")
 
@@ -573,14 +576,6 @@ def main():
                 if DEBUG:
                     print(f"[debug] heat {heat}: {heat_dt.date()} < {START_YEAR}; skip")
                 continue
-
-            # -------- NEW: detect and skip Endurance heats --------
-            heat_type = detect_heat_type(best["html"]) or ""
-            if re.search(r"\bEndur\w*\b", heat_type, flags=re.I):
-                if DEBUG:
-                    print(f"[debug] heat {heat}: skipping due to heat type '{heat_type}'")
-                continue
-            # ------------------------------------------------------
 
             # map CustID -> display name for this heat
             id_to_name = map_custid_to_name_in_heat(best["html"])
@@ -609,11 +604,11 @@ def main():
             if laps is None:
                 if DEBUG:
                     keys = list(racer_laps.keys())
-                    print(f"[debug] heat {heat}: no laps found for '{driver_name}' (disp='{disp_name}'). Names present: {keys[:10]}... (type='{heat_type or 'unknown'}')")
+                    print(f"[debug] heat {heat}: no laps found for '{driver_name}' (disp='{disp_name}'). Names present: {keys[:10]}...")
                 continue
 
             if DEBUG:
-                print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={best['variant']}, type='{heat_type or 'unknown'}')")
+                print(f"[debug] heat {heat}: found {len(laps)} laps for {disp_name} (variant={best['variant']})")
 
             iso = heat_dt.replace(microsecond=0).isoformat() if heat_dt else ""
 
@@ -642,8 +637,6 @@ def main():
     print(f"[info] Wrote {OUT_JSON}")
 
     # ----- Force a visible diff in CSV with a metadata line -----
-    # Add a trailing comment line indicating generation time.
-    # This ensures a commit occurs even if the rows themselves didn't change.
     with open(OUT_CSV, "a", encoding="utf-8") as f:
         f.write(f"# generated_at {generated_at}\n")
     print(f"[info] Wrote {OUT_CSV}")
