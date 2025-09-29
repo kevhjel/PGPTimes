@@ -335,7 +335,7 @@ def parse_laps_dom_tables(html: str) -> Dict[str, List[Tuple[int, float]]]:
             if not sample_ok:
                 continue
 
-            laps: List[Tuple[int, float]]] = []
+            laps: List[Tuple[int, float]] = []
             for r in rows[start_idx:]:
                 cells = [c.get_text(strip=True) for c in r.find_all("td")]
                 if len(cells) >= 2 and re.match(r"^\d+$", cells[0]):
