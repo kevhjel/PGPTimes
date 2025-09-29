@@ -2,49 +2,240 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Driver Profile</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- Chart.js for the scatter plot -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+  <style>
+    :root{
+      --fg:#0f172a;--muted:#475569;--bg:#fff;--card:#f8fafc;--primary:#2563eb;--border:#e2e8f0;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.35;}
+    .wrap{max-width:860px;margin:12px auto;padding:0 12px;}
+    header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-bottom:8px;}
+    h1{font-size:clamp(18px,2.6vw,24px);margin:0;}
+    .subtle{color:var(--muted);font-size:12px}
+
+    .controls{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 10px}
+    button{
+      background:var(--primary);color:#fff;border:0;border-radius:7px;padding:6px 10px;font-size:13px;cursor:pointer}
+    button.secondary{background:#0ea5e9}
+    .switch{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;color:#1e293b;
+      border:1px solid var(--border);border-radius:7px;padding:4px 8px;font-size:12px}
+
+    .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px}
+    .chart-card{margin:0 auto 10px}
+    /* Ultra-compact chart height for speed and less scrolling */
+    .chart-wrap{position:relative;width:100%;height:160px}
+    @media(max-width:640px){.chart-wrap{height:120px}}
+
+    .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;font-size:12px;margin-bottom:10px}
+    .stat{background:#fff;border:1px solid var(--border);border-radius:8px;padding:6px;text-align:center}
+    .stat .label{display:block;color:var(--muted);font-size:11px}
+
+    footer{margin:12px 0 18px;font-size:13px}
+    a{color:var(--primary);text-decoration:none} a:hover{text-decoration:underline}
+  </style>
 </head>
 <body>
-  <header>
-    <h1 id="driverTitle">Driver Profile</h1>
-    <p class="sub"><a href="./">&larr; Back to Leaderboard</a></p>
-  </header>
+  <div class="wrap">
+    <header>
+      <h1 id="title">Driver</h1>
+      <span class="subtle" id="subtitle"></span>
+    </header>
 
-  <main>
-    <section style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:8px;">
-      <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
-        <input type="checkbox" id="hideOutliers" />
-        <span>Hide outliers (robust MAD)</span>
-      </label>
-    </section>
+    <div class="controls">
+      <button id="toggleOutliers" class="secondary">Hide outliers</button>
+      <button id="toggleOutLaps" class="secondary">Ignore out laps</button>
+      <span class="switch"><input type="checkbox" id="perfMode" checked> Performance mode</span>
+      <span class="switch"><input type="checkbox" id="tooltips"> Tooltips</span>
+      <button id="reset">Reset</button>
+    </div>
 
-    <section>
-      <canvas id="lapChart" style="max-width: 100%; height: 420px;"></canvas>
-      <p class="updated" id="summary"></p>
+    <div class="card chart-card">
+      <div class="chart-wrap"><canvas id="chart"></canvas></div>
+    </div>
 
-      <div id="stats" style="margin-top:8px; border:1px solid #1c2430; border-radius:10px; padding:12px; background:#0f1720;">
-        <strong>Stats</strong>
-        <div id="statsRow" style="margin-top:6px;">
-          <!-- filled by JS -->
-        </div>
-      </div>
-    </section>
+    <div class="stats" id="statsRow"></div>
+    <footer id="driverLink"></footer>
+  </div>
 
-    <section style="margin-top:16px;">
-      <a id="driverLink" target="_blank" rel="noopener">Open driver page on ClubSpeed</a>
-    </section>
-  </main>
+<script>
+(async function(){
+  const SITE_BASE='https://pgpkent.clubspeedtiming.com';
+  const DATA_URL='data/all_laps.json';
 
-  <footer>
-    <small>Data from ClubSpeed · Personal project ·
-      <a href="https://pgpkent.clubspeedtiming.com" target="_blank" rel="noopener">PGP Kent</a>
-    </small>
-  </footer>
+  const qs=new URLSearchParams(location.search);
+  const driverId=qs.get('id')||'';
+  const driverName=(qs.get('name')||'').trim();
 
-  <script src="driver.js"></script>
+  // ---- helpers ----
+  const fmt=(n,d=3)=>Number.isFinite(Number(n))?Number(n).toFixed(d):'–';
+  const median=a=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const m=Math.floor(s.length/2);return s.length%2?s[m]:(s[m-1]+s[m])/2;}
+  const quantile=(a,q)=>{if(!a.length)return NaN;const s=[...a].sort((x,y)=>x-y);const pos=(s.length-1)*q,base=Math.floor(pos),rest=pos-base;return s[base]+(s[base+1]!==void 0?rest*(s[base+1]-s[base]):0);}
+  const iqrBounds=(v,k=1.5)=>{if(!v.length)return{low:-Infinity,high:Infinity};const q1=quantile(v,0.25),q3=quantile(v,0.75),iqr=q3-q1;return{low:q1-k*iqr,high:q3+k*iqr};}
+  const buildStats=y=>{const arr=y.filter(v=>!Number.isNaN(v));if(!arr.length)return{count:0,best:NaN,mean:NaN,med:NaN,p90:NaN,latest:NaN};const count=arr.length,best=Math.min(...arr),mean=arr.reduce((a,b)=>a+b,0)/count,med=median(arr),p90=quantile(arr,0.9),latest=arr[arr.length-1];return{count,best,mean,med,p90,latest};}
+  const renderStats=(el,s)=>{el.innerHTML=`
+    <div class="stat"><span class="label">Laps</span>${s.count}</div>
+    <div class="stat"><span class="label">Best</span>${fmt(s.best)}</div>
+    <div class="stat"><span class="label">Mean</span>${fmt(s.mean)}</div>
+    <div class="stat"><span class="label">Median</span>${fmt(s.med)}</div>
+    <div class="stat"><span class="label">p90</span>${fmt(s.p90)}</div>
+    <div class="stat"><span class="label">Latest</span>${fmt(s.latest)}</div>`;}
+
+  // ---- fetch data ----
+  const res=await fetch(DATA_URL,{cache:'no-store'});
+  if(!res.ok){document.getElementById('title').textContent='Driver (data error)';return;}
+  const payload=await res.json();
+  const rows=(payload.rows||[]).filter(r=>r.driver_id===driverId);
+  rows.sort((a,b)=>(a.heat_datetime_iso||'').localeCompare(b.heat_datetime_iso||''));
+
+  const displayName=driverName||rows[0]?.driver_name||'Driver';
+  document.getElementById('title').textContent=displayName;
+  document.getElementById('subtitle').textContent=`${rows.length} laps`;
+  document.getElementById('driverLink').innerHTML=
+    `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
+
+  const labels=rows.map((_,i)=>`${i+1}`);
+  const meta=rows.map(r=>({lap:Number(r.lap_number),heat:r.heat_no,date:r.heat_datetime_iso||''}));
+  const allLaps=rows.map(r=>Number(r.lap_seconds));
+
+  // ---- Chart defaults for speed ----
+  Chart.defaults.animation=false;
+  Chart.defaults.responsiveAnimationDuration=0;
+  Chart.defaults.elements.point.radius=0;        // no markers
+  Chart.defaults.elements.point.hitRadius=3;
+  Chart.defaults.elements.line.borderWidth=1.25; // thin lines
+  Chart.defaults.plugins.legend.display=false;
+
+  const ctx=document.getElementById('chart').getContext('2d');
+
+  let hideOutliers=false;
+  let ignoreOutLaps=true; // common case: lap 1 is slow -> default to ignored
+  let perfMode=true;
+  let tooltips=false;
+
+  // apply filters to data without losing positions
+  function computeData(){
+    let data=allLaps.map((y,i)=>({y,lap:meta[i].lap}));
+    if(ignoreOutLaps) data=data.map(d=>d.lap===1?{...d,y:NaN}:d);
+    if(hideOutliers){
+      const vals=data.filter(d=>!Number.isNaN(d.y)).map(d=>d.y);
+      const {low,high}=iqrBounds(vals,1.5);
+      data=data.map(d=>(d.y>=low && d.y<=high)?d:{...d,y:NaN});
+    }
+    return data.map(d=>d.y);
+  }
+
+  function makeOptions(){
+    return {
+      responsive:true,
+      maintainAspectRatio:false,   // CSS controls height
+      normalized:true,
+      events: perfMode ? [] : undefined,          // disable hover events in perf mode
+      interaction: { mode: perfMode ? 'nearest' : 'nearest', intersect:false },
+      scales:{
+        x:{ grid:{display:false}, ticks:{maxTicksLimit:8}, title:{display:false}},
+        y:{ title:{display:false},
+            ticks:{ maxTicksLimit:5, callback:v=>Number.isFinite(v)?v.toFixed(0):'' } }
+      },
+      plugins:{
+        tooltip: { enabled: tooltips,
+          callbacks: tooltips ? {
+            title: (items)=>{
+              const i=items[0].dataIndex, m=meta[i];
+              const date=m?.date?new Date(m.date).toLocaleString():'';
+              return `Lap ${i+1} • Heat ${m?.heat ?? ''}${date?` • ${date}`:''}`;
+            },
+            label: (it)=>` ${fmt(it.parsed.y)}s`
+          } : {}
+        }
+      }
+    };
+  }
+
+  function makeDataset(){
+    return {
+      label:'Lap time (s)',
+      data: computeData(),
+      tension:0,                 // straight segments (fast)
+      parsing:false,
+      spanGaps:true,
+      decimation: {
+        enabled:true,
+        algorithm:'lttb',
+        samples: perfMode ? 400 : 1200   // heavier reduction in perf mode
+      }
+    };
+  }
+
+  const chart=new Chart(ctx,{
+    type:'line',
+    data:{ labels, datasets:[ makeDataset() ] },
+    options: makeOptions()
+  });
+
+  // ---- Stats ----
+  const statsEl=document.getElementById('statsRow');
+  const updateStats=()=>renderStats(statsEl, buildStats(chart.data.datasets[0].data.filter(v=>!Number.isNaN(v))));
+  updateStats();
+
+  // ---- Controls ----
+  const btnOutliers=document.getElementById('toggleOutliers');
+  const btnOutLaps=document.getElementById('toggleOutLaps');
+  const chkPerf=document.getElementById('perfMode');
+  const chkTips=document.getElementById('tooltips');
+
+  // init control labels
+  btnOutliers.textContent = hideOutliers?'Show outliers':'Hide outliers';
+  btnOutLaps.textContent  = ignoreOutLaps?'Include out laps':'Ignore out laps';
+  chkPerf.checked = perfMode;
+  chkTips.checked = tooltips;
+
+  btnOutliers.onclick=()=>{
+    hideOutliers=!hideOutliers;
+    btnOutliers.textContent=hideOutliers?'Show outliers':'Hide outliers';
+    chart.data.datasets[0].data=computeData();
+    chart.update();
+    updateStats();
+  };
+
+  btnOutLaps.onclick=()=>{
+    ignoreOutLaps=!ignoreOutLaps;
+    btnOutLaps.textContent=ignoreOutLaps?'Include out laps':'Ignore out laps';
+    chart.data.datasets[0].data=computeData();
+    chart.update();
+    updateStats();
+  };
+
+  chkPerf.onchange=()=>{
+    perfMode=chkPerf.checked;
+    chart.options=makeOptions();
+    chart.data.datasets[0]=makeDataset();
+    chart.update();
+    updateStats();
+  };
+
+  chkTips.onchange=()=>{
+    tooltips=chkTips.checked;
+    chart.options=makeOptions();
+    chart.update();
+  };
+
+  document.getElementById('reset').onclick=()=>{
+    hideOutliers=false; ignoreOutLaps=true; perfMode=true; tooltips=false;
+    btnOutliers.textContent='Hide outliers';
+    btnOutLaps.textContent='Include out laps';
+    chkPerf.checked=true; chkTips.checked=false;
+    chart.options=makeOptions();
+    chart.data.datasets[0]=makeDataset();
+    chart.update();
+    updateStats();
+    document.querySelector('.chart-card').scrollIntoView({behavior:'smooth',block:'start'});
+  };
+})();
+</script>
 </body>
 </html>
