@@ -14,7 +14,9 @@
       --bg: #0b1220;       /* page background */
       --card: #111827;     /* panel background */
       --primary: #60a5fa;  /* accents & points */
-      --trend: #22d3ee;    /* trendline */
+      --trend: #22d3ee;    /* linear trend (kept for style) */
+      --trend-exp: #34d399;/* exponential trendline (green-ish) */
+      --ma: #f59e0b;       /* moving average (amber) */
       --border: #1f2937;   /* borders/grid */
       --grid: #253042;     /* chart gridlines */
     }
@@ -27,20 +29,9 @@
     }
     .wrap { max-width: 980px; margin: 12px auto; padding: 0 12px; }
 
-    header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-bottom: 10px; }
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: 10px; }
     h1 { font-size: clamp(18px, 2.6vw, 24px); margin: 0; }
     .subtle { color: var(--muted); font-size: 12px }
-
-    .back-link {
-      background: var(--card);
-      color: var(--fg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 10px;
-      text-decoration: none;
-      font-size: 13px;
-    }
-    .back-link:hover { text-decoration: underline; }
 
     .controls { display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; margin: 8px 0 12px }
     .check {
@@ -58,6 +49,7 @@
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px }
     .chart-card { margin: 0 auto 12px }
 
+    /* Chart uses 60% of screen height */
     .chart-wrap { position: relative; width: 100%; height: 60vh }
 
     .stats {
@@ -76,7 +68,6 @@
 <body>
   <div class="wrap">
     <header>
-      <a href="index.html" class="back-link">← Back to Main</a>
       <h1 id="title">Driver</h1>
       <span class="subtle" id="subtitle"></span>
     </header>
@@ -134,14 +125,13 @@
 
   // Prepare data
   const N = rows.length;
-  const labels = rows.map((_,i)=>i+1);  // 1..N
   const meta   = rows.map(r=>({ lap:Number(r.lap_number), heat:r.heat_no, date:r.heat_datetime_iso||'' }));
   const yAll   = rows.map(r=>Number(r.lap_seconds));
 
   // ---------- Chart.js global dark defaults ----------
   Chart.defaults.color = getComputedStyle(document.documentElement).getPropertyValue('--fg').trim();
   Chart.defaults.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--grid').trim();
-  Chart.defaults.plugins.legend.display = false;
+  Chart.defaults.plugins.legend.display = false;  // keep clean
   Chart.defaults.animation = false;
   Chart.defaults.responsiveAnimationDuration = 0;
 
@@ -167,8 +157,8 @@
     return pts;
   }
 
+  // ----- Linear regression (kept for reference/not shown) -----
   function linearRegression(points){
-    // points: array of {x, y} with finite y; returns {m, b}
     const pts = points.filter(p => Number.isFinite(p.y));
     const n = pts.length;
     if (n < 2) return { m: 0, b: NaN, ok: false };
@@ -181,10 +171,53 @@
     return { m, b, ok: true };
   }
 
+  // ----- Exponential regression: y = a * e^(b x) -----
+  function exponentialRegression(points){
+    // Use only finite, positive y (ln(y) defined)
+    const pts = points.filter(p => Number.isFinite(p.y) && p.y > 0);
+    const n = pts.length;
+    if (n < 2) return { a: NaN, b: NaN, ok: false };
+
+    // Fit ln(y) = ln(a) + b x  -> linear least squares on (x, ln y)
+    let sumX=0, sumLX=0, sumXX=0, sumL=0;
+    for (const p of pts){
+      const lx = Math.log(p.y);
+      sumX  += p.x;
+      sumLX += p.x * lx;
+      sumXX += p.x * p.x;
+      sumL  += lx;
+    }
+    const denom = (n * sumXX - sumX * sumX);
+    if (denom === 0) return { a: NaN, b: NaN, ok: false };
+    const b = (n * sumLX - sumX * sumL) / denom;
+    const lnA = (sumL - b * sumX) / n;
+    const a = Math.exp(lnA);
+    if (!Number.isFinite(a) || !Number.isFinite(b)) return { a: NaN, b: NaN, ok: false };
+    return { a, b, ok: true };
+  }
+
+  // ----- Moving Average (simple) over visible points -----
+  function movingAverage(points, windowSize=20){
+    // points: [{x, y, ...}] with NaN holes; result aligns on x with valid centers
+    const ys = points.map(p => Number.isFinite(p.y) ? p.y : NaN);
+    const xs = points.map(p => p.x);
+    const half = Math.floor(windowSize/2);
+    const out = [];
+    for (let i=0;i<ys.length;i++){
+      const left = Math.max(0, i - half);
+      const right = Math.min(ys.length - 1, i + half);
+      const slice = ys.slice(left, right+1).filter(v => Number.isFinite(v));
+      if (slice.length === 0){ out.push({x: xs[i], y: NaN}); continue; }
+      const avg = slice.reduce((a,b)=>a+b,0)/slice.length;
+      out.push({ x: xs[i], y: avg });
+    }
+    return out;
+  }
+
   function makeDatasets(){
     const pts = filteredPoints();
 
-    // Scatter dataset
+    // Scatter dataset (visible points)
     const scatter = {
       type: 'scatter',
       label: 'Lap time (s)',
@@ -198,32 +231,49 @@
       parsing: false,
     };
 
-    // Trendline over visible points
-    const lr = linearRegression(pts);
-    let trend = {
+    // Exponential trendline over visible points
+    const exp = exponentialRegression(pts);
+    let expLine = {
       type: 'line',
-      label: 'Trend',
+      label: 'Exp Trend',
       data: [],
-      borderColor: getComputedStyle(document.documentElement).getPropertyValue('--trend').trim() || '#22d3ee',
+      borderColor: getComputedStyle(document.documentElement).getPropertyValue('--trend-exp').trim() || '#34d399',
       borderWidth: 2,
       pointRadius: 0,
       tension: 0,
       spanGaps: true,
       parsing: false,
     };
-    if (lr.ok) {
-      // Determine domain where there are visible points
+    if (exp.ok) {
       const xs = pts.filter(p => Number.isFinite(p.y)).map(p => p.x);
       if (xs.length) {
         const minX = Math.min(...xs);
         const maxX = Math.max(...xs);
-        const y1 = lr.m * minX + lr.b;
-        const y2 = lr.m * maxX + lr.b;
-        trend.data = [{ x: minX, y: y1 }, { x: maxX, y: y2 }];
+        // Sample across domain at integer x so it lines up with data indices
+        const curve = [];
+        for (let x=minX; x<=maxX; x++){
+          const y = exp.a * Math.exp(exp.b * x);
+          curve.push({ x, y });
+        }
+        expLine.data = curve;
       }
     }
 
-    return [scatter, trend];
+    // Moving average over visible points (window = 20)
+    const maPts = movingAverage(pts, 20);
+    const maLine = {
+      type: 'line',
+      label: 'Moving Avg (20)',
+      data: maPts,
+      borderColor: getComputedStyle(document.documentElement).getPropertyValue('--ma').trim() || '#f59e0b',
+      borderWidth: 2,
+      pointRadius: 0,
+      tension: 0.2,
+      spanGaps: true,
+      parsing: false,
+    };
+
+    return [scatter, expLine, maLine];
   }
 
   function makeOptions(){
@@ -247,22 +297,26 @@
         }
       },
       plugins: {
-        legend: { display: false },
+        legend: { display: false },  // keep UI minimal; toggle to true if you want labels visible
         tooltip: {
           enabled: chkTooltips.checked,
           callbacks: {
             title: (items) => {
-              // For scatter, x is lap index across all heats (not 'lap_number')
               const i = items[0].dataIndex;
               return `Point ${i+1}`;
             },
             label: (item) => {
-              const idx = item.dataIndex;
-              const p = filteredPoints()[idx]; // align with current filtered set
-              const lapStr  = Number.isFinite(p?.lap)  ? `Lap #${p.lap}` : 'Lap –';
-              const heatStr = p?.heat ? `Heat ${p.heat}` : 'Heat –';
-              const valStr  = Number.isFinite(item.parsed.y) ? `${fmt(item.parsed.y)}s` : '–';
-              return ` ${lapStr} • ${heatStr} • ${valStr}`;
+              // For main scatter (dataset 0), include lap/heat in tooltip
+              if (item.datasetIndex === 0) {
+                const idx = item.dataIndex;
+                const p = filteredPoints()[idx];
+                const lapStr  = Number.isFinite(p?.lap)  ? `Lap #${p.lap}` : 'Lap –';
+                const heatStr = p?.heat ? `Heat ${p.heat}` : 'Heat –';
+                const valStr  = Number.isFinite(item.parsed.y) ? `${fmt(item.parsed.y)}s` : '–';
+                return ` ${lapStr} • ${heatStr} • ${valStr}`;
+              }
+              // For lines, just show value
+              return ` ${fmt(item.parsed.y)}s`;
             }
           }
         }
@@ -279,7 +333,6 @@
   // Stats
   const statsEl = document.getElementById('statsRow');
   function updateStatsFromChart(){
-    // Use scatter dataset for stats
     const data = chart.data.datasets[0].data.map(p => p.y).filter(v => Number.isFinite(v));
     renderStats(statsEl, buildStats(data));
   }
@@ -304,11 +357,6 @@
     rebuild();
     document.querySelector('.chart-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-
-  // Header/link
-  document.getElementById('subtitle').textContent = `${rows.length} laps`;
-  document.getElementById('driverLink').innerHTML =
-    `<a href="${SITE_BASE}/sp_center/RacerHistory.aspx?CustID=${encodeURIComponent(driverId)}" target="_blank" rel="noopener">View on ClubSpeed ↗</a>`;
 })();
 </script>
 </body>
