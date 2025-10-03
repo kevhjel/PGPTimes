@@ -1,9 +1,14 @@
 name: Scrape PGP Heats
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      max_heats:
+        description: 'Max heats to scrape this run (blank = unlimited)'
+        required: false
+        default: '200'
   schedule:
-    - cron: "18 10 * * *"  # daily 10:18 UTC; adjust cadence as you wish
+    - cron: "18 10 * * *"
 
 jobs:
   scrape:
@@ -23,9 +28,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run scraper (continue from last_heat or 75533)
+      - name: Run scraper with cap
+        shell: bash
         run: |
-          python -m scraper.run
+          MAX="${{ github.event.inputs.max_heats }}"
+          if [[ -n "$MAX" && "$MAX" != "0" ]]; then
+            python -m scraper.run --max "$MAX"
+          else
+            python -m scraper.run
+          fi
 
       - name: Commit & push data updates
         run: |
@@ -38,4 +49,3 @@ jobs:
             git commit -m "data: update heats + driver index"
             git push
           fi
-
