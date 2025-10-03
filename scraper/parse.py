@@ -14,8 +14,11 @@ def _get_text(el) -> str:
     return " ".join(el.get_text(separator=" ", strip=True).split())
 
 def _maybe_parse_datetime(text: str) -> Optional[str]:
+    if not text:
+        return None
     try:
-        dt = dtp.parse(text, fuzzy=True)
+        # US-style dates like 8/23/2025 1:15 PM parse fine with dateutil
+        dt = dtp.parse(text, fuzzy=True, dayfirst=False)
         return dt.isoformat()
     except Exception:
         return None
@@ -38,29 +41,16 @@ def _parse_time_to_seconds(s: str) -> Optional[float]:
 
 def parse_heat_details_html(html: str) -> Dict:
     """
-    Parse a HeatDetails.aspx page.
-
-    Priority for driver/laps:
-    1) If a LapTimesContainer table is present, parse each inner LapTimes table (recommended path).
-    2) Otherwise, fall back to the generic results table heuristic (Driver/Pos/Kart/Best) if present.
+    Parse a HeatDetails.aspx page, prioritizing:
+      - driver/laps from LapTimesContainer
+      - start time from exact #lblDate
 
     Returns:
     {
       "heat_no": int,
       "heat_type": str,
       "start_time_iso": str|None,
-      "drivers": [
-        {
-          "name": str,
-          "position": int|None,            # inferred as last non-empty lap position when LapTimesContainer used
-          "kart": str|None,                # unknown when LapTimesContainer path; remains None
-          "best_lap_seconds": float|None,
-          "lap_times_url": None|str,       # usually None in container path
-          "laps": [float,...]|None,
-          "lap_positions": [int,...]|None  # per-lap positions if present like "[3]"
-        },
-        ...
-      ]
+      "drivers": [...]
     }
     """
     soup = BeautifulSoup(html, "lxml")
@@ -93,13 +83,33 @@ def parse_heat_details_html(html: str) -> Dict:
                     heat_type = _get_text(nxt)
                     break
 
-    # ---- start date/time (explicit: #lblDate) ----
+    # ---- start date/time (STRICT: from #lblDate) ----
     start_time_iso = None
-    date_node = soup.find(id=re.compile(r"lblDate", re.I))
-    if date_node:
-        start_time_iso = _maybe_parse_datetime(_get_text(date_node))
+
+    # 1) Exact id match first
+    date_exact = soup.find(id="lblDate")
+    if date_exact:
+        start_time_iso = _maybe_parse_datetime(_get_text(date_exact))
+
+    # 2) If still missing, look for a table row where left cell contains #lblDate1 ("Date")
+    #    and the right sibling cell (HeatResultsRightCell) holds the value.
     if not start_time_iso:
-        # secondary, best-effort fallback
+        for tr in soup.find_all("tr"):
+            left = tr.find("td", class_=re.compile(r"\bHeatResultsLeftCell\b", re.I))
+            right = tr.find("td", class_=re.compile(r"\bHeatResultsRightCell\b", re.I))
+            if not left or not right:
+                continue
+            left_lbl = left.find(id="lblDate1")
+            if left_lbl and _get_text(left_lbl).lower() == "date":
+                # prefer a span inside the right cell (often #lblDate)
+                span = right.find("span")
+                txt = _get_text(span) if span else _get_text(right)
+                start_time_iso = _maybe_parse_datetime(txt)
+                if start_time_iso:
+                    break
+
+    # 3) LAST resort (avoid pulling the wrong thing): any obvious date-ish label/value nearby
+    if not start_time_iso:
         for label in soup.find_all(["td", "span", "div", "th"]):
             t = _get_text(label)
             if re.search(r"(start\s*time|date\s*time|session\s*time)", t, re.I):
@@ -123,7 +133,7 @@ def parse_heat_details_html(html: str) -> Dict:
 
             laps: List[float] = []
             lap_positions: List[int] = []
-            # rows with lap data are usually class LapTimesRow / LapTimesRowAlt
+            # rows with lap data are class LapTimesRow / LapTimesRowAlt
             for tr in dtbl.find_all("tr"):
                 tds = tr.find_all("td")
                 if len(tds) < 2:
@@ -174,9 +184,8 @@ def parse_heat_details_html(html: str) -> Dict:
         }
 
     # ------------------------------
-    # Generic fallback (only used if container missing)
+    # Generic fallback (only if container missing)
     # ------------------------------
-    # find a table with headers like Driver/Pos/Kart/Best
     candidates = []
     for table in soup.find_all("table"):
         header_cells = table.find_all(["th"])
@@ -215,7 +224,6 @@ def parse_heat_details_html(html: str) -> Dict:
             kart = re.sub(r"[^\dA-Za-z-]+", "", cell_texts[kart_i]) if kart_i is not None and kart_i < len(cell_texts) else None
             best_lap_seconds = parse_float_time(cell_texts[best_i]) if best_i is not None and best_i < len(cell_texts) else None
 
-            # old per-driver LapTimes link (may or may not exist)
             lap_link = None
             for a in tr.find_all("a", href=True):
                 if re.search(r"LapTimes", a["href"], re.I):
@@ -240,14 +248,10 @@ def parse_heat_details_html(html: str) -> Dict:
     }
 
 # ------------------------------
-# per-driver popup parser (kept for compatibility)
+# per-driver popup parser (compatibility)
 # ------------------------------
 
 def parse_laptimes_popup(html: str) -> Tuple[List[float], Optional[List[int]]]:
-    """
-    Parse a 'LapTimes...' popup/page if present. We keep this for compatibility
-    with older heats that still link out to a separate per-driver page.
-    """
     soup = BeautifulSoup(html, "lxml")
     times: List[float] = []
     positions: List[int] = []
@@ -270,14 +274,12 @@ def parse_laptimes_popup(html: str) -> Tuple[List[float], Optional[List[int]]]:
             cells = [_get_text(td) for td in tds]
             if not cells:
                 continue
-            # time
             time_val = None
             for c in cells:
                 tt = _parse_time_to_seconds(c)
                 if tt is not None:
                     time_val = tt
                     break
-            # position
             pos_val = None
             for c in cells:
                 if re.fullmatch(r"\d+", c):
