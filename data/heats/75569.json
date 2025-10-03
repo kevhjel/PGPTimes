@@ -1,0 +1,71 @@
+{
+  "heat_no": 75569,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-02T14:30:00",
+  "drivers": [
+    {
+      "name": "Jacob Loliva",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.819,
+      "lap_times_url": null,
+      "laps": [
+        152.812,
+        130.633,
+        126.091,
+        130.768,
+        119.819
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Anthony Loliva",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.602,
+      "lap_times_url": null,
+      "laps": [
+        156.815,
+        120.602,
+        126.605,
+        132.574,
+        139.719
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Brody Loliva",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.772,
+      "lap_times_url": null,
+      "laps": [
+        155.491,
+        119.737,
+        135.721,
+        129.997,
+        116.772
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75569"
+}

@@ -1,0 +1,84 @@
+{
+  "heat_no": 75533,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-01T12:30:00",
+  "drivers": [
+    {
+      "name": "Bogdan Zazgars...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 116.451,
+      "lap_times_url": null,
+      "laps": [
+        119.495,
+        122.763,
+        121.787,
+        116.451
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ed Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.028,
+      "lap_times_url": null,
+      "laps": [
+        108.036,
+        107.277,
+        106.525,
+        105.028,
+        105.068
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tristian Gudge",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.259,
+      "lap_times_url": null,
+      "laps": [
+        118.168,
+        110.195,
+        145.67,
+        109.259
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Vlad Pomnomare...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 144.386,
+      "lap_times_url": null,
+      "laps": [
+        190.13,
+        144.386,
+        182.091
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75533"
+}

@@ -1,0 +1,149 @@
+{
+  "heat_no": 75572,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-02T15:15:00",
+  "drivers": [
+    {
+      "name": "Paul Thomas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.564,
+      "lap_times_url": null,
+      "laps": [
+        135.343,
+        108.626,
+        116.276,
+        106.499,
+        105.564,
+        106.645
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Lonnie Adamson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.033,
+      "lap_times_url": null,
+      "laps": [
+        134.97,
+        108.296,
+        112.776,
+        107.429,
+        105.934,
+        104.033
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Armin Maleki",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.723,
+      "lap_times_url": null,
+      "laps": [
+        191.694,
+        149.397,
+        135.12,
+        129.723
+      ],
+      "lap_positions": [
+        7,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Azaria Dereje",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 136.073,
+      "lap_times_url": null,
+      "laps": [
+        148.557,
+        169.526,
+        136.073,
+        153.041
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Chad Tupac",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 141.898,
+      "lap_times_url": null,
+      "laps": [
+        172.427,
+        156.827,
+        145.082,
+        141.898
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Pape Diagne",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 153.849,
+      "lap_times_url": null,
+      "laps": [
+        161.824,
+        188.906,
+        180.987,
+        153.849
+      ],
+      "lap_positions": [
+        4,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Aman Kumar",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 143.671,
+      "lap_times_url": null,
+      "laps": [
+        178.882,
+        143.671,
+        143.93,
+        144.366
+      ],
+      "lap_positions": [
+        6,
+        3,
+        5,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75572"
+}
