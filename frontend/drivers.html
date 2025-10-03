@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Driver Watchlist — PGP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<header>
+  <h1>Driver Watchlist</h1>
+</header>
+<main>
+  <div class="card">
+    <div class="small">The following drivers are listed in <code>data/drivers_watchlist.json</code>. Add names exactly as they appear on the site.</div>
+  </div>
+  <div id="drivers"></div>
+</main>
+<script src="./app.js"></script>
+<script>
+window.renderWatchlist();
+</script>
+</body>
+</html>
