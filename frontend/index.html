@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>PGP Heats Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<header>
+  <h1>PGP Heats Browser</h1>
+</header>
+<main>
+  <div class="card">
+    <div class="row" style="justify-content: space-between;">
+      <div>
+        <div class="small">Source: <span id="source" class="mono"></span></div>
+        <div class="small">Last updated: <span id="updated" class="mono"></span></div>
+        <div class="small">Heats: <span id="heatsCount" class="mono"></span>, Max Heat: <span id="maxHeat" class="mono"></span></div>
+      </div>
+      <div>
+        <a href="./drivers.html" class="badge">Watchlist Drivers →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row" style="margin-bottom:10px;">
+      <label>Jump to heat&nbsp;<input id="jump" type="number" placeholder="e.g. 82271"/></label>
+      <button id="go">Open</button>
+    </div>
+    <div id="heatContainer"></div>
+  </div>
+</main>
+<script src="./app.js"></script>
+<script>
+document.getElementById('go').onclick = () => {
+  const n = parseInt(document.getElementById('jump').value, 10);
+  if (!n) return;
+  window.renderHeat(n);
+};
+</script>
+</body>
+</html>
