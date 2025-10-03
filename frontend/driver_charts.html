@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Driver Lap Charts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css"/>
+  <!-- Chart.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>Driver Lap Charts</h1>
+</header>
+<main>
+  <div class="card">
+    <div class="row" style="gap:10px;">
+      <label>Driver&nbsp;
+        <input id="driverInput" placeholder="Exact display name (e.g., Ed Acosta)" style="min-width:280px;">
+      </label>
+      <button id="loadBtn">Load</button>
+      <a href="./drivers.html" class="badge">Watchlist Table →</a>
+    </div>
+    <div class="small" id="status"></div>
+  </div>
+
+  <div class="card">
+    <canvas id="chart" height="120"></canvas>
+  </div>
+
+  <div class="card">
+    <table id="lapsTable"><thead></thead><tbody></tbody></table>
+  </div>
+</main>
+
+<script type="module">
+async function jget(path) {
+  // Try ../data first (when opening from /frontend), fall back to ./data for GitHub Pages
+  for (const p of [ "../data/driver_index.json", "./data/driver_index.json" ]) {
+    try {
+      const r = await fetch(p, {cache: "no-store"});
+      if (r.ok) return r.json();
+    } catch {}
+  }
+  throw new Error("driver_index.json not found");
+}
+
+function secondsToClock(s) {
+  if (s == null || isNaN(s)) return "";
+  const m = Math.floor(s/60), r = (s - m*60).toFixed(3);
+  return m > 0 ? `${m}:${r.padStart(6,"0")}` : `${r}`;
+}
+
+let chart;
+
+function renderChart(name, series) {
+  const ctx = document.getElementById("chart").getContext("2d");
+  const labels = [];
+  const bests = [];
+  const points = []; // each lap as a point over (heat index)
+
+  // Flatten laps across heats
+  series.forEach((entry, idx) => {
+    const label = `${entry.heat_no || "?"} • ${entry.start_time_iso || ""}`;
+    labels.push(label);
+    bests.push(entry.best_lap_seconds ?? null);
+
+    if (Array.isArray(entry.laps)) {
+      entry.laps.forEach((t) => {
+        points.push({ x: idx, y: t });
+      });
+    }
+  });
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Best lap per heat",
+          data: bests,
+          tension: 0.25,
+          spanGaps: true
+        },
+        {
+          label: "All laps (scatter)",
+          data: points,
+          parsing: false,      // we provided {x,y}
+          showLine: false,
+          pointRadius: 2,
+          type: "scatter"
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: "nearest", intersect: false },
+      scales: {
+        y: {
+          title: { display: true, text: "Seconds (lower is faster)" },
+          reverse: false
+        },
+        x: {
+          ticks: { autoSkip: true }
+        }
+      },
+      plugins: {
+        title: { display: true, text: `Lap Times for ${name}` },
+        legend: { display: true }
+      }
+    }
+  });
+}
+
+function renderTable(series) {
+  const thead = document.querySelector("#lapsTable thead");
+  const tbody = document.querySelector("#lapsTable tbody");
+  thead.innerHTML = `
+    <tr>
+      <th>Heat</th><th>Type</th><th>Pos</th><th>Best</th><th># Laps</th><th>Start</th>
+    </tr>`;
+  tbody.innerHTML = "";
+  series.forEach(e => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><a href="./index.html#${e.heat_no}" onclick="window.location.href='./index.html#${e.heat_no}'">${e.heat_no ?? ""}</a></td>
+      <td>${e.heat_type ?? ""}</td>
+      <td>${e.position ?? ""}</td>
+      <td>${secondsToClock(e.best_lap_seconds)}</td>
+      <td>${Array.isArray(e.laps) ? e.laps.length : ""}</td>
+      <td class="small">${e.start_time_iso ?? ""}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+async function loadDriver(name) {
+  const status = document.getElementById("status");
+  status.textContent = "Loading…";
+  const idx = await jget();
+  const series = (idx.drivers?.[name] || []).sort((a,b) => {
+    // sort by start time then heat number
+    const at = a.start_time_iso || "", bt = b.start_time_iso || "";
+    if (at < bt) return -1;
+    if (at > bt) return 1;
+    return (a.heat_no||0) - (b.heat_no||0);
+  });
+  if (!series.length) {
+    status.textContent = "No entries found for that driver (check exact spelling as shown on the site).";
+    if (chart) chart.destroy();
+    renderTable([]);
+    return;
+  }
+  status.textContent = `Found ${series.length} heat(s).`;
+  renderChart(name, series);
+  renderTable(series);
+}
+
+document.getElementById("loadBtn").onclick = () => {
+  const name = (document.getElementById("driverInput").value || "").trim();
+  if (name) loadDriver(name);
+};
+
+// Deep-link: driver_charts.html#Driver%20Name
+if (location.hash?.length > 1) {
+  const n = decodeURIComponent(location.hash.slice(1));
+  document.getElementById("driverInput").value = n;
+  loadDriver(n);
+}
+</script>
+</body>
+</html>
