@@ -2,9 +2,17 @@ from __future__ import annotations
 import sys
 import os
 import re
+import argparse
 from urllib.parse import urljoin
 from typing import Dict, Any, List, Optional
 from . import config, clubspeed, parse, storage
+
+def parse_args():
+    p = argparse.ArgumentParser(description="PGP heat scraper")
+    p.add_argument("start", nargs="?", type=int, help="optional: start heat")
+    p.add_argument("end",   nargs="?", type=int, help="optional: end heat (inclusive)")
+    p.add_argument("--max", type=int, default=None, help="max heats to process this run")
+    return p.parse_args()
 
 def fetch_html(url: str) -> Optional[str]:
     resp = clubspeed.get(url)
@@ -118,33 +126,28 @@ import json
 
 def main():
     storage.ensure_dirs()
+    args = parse_args()
+
     last = storage.read_last_heat()
     start = last + 1 if isinstance(last, int) else config.START_HEAT_NO
-    consecutive_misses = 0
-    processed = 0
 
-    # You can pass a single heat or a range via CLI (optional)
-    #   python -m scraper.run                # continuous from last/START_HEAT_NO
-    #   python -m scraper.run 80000 80500    # bounded backfill
-    args = sys.argv[1:]
-    bounded_start = bounded_end = None
-    if len(args) == 1 and args[0].isdigit():
-        bounded_start = int(args[0])
-        bounded_end = bounded_start
-    elif len(args) == 2 and args[0].isdigit() and args[1].isdigit():
-        bounded_start = int(args[0])
-        bounded_end = int(args[1])
-
-    if bounded_start is not None:
-        cur = bounded_start
-        end = bounded_end
+    # CLI bounding (optional)
+    if args.start is not None:
+        cur = args.start
+        end = args.end if args.end is not None else args.start
     else:
         cur = start
         end = None
 
+    consecutive_misses = 0
+    processed = 0
+
     while True:
         if end is not None and cur > end:
             break
+        if args.max is not None and processed >= args.max:
+            break
+
         heat = scrape_heat(cur)
         if heat is None:
             consecutive_misses += 1
