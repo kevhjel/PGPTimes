@@ -1,0 +1,115 @@
+{
+  "heat_no": 75616,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-04T13:45:00",
+  "drivers": [
+    {
+      "name": "Michael Fulk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.131,
+      "lap_times_url": null,
+      "laps": [
+        132.375,
+        111.397,
+        110.04,
+        109.131,
+        109.37,
+        109.586
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Karthik Gannam...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 114.568,
+      "lap_times_url": null,
+      "laps": [
+        147.648,
+        124.078,
+        125.749,
+        114.568,
+        123.902
+      ],
+      "lap_positions": [
+        4,
+        3,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cole Kroenke",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.519,
+      "lap_times_url": null,
+      "laps": [
+        136.418,
+        153.163,
+        112.541,
+        112.519,
+        150.007
+      ],
+      "lap_positions": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Hemender Singh...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 118.928,
+      "lap_times_url": null,
+      "laps": [
+        157.578,
+        130.652,
+        118.928,
+        139.904,
+        128.916
+      ],
+      "lap_positions": [
+        5,
+        4,
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Abhimanyu Bellam",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 118.743,
+      "lap_times_url": null,
+      "laps": [
+        141.316,
+        120.384,
+        120.942,
+        118.743,
+        126.715
+      ],
+      "lap_positions": [
+        3,
+        2,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75616"
+}

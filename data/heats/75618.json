@@ -1,0 +1,71 @@
+{
+  "heat_no": 75618,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-04T14:15:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.461,
+      "lap_times_url": null,
+      "laps": [
+        141.315,
+        106.461,
+        106.569,
+        106.042,
+        105.461,
+        105.952
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tianyue Zhang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.654,
+      "lap_times_url": null,
+      "laps": [
+        176.817,
+        121.654,
+        193.285,
+        178.143
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Liangshuai Hou",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.31,
+      "lap_times_url": null,
+      "laps": [
+        155.238,
+        127.691,
+        119.935,
+        112.31,
+        117.122
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75618"
+}

@@ -1,0 +1,77 @@
+{
+  "heat_no": 75619,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-04T14:30:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.081,
+      "lap_times_url": null,
+      "laps": [
+        136.234,
+        114.114,
+        105.053,
+        104.313,
+        105.022,
+        104.081,
+        105.94
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sachin Fernando",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.361,
+      "lap_times_url": null,
+      "laps": [
+        151.385,
+        121.361,
+        173.311,
+        171.908,
+        124.225
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Brandon Barron",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 122.341,
+      "lap_times_url": null,
+      "laps": [
+        148.229,
+        139.876,
+        123.975,
+        122.341,
+        131.14,
+        122.345
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75619"
+}

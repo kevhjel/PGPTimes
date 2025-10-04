@@ -1,0 +1,99 @@
+{
+  "heat_no": 75617,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-04T14:00:00",
+  "drivers": [
+    {
+      "name": "casey Vanpelt",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 135.894,
+      "lap_times_url": null,
+      "laps": [
+        152.435,
+        136.621,
+        149.131,
+        135.894
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Adam Towers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.525,
+      "lap_times_url": null,
+      "laps": [
+        142.085,
+        109.525,
+        109.983,
+        150.549,
+        110.502
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alena Dickmann",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 127.095,
+      "lap_times_url": null,
+      "laps": [
+        204.014,
+        127.905,
+        127.095,
+        131.083
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Cesar Montalvo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.771,
+      "lap_times_url": null,
+      "laps": [
+        220.178,
+        135.114,
+        155.634,
+        122.771
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Loren Adorisio",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 244.141,
+      "lap_times_url": null,
+      "laps": [
+        244.141
+      ],
+      "lap_positions": [
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75617"
+}

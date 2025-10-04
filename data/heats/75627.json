@@ -1,0 +1,29 @@
+{
+  "heat_no": 75627,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-05T09:15:00",
+  "drivers": [
+    {
+      "name": "McKay Matheson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.463,
+      "lap_times_url": null,
+      "laps": [
+        124.865,
+        129.005,
+        125.11,
+        151.717,
+        115.463
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75627"
+}

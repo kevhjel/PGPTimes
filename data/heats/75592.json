@@ -1,0 +1,50 @@
+{
+  "heat_no": 75592,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-03T13:00:00",
+  "drivers": [
+    {
+      "name": "Jonah Sprague",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.415,
+      "lap_times_url": null,
+      "laps": [
+        139.184,
+        121.415,
+        121.895,
+        121.92,
+        133.888
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Colby Simons",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.529,
+      "lap_times_url": null,
+      "laps": [
+        136.727,
+        114.85,
+        112.9,
+        112.529,
+        132.945
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75592"
+}
