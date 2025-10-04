@@ -1,0 +1,35 @@
+{
+  "heat_no": 75978,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T12:45:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.56,
+      "lap_times_url": null,
+      "laps": [
+        84.952,
+        82.885,
+        82.425,
+        82.362,
+        81.74,
+        81.725,
+        81.56,
+        81.719
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75978"
+}

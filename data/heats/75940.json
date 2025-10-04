@@ -1,0 +1,54 @@
+{
+  "heat_no": 75940,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-19T09:15:00",
+  "drivers": [
+    {
+      "name": "Andrew Espenes",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.284,
+      "lap_times_url": null,
+      "laps": [
+        122.032,
+        84.149,
+        83.054,
+        82.985,
+        82.467,
+        82.284
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "John Ruffer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.588,
+      "lap_times_url": null,
+      "laps": [
+        128.183,
+        92.712,
+        91.045,
+        91.538,
+        89.946,
+        89.588
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75940"
+}

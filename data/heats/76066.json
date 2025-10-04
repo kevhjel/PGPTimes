@@ -1,0 +1,152 @@
+{
+  "heat_no": 76066,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-01-26T10:00:00",
+  "drivers": [
+    {
+      "name": "Chris Eng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.722,
+      "lap_times_url": null,
+      "laps": [
+        89.412,
+        88.885,
+        94.821,
+        90.503,
+        98.18,
+        88.192,
+        87.722
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "patrick byrne",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.807,
+      "lap_times_url": null,
+      "laps": [
+        90.582,
+        90.22,
+        86.363,
+        86.022,
+        83.807,
+        91.185,
+        86.424
+      ],
+      "lap_positions": [
+        2,
+        4,
+        2,
+        2,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "chris peterson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.358,
+      "lap_times_url": null,
+      "laps": [
+        92.469,
+        85.465,
+        86.901,
+        85.365,
+        84.358,
+        88.203,
+        85.397
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "Jake Herman",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 99.097,
+      "lap_times_url": null,
+      "laps": [
+        105.617,
+        109.068,
+        105.979,
+        99.097,
+        144.812
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jordan Hinrichs",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.688,
+      "lap_times_url": null,
+      "laps": [
+        91.906,
+        88.891,
+        94.645,
+        90.849,
+        97.824,
+        88.424,
+        87.688
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "Shep Jones",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 93.555,
+      "lap_times_url": null,
+      "laps": [
+        102.346,
+        108.99,
+        106.312,
+        98.423,
+        104.297,
+        93.555
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76066"
+}

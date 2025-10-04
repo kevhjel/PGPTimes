@@ -1,0 +1,46 @@
+{
+  "heat_no": 76164,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-31T14:15:00",
+  "drivers": [
+    {
+      "name": "Jason Hedrick",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.705,
+      "lap_times_url": null,
+      "laps": [
+        121.934,
+        178.208,
+        117.705,
+        118.887
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Frank the Tank",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.507,
+      "lap_times_url": null,
+      "laps": [
+        117.507,
+        124.835,
+        119.513,
+        119.912
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76164"
+}

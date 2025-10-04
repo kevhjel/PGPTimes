@@ -1,0 +1,81 @@
+{
+  "heat_no": 76044,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Daniel Sides",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.788,
+      "lap_times_url": null,
+      "laps": [
+        127.897,
+        105.139,
+        114.344,
+        101.788,
+        131.869,
+        107.164
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "TJ Sharp",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.277,
+      "lap_times_url": null,
+      "laps": [
+        113.707,
+        82.613,
+        82.383,
+        82.021,
+        83.536,
+        81.391,
+        81.277,
+        81.491
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Fuson Matthew",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.163,
+      "lap_times_url": null,
+      "laps": [
+        133.153,
+        101.465,
+        98.624,
+        98.895,
+        97.163,
+        100.645
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76044"
+}

@@ -1,0 +1,29 @@
+{
+  "heat_no": 76173,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-31T16:30:00",
+  "drivers": [
+    {
+      "name": "Giuseppe Ruggeri",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.856,
+      "lap_times_url": null,
+      "laps": [
+        139.367,
+        118.031,
+        122.036,
+        117.856,
+        120.308
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76173"
+}

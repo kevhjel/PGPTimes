@@ -1,0 +1,107 @@
+{
+  "heat_no": 75893,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-16T15:30:00",
+  "drivers": [
+    {
+      "name": "Garrett Kramer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.533,
+      "lap_times_url": null,
+      "laps": [
+        145.517,
+        138.867,
+        117.533,
+        125.872,
+        145.858
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lucas Bosa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.009,
+      "lap_times_url": null,
+      "laps": [
+        174.83,
+        154.862,
+        126.009,
+        130.784
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mark Brownfield",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 135.69,
+      "lap_times_url": null,
+      "laps": [
+        173.455,
+        155.685,
+        135.69,
+        151.428
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tim Kramer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.03,
+      "lap_times_url": null,
+      "laps": [
+        161.343,
+        142.951,
+        132.159,
+        132.179,
+        126.03
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Wyatt Leyerly",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 137.622,
+      "lap_times_url": null,
+      "laps": [
+        196.887,
+        145.561,
+        137.622,
+        145.155
+      ],
+      "lap_positions": [
+        5,
+        3,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75893"
+}

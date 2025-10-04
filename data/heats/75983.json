@@ -1,0 +1,33 @@
+{
+  "heat_no": 75983,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T13:15:00",
+  "drivers": [
+    {
+      "name": "Dirty Dan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.957,
+      "lap_times_url": null,
+      "laps": [
+        84.738,
+        83.82,
+        87.327,
+        118.339,
+        82.957,
+        83.414,
+        83.226
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75983"
+}

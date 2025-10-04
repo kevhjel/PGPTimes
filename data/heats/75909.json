@@ -1,0 +1,77 @@
+{
+  "heat_no": 75909,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-17T15:15:00",
+  "drivers": [
+    {
+      "name": "yida gao",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.143,
+      "lap_times_url": null,
+      "laps": [
+        120.48,
+        94.378,
+        88.78,
+        88.274,
+        91.189,
+        87.466,
+        87.143
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yike Li",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.621,
+      "lap_times_url": null,
+      "laps": [
+        123.104,
+        100.958,
+        99.009,
+        104.284,
+        104.975,
+        98.621
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Naifang Miao",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 116.473,
+      "lap_times_url": null,
+      "laps": [
+        141.996,
+        127.388,
+        119.929,
+        116.473,
+        166.295
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75909"
+}

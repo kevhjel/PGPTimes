@@ -1,0 +1,35 @@
+{
+  "heat_no": 75988,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T14:15:00",
+  "drivers": [
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.063,
+      "lap_times_url": null,
+      "laps": [
+        99.514,
+        83.689,
+        82.586,
+        82.5,
+        82.505,
+        82.063,
+        82.103,
+        82.565
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75988"
+}

@@ -1,0 +1,52 @@
+{
+  "heat_no": 76201,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-01T14:00:00",
+  "drivers": [
+    {
+      "name": "Cole Kroenke",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 102.172,
+      "lap_times_url": null,
+      "laps": [
+        125.185,
+        107.535,
+        103.567,
+        102.172,
+        102.73,
+        108.548
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hemender Singh...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.683,
+      "lap_times_url": null,
+      "laps": [
+        176.003,
+        114.332,
+        112.683,
+        113.298,
+        159.279
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76201"
+}

@@ -1,0 +1,33 @@
+{
+  "heat_no": 75902,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-17T13:45:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.442,
+      "lap_times_url": null,
+      "laps": [
+        82.987,
+        83.109,
+        82.715,
+        83.127,
+        82.903,
+        82.442,
+        83.825
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75902"
+}

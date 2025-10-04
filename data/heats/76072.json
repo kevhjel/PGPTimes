@@ -1,0 +1,83 @@
+{
+  "heat_no": 76072,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-26T11:30:00",
+  "drivers": [
+    {
+      "name": "Yayati Pahuja",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.031,
+      "lap_times_url": null,
+      "laps": [
+        105.801,
+        88.111,
+        84.77,
+        84.031,
+        84.14,
+        84.481,
+        84.469
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Armaan Handa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.722,
+      "lap_times_url": null,
+      "laps": [
+        106.682,
+        86.277,
+        85.829,
+        83.722,
+        84.523,
+        85.641,
+        84.24
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kartik Arora",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.997,
+      "lap_times_url": null,
+      "laps": [
+        114.417,
+        94.241,
+        91.883,
+        91.088,
+        90.565,
+        90.632,
+        89.997
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76072"
+}

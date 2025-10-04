@@ -1,0 +1,29 @@
+{
+  "heat_no": 76167,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-31T15:00:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.101,
+      "lap_times_url": null,
+      "laps": [
+        113.051,
+        110.213,
+        109.479,
+        109.896,
+        108.101
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76167"
+}

@@ -1,0 +1,110 @@
+{
+  "heat_no": 76139,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-30T16:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.89,
+      "lap_times_url": null,
+      "laps": [
+        107.833,
+        81.144,
+        81.515,
+        80.168,
+        80.13,
+        80.302,
+        80.48,
+        79.89
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Scott Ramey",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.912,
+      "lap_times_url": null,
+      "laps": [
+        111.931,
+        95.59,
+        85.337,
+        84.896,
+        84.743,
+        83.912,
+        84.719
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.081,
+      "lap_times_url": null,
+      "laps": [
+        106.168,
+        83.723,
+        83.483,
+        80.244,
+        80.222,
+        80.585,
+        80.626,
+        80.081
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eric Lopez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 96.03,
+      "lap_times_url": null,
+      "laps": [
+        127.768,
+        104.084,
+        101.156,
+        98.524,
+        97.374,
+        96.03
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76139"
+}

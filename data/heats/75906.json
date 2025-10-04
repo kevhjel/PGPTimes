@@ -1,0 +1,89 @@
+{
+  "heat_no": 75906,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-17T14:15:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.592,
+      "lap_times_url": null,
+      "laps": [
+        81.711,
+        81.324,
+        81.029,
+        81.058,
+        80.767,
+        80.608,
+        80.592,
+        80.941
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Bermudez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.336,
+      "lap_times_url": null,
+      "laps": [
+        85.421,
+        85.383,
+        84.586,
+        85.433,
+        84.336,
+        85.11,
+        86.369,
+        84.386
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.474,
+      "lap_times_url": null,
+      "laps": [
+        83.416,
+        81.95,
+        81.849,
+        82.508,
+        82.21,
+        82.482,
+        81.474,
+        82.127
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75906"
+}

@@ -1,0 +1,33 @@
+{
+  "heat_no": 75863,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-09T14:30:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.077,
+      "lap_times_url": null,
+      "laps": [
+        80.774,
+        80.48,
+        80.153,
+        80.144,
+        80.148,
+        80.158,
+        80.077
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75863"
+}

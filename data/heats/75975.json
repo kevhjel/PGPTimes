@@ -1,0 +1,31 @@
+{
+  "heat_no": 75975,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-01-22T11:45:00",
+  "drivers": [
+    {
+      "name": "Tommy Clark",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.507,
+      "lap_times_url": null,
+      "laps": [
+        134.236,
+        108.269,
+        100.618,
+        97.293,
+        96.402,
+        94.507
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75975"
+}

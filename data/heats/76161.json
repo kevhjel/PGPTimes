@@ -1,0 +1,76 @@
+{
+  "heat_no": 76161,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-31T13:30:00",
+  "drivers": [
+    {
+      "name": "Justine Leleng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 148.297,
+      "lap_times_url": null,
+      "laps": [
+        219.771,
+        221.55,
+        148.297
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "Presley Grant",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 151.948,
+      "lap_times_url": null,
+      "laps": [
+        217.964,
+        199.671,
+        151.948
+      ],
+      "lap_positions": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "ALEA SPRENGER",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 142.207,
+      "lap_times_url": null,
+      "laps": [
+        220.944,
+        153.014,
+        142.207
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Carolyn Sprenger",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 150.893,
+      "lap_times_url": null,
+      "laps": [
+        219.543,
+        160.567,
+        150.893
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76161"
+}

@@ -1,0 +1,70 @@
+{
+  "heat_no": 76013,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-23T16:30:00",
+  "drivers": [
+    {
+      "name": "David Bermudez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.614,
+      "lap_times_url": null,
+      "laps": [
+        100.735,
+        84.368,
+        90.337,
+        83.214,
+        83.737,
+        83.344,
+        82.748,
+        83.58,
+        82.614,
+        82.626
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.697,
+      "lap_times_url": null,
+      "laps": [
+        100.256,
+        85.61,
+        83.458,
+        81.857,
+        94.422,
+        82.072,
+        81.697,
+        82.566,
+        82.097,
+        81.974
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76013"
+}

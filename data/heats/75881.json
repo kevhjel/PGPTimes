@@ -1,0 +1,116 @@
+{
+  "heat_no": 75881,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-15T15:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.035,
+      "lap_times_url": null,
+      "laps": [
+        84.552,
+        81.6,
+        80.339,
+        80.915,
+        81.748,
+        80.688,
+        80.035,
+        80.226
+      ],
+      "lap_positions": [
+        2,
+        4,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Sathya Venkate...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.667,
+      "lap_times_url": null,
+      "laps": [
+        86.027,
+        81.147,
+        80.927,
+        80.406,
+        79.852,
+        80.468,
+        81.395,
+        79.667
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.919,
+      "lap_times_url": null,
+      "laps": [
+        88.614,
+        80.576,
+        80.923,
+        80.336,
+        79.919,
+        80.008,
+        80.194,
+        80.372
+      ],
+      "lap_positions": [
+        4,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.074,
+      "lap_times_url": null,
+      "laps": [
+        84.439,
+        81.51,
+        81.074,
+        81.68,
+        81.546,
+        92.563,
+        81.364,
+        81.239
+      ],
+      "lap_positions": [
+        1,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75881"
+}

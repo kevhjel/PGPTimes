@@ -1,0 +1,103 @@
+{
+  "heat_no": 75890,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-16T14:45:00",
+  "drivers": [
+    {
+      "name": "Shenghan Xu",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 145.154,
+      "lap_times_url": null,
+      "laps": [
+        165.893,
+        163.262,
+        148.5,
+        145.154
+      ],
+      "lap_positions": [
+        1,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mona Malhi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 144.003,
+      "lap_times_url": null,
+      "laps": [
+        196.295,
+        177.357,
+        144.003,
+        160.15
+      ],
+      "lap_positions": [
+        5,
+        5,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Sonia Malhi",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 149.082,
+      "lap_times_url": null,
+      "laps": [
+        185.745,
+        149.082,
+        150.353,
+        202.055
+      ],
+      "lap_positions": [
+        3,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Yabin Zhang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 133.239,
+      "lap_times_url": null,
+      "laps": [
+        176.367,
+        146.0,
+        144.699,
+        133.239
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Shengkai Xu",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 149.874,
+      "lap_times_url": null,
+      "laps": [
+        185.999,
+        161.145,
+        149.874,
+        159.71
+      ],
+      "lap_positions": [
+        4,
+        3,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75890"
+}

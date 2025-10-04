@@ -1,0 +1,46 @@
+{
+  "heat_no": 75892,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-16T15:45:00",
+  "drivers": [
+    {
+      "name": "Shenghan Xu",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 139.969,
+      "lap_times_url": null,
+      "laps": [
+        160.599,
+        142.255,
+        142.364,
+        139.969
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Shengkai Xu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 131.846,
+      "lap_times_url": null,
+      "laps": [
+        158.399,
+        165.703,
+        140.145,
+        131.846
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75892"
+}

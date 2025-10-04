@@ -1,0 +1,58 @@
+{
+  "heat_no": 76020,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-24T10:30:00",
+  "drivers": [
+    {
+      "name": "Isreal Jimenez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.0,
+      "lap_times_url": null,
+      "laps": [
+        117.54,
+        100.195,
+        96.965,
+        94.478,
+        94.502,
+        92.0,
+        92.864
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyler Overdorf",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.312,
+      "lap_times_url": null,
+      "laps": [
+        106.482,
+        91.775,
+        89.28,
+        88.327,
+        87.238,
+        86.478,
+        86.312
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76020"
+}

@@ -1,0 +1,79 @@
+{
+  "heat_no": 75949,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-19T11:45:00",
+  "drivers": [
+    {
+      "name": "Henry Wang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.782,
+      "lap_times_url": null,
+      "laps": [
+        126.542,
+        86.978,
+        84.899,
+        85.105,
+        85.701,
+        84.17,
+        83.782
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DWIREF OZA",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.821,
+      "lap_times_url": null,
+      "laps": [
+        126.442,
+        90.361,
+        87.533,
+        109.167,
+        87.124,
+        86.821,
+        86.859
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alex KOVALYSHYN",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.799,
+      "lap_times_url": null,
+      "laps": [
+        131.146,
+        110.403,
+        102.799,
+        107.574,
+        106.614
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75949"
+}

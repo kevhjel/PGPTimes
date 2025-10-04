@@ -1,0 +1,46 @@
+{
+  "heat_no": 76206,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-01T15:15:00",
+  "drivers": [
+    {
+      "name": "Pratik Kapoor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.26,
+      "lap_times_url": null,
+      "laps": [
+        157.301,
+        121.26,
+        138.944,
+        175.116
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pranav Kapoor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 138.828,
+      "lap_times_url": null,
+      "laps": [
+        171.074,
+        138.828,
+        144.427,
+        143.394
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76206"
+}

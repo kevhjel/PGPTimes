@@ -1,0 +1,33 @@
+{
+  "heat_no": 75973,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T11:30:00",
+  "drivers": [
+    {
+      "name": "Nicolas Gonzales",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.939,
+      "lap_times_url": null,
+      "laps": [
+        108.776,
+        86.732,
+        86.989,
+        85.61,
+        86.531,
+        86.014,
+        84.939
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75973"
+}

@@ -1,0 +1,160 @@
+{
+  "heat_no": 76010,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-23T15:30:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.117,
+      "lap_times_url": null,
+      "laps": [
+        81.244,
+        81.814,
+        80.786,
+        80.635,
+        80.457,
+        80.687,
+        80.117,
+        80.495
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Matt Petrich",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.091,
+      "lap_times_url": null,
+      "laps": [
+        81.284,
+        81.44,
+        80.34,
+        82.138,
+        80.21,
+        80.091,
+        80.634,
+        81.866
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ashton Leeds",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.844,
+      "lap_times_url": null,
+      "laps": [
+        88.32,
+        87.887,
+        86.229,
+        85.535,
+        85.578,
+        86.355,
+        84.844,
+        85.712
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Shayne Leeds",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.968,
+      "lap_times_url": null,
+      "laps": [
+        98.298,
+        97.227,
+        95.107,
+        94.973,
+        94.931,
+        94.251,
+        92.968
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Torell Cortez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 95.983,
+      "lap_times_url": null,
+      "laps": [
+        105.327,
+        112.326,
+        99.151,
+        97.812,
+        97.164,
+        95.983
+      ],
+      "lap_positions": [
+        5,
+        6,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Wes Cortez",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 97.405,
+      "lap_times_url": null,
+      "laps": [
+        112.93,
+        104.774,
+        99.228,
+        97.883,
+        97.963,
+        97.405
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76010"
+}

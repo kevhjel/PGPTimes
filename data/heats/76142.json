@@ -1,0 +1,52 @@
+{
+  "heat_no": 76142,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-30T16:45:00",
+  "drivers": [
+    {
+      "name": "Silva Bolds-Mo...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.081,
+      "lap_times_url": null,
+      "laps": [
+        152.128,
+        115.621,
+        114.481,
+        109.26,
+        107.081
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Braeden Bolds-...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.251,
+      "lap_times_url": null,
+      "laps": [
+        148.984,
+        108.824,
+        108.568,
+        105.251,
+        105.77,
+        106.081
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76142"
+}

@@ -1,0 +1,108 @@
+{
+  "heat_no": 76036,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-24T16:15:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.769,
+      "lap_times_url": null,
+      "laps": [
+        109.751,
+        82.069,
+        82.465,
+        81.769,
+        82.078,
+        81.928,
+        83.208,
+        82.218
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.934,
+      "lap_times_url": null,
+      "laps": [
+        111.488,
+        82.727,
+        82.828,
+        82.482,
+        82.506,
+        81.934,
+        83.017,
+        82.122
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kaitlyn Carlson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.696,
+      "lap_times_url": null,
+      "laps": [
+        120.208,
+        97.055,
+        95.696,
+        96.638,
+        103.325,
+        98.741
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Andre Fails",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.901,
+      "lap_times_url": null,
+      "laps": [
+        127.995,
+        97.276,
+        94.008,
+        90.901,
+        98.606,
+        106.478
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76036"
+}

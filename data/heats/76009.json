@@ -1,0 +1,60 @@
+{
+  "heat_no": 76009,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-23T15:15:00",
+  "drivers": [
+    {
+      "name": "Peter Franklin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.895,
+      "lap_times_url": null,
+      "laps": [
+        107.693,
+        94.044,
+        92.101,
+        89.895,
+        90.279,
+        90.765,
+        90.756
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jordan Hinrichs",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.096,
+      "lap_times_url": null,
+      "laps": [
+        87.172,
+        82.547,
+        81.739,
+        81.21,
+        81.096,
+        81.193,
+        81.698,
+        81.286
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76009"
+}

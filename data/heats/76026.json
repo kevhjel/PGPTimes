@@ -1,0 +1,81 @@
+{
+  "heat_no": 76026,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-24T13:00:00",
+  "drivers": [
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.913,
+      "lap_times_url": null,
+      "laps": [
+        98.106,
+        81.729,
+        88.094,
+        81.481,
+        81.783,
+        81.529,
+        80.913,
+        81.063
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jevin Hollings...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.92,
+      "lap_times_url": null,
+      "laps": [
+        106.087,
+        123.593,
+        88.92,
+        96.396,
+        96.856,
+        120.89
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Maximus Mccaff...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.88,
+      "lap_times_url": null,
+      "laps": [
+        119.774,
+        109.87,
+        103.157,
+        101.88,
+        102.789,
+        105.958
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76026"
+}

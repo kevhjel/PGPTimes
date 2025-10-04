@@ -1,0 +1,27 @@
+{
+  "heat_no": 75888,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-16T11:30:00",
+  "drivers": [
+    {
+      "name": "Quintin Sinclair",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 135.642,
+      "lap_times_url": null,
+      "laps": [
+        153.023,
+        135.642,
+        151.783,
+        142.831
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75888"
+}

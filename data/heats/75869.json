@@ -1,0 +1,56 @@
+{
+  "heat_no": 75869,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-09T16:00:00",
+  "drivers": [
+    {
+      "name": "Brayam Juarez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.991,
+      "lap_times_url": null,
+      "laps": [
+        124.186,
+        106.399,
+        130.614,
+        99.33,
+        95.728,
+        93.991
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alex Juarez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.678,
+      "lap_times_url": null,
+      "laps": [
+        123.602,
+        98.717,
+        94.589,
+        92.465,
+        90.678,
+        91.45,
+        90.689
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75869"
+}

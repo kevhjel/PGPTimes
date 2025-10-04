@@ -1,0 +1,81 @@
+{
+  "heat_no": 75877,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-01-15T13:45:00",
+  "drivers": [
+    {
+      "name": "Azriel Castill...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.49,
+      "lap_times_url": null,
+      "laps": [
+        138.153,
+        84.412,
+        85.783,
+        83.07,
+        82.49,
+        83.501
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Howie Gordon",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.26,
+      "lap_times_url": null,
+      "laps": [
+        106.071,
+        88.638,
+        90.668,
+        87.26,
+        88.04,
+        87.599,
+        116.209
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Shacklef...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.159,
+      "lap_times_url": null,
+      "laps": [
+        106.509,
+        91.159,
+        91.617,
+        93.785,
+        93.341,
+        95.149,
+        93.217
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75877"
+}

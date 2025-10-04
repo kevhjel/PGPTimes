@@ -1,0 +1,108 @@
+{
+  "heat_no": 76023,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-24T12:00:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.556,
+      "lap_times_url": null,
+      "laps": [
+        112.774,
+        80.831,
+        80.355,
+        79.87,
+        91.48,
+        79.556,
+        79.648,
+        79.662
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Matt Petrich",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.592,
+      "lap_times_url": null,
+      "laps": [
+        102.344,
+        81.433,
+        80.314,
+        89.647,
+        80.289,
+        79.695,
+        80.045,
+        79.592
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jevin Hollings...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.139,
+      "lap_times_url": null,
+      "laps": [
+        124.488,
+        101.208,
+        96.545,
+        106.73,
+        87.273,
+        87.519,
+        87.139
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Maximus Mccaff...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.254,
+      "lap_times_url": null,
+      "laps": [
+        148.612,
+        125.896,
+        112.972,
+        106.254,
+        106.898
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76023"
+}

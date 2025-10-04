@@ -1,0 +1,83 @@
+{
+  "heat_no": 75884,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-15T15:45:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.631,
+      "lap_times_url": null,
+      "laps": [
+        111.855,
+        83.775,
+        83.535,
+        84.092,
+        83.841,
+        83.194,
+        83.735,
+        82.631
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pat Chase",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.235,
+      "lap_times_url": null,
+      "laps": [
+        117.007,
+        89.699,
+        88.889,
+        88.235,
+        91.676,
+        88.956,
+        90.81
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jeannette Cabr...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.567,
+      "lap_times_url": null,
+      "laps": [
+        125.559,
+        115.701,
+        112.615,
+        109.23,
+        107.567,
+        110.277
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75884"
+}

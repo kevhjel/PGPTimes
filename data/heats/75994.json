@@ -1,0 +1,104 @@
+{
+  "heat_no": 75994,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T16:15:00",
+  "drivers": [
+    {
+      "name": "tyler simcox",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.53,
+      "lap_times_url": null,
+      "laps": [
+        119.122,
+        98.99,
+        85.734,
+        85.894,
+        84.828,
+        85.096,
+        84.53
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "caedon Beckner",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.376,
+      "lap_times_url": null,
+      "laps": [
+        118.932,
+        89.356,
+        88.241,
+        87.496,
+        88.1,
+        87.376,
+        87.418
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ayden Bell-Huck",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.105,
+      "lap_times_url": null,
+      "laps": [
+        165.928,
+        99.458,
+        99.235,
+        95.105,
+        117.007,
+        100.573
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Stefan Herzog",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 96.537,
+      "lap_times_url": null,
+      "laps": [
+        121.205,
+        120.618,
+        96.537,
+        97.167,
+        98.477,
+        102.167
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75994"
+}

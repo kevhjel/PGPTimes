@@ -1,0 +1,84 @@
+{
+  "heat_no": 76154,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-31T11:45:00",
+  "drivers": [
+    {
+      "name": "Theodore Griff...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 136.9,
+      "lap_times_url": null,
+      "laps": [
+        175.712,
+        142.676,
+        136.9,
+        146.975
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "Kyler Griffiths",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.309,
+      "lap_times_url": null,
+      "laps": [
+        174.047,
+        149.264,
+        153.899,
+        136.309
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "DAVID ALVARADO",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 135.334,
+      "lap_times_url": null,
+      "laps": [
+        161.368,
+        139.783,
+        156.603,
+        135.334
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Cesar Vazquez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 148.409,
+      "lap_times_url": null,
+      "laps": [
+        177.32,
+        197.558,
+        160.024,
+        148.409
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76154"
+}

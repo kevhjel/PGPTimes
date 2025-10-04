@@ -1,0 +1,50 @@
+{
+  "heat_no": 76120,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-29T10:15:00",
+  "drivers": [
+    {
+      "name": "Kevin Valdez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.222,
+      "lap_times_url": null,
+      "laps": [
+        145.881,
+        116.459,
+        112.222,
+        159.705,
+        120.085
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "O'Ryan Watson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.225,
+      "lap_times_url": null,
+      "laps": [
+        146.016,
+        116.109,
+        113.798,
+        114.131,
+        107.225
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76120"
+}

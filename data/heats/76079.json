@@ -1,0 +1,135 @@
+{
+  "heat_no": 76079,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-26T13:15:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.21,
+      "lap_times_url": null,
+      "laps": [
+        101.543,
+        84.878,
+        83.203,
+        82.698,
+        84.171,
+        82.865,
+        82.998,
+        82.21
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.373,
+      "lap_times_url": null,
+      "laps": [
+        101.186,
+        84.9,
+        84.412,
+        84.597,
+        84.451,
+        82.975,
+        83.742,
+        82.373
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.137,
+      "lap_times_url": null,
+      "laps": [
+        99.913,
+        84.127,
+        83.112,
+        83.622,
+        84.091,
+        82.311,
+        82.354,
+        82.137
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Michael Haas",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 96.289,
+      "lap_times_url": null,
+      "laps": [
+        111.394,
+        98.968,
+        111.403,
+        96.289,
+        96.826,
+        96.993
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Simon Haas",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.547,
+      "lap_times_url": null,
+      "laps": [
+        111.073,
+        95.547,
+        121.29,
+        117.242,
+        97.279,
+        95.918
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76079"
+}

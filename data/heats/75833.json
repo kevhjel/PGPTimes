@@ -1,0 +1,81 @@
+{
+  "heat_no": 75833,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-15T12:00:00",
+  "drivers": [
+    {
+      "name": "Akhil Alluri",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.721,
+      "lap_times_url": null,
+      "laps": [
+        116.94,
+        86.972,
+        85.964,
+        85.05,
+        84.721,
+        86.318,
+        84.762
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Abhinandan Sin...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.24,
+      "lap_times_url": null,
+      "laps": [
+        131.461,
+        106.133,
+        106.255,
+        102.24,
+        105.137,
+        103.941
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.399,
+      "lap_times_url": null,
+      "laps": [
+        116.689,
+        85.67,
+        84.768,
+        85.367,
+        84.065,
+        83.399,
+        83.658
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75833"
+}

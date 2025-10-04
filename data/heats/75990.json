@@ -1,0 +1,60 @@
+{
+  "heat_no": 75990,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-22T15:15:00",
+  "drivers": [
+    {
+      "name": "connor whitelock",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.969,
+      "lap_times_url": null,
+      "laps": [
+        120.749,
+        94.398,
+        92.945,
+        102.318,
+        90.274,
+        89.974,
+        89.969
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.132,
+      "lap_times_url": null,
+      "laps": [
+        118.266,
+        82.785,
+        82.149,
+        81.903,
+        81.132,
+        81.862,
+        81.787,
+        81.641
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75990"
+}
