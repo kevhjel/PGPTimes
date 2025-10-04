@@ -1,0 +1,148 @@
+{
+  "heat_no": 77439,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-03-30T10:00:00",
+  "drivers": [
+    {
+      "name": "Ashton Blais",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 105.166,
+      "lap_times_url": null,
+      "laps": [
+        112.577,
+        145.229,
+        120.018,
+        107.57,
+        105.166
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "name": "Mia Moffitt",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 106.855,
+      "lap_times_url": null,
+      "laps": [
+        111.921,
+        109.133,
+        106.855,
+        109.022,
+        115.393,
+        108.545
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "ENZO SPAGNOLA",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 105.991,
+      "lap_times_url": null,
+      "laps": [
+        106.362,
+        105.991,
+        126.03,
+        107.335,
+        106.614,
+        109.364
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Kollin Short",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.558,
+      "lap_times_url": null,
+      "laps": [
+        106.421,
+        106.888,
+        110.716,
+        101.558,
+        118.896,
+        106.706
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Simon Yalew",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.888,
+      "lap_times_url": null,
+      "laps": [
+        101.793,
+        91.957,
+        102.857,
+        94.334,
+        90.888,
+        102.912,
+        92.943
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cora Goe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.783,
+      "lap_times_url": null,
+      "laps": [
+        102.661,
+        97.19,
+        97.288,
+        94.585,
+        92.783,
+        94.867,
+        96.742
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77439"
+}

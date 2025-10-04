@@ -1,0 +1,88 @@
+{
+  "heat_no": 77445,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-30T11:00:00",
+  "drivers": [
+    {
+      "name": "Jacob Durance",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 100.659,
+      "lap_times_url": null,
+      "laps": [
+        148.279,
+        124.207,
+        114.398,
+        104.359,
+        102.607,
+        100.659
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Emma Durance",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 184.464,
+      "lap_times_url": null,
+      "laps": [
+        213.408,
+        184.464,
+        189.552
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Sarah Durance",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.155,
+      "lap_times_url": null,
+      "laps": [
+        172.168,
+        143.469,
+        136.419,
+        134.155
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Scott Durance",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.445,
+      "lap_times_url": null,
+      "laps": [
+        162.562,
+        114.859,
+        109.639,
+        104.297,
+        101.445
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77445"
+}

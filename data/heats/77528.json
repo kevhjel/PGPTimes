@@ -1,0 +1,50 @@
+{
+  "heat_no": 77528,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-03T12:30:00",
+  "drivers": [
+    {
+      "name": "Noah Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.379,
+      "lap_times_url": null,
+      "laps": [
+        120.379,
+        149.947,
+        186.618,
+        215.948
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lauren Vargo",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.89,
+      "lap_times_url": null,
+      "laps": [
+        120.771,
+        104.826,
+        164.889,
+        99.645,
+        95.931,
+        94.89
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77528"
+}

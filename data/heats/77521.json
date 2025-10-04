@@ -1,0 +1,54 @@
+{
+  "heat_no": 77521,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-03T10:00:00",
+  "drivers": [
+    {
+      "name": "Dan Morse",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.526,
+      "lap_times_url": null,
+      "laps": [
+        130.212,
+        99.729,
+        92.738,
+        151.096,
+        92.755,
+        92.526
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Asher Morse",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.009,
+      "lap_times_url": null,
+      "laps": [
+        169.126,
+        92.009,
+        105.361,
+        104.221,
+        126.27,
+        94.763
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77521"
+}

@@ -1,0 +1,54 @@
+{
+  "heat_no": 77519,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-03T09:30:00",
+  "drivers": [
+    {
+      "name": "Paul Fernandez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.313,
+      "lap_times_url": null,
+      "laps": [
+        134.056,
+        102.77,
+        101.118,
+        102.897,
+        99.219,
+        98.313
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Brian McCann",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.779,
+      "lap_times_url": null,
+      "laps": [
+        129.803,
+        99.417,
+        104.116,
+        105.481,
+        94.04,
+        93.779
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77519"
+}

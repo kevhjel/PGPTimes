@@ -1,0 +1,54 @@
+{
+  "heat_no": 77369,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T14:00:00",
+  "drivers": [
+    {
+      "name": "Alejandro Perea",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.635,
+      "lap_times_url": null,
+      "laps": [
+        135.59,
+        108.522,
+        105.944,
+        104.603,
+        100.868,
+        98.635
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Perea",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.481,
+      "lap_times_url": null,
+      "laps": [
+        127.757,
+        118.476,
+        143.654,
+        99.481,
+        99.502,
+        100.014
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77369"
+}

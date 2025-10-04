@@ -1,0 +1,287 @@
+{
+  "heat_no": 77345,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T15:30:00",
+  "drivers": [
+    {
+      "name": "gary longley",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 82.806,
+      "lap_times_url": null,
+      "laps": [
+        125.926,
+        115.048,
+        85.491,
+        83.349,
+        84.217,
+        82.806,
+        84.283
+      ],
+      "lap_positions": [
+        9,
+        10,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.984,
+      "lap_times_url": null,
+      "laps": [
+        109.15,
+        81.032,
+        81.801,
+        80.984,
+        81.497,
+        81.9,
+        81.234
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ethan Ervin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.473,
+      "lap_times_url": null,
+      "laps": [
+        112.607,
+        83.42,
+        83.37,
+        82.473,
+        82.686,
+        83.023,
+        84.555,
+        83.811
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "john ervin",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.245,
+      "lap_times_url": null,
+      "laps": [
+        117.415,
+        86.631,
+        86.342,
+        86.579,
+        87.366,
+        86.245,
+        86.337
+      ],
+      "lap_positions": [
+        6,
+        5,
+        7,
+        7,
+        7,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "Gabriel Ervin",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 84.835,
+      "lap_times_url": null,
+      "laps": [
+        116.743,
+        97.211,
+        86.331,
+        84.885,
+        85.104,
+        84.835,
+        85.135
+      ],
+      "lap_positions": [
+        5,
+        8,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "nina ervin",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 89.014,
+      "lap_times_url": null,
+      "laps": [
+        117.626,
+        93.982,
+        91.433,
+        90.193,
+        89.551,
+        89.014,
+        89.918
+      ],
+      "lap_positions": [
+        7,
+        6,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Rizzler",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.103,
+      "lap_times_url": null,
+      "laps": [
+        112.881,
+        81.217,
+        82.2,
+        81.103,
+        81.377,
+        81.491,
+        81.112,
+        82.391
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "casey kralovetz",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 85.99,
+      "lap_times_url": null,
+      "laps": [
+        137.37,
+        103.935,
+        88.394,
+        88.05,
+        86.581,
+        89.274,
+        85.99
+      ],
+      "lap_positions": [
+        11,
+        9,
+        8,
+        8,
+        8,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.02,
+      "lap_times_url": null,
+      "laps": [
+        109.781,
+        81.669,
+        81.841,
+        81.781,
+        81.286,
+        81.02,
+        81.357,
+        82.132
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sydney Pressley",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 93.63,
+      "lap_times_url": null,
+      "laps": [
+        126.78,
+        96.219,
+        94.112,
+        93.809,
+        93.969,
+        93.938,
+        93.63
+      ],
+      "lap_positions": [
+        10,
+        7,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Eric Bjorling",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 90.263,
+      "lap_times_url": null,
+      "laps": [
+        123.396,
+        124.505,
+        92.352,
+        96.138,
+        90.263,
+        91.305
+      ],
+      "lap_positions": [
+        8,
+        11,
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77345"
+}

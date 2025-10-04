@@ -1,0 +1,110 @@
+{
+  "heat_no": 77435,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-29T17:00:00",
+  "drivers": [
+    {
+      "name": "Nayan Mongia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.177,
+      "lap_times_url": null,
+      "laps": [
+        113.285,
+        87.744,
+        86.457,
+        86.177,
+        86.836,
+        87.413,
+        87.005
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Archit Khatri",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.425,
+      "lap_times_url": null,
+      "laps": [
+        106.171,
+        85.036,
+        83.499,
+        82.594,
+        83.714,
+        82.425,
+        83.179,
+        82.58
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mayank Sharma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.096,
+      "lap_times_url": null,
+      "laps": [
+        112.11,
+        86.566,
+        85.961,
+        86.28,
+        85.836,
+        85.096,
+        85.557
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Karan Jaiswal",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.589,
+      "lap_times_url": null,
+      "laps": [
+        116.862,
+        89.371,
+        89.013,
+        87.582,
+        87.147,
+        86.589,
+        87.521
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77435"
+}

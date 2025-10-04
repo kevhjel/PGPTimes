@@ -1,0 +1,83 @@
+{
+  "heat_no": 77362,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T12:15:00",
+  "drivers": [
+    {
+      "name": "jason montoya",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.989,
+      "lap_times_url": null,
+      "laps": [
+        118.266,
+        89.888,
+        92.286,
+        88.54,
+        101.044,
+        86.989,
+        90.315
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Derik Dwyer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.637,
+      "lap_times_url": null,
+      "laps": [
+        118.149,
+        91.664,
+        89.384,
+        88.637,
+        100.129,
+        89.28,
+        89.09
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chad Werner",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.429,
+      "lap_times_url": null,
+      "laps": [
+        121.739,
+        95.74,
+        92.429,
+        93.597,
+        95.047,
+        94.663,
+        94.2
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77362"
+}

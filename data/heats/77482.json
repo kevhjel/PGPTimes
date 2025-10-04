@@ -1,0 +1,52 @@
+{
+  "heat_no": 77482,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-02T10:30:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.557,
+      "lap_times_url": null,
+      "laps": [
+        113.04,
+        118.059,
+        119.399,
+        110.691,
+        109.557,
+        113.918
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Braeden Bolds-...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.574,
+      "lap_times_url": null,
+      "laps": [
+        132.901,
+        128.863,
+        123.574,
+        127.21,
+        131.54
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77482"
+}

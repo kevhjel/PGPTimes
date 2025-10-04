@@ -1,0 +1,54 @@
+{
+  "heat_no": 77336,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T12:30:00",
+  "drivers": [
+    {
+      "name": "Cameron Cox",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.388,
+      "lap_times_url": null,
+      "laps": [
+        144.175,
+        96.031,
+        93.123,
+        93.492,
+        93.587,
+        91.388
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aiden Cox",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.954,
+      "lap_times_url": null,
+      "laps": [
+        152.712,
+        98.954,
+        100.115,
+        100.606,
+        102.832,
+        101.399
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77336"
+}

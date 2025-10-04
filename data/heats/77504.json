@@ -1,0 +1,85 @@
+{
+  "heat_no": 77504,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-02T16:00:00",
+  "drivers": [
+    {
+      "name": "Grant Dudley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.831,
+      "lap_times_url": null,
+      "laps": [
+        114.25,
+        95.534,
+        95.707,
+        95.085,
+        93.831,
+        98.23,
+        93.88,
+        94.452
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Donaven Carrasco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.746,
+      "lap_times_url": null,
+      "laps": [
+        93.88,
+        92.756,
+        91.744,
+        91.85,
+        93.996,
+        92.349,
+        90.746
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shane Tamura",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.146,
+      "lap_times_url": null,
+      "laps": [
+        161.662,
+        101.62,
+        103.823,
+        103.225,
+        100.355,
+        99.055,
+        96.146
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77504"
+}

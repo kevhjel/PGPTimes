@@ -1,0 +1,33 @@
+{
+  "heat_no": 77506,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-02T16:30:00",
+  "drivers": [
+    {
+      "name": "Donaven Carrasco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.611,
+      "lap_times_url": null,
+      "laps": [
+        99.163,
+        91.738,
+        90.212,
+        94.161,
+        89.251,
+        88.611,
+        89.151
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77506"
+}

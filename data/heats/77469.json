@@ -1,0 +1,87 @@
+{
+  "heat_no": 77469,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-30T17:15:00",
+  "drivers": [
+    {
+      "name": "Jack Basher",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.035,
+      "lap_times_url": null,
+      "laps": [
+        94.851,
+        80.481,
+        80.338,
+        80.244,
+        80.035,
+        80.222,
+        80.098,
+        80.203
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Vincent Mulela",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.146,
+      "lap_times_url": null,
+      "laps": [
+        97.99,
+        85.37,
+        85.146,
+        86.595,
+        85.623,
+        86.024,
+        85.333,
+        92.611
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "ABRAM RAMIREZ",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.131,
+      "lap_times_url": null,
+      "laps": [
+        102.214,
+        97.89,
+        95.343,
+        94.715,
+        93.017,
+        92.408,
+        91.131
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77469"
+}

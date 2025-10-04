@@ -1,0 +1,60 @@
+{
+  "heat_no": 77349,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T16:45:00",
+  "drivers": [
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.766,
+      "lap_times_url": null,
+      "laps": [
+        84.19,
+        81.477,
+        149.041,
+        81.46,
+        81.251,
+        80.766,
+        80.805
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Abdullah Agcay...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.271,
+      "lap_times_url": null,
+      "laps": [
+        91.547,
+        84.04,
+        84.609,
+        83.673,
+        83.789,
+        83.905,
+        83.432,
+        83.271
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77349"
+}

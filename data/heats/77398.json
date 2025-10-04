@@ -1,0 +1,71 @@
+{
+  "heat_no": 77398,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-28T14:15:00",
+  "drivers": [
+    {
+      "name": "Paolo Verstappen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.961,
+      "lap_times_url": null,
+      "laps": [
+        157.643,
+        86.317,
+        119.687,
+        99.888,
+        85.961,
+        96.035
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicholas Wilson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.421,
+      "lap_times_url": null,
+      "laps": [
+        169.689,
+        118.036,
+        115.455,
+        115.357,
+        114.421
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stella Luna",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.339,
+      "lap_times_url": null,
+      "laps": [
+        205.081,
+        166.304,
+        142.831,
+        134.339
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77398"
+}

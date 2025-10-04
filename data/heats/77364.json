@@ -1,0 +1,110 @@
+{
+  "heat_no": 77364,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T12:45:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.957,
+      "lap_times_url": null,
+      "laps": [
+        103.418,
+        81.53,
+        80.699,
+        80.22,
+        80.078,
+        79.957,
+        80.239,
+        80.229
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "jason montoya",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.694,
+      "lap_times_url": null,
+      "laps": [
+        105.907,
+        86.927,
+        92.127,
+        90.139,
+        87.912,
+        94.376,
+        83.694
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Derik Dwyer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.406,
+      "lap_times_url": null,
+      "laps": [
+        107.711,
+        86.968,
+        97.773,
+        87.224,
+        86.281,
+        87.668,
+        85.406
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Chad Werner",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.255,
+      "lap_times_url": null,
+      "laps": [
+        110.003,
+        88.05,
+        90.222,
+        87.867,
+        87.583,
+        87.255,
+        87.781
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77364"
+}

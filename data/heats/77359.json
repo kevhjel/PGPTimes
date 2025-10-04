@@ -1,0 +1,60 @@
+{
+  "heat_no": 77359,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T11:15:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.9,
+      "lap_times_url": null,
+      "laps": [
+        85.011,
+        84.605,
+        84.307,
+        84.011,
+        84.444,
+        83.9,
+        84.175
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "addison herrick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.155,
+      "lap_times_url": null,
+      "laps": [
+        85.684,
+        83.427,
+        83.208,
+        82.954,
+        82.642,
+        82.709,
+        82.155,
+        82.668
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77359"
+}

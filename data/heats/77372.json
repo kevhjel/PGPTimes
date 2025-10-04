@@ -1,0 +1,96 @@
+{
+  "heat_no": 77372,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T14:45:00",
+  "drivers": [
+    {
+      "name": "Tucker Hill",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.65,
+      "lap_times_url": null,
+      "laps": [
+        132.55,
+        95.256,
+        93.046,
+        94.769,
+        92.657,
+        90.256,
+        89.65
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lilyonna Philm...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.458,
+      "lap_times_url": null,
+      "laps": [
+        140.433,
+        111.019,
+        109.681,
+        105.458,
+        105.473,
+        105.718
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ravikanth Kakani",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 129.663,
+      "lap_times_url": null,
+      "laps": [
+        163.778,
+        159.28,
+        134.337,
+        129.663
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Santoshi Kakani",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.698,
+      "lap_times_url": null,
+      "laps": [
+        178.903,
+        135.954,
+        134.905,
+        122.776,
+        121.698
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77372"
+}

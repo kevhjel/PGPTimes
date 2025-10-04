@@ -1,0 +1,46 @@
+{
+  "heat_no": 77493,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-02T13:15:00",
+  "drivers": [
+    {
+      "name": "Darwin Sianqui...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.223,
+      "lap_times_url": null,
+      "laps": [
+        159.638,
+        145.43,
+        126.223,
+        164.344
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Donaven Carrasco",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 143.327,
+      "lap_times_url": null,
+      "laps": [
+        147.728,
+        152.076,
+        143.863,
+        143.327
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77493"
+}

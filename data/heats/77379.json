@@ -1,0 +1,62 @@
+{
+  "heat_no": 77379,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T16:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.033,
+      "lap_times_url": null,
+      "laps": [
+        103.367,
+        81.288,
+        80.753,
+        80.62,
+        80.601,
+        80.264,
+        80.215,
+        80.033
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Abdullah Agcay...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.037,
+      "lap_times_url": null,
+      "laps": [
+        104.981,
+        84.315,
+        86.289,
+        83.473,
+        83.416,
+        83.221,
+        83.163,
+        83.037
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77379"
+}

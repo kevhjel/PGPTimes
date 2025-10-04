@@ -1,0 +1,65 @@
+{
+  "heat_no": 77402,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-28T15:15:00",
+  "drivers": [
+    {
+      "name": "Atlas SueWing",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 148.54,
+      "lap_times_url": null,
+      "laps": [
+        178.45,
+        162.522,
+        148.54,
+        167.514
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Susan Jabal",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 139.661,
+      "lap_times_url": null,
+      "laps": [
+        164.861,
+        139.851,
+        140.317,
+        139.661
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Meade SueWing",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.081,
+      "lap_times_url": null,
+      "laps": [
+        185.822,
+        167.382,
+        142.502,
+        127.081
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77402"
+}

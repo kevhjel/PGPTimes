@@ -1,0 +1,56 @@
+{
+  "heat_no": 77356,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-27T10:30:00",
+  "drivers": [
+    {
+      "name": "Vishal Tatini",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.525,
+      "lap_times_url": null,
+      "laps": [
+        105.563,
+        96.622,
+        101.922,
+        91.366,
+        90.592,
+        90.479,
+        89.525
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Farhan Khan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.655,
+      "lap_times_url": null,
+      "laps": [
+        130.936,
+        113.498,
+        117.519,
+        114.345,
+        115.248,
+        111.655
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77356"
+}

@@ -1,0 +1,64 @@
+{
+  "heat_no": 77346,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T15:45:00",
+  "drivers": [
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.602,
+      "lap_times_url": null,
+      "laps": [
+        86.987,
+        83.288,
+        86.223,
+        147.663,
+        82.831,
+        81.95,
+        81.912,
+        82.153,
+        81.602
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.123,
+      "lap_times_url": null,
+      "laps": [
+        87.25,
+        83.95,
+        117.813,
+        88.959,
+        84.405,
+        82.65,
+        82.268,
+        82.123
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77346"
+}
