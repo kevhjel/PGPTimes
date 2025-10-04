@@ -2,14 +2,14 @@ name: Scrape PGP Heats
 
 on:
   schedule:
-    # every hour, at minute 0 (UTC)
-    - cron: "0 * * * *"
+    # every 15 minutes (UTC)
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       max_heats:
         description: "Max heats to scrape this run"
         required: false
-        default: "200"
+        default: "300"
 
 jobs:
   scrape:
@@ -30,11 +30,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run scraper (max 200 heats)
+      - name: Run scraper (max 300 heats)
         shell: bash
         run: |
           MAX="${{ github.event.inputs.max_heats }}"
-          MAX="${MAX:-200}"
+          MAX="${MAX:-300}"
           echo "Running scraper with max=$MAX"
           python -m scraper.run --max "$MAX"
 
