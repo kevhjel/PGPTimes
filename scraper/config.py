@@ -15,7 +15,7 @@ START_HEAT_NO = 75533
 # Politeness
 REQUEST_TIMEOUT_SEC = 20
 REQUEST_RETRY = 3
-REQUEST_SLEEP_BETWEEN_SEC = 1.5
+REQUEST_SLEEP_BETWEEN_SEC = 1
 
 # Stop conditions:
 # - how many consecutive missing heats (404 / empty page) before we assume we hit the end
