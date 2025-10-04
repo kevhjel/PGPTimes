@@ -1,0 +1,35 @@
+{
+  "heat_no": 76914,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-07T15:45:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.518,
+      "lap_times_url": null,
+      "laps": [
+        84.385,
+        80.571,
+        80.312,
+        79.924,
+        79.554,
+        79.904,
+        79.518,
+        79.641
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76914"
+}

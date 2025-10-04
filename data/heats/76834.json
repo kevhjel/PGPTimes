@@ -1,0 +1,102 @@
+{
+  "heat_no": 76834,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T12:00:00",
+  "drivers": [
+    {
+      "name": "Thomas Drangsh...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.64,
+      "lap_times_url": null,
+      "laps": [
+        118.67,
+        98.413,
+        96.088,
+        95.509,
+        96.785,
+        93.939,
+        93.64
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cosentini Mia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.748,
+      "lap_times_url": null,
+      "laps": [
+        133.853,
+        93.383,
+        92.377,
+        89.748,
+        96.214,
+        118.816
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Benjamin Bashor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 104.4,
+      "lap_times_url": null,
+      "laps": [
+        135.082,
+        112.437,
+        111.306,
+        107.339,
+        106.868,
+        104.4
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Nina Takamoto",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.097,
+      "lap_times_url": null,
+      "laps": [
+        130.869,
+        165.296,
+        97.051,
+        94.585,
+        92.097,
+        94.32
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76834"
+}

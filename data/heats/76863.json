@@ -1,0 +1,102 @@
+{
+  "heat_no": 76863,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-06T11:45:00",
+  "drivers": [
+    {
+      "name": "Mikalai Puchko",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.041,
+      "lap_times_url": null,
+      "laps": [
+        118.918,
+        96.845,
+        110.466,
+        99.308,
+        98.889,
+        95.041
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Viktoryia Puchko",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.395,
+      "lap_times_url": null,
+      "laps": [
+        111.664,
+        97.192,
+        107.977,
+        102.556,
+        90.448,
+        90.395,
+        90.473
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Christian Doll",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.628,
+      "lap_times_url": null,
+      "laps": [
+        117.055,
+        99.17,
+        138.328,
+        102.962,
+        92.628,
+        93.867
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Pauline Villa",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.902,
+      "lap_times_url": null,
+      "laps": [
+        137.908,
+        106.637,
+        103.902,
+        126.176,
+        108.539,
+        106.169
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76863"
+}

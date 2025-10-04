@@ -1,0 +1,52 @@
+{
+  "heat_no": 77015,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-12T12:45:00",
+  "drivers": [
+    {
+      "name": "Ryan Richards",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.162,
+      "lap_times_url": null,
+      "laps": [
+        126.334,
+        117.637,
+        115.005,
+        114.76,
+        115.481,
+        114.162
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tyler Fewins",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.28,
+      "lap_times_url": null,
+      "laps": [
+        136.485,
+        127.406,
+        119.28,
+        119.853,
+        132.051
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77015"
+}

@@ -1,0 +1,54 @@
+{
+  "heat_no": 76862,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-06T11:30:00",
+  "drivers": [
+    {
+      "name": "Serena Getz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.715,
+      "lap_times_url": null,
+      "laps": [
+        132.589,
+        104.125,
+        98.715,
+        121.465,
+        109.444,
+        104.791
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Campanella",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.086,
+      "lap_times_url": null,
+      "laps": [
+        140.203,
+        101.823,
+        98.086,
+        119.26,
+        110.594,
+        102.731
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76862"
+}

@@ -1,0 +1,75 @@
+{
+  "heat_no": 76836,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T12:30:00",
+  "drivers": [
+    {
+      "name": "Louis Chiu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.868,
+      "lap_times_url": null,
+      "laps": [
+        115.766,
+        83.654,
+        83.441,
+        88.452,
+        83.082,
+        85.806,
+        82.868
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Barbara Henning",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.348,
+      "lap_times_url": null,
+      "laps": [
+        156.917,
+        127.811,
+        133.464,
+        127.971,
+        117.348
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Jean Lee",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.87,
+      "lap_times_url": null,
+      "laps": [
+        131.17,
+        137.397,
+        147.865,
+        128.728,
+        112.87
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76836"
+}

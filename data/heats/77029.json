@@ -1,0 +1,35 @@
+{
+  "heat_no": 77029,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T12:45:00",
+  "drivers": [
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.647,
+      "lap_times_url": null,
+      "laps": [
+        91.479,
+        83.866,
+        82.647,
+        82.962,
+        83.605,
+        83.015,
+        83.118,
+        84.055
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77029"
+}

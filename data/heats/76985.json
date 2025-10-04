@@ -1,0 +1,106 @@
+{
+  "heat_no": 76985,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-03-09T14:00:00",
+  "drivers": [
+    {
+      "name": "Colton Baldridge",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.84,
+      "lap_times_url": null,
+      "laps": [
+        105.131,
+        83.474,
+        82.441,
+        82.577,
+        81.84,
+        84.628,
+        82.153,
+        82.484
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Lambert",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.839,
+      "lap_times_url": null,
+      "laps": [
+        109.7,
+        104.017,
+        92.029,
+        105.832,
+        89.839,
+        89.965,
+        91.474
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyson Teplansky",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.913,
+      "lap_times_url": null,
+      "laps": [
+        111.914,
+        94.727,
+        103.322,
+        95.064,
+        93.521,
+        90.913,
+        91.547
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Luciana Teplan...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.741,
+      "lap_times_url": null,
+      "laps": [
+        140.626,
+        133.638,
+        133.62,
+        134.661,
+        132.741
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76985"
+}

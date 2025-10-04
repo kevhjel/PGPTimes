@@ -1,0 +1,83 @@
+{
+  "heat_no": 76897,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-07T11:30:00",
+  "drivers": [
+    {
+      "name": "jeffrey gemmell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.142,
+      "lap_times_url": null,
+      "laps": [
+        109.461,
+        84.227,
+        83.142,
+        83.536,
+        83.99,
+        83.215,
+        83.179,
+        83.211
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LaMont Chambers",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.346,
+      "lap_times_url": null,
+      "laps": [
+        126.357,
+        108.393,
+        107.671,
+        103.551,
+        101.346,
+        115.977
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jeff Salo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.088,
+      "lap_times_url": null,
+      "laps": [
+        113.968,
+        87.189,
+        86.501,
+        86.649,
+        86.088,
+        86.46,
+        123.776
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76897"
+}

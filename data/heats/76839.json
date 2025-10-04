@@ -1,0 +1,48 @@
+{
+  "heat_no": 76839,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T13:15:00",
+  "drivers": [
+    {
+      "name": "Jacey Ellis",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.828,
+      "lap_times_url": null,
+      "laps": [
+        157.382,
+        119.402,
+        115.8,
+        110.963,
+        108.828
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jason Herold",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.424,
+      "lap_times_url": null,
+      "laps": [
+        183.04,
+        149.134,
+        140.754,
+        136.424
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76839"
+}

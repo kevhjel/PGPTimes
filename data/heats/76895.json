@@ -1,0 +1,127 @@
+{
+  "heat_no": 76895,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-07T11:00:00",
+  "drivers": [
+    {
+      "name": "cody benton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.978,
+      "lap_times_url": null,
+      "laps": [
+        116.305,
+        92.784,
+        90.799,
+        89.546,
+        88.366,
+        90.231,
+        85.978
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "jeffrey gemmell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.196,
+      "lap_times_url": null,
+      "laps": [
+        110.64,
+        86.905,
+        85.781,
+        85.058,
+        86.611,
+        85.61,
+        84.196
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LaMont Chambers",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 111.079,
+      "lap_times_url": null,
+      "laps": [
+        125.519,
+        114.187,
+        111.079,
+        126.936,
+        115.684
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jeff Salo",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.018,
+      "lap_times_url": null,
+      "laps": [
+        125.76,
+        93.531,
+        90.237,
+        88.907,
+        87.515,
+        87.936,
+        87.018
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Tiana Stillion",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.843,
+      "lap_times_url": null,
+      "laps": [
+        131.907,
+        111.516,
+        98.575,
+        95.009,
+        95.401,
+        93.843
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76895"
+}

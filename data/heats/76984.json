@@ -1,0 +1,123 @@
+{
+  "heat_no": 76984,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-03-09T13:45:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.666,
+      "lap_times_url": null,
+      "laps": [
+        114.361,
+        83.115,
+        82.765,
+        82.769,
+        82.027,
+        82.063,
+        81.666
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.266,
+      "lap_times_url": null,
+      "laps": [
+        116.561,
+        83.062,
+        82.788,
+        81.758,
+        81.489,
+        81.638,
+        81.266
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Collin Horace",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.838,
+      "lap_times_url": null,
+      "laps": [
+        126.187,
+        97.838,
+        98.59,
+        109.332,
+        113.416,
+        107.002
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Charles Brown",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 108.151,
+      "lap_times_url": null,
+      "laps": [
+        161.201,
+        108.151,
+        153.66,
+        110.251,
+        148.546
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Bertrand Lewis",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 123.1,
+      "lap_times_url": null,
+      "laps": [
+        158.681,
+        126.081,
+        123.1,
+        124.816,
+        125.775
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76984"
+}

@@ -1,0 +1,54 @@
+{
+  "heat_no": 76959,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-08T16:45:00",
+  "drivers": [
+    {
+      "name": "Prerit Chaudhary",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.144,
+      "lap_times_url": null,
+      "laps": [
+        146.221,
+        129.707,
+        101.52,
+        104.892,
+        83.144,
+        95.199
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rahil Goyal",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.939,
+      "lap_times_url": null,
+      "laps": [
+        127.013,
+        100.969,
+        123.594,
+        100.013,
+        98.745,
+        96.939
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76959"
+}

@@ -1,0 +1,31 @@
+{
+  "heat_no": 77024,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T10:45:00",
+  "drivers": [
+    {
+      "name": "Johnathan Kim",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.609,
+      "lap_times_url": null,
+      "laps": [
+        150.429,
+        113.392,
+        104.55,
+        111.826,
+        103.609,
+        104.605
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77024"
+}

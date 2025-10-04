@@ -1,0 +1,35 @@
+{
+  "heat_no": 76837,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T12:45:00",
+  "drivers": [
+    {
+      "name": "Ben Hawkins",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.637,
+      "lap_times_url": null,
+      "laps": [
+        85.085,
+        81.962,
+        81.676,
+        81.487,
+        80.991,
+        80.765,
+        80.654,
+        80.637
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76837"
+}

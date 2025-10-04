@@ -1,0 +1,52 @@
+{
+  "heat_no": 76838,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T13:00:00",
+  "drivers": [
+    {
+      "name": "Barbara Henning",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.25,
+      "lap_times_url": null,
+      "laps": [
+        132.232,
+        168.192,
+        104.25,
+        105.002,
+        104.608
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jean Lee",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.609,
+      "lap_times_url": null,
+      "laps": [
+        131.479,
+        162.668,
+        93.609,
+        95.701,
+        119.968,
+        94.255
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76838"
+}

@@ -1,0 +1,104 @@
+{
+  "heat_no": 76967,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-03-09T10:00:00",
+  "drivers": [
+    {
+      "name": "Ping Sun",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.661,
+      "lap_times_url": null,
+      "laps": [
+        97.185,
+        91.668,
+        90.661,
+        93.157,
+        97.148,
+        91.923,
+        108.299
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Hazel Tate",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.816,
+      "lap_times_url": null,
+      "laps": [
+        97.319,
+        88.927,
+        87.525,
+        86.816,
+        90.737,
+        104.715,
+        97.079
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jack Bittner",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 103.052,
+      "lap_times_url": null,
+      "laps": [
+        124.462,
+        110.648,
+        109.351,
+        118.999,
+        112.146,
+        103.052
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Michael Sipple",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 104.112,
+      "lap_times_url": null,
+      "laps": [
+        124.964,
+        110.865,
+        109.459,
+        118.081,
+        104.741,
+        104.112
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76967"
+}

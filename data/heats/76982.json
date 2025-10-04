@@ -1,0 +1,62 @@
+{
+  "heat_no": 76982,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-03-09T13:15:00",
+  "drivers": [
+    {
+      "name": "Ronald Cheng",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.437,
+      "lap_times_url": null,
+      "laps": [
+        103.971,
+        84.84,
+        83.924,
+        83.605,
+        83.44,
+        83.437,
+        85.136,
+        84.373
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yan Mo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.641,
+      "lap_times_url": null,
+      "laps": [
+        117.291,
+        98.558,
+        87.313,
+        86.686,
+        87.044,
+        85.641,
+        85.996,
+        87.993
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76982"
+}

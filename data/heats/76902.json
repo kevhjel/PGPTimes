@@ -1,0 +1,120 @@
+{
+  "heat_no": 76902,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-07T12:45:00",
+  "drivers": [
+    {
+      "name": "Ben Hawkins",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.6,
+      "lap_times_url": null,
+      "laps": [
+        84.435,
+        79.747,
+        79.654,
+        79.092,
+        79.094,
+        78.845,
+        79.101,
+        78.6,
+        78.953
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 78.61,
+      "lap_times_url": null,
+      "laps": [
+        84.148,
+        80.013,
+        80.186,
+        79.509,
+        79.352,
+        79.388,
+        78.61,
+        79.526,
+        79.285
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "taylor Lynch",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.4,
+      "lap_times_url": null,
+      "laps": [
+        86.441,
+        84.276,
+        82.263,
+        82.219,
+        81.943,
+        82.302,
+        81.4,
+        81.909
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Bauman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.609,
+      "lap_times_url": null,
+      "laps": [
+        86.964,
+        85.641,
+        83.609,
+        85.374,
+        84.873,
+        85.894,
+        86.599,
+        85.916
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76902"
+}

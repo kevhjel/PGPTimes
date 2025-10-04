@@ -1,0 +1,52 @@
+{
+  "heat_no": 77030,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T13:15:00",
+  "drivers": [
+    {
+      "name": "Jason Hedrick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.988,
+      "lap_times_url": null,
+      "laps": [
+        92.45,
+        88.976,
+        204.744,
+        88.705,
+        86.988
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.008,
+      "lap_times_url": null,
+      "laps": [
+        100.236,
+        95.07,
+        93.691,
+        90.301,
+        88.859,
+        87.008
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77030"
+}

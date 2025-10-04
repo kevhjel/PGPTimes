@@ -1,0 +1,87 @@
+{
+  "heat_no": 76992,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-03-09T15:45:00",
+  "drivers": [
+    {
+      "name": "Eason Gao",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.813,
+      "lap_times_url": null,
+      "laps": [
+        111.927,
+        83.779,
+        83.26,
+        82.749,
+        83.017,
+        83.375,
+        82.289,
+        81.813
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.524,
+      "lap_times_url": null,
+      "laps": [
+        107.987,
+        80.88,
+        80.334,
+        80.411,
+        80.061,
+        80.54,
+        79.569,
+        79.524
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Brent Brightling",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.383,
+      "lap_times_url": null,
+      "laps": [
+        122.364,
+        84.769,
+        83.333,
+        92.566,
+        82.383,
+        83.448,
+        82.891
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76992"
+}
