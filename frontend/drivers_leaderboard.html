@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Drivers Leaderboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<header>
+  <h1>Drivers Leaderboard</h1>
+</header>
+<main>
+  <div class="card">
+    <div class="row" style="justify-content: space-between; gap: 10px;">
+      <div class="small">
+        Uses <code>data/drivers_watchlist.json</code> and <code>data/driver_index.json</code>.
+      </div>
+      <div class="row" style="gap:8px; flex-wrap: wrap;">
+        <label class="small">Filter (contains): <input id="filterInput" placeholder="type to filter names…"/></label>
+        <label class="small">Heat Type:
+          <select id="heatTypeSelect">
+            <option value="All" selected>All</option>
+            <option value="Arrive and Drive">Arrive and Drive</option>
+            <option value="Endurance">Endurance</option>
+            <option value="League">League</option>
+          </select>
+        </label>
+        <button id="refreshBtn">Refresh</button>
+        <a class="badge" href="./index.html">Heats Browser →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row" style="justify-content: space-between;">
+      <div class="small">Updated: <span id="updated" class="mono"></span></div>
+      <div class="small">Drivers in watchlist: <span id="watchCount" class="mono">0</span> • Ranked: <span id="rankedCount" class="mono">0</span></div>
+    </div>
+  </div>
+
+  <div class="card" id="tableCard">
+    <table id="board">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Driver</th>
+          <th>Fastest Lap (s)</th>
+          <th>Heat</th>
+          <th>Type</th>
+          <th>When</th>
+          <th>Laps in Heat</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
+
+<script>
+async function jget(pathOptions) {
+  for (const p of pathOptions) {
+    try {
+      const r = await fetch(p, { cache: "no-store" });
+      if (r.ok) return r.json();
+    } catch {}
+  }
+  throw new Error("Could not load " + pathOptions.join(" or "));
+}
+
+function fmtSeconds(s) {
+  if (s == null || isNaN(s)) return "";
+  return Number(s).toFixed(3) + " s";
+}
+
+function byNumberAsc(a, b) {
+  if (a == null && b == null) return 0;
+  if (a == null) return 1;
+  if (b == null) return -1;
+  return a - b;
+}
+
+function bestEntryForDriver(entries, typeFilter) {
+  // Apply heat-type filter before computing best
+  const filtered = (typeFilter && typeFilter !== "All")
+    ? entries.filter(e => (e.heat_type || "").toLowerCase().includes(typeFilter.toLowerCase()))
+    : entries;
+
+  if (!filtered.length) return null;
+
+  let best = null;
+  let bestTime = null;
+
+  for (const e of filtered) {
+    const candidates = [];
+    if (Array.isArray(e.laps) && e.laps.length) {
+      candidates.push(Math.min(...e.laps));
+    }
+    if (typeof e.best_lap_seconds === "number") {
+      candidates.push(e.best_lap_seconds);
+    }
+    if (!candidates.length) continue;
+
+    const minThisHeat = Math.min(...candidates);
+    if (bestTime == null || minThisHeat < bestTime) {
+      bestTime = minThisHeat;
+      best = { ...e, fastest_lap_seconds: minThisHeat };
+    }
+  }
+  return best;
+}
+
+async function loadAll() {
+  const driverIndex = await jget(["../data/driver_index.json", "./data/driver_index.json"]);
+  const watchlist = await jget(["../data/drivers_watchlist.json", "./data/drivers_watchlist.json"]);
+
+  document.getElementById("updated").textContent = driverIndex.last_updated_utc || "";
+  document.getElementById("watchCount").textContent = Array.isArray(watchlist) ? watchlist.length : 0;
+
+  const allRows = [];
+  const drivers = driverIndex.drivers || {};
+
+  const typeSelect = document.getElementById("heatTypeSelect");
+  const typeFilter = typeSelect.value;
+
+  for (const name of (watchlist || [])) {
+    const series = drivers[name] || [];
+    const best = bestEntryForDriver(series, typeFilter);
+    if (best && typeof best.fastest_lap_seconds === "number") {
+      allRows.push({
+        name,
+        fastest: best.fastest_lap_seconds,
+        heat_no: best.heat_no ?? "",
+        heat_type: best.heat_type ?? "",
+        when: best.start_time_iso ?? "",
+        laps_count: Array.isArray(best.laps) ? best.laps.length : (best.best_lap_seconds != null ? "—" : "")
+      });
+    } else {
+      allRows.push({ name, fastest: null, heat_no: "", heat_type: "", when: "", laps_count: "" });
+    }
+  }
+
+  allRows.sort((a, b) => {
+    const cmp = byNumberAsc(a.fastest, b.fastest);
+    if (cmp !== 0) return cmp;
+    return (a.name || "").localeCompare(b.name || "");
+  });
+
+  renderTable(allRows);
+
+  const filterInput = document.getElementById("filterInput");
+  filterInput.oninput = () => applyFilters(allRows);
+  typeSelect.onchange = () => applyFilters(allRows);
+  document.getElementById("refreshBtn").onclick = () => location.reload();
+}
+
+function applyFilters(allRows) {
+  const q = document.getElementById("filterInput").value.trim().toLowerCase();
+  const type = document.getElementById("heatTypeSelect").value;
+  const filtered = allRows.filter(r => {
+    const matchName = !q || (r.name || "").toLowerCase().includes(q);
+    const matchType = (type === "All") || ((r.heat_type || "").toLowerCase().includes(type.toLowerCase()));
+    return matchName && matchType;
+  });
+  renderTable(filtered);
+}
+
+function renderTable(rows) {
+  const tbody = document.querySelector("#board tbody");
+  tbody.innerHTML = "";
+  let rank = 0;
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    const ranked = r.fastest != null;
+    if (ranked) rank += 1;
+    tr.innerHTML = `
+      <td>${ranked ? rank : ""}</td>
+      <td>${r.name}</td>
+      <td>${ranked ? fmtSeconds(r.fastest) : "<span class='small'>— no laps —</span>"}</td>
+      <td>${r.heat_no ? `<a href="./index.html#${r.heat_no}" onclick="window.location.href='./index.html#${r.heat_no}'">${r.heat_no}</a>` : ""}</td>
+      <td>${r.heat_type}</td>
+      <td class="small">${r.when}</td>
+      <td>${r.laps_count}</td>
+    `;
+    tbody.appendChild(tr);
+  }
+  document.getElementById("rankedCount").textContent = rows.filter(r => r.fastest != null).length;
+}
+
+loadAll().catch(err => {
+  const card = document.getElementById("tableCard");
+  card.innerHTML = `<div class="small">Failed to load data: ${err.message}</div>`;
+});
+</script>
+</body>
+</html>
