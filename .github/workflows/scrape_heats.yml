@@ -3,7 +3,7 @@ name: Scrape PGP Heats
 on:
   schedule:
     # every 15 minutes (UTC)
-    - cron: "*/2 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       max_heats:
