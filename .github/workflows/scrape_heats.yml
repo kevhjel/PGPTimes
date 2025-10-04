@@ -2,7 +2,7 @@ name: Scrape PGP Heats
 
 on:
   schedule:
-    # every hour, at minute 0
+    # every hour, at minute 0 (UTC)
     - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
@@ -16,11 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
 
       - name: Set up Python
-      - uses: actions/setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
