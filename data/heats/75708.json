@@ -1,0 +1,104 @@
+{
+  "heat_no": 75708,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T15:30:00",
+  "drivers": [
+    {
+      "name": "arman jaberi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.291,
+      "lap_times_url": null,
+      "laps": [
+        103.651,
+        130.23,
+        88.071,
+        95.916,
+        84.997,
+        84.291,
+        85.162
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Keara Taylor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.082,
+      "lap_times_url": null,
+      "laps": [
+        140.501,
+        116.941,
+        109.067,
+        113.217,
+        103.082
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dustin Carroll",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.258,
+      "lap_times_url": null,
+      "laps": [
+        106.738,
+        90.295,
+        86.258,
+        89.339,
+        86.913,
+        89.327,
+        87.224
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Maddox Carroll",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.762,
+      "lap_times_url": null,
+      "laps": [
+        109.088,
+        88.544,
+        86.762,
+        88.498,
+        87.819,
+        87.299,
+        87.919
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75708"
+}

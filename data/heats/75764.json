@@ -1,0 +1,48 @@
+{
+  "heat_no": 75764,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-10T15:00:00",
+  "drivers": [
+    {
+      "name": "Tianyue Zhang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 118.206,
+      "lap_times_url": null,
+      "laps": [
+        143.978,
+        120.8,
+        119.821,
+        166.24,
+        118.206
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bangji Gu",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.036,
+      "lap_times_url": null,
+      "laps": [
+        228.474,
+        129.356,
+        128.52,
+        126.036
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75764"
+}

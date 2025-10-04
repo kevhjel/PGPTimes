@@ -1,0 +1,103 @@
+{
+  "heat_no": 75683,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-01-05T10:00:00",
+  "drivers": [
+    {
+      "name": "Chris Eng",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.619,
+      "lap_times_url": null,
+      "laps": [
+        132.619,
+        201.295,
+        157.036,
+        151.646
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ben Hanisko",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 133.065,
+      "lap_times_url": null,
+      "laps": [
+        133.065,
+        201.111,
+        158.166,
+        150.741
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Miles Finigan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.422,
+      "lap_times_url": null,
+      "laps": [
+        131.422,
+        200.476,
+        157.635,
+        152.234
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Simon Boeger",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.649,
+      "lap_times_url": null,
+      "laps": [
+        128.649,
+        200.711,
+        158.91,
+        149.784
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Shep Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.722,
+      "lap_times_url": null,
+      "laps": [
+        127.722,
+        201.032,
+        173.017,
+        135.721
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75683"
+}

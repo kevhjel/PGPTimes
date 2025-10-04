@@ -1,0 +1,341 @@
+{
+  "heat_no": 75818,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-12T13:30:00",
+  "drivers": [
+    {
+      "name": "JOEMAR ROMAN",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.352,
+      "lap_times_url": null,
+      "laps": [
+        108.368,
+        85.262,
+        82.939,
+        82.315,
+        82.564,
+        81.352,
+        81.821,
+        82.438
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Giovanni Roman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.829,
+      "lap_times_url": null,
+      "laps": [
+        108.783,
+        84.867,
+        83.436,
+        82.235,
+        82.074,
+        82.078,
+        82.676,
+        81.829
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Johar Samrao",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 83.812,
+      "lap_times_url": null,
+      "laps": [
+        107.4,
+        86.253,
+        84.848,
+        85.987,
+        83.985,
+        83.998,
+        83.812
+      ],
+      "lap_positions": [
+        2,
+        6,
+        5,
+        8,
+        6,
+        6,
+        8
+      ]
+    },
+    {
+      "name": "Adam Towers",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 83.542,
+      "lap_times_url": null,
+      "laps": [
+        108.201,
+        86.361,
+        86.203,
+        84.353,
+        84.143,
+        84.125,
+        83.542
+      ],
+      "lap_positions": [
+        3,
+        7,
+        7,
+        6,
+        8,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "Andrew Gies",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 85.0,
+      "lap_times_url": null,
+      "laps": [
+        111.252,
+        87.374,
+        87.39,
+        85.465,
+        85.231,
+        85.0,
+        86.808
+      ],
+      "lap_positions": [
+        9,
+        10,
+        10,
+        9,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.069,
+      "lap_times_url": null,
+      "laps": [
+        106.86,
+        83.296,
+        82.03,
+        81.69,
+        81.069,
+        85.786,
+        83.448,
+        81.964
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 82.381,
+      "lap_times_url": null,
+      "laps": [
+        111.204,
+        84.333,
+        84.158,
+        82.629,
+        85.046,
+        82.965,
+        82.381,
+        82.745
+      ],
+      "lap_positions": [
+        8,
+        2,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Maarten Kluit",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 83.402,
+      "lap_times_url": null,
+      "laps": [
+        111.182,
+        87.196,
+        86.629,
+        84.754,
+        84.043,
+        84.369,
+        83.402
+      ],
+      "lap_positions": [
+        7,
+        9,
+        8,
+        7,
+        7,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "Eva Kluit",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.231,
+      "lap_times_url": null,
+      "laps": [
+        110.826,
+        85.751,
+        84.896,
+        81.995,
+        81.536,
+        81.231,
+        81.566,
+        81.659
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jack Stark",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 84.341,
+      "lap_times_url": null,
+      "laps": [
+        113.201,
+        86.713,
+        88.474,
+        87.224,
+        84.47,
+        84.341,
+        84.713
+      ],
+      "lap_positions": [
+        11,
+        8,
+        9,
+        10,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Chris Stark",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 91.631,
+      "lap_times_url": null,
+      "laps": [
+        132.461,
+        131.255,
+        95.284,
+        93.87,
+        91.631,
+        92.832
+      ],
+      "lap_positions": [
+        13,
+        13,
+        13,
+        12,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "Blake Wennberg",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 90.842,
+      "lap_times_url": null,
+      "laps": [
+        114.252,
+        96.82,
+        94.977,
+        96.31,
+        92.18,
+        91.618,
+        90.842
+      ],
+      "lap_positions": [
+        12,
+        11,
+        12,
+        13,
+        12,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "Chase Morris",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 90.535,
+      "lap_times_url": null,
+      "laps": [
+        111.816,
+        103.009,
+        93.184,
+        92.188,
+        92.272,
+        92.077,
+        90.535
+      ],
+      "lap_positions": [
+        10,
+        12,
+        11,
+        11,
+        13,
+        13,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75818"
+}

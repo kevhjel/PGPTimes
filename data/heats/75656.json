@@ -1,0 +1,46 @@
+{
+  "heat_no": 75656,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-04T16:15:00",
+  "drivers": [
+    {
+      "name": "ANNA YAKOVENKO",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 151.571,
+      "lap_times_url": null,
+      "laps": [
+        187.122,
+        152.702,
+        151.571,
+        157.532
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Vladyslav Shra...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 129.934,
+      "lap_times_url": null,
+      "laps": [
+        184.649,
+        139.495,
+        130.064,
+        129.934
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75656"
+}

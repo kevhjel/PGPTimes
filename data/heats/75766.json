@@ -1,0 +1,50 @@
+{
+  "heat_no": 75766,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-10T15:30:00",
+  "drivers": [
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.937,
+      "lap_times_url": null,
+      "laps": [
+        126.784,
+        109.155,
+        107.937,
+        109.253,
+        108.043,
+        108.622
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tianyue Zhang",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.366,
+      "lap_times_url": null,
+      "laps": [
+        144.377,
+        181.0,
+        118.366,
+        162.338
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75766"
+}

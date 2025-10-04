@@ -1,0 +1,69 @@
+{
+  "heat_no": 75641,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-05T12:45:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.377,
+      "lap_times_url": null,
+      "laps": [
+        130.288,
+        104.084,
+        103.123,
+        103.923,
+        101.879,
+        101.377
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "EMANI KITIONA",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 143.76,
+      "lap_times_url": null,
+      "laps": [
+        175.722,
+        148.924,
+        143.76,
+        160.437
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eonytus Kitiona",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 147.822,
+      "lap_times_url": null,
+      "laps": [
+        171.271,
+        152.287,
+        150.661,
+        147.822
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75641"
+}

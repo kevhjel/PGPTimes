@@ -1,0 +1,60 @@
+{
+  "heat_no": 75730,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-09T12:45:00",
+  "drivers": [
+    {
+      "name": "Trevor Smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.123,
+      "lap_times_url": null,
+      "laps": [
+        106.482,
+        85.36,
+        84.869,
+        84.768,
+        84.123,
+        84.542,
+        85.086,
+        85.78
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dillon Valdez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.541,
+      "lap_times_url": null,
+      "laps": [
+        107.861,
+        88.541,
+        89.286,
+        88.709,
+        88.625,
+        89.102,
+        88.914
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75730"
+}

@@ -1,0 +1,115 @@
+{
+  "heat_no": 75635,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-05T11:15:00",
+  "drivers": [
+    {
+      "name": "Ryder Gwinn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.021,
+      "lap_times_url": null,
+      "laps": [
+        130.313,
+        110.96,
+        108.76,
+        108.82,
+        108.021,
+        108.116
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryder H Gwinn",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.191,
+      "lap_times_url": null,
+      "laps": [
+        130.179,
+        111.34,
+        106.094,
+        105.664,
+        104.637,
+        104.191
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maddie Gwinn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 115.732,
+      "lap_times_url": null,
+      "laps": [
+        148.257,
+        122.732,
+        119.247,
+        117.07,
+        115.732
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Devin Phillips",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 115.997,
+      "lap_times_url": null,
+      "laps": [
+        146.641,
+        121.092,
+        116.977,
+        117.675,
+        115.997
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Pavin Browne",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 131.54,
+      "lap_times_url": null,
+      "laps": [
+        162.739,
+        131.54,
+        133.725,
+        137.488
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75635"
+}

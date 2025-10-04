@@ -1,0 +1,35 @@
+{
+  "heat_no": 75702,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T14:00:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.598,
+      "lap_times_url": null,
+      "laps": [
+        84.385,
+        82.381,
+        81.819,
+        81.928,
+        81.882,
+        82.125,
+        81.82,
+        81.598
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75702"
+}

@@ -1,0 +1,121 @@
+{
+  "heat_no": 75639,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-01-05T12:15:00",
+  "drivers": [
+    {
+      "name": "Ryder Gwinn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 105.042,
+      "lap_times_url": null,
+      "laps": [
+        141.5,
+        115.328,
+        107.999,
+        106.185,
+        105.607,
+        105.042
+      ],
+      "lap_positions": [
+        5,
+        5,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ryder H Gwinn",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 102.864,
+      "lap_times_url": null,
+      "laps": [
+        132.089,
+        108.284,
+        105.133,
+        104.709,
+        103.897,
+        102.864
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maddie Gwinn",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 110.056,
+      "lap_times_url": null,
+      "laps": [
+        135.431,
+        110.056,
+        110.65,
+        111.027,
+        117.491,
+        110.434
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Miles Hennegan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.987,
+      "lap_times_url": null,
+      "laps": [
+        128.992,
+        107.078,
+        105.336,
+        105.488,
+        104.887,
+        102.987
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Pavin Browne",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 114.778,
+      "lap_times_url": null,
+      "laps": [
+        136.554,
+        114.778,
+        122.013,
+        130.515,
+        116.53
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75639"
+}

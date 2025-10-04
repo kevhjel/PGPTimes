@@ -1,0 +1,114 @@
+{
+  "heat_no": 75703,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T14:15:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.845,
+      "lap_times_url": null,
+      "laps": [
+        86.636,
+        81.845,
+        82.249,
+        82.891,
+        157.452,
+        83.796,
+        83.279
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.536,
+      "lap_times_url": null,
+      "laps": [
+        87.021,
+        81.737,
+        82.1,
+        82.203,
+        82.476,
+        83.101,
+        81.536,
+        82.05
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jacob Zerby",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.265,
+      "lap_times_url": null,
+      "laps": [
+        89.399,
+        84.043,
+        85.804,
+        84.392,
+        83.98,
+        83.782,
+        83.765,
+        83.265
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.036,
+      "lap_times_url": null,
+      "laps": [
+        88.821,
+        84.172,
+        83.245,
+        82.265,
+        82.213,
+        81.036,
+        81.425,
+        81.412
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75703"
+}

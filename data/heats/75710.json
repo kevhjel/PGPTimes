@@ -1,0 +1,58 @@
+{
+  "heat_no": 75710,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T16:00:00",
+  "drivers": [
+    {
+      "name": "Dustin Carroll",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.762,
+      "lap_times_url": null,
+      "laps": [
+        112.486,
+        85.979,
+        85.827,
+        94.873,
+        86.579,
+        86.192,
+        84.762
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maddox Carroll",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.093,
+      "lap_times_url": null,
+      "laps": [
+        111.704,
+        86.074,
+        86.363,
+        94.289,
+        86.481,
+        87.219,
+        85.093
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75710"
+}

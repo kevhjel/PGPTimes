@@ -1,0 +1,42 @@
+{
+  "heat_no": 75677,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-03T16:15:00",
+  "drivers": [
+    {
+      "name": "Fredrick Maina",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 132.13,
+      "lap_times_url": null,
+      "laps": [
+        188.716,
+        260.762,
+        132.13
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Ann Michael",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 153.766,
+      "lap_times_url": null,
+      "laps": [
+        180.057,
+        153.766,
+        154.258
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75677"
+}

@@ -1,0 +1,116 @@
+{
+  "heat_no": 75705,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T14:45:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.593,
+      "lap_times_url": null,
+      "laps": [
+        80.873,
+        80.669,
+        81.342,
+        81.07,
+        81.253,
+        80.593,
+        80.867,
+        86.748
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.553,
+      "lap_times_url": null,
+      "laps": [
+        80.83,
+        81.15,
+        81.217,
+        81.179,
+        81.282,
+        80.553,
+        80.776,
+        82.701
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Bermudez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.905,
+      "lap_times_url": null,
+      "laps": [
+        83.767,
+        83.053,
+        82.945,
+        83.295,
+        82.905,
+        83.188,
+        83.509,
+        83.026
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.756,
+      "lap_times_url": null,
+      "laps": [
+        83.134,
+        82.986,
+        83.478,
+        85.162,
+        83.554,
+        83.153,
+        83.697,
+        82.756
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75705"
+}

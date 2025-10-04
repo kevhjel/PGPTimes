@@ -1,0 +1,35 @@
+{
+  "heat_no": 75734,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-09T14:00:00",
+  "drivers": [
+    {
+      "name": "Stephen Greene",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.442,
+      "lap_times_url": null,
+      "laps": [
+        84.454,
+        80.78,
+        81.11,
+        80.954,
+        80.582,
+        80.526,
+        80.731,
+        80.442
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75734"
+}

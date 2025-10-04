@@ -1,0 +1,31 @@
+{
+  "heat_no": 75768,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-10T16:00:00",
+  "drivers": [
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.33,
+      "lap_times_url": null,
+      "laps": [
+        109.838,
+        107.388,
+        106.373,
+        106.648,
+        105.887,
+        105.33
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75768"
+}

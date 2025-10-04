@@ -1,0 +1,96 @@
+{
+  "heat_no": 75660,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2024-12-27T14:15:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.619,
+      "lap_times_url": null,
+      "laps": [
+        129.376,
+        113.969,
+        114.588,
+        106.955,
+        105.701,
+        105.619
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 110.07,
+      "lap_times_url": null,
+      "laps": [
+        133.661,
+        113.731,
+        113.363,
+        110.888,
+        111.002,
+        110.07
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jordan Hinrichs",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.649,
+      "lap_times_url": null,
+      "laps": [
+        152.252,
+        115.12,
+        122.63,
+        121.867,
+        112.649
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Riley Cabansag",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 112.732,
+      "lap_times_url": null,
+      "laps": [
+        139.201,
+        117.311,
+        115.267,
+        112.888,
+        112.732
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75660"
+}

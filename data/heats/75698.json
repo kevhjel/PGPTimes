@@ -1,0 +1,105 @@
+{
+  "heat_no": 75698,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-01-08T13:00:00",
+  "drivers": [
+    {
+      "name": "Gator",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.929,
+      "lap_times_url": null,
+      "laps": [
+        123.609,
+        89.488,
+        94.828,
+        88.174,
+        88.83,
+        87.658,
+        86.929
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sachin Maulankar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 137.344,
+      "lap_times_url": null,
+      "laps": [
+        207.273,
+        166.657,
+        137.344,
+        142.051
+      ],
+      "lap_positions": [
+        4,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Swapnil Dabre",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 155.571,
+      "lap_times_url": null,
+      "laps": [
+        200.068,
+        155.571,
+        201.064
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "ANMIT NAIK",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 166.025,
+      "lap_times_url": null,
+      "laps": [
+        213.31,
+        166.025,
+        213.677
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Ronald Dabre",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 144.278,
+      "lap_times_url": null,
+      "laps": [
+        197.232,
+        149.766,
+        154.214,
+        144.278
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=75698"
+}
