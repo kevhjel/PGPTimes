@@ -9,7 +9,7 @@ on:
       max_heats:
         description: "Max heats to scrape this run"
         required: false
-        default: "300"
+        default: "200"
 
 jobs:
   scrape:
@@ -30,11 +30,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run scraper (max 300 heats)
+      - name: Run scraper (max 200 heats)
         shell: bash
         run: |
           MAX="${{ github.event.inputs.max_heats }}"
-          MAX="${MAX:-300}"
+          MAX="${MAX:-200}"
           echo "Running scraper with max=$MAX"
           python -m scraper.run --max "$MAX"
 
