@@ -1,0 +1,85 @@
+{
+  "heat_no": 76519,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T12:15:00",
+  "drivers": [
+    {
+      "name": "ALEX ACOSTA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.516,
+      "lap_times_url": null,
+      "laps": [
+        103.834,
+        81.921,
+        80.725,
+        80.516,
+        84.252,
+        80.629,
+        81.243,
+        80.608
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mike Mahn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.972,
+      "lap_times_url": null,
+      "laps": [
+        115.677,
+        104.459,
+        96.6,
+        95.298,
+        95.97,
+        92.972,
+        93.592
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jasper Mahn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.994,
+      "lap_times_url": null,
+      "laps": [
+        113.995,
+        96.073,
+        94.8,
+        94.716,
+        93.667,
+        93.843,
+        92.994
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76519"
+}

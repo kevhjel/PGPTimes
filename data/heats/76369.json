@@ -1,0 +1,33 @@
+{
+  "heat_no": 76369,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-13T11:15:00",
+  "drivers": [
+    {
+      "name": "Jon McNally",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.72,
+      "lap_times_url": null,
+      "laps": [
+        86.777,
+        84.735,
+        84.212,
+        83.577,
+        82.72,
+        83.324,
+        82.873
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76369"
+}

@@ -1,0 +1,81 @@
+{
+  "heat_no": 76729,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-28T11:45:00",
+  "drivers": [
+    {
+      "name": "Jordan Hinrichs",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.549,
+      "lap_times_url": null,
+      "laps": [
+        116.029,
+        82.841,
+        82.286,
+        82.921,
+        81.604,
+        81.752,
+        81.554,
+        81.549
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rukshehara Mee...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.235,
+      "lap_times_url": null,
+      "laps": [
+        141.556,
+        115.739,
+        115.766,
+        113.302,
+        106.235,
+        111.307
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jake Swanson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.895,
+      "lap_times_url": null,
+      "laps": [
+        128.472,
+        103.981,
+        103.459,
+        101.714,
+        99.204,
+        96.895
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76729"
+}

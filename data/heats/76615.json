@@ -1,0 +1,31 @@
+{
+  "heat_no": 76615,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T11:00:00",
+  "drivers": [
+    {
+      "name": "Ronald Cheng",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.115,
+      "lap_times_url": null,
+      "laps": [
+        120.339,
+        109.39,
+        107.991,
+        107.311,
+        106.115,
+        112.025
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76615"
+}

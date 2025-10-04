@@ -1,0 +1,77 @@
+{
+  "heat_no": 76320,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T14:45:00",
+  "drivers": [
+    {
+      "name": "Will Beightol",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 110.823,
+      "lap_times_url": null,
+      "laps": [
+        118.204,
+        114.373,
+        112.833,
+        135.666,
+        112.896,
+        110.823
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ryan Beightol",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.601,
+      "lap_times_url": null,
+      "laps": [
+        112.814,
+        108.842,
+        107.999,
+        108.354,
+        107.832,
+        107.601
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.437,
+      "lap_times_url": null,
+      "laps": [
+        112.628,
+        111.536,
+        110.464,
+        110.084,
+        110.246,
+        109.437
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76320"
+}

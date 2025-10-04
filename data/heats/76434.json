@@ -1,0 +1,103 @@
+{
+  "heat_no": 76434,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-15T13:30:00",
+  "drivers": [
+    {
+      "name": "Sean McMahan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 124.204,
+      "lap_times_url": null,
+      "laps": [
+        168.207,
+        130.544,
+        139.43,
+        124.204
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Martin Ma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.098,
+      "lap_times_url": null,
+      "laps": [
+        170.561,
+        129.58,
+        121.098,
+        148.1
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jiawei Tang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 131.26,
+      "lap_times_url": null,
+      "laps": [
+        210.305,
+        140.657,
+        155.846,
+        131.26
+      ],
+      "lap_positions": [
+        5,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Madeleine Bareau",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.485,
+      "lap_times_url": null,
+      "laps": [
+        158.02,
+        185.329,
+        133.94,
+        130.485
+      ],
+      "lap_positions": [
+        1,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Em Lin",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 139.926,
+      "lap_times_url": null,
+      "laps": [
+        176.188,
+        144.27,
+        143.977,
+        139.926
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76434"
+}

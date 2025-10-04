@@ -1,0 +1,50 @@
+{
+  "heat_no": 76613,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T10:30:00",
+  "drivers": [
+    {
+      "name": "Ronald Cheng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 106.257,
+      "lap_times_url": null,
+      "laps": [
+        107.477,
+        106.257,
+        126.874,
+        106.352,
+        106.402
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.41,
+      "lap_times_url": null,
+      "laps": [
+        107.33,
+        103.988,
+        103.41,
+        104.278,
+        104.104
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76613"
+}

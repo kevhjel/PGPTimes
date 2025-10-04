@@ -1,0 +1,115 @@
+{
+  "heat_no": 76288,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-07T12:30:00",
+  "drivers": [
+    {
+      "name": "ALEX ACOSTA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.768,
+      "lap_times_url": null,
+      "laps": [
+        80.849,
+        80.49,
+        80.458,
+        79.939,
+        79.808,
+        80.636,
+        79.768
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alex Timme",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 110.22,
+      "lap_times_url": null,
+      "laps": [
+        110.606,
+        111.541,
+        136.303,
+        110.22,
+        110.618
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "james reed",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.163,
+      "lap_times_url": null,
+      "laps": [
+        91.657,
+        90.612,
+        89.624,
+        89.866,
+        87.163,
+        87.411
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lexie Timme",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 134.153,
+      "lap_times_url": null,
+      "laps": [
+        150.016,
+        151.072,
+        134.153
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Walker Gest",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 103.834,
+      "lap_times_url": null,
+      "laps": [
+        113.329,
+        105.385,
+        113.666,
+        103.834,
+        106.352
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76288"
+}

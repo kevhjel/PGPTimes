@@ -1,0 +1,67 @@
+{
+  "heat_no": 76635,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T15:15:00",
+  "drivers": [
+    {
+      "name": "Jordan Jensen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 136.201,
+      "lap_times_url": null,
+      "laps": [
+        154.413,
+        136.399,
+        147.687,
+        136.201
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tyler Jensen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 132.121,
+      "lap_times_url": null,
+      "laps": [
+        197.124,
+        132.121,
+        137.367,
+        135.894
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kris Mahns",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.471,
+      "lap_times_url": null,
+      "laps": [
+        136.302,
+        115.758,
+        121.71,
+        118.797,
+        111.471
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76635"
+}

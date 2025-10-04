@@ -1,0 +1,69 @@
+{
+  "heat_no": 76311,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T12:30:00",
+  "drivers": [
+    {
+      "name": "Niles Fulcher",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.956,
+      "lap_times_url": null,
+      "laps": [
+        131.224,
+        113.596,
+        109.956,
+        135.788,
+        118.685
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.647,
+      "lap_times_url": null,
+      "laps": [
+        133.397,
+        114.879,
+        132.338,
+        120.655,
+        114.647
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aaliyah Del Rio",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 138.646,
+      "lap_times_url": null,
+      "laps": [
+        154.457,
+        138.646,
+        198.735,
+        141.283
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76311"
+}

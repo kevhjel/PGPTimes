@@ -1,0 +1,48 @@
+{
+  "heat_no": 76826,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T10:00:00",
+  "drivers": [
+    {
+      "name": "Alisa Sandlin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.164,
+      "lap_times_url": null,
+      "laps": [
+        150.54,
+        117.271,
+        113.164,
+        119.737,
+        116.226
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Corey De vou",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 130.528,
+      "lap_times_url": null,
+      "laps": [
+        181.333,
+        178.292,
+        161.293,
+        130.528
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76826"
+}

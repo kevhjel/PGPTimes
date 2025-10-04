@@ -1,0 +1,31 @@
+{
+  "heat_no": 76827,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T10:15:00",
+  "drivers": [
+    {
+      "name": "finn heath",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.198,
+      "lap_times_url": null,
+      "laps": [
+        127.476,
+        103.584,
+        100.363,
+        98.633,
+        98.198,
+        103.022
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76827"
+}

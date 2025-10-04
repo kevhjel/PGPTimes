@@ -1,0 +1,108 @@
+{
+  "heat_no": 76521,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T13:15:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.256,
+      "lap_times_url": null,
+      "laps": [
+        104.527,
+        82.731,
+        82.929,
+        83.234,
+        83.175,
+        82.256,
+        83.499,
+        82.79
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "finn heath",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.963,
+      "lap_times_url": null,
+      "laps": [
+        106.489,
+        100.769,
+        91.275,
+        87.961,
+        86.016,
+        83.963,
+        96.286
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyler Martinez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.576,
+      "lap_times_url": null,
+      "laps": [
+        111.583,
+        94.197,
+        90.976,
+        91.883,
+        89.576,
+        99.019,
+        90.25
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Stephanie Luck",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.513,
+      "lap_times_url": null,
+      "laps": [
+        121.547,
+        105.602,
+        97.551,
+        94.391,
+        92.513,
+        138.554
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76521"
+}

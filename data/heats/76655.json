@@ -1,0 +1,79 @@
+{
+  "heat_no": 76655,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T11:15:00",
+  "drivers": [
+    {
+      "name": "Daniel Sinclair",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.099,
+      "lap_times_url": null,
+      "laps": [
+        93.626,
+        115.411,
+        101.321,
+        93.099,
+        104.865,
+        97.151
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Quintin Sinclair",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.916,
+      "lap_times_url": null,
+      "laps": [
+        100.437,
+        99.608,
+        102.852,
+        97.976,
+        99.85,
+        94.916
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Viktor Halachev",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.467,
+      "lap_times_url": null,
+      "laps": [
+        91.071,
+        87.492,
+        87.469,
+        86.575,
+        86.757,
+        86.768,
+        86.467
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76655"
+}

@@ -1,0 +1,63 @@
+{
+  "heat_no": 76559,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-21T16:00:00",
+  "drivers": [
+    {
+      "name": "Markus Gallasch",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.429,
+      "lap_times_url": null,
+      "laps": [
+        117.837,
+        117.348,
+        116.429,
+        117.157
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rustland Palac...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.274,
+      "lap_times_url": null,
+      "laps": [
+        135.717,
+        131.198,
+        126.274,
+        126.712
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jason Palacios...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 151.968,
+      "lap_times_url": null,
+      "laps": [
+        155.039,
+        151.968,
+        172.762
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76559"
+}

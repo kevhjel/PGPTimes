@@ -1,0 +1,40 @@
+{
+  "heat_no": 76598,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-02-21T10:00:00",
+  "drivers": [
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.537,
+      "lap_times_url": null,
+      "laps": [
+        80.537,
+        258.576,
+        80.834
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TestN1 TestN2",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.934,
+      "lap_times_url": null,
+      "laps": [
+        81.66,
+        80.934
+      ],
+      "lap_positions": [
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76598"
+}

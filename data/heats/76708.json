@@ -1,0 +1,62 @@
+{
+  "heat_no": 76708,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T16:00:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.549,
+      "lap_times_url": null,
+      "laps": [
+        83.802,
+        82.245,
+        82.563,
+        81.549,
+        83.596,
+        81.736,
+        82.662,
+        82.055
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.058,
+      "lap_times_url": null,
+      "laps": [
+        83.676,
+        82.097,
+        81.986,
+        81.491,
+        92.8,
+        82.756,
+        81.863,
+        81.058
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76708"
+}

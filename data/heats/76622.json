@@ -1,0 +1,100 @@
+{
+  "heat_no": 76622,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T12:15:00",
+  "drivers": [
+    {
+      "name": "Ben Hawkins",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.216,
+      "lap_times_url": null,
+      "laps": [
+        113.237,
+        107.038,
+        104.75,
+        103.216,
+        103.87,
+        111.294
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Johar Samrao",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.175,
+      "lap_times_url": null,
+      "laps": [
+        118.498,
+        110.841,
+        109.58,
+        107.602,
+        106.348,
+        106.175
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Adam Towers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.146,
+      "lap_times_url": null,
+      "laps": [
+        110.825,
+        106.465,
+        106.286,
+        104.715,
+        104.146,
+        112.071
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Gies",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 108.521,
+      "lap_times_url": null,
+      "laps": [
+        115.602,
+        127.773,
+        117.778,
+        117.056,
+        108.521,
+        113.788
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76622"
+}

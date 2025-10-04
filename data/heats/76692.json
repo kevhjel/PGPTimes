@@ -1,0 +1,66 @@
+{
+  "heat_no": 76692,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T12:00:00",
+  "drivers": [
+    {
+      "name": "Jared Petersen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.146,
+      "lap_times_url": null,
+      "laps": [
+        82.196,
+        81.689,
+        81.835,
+        82.05,
+        81.397,
+        82.023,
+        82.203,
+        82.019,
+        81.146
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Cole Sherriff",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.174,
+      "lap_times_url": null,
+      "laps": [
+        81.444,
+        81.429,
+        81.453,
+        81.174,
+        87.081,
+        81.729,
+        81.855,
+        81.538,
+        81.228
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76692"
+}

@@ -1,0 +1,54 @@
+{
+  "heat_no": 76819,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-02T17:00:00",
+  "drivers": [
+    {
+      "name": "Oscar G",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.66,
+      "lap_times_url": null,
+      "laps": [
+        119.52,
+        93.66,
+        95.862,
+        99.192,
+        140.722,
+        110.025
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christopherrrr...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.638,
+      "lap_times_url": null,
+      "laps": [
+        131.449,
+        93.638,
+        102.861,
+        99.975,
+        109.599,
+        119.417
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76819"
+}

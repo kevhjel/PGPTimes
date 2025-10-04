@@ -1,0 +1,87 @@
+{
+  "heat_no": 76675,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T16:15:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.755,
+      "lap_times_url": null,
+      "laps": [
+        84.394,
+        80.342,
+        80.431,
+        80.447,
+        79.755,
+        80.508,
+        80.262,
+        80.554
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Clay Matthews",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.039,
+      "lap_times_url": null,
+      "laps": [
+        85.047,
+        80.742,
+        80.416,
+        80.19,
+        80.039,
+        80.621,
+        80.206,
+        80.604
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.179,
+      "lap_times_url": null,
+      "laps": [
+        96.978,
+        83.274,
+        82.179,
+        82.489,
+        84.551,
+        83.003,
+        128.85
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76675"
+}

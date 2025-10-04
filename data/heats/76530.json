@@ -1,0 +1,112 @@
+{
+  "heat_no": 76530,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T15:30:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.523,
+      "lap_times_url": null,
+      "laps": [
+        108.512,
+        82.575,
+        81.602,
+        81.291,
+        80.904,
+        80.799,
+        80.523,
+        80.807
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.579,
+      "lap_times_url": null,
+      "laps": [
+        109.034,
+        81.764,
+        81.306,
+        81.439,
+        81.018,
+        80.579,
+        80.707,
+        80.593
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Zack Allen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.444,
+      "lap_times_url": null,
+      "laps": [
+        111.897,
+        85.416,
+        85.81,
+        86.592,
+        84.963,
+        85.288,
+        84.444
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ben Bass",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.561,
+      "lap_times_url": null,
+      "laps": [
+        114.573,
+        90.685,
+        90.561,
+        90.823,
+        93.128,
+        91.043,
+        90.969
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76530"
+}

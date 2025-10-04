@@ -1,0 +1,33 @@
+{
+  "heat_no": 76329,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-12T09:30:00",
+  "drivers": [
+    {
+      "name": "ShanMan Dude",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.727,
+      "lap_times_url": null,
+      "laps": [
+        119.513,
+        92.152,
+        89.342,
+        88.625,
+        88.122,
+        87.059,
+        86.727
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76329"
+}

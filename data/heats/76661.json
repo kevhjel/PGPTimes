@@ -1,0 +1,56 @@
+{
+  "heat_no": 76661,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T12:45:00",
+  "drivers": [
+    {
+      "name": "George Petrie",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.878,
+      "lap_times_url": null,
+      "laps": [
+        109.515,
+        88.45,
+        88.995,
+        95.234,
+        88.968,
+        92.63,
+        85.878
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicole Petrie",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.359,
+      "lap_times_url": null,
+      "laps": [
+        119.729,
+        91.46,
+        166.346,
+        92.211,
+        94.423,
+        91.359
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76661"
+}

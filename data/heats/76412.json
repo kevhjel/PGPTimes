@@ -1,0 +1,65 @@
+{
+  "heat_no": 76412,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-14T14:00:00",
+  "drivers": [
+    {
+      "name": "Camellia Talley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 154.568,
+      "lap_times_url": null,
+      "laps": [
+        183.743,
+        156.285,
+        154.568,
+        176.167
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Timothy Talley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.788,
+      "lap_times_url": null,
+      "laps": [
+        181.141,
+        141.788,
+        153.833,
+        190.123
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Michael Talley",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 132.684,
+      "lap_times_url": null,
+      "laps": [
+        175.053,
+        145.339,
+        149.092,
+        132.684
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76412"
+}

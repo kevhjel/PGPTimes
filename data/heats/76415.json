@@ -1,0 +1,46 @@
+{
+  "heat_no": 76415,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-14T14:45:00",
+  "drivers": [
+    {
+      "name": "Marin Shepardson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 130.123,
+      "lap_times_url": null,
+      "laps": [
+        160.977,
+        136.746,
+        130.123,
+        135.718
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rhowe Stefanski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.816,
+      "lap_times_url": null,
+      "laps": [
+        156.19,
+        127.816,
+        140.384,
+        134.87
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76415"
+}

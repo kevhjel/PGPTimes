@@ -1,0 +1,62 @@
+{
+  "heat_no": 76673,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T15:45:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.133,
+      "lap_times_url": null,
+      "laps": [
+        84.201,
+        81.149,
+        83.476,
+        80.819,
+        81.566,
+        81.165,
+        80.133,
+        80.414
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.399,
+      "lap_times_url": null,
+      "laps": [
+        84.546,
+        81.331,
+        81.893,
+        81.28,
+        81.338,
+        81.881,
+        81.119,
+        80.399
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76673"
+}

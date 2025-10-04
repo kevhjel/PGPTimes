@@ -1,0 +1,50 @@
+{
+  "heat_no": 76623,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T12:30:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.705,
+      "lap_times_url": null,
+      "laps": [
+        148.311,
+        111.653,
+        107.653,
+        106.785,
+        106.828,
+        104.705
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hailey Rhinehart",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 140.109,
+      "lap_times_url": null,
+      "laps": [
+        149.085,
+        145.856,
+        150.471,
+        140.109
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76623"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 76262,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-06T12:45:00",
+  "drivers": [
+    {
+      "name": "Preston Suster...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.048,
+      "lap_times_url": null,
+      "laps": [
+        123.444,
+        91.38,
+        90.347,
+        89.176,
+        88.58,
+        88.048,
+        88.159
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ezra Giesbrecht",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.664,
+      "lap_times_url": null,
+      "laps": [
+        123.562,
+        104.073,
+        92.617,
+        90.364,
+        90.266,
+        90.651,
+        89.664
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mohammed Darboe",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.612,
+      "lap_times_url": null,
+      "laps": [
+        123.244,
+        96.829,
+        93.471,
+        93.189,
+        91.906,
+        92.868,
+        90.612
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76262"
+}

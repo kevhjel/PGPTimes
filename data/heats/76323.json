@@ -1,0 +1,105 @@
+{
+  "heat_no": 76323,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T15:30:00",
+  "drivers": [
+    {
+      "name": "Ayaan Mahimwala",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.779,
+      "lap_times_url": null,
+      "laps": [
+        152.582,
+        133.34,
+        122.117,
+        123.437,
+        116.779
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Luca Paolantonio",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.109,
+      "lap_times_url": null,
+      "laps": [
+        203.629,
+        115.511,
+        119.269,
+        114.109,
+        117.174
+      ],
+      "lap_positions": [
+        5,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gary Wang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 132.063,
+      "lap_times_url": null,
+      "laps": [
+        167.376,
+        155.529,
+        135.956,
+        132.063
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Shray Vats",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 154.274,
+      "lap_times_url": null,
+      "laps": [
+        181.56,
+        174.056,
+        154.274
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Himanshu Biradar",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 143.815,
+      "lap_times_url": null,
+      "laps": [
+        172.038,
+        143.815,
+        149.437,
+        149.867
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76323"
+}

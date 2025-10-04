@@ -1,0 +1,111 @@
+{
+  "heat_no": 76588,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-22T15:00:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.695,
+      "lap_times_url": null,
+      "laps": [
+        121.335,
+        105.97,
+        105.22,
+        106.205,
+        112.89,
+        104.695
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Luca Paolantonio",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.849,
+      "lap_times_url": null,
+      "laps": [
+        133.104,
+        121.202,
+        114.797,
+        112.849,
+        119.42
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "London Norfleet",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 148.307,
+      "lap_times_url": null,
+      "laps": [
+        157.115,
+        166.433,
+        155.696,
+        148.307
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jordan Norfleet",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 142.2,
+      "lap_times_url": null,
+      "laps": [
+        166.302,
+        151.25,
+        142.2,
+        176.464
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Lawrence Norfl...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 124.458,
+      "lap_times_url": null,
+      "laps": [
+        153.996,
+        124.458,
+        133.085,
+        125.611,
+        125.859
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76588"
+}

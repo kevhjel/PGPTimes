@@ -1,0 +1,54 @@
+{
+  "heat_no": 76517,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T11:45:00",
+  "drivers": [
+    {
+      "name": "Mike Mahn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.194,
+      "lap_times_url": null,
+      "laps": [
+        123.53,
+        105.698,
+        103.089,
+        99.789,
+        99.941,
+        99.194
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Jasper Mahn",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.97,
+      "lap_times_url": null,
+      "laps": [
+        121.498,
+        105.338,
+        102.215,
+        101.179,
+        100.077,
+        98.97
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76517"
+}

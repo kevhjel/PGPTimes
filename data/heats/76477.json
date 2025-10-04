@@ -1,0 +1,48 @@
+{
+  "heat_no": 76477,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-16T15:30:00",
+  "drivers": [
+    {
+      "name": "Osvaldo Cervan...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 148.803,
+      "lap_times_url": null,
+      "laps": [
+        162.093,
+        167.94,
+        158.759,
+        148.803
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rebecca Olivares",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 128.548,
+      "lap_times_url": null,
+      "laps": [
+        137.791,
+        128.548,
+        129.983,
+        128.968,
+        131.159
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76477"
+}

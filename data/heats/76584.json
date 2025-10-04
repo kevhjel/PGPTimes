@@ -1,0 +1,77 @@
+{
+  "heat_no": 76584,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-22T14:00:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.253,
+      "lap_times_url": null,
+      "laps": [
+        114.214,
+        108.39,
+        106.617,
+        105.996,
+        105.253,
+        105.586
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Quinn Myhre",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.861,
+      "lap_times_url": null,
+      "laps": [
+        113.965,
+        109.526,
+        108.72,
+        108.919,
+        115.45,
+        106.861
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Peyton Haskell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 106.302,
+      "lap_times_url": null,
+      "laps": [
+        110.807,
+        110.473,
+        108.585,
+        106.897,
+        106.398,
+        106.302
+      ],
+      "lap_positions": [
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76584"
+}

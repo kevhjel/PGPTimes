@@ -1,0 +1,112 @@
+{
+  "heat_no": 76528,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T14:30:00",
+  "drivers": [
+    {
+      "name": "Chih Yu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.292,
+      "lap_times_url": null,
+      "laps": [
+        93.059,
+        86.876,
+        81.694,
+        81.138,
+        81.122,
+        81.843,
+        80.523,
+        80.292
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Sathya Venkate...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.47,
+      "lap_times_url": null,
+      "laps": [
+        96.12,
+        82.188,
+        81.865,
+        81.3,
+        82.445,
+        80.657,
+        80.47,
+        81.129
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Lazaro Cangas",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.116,
+      "lap_times_url": null,
+      "laps": [
+        113.07,
+        95.509,
+        95.626,
+        93.441,
+        93.208,
+        92.116,
+        92.986
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Leo Cangas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.58,
+      "lap_times_url": null,
+      "laps": [
+        102.452,
+        93.658,
+        92.652,
+        93.724,
+        92.23,
+        90.58,
+        93.879
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76528"
+}

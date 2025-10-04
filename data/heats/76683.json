@@ -1,0 +1,50 @@
+{
+  "heat_no": 76683,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T09:45:00",
+  "drivers": [
+    {
+      "name": "Kunal Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.668,
+      "lap_times_url": null,
+      "laps": [
+        153.132,
+        118.115,
+        111.114,
+        125.993,
+        110.668
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Karan Jain",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.142,
+      "lap_times_url": null,
+      "laps": [
+        167.638,
+        129.248,
+        120.229,
+        120.142,
+        120.435
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76683"
+}

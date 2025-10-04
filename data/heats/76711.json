@@ -1,0 +1,62 @@
+{
+  "heat_no": 76711,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T16:45:00",
+  "drivers": [
+    {
+      "name": "Vitaliy Shmaly...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.717,
+      "lap_times_url": null,
+      "laps": [
+        101.407,
+        81.686,
+        81.269,
+        81.153,
+        81.009,
+        81.24,
+        80.717,
+        81.051
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.639,
+      "lap_times_url": null,
+      "laps": [
+        85.746,
+        82.674,
+        81.207,
+        81.509,
+        81.003,
+        80.659,
+        81.115,
+        80.639
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76711"
+}

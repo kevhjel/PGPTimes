@@ -1,0 +1,48 @@
+{
+  "heat_no": 76550,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-21T13:45:00",
+  "drivers": [
+    {
+      "name": "Abhishek Khand...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.319,
+      "lap_times_url": null,
+      "laps": [
+        162.817,
+        107.321,
+        103.368,
+        98.319
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Vighnesh Mahale",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.309,
+      "lap_times_url": null,
+      "laps": [
+        108.323,
+        102.117,
+        98.309,
+        129.001,
+        100.434
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76550"
+}

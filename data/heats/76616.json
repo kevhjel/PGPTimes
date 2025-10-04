@@ -1,0 +1,67 @@
+{
+  "heat_no": 76616,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T11:15:00",
+  "drivers": [
+    {
+      "name": "Ronald Cheng",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.754,
+      "lap_times_url": null,
+      "laps": [
+        144.399,
+        107.849,
+        106.754,
+        107.015,
+        107.529,
+        106.761
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dejuan Nixon",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 132.032,
+      "lap_times_url": null,
+      "laps": [
+        162.718,
+        132.032,
+        159.402,
+        152.369
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Thalia Hopkins",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 192.118,
+      "lap_times_url": null,
+      "laps": [
+        248.118,
+        204.783,
+        192.118
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76616"
+}

@@ -1,0 +1,98 @@
+{
+  "heat_no": 76624,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T12:45:00",
+  "drivers": [
+    {
+      "name": "Johar Samrao",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.86,
+      "lap_times_url": null,
+      "laps": [
+        115.495,
+        110.873,
+        109.44,
+        108.13,
+        107.225,
+        106.86
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Adam Towers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.526,
+      "lap_times_url": null,
+      "laps": [
+        115.876,
+        110.127,
+        108.48,
+        106.169,
+        107.771,
+        105.526
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Gies",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 109.405,
+      "lap_times_url": null,
+      "laps": [
+        131.827,
+        118.071,
+        109.405,
+        221.878,
+        117.275
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.677,
+      "lap_times_url": null,
+      "laps": [
+        113.456,
+        107.821,
+        105.218,
+        103.688,
+        105.319,
+        103.677
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76624"
+}

@@ -1,0 +1,84 @@
+{
+  "heat_no": 76441,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-15T15:15:00",
+  "drivers": [
+    {
+      "name": "Yehor Kudashev",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 148.46,
+      "lap_times_url": null,
+      "laps": [
+        200.767,
+        156.522,
+        155.173,
+        148.46
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Petro Levchenko",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 137.294,
+      "lap_times_url": null,
+      "laps": [
+        190.376,
+        184.37,
+        137.294,
+        150.664
+      ],
+      "lap_positions": [
+        2,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Davyd Omelchuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 146.375,
+      "lap_times_url": null,
+      "laps": [
+        200.214,
+        169.654,
+        157.923,
+        146.375
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Timofii Hamanov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 134.747,
+      "lap_times_url": null,
+      "laps": [
+        181.049,
+        145.182,
+        141.694,
+        134.747
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76441"
+}

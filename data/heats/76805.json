@@ -1,0 +1,29 @@
+{
+  "heat_no": 76805,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-03-02T14:00:00",
+  "drivers": [
+    {
+      "name": "Alvaro Meza",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.097,
+      "lap_times_url": null,
+      "laps": [
+        245.604,
+        92.307,
+        92.912,
+        92.142,
+        92.097
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76805"
+}

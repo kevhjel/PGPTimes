@@ -1,0 +1,137 @@
+{
+  "heat_no": 76533,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-20T16:15:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.782,
+      "lap_times_url": null,
+      "laps": [
+        102.683,
+        82.113,
+        81.782,
+        83.249,
+        82.351,
+        82.662,
+        82.332,
+        82.007
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ethan Acosta",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.997,
+      "lap_times_url": null,
+      "laps": [
+        102.595,
+        80.911,
+        80.413,
+        82.539,
+        80.446,
+        80.078,
+        80.151,
+        79.997
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sathya Venkate...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.546,
+      "lap_times_url": null,
+      "laps": [
+        103.067,
+        81.37,
+        80.29,
+        82.652,
+        80.74,
+        79.641,
+        80.553,
+        79.546
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "CJ Peterson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.712,
+      "lap_times_url": null,
+      "laps": [
+        107.451,
+        135.686,
+        95.956,
+        88.489,
+        87.711,
+        86.712,
+        86.829
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Chad Peterson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 90.897,
+      "lap_times_url": null,
+      "laps": [
+        109.678,
+        107.951,
+        144.859,
+        91.368,
+        90.897,
+        101.972
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76533"
+}

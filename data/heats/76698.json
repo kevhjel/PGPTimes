@@ -1,0 +1,106 @@
+{
+  "heat_no": 76698,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T13:30:00",
+  "drivers": [
+    {
+      "name": "Rick Bohrer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.968,
+      "lap_times_url": null,
+      "laps": [
+        80.076,
+        79.968,
+        80.279,
+        80.227,
+        80.86,
+        81.101,
+        80.32
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "peter boyle",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.088,
+      "lap_times_url": null,
+      "laps": [
+        80.088,
+        80.36,
+        80.213,
+        80.514,
+        80.194,
+        81.42,
+        80.208
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Al Werner",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.535,
+      "lap_times_url": null,
+      "laps": [
+        82.535,
+        83.915,
+        84.05,
+        84.323,
+        83.712,
+        84.221,
+        84.332
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Cole Sherriff",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.095,
+      "lap_times_url": null,
+      "laps": [
+        208.949,
+        80.822,
+        80.413,
+        80.185,
+        80.516,
+        80.095
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76698"
+}

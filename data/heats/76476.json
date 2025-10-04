@@ -1,0 +1,109 @@
+{
+  "heat_no": 76476,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-16T15:15:00",
+  "drivers": [
+    {
+      "name": "Preston Reed",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 125.245,
+      "lap_times_url": null,
+      "laps": [
+        150.529,
+        134.371,
+        139.338,
+        125.245,
+        126.596
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Peyton Haskell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.482,
+      "lap_times_url": null,
+      "laps": [
+        147.688,
+        122.256,
+        115.398,
+        112.932,
+        111.482
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mark Stewart",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 135.663,
+      "lap_times_url": null,
+      "laps": [
+        156.263,
+        145.911,
+        135.663,
+        140.666
+      ],
+      "lap_positions": [
+        4,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Jonah Stewart",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 136.396,
+      "lap_times_url": null,
+      "laps": [
+        165.267,
+        142.829,
+        143.033,
+        136.396
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Corbin Stewart",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.337,
+      "lap_times_url": null,
+      "laps": [
+        148.627,
+        136.969,
+        143.011,
+        132.518,
+        120.337
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76476"
+}

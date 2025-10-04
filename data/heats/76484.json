@@ -1,0 +1,44 @@
+{
+  "heat_no": 76484,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-19T10:30:00",
+  "drivers": [
+    {
+      "name": "Plamen Petrov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 150.27,
+      "lap_times_url": null,
+      "laps": [
+        200.875,
+        165.588,
+        156.592,
+        150.27
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ivan Petrov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 161.54,
+      "lap_times_url": null,
+      "laps": [
+        218.148,
+        161.54,
+        191.613
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76484"
+}

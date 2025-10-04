@@ -1,0 +1,69 @@
+{
+  "heat_no": 76436,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-15T14:00:00",
+  "drivers": [
+    {
+      "name": "Sean McMahan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.748,
+      "lap_times_url": null,
+      "laps": [
+        138.655,
+        130.645,
+        127.234,
+        126.293,
+        113.748
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Martin Ma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.997,
+      "lap_times_url": null,
+      "laps": [
+        142.661,
+        123.958,
+        120.513,
+        122.126,
+        113.997
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Jiawei Tang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.428,
+      "lap_times_url": null,
+      "laps": [
+        158.825,
+        132.354,
+        139.789,
+        130.428
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76436"
+}

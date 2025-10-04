@@ -1,0 +1,90 @@
+{
+  "heat_no": 76310,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T12:15:00",
+  "drivers": [
+    {
+      "name": "Ashley Pond",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 136.089,
+      "lap_times_url": null,
+      "laps": [
+        147.216,
+        137.18,
+        137.779,
+        145.626,
+        136.089
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tyler Poston",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.029,
+      "lap_times_url": null,
+      "laps": [
+        142.603,
+        116.836,
+        116.195,
+        116.515,
+        116.029
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Spencer Peak",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 123.282,
+      "lap_times_url": null,
+      "laps": [
+        141.765,
+        178.399,
+        123.91,
+        123.282,
+        132.43
+      ],
+      "lap_positions": [
+        1,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Connor Saint-d...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.439,
+      "lap_times_url": null,
+      "laps": [
+        155.5,
+        123.161,
+        130.92,
+        122.439
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76310"
+}

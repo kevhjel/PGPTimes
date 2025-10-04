@@ -1,0 +1,52 @@
+{
+  "heat_no": 76321,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T15:00:00",
+  "drivers": [
+    {
+      "name": "eric schlichte",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 110.32,
+      "lap_times_url": null,
+      "laps": [
+        118.759,
+        113.851,
+        116.84,
+        119.496,
+        110.32,
+        110.558
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kyle Schlichte",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.091,
+      "lap_times_url": null,
+      "laps": [
+        166.731,
+        110.905,
+        108.972,
+        112.104,
+        108.091
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76321"
+}

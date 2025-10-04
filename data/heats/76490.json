@@ -1,0 +1,29 @@
+{
+  "heat_no": 76490,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-19T11:15:00",
+  "drivers": [
+    {
+      "name": "Tomas Donati",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.196,
+      "lap_times_url": null,
+      "laps": [
+        116.69,
+        116.282,
+        116.454,
+        104.196,
+        178.671
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76490"
+}

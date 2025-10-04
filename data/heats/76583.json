@@ -1,0 +1,71 @@
+{
+  "heat_no": 76583,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-22T13:45:00",
+  "drivers": [
+    {
+      "name": "Dakota Sauer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.529,
+      "lap_times_url": null,
+      "laps": [
+        132.341,
+        116.874,
+        115.918,
+        115.529,
+        117.028
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Travis Galon",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.099,
+      "lap_times_url": null,
+      "laps": [
+        142.423,
+        126.854,
+        117.099,
+        132.014,
+        118.427
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kenneth Galon",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.116,
+      "lap_times_url": null,
+      "laps": [
+        149.452,
+        140.626,
+        113.116,
+        119.029,
+        122.693
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76583"
+}

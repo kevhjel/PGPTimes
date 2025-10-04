@@ -1,0 +1,89 @@
+{
+  "heat_no": 76663,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T13:15:00",
+  "drivers": [
+    {
+      "name": "Paul Thomas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.449,
+      "lap_times_url": null,
+      "laps": [
+        86.856,
+        83.462,
+        84.526,
+        80.944,
+        80.449,
+        82.984,
+        82.455,
+        80.923
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lonnie Adamson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.348,
+      "lap_times_url": null,
+      "laps": [
+        84.253,
+        81.204,
+        81.201,
+        80.74,
+        81.043,
+        80.378,
+        80.348,
+        80.725
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Micah Salkind",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.953,
+      "lap_times_url": null,
+      "laps": [
+        87.444,
+        84.466,
+        83.872,
+        83.714,
+        83.493,
+        82.953,
+        83.243,
+        83.43
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76663"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 76671,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T15:15:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.886,
+      "lap_times_url": null,
+      "laps": [
+        102.155,
+        81.722,
+        80.887,
+        81.074,
+        81.003,
+        81.012,
+        81.463,
+        80.886
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "karen juarez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.398,
+      "lap_times_url": null,
+      "laps": [
+        110.71,
+        93.865,
+        95.142,
+        122.343,
+        92.398,
+        95.952
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Isaac Gomez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.829,
+      "lap_times_url": null,
+      "laps": [
+        115.994,
+        99.197,
+        95.05,
+        97.27,
+        93.01,
+        91.019,
+        90.829
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76671"
+}

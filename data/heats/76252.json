@@ -1,0 +1,101 @@
+{
+  "heat_no": 76252,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-05T16:15:00",
+  "drivers": [
+    {
+      "name": "carlos cardenas",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 133.51,
+      "lap_times_url": null,
+      "laps": [
+        179.418,
+        140.436,
+        133.51,
+        138.561
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pedro Garcia",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 157.936,
+      "lap_times_url": null,
+      "laps": [
+        202.907,
+        158.051,
+        157.936,
+        165.006
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Nathaly Cardenas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 146.347,
+      "lap_times_url": null,
+      "laps": [
+        195.786,
+        152.532,
+        150.932,
+        146.347
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jesus Solis",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 151.264,
+      "lap_times_url": null,
+      "laps": [
+        203.125,
+        160.883,
+        151.264,
+        157.415
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Carlitos Carde...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 169.253,
+      "lap_times_url": null,
+      "laps": [
+        219.554,
+        193.433,
+        169.253
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76252"
+}

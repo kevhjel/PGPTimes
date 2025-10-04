@@ -1,0 +1,52 @@
+{
+  "heat_no": 76630,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T14:00:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.432,
+      "lap_times_url": null,
+      "laps": [
+        106.88,
+        104.019,
+        104.397,
+        104.394,
+        104.086,
+        103.432
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Miguel Valle D...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.347,
+      "lap_times_url": null,
+      "laps": [
+        123.909,
+        124.863,
+        128.033,
+        116.973,
+        115.347
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76630"
+}

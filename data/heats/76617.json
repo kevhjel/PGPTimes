@@ -1,0 +1,65 @@
+{
+  "heat_no": 76617,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T10:15:00",
+  "drivers": [
+    {
+      "name": "Ronald Cheng",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.261,
+      "lap_times_url": null,
+      "laps": [
+        183.867,
+        110.485,
+        158.008,
+        108.939,
+        107.261
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Karlyn Seidel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.251,
+      "lap_times_url": null,
+      "laps": [
+        180.665,
+        142.651,
+        140.089,
+        136.251
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nicholas Glass",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 159.536,
+      "lap_times_url": null,
+      "laps": [
+        204.157,
+        225.791,
+        159.536
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76617"
+}

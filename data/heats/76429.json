@@ -1,0 +1,132 @@
+{
+  "heat_no": 76429,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-15T11:45:00",
+  "drivers": [
+    {
+      "name": "Michael Draper",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.163,
+      "lap_times_url": null,
+      "laps": [
+        131.421,
+        108.407,
+        108.163,
+        109.485,
+        124.668,
+        112.529
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Erik Helweg jr",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.352,
+      "lap_times_url": null,
+      "laps": [
+        143.283,
+        119.536,
+        118.352,
+        147.643,
+        128.567
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dylan Helweg",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 134.241,
+      "lap_times_url": null,
+      "laps": [
+        149.404,
+        137.869,
+        134.241,
+        210.517
+      ],
+      "lap_positions": [
+        3,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jacob Hall",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 123.464,
+      "lap_times_url": null,
+      "laps": [
+        150.607,
+        127.271,
+        123.464,
+        123.846,
+        123.863
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Daiji Oncines",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 136.896,
+      "lap_times_url": null,
+      "laps": [
+        152.855,
+        136.896,
+        166.923,
+        155.227
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Erik Helweg sr",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.903,
+      "lap_times_url": null,
+      "laps": [
+        157.524,
+        121.964,
+        120.078,
+        118.903,
+        131.551
+      ],
+      "lap_positions": [
+        6,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76429"
+}

@@ -1,0 +1,27 @@
+{
+  "heat_no": 76251,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-02-05T12:15:00",
+  "drivers": [
+    {
+      "name": "Jodeci Johnson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 142.499,
+      "lap_times_url": null,
+      "laps": [
+        153.369,
+        149.358,
+        148.003,
+        142.499
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76251"
+}

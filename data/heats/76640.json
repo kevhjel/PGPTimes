@@ -1,0 +1,71 @@
+{
+  "heat_no": 76640,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T16:45:00",
+  "drivers": [
+    {
+      "name": "jose landeros",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.6,
+      "lap_times_url": null,
+      "laps": [
+        117.413,
+        144.32,
+        162.452,
+        126.43,
+        113.6
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "alvaro alvares",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 110.765,
+      "lap_times_url": null,
+      "laps": [
+        118.953,
+        110.982,
+        110.765,
+        125.239,
+        112.05
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ernie Velasquez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.395,
+      "lap_times_url": null,
+      "laps": [
+        112.996,
+        147.557,
+        116.656,
+        110.361,
+        109.395
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76640"
+}

@@ -1,0 +1,81 @@
+{
+  "heat_no": 76828,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-05T10:30:00",
+  "drivers": [
+    {
+      "name": "finn heath",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.167,
+      "lap_times_url": null,
+      "laps": [
+        115.712,
+        97.121,
+        97.848,
+        94.625,
+        90.654,
+        90.748,
+        90.167
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alisa Sandlin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.558,
+      "lap_times_url": null,
+      "laps": [
+        111.852,
+        99.595,
+        97.404,
+        96.741,
+        94.013,
+        93.924,
+        93.558
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Corey De vou",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.628,
+      "lap_times_url": null,
+      "laps": [
+        127.936,
+        111.35,
+        128.291,
+        106.702,
+        102.628,
+        106.991
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76828"
+}

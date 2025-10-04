@@ -1,0 +1,27 @@
+{
+  "heat_no": 76648,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-26T09:30:00",
+  "drivers": [
+    {
+      "name": "Logan Schneider",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 131.586,
+      "lap_times_url": null,
+      "laps": [
+        152.983,
+        152.345,
+        131.586,
+        138.719
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76648"
+}

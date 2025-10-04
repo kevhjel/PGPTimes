@@ -1,0 +1,113 @@
+{
+  "heat_no": 76439,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-15T14:45:00",
+  "drivers": [
+    {
+      "name": "Chih Yu",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.134,
+      "lap_times_url": null,
+      "laps": [
+        127.468,
+        109.386,
+        107.445,
+        105.641,
+        105.558,
+        105.134
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Josias Betanco...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 108.123,
+      "lap_times_url": null,
+      "laps": [
+        126.872,
+        109.144,
+        108.123,
+        108.77,
+        116.082,
+        108.214
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.797,
+      "lap_times_url": null,
+      "laps": [
+        126.539,
+        107.939,
+        108.298,
+        108.499,
+        135.152,
+        107.797
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Peyton Haskell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.266,
+      "lap_times_url": null,
+      "laps": [
+        187.372,
+        91.266,
+        110.945,
+        116.067,
+        109.199
+      ],
+      "lap_positions": [
+        5,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tanner Monroe",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 132.479,
+      "lap_times_url": null,
+      "laps": [
+        146.473,
+        132.479
+      ],
+      "lap_positions": [
+        4,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76439"
+}

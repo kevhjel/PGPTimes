@@ -1,0 +1,362 @@
+{
+  "heat_no": 76752,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-01T11:15:00",
+  "drivers": [
+    {
+      "name": "Seth Wagner",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 81.035,
+      "lap_times_url": null,
+      "laps": [
+        106.507,
+        82.204,
+        81.735,
+        81.507,
+        89.447,
+        82.425,
+        81.035,
+        81.291
+      ],
+      "lap_positions": [
+        10,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Joseph Checkers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.737,
+      "lap_times_url": null,
+      "laps": [
+        104.008,
+        80.519,
+        80.193,
+        80.087,
+        80.087,
+        79.747,
+        79.807,
+        79.737
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kiril Shchetynin",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.631,
+      "lap_times_url": null,
+      "laps": [
+        81.466,
+        80.712,
+        80.631
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "David Hake",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 82.994,
+      "lap_times_url": null,
+      "laps": [
+        104.753,
+        85.12,
+        83.654,
+        83.287,
+        83.778,
+        83.126,
+        83.658,
+        82.994
+      ],
+      "lap_positions": [
+        6,
+        8,
+        6,
+        6,
+        8,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "James Tedder",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 83.32,
+      "lap_times_url": null,
+      "laps": [
+        104.13,
+        85.098,
+        85.177,
+        84.407,
+        83.32,
+        84.308,
+        84.217
+      ],
+      "lap_positions": [
+        4,
+        7,
+        10,
+        11,
+        9,
+        9,
+        11
+      ]
+    },
+    {
+      "name": "Matt Kalata",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 81.921,
+      "lap_times_url": null,
+      "laps": [
+        121.488,
+        84.628,
+        86.613,
+        83.543,
+        84.222,
+        84.868,
+        81.921
+      ],
+      "lap_positions": [
+        14,
+        6,
+        8,
+        8,
+        10,
+        10,
+        6
+      ]
+    },
+    {
+      "name": "Tyler Poston",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 82.805,
+      "lap_times_url": null,
+      "laps": [
+        104.179,
+        85.795,
+        85.312,
+        84.348,
+        84.536,
+        85.195,
+        82.805
+      ],
+      "lap_positions": [
+        5,
+        10,
+        11,
+        10,
+        12,
+        12,
+        7
+      ]
+    },
+    {
+      "name": "Sam Shemereko",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.332,
+      "lap_times_url": null,
+      "laps": [
+        103.983,
+        79.604,
+        80.006,
+        80.01,
+        79.656,
+        79.806,
+        79.462,
+        79.332
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gabriel Bowlds",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.356,
+      "lap_times_url": null,
+      "laps": [
+        105.022,
+        81.386,
+        81.498,
+        80.434,
+        80.356,
+        80.601,
+        81.178,
+        81.237
+      ],
+      "lap_positions": [
+        7,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Phillip Bond",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 87.322,
+      "lap_times_url": null,
+      "laps": [
+        106.895,
+        88.072,
+        88.771,
+        89.428,
+        87.322,
+        92.613,
+        88.767
+      ],
+      "lap_positions": [
+        11,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "James Hays",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 82.824,
+      "lap_times_url": null,
+      "laps": [
+        105.812,
+        87.549,
+        84.895,
+        83.345,
+        82.824,
+        83.01,
+        83.404,
+        83.145
+      ],
+      "lap_positions": [
+        9,
+        12,
+        9,
+        7,
+        6,
+        6,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 82.885,
+      "lap_times_url": null,
+      "laps": [
+        105.456,
+        85.352,
+        84.15,
+        83.854,
+        83.223,
+        83.32,
+        83.688,
+        82.885
+      ],
+      "lap_positions": [
+        8,
+        9,
+        7,
+        9,
+        7,
+        8,
+        10,
+        9
+      ]
+    },
+    {
+      "name": "Dave Kalata",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 84.204,
+      "lap_times_url": null,
+      "laps": [
+        110.637,
+        87.214,
+        95.757,
+        85.623,
+        84.204,
+        85.958,
+        84.995
+      ],
+      "lap_positions": [
+        12,
+        11,
+        12,
+        12,
+        11,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "Xianglong Wang",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 94.436,
+      "lap_times_url": null,
+      "laps": [
+        112.668,
+        98.621,
+        114.324,
+        95.58,
+        126.318,
+        94.436
+      ],
+      "lap_positions": [
+        13,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76752"
+}

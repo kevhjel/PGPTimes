@@ -1,0 +1,88 @@
+{
+  "heat_no": 76479,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-16T16:00:00",
+  "drivers": [
+    {
+      "name": "Steven Salinas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.527,
+      "lap_times_url": null,
+      "laps": [
+        142.21,
+        118.002,
+        115.687,
+        114.527,
+        125.032
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Preston Reed",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.509,
+      "lap_times_url": null,
+      "laps": [
+        140.532,
+        124.023,
+        121.651,
+        111.509,
+        116.241
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yuta Nakamura",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 144.459,
+      "lap_times_url": null,
+      "laps": [
+        148.401,
+        157.052,
+        144.459,
+        185.957
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Steven Calvert",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 140.829,
+      "lap_times_url": null,
+      "laps": [
+        167.703,
+        145.881,
+        140.9,
+        140.829
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76479"
+}

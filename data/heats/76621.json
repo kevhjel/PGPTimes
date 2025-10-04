@@ -1,0 +1,29 @@
+{
+  "heat_no": 76621,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-02-23T12:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 102.727,
+      "lap_times_url": null,
+      "laps": [
+        107.237,
+        105.389,
+        142.73,
+        105.321,
+        102.727
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76621"
+}

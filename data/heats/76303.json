@@ -1,0 +1,58 @@
+{
+  "heat_no": 76303,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-07T16:30:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.101,
+      "lap_times_url": null,
+      "laps": [
+        81.046,
+        80.615,
+        80.34,
+        80.243,
+        80.168,
+        80.327,
+        80.101
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.815,
+      "lap_times_url": null,
+      "laps": [
+        81.043,
+        80.725,
+        80.152,
+        79.881,
+        79.815,
+        80.026,
+        79.839
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76303"
+}

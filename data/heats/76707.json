@@ -1,0 +1,87 @@
+{
+  "heat_no": 76707,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T15:45:00",
+  "drivers": [
+    {
+      "name": "Sathya Venkate...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.463,
+      "lap_times_url": null,
+      "laps": [
+        79.987,
+        79.714,
+        79.604,
+        79.872,
+        79.463,
+        80.261,
+        79.758
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.49,
+      "lap_times_url": null,
+      "laps": [
+        86.696,
+        82.949,
+        81.902,
+        81.904,
+        81.675,
+        81.762,
+        81.49,
+        81.562
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.333,
+      "lap_times_url": null,
+      "laps": [
+        85.5,
+        83.409,
+        81.905,
+        81.908,
+        81.95,
+        81.333,
+        81.576,
+        81.555
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76707"
+}

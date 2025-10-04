@@ -1,0 +1,50 @@
+{
+  "heat_no": 76314,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-02-08T13:15:00",
+  "drivers": [
+    {
+      "name": "Jackson Micus",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.383,
+      "lap_times_url": null,
+      "laps": [
+        160.588,
+        132.465,
+        130.732,
+        128.383,
+        128.821
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Richard Micus",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.707,
+      "lap_times_url": null,
+      "laps": [
+        161.056,
+        130.411,
+        126.707,
+        128.156,
+        134.217
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76314"
+}

@@ -1,0 +1,95 @@
+{
+  "heat_no": 76693,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-02-27T12:15:00",
+  "drivers": [
+    {
+      "name": "Jared Petersen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.842,
+      "lap_times_url": null,
+      "laps": [
+        81.561,
+        91.967,
+        81.181,
+        81.038,
+        80.842,
+        80.913,
+        81.029,
+        81.011,
+        81.309
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.298,
+      "lap_times_url": null,
+      "laps": [
+        81.018,
+        87.828,
+        80.989,
+        80.603,
+        80.925,
+        80.665,
+        80.54,
+        80.5,
+        80.298
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Cole Sherriff",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.41,
+      "lap_times_url": null,
+      "laps": [
+        81.689,
+        90.917,
+        81.455,
+        80.41,
+        80.87,
+        80.751,
+        80.563,
+        80.991,
+        80.793
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=76693"
+}
