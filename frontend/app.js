@@ -6,9 +6,7 @@ async function jget(path) {
 
 function secondsToClock(s) {
   if (s == null || isNaN(s)) return "";
-  const m = Math.floor(s / 60);
-  const r = (s - m*60).toFixed(3);
-  return m > 0 ? `${m}:${r.padStart(6,"0")}` : `${r}`;
+  return `${parseFloat(s).toFixed(3)} s`;
 }
 
 async function loadSummary() {
