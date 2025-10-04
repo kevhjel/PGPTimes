@@ -1,0 +1,33 @@
+{
+  "heat_no": 77205,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-20T15:45:00",
+  "drivers": [
+    {
+      "name": "Ashton Leeds",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.667,
+      "lap_times_url": null,
+      "laps": [
+        112.338,
+        99.944,
+        97.407,
+        94.537,
+        93.124,
+        92.126,
+        91.667
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77205"
+}

@@ -1,0 +1,71 @@
+{
+  "heat_no": 77294,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T13:00:00",
+  "drivers": [
+    {
+      "name": "Sachin Umashan...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.188,
+      "lap_times_url": null,
+      "laps": [
+        134.446,
+        118.188,
+        130.739,
+        144.485,
+        118.431
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Brandon Smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.783,
+      "lap_times_url": null,
+      "laps": [
+        135.69,
+        131.156,
+        153.963,
+        127.882,
+        116.783
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "Nicholas Santini",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.989,
+      "lap_times_url": null,
+      "laps": [
+        146.666,
+        130.236,
+        128.096,
+        120.989,
+        126.171
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77294"
+}

@@ -1,0 +1,69 @@
+{
+  "heat_no": 77288,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-23T10:45:00",
+  "drivers": [
+    {
+      "name": "Rohan Mathur",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.777,
+      "lap_times_url": null,
+      "laps": [
+        140.708,
+        136.341,
+        114.379,
+        112.777,
+        161.15
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Derek Roberts",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.561,
+      "lap_times_url": null,
+      "laps": [
+        147.201,
+        131.272,
+        121.561,
+        123.133,
+        122.512
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Justin Leif",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 156.84,
+      "lap_times_url": null,
+      "laps": [
+        205.712,
+        158.193,
+        156.84,
+        157.755
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77288"
+}

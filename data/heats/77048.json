@@ -1,0 +1,50 @@
+{
+  "heat_no": 77048,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-14T10:00:00",
+  "drivers": [
+    {
+      "name": "Helena Burnett",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.451,
+      "lap_times_url": null,
+      "laps": [
+        116.302,
+        112.507,
+        113.668,
+        114.871,
+        109.451
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Shane Burnett",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.603,
+      "lap_times_url": null,
+      "laps": [
+        102.483,
+        101.603,
+        148.525,
+        114.707,
+        108.619
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77048"
+}

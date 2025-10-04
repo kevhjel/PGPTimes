@@ -1,0 +1,113 @@
+{
+  "heat_no": 77034,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T16:00:00",
+  "drivers": [
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.6,
+      "lap_times_url": null,
+      "laps": [
+        127.475,
+        96.464,
+        96.399,
+        94.688,
+        93.501,
+        94.931,
+        91.6
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Vincenzo Mangino",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.772,
+      "lap_times_url": null,
+      "laps": [
+        147.959,
+        121.612,
+        112.772,
+        115.243,
+        114.025
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tyson Teplansky",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.624,
+      "lap_times_url": null,
+      "laps": [
+        170.68,
+        120.469,
+        117.525,
+        107.726,
+        103.624
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Dennis",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 132.864,
+      "lap_times_url": null,
+      "laps": [
+        161.395,
+        210.767,
+        132.864,
+        134.391
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Caleb Lawson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.38,
+      "lap_times_url": null,
+      "laps": [
+        207.214,
+        140.404,
+        136.809,
+        132.38
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77034"
+}

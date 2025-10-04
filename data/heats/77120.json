@@ -1,0 +1,135 @@
+{
+  "heat_no": 77120,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-16T12:15:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.921,
+      "lap_times_url": null,
+      "laps": [
+        99.113,
+        84.658,
+        84.508,
+        84.037,
+        84.288,
+        84.01,
+        83.921,
+        84.251
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Miles Hennegan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.307,
+      "lap_times_url": null,
+      "laps": [
+        101.942,
+        86.875,
+        85.79,
+        85.307,
+        85.329,
+        85.435,
+        85.889
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nat Julich",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.838,
+      "lap_times_url": null,
+      "laps": [
+        106.408,
+        95.142,
+        93.838,
+        96.403,
+        94.215,
+        94.858,
+        99.615
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Trent Julich",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 94.195,
+      "lap_times_url": null,
+      "laps": [
+        110.43,
+        98.708,
+        94.949,
+        94.995,
+        97.401,
+        95.71,
+        94.195
+      ],
+      "lap_positions": [
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Blake Julich",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.384,
+      "lap_times_url": null,
+      "laps": [
+        109.564,
+        97.881,
+        95.118,
+        94.721,
+        97.604,
+        94.523,
+        92.384
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77120"
+}

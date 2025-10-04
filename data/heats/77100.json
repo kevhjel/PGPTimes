@@ -1,0 +1,74 @@
+{
+  "heat_no": 77100,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T16:30:00",
+  "drivers": [
+    {
+      "name": "Edwin Rangel",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 168.15,
+      "lap_times_url": null,
+      "laps": [
+        223.766,
+        168.15,
+        208.536
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Hector Escalera",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 221.051,
+      "lap_times_url": null,
+      "laps": [
+        221.051,
+        238.265
+      ],
+      "lap_positions": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Francisco Gomez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 145.579,
+      "lap_times_url": null,
+      "laps": [
+        321.827,
+        150.418,
+        145.579
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ezequiel Herna...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 146.096,
+      "lap_times_url": null,
+      "laps": [
+        273.3,
+        156.793,
+        146.096
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77100"
+}

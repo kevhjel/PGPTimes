@@ -1,0 +1,67 @@
+{
+  "heat_no": 77192,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-20T12:15:00",
+  "drivers": [
+    {
+      "name": "Dennis Amico",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.767,
+      "lap_times_url": null,
+      "laps": [
+        163.989,
+        124.956,
+        121.767,
+        173.939
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Peter Amico",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.472,
+      "lap_times_url": null,
+      "laps": [
+        161.441,
+        126.71,
+        129.676,
+        128.133,
+        123.472
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lake Hohisel",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 136.851,
+      "lap_times_url": null,
+      "laps": [
+        170.965,
+        167.989,
+        145.528,
+        136.851
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77192"
+}

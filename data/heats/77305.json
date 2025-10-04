@@ -1,0 +1,92 @@
+{
+  "heat_no": 77305,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T15:45:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.962,
+      "lap_times_url": null,
+      "laps": [
+        122.833,
+        106.736,
+        105.962,
+        106.838,
+        106.503,
+        106.671
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tyler Fernandez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.345,
+      "lap_times_url": null,
+      "laps": [
+        130.189,
+        147.168,
+        121.428,
+        117.345,
+        119.07
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Antonio Dela ...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 145.404,
+      "lap_times_url": null,
+      "laps": [
+        145.955,
+        153.19,
+        145.404,
+        182.675
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Miguel Chavarria",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.644,
+      "lap_times_url": null,
+      "laps": [
+        142.437,
+        157.368,
+        118.644,
+        123.692,
+        129.537
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77305"
+}

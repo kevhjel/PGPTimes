@@ -1,0 +1,130 @@
+{
+  "heat_no": 77097,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T15:45:00",
+  "drivers": [
+    {
+      "name": "Paul Rosenwald",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.646,
+      "lap_times_url": null,
+      "laps": [
+        138.275,
+        127.483,
+        123.623,
+        113.646,
+        117.436
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Greg Rosenwald",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.645,
+      "lap_times_url": null,
+      "laps": [
+        130.589,
+        121.05,
+        118.845,
+        118.964,
+        115.645
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Colby Rosenwald",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 130.334,
+      "lap_times_url": null,
+      "laps": [
+        162.411,
+        147.069,
+        130.334,
+        130.83
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "James Rosenwald",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 125.543,
+      "lap_times_url": null,
+      "laps": [
+        135.014,
+        127.775,
+        131.385,
+        125.543,
+        125.786
+      ],
+      "lap_positions": [
+        2,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Serhii Havryliuk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 124.083,
+      "lap_times_url": null,
+      "laps": [
+        164.076,
+        124.083,
+        141.621,
+        127.649
+      ],
+      "lap_positions": [
+        6,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Denys Polishchuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.398,
+      "lap_times_url": null,
+      "laps": [
+        149.344,
+        124.397,
+        123.229,
+        121.398,
+        137.352
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77097"
+}

@@ -1,0 +1,86 @@
+{
+  "heat_no": 77282,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-23T09:15:00",
+  "drivers": [
+    {
+      "name": "Brandon Berecz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 118.409,
+      "lap_times_url": null,
+      "laps": [
+        162.93,
+        134.825,
+        129.001,
+        127.267,
+        118.409
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Quinton Kearsley",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 151.095,
+      "lap_times_url": null,
+      "laps": [
+        162.162,
+        189.592,
+        151.095,
+        192.564
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Aleksandr Rotell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 141.288,
+      "lap_times_url": null,
+      "laps": [
+        168.441,
+        161.333,
+        141.288,
+        184.987
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Chris Rotell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.171,
+      "lap_times_url": null,
+      "laps": [
+        169.645,
+        149.305,
+        149.769,
+        141.171
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77282"
+}

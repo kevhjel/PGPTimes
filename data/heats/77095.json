@@ -1,0 +1,88 @@
+{
+  "heat_no": 77095,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T15:15:00",
+  "drivers": [
+    {
+      "name": "jerrod balodis",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.622,
+      "lap_times_url": null,
+      "laps": [
+        146.831,
+        113.622,
+        122.3,
+        132.078,
+        114.972
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cesar Ruiz",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 141.164,
+      "lap_times_url": null,
+      "laps": [
+        164.294,
+        163.279,
+        161.211,
+        141.164
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Timothy Caldwell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.175,
+      "lap_times_url": null,
+      "laps": [
+        147.346,
+        122.175,
+        134.721,
+        126.654,
+        132.763
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Cayetano",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.997,
+      "lap_times_url": null,
+      "laps": [
+        163.344,
+        188.639,
+        141.484,
+        134.997
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77095"
+}

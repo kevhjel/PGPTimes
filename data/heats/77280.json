@@ -1,0 +1,128 @@
+{
+  "heat_no": 77280,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-03-23T10:00:00",
+  "drivers": [
+    {
+      "name": "Cannon Fee",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 145.377,
+      "lap_times_url": null,
+      "laps": [
+        145.377,
+        153.048,
+        187.482,
+        154.595
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Patrick Foster",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 120.555,
+      "lap_times_url": null,
+      "laps": [
+        169.118,
+        135.2,
+        120.555,
+        127.491,
+        139.713
+      ],
+      "lap_positions": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jason Knight",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.923,
+      "lap_times_url": null,
+      "laps": [
+        170.033,
+        142.445,
+        126.923,
+        137.621,
+        127.74
+      ],
+      "lap_positions": [
+        6,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Matthew Llanes",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.063,
+      "lap_times_url": null,
+      "laps": [
+        144.382,
+        128.7,
+        122.443,
+        122.063,
+        126.732
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Owen Jacoby",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 144.351,
+      "lap_times_url": null,
+      "laps": [
+        144.351,
+        148.375,
+        154.23,
+        154.596
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Mitch Rotell",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 147.793,
+      "lap_times_url": null,
+      "laps": [
+        148.794,
+        147.793,
+        148.417,
+        158.751
+      ],
+      "lap_positions": [
+        4,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77280"
+}

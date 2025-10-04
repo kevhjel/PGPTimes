@@ -1,0 +1,33 @@
+{
+  "heat_no": 77038,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T16:45:00",
+  "drivers": [
+    {
+      "name": "Zack Tarter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.562,
+      "lap_times_url": null,
+      "laps": [
+        100.967,
+        89.69,
+        88.567,
+        88.423,
+        88.801,
+        87.562,
+        87.565
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77038"
+}

@@ -1,0 +1,113 @@
+{
+  "heat_no": 77212,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-21T16:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.128,
+      "lap_times_url": null,
+      "laps": [
+        113.021,
+        86.06,
+        85.408,
+        85.128,
+        91.921,
+        95.651,
+        115.651
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hector Ramirez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 122.362,
+      "lap_times_url": null,
+      "laps": [
+        198.154,
+        122.362,
+        123.053,
+        138.713
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Carlos Arellano",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.077,
+      "lap_times_url": null,
+      "laps": [
+        169.388,
+        126.791,
+        119.077,
+        138.155
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Angela Gunter",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.445,
+      "lap_times_url": null,
+      "laps": [
+        131.501,
+        110.101,
+        104.445,
+        115.838,
+        133.81
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Leonardo Torres",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 105.339,
+      "lap_times_url": null,
+      "laps": [
+        136.161,
+        105.339,
+        124.344,
+        108.744,
+        145.147
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77212"
+}

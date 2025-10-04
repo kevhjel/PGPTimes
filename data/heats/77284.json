@@ -1,0 +1,90 @@
+{
+  "heat_no": 77284,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-23T10:15:00",
+  "drivers": [
+    {
+      "name": "Fredy Lopez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.756,
+      "lap_times_url": null,
+      "laps": [
+        182.184,
+        127.123,
+        129.334,
+        115.756,
+        122.983
+      ],
+      "lap_positions": [
+        4,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Josh Carsen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.197,
+      "lap_times_url": null,
+      "laps": [
+        149.358,
+        129.521,
+        126.908,
+        133.466,
+        117.197
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "kane carsen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.983,
+      "lap_times_url": null,
+      "laps": [
+        165.951,
+        142.53,
+        142.859,
+        123.178,
+        121.983
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "AJ Arrott",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 131.529,
+      "lap_times_url": null,
+      "laps": [
+        150.444,
+        170.641,
+        137.303,
+        131.529
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77284"
+}

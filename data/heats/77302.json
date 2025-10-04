@@ -1,0 +1,90 @@
+{
+  "heat_no": 77302,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T15:00:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.475,
+      "lap_times_url": null,
+      "laps": [
+        142.198,
+        108.302,
+        108.0,
+        107.475,
+        107.543,
+        110.272
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dharma Pascal",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 130.156,
+      "lap_times_url": null,
+      "laps": [
+        176.969,
+        144.417,
+        149.611,
+        130.156
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "Nat Julich",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.711,
+      "lap_times_url": null,
+      "laps": [
+        172.035,
+        170.437,
+        132.711,
+        136.13
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Marley Pascal",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.858,
+      "lap_times_url": null,
+      "laps": [
+        170.566,
+        135.004,
+        136.397,
+        132.296,
+        118.858
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77302"
+}

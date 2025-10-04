@@ -1,0 +1,132 @@
+{
+  "heat_no": 77283,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-23T09:45:00",
+  "drivers": [
+    {
+      "name": "Fredy Lopez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.71,
+      "lap_times_url": null,
+      "laps": [
+        139.972,
+        145.773,
+        135.909,
+        146.916,
+        129.71
+      ],
+      "lap_positions": [
+        2,
+        5,
+        6,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "Josh Carsen",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 134.469,
+      "lap_times_url": null,
+      "laps": [
+        148.257,
+        139.555,
+        134.469,
+        136.816,
+        135.677
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Brandon Berecz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.246,
+      "lap_times_url": null,
+      "laps": [
+        131.265,
+        121.996,
+        120.779,
+        117.246,
+        121.797
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "kane carsen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 124.038,
+      "lap_times_url": null,
+      "laps": [
+        156.971,
+        139.598,
+        134.968,
+        131.641,
+        124.038
+      ],
+      "lap_positions": [
+        6,
+        4,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "AJ Arrott",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 133.245,
+      "lap_times_url": null,
+      "laps": [
+        143.73,
+        133.245,
+        137.421,
+        145.943,
+        140.927
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Quinton Kearsley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.664,
+      "lap_times_url": null,
+      "laps": [
+        153.935,
+        173.776,
+        131.664,
+        138.176
+      ],
+      "lap_positions": [
+        5,
+        6,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77283"
+}

@@ -1,0 +1,109 @@
+{
+  "heat_no": 77127,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-16T14:00:00",
+  "drivers": [
+    {
+      "name": "Willie Swoope",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 103.92,
+      "lap_times_url": null,
+      "laps": [
+        155.353,
+        109.067,
+        103.92,
+        103.925,
+        107.034
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Mitch Snell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.583,
+      "lap_times_url": null,
+      "laps": [
+        148.929,
+        108.49,
+        106.764,
+        103.583,
+        108.413
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "christopher sw...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.527,
+      "lap_times_url": null,
+      "laps": [
+        155.273,
+        116.846,
+        113.173,
+        107.99,
+        103.527
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "McClain Gardner",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.906,
+      "lap_times_url": null,
+      "laps": [
+        141.064,
+        134.033,
+        117.906,
+        125.73
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "James Gardner",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 124.956,
+      "lap_times_url": null,
+      "laps": [
+        180.132,
+        135.692,
+        148.55,
+        124.956
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77127"
+}

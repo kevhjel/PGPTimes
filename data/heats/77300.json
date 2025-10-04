@@ -1,0 +1,65 @@
+{
+  "heat_no": 77300,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T14:30:00",
+  "drivers": [
+    {
+      "name": "Ewan Norland",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 129.979,
+      "lap_times_url": null,
+      "laps": [
+        159.703,
+        140.389,
+        129.979,
+        136.758
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Amy Ogg",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 135.601,
+      "lap_times_url": null,
+      "laps": [
+        160.403,
+        140.729,
+        135.601,
+        138.98
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mohamed Gomaa",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 143.359,
+      "lap_times_url": null,
+      "laps": [
+        162.674,
+        194.603,
+        143.359,
+        153.544
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77300"
+}

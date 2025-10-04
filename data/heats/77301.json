@@ -1,0 +1,107 @@
+{
+  "heat_no": 77301,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T14:45:00",
+  "drivers": [
+    {
+      "name": "Hunter LaCasse",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.432,
+      "lap_times_url": null,
+      "laps": [
+        138.859,
+        166.124,
+        112.432,
+        120.779,
+        129.768
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Antonio Dela ...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 145.33,
+      "lap_times_url": null,
+      "laps": [
+        199.897,
+        207.458,
+        148.173,
+        145.33
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Arturo Salinas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 124.943,
+      "lap_times_url": null,
+      "laps": [
+        145.332,
+        132.042,
+        129.078,
+        124.943,
+        135.191
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Miguel Chavarria",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 138.065,
+      "lap_times_url": null,
+      "laps": [
+        224.827,
+        147.067,
+        163.433,
+        138.065
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Leo Hernandez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 146.36,
+      "lap_times_url": null,
+      "laps": [
+        191.07,
+        146.36,
+        148.423,
+        149.158
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77301"
+}

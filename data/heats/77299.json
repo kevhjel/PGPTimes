@@ -1,0 +1,73 @@
+{
+  "heat_no": 77299,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T14:15:00",
+  "drivers": [
+    {
+      "name": "Davion Dardaen...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.263,
+      "lap_times_url": null,
+      "laps": [
+        132.739,
+        115.159,
+        113.795,
+        118.183,
+        112.263
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Koren Anderson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.318,
+      "lap_times_url": null,
+      "laps": [
+        132.578,
+        114.985,
+        112.648,
+        112.555,
+        111.318,
+        111.625
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Arturo Salinas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.88,
+      "lap_times_url": null,
+      "laps": [
+        156.451,
+        127.452,
+        131.38,
+        131.998,
+        121.88
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77299"
+}

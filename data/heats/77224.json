@@ -1,0 +1,46 @@
+{
+  "heat_no": 77224,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-21T11:00:00",
+  "drivers": [
+    {
+      "name": "Yoko Yatskov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.382,
+      "lap_times_url": null,
+      "laps": [
+        168.467,
+        146.737,
+        143.089,
+        141.382
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Alex Yatskov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 132.563,
+      "lap_times_url": null,
+      "laps": [
+        162.828,
+        154.875,
+        149.66,
+        132.563
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77224"
+}

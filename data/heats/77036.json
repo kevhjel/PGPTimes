@@ -1,0 +1,121 @@
+{
+  "heat_no": 77036,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-13T17:00:00",
+  "drivers": [
+    {
+      "name": "Vincenzo Mangino",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.839,
+      "lap_times_url": null,
+      "laps": [
+        121.827,
+        102.883,
+        93.45,
+        92.542,
+        93.057,
+        90.839,
+        91.207
+      ],
+      "lap_positions": [
+        1,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyson Teplansky",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.399,
+      "lap_times_url": null,
+      "laps": [
+        135.404,
+        91.661,
+        94.284,
+        88.399,
+        88.677,
+        89.619,
+        89.478
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Joshua Dennis",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.645,
+      "lap_times_url": null,
+      "laps": [
+        129.927,
+        96.645,
+        100.413,
+        186.058,
+        100.877
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Caleb Lawson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.381,
+      "lap_times_url": null,
+      "laps": [
+        137.493,
+        99.381,
+        108.895,
+        138.235,
+        173.69
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Joshua De Guzman",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 104.925,
+      "lap_times_url": null,
+      "laps": [
+        141.115,
+        104.925,
+        108.963,
+        127.321,
+        154.834
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77036"
+}

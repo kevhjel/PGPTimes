@@ -1,0 +1,88 @@
+{
+  "heat_no": 77123,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-16T13:00:00",
+  "drivers": [
+    {
+      "name": "kai ranz",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.86,
+      "lap_times_url": null,
+      "laps": [
+        167.657,
+        129.779,
+        126.86,
+        144.6
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Schlichte",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.535,
+      "lap_times_url": null,
+      "laps": [
+        130.139,
+        115.528,
+        112.535,
+        112.637,
+        115.146
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gianni Brancato",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.683,
+      "lap_times_url": null,
+      "laps": [
+        164.016,
+        134.023,
+        120.736,
+        133.383,
+        118.683
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Zachiery Tackett",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 133.569,
+      "lap_times_url": null,
+      "laps": [
+        148.908,
+        133.569,
+        143.364,
+        141.178
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77123"
+}

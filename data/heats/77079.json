@@ -1,0 +1,73 @@
+{
+  "heat_no": 77079,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T11:00:00",
+  "drivers": [
+    {
+      "name": "SANTIAGO LEON",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.519,
+      "lap_times_url": null,
+      "laps": [
+        123.71,
+        156.026,
+        99.49,
+        99.717,
+        96.519,
+        98.066
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lauro Salinas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.42,
+      "lap_times_url": null,
+      "laps": [
+        123.673,
+        110.56,
+        110.431,
+        108.169,
+        105.42,
+        110.759
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kie'ana Otero",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 133.496,
+      "lap_times_url": null,
+      "laps": [
+        146.298,
+        152.694,
+        151.092,
+        133.496
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77079"
+}

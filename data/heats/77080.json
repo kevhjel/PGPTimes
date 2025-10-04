@@ -1,0 +1,125 @@
+{
+  "heat_no": 77080,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T11:15:00",
+  "drivers": [
+    {
+      "name": "kendahl williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.436,
+      "lap_times_url": null,
+      "laps": [
+        142.042,
+        99.672,
+        97.769,
+        94.878,
+        93.029,
+        90.436
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aria Hooman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.429,
+      "lap_times_url": null,
+      "laps": [
+        169.159,
+        101.152,
+        97.092,
+        100.604,
+        96.006,
+        91.429
+      ],
+      "lap_positions": [
+        5,
+        4,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Kuka",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.3,
+      "lap_times_url": null,
+      "laps": [
+        126.743,
+        89.253,
+        89.717,
+        89.32,
+        87.574,
+        88.673,
+        87.3
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Marco Flores",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 101.349,
+      "lap_times_url": null,
+      "laps": [
+        144.791,
+        107.289,
+        107.967,
+        106.63,
+        118.431,
+        101.349
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Siraj Rauff",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.383,
+      "lap_times_url": null,
+      "laps": [
+        132.402,
+        100.05,
+        98.133,
+        94.04,
+        93.428,
+        91.383
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77080"
+}

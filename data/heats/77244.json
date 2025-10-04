@@ -1,0 +1,56 @@
+{
+  "heat_no": 77244,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-21T16:00:00",
+  "drivers": [
+    {
+      "name": "Kunal Sengupta",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.983,
+      "lap_times_url": null,
+      "laps": [
+        121.532,
+        97.556,
+        95.421,
+        96.411,
+        96.878,
+        95.49,
+        94.983
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Vishnu Vijwani",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.501,
+      "lap_times_url": null,
+      "laps": [
+        113.98,
+        102.13,
+        92.501,
+        198.725,
+        94.106,
+        97.897
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77244"
+}

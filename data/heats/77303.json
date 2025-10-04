@@ -1,0 +1,132 @@
+{
+  "heat_no": 77303,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-23T15:15:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.914,
+      "lap_times_url": null,
+      "laps": [
+        129.877,
+        106.807,
+        105.914,
+        107.049,
+        112.289,
+        106.469
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hunter LaCasse",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.718,
+      "lap_times_url": null,
+      "laps": [
+        137.438,
+        117.943,
+        109.759,
+        109.895,
+        110.178,
+        107.718
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyler Fernandez",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 137.399,
+      "lap_times_url": null,
+      "laps": [
+        161.362,
+        137.399,
+        141.86,
+        183.411
+      ],
+      "lap_positions": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Antonio Dela ...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 130.854,
+      "lap_times_url": null,
+      "laps": [
+        174.694,
+        156.368,
+        144.781,
+        130.854
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "name": "Miguel Chavarria",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 122.084,
+      "lap_times_url": null,
+      "laps": [
+        162.386,
+        138.603,
+        124.799,
+        122.084,
+        133.952
+      ],
+      "lap_positions": [
+        4,
+        5,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Leo Hernandez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 131.581,
+      "lap_times_url": null,
+      "laps": [
+        179.494,
+        131.581,
+        137.974,
+        152.278
+      ],
+      "lap_positions": [
+        6,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77303"
+}

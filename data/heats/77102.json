@@ -1,0 +1,67 @@
+{
+  "heat_no": 77102,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-15T17:00:00",
+  "drivers": [
+    {
+      "name": "Yan Silva",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.985,
+      "lap_times_url": null,
+      "laps": [
+        140.235,
+        114.985,
+        128.615,
+        115.698,
+        116.129
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dhairya Miglani",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.866,
+      "lap_times_url": null,
+      "laps": [
+        169.021,
+        212.542,
+        126.866,
+        127.168
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Abhigyan Ghosh",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 137.073,
+      "lap_times_url": null,
+      "laps": [
+        163.926,
+        137.073,
+        173.278,
+        167.555
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77102"
+}

@@ -1,0 +1,94 @@
+{
+  "heat_no": 77122,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-16T12:45:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.693,
+      "lap_times_url": null,
+      "laps": [
+        115.386,
+        109.347,
+        105.295,
+        104.488,
+        101.693,
+        113.538
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "julian davis",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.06,
+      "lap_times_url": null,
+      "laps": [
+        137.523,
+        149.09,
+        118.06,
+        120.262,
+        141.165
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jaylynne Johnson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.528,
+      "lap_times_url": null,
+      "laps": [
+        139.43,
+        145.474,
+        125.958,
+        118.528,
+        148.219
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jamie Martinez...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 128.267,
+      "lap_times_url": null,
+      "laps": [
+        133.663,
+        129.679,
+        128.267,
+        134.035,
+        148.731
+      ],
+      "lap_positions": [
+        2,
+        2,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77122"
+}

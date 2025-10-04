@@ -1,0 +1,65 @@
+{
+  "heat_no": 77289,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-23T11:00:00",
+  "drivers": [
+    {
+      "name": "ANDREW TUTUPOLY",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 128.388,
+      "lap_times_url": null,
+      "laps": [
+        187.924,
+        155.426,
+        128.388,
+        136.244
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lafael Petersen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 134.515,
+      "lap_times_url": null,
+      "laps": [
+        187.567,
+        134.515,
+        173.733,
+        149.823
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rangga Pandya",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 137.059,
+      "lap_times_url": null,
+      "laps": [
+        188.706,
+        178.994,
+        144.37,
+        137.059
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77289"
+}

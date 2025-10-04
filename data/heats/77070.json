@@ -1,0 +1,119 @@
+{
+  "heat_no": 77070,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-03-14T16:45:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.55,
+      "lap_times_url": null,
+      "laps": [
+        113.62,
+        81.709,
+        82.028,
+        81.444,
+        80.659,
+        80.55,
+        80.57
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "James Pan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.876,
+      "lap_times_url": null,
+      "laps": [
+        139.403,
+        94.425,
+        91.189,
+        91.764,
+        89.345,
+        99.566,
+        88.876
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Zongyuan Li",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.902,
+      "lap_times_url": null,
+      "laps": [
+        154.836,
+        124.889,
+        113.354,
+        104.947,
+        104.902
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jingxian Chen",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 126.448,
+      "lap_times_url": null,
+      "laps": [
+        166.036,
+        138.327,
+        129.153,
+        126.448
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Peijing Lin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.894,
+      "lap_times_url": null,
+      "laps": [
+        176.819,
+        129.077,
+        124.952,
+        111.894,
+        112.295
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77070"
+}

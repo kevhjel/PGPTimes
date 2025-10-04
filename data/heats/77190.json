@@ -1,0 +1,52 @@
+{
+  "heat_no": 77190,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-20T12:00:00",
+  "drivers": [
+    {
+      "name": "Ryan Richards",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.974,
+      "lap_times_url": null,
+      "laps": [
+        122.81,
+        120.593,
+        111.709,
+        110.076,
+        109.974,
+        110.312
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tommy Tran",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.993,
+      "lap_times_url": null,
+      "laps": [
+        129.115,
+        117.94,
+        116.993,
+        128.052,
+        118.385
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77190"
+}

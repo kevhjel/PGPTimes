@@ -1,0 +1,50 @@
+{
+  "heat_no": 77326,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T09:15:00",
+  "drivers": [
+    {
+      "name": "Eric Nelson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 129.561,
+      "lap_times_url": null,
+      "laps": [
+        141.495,
+        149.401,
+        136.596,
+        132.045,
+        129.561
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Lambert",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 118.801,
+      "lap_times_url": null,
+      "laps": [
+        128.794,
+        131.244,
+        120.127,
+        118.801,
+        136.364
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77326"
+}

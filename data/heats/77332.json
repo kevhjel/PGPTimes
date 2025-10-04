@@ -1,0 +1,71 @@
+{
+  "heat_no": 77332,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-26T11:00:00",
+  "drivers": [
+    {
+      "name": "Shane Buchanan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.658,
+      "lap_times_url": null,
+      "laps": [
+        184.017,
+        114.719,
+        114.054,
+        119.998,
+        111.658
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Kelly Chinander",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.112,
+      "lap_times_url": null,
+      "laps": [
+        139.718,
+        114.183,
+        113.845,
+        128.409,
+        113.112
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Ethan Chinander",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 115.489,
+      "lap_times_url": null,
+      "laps": [
+        141.671,
+        117.809,
+        116.855,
+        124.999,
+        115.489
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77332"
+}

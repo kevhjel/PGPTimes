@@ -1,0 +1,118 @@
+{
+  "heat_no": 77279,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-03-23T09:30:00",
+  "drivers": [
+    {
+      "name": "Cannon Fee",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 125.391,
+      "lap_times_url": null,
+      "laps": [
+        186.789,
+        214.101,
+        125.391
+      ],
+      "lap_positions": [
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "name": "Patrick Foster",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 140.953,
+      "lap_times_url": null,
+      "laps": [
+        178.825,
+        165.839,
+        150.654,
+        140.953
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jason Knight",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 148.323,
+      "lap_times_url": null,
+      "laps": [
+        180.566,
+        209.093,
+        148.323,
+        166.021
+      ],
+      "lap_positions": [
+        4,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Matthew Llanes",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.067,
+      "lap_times_url": null,
+      "laps": [
+        187.237,
+        136.067,
+        146.55,
+        150.164
+      ],
+      "lap_positions": [
+        6,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Owen Jacoby",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 163.298,
+      "lap_times_url": null,
+      "laps": [
+        163.298,
+        170.558,
+        163.8
+      ],
+      "lap_positions": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "Mitch Rotell",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 163.713,
+      "lap_times_url": null,
+      "laps": [
+        163.713,
+        170.751,
+        163.848,
+        164.964
+      ],
+      "lap_positions": [
+        2,
+        3,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77279"
+}

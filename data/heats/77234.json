@@ -1,0 +1,33 @@
+{
+  "heat_no": 77234,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-21T13:30:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 99.265,
+      "lap_times_url": null,
+      "laps": [
+        106.285,
+        102.078,
+        100.8,
+        100.025,
+        100.246,
+        99.869,
+        99.265
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77234"
+}

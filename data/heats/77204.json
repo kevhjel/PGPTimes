@@ -1,0 +1,31 @@
+{
+  "heat_no": 77204,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-03-20T15:15:00",
+  "drivers": [
+    {
+      "name": "addison herrick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 100.786,
+      "lap_times_url": null,
+      "laps": [
+        104.25,
+        102.684,
+        102.869,
+        102.312,
+        101.464,
+        100.786
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77204"
+}
