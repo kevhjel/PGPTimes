@@ -167,9 +167,9 @@ function renderChart(name, globPoints, metaPoints, showMA, maN) {
       parsing: false,
       showLine: false,
       pointRadius: 3,
-      type: "scatter"
-      //backgroundColor: "rgba(54, 162, 235, 0.8)",
-      //borderColor: "rgba(54, 162, 235, 1)",
+      type: "scatter",
+      backgroundColor: "rgba(54, 162, 235, 0.8)",
+      borderColor: "rgba(54, 162, 235, 1)"
     }
   ];
 
@@ -183,9 +183,9 @@ function renderChart(name, globPoints, metaPoints, showMA, maN) {
       type: "line",
       pointRadius: 0,
       borderWidth: 2,
-      tension: 0.2
-      //borderColor: "rgba(255, 255, 100, 0.6)",   // soft yellow line
-      //backgroundColor: "rgba(255, 255, 100, 0.2)" // subtle glow under line (optional)
+      tension: 0.2,
+      borderColor: "rgba(255, 255, 100, 0.6)",   // soft yellow line
+      backgroundColor: "rgba(255, 255, 100, 0.2)" // subtle glow under line (optional)
     });
   }
   if (trendDataset) datasets.push(trendDataset);
@@ -200,11 +200,13 @@ function renderChart(name, globPoints, metaPoints, showMA, maN) {
       scales: {
         x: {
           title: { display: true, text: "Global Lap Index" },
-          ticks: { autoSkip: true }
+          ticks: { autoSkip: true },
+          grid: { color: "rgba(255,255,255,0.1)" }
         },
         y: {
           title: { display: true, text: "Lap Time (s, lower is faster)" },
-          reverse: false
+          reverse: false,
+          grid: { color: "rgba(255,255,255,0.1)" }
         }
       },
       plugins: {
