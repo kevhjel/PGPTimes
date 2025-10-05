@@ -175,7 +175,7 @@ function renderTable(rows) {
     if (ranked) rank += 1;
     tr.innerHTML = `
       <td>${ranked ? rank : ""}</td>
-      <td>${r.name}</td>
+      <td><a href="./driver_charts.html#${encodeURIComponent(r.name)}">${r.name}</a></td>
       <td>${ranked ? fmtSeconds(r.fastest) : "<span class='small'>— no laps —</span>"}</td>
       <td>${r.heat_no ? `<a href="./index.html#${r.heat_no}" onclick="window.location.href='./index.html#${r.heat_no}'">${r.heat_no}</a>` : ""}</td>
       <td>${r.heat_type}</td>
