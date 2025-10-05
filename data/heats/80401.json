@@ -1,0 +1,89 @@
+{
+  "heat_no": 80401,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-16T13:30:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.398,
+      "lap_times_url": null,
+      "laps": [
+        85.069,
+        83.168,
+        83.197,
+        81.398,
+        85.419,
+        82.962,
+        83.517,
+        83.615
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.776,
+      "lap_times_url": null,
+      "laps": [
+        82.54,
+        80.776,
+        81.033,
+        82.575,
+        81.384,
+        82.325,
+        82.14,
+        81.66
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.754,
+      "lap_times_url": null,
+      "laps": [
+        82.224,
+        80.754,
+        81.06,
+        82.18,
+        81.452,
+        82.606,
+        82.166,
+        81.164
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80401"
+}

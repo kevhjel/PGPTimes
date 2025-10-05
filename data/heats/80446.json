@@ -1,0 +1,33 @@
+{
+  "heat_no": 80446,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-17T09:45:00",
+  "drivers": [
+    {
+      "name": "Tom Broznowski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.142,
+      "lap_times_url": null,
+      "laps": [
+        104.104,
+        95.682,
+        94.196,
+        93.142,
+        94.465,
+        94.428,
+        95.27
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80446"
+}

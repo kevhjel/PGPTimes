@@ -1,0 +1,148 @@
+{
+  "heat_no": 80307,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-11T10:15:00",
+  "drivers": [
+    {
+      "name": "Eric Tibbitts",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.82,
+      "lap_times_url": null,
+      "laps": [
+        133.356,
+        85.114,
+        84.384,
+        83.739,
+        83.848,
+        83.644,
+        82.82
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmitro Zagorulko",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 93.126,
+      "lap_times_url": null,
+      "laps": [
+        144.672,
+        111.559,
+        100.004,
+        93.126,
+        96.213,
+        134.913
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "Noah Garcia",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.276,
+      "lap_times_url": null,
+      "laps": [
+        146.172,
+        110.146,
+        91.19,
+        99.533,
+        88.276,
+        89.144
+      ],
+      "lap_positions": [
+        5,
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Pylyp Niiaka",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 92.36,
+      "lap_times_url": null,
+      "laps": [
+        164.968,
+        101.077,
+        97.266,
+        96.492,
+        103.017,
+        92.36
+      ],
+      "lap_positions": [
+        6,
+        3,
+        4,
+        5,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Denis Miksanski",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.44,
+      "lap_times_url": null,
+      "laps": [
+        142.454,
+        122.558,
+        106.97,
+        110.231,
+        93.378,
+        91.44
+      ],
+      "lap_positions": [
+        3,
+        6,
+        6,
+        6,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Yaroslav Niiaka",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.234,
+      "lap_times_url": null,
+      "laps": [
+        141.677,
+        93.736,
+        90.634,
+        103.506,
+        89.291,
+        89.234
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80307"
+}

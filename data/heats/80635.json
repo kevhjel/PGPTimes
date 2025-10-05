@@ -1,0 +1,296 @@
+{
+  "heat_no": 80635,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Steve Anton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.24,
+      "lap_times_url": null,
+      "laps": [
+        120.781,
+        82.289,
+        83.301,
+        81.24,
+        81.699,
+        81.981,
+        82.03,
+        81.847
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "teyler henry",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 87.747,
+      "lap_times_url": null,
+      "laps": [
+        125.427,
+        91.283,
+        90.354,
+        90.305,
+        89.296,
+        88.107,
+        87.747
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5,
+        7,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Tate Mandel",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.562,
+      "lap_times_url": null,
+      "laps": [
+        121.191,
+        82.655,
+        82.562,
+        82.998,
+        83.719,
+        82.716,
+        84.128,
+        82.718
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.018,
+      "lap_times_url": null,
+      "laps": [
+        121.573,
+        82.507,
+        84.378,
+        81.018,
+        81.104,
+        81.739,
+        82.68,
+        82.137
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tyler Woodcock",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 88.043,
+      "lap_times_url": null,
+      "laps": [
+        145.066,
+        94.196,
+        90.879,
+        88.279,
+        89.369,
+        98.43,
+        88.043
+      ],
+      "lap_positions": [
+        9,
+        7,
+        6,
+        5,
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.389,
+      "lap_times_url": null,
+      "laps": [
+        121.432,
+        82.599,
+        82.458,
+        82.854,
+        81.389,
+        82.1,
+        82.24,
+        82.107
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Hudson Burton",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 87.858,
+      "lap_times_url": null,
+      "laps": [
+        124.952,
+        91.032,
+        91.176,
+        89.954,
+        89.464,
+        88.2,
+        87.858
+      ],
+      "lap_positions": [
+        5,
+        5,
+        7,
+        6,
+        7,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "SHANE OLSON",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 96.681,
+      "lap_times_url": null,
+      "laps": [
+        129.796,
+        96.76,
+        97.089,
+        96.681,
+        102.578,
+        97.438
+      ],
+      "lap_positions": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Jacob Zielinski",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 94.972,
+      "lap_times_url": null,
+      "laps": [
+        131.935,
+        100.905,
+        100.365,
+        99.941,
+        96.405,
+        94.972
+      ],
+      "lap_positions": [
+        8,
+        9,
+        9,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "ALAYNA WOODCOCK",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 123.411,
+      "lap_times_url": null,
+      "laps": [
+        148.491,
+        125.818,
+        130.055,
+        126.095,
+        123.411
+      ],
+      "lap_positions": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Robert Rodriguez",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 143.174,
+      "lap_times_url": null,
+      "laps": [
+        172.878,
+        151.038,
+        148.121,
+        143.174
+      ],
+      "lap_positions": [
+        11,
+        11,
+        12,
+        11
+      ]
+    },
+    {
+      "name": "Veronica Castro",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 143.465,
+      "lap_times_url": null,
+      "laps": [
+        178.108,
+        152.357,
+        145.956,
+        143.465
+      ],
+      "lap_positions": [
+        12,
+        12,
+        11,
+        12
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80635"
+}

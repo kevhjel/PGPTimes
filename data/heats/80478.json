@@ -1,0 +1,56 @@
+{
+  "heat_no": 80478,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-18T11:00:00",
+  "drivers": [
+    {
+      "name": "Andrew Morris",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.605,
+      "lap_times_url": null,
+      "laps": [
+        145.658,
+        110.776,
+        93.342,
+        94.01,
+        92.605,
+        93.037
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Scott Slagle",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.811,
+      "lap_times_url": null,
+      "laps": [
+        143.291,
+        95.999,
+        92.781,
+        91.396,
+        90.887,
+        88.839,
+        87.811
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80478"
+}

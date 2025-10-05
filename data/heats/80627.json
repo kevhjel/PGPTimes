@@ -1,0 +1,407 @@
+{
+  "heat_no": 80627,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-07-25T11:30:00",
+  "drivers": [
+    {
+      "name": "Jonny Burk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.132,
+      "lap_times_url": null,
+      "laps": [
+        147.758,
+        83.367,
+        82.594,
+        82.132,
+        83.194,
+        82.694,
+        82.615,
+        85.981
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "justin lokhmatov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.032,
+      "lap_times_url": null,
+      "laps": [
+        148.069,
+        85.336,
+        83.652,
+        83.278,
+        83.032,
+        84.416,
+        83.825,
+        85.14
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "adam albers",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 89.006,
+      "lap_times_url": null,
+      "laps": [
+        143.887,
+        91.669,
+        95.024,
+        90.198,
+        91.649,
+        89.3,
+        89.006,
+        101.422
+      ],
+      "lap_positions": [
+        11,
+        10,
+        9,
+        11,
+        10,
+        10,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "Jason Gomez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 85.459,
+      "lap_times_url": null,
+      "laps": [
+        145.395,
+        96.933,
+        85.459,
+        87.124,
+        87.228,
+        94.571,
+        86.041,
+        85.526
+      ],
+      "lap_positions": [
+        3,
+        7,
+        6,
+        4,
+        4,
+        8,
+        7,
+        5
+      ]
+    },
+    {
+      "name": "esteban medina",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.306,
+      "lap_times_url": null,
+      "laps": [
+        147.081,
+        95.129,
+        84.306,
+        96.042,
+        84.488,
+        85.897,
+        87.992,
+        87.547
+      ],
+      "lap_positions": [
+        5,
+        5,
+        4,
+        6,
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Brandyn Gomez",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 86.693,
+      "lap_times_url": null,
+      "laps": [
+        144.177,
+        91.875,
+        86.7,
+        86.902,
+        86.693,
+        86.825,
+        87.413,
+        88.152
+      ],
+      "lap_positions": [
+        10,
+        8,
+        8,
+        5,
+        6,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "aldair hysa",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 87.504,
+      "lap_times_url": null,
+      "laps": [
+        145.401,
+        88.294,
+        87.681,
+        89.16,
+        87.959,
+        87.504,
+        89.598,
+        89.914
+      ],
+      "lap_positions": [
+        6,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7
+      ]
+    },
+    {
+      "name": "dave burk",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 89.473,
+      "lap_times_url": null,
+      "laps": [
+        135.397,
+        93.181,
+        100.779,
+        91.827,
+        92.545,
+        102.458,
+        89.473,
+        92.624
+      ],
+      "lap_positions": [
+        9,
+        9,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Jesse Brown",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 94.147,
+      "lap_times_url": null,
+      "laps": [
+        141.57,
+        96.508,
+        94.147,
+        95.172,
+        95.216,
+        95.616,
+        101.661
+      ],
+      "lap_positions": [
+        12,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Timothy Albers",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 99.525,
+      "lap_times_url": null,
+      "laps": [
+        146.47,
+        106.058,
+        103.84,
+        99.525,
+        100.174,
+        100.039,
+        100.672
+      ],
+      "lap_positions": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Mike Brown",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 87.886,
+      "lap_times_url": null,
+      "laps": [
+        162.938,
+        88.071,
+        89.118,
+        87.938,
+        87.886,
+        93.906,
+        88.326,
+        88.757
+      ],
+      "lap_positions": [
+        13,
+        12,
+        10,
+        10,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Wes Burk",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 94.034,
+      "lap_times_url": null,
+      "laps": [
+        144.005,
+        98.751,
+        98.373,
+        97.03,
+        95.772,
+        94.034,
+        94.697
+      ],
+      "lap_positions": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Rush Hysa",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.05,
+      "lap_times_url": null,
+      "laps": [
+        150.985,
+        101.772,
+        95.383,
+        85.578,
+        84.934,
+        83.05,
+        83.794,
+        86.046
+      ],
+      "lap_positions": [
+        4,
+        11,
+        11,
+        9,
+        8,
+        7,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "Sergio Gonzalez",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 85.859,
+      "lap_times_url": null,
+      "laps": [
+        142.283,
+        90.402,
+        87.885,
+        94.313,
+        106.722,
+        86.91,
+        85.859,
+        86.312
+      ],
+      "lap_positions": [
+        8,
+        6,
+        7,
+        8,
+        11,
+        11,
+        11,
+        10
+      ]
+    },
+    {
+      "name": "Jason Chancey",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 85.982,
+      "lap_times_url": null,
+      "laps": [
+        147.15,
+        88.889,
+        87.202,
+        96.005,
+        86.862,
+        85.982,
+        87.002,
+        88.598
+      ],
+      "lap_positions": [
+        7,
+        4,
+        5,
+        7,
+        7,
+        6,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80627"
+}

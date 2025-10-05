@@ -1,0 +1,106 @@
+{
+  "heat_no": 80317,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-11T12:45:00",
+  "drivers": [
+    {
+      "name": "anthony church...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.149,
+      "lap_times_url": null,
+      "laps": [
+        114.856,
+        85.549,
+        84.389,
+        84.285,
+        84.665,
+        84.578,
+        84.149
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.173,
+      "lap_times_url": null,
+      "laps": [
+        113.379,
+        97.331,
+        86.078,
+        87.049,
+        89.92,
+        84.241,
+        83.173
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Noah Garcia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.893,
+      "lap_times_url": null,
+      "laps": [
+        112.798,
+        97.444,
+        85.999,
+        87.197,
+        86.489,
+        85.953,
+        84.893
+      ],
+      "lap_positions": [
+        1,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Gabriel Wright",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.132,
+      "lap_times_url": null,
+      "laps": [
+        169.97,
+        98.904,
+        97.815,
+        99.028,
+        98.015,
+        93.132
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80317"
+}

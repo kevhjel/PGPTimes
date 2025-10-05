@@ -1,0 +1,98 @@
+{
+  "heat_no": 80310,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-11T11:00:00",
+  "drivers": [
+    {
+      "name": "Edgar Corado",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.444,
+      "lap_times_url": null,
+      "laps": [
+        147.405,
+        102.098,
+        103.019,
+        98.621,
+        95.327,
+        93.444
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emmanuel Herrera",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.093,
+      "lap_times_url": null,
+      "laps": [
+        144.247,
+        96.162,
+        95.691,
+        94.272,
+        93.093,
+        93.817
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Ramirez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.503,
+      "lap_times_url": null,
+      "laps": [
+        150.398,
+        105.611,
+        102.747,
+        98.738,
+        98.952,
+        96.503
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Axel Hernandez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.912,
+      "lap_times_url": null,
+      "laps": [
+        161.707,
+        122.263,
+        118.349,
+        112.499,
+        111.912
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80310"
+}

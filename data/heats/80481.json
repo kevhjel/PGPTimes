@@ -1,0 +1,142 @@
+{
+  "heat_no": 80481,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-18T11:45:00",
+  "drivers": [
+    {
+      "name": "Carlos Urias",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.394,
+      "lap_times_url": null,
+      "laps": [
+        143.975,
+        103.551,
+        100.705,
+        95.394,
+        99.584,
+        102.956
+      ],
+      "lap_positions": [
+        5,
+        3,
+        4,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Kevin Aguilar",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.212,
+      "lap_times_url": null,
+      "laps": [
+        141.328,
+        96.693,
+        164.959,
+        92.677,
+        95.23,
+        91.212
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ivan Palomino",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 111.15,
+      "lap_times_url": null,
+      "laps": [
+        143.649,
+        111.15,
+        111.527,
+        114.042,
+        112.639
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Mark Goodspeed",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.944,
+      "lap_times_url": null,
+      "laps": [
+        140.786,
+        104.469,
+        100.108,
+        95.432,
+        96.404,
+        91.944
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "Kyra Fors",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 110.626,
+      "lap_times_url": null,
+      "laps": [
+        146.126,
+        112.7,
+        116.472,
+        112.156,
+        110.626
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Roger Goodspeed",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.067,
+      "lap_times_url": null,
+      "laps": [
+        139.189,
+        102.851,
+        99.707,
+        95.048,
+        94.568,
+        94.067
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80481"
+}

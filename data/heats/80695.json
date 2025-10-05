@@ -1,0 +1,134 @@
+{
+  "heat_no": 80695,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-07-27T09:00:00",
+  "drivers": [
+    {
+      "name": "Timo Kiriputt",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.721,
+      "lap_times_url": null,
+      "laps": [
+        136.4,
+        123.413,
+        108.092,
+        106.721,
+        150.036
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "ATLAS HOHMANN",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.65,
+      "lap_times_url": null,
+      "laps": [
+        117.115,
+        108.916,
+        98.726,
+        93.61,
+        91.65,
+        93.641
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Shubin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.699,
+      "lap_times_url": null,
+      "laps": [
+        116.828,
+        109.119,
+        98.565,
+        93.867,
+        91.699,
+        93.989
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Liam Wood",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.761,
+      "lap_times_url": null,
+      "laps": [
+        136.364,
+        123.364,
+        107.95,
+        106.761,
+        148.626
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Bo Park",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 141.559,
+      "lap_times_url": null,
+      "laps": [
+        156.805,
+        149.237,
+        141.559,
+        175.185
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Nate Seel",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 141.61,
+      "lap_times_url": null,
+      "laps": [
+        155.235,
+        149.05,
+        141.61,
+        171.57
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80695"
+}

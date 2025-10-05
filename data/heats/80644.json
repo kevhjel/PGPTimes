@@ -1,0 +1,89 @@
+{
+  "heat_no": 80644,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-25T13:45:00",
+  "drivers": [
+    {
+      "name": "kristen hosten...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.843,
+      "lap_times_url": null,
+      "laps": [
+        88.587,
+        82.917,
+        81.616,
+        81.353,
+        81.326,
+        81.154,
+        81.963,
+        80.843
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "david cheng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.873,
+      "lap_times_url": null,
+      "laps": [
+        89.583,
+        83.566,
+        81.695,
+        81.445,
+        81.558,
+        81.122,
+        81.294,
+        80.873
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Luke Boley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.222,
+      "lap_times_url": null,
+      "laps": [
+        88.902,
+        84.227,
+        83.635,
+        84.082,
+        84.061,
+        85.842,
+        83.396,
+        83.222
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80644"
+}

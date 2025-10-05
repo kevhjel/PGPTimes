@@ -1,0 +1,58 @@
+{
+  "heat_no": 80786,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-31T14:00:00",
+  "drivers": [
+    {
+      "name": "Logan Allan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.717,
+      "lap_times_url": null,
+      "laps": [
+        100.525,
+        86.179,
+        85.327,
+        84.717,
+        83.717,
+        84.076,
+        84.203
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aaron Black",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.559,
+      "lap_times_url": null,
+      "laps": [
+        108.207,
+        95.766,
+        95.927,
+        96.275,
+        97.807,
+        94.559,
+        95.025
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80786"
+}

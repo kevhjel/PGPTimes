@@ -1,0 +1,100 @@
+{
+  "heat_no": 80399,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-16T13:00:00",
+  "drivers": [
+    {
+      "name": "Ali Gul",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.741,
+      "lap_times_url": null,
+      "laps": [
+        137.772,
+        108.175,
+        102.706,
+        100.309,
+        100.381,
+        98.741
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kevin Liu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.666,
+      "lap_times_url": null,
+      "laps": [
+        125.423,
+        92.034,
+        91.648,
+        91.562,
+        98.072,
+        93.37,
+        90.666
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "HAMDI EL cHAMI",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 109.353,
+      "lap_times_url": null,
+      "laps": [
+        142.816,
+        112.632,
+        115.58,
+        153.482,
+        109.353
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Alexei Babanov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.43,
+      "lap_times_url": null,
+      "laps": [
+        139.816,
+        101.43,
+        102.688,
+        112.262,
+        102.848,
+        102.575
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80399"
+}

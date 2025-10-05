@@ -1,0 +1,52 @@
+{
+  "heat_no": 80305,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-11T09:45:00",
+  "drivers": [
+    {
+      "name": "Noah Garcia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.714,
+      "lap_times_url": null,
+      "laps": [
+        125.137,
+        99.291,
+        98.244,
+        94.714,
+        120.188,
+        95.091
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Manuel Flores",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.37,
+      "lap_times_url": null,
+      "laps": [
+        139.559,
+        112.118,
+        105.99,
+        103.37,
+        123.116
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80305"
+}

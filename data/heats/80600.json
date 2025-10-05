@@ -1,0 +1,171 @@
+{
+  "heat_no": 80600,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-24T09:15:00",
+  "drivers": [
+    {
+      "name": "Greg Jones",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.7,
+      "lap_times_url": null,
+      "laps": [
+        124.994,
+        86.441,
+        85.19,
+        84.318,
+        84.677,
+        83.7,
+        83.765
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "JOSEPH HUBACH",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.389,
+      "lap_times_url": null,
+      "laps": [
+        123.701,
+        86.681,
+        84.922,
+        84.37,
+        86.413,
+        84.236,
+        83.389
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Roman Strohauer",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.47,
+      "lap_times_url": null,
+      "laps": [
+        134.272,
+        100.359,
+        98.724,
+        96.297,
+        93.47,
+        101.459
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jacob Strohauer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.691,
+      "lap_times_url": null,
+      "laps": [
+        132.594,
+        98.53,
+        108.708,
+        92.669,
+        90.691,
+        105.81
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Joshua Ajayi",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 105.903,
+      "lap_times_url": null,
+      "laps": [
+        139.177,
+        121.324,
+        130.661,
+        113.148,
+        105.903
+      ],
+      "lap_positions": [
+        5,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Michael Ajayi",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 101.649,
+      "lap_times_url": null,
+      "laps": [
+        146.576,
+        113.378,
+        108.962,
+        102.618,
+        108.406,
+        101.649
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Pete Gillespie",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 97.041,
+      "lap_times_url": null,
+      "laps": [
+        148.433,
+        108.008,
+        103.506,
+        98.968,
+        97.041,
+        97.528
+      ],
+      "lap_positions": [
+        7,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80600"
+}

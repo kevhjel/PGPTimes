@@ -1,0 +1,52 @@
+{
+  "heat_no": 80494,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-18T15:00:00",
+  "drivers": [
+    {
+      "name": "Shane Sudac",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.174,
+      "lap_times_url": null,
+      "laps": [
+        143.544,
+        92.265,
+        88.526,
+        88.174,
+        88.947,
+        94.67,
+        88.693
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kacey Dupuis",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 133.466,
+      "lap_times_url": null,
+      "laps": [
+        185.511,
+        144.918,
+        134.011,
+        133.466
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80494"
+}

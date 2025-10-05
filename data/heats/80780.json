@@ -1,0 +1,129 @@
+{
+  "heat_no": 80780,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-31T12:30:00",
+  "drivers": [
+    {
+      "name": "Rick Bohrer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.078,
+      "lap_times_url": null,
+      "laps": [
+        109.688,
+        81.383,
+        81.078,
+        81.546,
+        81.218,
+        82.084,
+        81.477,
+        81.55
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "peter boyle",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.312,
+      "lap_times_url": null,
+      "laps": [
+        111.087,
+        81.126,
+        80.661,
+        81.303,
+        80.451,
+        80.312,
+        80.384,
+        80.996
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hank Menzie",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.406,
+      "lap_times_url": null,
+      "laps": [
+        117.298,
+        96.348,
+        85.553,
+        90.644,
+        85.063,
+        83.406,
+        84.523
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mark Menzie",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.085,
+      "lap_times_url": null,
+      "laps": [
+        116.855,
+        103.934,
+        91.95,
+        90.025,
+        88.95,
+        88.294,
+        87.085
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Venna Menzie",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 156.571,
+      "lap_times_url": null,
+      "laps": [
+        220.81,
+        156.571,
+        164.049
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80780"
+}

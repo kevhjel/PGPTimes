@@ -1,0 +1,91 @@
+{
+  "heat_no": 80480,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-18T11:30:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.333,
+      "lap_times_url": null,
+      "laps": [
+        87.523,
+        84.164,
+        82.768,
+        82.494,
+        83.82,
+        82.593,
+        82.85,
+        82.333
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Federico Mira ...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.727,
+      "lap_times_url": null,
+      "laps": [
+        119.29,
+        83.114,
+        83.27,
+        83.067,
+        83.116,
+        82.74,
+        83.161,
+        83.205,
+        82.75,
+        82.727
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Steve Kelley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.547,
+      "lap_times_url": null,
+      "laps": [
+        138.142,
+        112.58,
+        109.879,
+        108.453,
+        114.9,
+        108.061,
+        104.547
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80480"
+}

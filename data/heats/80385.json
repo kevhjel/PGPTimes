@@ -1,0 +1,56 @@
+{
+  "heat_no": 80385,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T15:30:00",
+  "drivers": [
+    {
+      "name": "Lincoln Bosh",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.252,
+      "lap_times_url": null,
+      "laps": [
+        113.763,
+        99.71,
+        89.882,
+        88.676,
+        88.252,
+        88.965,
+        88.717
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jason Bosh",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.874,
+      "lap_times_url": null,
+      "laps": [
+        138.827,
+        105.697,
+        103.669,
+        100.874,
+        110.994,
+        102.753
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80385"
+}

@@ -1,0 +1,54 @@
+{
+  "heat_no": 80384,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-07-09T19:45:00",
+  "drivers": [
+    {
+      "name": "D'onte Petway",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 95.335,
+      "lap_times_url": null,
+      "laps": [
+        136.633,
+        99.778,
+        96.568,
+        95.335,
+        111.565,
+        96.507
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tee C",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.694,
+      "lap_times_url": null,
+      "laps": [
+        146.027,
+        96.694,
+        96.755,
+        107.144,
+        108.099,
+        97.549
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80384"
+}

@@ -1,0 +1,179 @@
+{
+  "heat_no": 80767,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-07-30T18:00:00",
+  "drivers": [
+    {
+      "name": "Nat Julich",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.772,
+      "lap_times_url": null,
+      "laps": [
+        124.478,
+        102.93,
+        91.984,
+        89.878,
+        89.772,
+        90.843,
+        91.226
+      ],
+      "lap_positions": [
+        5,
+        6,
+        4,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Michael O'leary",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.478,
+      "lap_times_url": null,
+      "laps": [
+        110.09,
+        83.587,
+        84.611,
+        84.19,
+        83.478,
+        85.905,
+        84.381
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Blake Julich",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.335,
+      "lap_times_url": null,
+      "laps": [
+        115.379,
+        92.845,
+        91.943,
+        90.35,
+        90.124,
+        91.212,
+        89.335
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Jensen Julich",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.601,
+      "lap_times_url": null,
+      "laps": [
+        115.332,
+        91.803,
+        91.212,
+        90.601,
+        90.783,
+        92.535,
+        91.266
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Caleb Griffith",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 90.927,
+      "lap_times_url": null,
+      "laps": [
+        116.175,
+        93.394,
+        92.006,
+        90.927,
+        91.307,
+        91.439,
+        91.651
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Alexis Espindola",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 102.185,
+      "lap_times_url": null,
+      "laps": [
+        134.241,
+        112.209,
+        109.646,
+        108.695,
+        106.821,
+        102.185
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Angel Gallardo",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 97.703,
+      "lap_times_url": null,
+      "laps": [
+        125.156,
+        99.625,
+        102.014,
+        100.466,
+        99.837,
+        97.703
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80767"
+}

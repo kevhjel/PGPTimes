@@ -1,0 +1,154 @@
+{
+  "heat_no": 80768,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-07-30T18:15:00",
+  "drivers": [
+    {
+      "name": "Austin Spagnolo",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.918,
+      "lap_times_url": null,
+      "laps": [
+        120.857,
+        85.734,
+        85.29,
+        83.918,
+        85.503,
+        88.438,
+        87.017
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "James Kromer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.79,
+      "lap_times_url": null,
+      "laps": [
+        120.254,
+        85.591,
+        83.868,
+        84.133,
+        83.79,
+        85.452,
+        83.915
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jordan Shankle",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.147,
+      "lap_times_url": null,
+      "laps": [
+        119.268,
+        88.969,
+        85.382,
+        86.275,
+        86.352,
+        92.153,
+        85.147
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Audrey Fleck",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 98.191,
+      "lap_times_url": null,
+      "laps": [
+        137.474,
+        105.212,
+        101.341,
+        98.191,
+        133.311,
+        104.948
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Catalin Gangalic",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.514,
+      "lap_times_url": null,
+      "laps": [
+        117.955,
+        85.227,
+        84.62,
+        83.514,
+        83.989,
+        84.623,
+        97.036
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maxime Kjaer",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 100.717,
+      "lap_times_url": null,
+      "laps": [
+        136.872,
+        102.219,
+        109.376,
+        100.717,
+        127.923,
+        102.415
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80768"
+}

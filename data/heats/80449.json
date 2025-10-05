@@ -1,0 +1,60 @@
+{
+  "heat_no": 80449,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-17T10:30:00",
+  "drivers": [
+    {
+      "name": "Elliott Schunk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.791,
+      "lap_times_url": null,
+      "laps": [
+        87.581,
+        82.134,
+        82.447,
+        82.67,
+        81.791,
+        82.333,
+        81.92,
+        82.374
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Molly O'Grady...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.01,
+      "lap_times_url": null,
+      "laps": [
+        95.81,
+        89.126,
+        89.754,
+        89.938,
+        91.093,
+        87.749,
+        86.01
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80449"
+}

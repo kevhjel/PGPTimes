@@ -1,0 +1,69 @@
+{
+  "heat_no": 80477,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-18T10:45:00",
+  "drivers": [
+    {
+      "name": "Carlos Urias",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.574,
+      "lap_times_url": null,
+      "laps": [
+        130.495,
+        133.518,
+        114.629,
+        106.919,
+        105.574
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Kevin Aguilar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 106.356,
+      "lap_times_url": null,
+      "laps": [
+        148.618,
+        118.515,
+        112.238,
+        106.665,
+        106.356
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Ivan Palomino",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 127.079,
+      "lap_times_url": null,
+      "laps": [
+        139.926,
+        172.565,
+        127.079,
+        145.093
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80477"
+}

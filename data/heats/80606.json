@@ -1,0 +1,112 @@
+{
+  "heat_no": 80606,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-24T11:15:00",
+  "drivers": [
+    {
+      "name": "Darioush Clapp",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.989,
+      "lap_times_url": null,
+      "laps": [
+        96.653,
+        83.804,
+        83.451,
+        82.882,
+        82.755,
+        81.989,
+        83.016,
+        82.31
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shawn Salomon",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.918,
+      "lap_times_url": null,
+      "laps": [
+        96.857,
+        86.314,
+        84.918,
+        86.735,
+        90.157,
+        103.455,
+        92.64
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jakob Enga",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.389,
+      "lap_times_url": null,
+      "laps": [
+        95.794,
+        85.155,
+        83.499,
+        83.389,
+        83.819,
+        83.918,
+        83.961,
+        83.799
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sachin Kalra",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.318,
+      "lap_times_url": null,
+      "laps": [
+        105.556,
+        97.466,
+        95.991,
+        94.008,
+        93.155,
+        93.453,
+        92.318
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80606"
+}

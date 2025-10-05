@@ -1,0 +1,60 @@
+{
+  "heat_no": 80323,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-11T14:15:00",
+  "drivers": [
+    {
+      "name": "Lincoln Bosh",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.968,
+      "lap_times_url": null,
+      "laps": [
+        103.909,
+        95.246,
+        83.086,
+        83.119,
+        83.561,
+        83.405,
+        83.731,
+        82.968
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dima Serafimov...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.427,
+      "lap_times_url": null,
+      "laps": [
+        105.912,
+        88.058,
+        85.002,
+        92.991,
+        85.017,
+        84.427,
+        92.665
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80323"
+}

@@ -1,0 +1,229 @@
+{
+  "heat_no": 80300,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-11T11:45:00",
+  "drivers": [
+    {
+      "name": "Broderick Heid...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.241,
+      "lap_times_url": null,
+      "laps": [
+        124.267,
+        83.407,
+        84.327,
+        83.508,
+        83.241,
+        83.675,
+        85.637,
+        85.129
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Noah Garcia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.349,
+      "lap_times_url": null,
+      "laps": [
+        127.917,
+        86.225,
+        87.465,
+        86.929,
+        85.349,
+        87.325,
+        89.414,
+        85.6
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Andy Vargas",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 89.298,
+      "lap_times_url": null,
+      "laps": [
+        142.594,
+        110.297,
+        97.981,
+        91.925,
+        95.623,
+        113.236,
+        89.298
+      ],
+      "lap_positions": [
+        5,
+        7,
+        7,
+        5,
+        5,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Alexa Tapia",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 91.298,
+      "lap_times_url": null,
+      "laps": [
+        144.442,
+        101.277,
+        97.338,
+        93.247,
+        92.429,
+        91.45,
+        91.298
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Loklin Nord",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.479,
+      "lap_times_url": null,
+      "laps": [
+        131.685,
+        89.338,
+        88.423,
+        87.479,
+        106.808,
+        100.78,
+        87.678
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ethan Heide",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 92.171,
+      "lap_times_url": null,
+      "laps": [
+        142.431,
+        103.626,
+        95.537,
+        96.556,
+        113.458,
+        102.377,
+        92.171
+      ],
+      "lap_positions": [
+        4,
+        6,
+        5,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Max Dupras",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 100.977,
+      "lap_times_url": null,
+      "laps": [
+        155.935,
+        120.945,
+        111.221,
+        109.382,
+        104.692,
+        100.977
+      ],
+      "lap_positions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Alex Warner",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 114.0,
+      "lap_times_url": null,
+      "laps": [
+        168.773,
+        132.582,
+        117.952,
+        118.257,
+        114.0
+      ],
+      "lap_positions": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Julien Dousset",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.685,
+      "lap_times_url": null,
+      "laps": [
+        155.552,
+        84.685,
+        110.178,
+        106.628,
+        102.661,
+        100.105
+      ],
+      "lap_positions": [
+        7,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80300"
+}

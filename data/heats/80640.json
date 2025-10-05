@@ -1,0 +1,60 @@
+{
+  "heat_no": 80640,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-25T12:45:00",
+  "drivers": [
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.228,
+      "lap_times_url": null,
+      "laps": [
+        95.49,
+        82.344,
+        81.867,
+        81.726,
+        81.5,
+        82.069,
+        81.662,
+        81.228
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Daryoush Washb...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.511,
+      "lap_times_url": null,
+      "laps": [
+        101.105,
+        93.099,
+        90.933,
+        90.022,
+        89.07,
+        88.511,
+        90.3
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80640"
+}

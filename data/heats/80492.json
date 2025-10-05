@@ -1,0 +1,108 @@
+{
+  "heat_no": 80492,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-18T14:30:00",
+  "drivers": [
+    {
+      "name": "Austin Trotter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.268,
+      "lap_times_url": null,
+      "laps": [
+        111.662,
+        83.536,
+        82.923,
+        82.268,
+        82.652,
+        82.571,
+        82.679,
+        82.72
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kevin Maykovich",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.693,
+      "lap_times_url": null,
+      "laps": [
+        113.52,
+        86.949,
+        85.152,
+        84.693,
+        85.345,
+        86.797,
+        88.053
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Julan Barreiro",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.033,
+      "lap_times_url": null,
+      "laps": [
+        114.796,
+        131.177,
+        89.157,
+        88.033,
+        120.243,
+        100.841
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ryan Hartigan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.422,
+      "lap_times_url": null,
+      "laps": [
+        125.372,
+        95.45,
+        91.292,
+        91.723,
+        90.422,
+        90.634,
+        90.955
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80492"
+}

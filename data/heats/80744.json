@@ -1,0 +1,62 @@
+{
+  "heat_no": 80744,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-30T10:45:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.214,
+      "lap_times_url": null,
+      "laps": [
+        85.403,
+        82.926,
+        81.931,
+        81.438,
+        81.214,
+        81.576,
+        81.554,
+        81.801
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Trevor Schuler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.964,
+      "lap_times_url": null,
+      "laps": [
+        87.886,
+        82.522,
+        81.625,
+        81.287,
+        81.807,
+        81.097,
+        81.008,
+        80.964
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80744"
+}

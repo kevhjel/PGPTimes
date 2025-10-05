@@ -1,0 +1,171 @@
+{
+  "heat_no": 80608,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-24T12:15:00",
+  "drivers": [
+    {
+      "name": "Stephen Greene",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.878,
+      "lap_times_url": null,
+      "laps": [
+        119.138,
+        81.595,
+        81.75,
+        80.981,
+        81.248,
+        81.852,
+        80.878
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sachin Kalra",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.667,
+      "lap_times_url": null,
+      "laps": [
+        133.225,
+        87.667,
+        87.759,
+        89.376,
+        106.255,
+        89.506,
+        88.414
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Harrison Probst",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.271,
+      "lap_times_url": null,
+      "laps": [
+        149.51,
+        106.231,
+        100.426,
+        96.268,
+        95.753,
+        93.271
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Claiborne Probst",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 110.404,
+      "lap_times_url": null,
+      "laps": [
+        162.702,
+        121.637,
+        117.609,
+        119.563,
+        110.404
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Bilgin Erguler",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 96.434,
+      "lap_times_url": null,
+      "laps": [
+        149.061,
+        103.634,
+        99.509,
+        96.434,
+        101.173,
+        109.234
+      ],
+      "lap_positions": [
+        4,
+        3,
+        5,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Arda Erguler",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 93.743,
+      "lap_times_url": null,
+      "laps": [
+        151.27,
+        104.045,
+        96.617,
+        114.891,
+        93.743,
+        98.274
+      ],
+      "lap_positions": [
+        6,
+        4,
+        4,
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Ege Erguler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.484,
+      "lap_times_url": null,
+      "laps": [
+        145.076,
+        104.065,
+        92.845,
+        90.074,
+        89.025,
+        87.484
+      ],
+      "lap_positions": [
+        3,
+        5,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80608"
+}

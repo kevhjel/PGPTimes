@@ -1,0 +1,150 @@
+{
+  "heat_no": 80697,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-07-27T10:00:00",
+  "drivers": [
+    {
+      "name": "Timo Kiriputt",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.338,
+      "lap_times_url": null,
+      "laps": [
+        150.074,
+        92.338,
+        103.606,
+        98.129,
+        99.619,
+        98.347
+      ],
+      "lap_positions": [
+        6,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "ATLAS HOHMANN",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.268,
+      "lap_times_url": null,
+      "laps": [
+        90.235,
+        86.268,
+        86.722,
+        95.051,
+        89.897,
+        94.313,
+        98.54
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daniel Shubin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.236,
+      "lap_times_url": null,
+      "laps": [
+        107.174,
+        94.624,
+        86.236,
+        86.442,
+        86.479,
+        88.764,
+        88.063
+      ],
+      "lap_positions": [
+        4,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Liam Wood",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.098,
+      "lap_times_url": null,
+      "laps": [
+        141.463,
+        92.198,
+        90.098,
+        90.445,
+        98.503,
+        97.45
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Bo Park",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 93.583,
+      "lap_times_url": null,
+      "laps": [
+        105.92,
+        93.583,
+        101.573,
+        100.357,
+        102.635,
+        102.494
+      ],
+      "lap_positions": [
+        3,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Nate Seel",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 94.073,
+      "lap_times_url": null,
+      "laps": [
+        105.747,
+        94.073,
+        101.309,
+        99.99,
+        112.022,
+        116.206
+      ],
+      "lap_positions": [
+        2,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80697"
+}

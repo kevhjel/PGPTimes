@@ -1,0 +1,302 @@
+{
+  "heat_no": 80505,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-07-18T17:45:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.179,
+      "lap_times_url": null,
+      "laps": [
+        107.387,
+        80.294,
+        80.565,
+        80.711,
+        84.432,
+        80.179,
+        80.675,
+        81.751
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Linus Wise",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.153,
+      "lap_times_url": null,
+      "laps": [
+        107.054,
+        80.251,
+        80.548,
+        80.351,
+        84.194,
+        80.153,
+        81.331,
+        81.736
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Moises Barragan",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 87.505,
+      "lap_times_url": null,
+      "laps": [
+        114.582,
+        89.246,
+        87.866,
+        87.505,
+        87.897,
+        89.065,
+        87.986
+      ],
+      "lap_positions": [
+        5,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Patrice CAO",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.786,
+      "lap_times_url": null,
+      "laps": [
+        111.69,
+        86.075,
+        86.246,
+        86.792,
+        85.786,
+        87.385,
+        91.1
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Thomas CAO",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 98.019,
+      "lap_times_url": null,
+      "laps": [
+        124.512,
+        104.404,
+        100.321,
+        113.813,
+        114.633,
+        98.019
+      ],
+      "lap_positions": [
+        9,
+        11,
+        10,
+        10,
+        11,
+        10
+      ]
+    },
+    {
+      "name": "Raphael CAO",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 90.621,
+      "lap_times_url": null,
+      "laps": [
+        118.675,
+        96.861,
+        91.962,
+        90.97,
+        90.621,
+        91.731,
+        98.948
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Isaiah Barragan",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 91.435,
+      "lap_times_url": null,
+      "laps": [
+        121.646,
+        99.344,
+        110.045,
+        95.819,
+        93.394,
+        91.435
+      ],
+      "lap_positions": [
+        8,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Adolfo Mendoza",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 90.072,
+      "lap_times_url": null,
+      "laps": [
+        126.874,
+        97.168,
+        94.638,
+        90.549,
+        90.431,
+        90.072,
+        92.651
+      ],
+      "lap_positions": [
+        10,
+        8,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Julian Barragan",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 98.616,
+      "lap_times_url": null,
+      "laps": [
+        132.153,
+        104.113,
+        100.654,
+        104.991,
+        98.616,
+        112.824
+      ],
+      "lap_positions": [
+        11,
+        10,
+        11,
+        11,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "Erick Estrada",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 86.645,
+      "lap_times_url": null,
+      "laps": [
+        114.935,
+        89.609,
+        87.469,
+        86.845,
+        90.105,
+        89.514,
+        86.645
+      ],
+      "lap_positions": [
+        6,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Moises Barragan",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 107.447,
+      "lap_times_url": null,
+      "laps": [
+        138.993,
+        121.591,
+        111.054,
+        107.447,
+        119.435
+      ],
+      "lap_positions": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Juan Ventura",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.879,
+      "lap_times_url": null,
+      "laps": [
+        111.775,
+        91.37,
+        87.335,
+        86.857,
+        86.592,
+        85.879,
+        86.359
+      ],
+      "lap_positions": [
+        4,
+        6,
+        4,
+        5,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80505"
+}

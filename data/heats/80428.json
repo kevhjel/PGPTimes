@@ -1,0 +1,62 @@
+{
+  "heat_no": 80428,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-16T17:30:00",
+  "drivers": [
+    {
+      "name": "Severn Allen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.597,
+      "lap_times_url": null,
+      "laps": [
+        87.157,
+        85.418,
+        84.501,
+        83.735,
+        84.114,
+        83.603,
+        83.692,
+        83.597
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Evan Allen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.399,
+      "lap_times_url": null,
+      "laps": [
+        85.093,
+        82.402,
+        81.632,
+        81.811,
+        81.399,
+        81.635,
+        81.819,
+        81.61
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80428"
+}

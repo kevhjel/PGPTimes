@@ -1,0 +1,125 @@
+{
+  "heat_no": 80319,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-11T13:15:00",
+  "drivers": [
+    {
+      "name": "anthony church...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.862,
+      "lap_times_url": null,
+      "laps": [
+        124.253,
+        83.48,
+        82.862,
+        83.254,
+        83.333,
+        83.978,
+        83.209
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gabriel Wright",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.386,
+      "lap_times_url": null,
+      "laps": [
+        129.027,
+        89.148,
+        90.899,
+        87.423,
+        88.15,
+        87.225,
+        86.386
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jason Zhao",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.156,
+      "lap_times_url": null,
+      "laps": [
+        129.318,
+        88.661,
+        88.18,
+        88.95,
+        89.569,
+        87.156,
+        89.238
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Edward Chen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.519,
+      "lap_times_url": null,
+      "laps": [
+        125.238,
+        88.517,
+        87.407,
+        87.174,
+        86.833,
+        87.705,
+        85.519
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Austin Wang",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 185.969,
+      "lap_times_url": null,
+      "laps": [
+        199.943,
+        189.394,
+        185.969
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80319"
+}

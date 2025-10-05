@@ -1,0 +1,92 @@
+{
+  "heat_no": 80447,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-17T10:00:00",
+  "drivers": [
+    {
+      "name": "Elliott Schunk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.438,
+      "lap_times_url": null,
+      "laps": [
+        172.731,
+        83.751,
+        82.438,
+        83.892,
+        83.022,
+        83.019,
+        82.541
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Molly O'Grady...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.999,
+      "lap_times_url": null,
+      "laps": [
+        185.049,
+        97.238,
+        96.353,
+        95.999,
+        96.338,
+        97.231
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Richard Gallaway",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.922,
+      "lap_times_url": null,
+      "laps": [
+        207.164,
+        116.629,
+        124.672,
+        115.108,
+        112.922
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Sonja Gallaway",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 252.15,
+      "lap_times_url": null,
+      "laps": [
+        303.545,
+        252.15
+      ],
+      "lap_positions": [
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80447"
+}

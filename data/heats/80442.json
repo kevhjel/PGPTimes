@@ -1,0 +1,296 @@
+{
+  "heat_no": 80442,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-07-17T16:30:00",
+  "drivers": [
+    {
+      "name": "John Georgewitz",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 147.6,
+      "lap_times_url": null,
+      "laps": [
+        157.894,
+        147.6
+      ],
+      "lap_positions": [
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Andrew Barkley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.085,
+      "lap_times_url": null,
+      "laps": [
+        135.935,
+        96.646,
+        88.186,
+        87.723,
+        88.387,
+        87.903,
+        87.647,
+        87.085
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Doug Nel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.073,
+      "lap_times_url": null,
+      "laps": [
+        137.033,
+        89.744,
+        88.993,
+        89.455,
+        88.708,
+        87.966,
+        87.073,
+        87.987
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Steven Hamilton",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 91.801,
+      "lap_times_url": null,
+      "laps": [
+        148.664,
+        96.986,
+        93.237,
+        93.493,
+        91.801,
+        94.643,
+        110.668
+      ],
+      "lap_positions": [
+        8,
+        7,
+        6,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Kaley Gunderson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.254,
+      "lap_times_url": null,
+      "laps": [
+        131.711,
+        94.821,
+        95.265,
+        99.812,
+        95.496,
+        94.254,
+        94.38
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Armand Thompson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.312,
+      "lap_times_url": null,
+      "laps": [
+        137.578,
+        99.121,
+        96.175,
+        103.328,
+        91.312,
+        93.96,
+        93.462,
+        97.222
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Phil LiPari",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 94.68,
+      "lap_times_url": null,
+      "laps": [
+        138.415,
+        101.467,
+        97.623,
+        97.443,
+        97.066,
+        94.68,
+        96.989
+      ],
+      "lap_positions": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Artem Ouliankine",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.562,
+      "lap_times_url": null,
+      "laps": [
+        134.509,
+        84.848,
+        85.602,
+        85.281,
+        95.35,
+        86.479,
+        84.562,
+        87.744
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Trity Khosravi",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 102.163,
+      "lap_times_url": null,
+      "laps": [
+        143.107,
+        110.568,
+        112.3,
+        109.186,
+        102.163,
+        110.495
+      ],
+      "lap_positions": [
+        11,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Ben Gordon",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 124.411,
+      "lap_times_url": null,
+      "laps": [
+        144.956,
+        124.411,
+        167.373
+      ],
+      "lap_positions": [
+        12,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Zlata Pavlova",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 103.055,
+      "lap_times_url": null,
+      "laps": [
+        139.527,
+        103.055,
+        104.174,
+        104.313,
+        104.531,
+        105.315,
+        105.089
+      ],
+      "lap_positions": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Anup Paudel",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 97.52,
+      "lap_times_url": null,
+      "laps": [
+        139.39,
+        98.48,
+        97.52,
+        98.57,
+        100.438,
+        97.622,
+        106.21
+      ],
+      "lap_positions": [
+        6,
+        6,
+        7,
+        7,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80442"
+}
