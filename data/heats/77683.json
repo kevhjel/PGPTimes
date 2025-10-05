@@ -1,0 +1,62 @@
+{
+  "heat_no": 77683,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-09T11:45:00",
+  "drivers": [
+    {
+      "name": "Robert Von berg",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.397,
+      "lap_times_url": null,
+      "laps": [
+        101.326,
+        85.676,
+        84.438,
+        85.039,
+        85.073,
+        84.397,
+        84.762,
+        84.852
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Hutchinson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.934,
+      "lap_times_url": null,
+      "laps": [
+        100.617,
+        85.366,
+        84.515,
+        84.097,
+        84.005,
+        84.103,
+        83.934,
+        84.902
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77683"
+}

@@ -1,0 +1,88 @@
+{
+  "heat_no": 77661,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-06T15:00:00",
+  "drivers": [
+    {
+      "name": "ALEX ACOSTA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.275,
+      "lap_times_url": null,
+      "laps": [
+        121.006,
+        109.448,
+        108.075,
+        119.945,
+        106.4,
+        105.275
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Ethan Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.53,
+      "lap_times_url": null,
+      "laps": [
+        110.978,
+        178.921,
+        106.341,
+        106.675,
+        105.53
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.523,
+      "lap_times_url": null,
+      "laps": [
+        109.903,
+        107.523
+      ],
+      "lap_positions": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Arjun Kay",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 130.843,
+      "lap_times_url": null,
+      "laps": [
+        141.744,
+        133.827,
+        162.747,
+        135.683,
+        130.843
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77661"
+}

@@ -1,0 +1,79 @@
+{
+  "heat_no": 77760,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-11T14:00:00",
+  "drivers": [
+    {
+      "name": "Brandon Hoy",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.52,
+      "lap_times_url": null,
+      "laps": [
+        118.235,
+        86.057,
+        84.52,
+        84.762,
+        86.282,
+        85.178,
+        94.057
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Karthik Arcot",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.497,
+      "lap_times_url": null,
+      "laps": [
+        142.703,
+        94.982,
+        89.497,
+        126.533,
+        91.184,
+        105.442
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ricardo Chao",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.963,
+      "lap_times_url": null,
+      "laps": [
+        139.007,
+        111.922,
+        106.518,
+        107.729,
+        97.407,
+        96.963
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77760"
+}

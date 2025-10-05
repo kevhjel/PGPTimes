@@ -1,0 +1,89 @@
+{
+  "heat_no": 77767,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-11T16:00:00",
+  "drivers": [
+    {
+      "name": "Dmitriy Barvin...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.601,
+      "lap_times_url": null,
+      "laps": [
+        88.281,
+        82.251,
+        82.544,
+        82.553,
+        82.472,
+        84.311,
+        82.995,
+        81.601
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sergei Ognerubov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.055,
+      "lap_times_url": null,
+      "laps": [
+        86.434,
+        83.336,
+        83.281,
+        82.46,
+        82.621,
+        83.82,
+        82.261,
+        82.055
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christopher E...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.265,
+      "lap_times_url": null,
+      "laps": [
+        89.973,
+        83.818,
+        83.474,
+        83.999,
+        82.265,
+        83.168,
+        83.433,
+        82.634
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77767"
+}

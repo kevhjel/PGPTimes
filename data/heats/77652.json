@@ -1,0 +1,50 @@
+{
+  "heat_no": 77652,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-06T12:45:00",
+  "drivers": [
+    {
+      "name": "David Ford",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.873,
+      "lap_times_url": null,
+      "laps": [
+        151.292,
+        118.075,
+        117.77,
+        115.664,
+        114.873
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Wisniewski",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.755,
+      "lap_times_url": null,
+      "laps": [
+        149.972,
+        133.905,
+        128.292,
+        115.755,
+        124.174
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77652"
+}

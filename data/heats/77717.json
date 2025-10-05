@@ -1,0 +1,35 @@
+{
+  "heat_no": 77717,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-10T09:30:00",
+  "drivers": [
+    {
+      "name": "Michael Blount",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.67,
+      "lap_times_url": null,
+      "laps": [
+        87.509,
+        82.679,
+        81.836,
+        81.306,
+        81.041,
+        81.432,
+        81.425,
+        80.67
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77717"
+}

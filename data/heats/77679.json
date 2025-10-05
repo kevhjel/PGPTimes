@@ -1,0 +1,62 @@
+{
+  "heat_no": 77679,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-09T10:45:00",
+  "drivers": [
+    {
+      "name": "Jacob Zerby",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.466,
+      "lap_times_url": null,
+      "laps": [
+        88.152,
+        83.999,
+        83.545,
+        83.482,
+        85.057,
+        83.672,
+        83.466,
+        84.012
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.596,
+      "lap_times_url": null,
+      "laps": [
+        88.515,
+        83.115,
+        83.013,
+        85.281,
+        84.127,
+        83.023,
+        82.596,
+        86.167
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77679"
+}

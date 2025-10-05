@@ -1,0 +1,29 @@
+{
+  "heat_no": 77667,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-06T16:30:00",
+  "drivers": [
+    {
+      "name": "Arjun Kay",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.458,
+      "lap_times_url": null,
+      "laps": [
+        119.777,
+        118.294,
+        112.458,
+        151.873,
+        115.51
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77667"
+}

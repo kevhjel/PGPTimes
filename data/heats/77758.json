@@ -1,0 +1,33 @@
+{
+  "heat_no": 77758,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-11T13:30:00",
+  "drivers": [
+    {
+      "name": "Jordan Hinrichs",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.447,
+      "lap_times_url": null,
+      "laps": [
+        82.447,
+        82.814,
+        82.748,
+        82.59,
+        84.394,
+        83.512,
+        82.817
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77758"
+}

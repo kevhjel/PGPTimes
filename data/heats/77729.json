@@ -1,0 +1,94 @@
+{
+  "heat_no": 77729,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-10T12:30:00",
+  "drivers": [
+    {
+      "name": "Khalid Dirie",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.331,
+      "lap_times_url": null,
+      "laps": [
+        127.979,
+        126.988,
+        140.12,
+        110.118,
+        103.331
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Brayden Kelller",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.884,
+      "lap_times_url": null,
+      "laps": [
+        156.3,
+        114.933,
+        102.884,
+        119.296,
+        127.885
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Elijah Keller",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 97.7,
+      "lap_times_url": null,
+      "laps": [
+        125.394,
+        114.394,
+        101.871,
+        101.341,
+        100.643,
+        97.7
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bryson Keller",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.444,
+      "lap_times_url": null,
+      "laps": [
+        134.755,
+        128.434,
+        117.158,
+        112.805,
+        101.444
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77729"
+}

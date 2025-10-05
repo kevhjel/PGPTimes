@@ -1,0 +1,107 @@
+{
+  "heat_no": 77738,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-10T14:45:00",
+  "drivers": [
+    {
+      "name": "zack miller",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.28,
+      "lap_times_url": null,
+      "laps": [
+        127.63,
+        111.823,
+        119.555,
+        111.28,
+        117.233
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ron Tanemura",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.335,
+      "lap_times_url": null,
+      "laps": [
+        129.252,
+        122.697,
+        132.191,
+        120.277,
+        113.335
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Nicholas Amrine",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 130.279,
+      "lap_times_url": null,
+      "laps": [
+        148.656,
+        140.723,
+        130.279,
+        151.142
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Wyatt Amrine",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.38,
+      "lap_times_url": null,
+      "laps": [
+        132.852,
+        118.436,
+        118.815,
+        118.441,
+        113.38
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Brooklyn Amrine",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 187.672,
+      "lap_times_url": null,
+      "laps": [
+        193.487,
+        187.672,
+        190.992
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77738"
+}

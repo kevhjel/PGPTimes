@@ -1,0 +1,54 @@
+{
+  "heat_no": 77857,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-16T10:45:00",
+  "drivers": [
+    {
+      "name": "Nichols Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.834,
+      "lap_times_url": null,
+      "laps": [
+        129.407,
+        111.089,
+        128.275,
+        111.132,
+        106.474,
+        103.834
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.242,
+      "lap_times_url": null,
+      "laps": [
+        131.725,
+        118.523,
+        114.253,
+        112.421,
+        106.698,
+        104.242
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77857"
+}

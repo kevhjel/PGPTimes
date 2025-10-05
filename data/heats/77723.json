@@ -1,0 +1,96 @@
+{
+  "heat_no": 77723,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-10T11:00:00",
+  "drivers": [
+    {
+      "name": "Justin Hauck",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.697,
+      "lap_times_url": null,
+      "laps": [
+        126.326,
+        84.878,
+        85.061,
+        84.722,
+        86.594,
+        84.697,
+        86.307
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ian Newburn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.78,
+      "lap_times_url": null,
+      "laps": [
+        146.133,
+        106.672,
+        104.78,
+        138.62,
+        108.418
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Newburn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.866,
+      "lap_times_url": null,
+      "laps": [
+        158.257,
+        125.418,
+        121.561,
+        114.639,
+        107.866
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Gretel Newburn",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 112.128,
+      "lap_times_url": null,
+      "laps": [
+        159.223,
+        133.662,
+        130.356,
+        117.851,
+        112.128
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77723"
+}

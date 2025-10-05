@@ -1,0 +1,287 @@
+{
+  "heat_no": 77868,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-16T14:00:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.704,
+      "lap_times_url": null,
+      "laps": [
+        106.752,
+        82.772,
+        80.093,
+        80.343,
+        80.056,
+        79.704,
+        80.522,
+        82.8
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.108,
+      "lap_times_url": null,
+      "laps": [
+        106.524,
+        81.704,
+        80.116,
+        80.26,
+        80.136,
+        80.108,
+        80.133,
+        82.792
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "bryten norfleet",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.777,
+      "lap_times_url": null,
+      "laps": [
+        106.977,
+        84.119,
+        80.777,
+        81.688,
+        81.157,
+        82.218,
+        82.096,
+        83.217
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Micah Salkind",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.533,
+      "lap_times_url": null,
+      "laps": [
+        111.563,
+        82.611,
+        82.486,
+        82.529,
+        81.533,
+        82.046,
+        82.142,
+        82.918
+      ],
+      "lap_positions": [
+        5,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Julian Cruz",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 86.5,
+      "lap_times_url": null,
+      "laps": [
+        120.846,
+        88.172,
+        88.797,
+        88.909,
+        87.312,
+        86.5,
+        87.441
+      ],
+      "lap_positions": [
+        9,
+        7,
+        8,
+        8,
+        8,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Joseph Wagura",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.24,
+      "lap_times_url": null,
+      "laps": [
+        112.758,
+        87.734,
+        88.209,
+        88.294,
+        87.24,
+        87.7,
+        87.775
+      ],
+      "lap_positions": [
+        6,
+        6,
+        7,
+        7,
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Jesus Estrada",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 88.276,
+      "lap_times_url": null,
+      "laps": [
+        114.38,
+        88.276,
+        89.834,
+        88.736,
+        95.636,
+        98.4,
+        91.635
+      ],
+      "lap_positions": [
+        7,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Jassy Singh",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 85.455,
+      "lap_times_url": null,
+      "laps": [
+        111.169,
+        87.483,
+        87.205,
+        99.511,
+        86.801,
+        85.455,
+        117.695
+      ],
+      "lap_positions": [
+        4,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Holden Panteleff",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 86.59,
+      "lap_times_url": null,
+      "laps": [
+        116.209,
+        88.692,
+        86.59,
+        106.683,
+        98.111,
+        89.958,
+        89.802
+      ],
+      "lap_positions": [
+        8,
+        9,
+        5,
+        5,
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Stone Fairchild",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 90.641,
+      "lap_times_url": null,
+      "laps": [
+        121.439,
+        104.96,
+        98.392,
+        90.641,
+        92.11,
+        100.126
+      ],
+      "lap_positions": [
+        10,
+        11,
+        11,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Harpreet Saini",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 94.563,
+      "lap_times_url": null,
+      "laps": [
+        137.755,
+        100.828,
+        96.832,
+        94.563,
+        95.763,
+        97.304
+      ],
+      "lap_positions": [
+        11,
+        10,
+        10,
+        11,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77868"
+}

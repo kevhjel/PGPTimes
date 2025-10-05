@@ -1,0 +1,35 @@
+{
+  "heat_no": 77647,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-06T11:00:00",
+  "drivers": [
+    {
+      "name": "Reid Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.75,
+      "lap_times_url": null,
+      "laps": [
+        82.703,
+        82.623,
+        82.002,
+        81.994,
+        82.273,
+        81.811,
+        81.75,
+        81.922
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77647"
+}

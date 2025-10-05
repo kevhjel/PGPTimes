@@ -1,0 +1,81 @@
+{
+  "heat_no": 77705,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-09T17:15:00",
+  "drivers": [
+    {
+      "name": "Denis Buzilo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.148,
+      "lap_times_url": null,
+      "laps": [
+        120.657,
+        97.065,
+        93.948,
+        93.148,
+        94.046,
+        93.931,
+        103.208
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.315,
+      "lap_times_url": null,
+      "laps": [
+        111.903,
+        80.852,
+        80.465,
+        80.413,
+        80.672,
+        80.665,
+        80.466,
+        80.315
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yana Magdalina",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.045,
+      "lap_times_url": null,
+      "laps": [
+        154.031,
+        135.894,
+        130.447,
+        133.314,
+        130.045
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77705"
+}

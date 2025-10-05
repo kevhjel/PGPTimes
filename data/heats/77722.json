@@ -1,0 +1,85 @@
+{
+  "heat_no": 77722,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-10T10:45:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.788,
+      "lap_times_url": null,
+      "laps": [
+        86.709,
+        84.689,
+        83.004,
+        82.788,
+        95.342,
+        87.518,
+        84.364
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alex Neff",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.187,
+      "lap_times_url": null,
+      "laps": [
+        88.455,
+        87.086,
+        85.187,
+        86.337,
+        87.621,
+        86.801,
+        87.118
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Justin Hauck",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.844,
+      "lap_times_url": null,
+      "laps": [
+        89.447,
+        85.09,
+        84.412,
+        83.844,
+        86.189,
+        87.37,
+        86.604,
+        85.603
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77722"
+}

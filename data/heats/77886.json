@@ -1,0 +1,108 @@
+{
+  "heat_no": 77886,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-17T09:30:00",
+  "drivers": [
+    {
+      "name": "Eric Vinje",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.459,
+      "lap_times_url": null,
+      "laps": [
+        88.317,
+        91.216,
+        82.07,
+        82.454,
+        82.043,
+        82.257,
+        81.459
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Stubby Racer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.952,
+      "lap_times_url": null,
+      "laps": [
+        109.272,
+        83.744,
+        83.617,
+        83.175,
+        82.962,
+        82.336,
+        81.952,
+        83.37
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "John Carter",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 100.067,
+      "lap_times_url": null,
+      "laps": [
+        126.552,
+        116.874,
+        110.52,
+        100.067,
+        105.469,
+        102.403
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Geneva Carter",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.113,
+      "lap_times_url": null,
+      "laps": [
+        119.493,
+        98.116,
+        98.813,
+        97.873,
+        96.923,
+        95.113,
+        95.629
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77886"
+}

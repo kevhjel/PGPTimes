@@ -1,0 +1,86 @@
+{
+  "heat_no": 77736,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-10T14:15:00",
+  "drivers": [
+    {
+      "name": "Ron Tanemura",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 118.865,
+      "lap_times_url": null,
+      "laps": [
+        143.38,
+        132.38,
+        121.95,
+        121.926,
+        118.865
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicholas Amrine",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 136.133,
+      "lap_times_url": null,
+      "laps": [
+        151.948,
+        156.289,
+        136.133,
+        173.269
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Wyatt Amrine",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.724,
+      "lap_times_url": null,
+      "laps": [
+        157.274,
+        129.433,
+        136.218,
+        138.097,
+        120.724
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Brooklyn Amrine",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 148.302,
+      "lap_times_url": null,
+      "laps": [
+        176.236,
+        232.599,
+        148.302
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77736"
+}

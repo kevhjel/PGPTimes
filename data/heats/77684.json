@@ -1,0 +1,116 @@
+{
+  "heat_no": 77684,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-09T12:00:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.572,
+      "lap_times_url": null,
+      "laps": [
+        89.872,
+        83.219,
+        82.02,
+        81.879,
+        83.142,
+        81.572,
+        81.631,
+        81.615
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.655,
+      "lap_times_url": null,
+      "laps": [
+        90.03,
+        82.196,
+        83.09,
+        82.183,
+        81.655,
+        82.184,
+        82.18,
+        81.768
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Robert Von berg",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.085,
+      "lap_times_url": null,
+      "laps": [
+        93.264,
+        84.65,
+        84.111,
+        84.873,
+        84.085,
+        84.373,
+        85.572,
+        84.752
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Hutchinson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.402,
+      "lap_times_url": null,
+      "laps": [
+        91.97,
+        84.474,
+        84.567,
+        83.462,
+        83.402,
+        84.85,
+        84.701,
+        84.553
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77684"
+}

@@ -1,0 +1,110 @@
+{
+  "heat_no": 77682,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-09T11:30:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.801,
+      "lap_times_url": null,
+      "laps": [
+        101.696,
+        83.03,
+        83.446,
+        83.036,
+        83.218,
+        82.801,
+        83.234,
+        83.671
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "rodnie taylor",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.999,
+      "lap_times_url": null,
+      "laps": [
+        117.924,
+        88.112,
+        88.335,
+        87.92,
+        88.025,
+        88.35,
+        85.999
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "CJ Peterson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.964,
+      "lap_times_url": null,
+      "laps": [
+        114.381,
+        88.116,
+        86.598,
+        86.575,
+        84.964,
+        85.714,
+        96.957
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christian Hodge",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.103,
+      "lap_times_url": null,
+      "laps": [
+        109.184,
+        91.62,
+        101.724,
+        91.878,
+        89.345,
+        89.103,
+        89.454
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77682"
+}

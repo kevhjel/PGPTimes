@@ -1,0 +1,33 @@
+{
+  "heat_no": 77855,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-16T10:00:00",
+  "drivers": [
+    {
+      "name": "Bruno Madejczyk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.995,
+      "lap_times_url": null,
+      "laps": [
+        83.999,
+        83.854,
+        84.058,
+        83.579,
+        82.995,
+        83.681,
+        83.285
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77855"
+}

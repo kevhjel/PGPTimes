@@ -1,0 +1,117 @@
+{
+  "heat_no": 77725,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-10T11:30:00",
+  "drivers": [
+    {
+      "name": "Justin Hauck",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.231,
+      "lap_times_url": null,
+      "laps": [
+        113.901,
+        85.63,
+        85.002,
+        84.231,
+        85.204,
+        85.795,
+        85.999
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ian Newburn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.034,
+      "lap_times_url": null,
+      "laps": [
+        128.433,
+        100.119,
+        98.609,
+        97.022,
+        95.028,
+        93.034
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Newburn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.79,
+      "lap_times_url": null,
+      "laps": [
+        124.537,
+        101.584,
+        100.59,
+        98.981,
+        98.294,
+        96.79
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Justin Thomas",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.111,
+      "lap_times_url": null,
+      "laps": [
+        184.889,
+        124.773,
+        119.111,
+        120.985
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "David Thomas",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.353,
+      "lap_times_url": null,
+      "laps": [
+        184.464,
+        133.832,
+        122.5,
+        121.353
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77725"
+}

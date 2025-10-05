@@ -1,0 +1,140 @@
+{
+  "heat_no": 77623,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-06T10:30:00",
+  "drivers": [
+    {
+      "name": "Luca Beeson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.628,
+      "lap_times_url": null,
+      "laps": [
+        144.343,
+        124.353,
+        127.809,
+        121.628,
+        122.021
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Crosby Gibson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.168,
+      "lap_times_url": null,
+      "laps": [
+        122.821,
+        101.004,
+        99.228,
+        98.183,
+        108.738,
+        98.168
+      ],
+      "lap_positions": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Hagan Westerfi...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 95.711,
+      "lap_times_url": null,
+      "laps": [
+        123.413,
+        101.154,
+        98.336,
+        96.783,
+        96.826,
+        95.711
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Robert Vassallo",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 141.223,
+      "lap_times_url": null,
+      "laps": [
+        146.998,
+        141.223,
+        158.754,
+        143.27
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Phoenix Andersen",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.984,
+      "lap_times_url": null,
+      "laps": [
+        129.729,
+        108.364,
+        125.627,
+        110.368,
+        109.457,
+        106.984
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Riley Landa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.049,
+      "lap_times_url": null,
+      "laps": [
+        131.241,
+        101.967,
+        97.173,
+        96.049,
+        97.132,
+        96.569
+      ],
+      "lap_positions": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77623"
+}

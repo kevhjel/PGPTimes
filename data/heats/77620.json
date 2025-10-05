@@ -1,0 +1,118 @@
+{
+  "heat_no": 77620,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-06T09:00:00",
+  "drivers": [
+    {
+      "name": "Luca Beeson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 156.314,
+      "lap_times_url": null,
+      "laps": [
+        161.435,
+        184.626,
+        156.314,
+        160.196
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Crosby Gibson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 131.222,
+      "lap_times_url": null,
+      "laps": [
+        139.75,
+        146.219,
+        165.878,
+        131.222
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hagan Westerfi...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.531,
+      "lap_times_url": null,
+      "laps": [
+        142.413,
+        144.305,
+        153.65,
+        141.531
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Robert Vassallo",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 184.495,
+      "lap_times_url": null,
+      "laps": [
+        188.38,
+        219.332,
+        184.495
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Phoenix Andersen",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 156.633,
+      "lap_times_url": null,
+      "laps": [
+        160.655,
+        185.442,
+        156.633,
+        168.515
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Riley Landa",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 183.967,
+      "lap_times_url": null,
+      "laps": [
+        183.967,
+        189.041,
+        185.842
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77620"
+}

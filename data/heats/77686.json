@@ -1,0 +1,81 @@
+{
+  "heat_no": 77686,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-09T12:30:00",
+  "drivers": [
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.061,
+      "lap_times_url": null,
+      "laps": [
+        102.473,
+        81.403,
+        81.446,
+        81.511,
+        84.627,
+        82.944,
+        81.061,
+        81.44
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Rodr...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.271,
+      "lap_times_url": null,
+      "laps": [
+        119.335,
+        108.406,
+        92.271,
+        108.057,
+        104.527,
+        98.548
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kris Monje",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.884,
+      "lap_times_url": null,
+      "laps": [
+        122.727,
+        97.505,
+        90.884,
+        113.496,
+        98.396,
+        117.385
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77686"
+}
