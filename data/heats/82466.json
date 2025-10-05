@@ -1,0 +1,107 @@
+{
+  "heat_no": 82466,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-10-05T09:00:00",
+  "drivers": [
+    {
+      "name": "Daniel Sharapov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.981,
+      "lap_times_url": null,
+      "laps": [
+        196.316,
+        127.228,
+        116.676,
+        111.981
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Logan De la to...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.604,
+      "lap_times_url": null,
+      "laps": [
+        180.203,
+        127.058,
+        121.177,
+        114.609,
+        111.604
+      ],
+      "lap_positions": [
+        2,
+        1,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "Ikenna McGill",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 111.71,
+      "lap_times_url": null,
+      "laps": [
+        176.163,
+        127.845,
+        121.888,
+        114.618,
+        111.71
+      ],
+      "lap_positions": [
+        1,
+        3,
+        5,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "Rohan Devineni",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.164,
+      "lap_times_url": null,
+      "laps": [
+        193.777,
+        127.998,
+        116.084,
+        112.164
+      ],
+      "lap_positions": [
+        4,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "Patrick Mahoney",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.206,
+      "lap_times_url": null,
+      "laps": [
+        190.927,
+        128.185,
+        116.412,
+        111.206
+      ],
+      "lap_positions": [
+        3,
+        5,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82466"
+}
