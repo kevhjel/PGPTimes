@@ -1,0 +1,87 @@
+{
+  "heat_no": 81879,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-10T16:15:00",
+  "drivers": [
+    {
+      "name": "Ricardo Lo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.25,
+      "lap_times_url": null,
+      "laps": [
+        102.883,
+        82.672,
+        82.716,
+        82.959,
+        82.733,
+        82.802,
+        82.82,
+        82.25
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Robel Messele",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.42,
+      "lap_times_url": null,
+      "laps": [
+        107.283,
+        90.869,
+        90.938,
+        89.507,
+        90.478,
+        88.887,
+        87.42
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.504,
+      "lap_times_url": null,
+      "laps": [
+        99.163,
+        81.449,
+        80.92,
+        80.702,
+        80.786,
+        80.658,
+        80.75,
+        80.504
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81879"
+}

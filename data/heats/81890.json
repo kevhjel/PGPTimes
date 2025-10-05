@@ -1,0 +1,33 @@
+{
+  "heat_no": 81890,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-11T12:30:00",
+  "drivers": [
+    {
+      "name": "Oleksii Nikulkov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.763,
+      "lap_times_url": null,
+      "laps": [
+        127.192,
+        95.983,
+        93.602,
+        94.423,
+        92.75,
+        91.611,
+        89.763
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81890"
+}

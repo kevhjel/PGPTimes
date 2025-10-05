@@ -1,0 +1,77 @@
+{
+  "heat_no": 81888,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-11T12:00:00",
+  "drivers": [
+    {
+      "name": "CADEN JACKSON",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.991,
+      "lap_times_url": null,
+      "laps": [
+        153.228,
+        94.616,
+        93.991,
+        112.465,
+        94.254,
+        102.832
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Steven Sarff",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.253,
+      "lap_times_url": null,
+      "laps": [
+        157.597,
+        96.98,
+        97.013,
+        105.923,
+        95.253,
+        104.78
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Bob Rigg",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.277,
+      "lap_times_url": null,
+      "laps": [
+        154.473,
+        94.973,
+        93.162,
+        116.323,
+        91.277,
+        92.522
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81888"
+}

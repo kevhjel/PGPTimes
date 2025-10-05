@@ -1,0 +1,79 @@
+{
+  "heat_no": 81892,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-11T13:00:00",
+  "drivers": [
+    {
+      "name": "Randell Robinson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.179,
+      "lap_times_url": null,
+      "laps": [
+        128.421,
+        87.198,
+        86.252,
+        85.566,
+        88.627,
+        85.76,
+        85.179
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Oleksii Nikulkov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.379,
+      "lap_times_url": null,
+      "laps": [
+        129.228,
+        87.398,
+        87.619,
+        86.379,
+        90.003,
+        88.548,
+        87.694
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stacy Gonzalez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.541,
+      "lap_times_url": null,
+      "laps": [
+        158.905,
+        113.724,
+        106.541,
+        110.486,
+        116.699
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81892"
+}

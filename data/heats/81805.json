@@ -1,0 +1,46 @@
+{
+  "heat_no": 81805,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-07T09:15:00",
+  "drivers": [
+    {
+      "name": "Michael Escuti",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 150.05,
+      "lap_times_url": null,
+      "laps": [
+        174.974,
+        180.342,
+        167.698,
+        150.05
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Rachel H",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 151.304,
+      "lap_times_url": null,
+      "laps": [
+        186.233,
+        166.696,
+        151.304,
+        156.702
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81805"
+}

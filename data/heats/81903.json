@@ -1,0 +1,69 @@
+{
+  "heat_no": 81903,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-11T10:30:00",
+  "drivers": [
+    {
+      "name": "Jackson Parma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.53,
+      "lap_times_url": null,
+      "laps": [
+        157.631,
+        84.868,
+        84.473,
+        84.521,
+        99.694,
+        84.959,
+        83.53
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Patti Buckmeier",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 193.361,
+      "lap_times_url": null,
+      "laps": [
+        250.202,
+        210.461,
+        193.361
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dana Smith",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 130.852,
+      "lap_times_url": null,
+      "laps": [
+        216.643,
+        145.921,
+        139.495,
+        130.852
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81903"
+}

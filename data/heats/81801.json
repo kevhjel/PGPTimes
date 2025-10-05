@@ -1,0 +1,101 @@
+{
+  "heat_no": 81801,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-05T17:00:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.967,
+      "lap_times_url": null,
+      "laps": [
+        83.347,
+        80.29,
+        80.495,
+        80.273,
+        80.262,
+        79.967,
+        80.172,
+        80.081,
+        80.118,
+        80.231,
+        80.049
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "cael reynolds",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.184,
+      "lap_times_url": null,
+      "laps": [
+        83.484,
+        81.751,
+        81.629,
+        81.184,
+        81.516,
+        81.725,
+        81.575,
+        81.482,
+        82.128,
+        81.958
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.45,
+      "lap_times_url": null,
+      "laps": [
+        84.019,
+        81.342,
+        80.634,
+        80.213,
+        79.664,
+        80.162,
+        79.665,
+        79.859,
+        79.45
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81801"
+}

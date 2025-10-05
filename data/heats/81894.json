@@ -1,0 +1,102 @@
+{
+  "heat_no": 81894,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-11T13:30:00",
+  "drivers": [
+    {
+      "name": "Randell Robinson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.478,
+      "lap_times_url": null,
+      "laps": [
+        125.508,
+        86.16,
+        84.478,
+        96.123,
+        85.821,
+        85.584,
+        84.657
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.604,
+      "lap_times_url": null,
+      "laps": [
+        122.33,
+        86.111,
+        84.604,
+        98.599,
+        86.278,
+        85.6,
+        84.94
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stacy Gonzalez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.719,
+      "lap_times_url": null,
+      "laps": [
+        142.111,
+        125.431,
+        103.719,
+        118.652,
+        123.273
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Christopher Gi...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.501,
+      "lap_times_url": null,
+      "laps": [
+        138.018,
+        108.803,
+        103.66,
+        103.244,
+        107.244,
+        97.501
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81894"
+}

@@ -1,0 +1,102 @@
+{
+  "heat_no": 81945,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-12T14:00:00",
+  "drivers": [
+    {
+      "name": "parks freilinger",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.261,
+      "lap_times_url": null,
+      "laps": [
+        122.516,
+        85.369,
+        85.409,
+        84.26,
+        83.261,
+        90.732,
+        83.786
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Charlie Freili...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.23,
+      "lap_times_url": null,
+      "laps": [
+        117.994,
+        84.461,
+        90.756,
+        84.746,
+        83.23,
+        89.76,
+        85.811
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kyle Croft",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.308,
+      "lap_times_url": null,
+      "laps": [
+        148.075,
+        134.807,
+        100.677,
+        92.763,
+        91.308,
+        92.482
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brody Sanders",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 109.466,
+      "lap_times_url": null,
+      "laps": [
+        164.235,
+        137.585,
+        118.076,
+        112.741,
+        109.466
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81945"
+}

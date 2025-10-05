@@ -1,0 +1,83 @@
+{
+  "heat_no": 81887,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-11T11:45:00",
+  "drivers": [
+    {
+      "name": "reza habibian",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.98,
+      "lap_times_url": null,
+      "laps": [
+        112.3,
+        88.309,
+        96.796,
+        88.138,
+        87.888,
+        87.429,
+        86.98
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "David Negroiu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.598,
+      "lap_times_url": null,
+      "laps": [
+        110.243,
+        86.596,
+        85.292,
+        91.596,
+        83.812,
+        84.021,
+        82.598
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ALI HABIBIAN",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.24,
+      "lap_times_url": null,
+      "laps": [
+        110.86,
+        87.863,
+        85.312,
+        86.061,
+        85.392,
+        84.24,
+        84.809
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81887"
+}

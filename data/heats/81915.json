@@ -1,0 +1,60 @@
+{
+  "heat_no": 81915,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-11T17:00:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.981,
+      "lap_times_url": null,
+      "laps": [
+        99.725,
+        81.359,
+        80.842,
+        80.454,
+        80.509,
+        80.231,
+        79.981,
+        80.1
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Austin Do",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.124,
+      "lap_times_url": null,
+      "laps": [
+        103.244,
+        85.456,
+        85.124,
+        86.12,
+        85.694,
+        85.298,
+        85.81
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81915"
+}

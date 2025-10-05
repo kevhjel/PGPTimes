@@ -1,0 +1,110 @@
+{
+  "heat_no": 81882,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-10T17:00:00",
+  "drivers": [
+    {
+      "name": "Nikhith Vankir...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.353,
+      "lap_times_url": null,
+      "laps": [
+        102.85,
+        83.264,
+        82.181,
+        82.315,
+        81.877,
+        81.468,
+        81.933,
+        81.353
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Abdilatif Abdi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.142,
+      "lap_times_url": null,
+      "laps": [
+        105.66,
+        83.19,
+        82.663,
+        82.021,
+        81.283,
+        81.423,
+        81.142,
+        81.182
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Anthony Munoz",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.486,
+      "lap_times_url": null,
+      "laps": [
+        105.112,
+        84.486,
+        85.086,
+        85.039,
+        85.833,
+        135.529,
+        87.32
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brynne Stafford",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.872,
+      "lap_times_url": null,
+      "laps": [
+        116.686,
+        95.885,
+        95.986,
+        95.147,
+        90.872,
+        114.482
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81882"
+}
