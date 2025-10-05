@@ -1,0 +1,54 @@
+{
+  "heat_no": 82412,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-03T10:45:00",
+  "drivers": [
+    {
+      "name": "Gabby Quinnett",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.533,
+      "lap_times_url": null,
+      "laps": [
+        119.796,
+        123.562,
+        106.281,
+        106.068,
+        100.533,
+        101.809
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Larry Quinnett",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.556,
+      "lap_times_url": null,
+      "laps": [
+        111.177,
+        102.191,
+        100.707,
+        99.472,
+        98.556,
+        100.161
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82412"
+}

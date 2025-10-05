@@ -1,0 +1,83 @@
+{
+  "heat_no": 82396,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-02T16:45:00",
+  "drivers": [
+    {
+      "name": "Ty Little",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.299,
+      "lap_times_url": null,
+      "laps": [
+        122.627,
+        87.74,
+        84.365,
+        82.672,
+        82.499,
+        82.299,
+        82.755
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Luke Reid",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.344,
+      "lap_times_url": null,
+      "laps": [
+        123.105,
+        86.246,
+        86.096,
+        85.344,
+        93.52,
+        102.381,
+        98.463
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ian Reid",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.887,
+      "lap_times_url": null,
+      "laps": [
+        121.031,
+        92.091,
+        90.187,
+        90.427,
+        89.887,
+        99.685,
+        91.984
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82396"
+}

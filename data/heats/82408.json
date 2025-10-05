@@ -1,0 +1,54 @@
+{
+  "heat_no": 82408,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-03T09:45:00",
+  "drivers": [
+    {
+      "name": "Ben Vandermolen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.237,
+      "lap_times_url": null,
+      "laps": [
+        142.314,
+        107.472,
+        105.058,
+        104.367,
+        103.098,
+        101.237
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Tibbetts",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 99.661,
+      "lap_times_url": null,
+      "laps": [
+        141.595,
+        107.061,
+        104.845,
+        109.985,
+        100.281,
+        99.661
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82408"
+}

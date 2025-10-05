@@ -1,0 +1,58 @@
+{
+  "heat_no": 82395,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-02T16:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.845,
+      "lap_times_url": null,
+      "laps": [
+        83.575,
+        82.997,
+        83.087,
+        82.489,
+        82.071,
+        82.166,
+        81.845
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.848,
+      "lap_times_url": null,
+      "laps": [
+        83.386,
+        83.19,
+        83.365,
+        82.408,
+        82.076,
+        82.164,
+        81.848
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82395"
+}
