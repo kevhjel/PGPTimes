@@ -5,7 +5,7 @@
   <title>Driver Lap Charts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="./style.css"/>
-  <!-- Chart.js via CDN -->
+  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -14,14 +14,44 @@
 </header>
 <main>
   <div class="card">
-    <div class="row" style="gap:10px;">
+    <div class="row" style="gap:10px; flex-wrap:wrap; align-items:center;">
       <label>Driver&nbsp;
         <input id="driverInput" placeholder="Exact display name (e.g., Ed Acosta)" style="min-width:280px;">
       </label>
       <button id="loadBtn">Load</button>
       <a href="./drivers.html" class="badge">Watchlist Table →</a>
+      <a href="./drivers_leaderboard.html" class="badge">Leaderboard →</a>
     </div>
-    <div class="small" id="status"></div>
+
+    <div class="row" style="gap:16px; flex-wrap:wrap; align-items:center; margin-top:8px;">
+      <label class="small">Heat Type:
+        <select id="heatTypeSelect">
+          <option value="All" selected>All</option>
+          <option value="Arrive and Drive">Arrive and Drive</option>
+          <option value="Endurance">Endurance</option>
+          <option value="League">League</option>
+        </select>
+      </label>
+
+      <label class="small">
+        <input id="toggleOutlap" type="checkbox" checked>
+        Hide outlap (lap 1 of each heat)
+      </label>
+      <label class="small">
+        <input id="toggleOutliers" type="checkbox" checked>
+        Ignore outlier laps (IQR rule)
+      </label>
+
+      <label class="small">
+        <input id="toggleMA" type="checkbox" checked>
+        Moving average
+      </label>
+      <label class="small">Window
+        <input id="maWindow" type="number" min="2" max="50" value="5" style="width:64px;">
+      </label>
+    </div>
+
+    <div class="small" id="status" style="margin-top:6px;"></div>
   </div>
 
   <div class="card">
@@ -34,8 +64,9 @@
 </main>
 
 <script type="module">
-async function jget(path) {
-  // Try ../data first (when opening from /frontend), fall back to ./data for GitHub Pages
+/* ------------------ data loading helpers ------------------ */
+async function jgetIndex() {
+  // Try ../data first (when opened from /frontend), fall back to ./data (Pages root)
   for (const p of [ "../data/driver_index.json", "./data/driver_index.json" ]) {
     try {
       const r = await fetch(p, {cache: "no-store"});
@@ -47,66 +78,151 @@ async function jget(path) {
 
 function secondsToClock(s) {
   if (s == null || isNaN(s)) return "";
-  return `${parseFloat(s).toFixed(3)} s`;
+  return Number(s).toFixed(3) + " s";
 }
 
+/* ------------------ stats helpers ------------------ */
+// Interquartile filtering (Tukey): keep within [Q1-1.5*IQR, Q3+1.5*IQR]
+function iqrBounds(values) {
+  const v = values.slice().sort((a,b) => a-b);
+  if (!v.length) return [Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
+  const q = (arr, p) => {
+    const i = (arr.length - 1) * p;
+    const lo = Math.floor(i), hi = Math.ceil(i);
+    return lo === hi ? arr[lo] : arr[lo] + (arr[hi] - arr[lo]) * (i - lo);
+  };
+  const q1 = q(v, 0.25), q3 = q(v, 0.75);
+  const iqr = q3 - q1;
+  return [q1 - 1.5*iqr, q3 + 1.5*iqr];
+}
+
+function linearRegressionXY(points) {
+  // points: [{x, y}]
+  const n = points.length;
+  if (n < 2) return null;
+  let sumx=0, sumy=0, sumxy=0, sumxx=0;
+  for (const p of points) {
+    sumx += p.x; sumy += p.y;
+    sumxy += p.x * p.y;
+    sumxx += p.x * p.x;
+  }
+  const denom = (n * sumxx - sumx * sumx);
+  if (denom === 0) return null;
+  const slope = (n * sumxy - sumx * sumy) / denom;
+  const intercept = (sumy - slope * sumx) / n;
+  return { slope, intercept };
+}
+
+function movingAverage(points, windowSize) {
+  if (!points.length || windowSize < 2) return [];
+  const out = [];
+  let sum = 0;
+  const q = [];
+  for (let i = 0; i < points.length; i++) {
+    const y = points[i].y;
+    sum += y;
+    q.push(y);
+    if (q.length > windowSize) sum -= q.shift();
+    const avg = sum / q.length;
+    out.push({ x: points[i].x, y: avg });
+  }
+  return out;
+}
+
+/* ------------------ chart + table rendering ------------------ */
 let chart;
 
-function renderChart(name, series) {
+function renderChart(name, globPoints, metaPoints, showMA, maN) {
   const ctx = document.getElementById("chart").getContext("2d");
-  const labels = [];
-  const bests = [];
-  const points = []; // each lap as a point over (heat index)
 
-  // Flatten laps across heats
-  series.forEach((entry, idx) => {
-    const label = `${entry.heat_no || "?"} • ${entry.start_time_iso || ""}`;
-    labels.push(label);
-    bests.push(entry.best_lap_seconds ?? null);
-
-    if (Array.isArray(entry.laps)) {
-      entry.laps.forEach((t) => {
-        points.push({ x: idx, y: t });
-      });
+  // Global trendline from visible points
+  let trendDataset = null;
+  if (globPoints.length >= 2) {
+    const lr = linearRegressionXY(globPoints);
+    if (lr) {
+      const xMin = 1;
+      const xMax = globPoints[globPoints.length - 1].x;
+      const tl = [
+        { x: xMin, y: lr.slope * xMin + lr.intercept },
+        { x: xMax, y: lr.slope * xMax + lr.intercept },
+      ];
+      trendDataset = {
+        label: "Trendline",
+        data: tl,
+        parsing: false,
+        showLine: true,
+        type: "line",
+        pointRadius: 0,
+        borderColor: "yellow",
+        borderWidth: 2,
+        tension: 0,
+      };
     }
-  });
+  }
+
+  const datasets = [
+    {
+      label: "All laps",
+      data: globPoints,
+      parsing: false,
+      showLine: false,
+      pointRadius: 3,
+      type: "scatter"
+    }
+  ];
+
+  if (showMA) {
+    const ma = movingAverage(globPoints, maN);
+    datasets.push({
+      label: `Moving Avg (${maN})`,
+      data: ma,
+      parsing: false,
+      showLine: true,
+      type: "line",
+      pointRadius: 0,
+      borderWidth: 2,
+      tension: 0.2
+    });
+  }
+  if (trendDataset) datasets.push(trendDataset);
 
   if (chart) chart.destroy();
   chart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels,
-      datasets: [
-        {
-          label: "Best lap per heat",
-          data: bests,
-          tension: 0.25,
-          spanGaps: true
-        },
-        {
-          label: "All laps (scatter)",
-          data: points,
-          parsing: false,      // we provided {x,y}
-          showLine: false,
-          pointRadius: 2,
-          type: "scatter"
-        }
-      ]
-    },
+    type: "scatter",
+    data: { datasets },
     options: {
       responsive: true,
       interaction: { mode: "nearest", intersect: false },
       scales: {
-        y: {
-          title: { display: true, text: "Seconds (lower is faster)" },
-          reverse: false
-        },
         x: {
+          title: { display: true, text: "Global Lap Index" },
           ticks: { autoSkip: true }
+        },
+        y: {
+          title: { display: true, text: "Lap Time (s, lower is faster)" },
+          reverse: false
         }
       },
       plugins: {
         title: { display: true, text: `Lap Times for ${name}` },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              const i = ctx.dataIndex;
+              const p = ctx.raw;           // {x,y}
+              const m = metaPoints[i] || {};
+              const parts = [
+                `Lap #${p.x}`,
+                `Time: ${secondsToClock(p.y)}`,
+              ];
+              if (m.heat_no) parts.push(`Heat: ${m.heat_no}`);
+              if (m.heat_type) parts.push(`Type: ${m.heat_type}`);
+              if (m.lap_no != null) parts.push(`Lap in heat: ${m.lap_no}`);
+              if (m.start_time_iso) parts.push(`${m.start_time_iso}`);
+              return parts.join("  |  ");
+            }
+          }
+        },
         legend: { display: true }
       }
     }
@@ -114,53 +230,137 @@ function renderChart(name, series) {
 }
 
 function renderTable(series) {
+  // series: flattened + filtered [{global_idx, time, heat_no, heat_type, lap_no, start_time_iso}]
   const thead = document.querySelector("#lapsTable thead");
   const tbody = document.querySelector("#lapsTable tbody");
   thead.innerHTML = `
     <tr>
-      <th>Heat</th><th>Type</th><th>Pos</th><th>Best</th><th># Laps</th><th>Start</th>
+      <th>#</th><th>Time (s)</th><th>Heat</th><th>Type</th><th>Lap in heat</th><th>Start</th>
     </tr>`;
   tbody.innerHTML = "";
   series.forEach(e => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><a href="./index.html#${e.heat_no}" onclick="window.location.href='./index.html#${e.heat_no}'">${e.heat_no ?? ""}</a></td>
+      <td>${e.global_idx}</td>
+      <td>${secondsToClock(e.time)}</td>
+      <td><a href="./index.html#${e.heat_no}">${e.heat_no ?? ""}</a></td>
       <td>${e.heat_type ?? ""}</td>
-      <td>${e.position ?? ""}</td>
-      <td>${secondsToClock(e.best_lap_seconds)}</td>
-      <td>${Array.isArray(e.laps) ? e.laps.length : ""}</td>
+      <td>${e.lap_no ?? ""}</td>
       <td class="small">${e.start_time_iso ?? ""}</td>
     `;
     tbody.appendChild(tr);
   });
 }
 
-async function loadDriver(name) {
-  const status = document.getElementById("status");
-  status.textContent = "Loading…";
-  const idx = await jget();
-  const series = (idx.drivers?.[name] || []).sort((a,b) => {
-    // sort by start time then heat number
+/* ------------------ build flattened laps ------------------ */
+function buildFlattenedLaps(driverSeries, { hideOutlap = true, typeFilter = "All" } = {}) {
+  // Apply heat type filter first
+  const series = (typeFilter && typeFilter !== "All")
+    ? (driverSeries || []).filter(h => (h.heat_type || "").toLowerCase().includes(typeFilter.toLowerCase()))
+    : (driverSeries || []);
+
+  // Sort heats chronologically (start_time_iso, then heat_no)
+  const sorted = series.slice().sort((a,b) => {
     const at = a.start_time_iso || "", bt = b.start_time_iso || "";
     if (at < bt) return -1;
     if (at > bt) return 1;
     return (a.heat_no||0) - (b.heat_no||0);
   });
+
+  const flat = [];
+  let globalIdx = 0;
+
+  for (const heat of sorted) {
+    const laps = Array.isArray(heat.laps) ? heat.laps : [];
+    for (let i = 0; i < laps.length; i++) {
+      const lapNo = i + 1; // within this heat
+      if (hideOutlap && lapNo === 1) continue; // skip outlap
+      const t = laps[i];
+      if (t == null || isNaN(t)) continue;
+      globalIdx += 1;
+      flat.push({
+        global_idx: globalIdx,
+        time: Number(t),
+        heat_no: heat.heat_no,
+        heat_type: heat.heat_type,
+        lap_no: lapNo,
+        start_time_iso: heat.start_time_iso
+      });
+    }
+  }
+  return flat;
+}
+
+function filterOutliersIQR(flat) {
+  if (flat.length < 10) return flat; // not enough to compute IQR meaningfully
+  const times = flat.map(r => r.time);
+  const [lo, hi] = iqrBounds(times);
+  return flat.filter(r => r.time >= lo && r.time <= hi);
+}
+
+/* ------------------ controller ------------------ */
+let CURRENT_NAME = "";
+
+async function loadDriver(name) {
+  CURRENT_NAME = name;
+  const status = document.getElementById("status");
+  status.textContent = "Loading…";
+  const idx = await jgetIndex();
+  const series = (idx.drivers?.[name] || []).slice();
+
   if (!series.length) {
     status.textContent = "No entries found for that driver (check exact spelling as shown on the site).";
     if (chart) chart.destroy();
     renderTable([]);
     return;
   }
-  status.textContent = `Found ${series.length} heat(s).`;
-  renderChart(name, series);
-  renderTable(series);
+
+  // options from controls
+  const hideOutlap = document.getElementById("toggleOutlap")?.checked !== false; // default true
+  const ignoreOutliers = document.getElementById("toggleOutliers")?.checked !== false; // default true
+  const showMA = document.getElementById("toggleMA")?.checked !== false; // default true
+  const maN = Math.max(2, Math.min(50, parseInt(document.getElementById("maWindow")?.value || "5", 10)));
+  const typeFilter = document.getElementById("heatTypeSelect")?.value || "All";
+
+  // Flatten to global lap index with selected filters
+  let flat = buildFlattenedLaps(series, { hideOutlap, typeFilter });
+
+  // Optional outlier filter
+  if (ignoreOutliers) {
+    flat = filterOutliersIQR(flat);
+    // Reassign global indices to keep x = 1..N contiguous post-filter
+    flat = flat.map((e, i) => ({ ...e, global_idx: i+1 }));
+  }
+
+  // Prepare chart inputs
+  const points = flat.map(e => ({ x: e.global_idx, y: e.time }));
+  const meta = flat.map(e => ({ heat_no: e.heat_no, heat_type: e.heat_type, lap_no: e.lap_no, start_time_iso: e.start_time_iso }));
+
+  status.textContent =
+    `Showing ${flat.length} lap(s). `
+    + (typeFilter !== "All" ? `[${typeFilter}] ` : "")
+    + (hideOutlap ? "Outlaps hidden. " : "")
+    + (ignoreOutliers ? "Outliers removed (IQR). " : "")
+    + (showMA ? `MA=${maN}.` : "");
+
+  renderChart(name, points, meta, showMA, maN);
+  renderTable(flat);
 }
 
+/* ------------------ wire up UI ------------------ */
 document.getElementById("loadBtn").onclick = () => {
   const name = (document.getElementById("driverInput").value || "").trim();
   if (name) loadDriver(name);
 };
+
+// Recompute chart whenever a control changes (if a driver is loaded)
+["toggleOutlap", "toggleOutliers", "toggleMA", "maWindow", "heatTypeSelect"].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener("change", () => {
+    const name = (document.getElementById("driverInput").value || "").trim() || CURRENT_NAME;
+    if (name) loadDriver(name);
+  });
+});
 
 // Deep-link: driver_charts.html#Driver%20Name
 if (location.hash?.length > 1) {
