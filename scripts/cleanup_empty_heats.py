@@ -1,56 +1,50 @@
-import json, os, re
+# scraper/cleanup_empty_heats.py
+"""
+Deletes any heat JSON files that do not contain driver data.
 
-ROOT = os.path.dirname(os.path.dirname(__file__))
-DATA_DIR = os.path.join(ROOT, "data")
-HEATS_DIR = os.path.join(DATA_DIR, "heats")
-LAST_HEAT = os.path.join(DATA_DIR, "last_heat.txt")
+Usage:
+    python -m scraper.cleanup_empty_heats
+"""
 
-def is_empty_heat(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            obj = json.load(f)
-        drivers = obj.get("drivers", [])
-        # consider empty if drivers missing/empty
-        return not drivers
-    except Exception:
-        # malformed json counts as empty/bad
+import os
+import json
+
+def is_empty_heat(data):
+    """Return True if a parsed heat JSON is missing or has empty driver data."""
+    if not isinstance(data, dict):
         return True
+    drivers = data.get("drivers", [])
+    if not isinstance(drivers, list):
+        return True
+    return len(drivers) == 0
 
 def main():
-    if not os.path.isdir(HEATS_DIR):
-        print("No heats dir:", HEATS_DIR)
+    heats_dir = os.path.join("data", "heats")
+    if not os.path.exists(heats_dir):
+        print("No data/heats directory found.")
         return
-    removed = 0
-    kept_heat_nos = []
-    for name in os.listdir(HEATS_DIR):
-        if not name.endswith(".json"):
-            continue
-        path = os.path.join(HEATS_DIR, name)
-        if is_empty_heat(path):
-            os.remove(path)
-            removed += 1
-        else:
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    obj = json.load(f)
-                hn = int(obj.get("heat_no") or re.sub(r"\D", "", os.path.splitext(name)[0]) or 0)
-                if hn:
-                    kept_heat_nos.append(hn)
-            except Exception:
-                # malformed → already removed or skip
-                pass
 
-    # Recompute last_heat.txt as the max kept heat number (if any)
-    if kept_heat_nos:
-        new_last = max(kept_heat_nos)
-        with open(LAST_HEAT, "w", encoding="utf-8") as f:
-            f.write(str(new_last))
-        print(f"Removed {removed} bad heats. New last_heat: {new_last}")
-    else:
-        # no good heats left; remove last_heat.txt
-        if os.path.exists(LAST_HEAT):
-            os.remove(LAST_HEAT)
-        print(f"Removed {removed} bad heats. No valid heats remain; last_heat.txt cleared.")
+    files = [f for f in os.listdir(heats_dir) if f.endswith(".json")]
+    deleted = 0
+
+    for f in sorted(files):
+        path = os.path.join(heats_dir, f)
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                data = json.load(fh)
+        except Exception as e:
+            print(f"⚠️ Error reading {f}: {e}")
+            os.remove(path)
+            print(f"🗑️ Deleted corrupt file {f}")
+            deleted += 1
+            continue
+
+        if is_empty_heat(data):
+            os.remove(path)
+            print(f"🗑️ Deleted empty heat {f}")
+            deleted += 1
+
+    print(f"\n✅ Cleanup complete. Deleted {deleted} empty or corrupt files.")
 
 if __name__ == "__main__":
     main()
