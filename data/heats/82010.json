@@ -1,0 +1,102 @@
+{
+  "heat_no": 82010,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-17T14:15:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.55,
+      "lap_times_url": null,
+      "laps": [
+        132.409,
+        80.638,
+        80.55,
+        80.664,
+        81.33,
+        81.193,
+        81.173
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.506,
+      "lap_times_url": null,
+      "laps": [
+        133.83,
+        81.185,
+        80.506,
+        80.637,
+        81.183,
+        81.031,
+        81.252
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lydia Wang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.739,
+      "lap_times_url": null,
+      "laps": [
+        157.714,
+        119.739,
+        121.661,
+        129.361,
+        126.263
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jude Stocking",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.34,
+      "lap_times_url": null,
+      "laps": [
+        134.583,
+        95.569,
+        92.85,
+        91.022,
+        90.34,
+        91.153
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82010"
+}

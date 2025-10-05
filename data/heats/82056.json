@@ -1,0 +1,79 @@
+{
+  "heat_no": 82056,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-18T10:15:00",
+  "drivers": [
+    {
+      "name": "Marcus Oesterw...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.838,
+      "lap_times_url": null,
+      "laps": [
+        125.704,
+        97.41,
+        92.602,
+        91.413,
+        89.771,
+        90.825,
+        88.838
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Matthew Solari",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.826,
+      "lap_times_url": null,
+      "laps": [
+        125.841,
+        99.606,
+        93.826,
+        95.665,
+        98.085,
+        98.464
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nathan Curtis",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.753,
+      "lap_times_url": null,
+      "laps": [
+        127.242,
+        98.096,
+        97.753,
+        99.422,
+        98.701,
+        97.814
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82056"
+}

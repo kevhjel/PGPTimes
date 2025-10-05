@@ -1,0 +1,79 @@
+{
+  "heat_no": 82068,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-19T09:45:00",
+  "drivers": [
+    {
+      "name": "Brandon Huwe",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.068,
+      "lap_times_url": null,
+      "laps": [
+        137.904,
+        87.432,
+        86.524,
+        86.362,
+        85.839,
+        85.259,
+        85.068
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "JOHN JR DOUCETTE",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.426,
+      "lap_times_url": null,
+      "laps": [
+        145.886,
+        94.93,
+        93.298,
+        92.098,
+        90.012,
+        89.46,
+        89.426
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JOHN SR DOUCETTE",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.796,
+      "lap_times_url": null,
+      "laps": [
+        153.003,
+        112.827,
+        111.611,
+        109.865,
+        107.796
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82068"
+}

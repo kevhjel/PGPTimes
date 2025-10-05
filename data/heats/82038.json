@@ -1,0 +1,94 @@
+{
+  "heat_no": 82038,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-18T16:30:00",
+  "drivers": [
+    {
+      "name": "Aaron Tejada",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.724,
+      "lap_times_url": null,
+      "laps": [
+        118.437,
+        87.032,
+        87.118,
+        88.952,
+        87.152,
+        85.724,
+        85.812
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ernest Matute",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.914,
+      "lap_times_url": null,
+      "laps": [
+        146.019,
+        125.254,
+        118.914,
+        119.855,
+        119.656
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Karolina Ledchak",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.331,
+      "lap_times_url": null,
+      "laps": [
+        148.587,
+        130.788,
+        116.865,
+        155.166,
+        115.331
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Anatolii Ledchak",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 127.864,
+      "lap_times_url": null,
+      "laps": [
+        146.829,
+        127.864,
+        173.524,
+        145.189
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82038"
+}

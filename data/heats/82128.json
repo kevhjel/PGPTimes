@@ -1,0 +1,138 @@
+{
+  "heat_no": 82128,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-09-21T10:00:00",
+  "drivers": [
+    {
+      "name": "Mathias Kirse",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 125.909,
+      "lap_times_url": null,
+      "laps": [
+        142.375,
+        127.782,
+        128.785,
+        125.909,
+        126.164
+      ],
+      "lap_positions": [
+        4,
+        3,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Ben Kuksyuk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.718,
+      "lap_times_url": null,
+      "laps": [
+        103.911,
+        100.973,
+        108.277,
+        96.312,
+        90.718,
+        91.883
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryder Niczyporuk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.694,
+      "lap_times_url": null,
+      "laps": [
+        103.859,
+        100.694,
+        111.498,
+        111.322,
+        109.15,
+        105.728
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Oscar Hogue",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.52,
+      "lap_times_url": null,
+      "laps": [
+        141.917,
+        132.909,
+        123.323,
+        117.52,
+        117.961
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Priscilla Yohan",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.192,
+      "lap_times_url": null,
+      "laps": [
+        147.623,
+        128.461,
+        121.192,
+        132.578,
+        123.961
+      ],
+      "lap_positions": [
+        6,
+        4,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Oscar Mitchell",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.745,
+      "lap_times_url": null,
+      "laps": [
+        146.789,
+        133.42,
+        133.263,
+        124.132,
+        117.745
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        5,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82128"
+}

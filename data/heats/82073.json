@@ -1,0 +1,106 @@
+{
+  "heat_no": 82073,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-19T11:45:00",
+  "drivers": [
+    {
+      "name": "Joakim Vinberg",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.96,
+      "lap_times_url": null,
+      "laps": [
+        111.516,
+        84.752,
+        84.334,
+        83.96,
+        85.069,
+        84.441,
+        84.036
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Drew Ott",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.739,
+      "lap_times_url": null,
+      "laps": [
+        113.937,
+        87.016,
+        86.823,
+        85.872,
+        85.739,
+        87.9,
+        89.224
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Olivia Massa",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.887,
+      "lap_times_url": null,
+      "laps": [
+        114.233,
+        95.36,
+        88.576,
+        85.929,
+        86.303,
+        87.524,
+        85.887
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Xander Geurkink",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 97.355,
+      "lap_times_url": null,
+      "laps": [
+        134.655,
+        104.476,
+        104.241,
+        102.777,
+        98.57,
+        97.355
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82073"
+}

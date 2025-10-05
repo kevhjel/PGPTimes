@@ -1,0 +1,116 @@
+{
+  "heat_no": 82126,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-09-21T09:00:00",
+  "drivers": [
+    {
+      "name": "Mathias Kirse",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 183.63,
+      "lap_times_url": null,
+      "laps": [
+        198.009,
+        191.926,
+        183.63
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Ben Kuksyuk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 158.966,
+      "lap_times_url": null,
+      "laps": [
+        181.145,
+        174.289,
+        158.966,
+        161.781
+      ],
+      "lap_positions": [
+        3,
+        5,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryder Niczyporuk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 159.479,
+      "lap_times_url": null,
+      "laps": [
+        181.616,
+        171.42,
+        159.479,
+        161.194
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Oscar Hogue",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 171.014,
+      "lap_times_url": null,
+      "laps": [
+        171.014,
+        177.801,
+        185.266
+      ],
+      "lap_positions": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "Priscilla Yohan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 170.964,
+      "lap_times_url": null,
+      "laps": [
+        170.964,
+        177.882,
+        184.59
+      ],
+      "lap_positions": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Oscar Mitchell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 159.799,
+      "lap_times_url": null,
+      "laps": [
+        190.235,
+        167.41,
+        159.799,
+        161.318
+      ],
+      "lap_positions": [
+        5,
+        1,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82126"
+}

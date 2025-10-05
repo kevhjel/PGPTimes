@@ -1,0 +1,60 @@
+{
+  "heat_no": 81994,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-17T09:45:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.129,
+      "lap_times_url": null,
+      "laps": [
+        91.145,
+        83.796,
+        83.898,
+        83.32,
+        83.899,
+        83.38,
+        83.129
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Armaan Samuel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.339,
+      "lap_times_url": null,
+      "laps": [
+        91.546,
+        85.728,
+        85.801,
+        83.97,
+        84.514,
+        83.778,
+        82.647,
+        82.339
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81994"
+}

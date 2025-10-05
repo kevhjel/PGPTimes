@@ -1,0 +1,106 @@
+{
+  "heat_no": 82183,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-24T12:45:00",
+  "drivers": [
+    {
+      "name": "Nick Bentley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.546,
+      "lap_times_url": null,
+      "laps": [
+        123.447,
+        87.732,
+        103.023,
+        89.215,
+        86.546,
+        87.678,
+        86.701
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cole Paramore",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.588,
+      "lap_times_url": null,
+      "laps": [
+        123.938,
+        87.083,
+        85.973,
+        85.629,
+        85.651,
+        84.588,
+        86.809
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Paul Paramore",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.648,
+      "lap_times_url": null,
+      "laps": [
+        120.283,
+        83.84,
+        82.648,
+        83.388,
+        97.42,
+        87.503,
+        84.558
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "CJ POHRMAN",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.325,
+      "lap_times_url": null,
+      "laps": [
+        126.105,
+        96.982,
+        97.193,
+        96.976,
+        95.327,
+        93.325
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82183"
+}

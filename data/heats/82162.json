@@ -1,0 +1,108 @@
+{
+  "heat_no": 82162,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-24T09:45:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.806,
+      "lap_times_url": null,
+      "laps": [
+        130.321,
+        84.107,
+        83.59,
+        82.977,
+        82.641,
+        82.125,
+        81.806
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "brian hampton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.505,
+      "lap_times_url": null,
+      "laps": [
+        131.717,
+        86.505,
+        87.806,
+        87.962,
+        91.104,
+        86.949,
+        89.991
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "James Lewis",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.212,
+      "lap_times_url": null,
+      "laps": [
+        132.671,
+        87.939,
+        87.216,
+        86.212,
+        90.996,
+        86.27,
+        86.588
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Adelsman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.519,
+      "lap_times_url": null,
+      "laps": [
+        132.509,
+        88.971,
+        87.041,
+        86.519,
+        87.494,
+        86.766,
+        86.641
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82162"
+}

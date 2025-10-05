@@ -1,0 +1,58 @@
+{
+  "heat_no": 82055,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-18T10:00:00",
+  "drivers": [
+    {
+      "name": "Tanner Griffin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.182,
+      "lap_times_url": null,
+      "laps": [
+        145.638,
+        91.887,
+        92.897,
+        91.863,
+        90.417,
+        89.182,
+        89.288
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tyler Griffin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.244,
+      "lap_times_url": null,
+      "laps": [
+        145.266,
+        92.695,
+        100.002,
+        89.868,
+        88.709,
+        88.244,
+        88.329
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82055"
+}

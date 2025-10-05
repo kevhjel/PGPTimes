@@ -1,0 +1,75 @@
+{
+  "heat_no": 82081,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-19T14:00:00",
+  "drivers": [
+    {
+      "name": "Comail Rizvi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.382,
+      "lap_times_url": null,
+      "laps": [
+        87.484,
+        86.382,
+        86.625,
+        87.21
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Anshu Aggarwal",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.349,
+      "lap_times_url": null,
+      "laps": [
+        121.245,
+        105.538,
+        92.396,
+        92.537,
+        91.486,
+        91.349,
+        91.413
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kamal Aggarwal",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.811,
+      "lap_times_url": null,
+      "laps": [
+        123.515,
+        102.944,
+        97.569,
+        96.811,
+        108.709,
+        98.099
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82081"
+}

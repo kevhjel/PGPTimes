@@ -1,0 +1,89 @@
+{
+  "heat_no": 82168,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-24T11:15:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.38,
+      "lap_times_url": null,
+      "laps": [
+        84.137,
+        80.74,
+        80.868,
+        80.38,
+        80.673,
+        81.121,
+        80.498,
+        80.595
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Yayati Pahuja",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.341,
+      "lap_times_url": null,
+      "laps": [
+        82.587,
+        80.341,
+        81.147,
+        81.012,
+        80.382,
+        80.632,
+        80.556,
+        80.558
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kartik Arora",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.628,
+      "lap_times_url": null,
+      "laps": [
+        86.665,
+        84.628,
+        85.335,
+        84.726,
+        86.238,
+        85.897,
+        85.417,
+        85.354
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82168"
+}

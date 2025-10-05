@@ -1,0 +1,81 @@
+{
+  "heat_no": 82181,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-24T12:15:00",
+  "drivers": [
+    {
+      "name": "Nick Bentley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.422,
+      "lap_times_url": null,
+      "laps": [
+        135.083,
+        91.206,
+        87.531,
+        87.646,
+        88.84,
+        88.234,
+        87.422
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.345,
+      "lap_times_url": null,
+      "laps": [
+        126.326,
+        81.345,
+        81.386,
+        81.369,
+        81.849,
+        81.426,
+        99.626
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "CJ POHRMAN",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 100.786,
+      "lap_times_url": null,
+      "laps": [
+        139.425,
+        112.331,
+        101.362,
+        101.681,
+        100.993,
+        100.786
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82181"
+}

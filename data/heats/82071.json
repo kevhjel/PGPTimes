@@ -1,0 +1,100 @@
+{
+  "heat_no": 82071,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-19T10:45:00",
+  "drivers": [
+    {
+      "name": "Joakim Vinberg",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.388,
+      "lap_times_url": null,
+      "laps": [
+        129.854,
+        84.969,
+        86.284,
+        85.739,
+        84.388,
+        88.08,
+        85.218
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jesse Mrozowski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.843,
+      "lap_times_url": null,
+      "laps": [
+        151.396,
+        80.843,
+        100.486,
+        97.049,
+        92.595,
+        92.644
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bianca Largent",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.189,
+      "lap_times_url": null,
+      "laps": [
+        129.491,
+        89.037,
+        88.763,
+        86.593,
+        87.543,
+        87.042,
+        86.189
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Christopher Ga...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 133.325,
+      "lap_times_url": null,
+      "laps": [
+        167.285,
+        139.438,
+        133.325,
+        136.022
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82071"
+}
