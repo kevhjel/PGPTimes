@@ -1,0 +1,154 @@
+{
+  "heat_no": 78103,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T11:45:00",
+  "drivers": [
+    {
+      "name": "Volv Grebennikov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.63,
+      "lap_times_url": null,
+      "laps": [
+        116.861,
+        81.076,
+        80.63,
+        80.894,
+        80.787,
+        87.298,
+        80.861,
+        81.062
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ted Davenport",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 95.686,
+      "lap_times_url": null,
+      "laps": [
+        131.242,
+        98.403,
+        99.693,
+        95.944,
+        95.686,
+        96.602
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ian Metke",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.051,
+      "lap_times_url": null,
+      "laps": [
+        130.87,
+        98.171,
+        99.574,
+        103.408,
+        93.104,
+        92.051
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Aidan Penttila",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.75,
+      "lap_times_url": null,
+      "laps": [
+        128.268,
+        93.251,
+        89.373,
+        88.159,
+        88.094,
+        86.75,
+        89.784
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Talbot Shoemaker",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.649,
+      "lap_times_url": null,
+      "laps": [
+        130.075,
+        95.165,
+        92.966,
+        92.649,
+        93.356,
+        93.481,
+        93.759
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Bryan Glasow",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 97.075,
+      "lap_times_url": null,
+      "laps": [
+        146.479,
+        110.834,
+        103.642,
+        101.082,
+        99.603,
+        97.075
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78103"
+}

@@ -1,0 +1,35 @@
+{
+  "heat_no": 78231,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-30T17:00:00",
+  "drivers": [
+    {
+      "name": "Rohan Mathur",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.227,
+      "lap_times_url": null,
+      "laps": [
+        81.771,
+        80.098,
+        79.97,
+        80.11,
+        79.227,
+        79.397,
+        79.755,
+        79.784
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78231"
+}

@@ -1,0 +1,110 @@
+{
+  "heat_no": 78106,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T12:45:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.965,
+      "lap_times_url": null,
+      "laps": [
+        81.496,
+        79.634,
+        78.965,
+        79.228,
+        79.362
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Volv Grebennikov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.657,
+      "lap_times_url": null,
+      "laps": [
+        82.079,
+        79.864,
+        79.657,
+        79.799,
+        80.278,
+        79.796,
+        79.824,
+        80.023
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 79.675,
+      "lap_times_url": null,
+      "laps": [
+        83.465,
+        81.224,
+        80.657,
+        80.855,
+        126.772,
+        80.506,
+        79.882,
+        79.675
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.199,
+      "lap_times_url": null,
+      "laps": [
+        86.607,
+        85.343,
+        84.296,
+        86.804,
+        85.848,
+        84.275,
+        84.205,
+        84.199
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78106"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 78037,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T10:45:00",
+  "drivers": [
+    {
+      "name": "Evan Kelley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.363,
+      "lap_times_url": null,
+      "laps": [
+        110.267,
+        87.557,
+        85.731,
+        85.003,
+        84.363,
+        84.764,
+        84.367
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kevin Yarbrough",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.871,
+      "lap_times_url": null,
+      "laps": [
+        110.059,
+        86.128,
+        83.991,
+        84.341,
+        87.886,
+        84.714,
+        83.871
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ken Kanadi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.583,
+      "lap_times_url": null,
+      "laps": [
+        86.537,
+        85.421,
+        85.388,
+        85.96,
+        85.798,
+        83.583,
+        88.186
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78037"
+}

@@ -1,0 +1,117 @@
+{
+  "heat_no": 78156,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-27T10:00:00",
+  "drivers": [
+    {
+      "name": "Zay Taylor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 100.727,
+      "lap_times_url": null,
+      "laps": [
+        131.76,
+        115.974,
+        116.157,
+        113.541,
+        103.058,
+        100.727
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Guy Williams",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 141.491,
+      "lap_times_url": null,
+      "laps": [
+        143.622,
+        141.491
+      ],
+      "lap_positions": [
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Dane Sather",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.052,
+      "lap_times_url": null,
+      "laps": [
+        110.639,
+        101.125,
+        100.387,
+        100.805,
+        105.511,
+        96.052
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Walter Thweatt",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.052,
+      "lap_times_url": null,
+      "laps": [
+        146.025,
+        98.853,
+        105.994,
+        100.839,
+        99.222,
+        96.052
+      ],
+      "lap_positions": [
+        5,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Gorbun",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.836,
+      "lap_times_url": null,
+      "laps": [
+        107.373,
+        91.669,
+        90.5,
+        99.566,
+        101.949,
+        99.91,
+        89.836
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78156"
+}

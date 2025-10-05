@@ -1,0 +1,104 @@
+{
+  "heat_no": 78043,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T12:45:00",
+  "drivers": [
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.203,
+      "lap_times_url": null,
+      "laps": [
+        116.427,
+        82.281,
+        82.771,
+        81.454,
+        81.203,
+        81.797,
+        82.123,
+        81.383
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ronal Prasad",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.817,
+      "lap_times_url": null,
+      "laps": [
+        168.52,
+        137.986,
+        134.075,
+        126.032,
+        120.817
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Stig Melgardsh...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.995,
+      "lap_times_url": null,
+      "laps": [
+        125.913,
+        105.131,
+        93.522,
+        95.656,
+        90.995,
+        112.179
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ryan Melgardsh...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.543,
+      "lap_times_url": null,
+      "laps": [
+        127.591,
+        93.749,
+        92.788,
+        91.496,
+        90.946,
+        89.543,
+        90.515
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78043"
+}

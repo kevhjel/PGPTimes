@@ -1,0 +1,114 @@
+{
+  "heat_no": 77989,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-20T09:30:00",
+  "drivers": [
+    {
+      "name": "Westy Perkins",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 154.792,
+      "lap_times_url": null,
+      "laps": [
+        154.792,
+        189.278,
+        174.917,
+        184.882
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jensen Osborne",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 152.131,
+      "lap_times_url": null,
+      "laps": [
+        152.131,
+        191.703,
+        169.735,
+        173.31
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Levi Johncox",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 152.526,
+      "lap_times_url": null,
+      "laps": [
+        198.561,
+        160.882,
+        152.526
+      ],
+      "lap_positions": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "name": "Sophia Miniken",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 182.297,
+      "lap_times_url": null,
+      "laps": [
+        208.538,
+        182.297,
+        183.595
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Roark Rimsnider",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 152.907,
+      "lap_times_url": null,
+      "laps": [
+        152.907,
+        185.191,
+        158.654
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Liam Maddix",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 154.239,
+      "lap_times_url": null,
+      "laps": [
+        154.239,
+        184.32,
+        163.319
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77989"
+}

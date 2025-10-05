@@ -1,0 +1,304 @@
+{
+  "heat_no": 78107,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T13:00:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.604,
+      "lap_times_url": null,
+      "laps": [
+        107.581,
+        79.604,
+        79.619,
+        79.857,
+        80.366,
+        88.101,
+        79.865,
+        84.028
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Everson Rodrig...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.024,
+      "lap_times_url": null,
+      "laps": [
+        119.545,
+        102.105,
+        85.589,
+        83.739,
+        83.68,
+        87.971,
+        83.024
+      ],
+      "lap_positions": [
+        7,
+        10,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nathan Hoffman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.332,
+      "lap_times_url": null,
+      "laps": [
+        109.126,
+        81.888,
+        81.602,
+        82.908,
+        81.332,
+        81.821,
+        82.262,
+        82.543
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ted Davenport",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 90.531,
+      "lap_times_url": null,
+      "laps": [
+        120.283,
+        95.227,
+        94.068,
+        90.531,
+        106.091,
+        104.054
+      ],
+      "lap_positions": [
+        9,
+        4,
+        9,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Ian Metke",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 88.332,
+      "lap_times_url": null,
+      "laps": [
+        116.828,
+        97.83,
+        91.507,
+        88.398,
+        88.332,
+        92.882,
+        104.779
+      ],
+      "lap_positions": [
+        5,
+        7,
+        7,
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Aidan Penttila",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.769,
+      "lap_times_url": null,
+      "laps": [
+        114.323,
+        104.15,
+        88.68,
+        86.442,
+        84.769,
+        129.037,
+        86.193
+      ],
+      "lap_positions": [
+        3,
+        11,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Talbot Shoemaker",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 88.471,
+      "lap_times_url": null,
+      "laps": [
+        117.595,
+        96.401,
+        93.999,
+        88.471,
+        90.307,
+        92.977,
+        92.141
+      ],
+      "lap_positions": [
+        6,
+        6,
+        8,
+        6,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Bryan Glasow",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.066,
+      "lap_times_url": null,
+      "laps": [
+        116.247,
+        99.131,
+        90.753,
+        89.725,
+        88.066,
+        103.38,
+        91.815
+      ],
+      "lap_positions": [
+        4,
+        9,
+        5,
+        7,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Derek Fulkerson",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 91.193,
+      "lap_times_url": null,
+      "laps": [
+        139.048,
+        98.637,
+        94.699,
+        93.03,
+        91.193,
+        110.992
+      ],
+      "lap_positions": [
+        11,
+        8,
+        10,
+        11,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "Michael Fulker...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 89.765,
+      "lap_times_url": null,
+      "laps": [
+        163.108,
+        91.4,
+        98.725,
+        97.646,
+        91.463,
+        89.765
+      ],
+      "lap_positions": [
+        12,
+        3,
+        6,
+        10,
+        11,
+        9
+      ]
+    },
+    {
+      "name": "Matt Fulkerson",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 88.367,
+      "lap_times_url": null,
+      "laps": [
+        119.598,
+        95.274,
+        101.2,
+        91.045,
+        88.367,
+        91.472,
+        89.543
+      ],
+      "lap_positions": [
+        8,
+        5,
+        11,
+        9,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Manuel Perez",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 103.574,
+      "lap_times_url": null,
+      "laps": [
+        138.1,
+        107.083,
+        109.97,
+        103.574,
+        108.165,
+        112.313
+      ],
+      "lap_positions": [
+        10,
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78107"
+}

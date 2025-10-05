@@ -1,0 +1,83 @@
+{
+  "heat_no": 78187,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-27T09:15:00",
+  "drivers": [
+    {
+      "name": "Noah Sather",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.794,
+      "lap_times_url": null,
+      "laps": [
+        123.91,
+        86.62,
+        85.763,
+        85.624,
+        85.011,
+        85.084,
+        84.794
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Graham Wingar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.591,
+      "lap_times_url": null,
+      "laps": [
+        127.86,
+        91.668,
+        88.451,
+        87.41,
+        87.375,
+        87.139,
+        86.591
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sam Smith",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.555,
+      "lap_times_url": null,
+      "laps": [
+        129.198,
+        93.676,
+        90.773,
+        89.349,
+        88.675,
+        100.083,
+        88.555
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78187"
+}

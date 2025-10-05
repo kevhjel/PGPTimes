@@ -1,0 +1,102 @@
+{
+  "heat_no": 78084,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-24T16:30:00",
+  "drivers": [
+    {
+      "name": "*****",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.99,
+      "lap_times_url": null,
+      "laps": [
+        80.572,
+        80.336,
+        80.482,
+        80.462,
+        80.131,
+        80.847,
+        79.99
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Test Testerson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.525,
+      "lap_times_url": null,
+      "laps": [
+        82.314,
+        80.525
+      ],
+      "lap_positions": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jack Basher",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.493,
+      "lap_times_url": null,
+      "laps": [
+        81.002,
+        79.493,
+        79.741,
+        82.726,
+        79.551,
+        80.313,
+        79.584,
+        79.732
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.317,
+      "lap_times_url": null,
+      "laps": [
+        82.121,
+        81.32,
+        81.323,
+        81.845,
+        80.317,
+        81.003,
+        80.326,
+        80.983
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78084"
+}

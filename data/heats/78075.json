@@ -1,0 +1,116 @@
+{
+  "heat_no": 78075,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-24T13:30:00",
+  "drivers": [
+    {
+      "name": "Rick Bohrer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.44,
+      "lap_times_url": null,
+      "laps": [
+        84.299,
+        80.132,
+        79.648,
+        79.545,
+        79.749,
+        79.579,
+        79.502,
+        79.44
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "peter boyle",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.177,
+      "lap_times_url": null,
+      "laps": [
+        84.017,
+        79.997,
+        83.9,
+        80.981,
+        80.18,
+        79.825,
+        79.19,
+        79.177
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Al Werner",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.306,
+      "lap_times_url": null,
+      "laps": [
+        86.149,
+        83.117,
+        82.12,
+        82.244,
+        81.364,
+        81.306,
+        81.644,
+        81.911
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 79.519,
+      "lap_times_url": null,
+      "laps": [
+        85.193,
+        80.619,
+        80.294,
+        79.861,
+        79.519,
+        79.753,
+        79.584,
+        79.674
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78075"
+}

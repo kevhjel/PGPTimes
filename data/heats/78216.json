@@ -1,0 +1,91 @@
+{
+  "heat_no": 78216,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-30T14:00:00",
+  "drivers": [
+    {
+      "name": "Vedang Patil",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.939,
+      "lap_times_url": null,
+      "laps": [
+        102.632,
+        82.257,
+        81.656,
+        81.121,
+        80.939,
+        81.052,
+        80.956,
+        80.968,
+        81.962
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Micah Salkind",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.996,
+      "lap_times_url": null,
+      "laps": [
+        104.24,
+        83.028,
+        82.445,
+        82.135,
+        82.339,
+        82.124,
+        83.162,
+        82.539,
+        81.996
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Clemens Yao",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.628,
+      "lap_times_url": null,
+      "laps": [
+        117.325,
+        94.746,
+        90.792,
+        88.317,
+        87.634,
+        91.557,
+        87.628
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78216"
+}

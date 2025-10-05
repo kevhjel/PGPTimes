@@ -1,0 +1,81 @@
+{
+  "heat_no": 78279,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-02T11:30:00",
+  "drivers": [
+    {
+      "name": "BRIAN NOEL",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.898,
+      "lap_times_url": null,
+      "laps": [
+        117.229,
+        93.156,
+        90.564,
+        90.778,
+        89.898,
+        90.368,
+        93.223
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jim Robarge",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.537,
+      "lap_times_url": null,
+      "laps": [
+        118.267,
+        107.073,
+        102.468,
+        93.986,
+        93.491,
+        91.924,
+        91.537
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dave Jokinen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.688,
+      "lap_times_url": null,
+      "laps": [
+        130.252,
+        109.843,
+        107.275,
+        106.688,
+        119.179,
+        106.763
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78279"
+}

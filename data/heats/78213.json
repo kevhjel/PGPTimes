@@ -1,0 +1,81 @@
+{
+  "heat_no": 78213,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-30T13:15:00",
+  "drivers": [
+    {
+      "name": "Giovanni Bowers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.334,
+      "lap_times_url": null,
+      "laps": [
+        124.299,
+        84.952,
+        82.334,
+        91.959,
+        84.466,
+        85.67,
+        83.547
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Liam Feeney",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.969,
+      "lap_times_url": null,
+      "laps": [
+        120.291,
+        84.508,
+        84.492,
+        94.779,
+        83.596,
+        85.649,
+        82.969
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Shirley Collado",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.176,
+      "lap_times_url": null,
+      "laps": [
+        141.655,
+        105.891,
+        114.112,
+        100.188,
+        100.352,
+        97.176
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78213"
+}

@@ -1,0 +1,62 @@
+{
+  "heat_no": 78246,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-01T12:15:00",
+  "drivers": [
+    {
+      "name": "Tennis Ball",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.199,
+      "lap_times_url": null,
+      "laps": [
+        92.997,
+        83.872,
+        83.392,
+        82.972,
+        82.727,
+        82.199,
+        82.498,
+        82.424
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Justin Hendrick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.765,
+      "lap_times_url": null,
+      "laps": [
+        92.2,
+        83.244,
+        81.765,
+        82.025,
+        81.808,
+        82.399,
+        82.048,
+        81.949
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78246"
+}

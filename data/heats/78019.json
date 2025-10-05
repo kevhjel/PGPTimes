@@ -1,0 +1,69 @@
+{
+  "heat_no": 78019,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-20T16:45:00",
+  "drivers": [
+    {
+      "name": "Frankie Webber",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.214,
+      "lap_times_url": null,
+      "laps": [
+        190.448,
+        131.162,
+        123.824,
+        118.001,
+        115.214
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Usar Sann",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 138.892,
+      "lap_times_url": null,
+      "laps": [
+        204.25,
+        161.833,
+        150.799,
+        138.892
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jaylen Sherman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.545,
+      "lap_times_url": null,
+      "laps": [
+        181.294,
+        126.279,
+        126.312,
+        124.242,
+        115.545
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78019"
+}

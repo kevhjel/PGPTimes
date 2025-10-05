@@ -1,0 +1,406 @@
+{
+  "heat_no": 78140,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-26T15:00:00",
+  "drivers": [
+    {
+      "name": "Siddharth Koda...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.514,
+      "lap_times_url": null,
+      "laps": [
+        108.31,
+        82.625,
+        82.609,
+        82.514,
+        84.187,
+        83.069,
+        82.607,
+        84.183
+      ],
+      "lap_positions": [
+        6,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Rakshith Dayan...",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 88.665,
+      "lap_times_url": null,
+      "laps": [
+        143.925,
+        91.749,
+        89.735,
+        91.871,
+        91.548,
+        88.665,
+        90.038
+      ],
+      "lap_positions": [
+        16,
+        10,
+        9,
+        11,
+        11,
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Karan Dipesh G...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 84.256,
+      "lap_times_url": null,
+      "laps": [
+        106.99,
+        87.129,
+        84.256,
+        85.996,
+        249.264,
+        86.563
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Sagar Dedhia",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.327,
+      "lap_times_url": null,
+      "laps": [
+        107.106,
+        91.842,
+        98.453,
+        88.118,
+        88.4,
+        87.327,
+        89.383
+      ],
+      "lap_positions": [
+        2,
+        11,
+        12,
+        8,
+        9,
+        6,
+        8
+      ]
+    },
+    {
+      "name": "Landen Niehaus",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.803,
+      "lap_times_url": null,
+      "laps": [
+        107.116,
+        82.298,
+        81.343,
+        88.909,
+        83.104,
+        81.47,
+        96.075,
+        80.803
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eli Benson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.882,
+      "lap_times_url": null,
+      "laps": [
+        108.127,
+        84.867,
+        83.141,
+        82.4,
+        83.149,
+        81.882,
+        87.77,
+        82.912
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Srikar Ballipa...",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 88.532,
+      "lap_times_url": null,
+      "laps": [
+        137.412,
+        90.839,
+        89.104,
+        89.312,
+        91.343,
+        89.158,
+        88.532
+      ],
+      "lap_positions": [
+        14,
+        8,
+        7,
+        9,
+        10,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Andrew Hamm",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 86.784,
+      "lap_times_url": null,
+      "laps": [
+        107.946,
+        89.838,
+        90.628,
+        87.899,
+        88.988,
+        90.928,
+        86.784
+      ],
+      "lap_positions": [
+        4,
+        7,
+        10,
+        7,
+        8,
+        9,
+        6
+      ]
+    },
+    {
+      "name": "Tyler Conaway",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 87.545,
+      "lap_times_url": null,
+      "laps": [
+        109.021,
+        87.545,
+        90.374,
+        87.775,
+        88.897,
+        90.932,
+        88.107
+      ],
+      "lap_positions": [
+        7,
+        6,
+        6,
+        6,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "name": "Midhun Kesarapu",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 89.065,
+      "lap_times_url": null,
+      "laps": [
+        110.739,
+        91.124,
+        94.186,
+        92.284,
+        103.234,
+        101.106,
+        89.065
+      ],
+      "lap_positions": [
+        8,
+        9,
+        11,
+        12,
+        12,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Janaki Ramudu ...",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 96.96,
+      "lap_times_url": null,
+      "laps": [
+        139.129,
+        99.2,
+        97.919,
+        99.839,
+        96.96,
+        97.774
+      ],
+      "lap_positions": [
+        15,
+        14,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Daniel Offutt",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.848,
+      "lap_times_url": null,
+      "laps": [
+        126.534,
+        87.505,
+        84.996,
+        83.966,
+        90.196,
+        83.848,
+        83.93
+      ],
+      "lap_positions": [
+        12,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dan Reid",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.767,
+      "lap_times_url": null,
+      "laps": [
+        125.822,
+        104.256,
+        89.596,
+        103.086,
+        87.767,
+        106.821
+      ],
+      "lap_positions": [
+        11,
+        16,
+        8,
+        10,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "Dexter Reid",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 99.041,
+      "lap_times_url": null,
+      "laps": [
+        131.626,
+        102.953,
+        101.606,
+        99.17,
+        99.041,
+        107.65
+      ],
+      "lap_positions": [
+        13,
+        15,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Evan Harrison",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 90.444,
+      "lap_times_url": null,
+      "laps": [
+        122.674,
+        94.061,
+        101.414,
+        91.504,
+        97.046,
+        92.195,
+        90.444
+      ],
+      "lap_positions": [
+        9,
+        12,
+        14,
+        13,
+        13,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Kailan Gertonson",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 86.912,
+      "lap_times_url": null,
+      "laps": [
+        123.894,
+        94.218,
+        92.708,
+        91.774,
+        95.103,
+        89.37,
+        86.912
+      ],
+      "lap_positions": [
+        10,
+        13,
+        13,
+        14,
+        14,
+        12,
+        7
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78140"
+}

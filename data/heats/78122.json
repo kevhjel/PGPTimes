@@ -1,0 +1,131 @@
+{
+  "heat_no": 78122,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T10:15:00",
+  "drivers": [
+    {
+      "name": "Jason Snyder",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.424,
+      "lap_times_url": null,
+      "laps": [
+        121.029,
+        87.787,
+        86.752,
+        86.424,
+        87.159,
+        87.24,
+        87.21
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Loren Skeels",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.567,
+      "lap_times_url": null,
+      "laps": [
+        120.303,
+        87.598,
+        84.567,
+        84.817,
+        85.811,
+        85.456,
+        85.191
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "John Ogle",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.506,
+      "lap_times_url": null,
+      "laps": [
+        126.176,
+        89.734,
+        89.64,
+        88.506,
+        88.837,
+        107.447,
+        89.037
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Pete Glase",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 100.343,
+      "lap_times_url": null,
+      "laps": [
+        129.369,
+        101.469,
+        101.416,
+        100.979,
+        100.343,
+        100.555
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Mukesh Solanki",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.124,
+      "lap_times_url": null,
+      "laps": [
+        121.842,
+        90.828,
+        90.124,
+        90.784,
+        91.368,
+        93.4,
+        90.241
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78122"
+}

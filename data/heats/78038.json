@@ -1,0 +1,85 @@
+{
+  "heat_no": 78038,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T11:30:00",
+  "drivers": [
+    {
+      "name": "Ken Kanadi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.823,
+      "lap_times_url": null,
+      "laps": [
+        93.84,
+        85.774,
+        83.823,
+        86.104,
+        84.518,
+        84.703,
+        83.895,
+        84.076
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Steve Johnson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.149,
+      "lap_times_url": null,
+      "laps": [
+        106.114,
+        94.325,
+        92.277,
+        91.659,
+        91.149,
+        99.979,
+        92.444
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Jeff Sieck",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.987,
+      "lap_times_url": null,
+      "laps": [
+        105.816,
+        93.834,
+        92.719,
+        92.281,
+        92.675,
+        94.03,
+        90.987
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78038"
+}

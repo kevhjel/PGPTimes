@@ -1,0 +1,56 @@
+{
+  "heat_no": 78029,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T10:00:00",
+  "drivers": [
+    {
+      "name": "\"Strong\" Hand",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.705,
+      "lap_times_url": null,
+      "laps": [
+        127.014,
+        91.971,
+        94.775,
+        90.965,
+        92.482,
+        89.705,
+        89.718
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kevin Jones",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.471,
+      "lap_times_url": null,
+      "laps": [
+        116.771,
+        108.601,
+        95.666,
+        92.471,
+        102.317,
+        94.902
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78029"
+}

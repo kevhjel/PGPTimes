@@ -1,0 +1,87 @@
+{
+  "heat_no": 78057,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T17:15:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.019,
+      "lap_times_url": null,
+      "laps": [
+        89.607,
+        80.018,
+        79.783,
+        79.822,
+        79.049,
+        79.606,
+        79.686,
+        79.019
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rustland Palac...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.502,
+      "lap_times_url": null,
+      "laps": [
+        91.937,
+        83.541,
+        83.502,
+        83.881,
+        91.639,
+        83.735,
+        91.62,
+        86.548
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joty Khosa",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.765,
+      "lap_times_url": null,
+      "laps": [
+        103.04,
+        95.794,
+        96.296,
+        107.285,
+        110.953,
+        97.639,
+        92.765
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78057"
+}

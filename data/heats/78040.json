@@ -1,0 +1,116 @@
+{
+  "heat_no": 78040,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T11:00:00",
+  "drivers": [
+    {
+      "name": "Evan Kelley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.653,
+      "lap_times_url": null,
+      "laps": [
+        100.31,
+        84.653,
+        85.333,
+        85.087,
+        84.658,
+        85.827,
+        88.656,
+        86.776
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kevin Yarbrough",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.244,
+      "lap_times_url": null,
+      "laps": [
+        99.121,
+        83.18,
+        88.243,
+        85.086,
+        83.826,
+        82.244,
+        92.216,
+        87.478,
+        85.857
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Steve Johnson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 97.512,
+      "lap_times_url": null,
+      "laps": [
+        111.055,
+        101.359,
+        101.695,
+        101.352,
+        101.364,
+        100.469,
+        97.512,
+        103.632
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jeff Sieck",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.621,
+      "lap_times_url": null,
+      "laps": [
+        114.626,
+        143.409,
+        100.038,
+        96.38,
+        94.124,
+        94.939,
+        93.621
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78040"
+}

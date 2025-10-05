@@ -1,0 +1,69 @@
+{
+  "heat_no": 78017,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-20T16:15:00",
+  "drivers": [
+    {
+      "name": "Yeser De leon",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 119.984,
+      "lap_times_url": null,
+      "laps": [
+        146.786,
+        124.485,
+        130.102,
+        119.984,
+        123.368
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Angel Escobar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.128,
+      "lap_times_url": null,
+      "laps": [
+        157.967,
+        126.936,
+        126.532,
+        123.288,
+        122.128
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ruben Najera",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.729,
+      "lap_times_url": null,
+      "laps": [
+        170.802,
+        145.081,
+        137.182,
+        131.729
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78017"
+}

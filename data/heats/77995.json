@@ -1,0 +1,88 @@
+{
+  "heat_no": 77995,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-20T09:15:00",
+  "drivers": [
+    {
+      "name": "Brian McCann",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.722,
+      "lap_times_url": null,
+      "laps": [
+        155.521,
+        127.861,
+        125.489,
+        141.979,
+        123.722
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nathan Yiu",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 132.787,
+      "lap_times_url": null,
+      "laps": [
+        151.992,
+        137.538,
+        143.398,
+        133.753,
+        132.787
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kaitlynn Nelson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 142.708,
+      "lap_times_url": null,
+      "laps": [
+        166.371,
+        150.757,
+        150.378,
+        142.708
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Timothy Beecher",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 135.548,
+      "lap_times_url": null,
+      "laps": [
+        158.48,
+        135.548,
+        145.501,
+        140.501
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77995"
+}

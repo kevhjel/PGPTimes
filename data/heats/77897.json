@@ -1,0 +1,127 @@
+{
+  "heat_no": 77897,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-17T12:45:00",
+  "drivers": [
+    {
+      "name": "Azriel Castill...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.956,
+      "lap_times_url": null,
+      "laps": [
+        106.857,
+        88.528,
+        85.165,
+        114.829,
+        84.416,
+        80.956,
+        81.213
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ron Tanemura",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.396,
+      "lap_times_url": null,
+      "laps": [
+        104.585,
+        82.474,
+        82.877,
+        84.536,
+        82.585,
+        82.724,
+        83.133,
+        82.396
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Carlson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.247,
+      "lap_times_url": null,
+      "laps": [
+        112.124,
+        93.179,
+        95.092,
+        99.664,
+        101.574,
+        92.998,
+        92.247
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cari Carlson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 112.369,
+      "lap_times_url": null,
+      "laps": [
+        132.468,
+        126.38,
+        120.239,
+        121.287,
+        112.369
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "David Carlson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 119.029,
+      "lap_times_url": null,
+      "laps": [
+        146.927,
+        129.488,
+        127.321,
+        120.77,
+        119.029
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77897"
+}

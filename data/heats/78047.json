@@ -1,0 +1,112 @@
+{
+  "heat_no": 78047,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T14:00:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.188,
+      "lap_times_url": null,
+      "laps": [
+        104.904,
+        81.04,
+        80.609,
+        80.73,
+        80.542,
+        80.188,
+        80.928,
+        81.094
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.111,
+      "lap_times_url": null,
+      "laps": [
+        104.557,
+        80.892,
+        80.694,
+        80.717,
+        80.564,
+        80.111,
+        80.906,
+        81.229
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Micah Salkind",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.488,
+      "lap_times_url": null,
+      "laps": [
+        108.552,
+        84.139,
+        83.042,
+        84.171,
+        83.228,
+        82.948,
+        82.488,
+        82.931
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Chirag Gosain",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 101.247,
+      "lap_times_url": null,
+      "laps": [
+        125.157,
+        105.969,
+        143.97,
+        110.969,
+        103.883,
+        101.247
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78047"
+}

@@ -1,0 +1,139 @@
+{
+  "heat_no": 78217,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-30T14:15:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.067,
+      "lap_times_url": null,
+      "laps": [
+        104.376,
+        80.124,
+        80.091,
+        80.009,
+        79.127,
+        79.067,
+        82.603,
+        80.366
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.155,
+      "lap_times_url": null,
+      "laps": [
+        104.62,
+        80.935,
+        80.034,
+        79.848,
+        79.155,
+        79.414,
+        82.05,
+        80.327
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Horn",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.249,
+      "lap_times_url": null,
+      "laps": [
+        110.567,
+        87.723,
+        87.665,
+        87.372,
+        86.249,
+        87.344,
+        87.304
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Marc Horn",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.448,
+      "lap_times_url": null,
+      "laps": [
+        114.169,
+        95.436,
+        98.255,
+        98.931,
+        91.471,
+        89.676,
+        88.448
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Frank the Tank",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.64,
+      "lap_times_url": null,
+      "laps": [
+        106.713,
+        83.07,
+        82.98,
+        83.976,
+        83.029,
+        81.64,
+        82.971,
+        82.404
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78217"
+}

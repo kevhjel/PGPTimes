@@ -1,0 +1,54 @@
+{
+  "heat_no": 78286,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-02T12:45:00",
+  "drivers": [
+    {
+      "name": "Jerry Hall",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.575,
+      "lap_times_url": null,
+      "laps": [
+        130.764,
+        106.172,
+        102.418,
+        100.673,
+        101.447,
+        99.575
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Hall",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.396,
+      "lap_times_url": null,
+      "laps": [
+        132.47,
+        102.971,
+        94.826,
+        110.152,
+        91.396,
+        107.475
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78286"
+}

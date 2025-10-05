@@ -1,0 +1,79 @@
+{
+  "heat_no": 77907,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-17T15:15:00",
+  "drivers": [
+    {
+      "name": "Sathya Venkate...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.457,
+      "lap_times_url": null,
+      "laps": [
+        173.531,
+        79.788,
+        79.766,
+        79.457,
+        80.435,
+        79.901,
+        79.639
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Anna Orton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.365,
+      "lap_times_url": null,
+      "laps": [
+        184.477,
+        107.025,
+        97.036,
+        96.365,
+        100.806,
+        97.54
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Paul Seitz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.292,
+      "lap_times_url": null,
+      "laps": [
+        196.6,
+        102.043,
+        99.326,
+        97.013,
+        96.815,
+        93.292
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77907"
+}

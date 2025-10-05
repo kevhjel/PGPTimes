@@ -1,0 +1,89 @@
+{
+  "heat_no": 78214,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-04-30T13:30:00",
+  "drivers": [
+    {
+      "name": "Micah Salkind",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.219,
+      "lap_times_url": null,
+      "laps": [
+        101.847,
+        85.566,
+        84.847,
+        84.786,
+        84.613,
+        84.688,
+        84.614,
+        84.219
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Gavin Trimmer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.565,
+      "lap_times_url": null,
+      "laps": [
+        101.016,
+        82.035,
+        81.923,
+        82.058,
+        81.733,
+        81.808,
+        81.834,
+        81.565
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Robert Trimmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.628,
+      "lap_times_url": null,
+      "laps": [
+        100.431,
+        81.337,
+        82.019,
+        81.37,
+        80.959,
+        81.657,
+        80.628,
+        81.176
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78214"
+}

@@ -1,0 +1,79 @@
+{
+  "heat_no": 77917,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-18T09:00:00",
+  "drivers": [
+    {
+      "name": "Jarek Criscuolo",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.531,
+      "lap_times_url": null,
+      "laps": [
+        126.27,
+        107.577,
+        100.006,
+        103.336,
+        97.78,
+        97.531
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Furia Criscuolo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.902,
+      "lap_times_url": null,
+      "laps": [
+        135.627,
+        106.436,
+        102.642,
+        97.02,
+        96.016,
+        95.902
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Santo Criscuolo",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.255,
+      "lap_times_url": null,
+      "laps": [
+        113.81,
+        91.902,
+        95.752,
+        89.574,
+        88.371,
+        88.456,
+        87.255
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77917"
+}

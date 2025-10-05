@@ -1,0 +1,114 @@
+{
+  "heat_no": 78264,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-01T16:45:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.78,
+      "lap_times_url": null,
+      "laps": [
+        84.145,
+        80.391,
+        80.297,
+        80.062,
+        79.853,
+        79.872,
+        79.914,
+        79.78
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.93,
+      "lap_times_url": null,
+      "laps": [
+        88.113,
+        81.158,
+        80.671,
+        80.593,
+        80.656,
+        79.93,
+        80.461,
+        80.334
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dayton Gaine",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.061,
+      "lap_times_url": null,
+      "laps": [
+        92.37,
+        90.508,
+        88.686,
+        89.318,
+        88.061,
+        89.448,
+        89.153
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Pirate",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.759,
+      "lap_times_url": null,
+      "laps": [
+        89.743,
+        85.929,
+        84.937,
+        86.458,
+        86.052,
+        85.372,
+        85.395,
+        84.759
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78264"
+}

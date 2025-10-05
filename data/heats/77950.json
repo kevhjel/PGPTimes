@@ -1,0 +1,64 @@
+{
+  "heat_no": 77950,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-18T17:15:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.833,
+      "lap_times_url": null,
+      "laps": [
+        80.165,
+        79.293,
+        79.406,
+        79.539,
+        79.042,
+        79.346,
+        78.833,
+        79.044,
+        79.051
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aidan Ma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.064,
+      "lap_times_url": null,
+      "laps": [
+        81.701,
+        80.455,
+        80.417,
+        80.064,
+        80.657,
+        80.151,
+        80.615,
+        81.155
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77950"
+}

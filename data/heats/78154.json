@@ -1,0 +1,105 @@
+{
+  "heat_no": 78154,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-27T09:00:00",
+  "drivers": [
+    {
+      "name": "Zay Taylor",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 137.908,
+      "lap_times_url": null,
+      "laps": [
+        156.319,
+        161.753,
+        141.504,
+        137.908
+      ],
+      "lap_positions": [
+        2,
+        2,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Guy Williams",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 137.853,
+      "lap_times_url": null,
+      "laps": [
+        160.234,
+        160.915,
+        140.374,
+        137.853
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dane Sather",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 110.09,
+      "lap_times_url": null,
+      "laps": [
+        204.563,
+        169.777,
+        114.913,
+        110.09
+      ],
+      "lap_positions": [
+        5,
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Walter Thweatt",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.979,
+      "lap_times_url": null,
+      "laps": [
+        204.319,
+        168.282,
+        114.923,
+        109.979
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Gorbun",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.412,
+      "lap_times_url": null,
+      "laps": [
+        120.403,
+        113.097,
+        106.521,
+        103.412,
+        125.133
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78154"
+}

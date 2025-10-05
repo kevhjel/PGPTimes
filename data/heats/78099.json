@@ -1,0 +1,114 @@
+{
+  "heat_no": 78099,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T10:30:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.501,
+      "lap_times_url": null,
+      "laps": [
+        86.324,
+        81.01,
+        80.64,
+        80.087,
+        80.077,
+        88.196,
+        79.501,
+        80.439
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Volv Grebennikov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.706,
+      "lap_times_url": null,
+      "laps": [
+        85.538,
+        80.804,
+        80.473,
+        79.866,
+        79.848,
+        79.986,
+        79.706,
+        80.842
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Maxim Sergeev",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.115,
+      "lap_times_url": null,
+      "laps": [
+        87.31,
+        86.371,
+        81.375,
+        80.9,
+        80.425,
+        80.115,
+        86.899
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dave",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 80.35,
+      "lap_times_url": null,
+      "laps": [
+        87.126,
+        81.145,
+        80.464,
+        80.35,
+        80.61,
+        80.792,
+        80.524,
+        81.283
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78099"
+}

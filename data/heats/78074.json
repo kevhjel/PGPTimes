@@ -1,0 +1,66 @@
+{
+  "heat_no": 78074,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-24T13:00:00",
+  "drivers": [
+    {
+      "name": "Rick Bohrer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.58,
+      "lap_times_url": null,
+      "laps": [
+        80.966,
+        79.011,
+        78.58,
+        78.882,
+        78.91,
+        79.021,
+        78.993,
+        79.447,
+        79.085
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "peter boyle",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 78.657,
+      "lap_times_url": null,
+      "laps": [
+        81.109,
+        78.946,
+        78.657,
+        78.803,
+        79.659,
+        78.926,
+        78.826,
+        79.578,
+        79.083
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78074"
+}

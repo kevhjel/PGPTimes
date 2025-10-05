@@ -1,0 +1,112 @@
+{
+  "heat_no": 77988,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-20T09:00:00",
+  "drivers": [
+    {
+      "name": "Westy Perkins",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 160.825,
+      "lap_times_url": null,
+      "laps": [
+        176.366,
+        160.825,
+        206.781
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jensen Osborne",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 157.746,
+      "lap_times_url": null,
+      "laps": [
+        176.13,
+        193.647,
+        169.234,
+        157.746
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Levi Johncox",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 187.811,
+      "lap_times_url": null,
+      "laps": [
+        217.469,
+        200.092,
+        187.811
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Sophia Miniken",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 191.6,
+      "lap_times_url": null,
+      "laps": [
+        216.813,
+        192.751,
+        191.6
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Roark Rimsnider",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 177.208,
+      "lap_times_url": null,
+      "laps": [
+        194.883,
+        177.208,
+        185.198
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Liam Maddix",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 178.047,
+      "lap_times_url": null,
+      "laps": [
+        194.057,
+        178.047,
+        182.89
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77988"
+}

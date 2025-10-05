@@ -1,0 +1,124 @@
+{
+  "heat_no": 78100,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T10:45:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.232,
+      "lap_times_url": null,
+      "laps": [
+        82.017,
+        80.839,
+        80.752,
+        79.517,
+        79.531,
+        79.232,
+        79.85,
+        79.338,
+        79.27
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Volv Grebennikov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.253,
+      "lap_times_url": null,
+      "laps": [
+        80.814,
+        80.722,
+        81.411,
+        79.441,
+        79.491,
+        79.255,
+        79.253,
+        79.337,
+        79.383
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Maxim Sergeev",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 79.861,
+      "lap_times_url": null,
+      "laps": [
+        82.378,
+        80.738,
+        80.752,
+        81.809,
+        81.125,
+        80.141,
+        79.861,
+        79.924,
+        80.158
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dave",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 80.515,
+      "lap_times_url": null,
+      "laps": [
+        81.807,
+        80.763,
+        80.515,
+        81.632,
+        81.245,
+        81.021,
+        80.876,
+        80.527,
+        80.574
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78100"
+}

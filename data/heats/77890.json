@@ -1,0 +1,35 @@
+{
+  "heat_no": 77890,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-17T10:45:00",
+  "drivers": [
+    {
+      "name": "Adam Towers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.473,
+      "lap_times_url": null,
+      "laps": [
+        87.084,
+        83.161,
+        82.078,
+        82.052,
+        81.878,
+        81.803,
+        81.631,
+        81.473
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77890"
+}

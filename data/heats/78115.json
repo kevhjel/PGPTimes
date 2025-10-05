@@ -1,0 +1,87 @@
+{
+  "heat_no": 78115,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-25T15:45:00",
+  "drivers": [
+    {
+      "name": "B. Sherman 42 ...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.402,
+      "lap_times_url": null,
+      "laps": [
+        80.89,
+        79.504,
+        79.402,
+        81.199,
+        79.703,
+        80.127,
+        79.874,
+        79.964
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shuai Wang",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.519,
+      "lap_times_url": null,
+      "laps": [
+        83.982,
+        82.146,
+        81.519,
+        82.214,
+        82.173,
+        82.016,
+        82.099,
+        81.752
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "\"Strong\" Hand",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.844,
+      "lap_times_url": null,
+      "laps": [
+        139.626,
+        92.271,
+        95.197,
+        89.051,
+        88.998,
+        86.844,
+        87.91
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78115"
+}

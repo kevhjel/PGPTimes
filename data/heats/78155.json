@@ -1,0 +1,115 @@
+{
+  "heat_no": 78155,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-04-27T09:30:00",
+  "drivers": [
+    {
+      "name": "Zay Taylor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 113.806,
+      "lap_times_url": null,
+      "laps": [
+        160.194,
+        124.138,
+        122.095,
+        124.473,
+        113.806
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Guy Williams",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 122.273,
+      "lap_times_url": null,
+      "laps": [
+        160.43,
+        124.351,
+        122.273,
+        124.278
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Dane Sather",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.229,
+      "lap_times_url": null,
+      "laps": [
+        107.229,
+        121.538,
+        146.779,
+        130.01,
+        131.463
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Walter Thweatt",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 106.625,
+      "lap_times_url": null,
+      "laps": [
+        106.625,
+        123.077,
+        147.222,
+        131.441,
+        134.361
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joshua Gorbun",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.025,
+      "lap_times_url": null,
+      "laps": [
+        100.326,
+        96.401,
+        93.025,
+        96.705,
+        96.385,
+        95.813,
+        94.038
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78155"
+}

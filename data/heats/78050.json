@@ -1,0 +1,77 @@
+{
+  "heat_no": 78050,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-23T15:00:00",
+  "drivers": [
+    {
+      "name": "Mark Lim",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.516,
+      "lap_times_url": null,
+      "laps": [
+        104.569,
+        97.942,
+        95.703,
+        93.516,
+        98.022,
+        95.235,
+        97.328
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "MORIAN SIM",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.579,
+      "lap_times_url": null,
+      "laps": [
+        125.689,
+        101.918,
+        96.579,
+        102.084,
+        137.243
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Marion Sim",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.887,
+      "lap_times_url": null,
+      "laps": [
+        106.639,
+        105.88,
+        93.145,
+        92.887,
+        94.069,
+        100.44
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78050"
+}

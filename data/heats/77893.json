@@ -1,0 +1,31 @@
+{
+  "heat_no": 77893,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-17T11:45:00",
+  "drivers": [
+    {
+      "name": "Gavin Achberger",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.306,
+      "lap_times_url": null,
+      "laps": [
+        159.91,
+        106.536,
+        102.38,
+        98.59,
+        99.052,
+        96.306
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77893"
+}

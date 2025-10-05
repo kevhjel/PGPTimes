@@ -1,0 +1,87 @@
+{
+  "heat_no": 78087,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-24T17:15:00",
+  "drivers": [
+    {
+      "name": "Ed Acosta",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.797,
+      "lap_times_url": null,
+      "laps": [
+        110.118,
+        81.02,
+        81.173,
+        81.086,
+        81.68,
+        81.567,
+        81.122,
+        80.797
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ethan Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.437,
+      "lap_times_url": null,
+      "laps": [
+        108.375,
+        79.203,
+        78.56,
+        78.719,
+        78.542,
+        78.744,
+        79.783,
+        78.437
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Liam Maddix",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.433,
+      "lap_times_url": null,
+      "laps": [
+        119.335,
+        94.671,
+        93.494,
+        92.823,
+        93.721,
+        92.433,
+        93.146
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78087"
+}
