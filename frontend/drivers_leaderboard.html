@@ -68,6 +68,43 @@
 /* ---------- small helpers ---------- */
 function fmtSeconds(s) { if (s == null || isNaN(s)) return ""; return Number(s).toFixed(3) + " s"; }
 function byNumberAsc(a, b) { if (a == null && b == null) return 0; if (a == null) return 1; if (b == null) return -1; return a - b; }
+function fmtPacificDate(iso) {
+  if (!iso) return "";
+  try {
+    const date = new Date(iso);
+    // Convert to Pacific time (auto adjusts for DST)
+    const pacific = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Los_Angeles",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).formatToParts(date);
+
+    // Build "March 4th, 2025 12:45 PM"
+    let month, day, year, hour, minute, dayPeriod;
+    for (const p of pacific) {
+      if (p.type === "month") month = p.value;
+      if (p.type === "day") day = p.value;
+      if (p.type === "year") year = p.value;
+      if (p.type === "hour") hour = p.value;
+      if (p.type === "minute") minute = p.value;
+      if (p.type === "dayPeriod") dayPeriod = p.value;
+    }
+
+    const dNum = parseInt(day);
+    const ord = (dNum % 10 === 1 && dNum !== 11) ? "st"
+              : (dNum % 10 === 2 && dNum !== 12) ? "nd"
+              : (dNum % 10 === 3 && dNum !== 13) ? "rd"
+              : "th";
+
+    return `${month} ${dNum}${ord}, ${year} ${hour}:${minute} ${dayPeriod}`;
+  } catch {
+    return iso;
+  }
+}
 
 /* ---------- robust fetch for Pages + local ---------- */
 async function jgetRel(name) {
@@ -150,7 +187,7 @@ function renderTable(rows) {
       <td>${ranked ? fmtSeconds(r.fastest) : "<span class='small'>— no laps —</span>"}</td>
       <td>${r.heat_no ? `<a href="./index.html#${r.heat_no}">${r.heat_no}</a>` : ""}</td>
       <td>${r.heat_type || ""}</td>
-      <td class="small">${r.when || ""}</td>
+      <td class="small">${fmtPacificDate(r.when)}</td>
       <td>${r.laps_count || ""}</td>
     `;
     tbody.appendChild(tr);
