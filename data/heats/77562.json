@@ -1,0 +1,110 @@
+{
+  "heat_no": 77562,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-04T13:45:00",
+  "drivers": [
+    {
+      "name": "rodnie taylor",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.431,
+      "lap_times_url": null,
+      "laps": [
+        103.188,
+        87.332,
+        88.517,
+        86.582,
+        87.829,
+        86.431,
+        88.644
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.848,
+      "lap_times_url": null,
+      "laps": [
+        97.882,
+        81.322,
+        80.552,
+        80.196,
+        79.848,
+        80.076,
+        80.701,
+        79.887
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maxwell Kollasch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.787,
+      "lap_times_url": null,
+      "laps": [
+        103.607,
+        87.308,
+        85.761,
+        85.233,
+        84.806,
+        84.787,
+        95.295
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Devin Wyatt",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.107,
+      "lap_times_url": null,
+      "laps": [
+        103.721,
+        90.562,
+        90.107,
+        117.04,
+        92.792,
+        91.758,
+        90.804
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77562"
+}

@@ -1,0 +1,62 @@
+{
+  "heat_no": 77550,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-04T10:45:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.625,
+      "lap_times_url": null,
+      "laps": [
+        82.81,
+        79.846,
+        79.73,
+        80.307,
+        79.625,
+        80.198,
+        80.383,
+        80.001
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dave",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.77,
+      "lap_times_url": null,
+      "laps": [
+        86.321,
+        82.326,
+        81.147,
+        81.046,
+        81.338,
+        81.292,
+        80.77,
+        81.883
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77550"
+}

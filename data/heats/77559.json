@@ -1,0 +1,110 @@
+{
+  "heat_no": 77559,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-04T13:00:00",
+  "drivers": [
+    {
+      "name": "Trevor Schuler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.195,
+      "lap_times_url": null,
+      "laps": [
+        104.807,
+        82.996,
+        81.343,
+        80.611,
+        80.195,
+        81.337,
+        81.248,
+        81.033
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "chris schuler",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.953,
+      "lap_times_url": null,
+      "laps": [
+        104.565,
+        93.433,
+        94.115,
+        141.403,
+        82.094,
+        81.953,
+        82.388
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Moses Thompson...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.157,
+      "lap_times_url": null,
+      "laps": [
+        103.992,
+        82.431,
+        82.216,
+        80.426,
+        80.157,
+        80.783,
+        81.405,
+        81.51
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.957,
+      "lap_times_url": null,
+      "laps": [
+        103.466,
+        100.286,
+        244.229,
+        82.802,
+        81.095,
+        80.957
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77559"
+}

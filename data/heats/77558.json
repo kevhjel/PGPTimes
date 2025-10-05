@@ -1,0 +1,52 @@
+{
+  "heat_no": 77558,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-04T12:45:00",
+  "drivers": [
+    {
+      "name": "Nikita Sharma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.118,
+      "lap_times_url": null,
+      "laps": [
+        157.581,
+        124.99,
+        127.849,
+        123.373,
+        120.118
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Parteek Gupta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 100.69,
+      "lap_times_url": null,
+      "laps": [
+        146.869,
+        107.545,
+        104.098,
+        104.967,
+        103.433,
+        100.69
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77558"
+}

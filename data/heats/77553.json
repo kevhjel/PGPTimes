@@ -1,0 +1,87 @@
+{
+  "heat_no": 77553,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-04-04T11:30:00",
+  "drivers": [
+    {
+      "name": "Andrey Markin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.373,
+      "lap_times_url": null,
+      "laps": [
+        105.828,
+        84.725,
+        82.32,
+        81.755,
+        81.481,
+        81.703,
+        81.373,
+        81.573
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Dorian Loveless",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.148,
+      "lap_times_url": null,
+      "laps": [
+        103.833,
+        83.837,
+        81.741,
+        81.876,
+        81.873,
+        83.746,
+        82.242,
+        81.148
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Anton Nosachov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.58,
+      "lap_times_url": null,
+      "laps": [
+        117.052,
+        100.545,
+        89.722,
+        89.394,
+        99.441,
+        88.662,
+        88.58
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77553"
+}

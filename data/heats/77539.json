@@ -1,0 +1,87 @@
+{
+  "heat_no": 77539,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-04-03T16:00:00",
+  "drivers": [
+    {
+      "name": "Ethan Acosta",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.18,
+      "lap_times_url": null,
+      "laps": [
+        94.876,
+        79.001,
+        78.18,
+        78.565,
+        78.447,
+        78.752,
+        78.367,
+        78.961
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.93,
+      "lap_times_url": null,
+      "laps": [
+        99.68,
+        81.158,
+        80.395,
+        79.93,
+        80.661,
+        80.508,
+        81.202,
+        80.625
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jim Mclauchlan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.414,
+      "lap_times_url": null,
+      "laps": [
+        109.246,
+        98.911,
+        97.67,
+        97.4,
+        96.923,
+        94.598,
+        94.414
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=77539"
+}
