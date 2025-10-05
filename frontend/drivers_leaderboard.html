@@ -151,7 +151,13 @@ async function loadAll() {
   const filterInput = document.getElementById("filterInput");
   filterInput.oninput = () => applyFilters(allRows);
   typeSelect.onchange = () => applyFilters(allRows);
-  document.getElementById("refreshBtn").onclick = () => location.reload();
+  const refreshEl = document.getElementById("refreshBtn");
+  if (refreshEl) {
+    refreshEl.onclick = (e) => {
+      e.preventDefault?.();
+      location.reload();
+    };
+  }
 }
 
 function applyFilters(allRows) {
