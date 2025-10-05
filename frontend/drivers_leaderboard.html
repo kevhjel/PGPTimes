@@ -11,10 +11,14 @@
   <h1>Drivers Leaderboard</h1>
 </header>
 <main>
+  <!-- Top nav / controls -->
   <div class="card">
-    <div class="row" style="justify-content: space-between; gap: 10px;">
-      <div class="small">
-        Uses <code>data/drivers_watchlist.json</code> and <code>data/driver_index.json</code>.
+    <div class="row" style="justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+      <div class="row" style="gap:8px; flex-wrap: wrap;">
+        <a class="badge" href="./drivers.html">← Watchlist</a>
+        <a class="badge" href="./index.html">← Heats Browser</a>
+        <!-- Optional refresh as a badge link; remove if you don't want it -->
+        <a id="refreshBtn" class="badge" href="#">↻ Refresh</a>
       </div>
       <div class="row" style="gap:8px; flex-wrap: wrap;">
         <label class="small">Filter (contains): <input id="filterInput" placeholder="type to filter names…"/></label>
@@ -26,19 +30,19 @@
             <option value="League">League</option>
           </select>
         </label>
-        <a id="refreshBtn" class="badge" href="#" onclick="location.reload()">↻ Refresh</a>
-        <a class="badge" href="./index.html">Heats Browser →</a>
       </div>
     </div>
   </div>
 
+  <!-- Status -->
   <div class="card">
-    <div class="row" style="justify-content: space-between;">
+    <div class="row" style="justify-content: space-between; gap: 10px; flex-wrap: wrap;">
       <div class="small">Updated: <span id="updated" class="mono"></span></div>
       <div class="small">Drivers in watchlist: <span id="watchCount" class="mono">0</span> • Ranked: <span id="rankedCount" class="mono">0</span></div>
     </div>
   </div>
 
+  <!-- Table -->
   <div class="card" id="tableCard">
     <table id="board">
       <thead>
@@ -55,53 +59,72 @@
       <tbody></tbody>
     </table>
   </div>
+
+  <!-- Visible error/notice area -->
+  <div id="notice" class="small"></div>
 </main>
 
 <script>
-async function jget(pathOptions) {
-  for (const p of pathOptions) {
+/* ---------- small helpers ---------- */
+function fmtSeconds(s) { if (s == null || isNaN(s)) return ""; return Number(s).toFixed(3) + " s"; }
+function byNumberAsc(a, b) { if (a == null && b == null) return 0; if (a == null) return 1; if (b == null) return -1; return a - b; }
+
+/* ---------- robust fetch for Pages + local ---------- */
+async function jgetRel(name) {
+  // Adjust the first entry if your repo name changes
+  const candidates = [
+    // GitHub Pages project site: https://<user>.github.io/<repo>/
+    "/PGPTimes/data/" + name,
+    // When opened from /frontend locally (../data sits next to /frontend)
+    "../data/" + name,
+    // If the page ever moves to the repo root
+    "./data/" + name,
+  ];
+  let lastErr;
+  for (const url of candidates) {
     try {
-      const r = await fetch(p, { cache: "no-store" });
-      if (r.ok) return r.json();
-    } catch {}
+      const res = await fetch(url, { cache: "no-store" });
+      if (res.ok) return res.json();
+      lastErr = new Error(`${url} -> HTTP ${res.status}`);
+    } catch (e) { lastErr = e; }
   }
-  throw new Error("Could not load " + pathOptions.join(" or "));
+  throw lastErr ?? new Error("Failed to fetch " + name);
 }
 
-function fmtSeconds(s) {
-  if (s == null || isNaN(s)) return "";
-  return Number(s).toFixed(3) + " s";
+/* ---------- normalize possible JSON shapes ---------- */
+function normalizeDriverIndex(raw) {
+  // Expected: { drivers: { "Name": [ {heat_no, heat_type, laps, best_lap_seconds, start_time_iso}, ... ] }, last_updated_utc: ... }
+  if (raw && raw.drivers && typeof raw.drivers === "object") return raw;
+
+  // Tolerate other keys someone might use
+  const alt = (raw && (raw.by_name || raw.index));
+  if (alt && typeof alt === "object") return { drivers: alt, last_updated_utc: raw.last_updated_utc || "" };
+
+  return { drivers: {}, last_updated_utc: "" };
+}
+function normalizeWatchlist(raw) {
+  if (Array.isArray(raw)) return raw;
+  if (raw && Array.isArray(raw.watchlist)) return raw.watchlist;
+  if (raw && typeof raw === "object") return Object.keys(raw); // tolerate {"Ed Acosta": true, ...}
+  return [];
 }
 
-function byNumberAsc(a, b) {
-  if (a == null && b == null) return 0;
-  if (a == null) return 1;
-  if (b == null) return -1;
-  return a - b;
-}
-
+/* ---------- compute per-driver best ---------- */
 function bestEntryForDriver(entries, typeFilter) {
-  Apply heat-type filter before computing best
   const filtered = (typeFilter && typeFilter !== "All")
     ? entries.filter(e => (e.heat_type || "").toLowerCase().includes(typeFilter.toLowerCase()))
     : entries;
 
   if (!filtered.length) return null;
 
-  let best = null;
-  let bestTime = null;
-
+  let best = null, bestTime = null;
   for (const e of filtered) {
-    const candidates = [];
-    if (Array.isArray(e.laps) && e.laps.length) {
-      candidates.push(Math.min(...e.laps));
-    }
-    if (typeof e.best_lap_seconds === "number") {
-      candidates.push(e.best_lap_seconds);
-    }
-    if (!candidates.length) continue;
+    const cands = [];
+    if (Array.isArray(e.laps) && e.laps.length) cands.push(Math.min(...e.laps));
+    if (typeof e.best_lap_seconds === "number") cands.push(e.best_lap_seconds);
+    if (!cands.length) continue;
 
-    const minThisHeat = Math.min(...candidates);
+    const minThisHeat = Math.min(...cands);
     if (bestTime == null || minThisHeat < bestTime) {
       bestTime = minThisHeat;
       best = { ...e, fastest_lap_seconds: minThisHeat };
@@ -110,24 +133,70 @@ function bestEntryForDriver(entries, typeFilter) {
   return best;
 }
 
+/* ---------- render ---------- */
+function renderTable(rows) {
+  const tbody = document.querySelector("#board tbody");
+  tbody.innerHTML = "";
+  let rank = 0;
+
+  for (const r of rows) {
+    const ranked = r.fastest != null;
+    if (ranked) rank += 1;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${ranked ? rank : ""}</td>
+      <td><a href="./driver_charts.html#${encodeURIComponent(r.name)}">${r.name}</a></td>
+      <td>${ranked ? fmtSeconds(r.fastest) : "<span class='small'>— no laps —</span>"}</td>
+      <td>${r.heat_no ? `<a href="./index.html#${r.heat_no}">${r.heat_no}</a>` : ""}</td>
+      <td>${r.heat_type || ""}</td>
+      <td class="small">${r.when || ""}</td>
+      <td>${r.laps_count || ""}</td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById("rankedCount").textContent = rows.filter(r => r.fastest != null).length;
+}
+
+/* ---------- load & wire ---------- */
 async function loadAll() {
-  const driverIndex = await jget(["../data/driver_index.json", "./data/driver_index.json"]);
-  const watchlist = await jget(["../data/drivers_watchlist.json", "./data/drivers_watchlist.json"]);
+  const notice = document.getElementById("notice");
+
+  // Safe handler for optional refresh element (won't crash if removed)
+  const refreshEl = document.getElementById("refreshBtn");
+  if (refreshEl) {
+    refreshEl.onclick = (e) => { e?.preventDefault?.(); location.reload(); };
+  }
+
+  let driverIndexRaw, watchlistRaw;
+  try {
+    [driverIndexRaw, watchlistRaw] = await Promise.all([
+      jgetRel("driver_index.json"),
+      jgetRel("drivers_watchlist.json"),
+    ]);
+  } catch (err) {
+    notice.textContent = "Failed to load data files. " + (err?.message || err);
+    return;
+  }
+
+  const driverIndex = normalizeDriverIndex(driverIndexRaw);
+  const watchlist   = normalizeWatchlist(watchlistRaw);
 
   document.getElementById("updated").textContent = driverIndex.last_updated_utc || "";
-  document.getElementById("watchCount").textContent = Array.isArray(watchlist) ? watchlist.length : 0;
-
-  const allRows = [];
-  const drivers = driverIndex.drivers || {};
+  document.getElementById("watchCount").textContent = watchlist.length;
 
   const typeSelect = document.getElementById("heatTypeSelect");
-  const typeFilter = typeSelect.value;
+  const typeFilter = typeSelect ? typeSelect.value : "All";
 
-  for (const name of (watchlist || [])) {
-    const series = drivers[name] || [];
+  const rows = [];
+  const byName = driverIndex.drivers || {};
+
+  for (const name of watchlist) {
+    const series = byName[name] || [];
     const best = bestEntryForDriver(series, typeFilter);
     if (best && typeof best.fastest_lap_seconds === "number") {
-      allRows.push({
+      rows.push({
         name,
         fastest: best.fastest_lap_seconds,
         heat_no: best.heat_no ?? "",
@@ -136,33 +205,28 @@ async function loadAll() {
         laps_count: Array.isArray(best.laps) ? best.laps.length : (best.best_lap_seconds != null ? "—" : "")
       });
     } else {
-      allRows.push({ name, fastest: null, heat_no: "", heat_type: "", when: "", laps_count: "" });
+      rows.push({ name, fastest: null, heat_no: "", heat_type: "", when: "", laps_count: "" });
     }
   }
 
-  allRows.sort((a, b) => {
+  rows.sort((a, b) => {
     const cmp = byNumberAsc(a.fastest, b.fastest);
     if (cmp !== 0) return cmp;
     return (a.name || "").localeCompare(b.name || "");
   });
 
-  renderTable(allRows);
+  // Initial render
+  renderTable(rows);
 
+  // Live filters
   const filterInput = document.getElementById("filterInput");
-  filterInput.oninput = () => applyFilters(allRows);
-  typeSelect.onchange = () => applyFilters(allRows);
-  const refreshEl = document.getElementById("refreshBtn");
-  if (refreshEl) {
-    refreshEl.onclick = (e) => {
-      e.preventDefault?.();
-      location.reload();
-    };
-  }
+  if (filterInput) filterInput.oninput = () => applyFilters(rows);
+  if (typeSelect) typeSelect.onchange = () => applyFilters(rows);
 }
 
 function applyFilters(allRows) {
-  const q = document.getElementById("filterInput").value.trim().toLowerCase();
-  const type = document.getElementById("heatTypeSelect").value;
+  const q = (document.getElementById("filterInput")?.value || "").trim().toLowerCase();
+  const type = (document.getElementById("heatTypeSelect")?.value || "All");
   const filtered = allRows.filter(r => {
     const matchName = !q || (r.name || "").toLowerCase().includes(q);
     const matchType = (type === "All") || ((r.heat_type || "").toLowerCase().includes(type.toLowerCase()));
@@ -171,32 +235,16 @@ function applyFilters(allRows) {
   renderTable(filtered);
 }
 
-function renderTable(rows) {
-  const tbody = document.querySelector("#board tbody");
-  tbody.innerHTML = "";
-  let rank = 0;
-  for (const r of rows) {
-    const tr = document.createElement("tr");
-    const ranked = r.fastest != null;
-    if (ranked) rank += 1;
-    tr.innerHTML = `
-      <td>${ranked ? rank : ""}</td>
-      <td><a href="./driver_charts.html#${encodeURIComponent(r.name)}">${r.name}</a></td>
-      <td>${ranked ? fmtSeconds(r.fastest) : "<span class='small'>— no laps —</span>"}</td>
-      <td>${r.heat_no ? `<a href="./index.html#${r.heat_no}" onclick="window.location.href='./index.html#${r.heat_no}'">${r.heat_no}</a>` : ""}</td>
-      <td>${r.heat_type}</td>
-      <td class="small">${r.when}</td>
-      <td>${r.laps_count}</td>
-    `;
-    tbody.appendChild(tr);
-  }
-  document.getElementById("rankedCount").textContent = rows.filter(r => r.fastest != null).length;
-}
-
 loadAll().catch(err => {
-  const card = document.getElementById("tableCard");
-  card.innerHTML = `<div class="small">Failed to load data: ${err.message}</div>`;
+  const n = document.getElementById("notice");
+  n.textContent = "Error: " + (err?.message || err);
 });
 </script>
+
+<style>
+/* Make table links match text, underline on hover */
+table a { color: inherit; text-decoration: none; }
+table a:hover { text-decoration: underline; }
+</style>
 </body>
 </html>
