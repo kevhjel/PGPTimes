@@ -38,6 +38,11 @@ jobs:
           echo "Running scraper with max=$MAX"
           python -m scraper.run --max "$MAX"
 
+      - name: Cleanup empty/bad heats and reset last_heat
+        run: |
+          python scripts/cleanup_empty_heats.py
+
+
       - name: Commit & push updates
         run: |
           git config user.name "github-actions[bot]"
