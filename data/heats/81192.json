@@ -1,0 +1,120 @@
+{
+  "heat_no": 81192,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-15T11:15:00",
+  "drivers": [
+    {
+      "name": "Will Morris",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.534,
+      "lap_times_url": null,
+      "laps": [
+        131.896,
+        120.249,
+        118.178,
+        117.534
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Clay Matthews",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.285,
+      "lap_times_url": null,
+      "laps": [
+        122.716,
+        122.731,
+        119.62,
+        118.285
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Colton Edwards",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 121.77,
+      "lap_times_url": null,
+      "laps": [
+        124.096,
+        123.027,
+        121.77,
+        126.889
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tennis Ball",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 149.396,
+      "lap_times_url": null,
+      "laps": [
+        180.671,
+        172.363,
+        149.396
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jack Ramie",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.004,
+      "lap_times_url": null,
+      "laps": [
+        120.494,
+        125.802,
+        119.343,
+        119.004
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "George Solis",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 124.704,
+      "lap_times_url": null,
+      "laps": [
+        138.698,
+        125.497,
+        124.704,
+        141.839
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81192"
+}

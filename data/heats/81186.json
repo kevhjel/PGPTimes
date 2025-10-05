@@ -1,0 +1,29 @@
+{
+  "heat_no": 81186,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-15T09:45:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.254,
+      "lap_times_url": null,
+      "laps": [
+        133.297,
+        135.271,
+        139.938,
+        133.39,
+        126.254
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81186"
+}

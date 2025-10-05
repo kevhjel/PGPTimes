@@ -1,0 +1,56 @@
+{
+  "heat_no": 80834,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-01T15:15:00",
+  "drivers": [
+    {
+      "name": "Alysia Grady",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.795,
+      "lap_times_url": null,
+      "laps": [
+        153.824,
+        92.354,
+        92.059,
+        97.701,
+        91.939,
+        90.795
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Finn Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.423,
+      "lap_times_url": null,
+      "laps": [
+        115.374,
+        90.718,
+        88.975,
+        87.423,
+        89.324,
+        89.327,
+        89.76
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80834"
+}

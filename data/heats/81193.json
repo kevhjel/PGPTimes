@@ -1,0 +1,78 @@
+{
+  "heat_no": 81193,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-15T11:30:00",
+  "drivers": [
+    {
+      "name": "Kyle De la rosa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 149.708,
+      "lap_times_url": null,
+      "laps": [
+        208.196,
+        150.216,
+        166.994,
+        149.708
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Meriel Galang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 147.624,
+      "lap_times_url": null,
+      "laps": [
+        237.81,
+        170.574,
+        147.624
+      ],
+      "lap_positions": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "Jasmine Kuo",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 167.304,
+      "lap_times_url": null,
+      "laps": [
+        204.986,
+        167.304,
+        179.729
+      ],
+      "lap_positions": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Tobia Kim",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 165.689,
+      "lap_times_url": null,
+      "laps": [
+        209.26,
+        165.689,
+        177.653
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81193"
+}

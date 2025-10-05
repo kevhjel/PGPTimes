@@ -1,0 +1,89 @@
+{
+  "heat_no": 80964,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-07T12:15:00",
+  "drivers": [
+    {
+      "name": "Chris Chalmers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.785,
+      "lap_times_url": null,
+      "laps": [
+        91.77,
+        81.665,
+        81.432,
+        80.791,
+        80.785,
+        80.811,
+        81.244,
+        81.199
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Steven Chalmers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.678,
+      "lap_times_url": null,
+      "laps": [
+        92.591,
+        82.394,
+        82.213,
+        81.814,
+        81.68,
+        81.678,
+        81.866,
+        82.26
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Micah Salkind",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.764,
+      "lap_times_url": null,
+      "laps": [
+        93.636,
+        83.618,
+        83.164,
+        82.764,
+        83.419,
+        83.563,
+        83.412,
+        83.472
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80964"
+}

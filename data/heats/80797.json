@@ -1,0 +1,79 @@
+{
+  "heat_no": 80797,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-31T11:15:00",
+  "drivers": [
+    {
+      "name": "John Robe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.484,
+      "lap_times_url": null,
+      "laps": [
+        122.332,
+        86.977,
+        85.874,
+        86.33,
+        85.539,
+        84.484,
+        84.687
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Luke Boley",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.079,
+      "lap_times_url": null,
+      "laps": [
+        124.125,
+        82.905,
+        82.747,
+        84.088,
+        82.089,
+        82.431,
+        82.079
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rebekah Robe",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.229,
+      "lap_times_url": null,
+      "laps": [
+        148.601,
+        117.369,
+        111.962,
+        110.635,
+        107.229
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80797"
+}

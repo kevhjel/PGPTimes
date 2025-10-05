@@ -1,0 +1,46 @@
+{
+  "heat_no": 80901,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-06T11:45:00",
+  "drivers": [
+    {
+      "name": "Philip Bergman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 145.436,
+      "lap_times_url": null,
+      "laps": [
+        173.458,
+        147.837,
+        149.773,
+        145.436
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Wes Bergman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 154.644,
+      "lap_times_url": null,
+      "laps": [
+        202.662,
+        164.403,
+        167.75,
+        154.644
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80901"
+}

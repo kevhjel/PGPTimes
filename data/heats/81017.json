@@ -1,0 +1,87 @@
+{
+  "heat_no": 81017,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-08T11:15:00",
+  "drivers": [
+    {
+      "name": "Cory Ogdahl",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.196,
+      "lap_times_url": null,
+      "laps": [
+        107.219,
+        82.137,
+        81.449,
+        81.196,
+        81.522,
+        82.47,
+        81.683,
+        81.206
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sean Gast",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.33,
+      "lap_times_url": null,
+      "laps": [
+        106.718,
+        82.671,
+        87.04,
+        83.138,
+        83.716,
+        82.33,
+        83.005,
+        82.78
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nicholas Paul",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.591,
+      "lap_times_url": null,
+      "laps": [
+        107.951,
+        84.813,
+        84.591,
+        97.689,
+        95.253,
+        96.622,
+        94.894
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81017"
+}

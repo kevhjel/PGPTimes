@@ -1,0 +1,464 @@
+{
+  "heat_no": 80867,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-08-02T13:15:00",
+  "drivers": [
+    {
+      "name": "Binyu Long",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.516,
+      "lap_times_url": null,
+      "laps": [
+        113.1,
+        97.008,
+        90.06,
+        84.284,
+        83.516,
+        84.211,
+        96.027
+      ],
+      "lap_positions": [
+        7,
+        10,
+        9,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mehul Padwal",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.705,
+      "lap_times_url": null,
+      "laps": [
+        113.001,
+        94.103,
+        89.791,
+        98.424,
+        84.705,
+        87.382
+      ],
+      "lap_positions": [
+        6,
+        9,
+        8,
+        9,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Satyen Amonkar",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 102.553,
+      "lap_times_url": null,
+      "laps": [
+        138.008,
+        107.45,
+        102.553,
+        114.052,
+        121.7
+      ],
+      "lap_positions": [
+        14,
+        12,
+        13,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Michael Fulk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.692,
+      "lap_times_url": null,
+      "laps": [
+        112.635,
+        83.195,
+        83.306,
+        83.547,
+        85.091,
+        84.133,
+        82.692
+      ],
+      "lap_positions": [
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emma Wei",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 109.467,
+      "lap_times_url": null,
+      "laps": [
+        151.935,
+        115.78,
+        109.467,
+        182.722
+      ],
+      "lap_positions": [
+        16,
+        16,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "David Huang",
+      "position": 19,
+      "kart": null,
+      "best_lap_seconds": 120.463,
+      "lap_times_url": null,
+      "laps": [
+        148.885,
+        178.713,
+        120.463,
+        124.534
+      ],
+      "lap_positions": [
+        15,
+        20,
+        18,
+        19
+      ]
+    },
+    {
+      "name": "Yicheng Lin",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 116.864,
+      "lap_times_url": null,
+      "laps": [
+        152.277,
+        116.864,
+        124.713,
+        118.378,
+        120.318
+      ],
+      "lap_positions": [
+        17,
+        17,
+        17,
+        17,
+        18
+      ]
+    },
+    {
+      "name": "Pedro Alonso S...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 86.658,
+      "lap_times_url": null,
+      "laps": [
+        110.629,
+        86.658,
+        94.362,
+        87.811,
+        87.755,
+        90.776,
+        92.16
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        7,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Jingcheng Shi",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 85.405,
+      "lap_times_url": null,
+      "laps": [
+        113.853,
+        86.871,
+        86.999,
+        85.597,
+        86.129,
+        85.562,
+        85.405
+      ],
+      "lap_positions": [
+        8,
+        5,
+        5,
+        6,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Jun Tang",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 84.823,
+      "lap_times_url": null,
+      "laps": [
+        112.052,
+        84.823,
+        85.876,
+        85.594,
+        86.175,
+        87.245,
+        86.16
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Christopher Me...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.043,
+      "lap_times_url": null,
+      "laps": [
+        112.038,
+        83.347,
+        83.057,
+        84.065,
+        84.53,
+        84.759,
+        82.043
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Akshay Nalwaya",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 99.859,
+      "lap_times_url": null,
+      "laps": [
+        129.595,
+        114.781,
+        101.806,
+        113.724,
+        99.859,
+        100.372
+      ],
+      "lap_positions": [
+        12,
+        14,
+        12,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Abhishek Arya",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 104.904,
+      "lap_times_url": null,
+      "laps": [
+        157.748,
+        115.096,
+        148.596,
+        110.361,
+        104.904
+      ],
+      "lap_positions": [
+        18,
+        15,
+        16,
+        16,
+        15
+      ]
+    },
+    {
+      "name": "Punya Shah",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 85.148,
+      "lap_times_url": null,
+      "laps": [
+        110.561,
+        87.541,
+        87.972,
+        85.148,
+        86.296,
+        86.336,
+        88.047
+      ],
+      "lap_positions": [
+        1,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Shreyash Mohatta",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 95.803,
+      "lap_times_url": null,
+      "laps": [
+        122.598,
+        104.099,
+        95.833,
+        102.893,
+        95.803,
+        112.398
+      ],
+      "lap_positions": [
+        10,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Zuer Wang",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 93.859,
+      "lap_times_url": null,
+      "laps": [
+        130.281,
+        93.859,
+        99.91,
+        95.763,
+        102.855,
+        96.147
+      ],
+      "lap_positions": [
+        13,
+        8,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Yuting Yang",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 99.489,
+      "lap_times_url": null,
+      "laps": [
+        125.901,
+        112.032,
+        106.585,
+        99.489,
+        113.501,
+        107.275
+      ],
+      "lap_positions": [
+        11,
+        13,
+        14,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Guanwen Yan",
+      "position": 20,
+      "kart": null,
+      "best_lap_seconds": 135.948,
+      "lap_times_url": null,
+      "laps": [
+        166.912,
+        137.297,
+        138.799,
+        135.948
+      ],
+      "lap_positions": [
+        20,
+        18,
+        20,
+        20
+      ]
+    },
+    {
+      "name": "Martin Aloise",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.584,
+      "lap_times_url": null,
+      "laps": [
+        117.272,
+        89.156,
+        91.294,
+        99.417,
+        86.584,
+        102.586,
+        88.932
+      ],
+      "lap_positions": [
+        9,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Shubham Airan",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 113.708,
+      "lap_times_url": null,
+      "laps": [
+        164.426,
+        141.54,
+        126.502,
+        117.447,
+        113.708
+      ],
+      "lap_positions": [
+        19,
+        19,
+        19,
+        18,
+        17
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80867"
+}

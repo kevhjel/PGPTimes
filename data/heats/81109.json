@@ -1,0 +1,106 @@
+{
+  "heat_no": 81109,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-13T09:30:00",
+  "drivers": [
+    {
+      "name": "Greg Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.982,
+      "lap_times_url": null,
+      "laps": [
+        140.517,
+        84.618,
+        87.111,
+        84.011,
+        83.445,
+        83.557,
+        82.982
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "JOSEPH HUBACH",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.286,
+      "lap_times_url": null,
+      "laps": [
+        139.204,
+        85.885,
+        85.28,
+        83.976,
+        84.167,
+        83.286,
+        83.33
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "David Negroiu",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.958,
+      "lap_times_url": null,
+      "laps": [
+        149.006,
+        93.471,
+        92.626,
+        91.88,
+        96.482,
+        89.958
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Alexandru Negr...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.924,
+      "lap_times_url": null,
+      "laps": [
+        141.934,
+        90.375,
+        87.928,
+        87.146,
+        86.683,
+        85.941,
+        85.924
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81109"
+}

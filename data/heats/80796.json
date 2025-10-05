@@ -1,0 +1,100 @@
+{
+  "heat_no": 80796,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-31T11:00:00",
+  "drivers": [
+    {
+      "name": "Johnny Anaya",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.119,
+      "lap_times_url": null,
+      "laps": [
+        147.746,
+        88.792,
+        88.276,
+        90.099,
+        86.336,
+        86.119,
+        88.58
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jacob Hamilton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.874,
+      "lap_times_url": null,
+      "laps": [
+        150.879,
+        93.874,
+        95.347,
+        110.362,
+        105.443,
+        95.414
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daniel Camacho",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.255,
+      "lap_times_url": null,
+      "laps": [
+        161.385,
+        107.666,
+        104.726,
+        100.641,
+        97.255,
+        98.84
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Sergio Camacho",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.983,
+      "lap_times_url": null,
+      "laps": [
+        164.921,
+        129.316,
+        122.186,
+        120.983,
+        121.167
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80796"
+}

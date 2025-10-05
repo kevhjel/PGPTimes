@@ -1,0 +1,138 @@
+{
+  "heat_no": 80911,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-06T14:15:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.825,
+      "lap_times_url": null,
+      "laps": [
+        130.852,
+        98.208,
+        94.755,
+        96.537,
+        92.477,
+        89.825,
+        90.09
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Oliver Conrad",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.427,
+      "lap_times_url": null,
+      "laps": [
+        140.277,
+        106.839,
+        103.427,
+        114.981,
+        108.637,
+        105.204
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tara Ward",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 126.664,
+      "lap_times_url": null,
+      "laps": [
+        157.905,
+        133.546,
+        131.861,
+        129.265,
+        126.664
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jamil Ellinger",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.224,
+      "lap_times_url": null,
+      "laps": [
+        148.84,
+        122.56,
+        119.547,
+        117.224,
+        118.157
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Skye Davis",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 111.456,
+      "lap_times_url": null,
+      "laps": [
+        156.175,
+        125.311,
+        119.194,
+        115.091,
+        111.456
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jayda Zealot",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 131.027,
+      "lap_times_url": null,
+      "laps": [
+        161.476,
+        143.826,
+        131.027,
+        138.614
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80911"
+}

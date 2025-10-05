@@ -1,0 +1,29 @@
+{
+  "heat_no": 80956,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-07T10:15:00",
+  "drivers": [
+    {
+      "name": "Sierra Wright",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.794,
+      "lap_times_url": null,
+      "laps": [
+        125.305,
+        104.794,
+        105.173,
+        129.326,
+        189.089
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80956"
+}

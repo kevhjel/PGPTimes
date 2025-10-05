@@ -1,0 +1,88 @@
+{
+  "heat_no": 81170,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-15T11:45:00",
+  "drivers": [
+    {
+      "name": "Will Morris",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.513,
+      "lap_times_url": null,
+      "laps": [
+        120.372,
+        118.847,
+        116.247,
+        114.775,
+        114.513
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Colton Edwards",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.975,
+      "lap_times_url": null,
+      "laps": [
+        128.524,
+        121.712,
+        120.782,
+        119.975
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jack Ramie",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.702,
+      "lap_times_url": null,
+      "laps": [
+        117.959,
+        121.941,
+        116.015,
+        116.695,
+        115.702
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "George Solis",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.492,
+      "lap_times_url": null,
+      "laps": [
+        122.922,
+        125.786,
+        120.492,
+        125.241
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81170"
+}

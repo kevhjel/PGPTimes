@@ -1,0 +1,56 @@
+{
+  "heat_no": 80794,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-31T10:30:00",
+  "drivers": [
+    {
+      "name": "Johnny Anaya",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.64,
+      "lap_times_url": null,
+      "laps": [
+        128.031,
+        92.788,
+        91.772,
+        92.647,
+        91.5,
+        90.64,
+        90.885
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jacob Hamilton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.088,
+      "lap_times_url": null,
+      "laps": [
+        139.389,
+        104.101,
+        102.017,
+        106.918,
+        104.83,
+        97.088
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80794"
+}

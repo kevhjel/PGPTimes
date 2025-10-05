@@ -1,0 +1,169 @@
+{
+  "heat_no": 81012,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-08T10:00:00",
+  "drivers": [
+    {
+      "name": "Michael Meyer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.201,
+      "lap_times_url": null,
+      "laps": [
+        123.73,
+        89.877,
+        88.201,
+        89.534,
+        91.516,
+        88.978,
+        98.092
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emryk Meyer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.585,
+      "lap_times_url": null,
+      "laps": [
+        120.454,
+        85.435,
+        83.858,
+        85.291,
+        87.676,
+        86.595,
+        83.585
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ian Meyer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.981,
+      "lap_times_url": null,
+      "laps": [
+        140.626,
+        101.78,
+        104.88,
+        98.669,
+        97.981,
+        98.107
+      ],
+      "lap_positions": [
+        6,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brooke Stopherd",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 99.669,
+      "lap_times_url": null,
+      "laps": [
+        133.027,
+        106.76,
+        106.283,
+        103.611,
+        100.509,
+        99.669
+      ],
+      "lap_positions": [
+        3,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jack Stopherd",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.479,
+      "lap_times_url": null,
+      "laps": [
+        138.779,
+        111.02,
+        106.01,
+        102.557,
+        99.479,
+        101.984
+      ],
+      "lap_positions": [
+        5,
+        6,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Rick Wolslegel",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 108.922,
+      "lap_times_url": null,
+      "laps": [
+        133.878,
+        108.922,
+        113.45,
+        113.243,
+        114.954
+      ],
+      "lap_positions": [
+        4,
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Ed Grizzell",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 120.022,
+      "lap_times_url": null,
+      "laps": [
+        143.844,
+        120.022,
+        122.129,
+        123.701,
+        121.515
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81012"
+}

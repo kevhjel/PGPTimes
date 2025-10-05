@@ -1,0 +1,93 @@
+{
+  "heat_no": 80961,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-07T11:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.881,
+      "lap_times_url": null,
+      "laps": [
+        87.507,
+        82.228,
+        82.204,
+        82.547,
+        82.708,
+        82.575,
+        82.605,
+        81.881,
+        82.406
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Steve Goldman",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.127,
+      "lap_times_url": null,
+      "laps": [
+        94.098,
+        86.668,
+        85.721,
+        100.746,
+        84.127,
+        84.223,
+        84.649,
+        84.99,
+        85.063
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Conor King Gol...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.801,
+      "lap_times_url": null,
+      "laps": [
+        90.247,
+        88.335,
+        82.135,
+        81.312,
+        80.948,
+        80.938,
+        80.801,
+        81.032
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80961"
+}

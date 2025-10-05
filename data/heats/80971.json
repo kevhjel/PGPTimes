@@ -1,0 +1,87 @@
+{
+  "heat_no": 80971,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-07T17:15:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.642,
+      "lap_times_url": null,
+      "laps": [
+        82.99,
+        80.642,
+        82.236,
+        81.065,
+        80.936,
+        80.949,
+        80.71,
+        80.766
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Arnaud Gstach",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.961,
+      "lap_times_url": null,
+      "laps": [
+        90.391,
+        91.437,
+        87.598,
+        86.366,
+        85.961,
+        86.249,
+        87.174,
+        85.99
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Adam Gstach",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.023,
+      "lap_times_url": null,
+      "laps": [
+        87.883,
+        93.424,
+        89.2,
+        94.206,
+        89.259,
+        87.138,
+        86.023
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80971"
+}

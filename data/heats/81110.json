@@ -1,0 +1,33 @@
+{
+  "heat_no": 81110,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-13T09:45:00",
+  "drivers": [
+    {
+      "name": "Dennis Yee",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.136,
+      "lap_times_url": null,
+      "laps": [
+        129.409,
+        93.196,
+        91.119,
+        90.469,
+        90.038,
+        89.592,
+        89.136
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81110"
+}

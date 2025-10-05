@@ -1,0 +1,48 @@
+{
+  "heat_no": 81187,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-15T10:00:00",
+  "drivers": [
+    {
+      "name": "Nicole Hilbert",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 134.656,
+      "lap_times_url": null,
+      "laps": [
+        135.644,
+        162.131,
+        134.656,
+        151.792
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.078,
+      "lap_times_url": null,
+      "laps": [
+        127.376,
+        126.078,
+        134.961,
+        126.431,
+        136.762
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81187"
+}

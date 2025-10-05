@@ -1,0 +1,80 @@
+{
+  "heat_no": 81174,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-15T12:45:00",
+  "drivers": [
+    {
+      "name": "Apollo Dent",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 155.641,
+      "lap_times_url": null,
+      "laps": [
+        201.264,
+        168.284,
+        160.227,
+        155.641
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Miguel Ruiz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 145.474,
+      "lap_times_url": null,
+      "laps": [
+        177.214,
+        151.58,
+        151.809,
+        145.474
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Dustin Marsland",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 147.523,
+      "lap_times_url": null,
+      "laps": [
+        222.049,
+        147.523,
+        155.733
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cj Marsland",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 175.899,
+      "lap_times_url": null,
+      "laps": [
+        248.478,
+        184.886,
+        175.899
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81174"
+}

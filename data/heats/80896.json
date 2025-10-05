@@ -1,0 +1,155 @@
+{
+  "heat_no": 80896,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-08-06T11:30:00",
+  "drivers": [
+    {
+      "name": "evan smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.324,
+      "lap_times_url": null,
+      "laps": [
+        162.844,
+        129.432,
+        123.868,
+        133.267,
+        123.324
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "saeng pion",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.717,
+      "lap_times_url": null,
+      "laps": [
+        175.009,
+        128.717,
+        138.593,
+        128.845,
+        128.889
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joe Lombardo",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 130.459,
+      "lap_times_url": null,
+      "laps": [
+        173.234,
+        167.419,
+        143.568,
+        130.459,
+        134.184
+      ],
+      "lap_positions": [
+        3,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Kevin Flanagan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 133.725,
+      "lap_times_url": null,
+      "laps": [
+        179.451,
+        138.404,
+        137.647,
+        133.725,
+        136.304
+      ],
+      "lap_positions": [
+        7,
+        6,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tim Smedberg",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 137.565,
+      "lap_times_url": null,
+      "laps": [
+        172.226,
+        140.996,
+        149.906,
+        142.495,
+        137.565
+      ],
+      "lap_positions": [
+        6,
+        4,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Nate Thompson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 132.528,
+      "lap_times_url": null,
+      "laps": [
+        167.783,
+        137.375,
+        139.854,
+        132.528,
+        134.228
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Evan Sarantinos",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 134.656,
+      "lap_times_url": null,
+      "laps": [
+        183.052,
+        143.773,
+        148.011,
+        134.656,
+        139.835
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80896"
+}

@@ -1,0 +1,84 @@
+{
+  "heat_no": 80941,
+  "heat_type": "Group Event Qualifying",
+  "start_time_iso": "2025-08-07T14:45:00",
+  "drivers": [
+    {
+      "name": "Michael Avrakh",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.65,
+      "lap_times_url": null,
+      "laps": [
+        104.642,
+        122.791,
+        90.65,
+        90.137,
+        90.531,
+        96.41,
+        89.65
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Colin Szechy",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.316,
+      "lap_times_url": null,
+      "laps": [
+        112.501,
+        123.467,
+        91.03,
+        90.865,
+        90.316,
+        100.472
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Matthew Sherwood",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.335,
+      "lap_times_url": null,
+      "laps": [
+        119.335,
+        135.889
+      ],
+      "lap_positions": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ricky Marwah",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.848,
+      "lap_times_url": null,
+      "laps": [
+        118.848
+      ],
+      "lap_positions": [
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80941"
+}

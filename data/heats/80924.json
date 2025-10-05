@@ -1,0 +1,88 @@
+{
+  "heat_no": 80924,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-06T15:45:00",
+  "drivers": [
+    {
+      "name": "Omar Prieto",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 97.42,
+      "lap_times_url": null,
+      "laps": [
+        188.269,
+        108.901,
+        102.346,
+        101.176,
+        97.42,
+        98.509
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jhon Gomez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.725,
+      "lap_times_url": null,
+      "laps": [
+        152.786,
+        129.536,
+        109.725,
+        111.388,
+        114.344
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Marc Whitten",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 156.573,
+      "lap_times_url": null,
+      "laps": [
+        188.191,
+        156.573,
+        168.419,
+        156.65
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alex Whitten",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 166.32,
+      "lap_times_url": null,
+      "laps": [
+        204.01,
+        167.723,
+        166.32
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80924"
+}

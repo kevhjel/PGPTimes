@@ -1,0 +1,96 @@
+{
+  "heat_no": 81067,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-08-10T09:30:00",
+  "drivers": [
+    {
+      "name": "Philip Young",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 95.742,
+      "lap_times_url": null,
+      "laps": [
+        128.418,
+        114.66,
+        108.369,
+        101.507,
+        95.742,
+        97.936
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Miles Sadang",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.949,
+      "lap_times_url": null,
+      "laps": [
+        128.559,
+        114.631,
+        108.295,
+        101.267,
+        97.949,
+        103.731
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lucille Sadang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 124.204,
+      "lap_times_url": null,
+      "laps": [
+        130.368,
+        127.689,
+        134.315,
+        126.378,
+        124.204
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Elliot Sadang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 124.896,
+      "lap_times_url": null,
+      "laps": [
+        131.209,
+        127.759,
+        134.179,
+        124.896,
+        125.428
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81067"
+}

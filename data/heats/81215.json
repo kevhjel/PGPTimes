@@ -1,0 +1,484 @@
+{
+  "heat_no": 81215,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-08-16T13:00:00",
+  "drivers": [
+    {
+      "name": "Andrey Antonchik",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.859,
+      "lap_times_url": null,
+      "laps": [
+        122.413,
+        85.859,
+        103.25,
+        92.513,
+        86.663,
+        89.085,
+        86.981,
+        88.604
+      ],
+      "lap_positions": [
+        8,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mykola Martynyuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.176,
+      "lap_times_url": null,
+      "laps": [
+        124.012,
+        95.092,
+        99.381,
+        93.977,
+        88.176,
+        89.985,
+        92.911
+      ],
+      "lap_positions": [
+        10,
+        10,
+        10,
+        11,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nathaniel Even...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 90.848,
+      "lap_times_url": null,
+      "laps": [
+        125.11,
+        92.862,
+        99.623,
+        98.03,
+        90.848,
+        94.251,
+        94.079
+      ],
+      "lap_positions": [
+        14,
+        8,
+        8,
+        10,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "David Piholyuk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.331,
+      "lap_times_url": null,
+      "laps": [
+        124.302,
+        88.331,
+        100.095,
+        93.652,
+        88.556,
+        88.541,
+        90.529
+      ],
+      "lap_positions": [
+        11,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ruvim Piholyuk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.575,
+      "lap_times_url": null,
+      "laps": [
+        122.079,
+        87.575,
+        102.31,
+        93.979,
+        97.347,
+        89.587,
+        90.955
+      ],
+      "lap_positions": [
+        7,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daniel Senyuk",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 91.382,
+      "lap_times_url": null,
+      "laps": [
+        110.15,
+        91.382,
+        96.561,
+        98.385,
+        99.149,
+        97.202,
+        92.647
+      ],
+      "lap_positions": [
+        1,
+        6,
+        6,
+        7,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Andrey Senyuk",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 92.291,
+      "lap_times_url": null,
+      "laps": [
+        113.835,
+        104.987,
+        103.238,
+        97.638,
+        92.291,
+        93.563,
+        99.459
+      ],
+      "lap_positions": [
+        2,
+        13,
+        13,
+        13,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Bogdan Senyuk",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 89.368,
+      "lap_times_url": null,
+      "laps": [
+        113.836,
+        93.136,
+        98.194,
+        90.108,
+        89.368,
+        90.525,
+        89.8
+      ],
+      "lap_positions": [
+        3,
+        9,
+        9,
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Samuel Piholyuk",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 89.547,
+      "lap_times_url": null,
+      "laps": [
+        120.789,
+        100.962,
+        111.478,
+        92.052,
+        89.547,
+        94.008,
+        91.624
+      ],
+      "lap_positions": [
+        5,
+        11,
+        12,
+        8,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Oleksandr Smalko",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 90.832,
+      "lap_times_url": null,
+      "laps": [
+        124.488,
+        91.022,
+        97.894,
+        90.832,
+        91.217,
+        104.199,
+        98.616
+      ],
+      "lap_positions": [
+        12,
+        4,
+        4,
+        5,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Alex Senyuk",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 95.873,
+      "lap_times_url": null,
+      "laps": [
+        122.476,
+        103.395,
+        113.058,
+        102.604,
+        99.256,
+        95.873,
+        97.845
+      ],
+      "lap_positions": [
+        9,
+        12,
+        14,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Yakov Senyuk",
+      "position": 20,
+      "kart": null,
+      "best_lap_seconds": 125.572,
+      "lap_times_url": null,
+      "laps": [
+        158.166,
+        135.533,
+        135.817,
+        127.887,
+        125.572
+      ],
+      "lap_positions": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    {
+      "name": "Artur Smalko",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 92.553,
+      "lap_times_url": null,
+      "laps": [
+        121.855,
+        112.783,
+        104.974,
+        102.823,
+        92.938,
+        92.553
+      ],
+      "lap_positions": [
+        6,
+        16,
+        16,
+        16,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Andrey Smalko",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 95.467,
+      "lap_times_url": null,
+      "laps": [
+        130.526,
+        235.065,
+        95.467,
+        99.573,
+        96.63
+      ],
+      "lap_positions": [
+        16,
+        19,
+        11,
+        12,
+        14
+      ]
+    },
+    {
+      "name": "Nazar Senyuk",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 101.631,
+      "lap_times_url": null,
+      "laps": [
+        126.155,
+        123.375,
+        107.536,
+        123.757,
+        118.745,
+        101.631
+      ],
+      "lap_positions": [
+        15,
+        18,
+        17,
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Yaroslav Pihol...",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 108.168,
+      "lap_times_url": null,
+      "laps": [
+        139.192,
+        118.97,
+        119.203,
+        114.04,
+        109.832,
+        108.168
+      ],
+      "lap_positions": [
+        18,
+        17,
+        19,
+        19,
+        19,
+        18
+      ]
+    },
+    {
+      "name": "Jeff Evenson",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 108.636,
+      "lap_times_url": null,
+      "laps": [
+        143.368,
+        108.636,
+        109.197
+      ],
+      "lap_positions": [
+        19,
+        14,
+        18
+      ]
+    },
+    {
+      "name": "Alex Evenson",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 90.087,
+      "lap_times_url": null,
+      "laps": [
+        124.883,
+        92.851,
+        99.239,
+        96.966,
+        90.087,
+        92.503,
+        92.26
+      ],
+      "lap_positions": [
+        13,
+        7,
+        7,
+        9,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Missy Evenson",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 98.662,
+      "lap_times_url": null,
+      "laps": [
+        119.89,
+        108.999,
+        104.614,
+        101.1,
+        100.242,
+        98.662
+      ],
+      "lap_positions": [
+        4,
+        15,
+        15,
+        14,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Luke Evenson",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 91.114,
+      "lap_times_url": null,
+      "laps": [
+        133.379,
+        91.114,
+        100.395,
+        100.705,
+        121.854,
+        118.04
+      ],
+      "lap_positions": [
+        17,
+        5,
+        5,
+        6,
+        10,
+        10
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81215"
+}

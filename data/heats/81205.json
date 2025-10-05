@@ -1,0 +1,92 @@
+{
+  "heat_no": 81205,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-14T13:45:00",
+  "drivers": [
+    {
+      "name": "WADE SMITH",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.714,
+      "lap_times_url": null,
+      "laps": [
+        143.912,
+        133.931,
+        122.294,
+        118.393,
+        113.714
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Josh Smith",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.332,
+      "lap_times_url": null,
+      "laps": [
+        152.737,
+        122.885,
+        121.968,
+        118.161,
+        117.332
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Joshua Hirtle",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.217,
+      "lap_times_url": null,
+      "laps": [
+        120.54,
+        85.289,
+        84.756,
+        86.012,
+        85.28,
+        84.217,
+        84.979
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Armando Ramirez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.773,
+      "lap_times_url": null,
+      "laps": [
+        131.937,
+        113.646,
+        99.773
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81205"
+}

@@ -1,0 +1,282 @@
+{
+  "heat_no": 80841,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-01T17:00:00",
+  "drivers": [
+    {
+      "name": "Gabriel Newton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.805,
+      "lap_times_url": null,
+      "laps": [
+        119.515,
+        90.544,
+        91.679,
+        91.123,
+        93.439,
+        93.28,
+        89.805
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tess Newton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.808,
+      "lap_times_url": null,
+      "laps": [
+        119.572,
+        90.943,
+        91.299,
+        92.353,
+        96.07,
+        90.485,
+        87.808
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shankar Jha",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 106.529,
+      "lap_times_url": null,
+      "laps": [
+        149.534,
+        114.32,
+        106.529,
+        108.09,
+        109.015,
+        109.565
+      ],
+      "lap_positions": [
+        10,
+        9,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Surya Jha",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 96.5,
+      "lap_times_url": null,
+      "laps": [
+        143.699,
+        111.649,
+        102.437,
+        107.08,
+        99.662,
+        96.5
+      ],
+      "lap_positions": [
+        8,
+        8,
+        6,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "John Lopez",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 102.273,
+      "lap_times_url": null,
+      "laps": [
+        146.015,
+        106.733,
+        102.879,
+        112.615,
+        108.583,
+        102.273
+      ],
+      "lap_positions": [
+        9,
+        5,
+        7,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Gabriel Jimenez",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 101.534,
+      "lap_times_url": null,
+      "laps": [
+        167.717,
+        106.184,
+        101.534,
+        128.035,
+        105.268
+      ],
+      "lap_positions": [
+        12,
+        4,
+        5,
+        5,
+        7
+      ]
+    },
+    {
+      "name": "Leonardo Pimen...",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 109.111,
+      "lap_times_url": null,
+      "laps": [
+        143.33,
+        117.586,
+        110.865,
+        111.256,
+        109.111
+      ],
+      "lap_positions": [
+        7,
+        10,
+        10,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Luis Gutierrez",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 110.328,
+      "lap_times_url": null,
+      "laps": [
+        151.426,
+        121.03,
+        120.1,
+        114.968,
+        110.328
+      ],
+      "lap_positions": [
+        11,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Daniel Robles",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.574,
+      "lap_times_url": null,
+      "laps": [
+        131.677,
+        97.516,
+        95.254,
+        93.608,
+        92.574,
+        95.141
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "John Jenkins",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.571,
+      "lap_times_url": null,
+      "laps": [
+        128.858,
+        106.904,
+        97.446,
+        97.503,
+        97.45,
+        94.571
+      ],
+      "lap_positions": [
+        3,
+        6,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jeremy Vallo",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 101.033,
+      "lap_times_url": null,
+      "laps": [
+        138.254,
+        107.172,
+        106.89,
+        107.303,
+        108.624,
+        101.033
+      ],
+      "lap_positions": [
+        6,
+        7,
+        9,
+        10,
+        10,
+        7
+      ]
+    },
+    {
+      "name": "Colby Jenkins",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 99.966,
+      "lap_times_url": null,
+      "laps": [
+        135.729,
+        118.052,
+        111.681,
+        105.067,
+        99.966,
+        101.172
+      ],
+      "lap_positions": [
+        5,
+        11,
+        11,
+        8,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80841"
+}

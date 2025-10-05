@@ -1,0 +1,27 @@
+{
+  "heat_no": 81173,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-15T12:30:00",
+  "drivers": [
+    {
+      "name": "William O'hargan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 119.136,
+      "lap_times_url": null,
+      "laps": [
+        122.719,
+        122.313,
+        119.136,
+        119.532
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81173"
+}

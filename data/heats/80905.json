@@ -1,0 +1,84 @@
+{
+  "heat_no": 80905,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-06T12:45:00",
+  "drivers": [
+    {
+      "name": "lachlan shockley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 139.542,
+      "lap_times_url": null,
+      "laps": [
+        168.477,
+        175.872,
+        139.542,
+        145.053
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cooper Hostetler",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 143.369,
+      "lap_times_url": null,
+      "laps": [
+        158.257,
+        145.384,
+        143.369,
+        147.043
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brady Hostetler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 136.274,
+      "lap_times_url": null,
+      "laps": [
+        156.175,
+        136.274,
+        157.041,
+        147.027
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gavin Cutler",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 144.981,
+      "lap_times_url": null,
+      "laps": [
+        157.64,
+        152.32,
+        144.981,
+        174.001
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80905"
+}

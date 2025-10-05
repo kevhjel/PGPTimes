@@ -1,0 +1,87 @@
+{
+  "heat_no": 80829,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-01T14:00:00",
+  "drivers": [
+    {
+      "name": "Ryan Fear",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.546,
+      "lap_times_url": null,
+      "laps": [
+        109.607,
+        82.672,
+        82.613,
+        81.885,
+        82.605,
+        81.884,
+        81.546,
+        83.165
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sergei Ognerubov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.58,
+      "lap_times_url": null,
+      "laps": [
+        110.504,
+        82.743,
+        83.346,
+        81.58,
+        81.963,
+        81.83,
+        81.634,
+        81.622
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dylan Guenther",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.782,
+      "lap_times_url": null,
+      "laps": [
+        120.267,
+        95.968,
+        94.344,
+        93.62,
+        92.434,
+        93.405,
+        91.782
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80829"
+}
