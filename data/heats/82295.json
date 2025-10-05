@@ -1,0 +1,125 @@
+{
+  "heat_no": 82295,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-09-28T10:00:00",
+  "drivers": [
+    {
+      "name": "Alex Sourelos",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.112,
+      "lap_times_url": null,
+      "laps": [
+        100.758,
+        94.281,
+        94.286,
+        93.577,
+        93.112,
+        101.693
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Aron Bodnarovs...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.259,
+      "lap_times_url": null,
+      "laps": [
+        99.336,
+        93.857,
+        95.75,
+        92.597,
+        92.259,
+        109.388
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Christopher Co...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.08,
+      "lap_times_url": null,
+      "laps": [
+        98.712,
+        92.01,
+        89.199,
+        88.073,
+        90.597,
+        87.08,
+        89.588
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jameson Mitchell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.478,
+      "lap_times_url": null,
+      "laps": [
+        99.23,
+        93.566,
+        90.506,
+        88.478,
+        92.871,
+        91.311,
+        89.117
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daniel Sharapov",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 108.421,
+      "lap_times_url": null,
+      "laps": [
+        114.001,
+        161.345,
+        113.033,
+        109.655,
+        108.421
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82295"
+}

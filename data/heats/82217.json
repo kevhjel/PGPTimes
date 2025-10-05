@@ -1,0 +1,56 @@
+{
+  "heat_no": 82217,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-25T13:45:00",
+  "drivers": [
+    {
+      "name": "Ryan Xia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.936,
+      "lap_times_url": null,
+      "laps": [
+        124.072,
+        86.323,
+        86.478,
+        87.103,
+        84.936,
+        86.167,
+        98.392
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Christopher Gi...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.32,
+      "lap_times_url": null,
+      "laps": [
+        126.381,
+        107.039,
+        93.32,
+        136.867,
+        93.836,
+        93.48
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82217"
+}

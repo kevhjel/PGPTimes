@@ -1,0 +1,56 @@
+{
+  "heat_no": 82207,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Easton Mellick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.811,
+      "lap_times_url": null,
+      "laps": [
+        93.274,
+        85.588,
+        85.858,
+        83.848,
+        82.84,
+        82.998,
+        82.811,
+        83.225
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jafar Babul",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.898,
+      "lap_times_url": null,
+      "laps": [
+        147.642,
+        117.269,
+        125.407,
+        111.898,
+        122.221
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82207"
+}

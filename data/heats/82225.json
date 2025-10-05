@@ -1,0 +1,137 @@
+{
+  "heat_no": 82225,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-25T16:00:00",
+  "drivers": [
+    {
+      "name": "mike pavone",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.77,
+      "lap_times_url": null,
+      "laps": [
+        100.066,
+        82.44,
+        81.558,
+        80.941,
+        82.007,
+        81.889,
+        80.77,
+        81.08
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chuck Sorrentino",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 98.022,
+      "lap_times_url": null,
+      "laps": [
+        121.637,
+        101.833,
+        100.104,
+        98.022,
+        100.754,
+        100.795
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jake Smay",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.241,
+      "lap_times_url": null,
+      "laps": [
+        102.14,
+        86.239,
+        85.918,
+        85.993,
+        85.907,
+        85.241,
+        88.607
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Nicole Hilbert",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.233,
+      "lap_times_url": null,
+      "laps": [
+        99.731,
+        82.792,
+        82.938,
+        82.233,
+        82.765,
+        82.485,
+        83.288,
+        82.422
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.058,
+      "lap_times_url": null,
+      "laps": [
+        99.635,
+        80.679,
+        80.006,
+        79.846,
+        81.046,
+        79.058,
+        79.197,
+        79.338
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82225"
+}

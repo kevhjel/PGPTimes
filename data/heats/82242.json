@@ -1,0 +1,117 @@
+{
+  "heat_no": 82242,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-26T11:30:00",
+  "drivers": [
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.669,
+      "lap_times_url": null,
+      "laps": [
+        96.669
+      ],
+      "lap_positions": [
+        1
+      ]
+    },
+    {
+      "name": "Michael Draper",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.213,
+      "lap_times_url": null,
+      "laps": [
+        130.835,
+        84.999,
+        83.529,
+        86.946,
+        85.538,
+        84.102,
+        83.213
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bianca Largent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.512,
+      "lap_times_url": null,
+      "laps": [
+        137.834,
+        86.861,
+        85.765,
+        85.244,
+        84.644,
+        84.796,
+        84.512
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cleo Lane",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.163,
+      "lap_times_url": null,
+      "laps": [
+        137.767,
+        120.493,
+        96.511,
+        100.647,
+        96.31,
+        94.163
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jesse Haworth",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.199,
+      "lap_times_url": null,
+      "laps": [
+        139.652,
+        95.746,
+        92.97,
+        92.199,
+        92.666,
+        94.649
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82242"
+}

@@ -1,0 +1,44 @@
+{
+  "heat_no": 82345,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-01T11:00:00",
+  "drivers": [
+    {
+      "name": "Jesse Mrozowski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 131.641,
+      "lap_times_url": null,
+      "laps": [
+        186.516,
+        138.012,
+        132.811,
+        131.641
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sareena Enloe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 161.77,
+      "lap_times_url": null,
+      "laps": [
+        221.315,
+        172.068,
+        161.77
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82345"
+}

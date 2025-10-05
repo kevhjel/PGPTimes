@@ -1,0 +1,87 @@
+{
+  "heat_no": 82214,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-25T13:00:00",
+  "drivers": [
+    {
+      "name": "Justin Lee",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.803,
+      "lap_times_url": null,
+      "laps": [
+        95.249,
+        91.42,
+        90.764,
+        90.465,
+        92.954,
+        91.961,
+        89.803
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "WrightHandMan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.257,
+      "lap_times_url": null,
+      "laps": [
+        85.806,
+        82.899,
+        82.882,
+        82.78,
+        82.781,
+        83.23,
+        82.257,
+        83.18
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.378,
+      "lap_times_url": null,
+      "laps": [
+        84.188,
+        81.89,
+        82.406,
+        81.878,
+        81.378,
+        82.253,
+        82.385,
+        81.763
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82214"
+}

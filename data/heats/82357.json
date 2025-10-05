@@ -1,0 +1,86 @@
+{
+  "heat_no": 82357,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-01T15:30:00",
+  "drivers": [
+    {
+      "name": "Cameron Vega",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.019,
+      "lap_times_url": null,
+      "laps": [
+        167.313,
+        127.019,
+        235.336,
+        129.112
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ashton Boyce",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.883,
+      "lap_times_url": null,
+      "laps": [
+        168.046,
+        135.475,
+        136.821,
+        129.537,
+        128.883
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Keller Bradshaw",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 140.928,
+      "lap_times_url": null,
+      "laps": [
+        192.886,
+        177.335,
+        145.856,
+        140.928
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Christian Nieves",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 170.86,
+      "lap_times_url": null,
+      "laps": [
+        202.602,
+        175.559,
+        170.86,
+        173.116
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82357"
+}

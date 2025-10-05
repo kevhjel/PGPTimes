@@ -1,0 +1,81 @@
+{
+  "heat_no": 82260,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-26T16:30:00",
+  "drivers": [
+    {
+      "name": "yash kandalam",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.907,
+      "lap_times_url": null,
+      "laps": [
+        111.961,
+        81.907,
+        88.371,
+        93.811,
+        82.41,
+        82.8,
+        84.388
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Evan Abraham",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.477,
+      "lap_times_url": null,
+      "laps": [
+        111.92,
+        83.936,
+        92.748,
+        86.063,
+        83.362,
+        82.477,
+        83.422
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Avery Karle",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.68,
+      "lap_times_url": null,
+      "laps": [
+        125.829,
+        99.865,
+        99.68,
+        106.512,
+        100.89,
+        99.797
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82260"
+}

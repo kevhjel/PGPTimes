@@ -1,0 +1,89 @@
+{
+  "heat_no": 82237,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-26T10:15:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.628,
+      "lap_times_url": null,
+      "laps": [
+        83.07,
+        83.452,
+        81.167,
+        80.942,
+        80.709,
+        80.628,
+        80.926,
+        80.698
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Justin Hauck",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.916,
+      "lap_times_url": null,
+      "laps": [
+        86.409,
+        85.799,
+        84.675,
+        83.916,
+        84.719,
+        83.982,
+        84.999,
+        85.188
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Michael Draper",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.402,
+      "lap_times_url": null,
+      "laps": [
+        93.289,
+        87.929,
+        86.717,
+        85.402,
+        86.103,
+        86.039,
+        88.855,
+        87.116
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82237"
+}

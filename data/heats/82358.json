@@ -1,0 +1,69 @@
+{
+  "heat_no": 82358,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-01T15:45:00",
+  "drivers": [
+    {
+      "name": "Greg Jones",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.751,
+      "lap_times_url": null,
+      "laps": [
+        147.926,
+        144.959,
+        134.441,
+        131.889,
+        126.751
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "CARTER CAPPELL...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 119.492,
+      "lap_times_url": null,
+      "laps": [
+        150.044,
+        134.418,
+        127.366,
+        121.29,
+        119.492
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dwayne Aleksan...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 144.118,
+      "lap_times_url": null,
+      "laps": [
+        156.512,
+        160.784,
+        149.238,
+        144.118
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82358"
+}

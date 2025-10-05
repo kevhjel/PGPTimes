@@ -1,0 +1,37 @@
+{
+  "heat_no": 82200,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-25T09:30:00",
+  "drivers": [
+    {
+      "name": "Jackson Parma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.643,
+      "lap_times_url": null,
+      "laps": [
+        88.198,
+        100.964,
+        91.289,
+        85.89,
+        83.808,
+        83.823,
+        84.204,
+        83.706,
+        83.643
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82200"
+}

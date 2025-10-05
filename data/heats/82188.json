@@ -1,0 +1,35 @@
+{
+  "heat_no": 82188,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-24T14:00:00",
+  "drivers": [
+    {
+      "name": "Frank the Tank",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.822,
+      "lap_times_url": null,
+      "laps": [
+        82.537,
+        80.921,
+        82.51,
+        80.822,
+        81.427,
+        82.094,
+        81.848,
+        81.36
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82188"
+}

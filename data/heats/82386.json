@@ -1,0 +1,33 @@
+{
+  "heat_no": 82386,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-02T13:15:00",
+  "drivers": [
+    {
+      "name": "Kole Krieger",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.875,
+      "lap_times_url": null,
+      "laps": [
+        103.534,
+        87.75,
+        87.436,
+        87.174,
+        88.321,
+        88.798,
+        86.875
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82386"
+}

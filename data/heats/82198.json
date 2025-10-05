@@ -1,0 +1,106 @@
+{
+  "heat_no": 82198,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-24T16:00:00",
+  "drivers": [
+    {
+      "name": "eddie mckee 2",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.885,
+      "lap_times_url": null,
+      "laps": [
+        108.841,
+        89.968,
+        91.053,
+        91.205,
+        88.954,
+        90.253,
+        88.885
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.822,
+      "lap_times_url": null,
+      "laps": [
+        103.163,
+        82.034,
+        82.248,
+        81.948,
+        82.313,
+        82.891,
+        82.276,
+        81.822
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ashley Goff",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 107.853,
+      "lap_times_url": null,
+      "laps": [
+        128.49,
+        109.98,
+        111.894,
+        107.853,
+        129.629,
+        113.399
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Yoav Kimchy",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 96.001,
+      "lap_times_url": null,
+      "laps": [
+        133.396,
+        101.777,
+        98.605,
+        96.001,
+        96.948,
+        100.718
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82198"
+}

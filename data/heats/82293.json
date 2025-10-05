@@ -1,0 +1,111 @@
+{
+  "heat_no": 82293,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-09-28T09:00:00",
+  "drivers": [
+    {
+      "name": "Alex Sourelos",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.49,
+      "lap_times_url": null,
+      "laps": [
+        148.24,
+        130.633,
+        126.738,
+        123.344,
+        120.49
+      ],
+      "lap_positions": [
+        2,
+        2,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "Aron Bodnarovs...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.635,
+      "lap_times_url": null,
+      "laps": [
+        137.353,
+        130.113,
+        127.168,
+        122.883,
+        120.635
+      ],
+      "lap_positions": [
+        1,
+        1,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Christopher Co...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.061,
+      "lap_times_url": null,
+      "laps": [
+        166.414,
+        133.482,
+        121.454,
+        117.969,
+        108.061
+      ],
+      "lap_positions": [
+        5,
+        5,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Jameson Mitchell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.049,
+      "lap_times_url": null,
+      "laps": [
+        166.073,
+        133.382,
+        121.292,
+        118.06,
+        108.049
+      ],
+      "lap_positions": [
+        4,
+        4,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Sharapov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.684,
+      "lap_times_url": null,
+      "laps": [
+        150.006,
+        132.34,
+        121.684,
+        168.825
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82293"
+}

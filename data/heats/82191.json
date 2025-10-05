@@ -1,0 +1,287 @@
+{
+  "heat_no": 82191,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-24T16:15:00",
+  "drivers": [
+    {
+      "name": "William Frazier",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.164,
+      "lap_times_url": null,
+      "laps": [
+        105.433,
+        81.161,
+        81.349,
+        80.931,
+        83.053,
+        80.26,
+        80.164,
+        80.184
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicole Hilbert",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.394,
+      "lap_times_url": null,
+      "laps": [
+        108.871,
+        83.431,
+        82.733,
+        82.952,
+        83.739,
+        83.147,
+        84.028,
+        82.394
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.353,
+      "lap_times_url": null,
+      "laps": [
+        107.175,
+        82.882,
+        81.392,
+        81.353,
+        84.378,
+        81.788,
+        81.464,
+        81.474
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Pat Chase",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 85.173,
+      "lap_times_url": null,
+      "laps": [
+        107.724,
+        86.202,
+        85.173,
+        86.694,
+        86.799,
+        88.288,
+        86.325
+      ],
+      "lap_positions": [
+        3,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Kollin Short",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 83.681,
+      "lap_times_url": null,
+      "laps": [
+        110.3,
+        152.159,
+        85.071,
+        90.829,
+        83.681,
+        85.42,
+        84.169
+      ],
+      "lap_positions": [
+        6,
+        9,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Corey Osman",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 82.907,
+      "lap_times_url": null,
+      "laps": [
+        111.9,
+        85.523,
+        83.492,
+        82.907,
+        85.239,
+        83.495,
+        84.787
+      ],
+      "lap_positions": [
+        7,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Keone Maduro",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.757,
+      "lap_times_url": null,
+      "laps": [
+        108.779,
+        82.887,
+        82.563,
+        81.757,
+        83.945,
+        82.394,
+        81.786,
+        82.142
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jama Mahad",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.585,
+      "lap_times_url": null,
+      "laps": [
+        114.025,
+        88.4,
+        95.501,
+        89.952,
+        87.585,
+        89.183,
+        88.779
+      ],
+      "lap_positions": [
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Marie Burns",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 100.038,
+      "lap_times_url": null,
+      "laps": [
+        120.455,
+        115.952,
+        104.647,
+        100.789,
+        100.038,
+        100.672
+      ],
+      "lap_positions": [
+        11,
+        10,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Ricky Ayo",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 91.047,
+      "lap_times_url": null,
+      "laps": [
+        117.307,
+        96.1,
+        94.355,
+        93.065,
+        93.862,
+        93.689,
+        91.047
+      ],
+      "lap_positions": [
+        10,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Dennis Hodgkins",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 94.517,
+      "lap_times_url": null,
+      "laps": [
+        117.169,
+        120.91,
+        100.364,
+        95.86,
+        95.66,
+        94.517
+      ],
+      "lap_positions": [
+        9,
+        11,
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82191"
+}

@@ -1,0 +1,104 @@
+{
+  "heat_no": 82256,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-26T15:30:00",
+  "drivers": [
+    {
+      "name": "Evan Abraham",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.533,
+      "lap_times_url": null,
+      "laps": [
+        112.983,
+        90.539,
+        89.148,
+        91.639,
+        87.698,
+        86.533,
+        86.55
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.722,
+      "lap_times_url": null,
+      "laps": [
+        105.757,
+        80.722,
+        81.273,
+        81.007,
+        80.849,
+        81.116,
+        82.859,
+        80.858
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Apollo Dent",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.676,
+      "lap_times_url": null,
+      "laps": [
+        117.428,
+        93.645,
+        93.747,
+        91.676,
+        113.408,
+        93.065
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Avery Karle",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.556,
+      "lap_times_url": null,
+      "laps": [
+        151.897,
+        126.135,
+        114.601,
+        116.618,
+        111.556
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82256"
+}

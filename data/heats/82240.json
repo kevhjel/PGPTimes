@@ -1,0 +1,123 @@
+{
+  "heat_no": 82240,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-26T11:00:00",
+  "drivers": [
+    {
+      "name": "Justin Hauck",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.596,
+      "lap_times_url": null,
+      "laps": [
+        128.965,
+        85.385,
+        84.779,
+        84.949,
+        83.885,
+        83.596,
+        83.941
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bianca Largent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.728,
+      "lap_times_url": null,
+      "laps": [
+        134.476,
+        86.719,
+        85.646,
+        85.291,
+        85.868,
+        85.327,
+        83.728
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cleo Lane",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.599,
+      "lap_times_url": null,
+      "laps": [
+        144.861,
+        118.84,
+        108.977,
+        106.235,
+        96.024,
+        95.599
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Emily Haworth",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 105.094,
+      "lap_times_url": null,
+      "laps": [
+        143.267,
+        128.921,
+        113.483,
+        105.094,
+        111.795
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Jesse Haworth",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.921,
+      "lap_times_url": null,
+      "laps": [
+        154.28,
+        115.753,
+        120.436,
+        99.921,
+        101.915
+      ],
+      "lap_positions": [
+        5,
+        3,
+        5,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82240"
+}
