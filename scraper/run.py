@@ -12,8 +12,7 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 from . import config, parse, storage
-from scraper.cleanup_empty_heats import main as cleanup_empty_heats
-cleanup_empty_heats()
+
 # ------------------------------------------------------------
 # Optional: import clubspeed helper, else provide a fallback
 # ------------------------------------------------------------
