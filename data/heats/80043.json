@@ -1,0 +1,112 @@
+{
+  "heat_no": 80043,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-02T16:00:00",
+  "drivers": [
+    {
+      "name": "jeremy hueneka",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.455,
+      "lap_times_url": null,
+      "laps": [
+        82.411,
+        81.982,
+        81.638,
+        81.455,
+        81.492,
+        81.964,
+        81.784
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.272,
+      "lap_times_url": null,
+      "laps": [
+        82.302,
+        81.808,
+        81.629,
+        81.616,
+        81.41,
+        82.344,
+        81.272
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Harninder SANGHA",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.545,
+      "lap_times_url": null,
+      "laps": [
+        85.401,
+        85.3,
+        84.742,
+        84.537,
+        84.054,
+        83.664,
+        83.545,
+        83.796
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kirpa Dass",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.57,
+      "lap_times_url": null,
+      "laps": [
+        88.513,
+        87.937,
+        87.473,
+        86.957,
+        87.216,
+        87.037,
+        86.582,
+        85.57
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80043"
+}

@@ -1,0 +1,35 @@
+{
+  "heat_no": 80073,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T12:30:00",
+  "drivers": [
+    {
+      "name": "Simon Boeger",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.354,
+      "lap_times_url": null,
+      "laps": [
+        104.274,
+        84.371,
+        84.467,
+        84.866,
+        84.638,
+        83.912,
+        83.365,
+        83.354
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80073"
+}

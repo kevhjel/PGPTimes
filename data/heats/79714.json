@@ -1,0 +1,58 @@
+{
+  "heat_no": 79714,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-20T19:45:00",
+  "drivers": [
+    {
+      "name": "Clyde Brannan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.074,
+      "lap_times_url": null,
+      "laps": [
+        118.872,
+        87.549,
+        87.332,
+        87.81,
+        91.238,
+        86.455,
+        86.752,
+        86.074
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicholas Brannan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.931,
+      "lap_times_url": null,
+      "laps": [
+        122.898,
+        153.87,
+        91.931,
+        125.559,
+        145.86,
+        97.808
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79714"
+}

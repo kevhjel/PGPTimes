@@ -1,0 +1,35 @@
+{
+  "heat_no": 80091,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-03T17:00:00",
+  "drivers": [
+    {
+      "name": "Myles Braxton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.955,
+      "lap_times_url": null,
+      "laps": [
+        84.885,
+        82.029,
+        82.258,
+        81.971,
+        82.585,
+        82.197,
+        82.217,
+        81.955
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80091"
+}

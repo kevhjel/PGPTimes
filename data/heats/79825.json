@@ -1,0 +1,106 @@
+{
+  "heat_no": 79825,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T17:00:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.921,
+      "lap_times_url": null,
+      "laps": [
+        109.103,
+        80.921,
+        81.165,
+        81.024,
+        81.337,
+        81.245,
+        80.997,
+        81.241
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Vincent La",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.875,
+      "lap_times_url": null,
+      "laps": [
+        117.435,
+        92.365,
+        86.875,
+        146.055,
+        88.869,
+        87.146
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Luan Chuong",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 98.473,
+      "lap_times_url": null,
+      "laps": [
+        119.781,
+        115.294,
+        111.068,
+        134.075,
+        101.713,
+        98.473
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Alan Pham",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.098,
+      "lap_times_url": null,
+      "laps": [
+        117.758,
+        87.895,
+        87.953,
+        90.213,
+        87.098,
+        90.796,
+        87.761
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79825"
+}

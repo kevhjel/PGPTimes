@@ -1,0 +1,133 @@
+{
+  "heat_no": 80277,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-10T10:45:00",
+  "drivers": [
+    {
+      "name": "Adam Towers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.454,
+      "lap_times_url": null,
+      "laps": [
+        87.175,
+        82.768,
+        82.474,
+        81.454,
+        81.474,
+        81.96,
+        81.561,
+        81.666
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Stephen Grady",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.038,
+      "lap_times_url": null,
+      "laps": [
+        99.91,
+        88.45,
+        87.038,
+        87.158,
+        87.174,
+        90.767,
+        98.948
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alysia Grady",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 95.027,
+      "lap_times_url": null,
+      "laps": [
+        141.213,
+        106.761,
+        95.027,
+        96.881,
+        102.154,
+        97.179
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Paul Grady",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.946,
+      "lap_times_url": null,
+      "laps": [
+        100.168,
+        88.487,
+        89.456,
+        87.202,
+        87.67,
+        86.946,
+        88.672
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Finn Jones",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.618,
+      "lap_times_url": null,
+      "laps": [
+        102.14,
+        89.215,
+        88.505,
+        87.7,
+        87.618,
+        87.958,
+        90.985
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80277"
+}

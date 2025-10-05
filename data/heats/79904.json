@@ -1,0 +1,58 @@
+{
+  "heat_no": 79904,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-27T16:15:00",
+  "drivers": [
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.48,
+      "lap_times_url": null,
+      "laps": [
+        80.677,
+        80.262,
+        80.395,
+        79.599,
+        79.48,
+        81.523,
+        80.289
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Christopher E...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.947,
+      "lap_times_url": null,
+      "laps": [
+        80.861,
+        80.244,
+        80.998,
+        79.947,
+        80.089,
+        80.049,
+        80.301
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79904"
+}

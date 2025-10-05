@@ -1,0 +1,152 @@
+{
+  "heat_no": 79478,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-13T11:15:00",
+  "drivers": [
+    {
+      "name": "Ben Schwartz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.734,
+      "lap_times_url": null,
+      "laps": [
+        112.538,
+        84.15,
+        83.859,
+        82.734,
+        86.746,
+        87.513,
+        82.918
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Connor Cai",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.081,
+      "lap_times_url": null,
+      "laps": [
+        113.942,
+        90.729,
+        87.794,
+        86.876,
+        90.208,
+        86.081,
+        88.911
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tien Nguyen",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.031,
+      "lap_times_url": null,
+      "laps": [
+        113.51,
+        91.135,
+        91.373,
+        108.92,
+        91.309,
+        91.031
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "MItch Reitz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.412,
+      "lap_times_url": null,
+      "laps": [
+        112.632,
+        87.003,
+        85.534,
+        86.159,
+        99.015,
+        85.412,
+        89.434
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ethan Burns",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 92.706,
+      "lap_times_url": null,
+      "laps": [
+        128.328,
+        111.631,
+        113.729,
+        97.933,
+        99.467,
+        92.706
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Isaac McGinn",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 105.532,
+      "lap_times_url": null,
+      "laps": [
+        125.088,
+        107.004,
+        105.532,
+        106.771,
+        105.552,
+        106.508
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79478"
+}

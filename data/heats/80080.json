@@ -1,0 +1,46 @@
+{
+  "heat_no": 80080,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T14:15:00",
+  "drivers": [
+    {
+      "name": "BISI MUSTAPHA",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 130.284,
+      "lap_times_url": null,
+      "laps": [
+        169.574,
+        135.983,
+        130.987,
+        130.284
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Erin Carrier",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 129.737,
+      "lap_times_url": null,
+      "laps": [
+        164.486,
+        135.917,
+        131.391,
+        129.737
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80080"
+}

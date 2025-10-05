@@ -1,0 +1,79 @@
+{
+  "heat_no": 80087,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T16:00:00",
+  "drivers": [
+    {
+      "name": "Myles Braxton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.055,
+      "lap_times_url": null,
+      "laps": [
+        117.365,
+        83.45,
+        82.416,
+        82.515,
+        82.267,
+        82.069,
+        82.062,
+        82.055
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alex Zeiady",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.187,
+      "lap_times_url": null,
+      "laps": [
+        129.93,
+        100.123,
+        98.091,
+        99.394,
+        96.187,
+        109.473
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Carrie McCarthy",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.537,
+      "lap_times_url": null,
+      "laps": [
+        144.054,
+        112.658,
+        118.331,
+        115.751,
+        112.537
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80087"
+}

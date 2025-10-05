@@ -1,0 +1,87 @@
+{
+  "heat_no": 80038,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-02T12:15:00",
+  "drivers": [
+    {
+      "name": "Jouan Amate",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.663,
+      "lap_times_url": null,
+      "laps": [
+        120.703,
+        80.898,
+        80.25,
+        80.107,
+        80.499,
+        80.757,
+        79.663,
+        80.083
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.722,
+      "lap_times_url": null,
+      "laps": [
+        119.396,
+        80.818,
+        80.277,
+        80.099,
+        80.026,
+        80.221,
+        79.722,
+        80.062
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alfonzo Woods",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.145,
+      "lap_times_url": null,
+      "laps": [
+        131.013,
+        92.149,
+        88.502,
+        87.248,
+        87.795,
+        86.985,
+        86.145
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80038"
+}

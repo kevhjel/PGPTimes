@@ -1,0 +1,80 @@
+{
+  "heat_no": 79963,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-06-29T09:00:00",
+  "drivers": [
+    {
+      "name": "Luca Baldini",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 155.194,
+      "lap_times_url": null,
+      "laps": [
+        183.511,
+        164.91,
+        161.266,
+        155.194
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Ronin Cogley",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 175.093,
+      "lap_times_url": null,
+      "laps": [
+        219.88,
+        194.233,
+        175.093
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Mayumi Yoro Fe...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 155.661,
+      "lap_times_url": null,
+      "laps": [
+        182.848,
+        164.526,
+        161.238,
+        155.661
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Calvin Stremel",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 163.684,
+      "lap_times_url": null,
+      "laps": [
+        220.614,
+        193.458,
+        163.684
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79963"
+}

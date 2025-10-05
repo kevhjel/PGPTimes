@@ -1,0 +1,62 @@
+{
+  "heat_no": 79476,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-13T10:15:00",
+  "drivers": [
+    {
+      "name": "Brandon Huwe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.781,
+      "lap_times_url": null,
+      "laps": [
+        89.66,
+        83.777,
+        83.047,
+        85.147,
+        82.681,
+        82.121,
+        81.781,
+        81.918
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aizat Murtaza",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.667,
+      "lap_times_url": null,
+      "laps": [
+        88.49,
+        83.464,
+        82.597,
+        81.667,
+        86.303,
+        82.041,
+        81.766,
+        81.861
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79476"
+}

@@ -1,0 +1,46 @@
+{
+  "heat_no": 79751,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-21T19:30:00",
+  "drivers": [
+    {
+      "name": "Rachael Green",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 155.81,
+      "lap_times_url": null,
+      "laps": [
+        176.997,
+        162.669,
+        160.255,
+        155.81
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kenan Said",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 140.484,
+      "lap_times_url": null,
+      "laps": [
+        182.613,
+        173.426,
+        140.484,
+        142.022
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79751"
+}

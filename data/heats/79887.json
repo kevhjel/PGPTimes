@@ -1,0 +1,81 @@
+{
+  "heat_no": 79887,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-27T10:30:00",
+  "drivers": [
+    {
+      "name": "Hannah Ayers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.225,
+      "lap_times_url": null,
+      "laps": [
+        121.91,
+        91.252,
+        89.945,
+        89.387,
+        95.288,
+        90.359,
+        88.225
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dale Booher",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.212,
+      "lap_times_url": null,
+      "laps": [
+        129.017,
+        90.671,
+        88.532,
+        87.713,
+        88.042,
+        88.275,
+        86.212
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Will Lowry",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.311,
+      "lap_times_url": null,
+      "laps": [
+        134.863,
+        119.007,
+        116.728,
+        107.565,
+        101.311,
+        103.269
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79887"
+}

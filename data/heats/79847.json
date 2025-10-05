@@ -1,0 +1,54 @@
+{
+  "heat_no": 79847,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T13:00:00",
+  "drivers": [
+    {
+      "name": "Jack Yanefski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.123,
+      "lap_times_url": null,
+      "laps": [
+        138.242,
+        93.907,
+        89.524,
+        88.123,
+        90.717,
+        89.845,
+        95.06
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "John Yanefski",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.764,
+      "lap_times_url": null,
+      "laps": [
+        148.736,
+        113.3,
+        111.023,
+        109.268,
+        107.764
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79847"
+}

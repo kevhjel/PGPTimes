@@ -1,0 +1,71 @@
+{
+  "heat_no": 79291,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-06T15:30:00",
+  "drivers": [
+    {
+      "name": "Mohamad Hassan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.877,
+      "lap_times_url": null,
+      "laps": [
+        139.519,
+        120.14,
+        111.877,
+        113.676,
+        138.878
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Abdir Mirrehj",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.16,
+      "lap_times_url": null,
+      "laps": [
+        112.48,
+        97.381,
+        98.094,
+        94.16,
+        94.806,
+        112.859
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Omar Hassan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 159.672,
+      "lap_times_url": null,
+      "laps": [
+        196.4,
+        165.782,
+        159.672,
+        160.994
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79291"
+}

@@ -1,0 +1,102 @@
+{
+  "heat_no": 80046,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-02T16:45:00",
+  "drivers": [
+    {
+      "name": "jeremy hueneka",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.335,
+      "lap_times_url": null,
+      "laps": [
+        109.484,
+        82.116,
+        81.595,
+        81.536,
+        81.715,
+        81.883,
+        81.477,
+        81.335
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kevionte Edwards",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.607,
+      "lap_times_url": null,
+      "laps": [
+        182.777,
+        91.127,
+        91.228,
+        94.646,
+        90.09,
+        89.607
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.813,
+      "lap_times_url": null,
+      "laps": [
+        109.167,
+        81.262,
+        82.046,
+        80.948,
+        80.813,
+        80.929,
+        81.163,
+        81.359
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jessica Tran",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 169.718,
+      "lap_times_url": null,
+      "laps": [
+        210.041,
+        182.177,
+        169.718
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80046"
+}

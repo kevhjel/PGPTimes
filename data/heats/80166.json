@@ -1,0 +1,343 @@
+{
+  "heat_no": 80166,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-05T17:45:00",
+  "drivers": [
+    {
+      "name": "Clara Ki",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 101.661,
+      "lap_times_url": null,
+      "laps": [
+        138.76,
+        101.661,
+        104.566,
+        123.807,
+        123.132
+      ],
+      "lap_positions": [
+        8,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Raven",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.468,
+      "lap_times_url": null,
+      "laps": [
+        115.441,
+        88.468,
+        94.04,
+        94.946,
+        100.966,
+        92.428
+      ],
+      "lap_positions": [
+        1,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Brent Brightling",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.511,
+      "lap_times_url": null,
+      "laps": [
+        116.649,
+        84.619,
+        95.588,
+        84.511,
+        89.397,
+        97.754,
+        85.186
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Derek Roberts",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.215,
+      "lap_times_url": null,
+      "laps": [
+        118.5,
+        84.242,
+        92.097,
+        83.536,
+        87.183,
+        83.215,
+        84.672
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jeremiah Roberts",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.103,
+      "lap_times_url": null,
+      "laps": [
+        115.505,
+        82.181,
+        86.295,
+        82.291,
+        88.031,
+        82.103,
+        82.394
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eric Bannister",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 93.548,
+      "lap_times_url": null,
+      "laps": [
+        123.002,
+        93.548,
+        97.202,
+        106.26,
+        96.244,
+        94.666
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Brendan Bannis...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.053,
+      "lap_times_url": null,
+      "laps": [
+        117.131,
+        83.6,
+        88.752,
+        83.053,
+        85.019,
+        84.53,
+        83.525
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eric Lui",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 90.237,
+      "lap_times_url": null,
+      "laps": [
+        121.528,
+        90.237,
+        103.883,
+        99.716,
+        97.836,
+        92.722
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Erika Nakagawa",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 117.944,
+      "lap_times_url": null,
+      "laps": [
+        155.455,
+        145.538,
+        142.798,
+        122.722,
+        117.944
+      ],
+      "lap_positions": [
+        15,
+        14,
+        15,
+        14,
+        13
+      ]
+    },
+    {
+      "name": "Ryan De Cosmo",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 123.056,
+      "lap_times_url": null,
+      "laps": [
+        154.206,
+        175.035,
+        130.511,
+        123.056
+      ],
+      "lap_positions": [
+        14,
+        15,
+        13,
+        15
+      ]
+    },
+    {
+      "name": "Joon-Jay Lee",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 93.91,
+      "lap_times_url": null,
+      "laps": [
+        146.998,
+        101.131,
+        97.579,
+        107.743,
+        99.964,
+        93.91
+      ],
+      "lap_positions": [
+        11,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Baibhav Vatsa",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 108.381,
+      "lap_times_url": null,
+      "laps": [
+        142.696,
+        124.979,
+        109.225,
+        108.831,
+        108.381
+      ],
+      "lap_positions": [
+        9,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Austin Wei",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 122.139,
+      "lap_times_url": null,
+      "laps": [
+        143.901,
+        142.248,
+        197.657,
+        122.139
+      ],
+      "lap_positions": [
+        10,
+        13,
+        14,
+        13
+      ]
+    },
+    {
+      "name": "Sanskar Katiyar",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 109.231,
+      "lap_times_url": null,
+      "laps": [
+        152.081,
+        125.139,
+        112.928,
+        109.231,
+        110.502
+      ],
+      "lap_positions": [
+        13,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Karman Nagra",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 112.857,
+      "lap_times_url": null,
+      "laps": [
+        150.585,
+        126.906,
+        144.514,
+        121.807,
+        112.857
+      ],
+      "lap_positions": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80166"
+}

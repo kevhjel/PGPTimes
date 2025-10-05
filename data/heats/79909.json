@@ -1,0 +1,108 @@
+{
+  "heat_no": 79909,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-27T17:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.101,
+      "lap_times_url": null,
+      "laps": [
+        102.527,
+        82.41,
+        80.929,
+        80.359,
+        80.129,
+        80.101,
+        80.115,
+        80.293
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Diego Molina",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.017,
+      "lap_times_url": null,
+      "laps": [
+        109.85,
+        87.904,
+        87.222,
+        86.017,
+        86.242,
+        91.551,
+        95.203
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Gabriel Molina",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.265,
+      "lap_times_url": null,
+      "laps": [
+        108.125,
+        87.577,
+        88.733,
+        86.265,
+        88.331,
+        91.141,
+        94.36
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Macey Wright",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 97.738,
+      "lap_times_url": null,
+      "laps": [
+        134.798,
+        122.825,
+        107.876,
+        101.49,
+        104.428,
+        97.738
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79909"
+}

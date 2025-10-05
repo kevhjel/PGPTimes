@@ -1,0 +1,110 @@
+{
+  "heat_no": 79893,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-27T12:45:00",
+  "drivers": [
+    {
+      "name": "Alex Polishevs...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.676,
+      "lap_times_url": null,
+      "laps": [
+        115.656,
+        101.87,
+        86.31,
+        87.475,
+        86.188,
+        87.101,
+        84.676
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Luke Boley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.73,
+      "lap_times_url": null,
+      "laps": [
+        117.118,
+        86.427,
+        84.237,
+        84.205,
+        83.881,
+        82.73,
+        82.999
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Anthony Hage",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.35,
+      "lap_times_url": null,
+      "laps": [
+        113.199,
+        99.464,
+        84.511,
+        96.599,
+        83.35,
+        83.728,
+        83.98
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Donnie Clarke",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.56,
+      "lap_times_url": null,
+      "laps": [
+        112.052,
+        81.004,
+        80.717,
+        80.695,
+        80.679,
+        80.604,
+        80.625,
+        80.56
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79893"
+}

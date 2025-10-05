@@ -1,0 +1,85 @@
+{
+  "heat_no": 79960,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-28T19:15:00",
+  "drivers": [
+    {
+      "name": "Anthony Hoang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.379,
+      "lap_times_url": null,
+      "laps": [
+        101.649,
+        82.686,
+        81.862,
+        81.989,
+        81.583,
+        81.379,
+        82.188,
+        81.848
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TIANMENG XU",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.312,
+      "lap_times_url": null,
+      "laps": [
+        105.212,
+        89.33,
+        88.422,
+        89.952,
+        88.712,
+        87.312,
+        87.922
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jimmii Nguyen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.095,
+      "lap_times_url": null,
+      "laps": [
+        104.198,
+        88.616,
+        87.579,
+        84.381,
+        84.118,
+        84.095,
+        85.578
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79960"
+}

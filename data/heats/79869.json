@@ -1,0 +1,58 @@
+{
+  "heat_no": 79869,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-25T19:45:00",
+  "drivers": [
+    {
+      "name": "Jack Mitchell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.858,
+      "lap_times_url": null,
+      "laps": [
+        100.306,
+        81.136,
+        80.769,
+        80.808,
+        80.812,
+        80.215,
+        80.205,
+        79.858
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Samuel Pasco",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.272,
+      "lap_times_url": null,
+      "laps": [
+        110.427,
+        110.457,
+        103.843,
+        100.272,
+        101.896,
+        100.427
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79869"
+}

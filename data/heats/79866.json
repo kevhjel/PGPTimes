@@ -1,0 +1,60 @@
+{
+  "heat_no": 79866,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T12:45:00",
+  "drivers": [
+    {
+      "name": "alex ritter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.239,
+      "lap_times_url": null,
+      "laps": [
+        118.528,
+        82.619,
+        82.455,
+        81.947,
+        81.239,
+        82.149,
+        82.108,
+        82.111
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "JT Moeller",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.546,
+      "lap_times_url": null,
+      "laps": [
+        119.772,
+        84.233,
+        83.546,
+        84.569,
+        84.927,
+        84.15,
+        84.087
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79866"
+}

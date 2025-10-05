@@ -1,0 +1,110 @@
+{
+  "heat_no": 79906,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-27T16:45:00",
+  "drivers": [
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.374,
+      "lap_times_url": null,
+      "laps": [
+        99.921,
+        82.679,
+        148.986,
+        92.784,
+        81.323,
+        80.374,
+        82.493
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Christopher E...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.433,
+      "lap_times_url": null,
+      "laps": [
+        99.937,
+        81.933,
+        81.839,
+        80.951,
+        80.622,
+        80.433,
+        80.748,
+        81.512
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Diego Strode",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.814,
+      "lap_times_url": null,
+      "laps": [
+        120.593,
+        91.146,
+        105.008,
+        88.868,
+        89.007,
+        88.814,
+        89.752
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Karl Jensen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.023,
+      "lap_times_url": null,
+      "laps": [
+        104.374,
+        89.166,
+        88.021,
+        87.215,
+        115.547,
+        91.396,
+        87.023
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79906"
+}

@@ -1,0 +1,100 @@
+{
+  "heat_no": 79436,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-12T11:15:00",
+  "drivers": [
+    {
+      "name": "Rohit Manohar",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.693,
+      "lap_times_url": null,
+      "laps": [
+        157.686,
+        117.228,
+        115.257,
+        104.822,
+        100.223,
+        98.693
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Connor Thibault",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.552,
+      "lap_times_url": null,
+      "laps": [
+        142.682,
+        104.002,
+        100.596,
+        99.154,
+        94.14,
+        93.552
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JJ Baron",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.159,
+      "lap_times_url": null,
+      "laps": [
+        124.0,
+        85.854,
+        86.118,
+        98.336,
+        85.446,
+        93.395,
+        85.159
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gwen Velasquez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.186,
+      "lap_times_url": null,
+      "laps": [
+        158.47,
+        129.334,
+        124.653,
+        123.063,
+        119.186
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79436"
+}

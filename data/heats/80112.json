@@ -1,0 +1,102 @@
+{
+  "heat_no": 80112,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-07-04T13:45:00",
+  "drivers": [
+    {
+      "name": "Greg Wahl",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.52,
+      "lap_times_url": null,
+      "laps": [
+        131.609,
+        87.993,
+        88.462,
+        87.722,
+        86.974,
+        86.752,
+        86.52
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ade Franklin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.775,
+      "lap_times_url": null,
+      "laps": [
+        142.111,
+        96.532,
+        95.26,
+        95.173,
+        95.013,
+        92.775
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "August Franklin",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.721,
+      "lap_times_url": null,
+      "laps": [
+        141.669,
+        97.989,
+        94.061,
+        94.707,
+        94.24,
+        93.721
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Rebecca Wahl",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.506,
+      "lap_times_url": null,
+      "laps": [
+        139.24,
+        96.718,
+        98.898,
+        94.913,
+        94.506,
+        103.159
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        3,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80112"
+}

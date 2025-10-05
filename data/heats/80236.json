@@ -1,0 +1,107 @@
+{
+  "heat_no": 80236,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T11:15:00",
+  "drivers": [
+    {
+      "name": "Caleb Brothers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.69,
+      "lap_times_url": null,
+      "laps": [
+        147.023,
+        111.301,
+        105.69,
+        125.997,
+        131.463
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alecsander Fur...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 100.197,
+      "lap_times_url": null,
+      "laps": [
+        146.074,
+        110.988,
+        100.197,
+        107.812,
+        131.485
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kyle Hathaway",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 138.669,
+      "lap_times_url": null,
+      "laps": [
+        170.104,
+        138.669,
+        141.727,
+        164.285
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Nicholas Ander...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.516,
+      "lap_times_url": null,
+      "laps": [
+        173.047,
+        133.392,
+        126.516,
+        144.951
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jacquelynn Wicka",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 144.578,
+      "lap_times_url": null,
+      "laps": [
+        173.641,
+        149.226,
+        144.578,
+        147.037
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80236"
+}

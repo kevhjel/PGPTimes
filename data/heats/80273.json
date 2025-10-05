@@ -1,0 +1,104 @@
+{
+  "heat_no": 80273,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-10T09:45:00",
+  "drivers": [
+    {
+      "name": "Alex Tran",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.955,
+      "lap_times_url": null,
+      "laps": [
+        121.794,
+        91.761,
+        90.542,
+        89.963,
+        89.844,
+        89.697,
+        88.955
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tim Chum",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.412,
+      "lap_times_url": null,
+      "laps": [
+        119.849,
+        90.395,
+        89.691,
+        89.837,
+        89.544,
+        89.192,
+        88.412
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dru Rhodes",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.377,
+      "lap_times_url": null,
+      "laps": [
+        121.913,
+        97.824,
+        97.378,
+        102.542,
+        93.377,
+        110.909
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Javier Farias",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.003,
+      "lap_times_url": null,
+      "laps": [
+        118.864,
+        97.997,
+        96.748,
+        106.483,
+        95.003,
+        97.169
+      ],
+      "lap_positions": [
+        1,
+        4,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80273"
+}

@@ -1,0 +1,58 @@
+{
+  "heat_no": 79839,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T10:00:00",
+  "drivers": [
+    {
+      "name": "Grady Newton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.196,
+      "lap_times_url": null,
+      "laps": [
+        107.217,
+        90.212,
+        87.691,
+        87.583,
+        87.351,
+        87.196,
+        87.636
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Stephen Newton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.288,
+      "lap_times_url": null,
+      "laps": [
+        121.134,
+        106.549,
+        94.534,
+        91.994,
+        90.288,
+        92.055,
+        92.719
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79839"
+}

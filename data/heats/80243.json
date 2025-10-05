@@ -1,0 +1,108 @@
+{
+  "heat_no": 80243,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T14:00:00",
+  "drivers": [
+    {
+      "name": "Rick Fadler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.832,
+      "lap_times_url": null,
+      "laps": [
+        115.016,
+        86.617,
+        83.855,
+        95.919,
+        83.929,
+        83.832,
+        84.026
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Leilabadi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.172,
+      "lap_times_url": null,
+      "laps": [
+        119.004,
+        86.881,
+        85.86,
+        84.529,
+        84.017,
+        83.684,
+        83.172
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sam Leilabadi",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.282,
+      "lap_times_url": null,
+      "laps": [
+        121.844,
+        94.323,
+        95.216,
+        95.188,
+        93.333,
+        91.588,
+        91.282
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "William Hoke",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.846,
+      "lap_times_url": null,
+      "laps": [
+        115.229,
+        83.846,
+        95.567,
+        87.14,
+        84.668,
+        84.746,
+        84.5
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80243"
+}

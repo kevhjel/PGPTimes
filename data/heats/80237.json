@@ -1,0 +1,52 @@
+{
+  "heat_no": 80237,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T11:30:00",
+  "drivers": [
+    {
+      "name": "Jacob Randall",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.882,
+      "lap_times_url": null,
+      "laps": [
+        150.049,
+        96.98,
+        97.297,
+        94.311,
+        95.177,
+        93.882
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Joshua Randall",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.655,
+      "lap_times_url": null,
+      "laps": [
+        155.429,
+        111.619,
+        112.767,
+        111.291,
+        108.655
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80237"
+}

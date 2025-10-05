@@ -1,0 +1,98 @@
+{
+  "heat_no": 79709,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-20T18:30:00",
+  "drivers": [
+    {
+      "name": "Gabriel Villaf...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.939,
+      "lap_times_url": null,
+      "laps": [
+        168.63,
+        105.815,
+        103.76,
+        99.939,
+        107.936
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Cameron Egbert",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.355,
+      "lap_times_url": null,
+      "laps": [
+        131.855,
+        100.453,
+        98.935,
+        97.646,
+        96.691,
+        94.355
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dearious Tucker",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.293,
+      "lap_times_url": null,
+      "laps": [
+        131.257,
+        100.428,
+        117.676,
+        92.741,
+        92.359,
+        91.293
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Janvir Bhangu",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.537,
+      "lap_times_url": null,
+      "laps": [
+        169.502,
+        110.227,
+        107.449,
+        104.453,
+        98.537,
+        102.446
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79709"
+}

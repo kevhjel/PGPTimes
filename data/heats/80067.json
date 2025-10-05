@@ -1,0 +1,123 @@
+{
+  "heat_no": 80067,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-03T10:00:00",
+  "drivers": [
+    {
+      "name": "John Sha",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.399,
+      "lap_times_url": null,
+      "laps": [
+        126.224,
+        98.763,
+        93.716,
+        93.933,
+        95.023,
+        93.399
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jim Hickernell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.063,
+      "lap_times_url": null,
+      "laps": [
+        124.283,
+        88.106,
+        88.408,
+        97.452,
+        87.063,
+        87.271,
+        87.691
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Douglas Haby",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.982,
+      "lap_times_url": null,
+      "laps": [
+        124.684,
+        114.106,
+        90.982,
+        100.638,
+        91.105,
+        94.104
+      ],
+      "lap_positions": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ernen Haby",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 96.852,
+      "lap_times_url": null,
+      "laps": [
+        133.887,
+        104.92,
+        96.852,
+        98.673,
+        98.903,
+        99.008
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "James Lei",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 107.145,
+      "lap_times_url": null,
+      "laps": [
+        180.918,
+        116.243,
+        110.804,
+        109.733,
+        107.145
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80067"
+}

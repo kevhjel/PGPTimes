@@ -1,0 +1,402 @@
+{
+  "heat_no": 79528,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-06-15T12:00:00",
+  "drivers": [
+    {
+      "name": "Eli Edwards",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.901,
+      "lap_times_url": null,
+      "laps": [
+        107.168,
+        83.866,
+        83.72,
+        83.756,
+        83.612,
+        83.092,
+        83.41,
+        82.901
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        4,
+        3,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Severn Allen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.742,
+      "lap_times_url": null,
+      "laps": [
+        106.23,
+        83.633,
+        84.083,
+        83.908,
+        86.12,
+        82.742,
+        83.924,
+        83.586
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dirk Evans",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 88.578,
+      "lap_times_url": null,
+      "laps": [
+        110.194,
+        100.854,
+        88.578,
+        89.908,
+        90.914,
+        90.587,
+        94.165
+      ],
+      "lap_positions": [
+        8,
+        11,
+        9,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Evan Allen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.653,
+      "lap_times_url": null,
+      "laps": [
+        108.098,
+        82.707,
+        83.112,
+        82.817,
+        83.848,
+        81.827,
+        84.506,
+        81.653
+      ],
+      "lap_positions": [
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Owen Edwards",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.002,
+      "lap_times_url": null,
+      "laps": [
+        106.349,
+        83.841,
+        85.407,
+        84.153,
+        88.199,
+        84.03,
+        83.002
+      ],
+      "lap_positions": [
+        3,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Jude Swales",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 112.116,
+      "lap_times_url": null,
+      "laps": [
+        134.939,
+        124.622,
+        112.116,
+        112.634,
+        113.502
+      ],
+      "lap_positions": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Niall Swales",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 85.247,
+      "lap_times_url": null,
+      "laps": [
+        116.749,
+        92.629,
+        86.616,
+        86.243,
+        89.203,
+        85.247,
+        89.733
+      ],
+      "lap_positions": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Tanner Holmes",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.374,
+      "lap_times_url": null,
+      "laps": [
+        107.797,
+        99.437,
+        88.446,
+        88.698,
+        87.833,
+        88.323,
+        86.374
+      ],
+      "lap_positions": [
+        5,
+        9,
+        8,
+        9,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.361,
+      "lap_times_url": null,
+      "laps": [
+        108.251,
+        81.231,
+        81.611,
+        80.364,
+        80.72,
+        80.361,
+        81.983,
+        80.529
+      ],
+      "lap_positions": [
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Andres Montano...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 88.114,
+      "lap_times_url": null,
+      "laps": [
+        117.59,
+        95.8,
+        91.897,
+        88.114,
+        89.438,
+        88.791,
+        89.103
+      ],
+      "lap_positions": [
+        10,
+        8,
+        10,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Caden Evans",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 84.223,
+      "lap_times_url": null,
+      "laps": [
+        105.973,
+        87.13,
+        84.223,
+        84.886,
+        85.945,
+        85.064,
+        84.906
+      ],
+      "lap_positions": [
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Candace Craig",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 103.153,
+      "lap_times_url": null,
+      "laps": [
+        129.423,
+        112.239,
+        109.647,
+        107.203,
+        107.314,
+        103.153
+      ],
+      "lap_positions": [
+        14,
+        13,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Dustan Bunt",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 92.098,
+      "lap_times_url": null,
+      "laps": [
+        119.977,
+        99.843,
+        92.098,
+        93.225,
+        92.95,
+        104.129
+      ],
+      "lap_positions": [
+        12,
+        10,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Samie Jadrny",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 95.187,
+      "lap_times_url": null,
+      "laps": [
+        118.907,
+        112.745,
+        102.263,
+        99.327,
+        98.118,
+        95.187
+      ],
+      "lap_positions": [
+        11,
+        14,
+        12,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "James Edwards",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 101.803,
+      "lap_times_url": null,
+      "laps": [
+        126.642,
+        113.673,
+        108.018,
+        106.089,
+        105.093,
+        101.803
+      ],
+      "lap_positions": [
+        13,
+        15,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Eric Edwards",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 92.504,
+      "lap_times_url": null,
+      "laps": [
+        130.671,
+        108.77,
+        103.859,
+        92.504,
+        93.126,
+        95.199
+      ],
+      "lap_positions": [
+        15,
+        12,
+        13,
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79528"
+}

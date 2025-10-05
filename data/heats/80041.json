@@ -1,0 +1,35 @@
+{
+  "heat_no": 80041,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-02T15:30:00",
+  "drivers": [
+    {
+      "name": "Gator",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.227,
+      "lap_times_url": null,
+      "laps": [
+        84.282,
+        81.227,
+        81.672,
+        81.88,
+        82.197,
+        83.023,
+        82.867,
+        82.06
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80041"
+}

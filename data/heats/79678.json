@@ -1,0 +1,171 @@
+{
+  "heat_no": 79678,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-19T15:45:00",
+  "drivers": [
+    {
+      "name": "Rishabh Garg",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.728,
+      "lap_times_url": null,
+      "laps": [
+        137.607,
+        103.917,
+        102.035,
+        92.728,
+        102.025,
+        100.806
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Varun Hariharan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.592,
+      "lap_times_url": null,
+      "laps": [
+        130.669,
+        85.981,
+        83.027,
+        84.044,
+        82.592,
+        133.409,
+        83.303
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dikshit Jain",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.992,
+      "lap_times_url": null,
+      "laps": [
+        126.218,
+        86.826,
+        86.014,
+        86.426,
+        87.029,
+        86.6,
+        84.992
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Archit Ganapule",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.399,
+      "lap_times_url": null,
+      "laps": [
+        150.623,
+        107.657,
+        96.737,
+        96.124,
+        92.299,
+        91.399
+      ],
+      "lap_positions": [
+        5,
+        6,
+        4,
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jerry Feng",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 97.735,
+      "lap_times_url": null,
+      "laps": [
+        160.285,
+        105.067,
+        102.078,
+        105.768,
+        120.684,
+        97.735
+      ],
+      "lap_positions": [
+        7,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Richard Jiang",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 93.651,
+      "lap_times_url": null,
+      "laps": [
+        132.813,
+        94.631,
+        102.462,
+        94.822,
+        95.848,
+        93.651
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Prashant Sharma",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 120.382,
+      "lap_times_url": null,
+      "laps": [
+        153.074,
+        128.337,
+        124.005,
+        120.382,
+        121.573
+      ],
+      "lap_positions": [
+        6,
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79678"
+}

@@ -1,0 +1,62 @@
+{
+  "heat_no": 80279,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-10T11:15:00",
+  "drivers": [
+    {
+      "name": "eugene johnson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.983,
+      "lap_times_url": null,
+      "laps": [
+        86.582,
+        83.08,
+        83.53,
+        84.039,
+        83.0,
+        83.589,
+        82.983,
+        83.341
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Adam Towers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.358,
+      "lap_times_url": null,
+      "laps": [
+        85.715,
+        82.634,
+        81.549,
+        81.779,
+        81.655,
+        81.491,
+        81.709,
+        81.358
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80279"
+}

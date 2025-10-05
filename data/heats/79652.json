@@ -1,0 +1,292 @@
+{
+  "heat_no": 79652,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-06-19T12:00:00",
+  "drivers": [
+    {
+      "name": "Braeden Lindell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.244,
+      "lap_times_url": null,
+      "laps": [
+        144.691,
+        87.903,
+        88.939,
+        87.868,
+        86.244,
+        87.744,
+        87.624,
+        101.398,
+        87.754
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samuel Lindell",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.162,
+      "lap_times_url": null,
+      "laps": [
+        179.837,
+        102.339,
+        87.141,
+        90.199,
+        86.82,
+        87.556,
+        86.162,
+        86.747,
+        86.481
+      ],
+      "lap_positions": [
+        10,
+        9,
+        9,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Paolo Hill",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.239,
+      "lap_times_url": null,
+      "laps": [
+        145.773,
+        87.997,
+        87.757,
+        87.583,
+        87.459,
+        89.862,
+        86.881,
+        86.239,
+        91.794
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "omar STINER",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 97.836,
+      "lap_times_url": null,
+      "laps": [
+        158.405,
+        109.661,
+        107.391,
+        103.426,
+        99.885,
+        100.27,
+        104.048,
+        97.836
+      ],
+      "lap_positions": [
+        8,
+        10,
+        10,
+        10,
+        10,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Toby Smedes",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.636,
+      "lap_times_url": null,
+      "laps": [
+        143.728,
+        89.799,
+        97.796,
+        89.592,
+        89.551,
+        87.636,
+        89.158,
+        93.441,
+        88.05
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jace Simon",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 89.225,
+      "lap_times_url": null,
+      "laps": [
+        162.565,
+        99.071,
+        90.035,
+        111.27,
+        90.364,
+        96.294,
+        89.225,
+        89.327,
+        108.225
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        9,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Caleb Rowland",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 92.532,
+      "lap_times_url": null,
+      "laps": [
+        141.895,
+        104.792,
+        94.963,
+        97.057,
+        93.776,
+        94.487,
+        94.891,
+        92.532,
+        94.981
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Michael Cinnamon",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 93.785,
+      "lap_times_url": null,
+      "laps": [
+        166.58,
+        95.278,
+        93.785,
+        96.901,
+        95.7,
+        129.897,
+        126.093,
+        96.905
+      ],
+      "lap_positions": [
+        9,
+        8,
+        8,
+        7,
+        7,
+        9,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Lachlan Bailey",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.02,
+      "lap_times_url": null,
+      "laps": [
+        149.41,
+        88.793,
+        89.154,
+        89.456,
+        88.02,
+        98.431,
+        99.683,
+        111.582,
+        89.636
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Bronislaw Andrus",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 92.656,
+      "lap_times_url": null,
+      "laps": [
+        161.561,
+        95.659,
+        95.386,
+        105.964,
+        105.548,
+        95.392,
+        93.011,
+        92.656
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        8,
+        9,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79652"
+}

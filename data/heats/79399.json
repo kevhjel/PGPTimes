@@ -1,0 +1,112 @@
+{
+  "heat_no": 79399,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-11T18:00:00",
+  "drivers": [
+    {
+      "name": "Frank the Tank",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.788,
+      "lap_times_url": null,
+      "laps": [
+        94.024,
+        82.649,
+        80.788,
+        81.983,
+        81.348,
+        82.889,
+        81.721,
+        81.452
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Phyllis Cowan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.262,
+      "lap_times_url": null,
+      "laps": [
+        141.424,
+        93.046,
+        91.615,
+        91.263,
+        90.262,
+        91.411,
+        91.518
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tazzin Thomas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.479,
+      "lap_times_url": null,
+      "laps": [
+        101.625,
+        90.185,
+        88.746,
+        88.745,
+        88.479,
+        91.113,
+        89.46
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Andrew Rodgers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.913,
+      "lap_times_url": null,
+      "laps": [
+        97.644,
+        87.115,
+        85.793,
+        85.437,
+        86.69,
+        85.916,
+        84.913,
+        85.786
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79399"
+}

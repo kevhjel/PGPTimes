@@ -1,0 +1,131 @@
+{
+  "heat_no": 80033,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-02T10:30:00",
+  "drivers": [
+    {
+      "name": "Vikram Reddy",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.507,
+      "lap_times_url": null,
+      "laps": [
+        125.836,
+        89.507,
+        89.752,
+        89.936,
+        123.987,
+        90.729
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kianna Knight",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.665,
+      "lap_times_url": null,
+      "laps": [
+        126.328,
+        92.56,
+        89.665,
+        90.516,
+        91.838,
+        93.084,
+        90.48
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "JJ Baron",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.316,
+      "lap_times_url": null,
+      "laps": [
+        122.163,
+        85.624,
+        84.554,
+        84.666,
+        85.509,
+        87.581,
+        84.316
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.35,
+      "lap_times_url": null,
+      "laps": [
+        118.82,
+        82.684,
+        80.821,
+        80.373,
+        80.35,
+        80.587,
+        80.695,
+        80.631
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Reddy",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 97.201,
+      "lap_times_url": null,
+      "laps": [
+        138.156,
+        105.128,
+        107.452,
+        97.201,
+        119.051,
+        99.427
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80033"
+}

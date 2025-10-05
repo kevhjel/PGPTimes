@@ -1,0 +1,353 @@
+{
+  "heat_no": 79408,
+  "heat_type": "Group Event Practice",
+  "start_time_iso": "2025-06-11T14:30:00",
+  "drivers": [
+    {
+      "name": "Zach Eggers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.671,
+      "lap_times_url": null,
+      "laps": [
+        121.654,
+        95.785,
+        86.671,
+        92.92,
+        86.909,
+        91.252,
+        89.645
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Tonkin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.015,
+      "lap_times_url": null,
+      "laps": [
+        118.038,
+        85.795,
+        85.803,
+        85.015,
+        92.301,
+        89.165,
+        90.443
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Michael Macias",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.306,
+      "lap_times_url": null,
+      "laps": [
+        118.677,
+        100.157,
+        87.973,
+        88.421,
+        88.234,
+        87.838,
+        87.306
+      ],
+      "lap_positions": [
+        2,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alex Spadaro",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 94.852,
+      "lap_times_url": null,
+      "laps": [
+        128.589,
+        99.999,
+        97.465,
+        97.14,
+        97.749,
+        94.852
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jack Beck",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.244,
+      "lap_times_url": null,
+      "laps": [
+        119.834,
+        91.688,
+        89.897,
+        93.444,
+        89.244,
+        91.991,
+        90.236
+      ],
+      "lap_positions": [
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Tami Brooks",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 106.024,
+      "lap_times_url": null,
+      "laps": [
+        128.961,
+        107.139,
+        106.733,
+        109.96,
+        106.202,
+        106.024
+      ],
+      "lap_positions": [
+        7,
+        9,
+        9,
+        9,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Tana Blair",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 101.977,
+      "lap_times_url": null,
+      "laps": [
+        138.89,
+        109.275,
+        106.943,
+        109.45,
+        103.522,
+        101.977
+      ],
+      "lap_positions": [
+        11,
+        10,
+        10,
+        10,
+        10,
+        8
+      ]
+    },
+    {
+      "name": "Veronica Laur",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 113.555,
+      "lap_times_url": null,
+      "laps": [
+        155.554,
+        124.242,
+        117.018,
+        113.555,
+        120.498
+      ],
+      "lap_positions": [
+        14,
+        14,
+        13,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Isaak Blackburn",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 113.267,
+      "lap_times_url": null,
+      "laps": [
+        149.708,
+        118.239,
+        118.706,
+        113.267,
+        122.23
+      ],
+      "lap_positions": [
+        13,
+        13,
+        14,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Adrian Santos",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 124.079,
+      "lap_times_url": null,
+      "laps": [
+        164.14,
+        136.828,
+        129.008,
+        125.983,
+        124.079
+      ],
+      "lap_positions": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Jayden Winters",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 102.311,
+      "lap_times_url": null,
+      "laps": [
+        146.145,
+        110.977,
+        131.243,
+        110.574,
+        102.311
+      ],
+      "lap_positions": [
+        12,
+        11,
+        12,
+        12,
+        7
+      ]
+    },
+    {
+      "name": "Larissa Herbert",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 103.031,
+      "lap_times_url": null,
+      "laps": [
+        133.665,
+        111.491,
+        109.132,
+        114.459,
+        103.031,
+        103.089
+      ],
+      "lap_positions": [
+        9,
+        12,
+        11,
+        11,
+        8,
+        10
+      ]
+    },
+    {
+      "name": "Moh Ward",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 96.102,
+      "lap_times_url": null,
+      "laps": [
+        135.288,
+        101.397,
+        100.041,
+        97.457,
+        98.037,
+        96.102
+      ],
+      "lap_positions": [
+        10,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Linda Cadigan",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 104.779,
+      "lap_times_url": null,
+      "laps": [
+        128.923,
+        105.686,
+        121.026,
+        107.322,
+        107.965,
+        104.779
+      ],
+      "lap_positions": [
+        6,
+        8,
+        8,
+        8,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Jason Lazzuri",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 101.428,
+      "lap_times_url": null,
+      "laps": [
+        130.039,
+        105.309,
+        104.679,
+        112.55,
+        103.176,
+        101.428
+      ],
+      "lap_positions": [
+        8,
+        7,
+        7,
+        7,
+        9,
+        7
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79408"
+}

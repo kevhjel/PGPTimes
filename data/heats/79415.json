@@ -1,0 +1,114 @@
+{
+  "heat_no": 79415,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-11T16:30:00",
+  "drivers": [
+    {
+      "name": "mike pavone",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.408,
+      "lap_times_url": null,
+      "laps": [
+        100.58,
+        83.092,
+        82.728,
+        82.177,
+        81.754,
+        81.758,
+        81.408,
+        81.519
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "david cheng",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.545,
+      "lap_times_url": null,
+      "laps": [
+        102.951,
+        82.686,
+        80.927,
+        80.915,
+        80.814,
+        80.9,
+        80.606,
+        80.545
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "bonimoto cordero",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.448,
+      "lap_times_url": null,
+      "laps": [
+        99.934,
+        85.035,
+        83.373,
+        83.29,
+        83.693,
+        83.173,
+        82.827,
+        82.448
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mark DeCastro",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.445,
+      "lap_times_url": null,
+      "laps": [
+        102.464,
+        85.682,
+        85.787,
+        86.48,
+        96.291,
+        85.523,
+        84.445
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79415"
+}

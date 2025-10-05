@@ -1,0 +1,310 @@
+{
+  "heat_no": 79493,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-13T16:00:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.521,
+      "lap_times_url": null,
+      "laps": [
+        100.001,
+        80.511,
+        80.167,
+        79.521,
+        80.399,
+        80.117,
+        79.916,
+        80.047
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sergei Ognerubov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.541,
+      "lap_times_url": null,
+      "laps": [
+        100.682,
+        81.19,
+        81.048,
+        81.171,
+        81.141,
+        81.073,
+        80.541,
+        80.765
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Clement Ho",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 82.678,
+      "lap_times_url": null,
+      "laps": [
+        104.411,
+        83.537,
+        83.289,
+        82.678,
+        83.688,
+        86.578,
+        83.551,
+        83.412
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Odie Moe",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.581,
+      "lap_times_url": null,
+      "laps": [
+        102.552,
+        82.581,
+        83.038,
+        84.094,
+        83.281,
+        86.829,
+        84.028,
+        83.22
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Brett Bussard",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 85.658,
+      "lap_times_url": null,
+      "laps": [
+        107.159,
+        87.665,
+        86.136,
+        85.658,
+        86.557,
+        85.995,
+        86.526
+      ],
+      "lap_positions": [
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Brendan Bussard",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.818,
+      "lap_times_url": null,
+      "laps": [
+        106.587,
+        95.193,
+        91.625,
+        86.818,
+        87.172,
+        91.581,
+        91.306
+      ],
+      "lap_positions": [
+        6,
+        9,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Zachary Logsdon",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.33,
+      "lap_times_url": null,
+      "laps": [
+        101.628,
+        81.469,
+        81.274,
+        81.891,
+        82.727,
+        85.004,
+        80.33,
+        80.815
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Daman Mulye",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 86.657,
+      "lap_times_url": null,
+      "laps": [
+        114.461,
+        91.72,
+        96.059,
+        86.708,
+        86.657,
+        90.48,
+        86.834
+      ],
+      "lap_positions": [
+        8,
+        7,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Sukumar Mokkar...",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 101.602,
+      "lap_times_url": null,
+      "laps": [
+        115.199,
+        102.911,
+        104.63,
+        103.476,
+        102.457,
+        101.602
+      ],
+      "lap_positions": [
+        9,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Ethan Budd",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 98.77,
+      "lap_times_url": null,
+      "laps": [
+        117.752,
+        102.159,
+        104.448,
+        103.4,
+        114.223,
+        98.77
+      ],
+      "lap_positions": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Denis Yurenkov",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 104.428,
+      "lap_times_url": null,
+      "laps": [
+        122.487,
+        112.698,
+        107.63,
+        106.554,
+        107.932,
+        104.428
+      ],
+      "lap_positions": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Philip Denisov",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 89.316,
+      "lap_times_url": null,
+      "laps": [
+        118.0,
+        92.819,
+        99.146,
+        110.664,
+        92.641,
+        89.316
+      ],
+      "lap_positions": [
+        11,
+        8,
+        9,
+        9,
+        9,
+        9
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79493"
+}

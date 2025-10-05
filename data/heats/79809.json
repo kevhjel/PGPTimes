@@ -1,0 +1,50 @@
+{
+  "heat_no": 79809,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Sarah Jim",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.131,
+      "lap_times_url": null,
+      "laps": [
+        143.481,
+        118.091,
+        125.811,
+        119.049,
+        117.131
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Geoffrey Jim",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.837,
+      "lap_times_url": null,
+      "laps": [
+        156.058,
+        118.886,
+        110.613,
+        108.306,
+        105.837
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79809"
+}

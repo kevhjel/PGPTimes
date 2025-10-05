@@ -1,0 +1,112 @@
+{
+  "heat_no": 79440,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-12T13:00:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 78.9,
+      "lap_times_url": null,
+      "laps": [
+        109.681,
+        79.838,
+        79.583,
+        79.225,
+        79.069,
+        79.135,
+        78.9,
+        79.05
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Leif Carey",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.31,
+      "lap_times_url": null,
+      "laps": [
+        113.365,
+        86.263,
+        86.051,
+        84.595,
+        84.477,
+        84.452,
+        83.31,
+        84.13
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mila Hoagland",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.5,
+      "lap_times_url": null,
+      "laps": [
+        116.279,
+        89.092,
+        87.447,
+        87.506,
+        87.413,
+        87.835,
+        86.5
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Owen Corcoran",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.634,
+      "lap_times_url": null,
+      "laps": [
+        115.742,
+        88.007,
+        86.985,
+        86.119,
+        84.133,
+        83.81,
+        82.634
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79440"
+}

@@ -1,0 +1,56 @@
+{
+  "heat_no": 79810,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T13:00:00",
+  "drivers": [
+    {
+      "name": "Richard Wielbr...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.602,
+      "lap_times_url": null,
+      "laps": [
+        135.849,
+        92.945,
+        97.67,
+        93.782,
+        89.602,
+        99.755
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joseph Wielbruda",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.773,
+      "lap_times_url": null,
+      "laps": [
+        133.131,
+        94.402,
+        98.694,
+        92.871,
+        89.089,
+        99.07,
+        88.773
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79810"
+}

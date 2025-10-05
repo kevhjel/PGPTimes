@@ -1,0 +1,357 @@
+{
+  "heat_no": 79930,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-28T11:15:00",
+  "drivers": [
+    {
+      "name": "Noah Benesch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.569,
+      "lap_times_url": null,
+      "laps": [
+        115.084,
+        83.845,
+        85.614,
+        83.569,
+        84.893,
+        85.521,
+        85.097
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kellan Gary",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.202,
+      "lap_times_url": null,
+      "laps": [
+        117.489,
+        87.036,
+        87.506,
+        86.192,
+        85.202,
+        94.303,
+        86.126
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Robert Gary",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.942,
+      "lap_times_url": null,
+      "laps": [
+        117.789,
+        91.459,
+        88.474,
+        88.558,
+        85.942,
+        90.367,
+        89.579
+      ],
+      "lap_positions": [
+        4,
+        6,
+        5,
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Adam Bone",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 109.351,
+      "lap_times_url": null,
+      "laps": [
+        150.151,
+        126.67,
+        121.782,
+        113.632,
+        109.351
+      ],
+      "lap_positions": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Bernard Sands",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 94.761,
+      "lap_times_url": null,
+      "laps": [
+        125.536,
+        94.761,
+        108.213,
+        109.448,
+        108.191,
+        106.763
+      ],
+      "lap_positions": [
+        10,
+        8,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Daniella Bone",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 98.715,
+      "lap_times_url": null,
+      "laps": [
+        124.723,
+        98.715,
+        102.844,
+        103.598,
+        101.118,
+        108.44
+      ],
+      "lap_positions": [
+        9,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Emily Sands",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 118.323,
+      "lap_times_url": null,
+      "laps": [
+        158.629,
+        135.519,
+        127.695,
+        127.326,
+        118.323
+      ],
+      "lap_positions": [
+        14,
+        14,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Jorja Bone",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 106.242,
+      "lap_times_url": null,
+      "laps": [
+        129.792,
+        106.242,
+        107.908,
+        111.087,
+        130.129
+      ],
+      "lap_positions": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Jackson Sands",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 120.186,
+      "lap_times_url": null,
+      "laps": [
+        154.512,
+        127.74,
+        134.924,
+        130.134,
+        120.186
+      ],
+      "lap_positions": [
+        13,
+        13,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Elise Hays",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 91.172,
+      "lap_times_url": null,
+      "laps": [
+        120.182,
+        95.307,
+        93.971,
+        109.66,
+        91.57,
+        91.172,
+        94.701
+      ],
+      "lap_positions": [
+        8,
+        9,
+        8,
+        8,
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Drew Hays",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.182,
+      "lap_times_url": null,
+      "laps": [
+        114.982,
+        88.997,
+        90.395,
+        91.827,
+        88.843,
+        103.447,
+        88.182
+      ],
+      "lap_positions": [
+        1,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Parker Hines",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 88.401,
+      "lap_times_url": null,
+      "laps": [
+        118.23,
+        88.401,
+        92.23,
+        106.224,
+        88.991,
+        88.418,
+        88.543
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Dave Hays",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 90.418,
+      "lap_times_url": null,
+      "laps": [
+        118.573,
+        92.932,
+        95.074,
+        97.218,
+        91.841,
+        90.418,
+        91.363
+      ],
+      "lap_positions": [
+        6,
+        7,
+        7,
+        7,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Maria Hays",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 139.462,
+      "lap_times_url": null,
+      "laps": [
+        158.65,
+        141.71,
+        142.748,
+        139.462
+      ],
+      "lap_positions": [
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Gary Costes",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.226,
+      "lap_times_url": null,
+      "laps": [
+        119.043,
+        88.002,
+        86.129,
+        88.683,
+        83.226,
+        88.037,
+        84.624
+      ],
+      "lap_positions": [
+        7,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79930"
+}

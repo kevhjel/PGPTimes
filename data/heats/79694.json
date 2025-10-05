@@ -1,0 +1,82 @@
+{
+  "heat_no": 79694,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-20T11:45:00",
+  "drivers": [
+    {
+      "name": "Jason Luu",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 154.255,
+      "lap_times_url": null,
+      "laps": [
+        192.887,
+        191.623,
+        154.255
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ross Perez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 128.466,
+      "lap_times_url": null,
+      "laps": [
+        177.231,
+        140.834,
+        134.225,
+        128.466
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Chris Lee",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 148.529,
+      "lap_times_url": null,
+      "laps": [
+        181.941,
+        154.831,
+        148.529,
+        152.143
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Lauron Placentia",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 129.706,
+      "lap_times_url": null,
+      "laps": [
+        165.559,
+        136.022,
+        129.706,
+        149.856
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79694"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 79437,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-12T11:45:00",
+  "drivers": [
+    {
+      "name": "Rohit Manohar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.813,
+      "lap_times_url": null,
+      "laps": [
+        115.965,
+        119.636,
+        103.388,
+        88.858,
+        88.589,
+        90.178,
+        87.813
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Diane Tran",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.817,
+      "lap_times_url": null,
+      "laps": [
+        117.176,
+        89.585,
+        90.667,
+        89.615,
+        89.861,
+        88.817,
+        89.495
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "The Tortoise",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.608,
+      "lap_times_url": null,
+      "laps": [
+        116.408,
+        90.019,
+        98.172,
+        86.828,
+        86.608,
+        86.662,
+        97.571
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79437"
+}

@@ -1,0 +1,152 @@
+{
+  "heat_no": 80242,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T13:45:00",
+  "drivers": [
+    {
+      "name": "Rick Fadler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.935,
+      "lap_times_url": null,
+      "laps": [
+        107.245,
+        85.546,
+        86.038,
+        85.678,
+        85.619,
+        85.019,
+        84.935
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "William Hoke",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.74,
+      "lap_times_url": null,
+      "laps": [
+        107.252,
+        86.574,
+        85.518,
+        85.033,
+        85.936,
+        85.618,
+        84.74
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Matt Vang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.302,
+      "lap_times_url": null,
+      "laps": [
+        111.897,
+        102.645,
+        92.302,
+        100.453,
+        98.166,
+        112.757
+      ],
+      "lap_positions": [
+        3,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jonah Vang",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 105.819,
+      "lap_times_url": null,
+      "laps": [
+        133.201,
+        109.36,
+        109.324,
+        106.511,
+        105.819,
+        111.192
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Noah Vang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.181,
+      "lap_times_url": null,
+      "laps": [
+        118.255,
+        93.181,
+        89.746,
+        97.704,
+        89.386,
+        88.181,
+        94.363
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Elijah Kong",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 93.176,
+      "lap_times_url": null,
+      "laps": [
+        118.559,
+        94.133,
+        93.176,
+        95.456,
+        126.603,
+        162.274
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80242"
+}

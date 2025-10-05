@@ -1,0 +1,56 @@
+{
+  "heat_no": 79455,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-12T16:45:00",
+  "drivers": [
+    {
+      "name": "jason hamilton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.326,
+      "lap_times_url": null,
+      "laps": [
+        125.923,
+        97.502,
+        95.326,
+        103.325,
+        100.307,
+        97.09
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "solomon hamilton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.057,
+      "lap_times_url": null,
+      "laps": [
+        132.283,
+        95.063,
+        92.057,
+        93.88,
+        94.072,
+        95.193,
+        95.117
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79455"
+}

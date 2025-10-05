@@ -1,0 +1,81 @@
+{
+  "heat_no": 79322,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-07T18:15:00",
+  "drivers": [
+    {
+      "name": "edward whitman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.692,
+      "lap_times_url": null,
+      "laps": [
+        113.421,
+        83.914,
+        84.081,
+        84.846,
+        83.692,
+        84.519,
+        84.346
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nicholas Allen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.224,
+      "lap_times_url": null,
+      "laps": [
+        123.344,
+        94.924,
+        91.521,
+        90.649,
+        89.224,
+        91.47,
+        89.797
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Darrion Hamilton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.545,
+      "lap_times_url": null,
+      "laps": [
+        141.195,
+        94.871,
+        99.646,
+        99.292,
+        91.545,
+        91.629
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79322"
+}

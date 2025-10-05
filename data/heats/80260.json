@@ -1,0 +1,33 @@
+{
+  "heat_no": 80260,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T18:15:00",
+  "drivers": [
+    {
+      "name": "Frank the Tank",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.844,
+      "lap_times_url": null,
+      "laps": [
+        84.062,
+        83.458,
+        82.844,
+        83.898,
+        84.121,
+        85.193,
+        83.947
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80260"
+}

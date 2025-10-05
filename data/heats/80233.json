@@ -1,0 +1,156 @@
+{
+  "heat_no": 80233,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T10:30:00",
+  "drivers": [
+    {
+      "name": "Greg Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.876,
+      "lap_times_url": null,
+      "laps": [
+        114.357,
+        84.894,
+        83.887,
+        82.876,
+        85.484,
+        86.241,
+        83.926
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "JOSEPH HUBACH",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.293,
+      "lap_times_url": null,
+      "laps": [
+        112.903,
+        85.01,
+        84.333,
+        84.293,
+        85.271,
+        86.407,
+        85.045
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jose Valle-Med...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 88.271,
+      "lap_times_url": null,
+      "laps": [
+        137.406,
+        91.774,
+        89.667,
+        91.698,
+        93.176,
+        89.662,
+        88.271
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Van Ho",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.529,
+      "lap_times_url": null,
+      "laps": [
+        141.285,
+        88.259,
+        88.116,
+        88.799,
+        91.553,
+        87.529,
+        88.136
+      ],
+      "lap_positions": [
+        6,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Huy Tran",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.929,
+      "lap_times_url": null,
+      "laps": [
+        117.106,
+        88.351,
+        87.445,
+        87.482,
+        91.505,
+        90.084,
+        86.929
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Victor Ho",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 101.261,
+      "lap_times_url": null,
+      "laps": [
+        126.043,
+        101.924,
+        103.039,
+        102.65,
+        101.261,
+        110.9
+      ],
+      "lap_positions": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80233"
+}

@@ -1,0 +1,392 @@
+{
+  "heat_no": 79969,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-29T10:15:00",
+  "drivers": [
+    {
+      "name": "Binyu Long",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.067,
+      "lap_times_url": null,
+      "laps": [
+        127.216,
+        81.978,
+        85.463,
+        81.79,
+        81.959,
+        81.067,
+        84.228
+      ],
+      "lap_positions": [
+        7,
+        4,
+        4,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Michael Fulk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.372,
+      "lap_times_url": null,
+      "laps": [
+        113.196,
+        81.9,
+        86.077,
+        82.705,
+        84.035,
+        82.392,
+        81.372,
+        83.515
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Geoffrey Welch",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.835,
+      "lap_times_url": null,
+      "laps": [
+        113.478,
+        82.376,
+        85.199,
+        82.132,
+        84.877,
+        82.333,
+        86.273,
+        81.835
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        4
+      ]
+    },
+    {
+      "name": "Xuchao Jiang",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 81.883,
+      "lap_times_url": null,
+      "laps": [
+        112.722,
+        81.883,
+        86.42,
+        83.193,
+        82.367,
+        87.035,
+        83.462,
+        82.247
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Christopher Me...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.785,
+      "lap_times_url": null,
+      "laps": [
+        112.996,
+        81.785,
+        86.077,
+        82.725,
+        83.382,
+        82.408,
+        96.608
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Aiden Koransky",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 81.884,
+      "lap_times_url": null,
+      "laps": [
+        113.351,
+        82.111,
+        84.67,
+        83.355,
+        83.283,
+        83.074,
+        84.742,
+        81.884
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Tyler Neak",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 84.247,
+      "lap_times_url": null,
+      "laps": [
+        117.27,
+        85.964,
+        89.376,
+        84.247,
+        87.11,
+        84.523,
+        84.948
+      ],
+      "lap_positions": [
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Wing Fuk Lau",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 110.898,
+      "lap_times_url": null,
+      "laps": [
+        142.23,
+        199.201,
+        140.909,
+        110.898
+      ],
+      "lap_positions": [
+        13,
+        16,
+        16,
+        14
+      ]
+    },
+    {
+      "name": "Canaan Ip",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 92.416,
+      "lap_times_url": null,
+      "laps": [
+        128.22,
+        95.287,
+        95.207,
+        94.811,
+        93.495,
+        93.443,
+        92.416
+      ],
+      "lap_positions": [
+        9,
+        8,
+        9,
+        9,
+        11,
+        11,
+        9
+      ]
+    },
+    {
+      "name": "Haobang Lu",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 113.406,
+      "lap_times_url": null,
+      "laps": [
+        151.588,
+        123.217,
+        115.054,
+        113.406,
+        114.299
+      ],
+      "lap_positions": [
+        16,
+        14,
+        14,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Christopher Bu...",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 91.853,
+      "lap_times_url": null,
+      "laps": [
+        131.133,
+        99.94,
+        93.831,
+        91.853,
+        97.879,
+        130.721
+      ],
+      "lap_positions": [
+        11,
+        9,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Kyle Holten",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 92.7,
+      "lap_times_url": null,
+      "laps": [
+        129.766,
+        100.984,
+        104.294,
+        107.125,
+        92.7,
+        102.585
+      ],
+      "lap_positions": [
+        10,
+        10,
+        13,
+        13,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Jacob Hart",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 98.188,
+      "lap_times_url": null,
+      "laps": [
+        131.222,
+        101.346,
+        98.619,
+        112.722,
+        98.188,
+        105.129
+      ],
+      "lap_positions": [
+        12,
+        11,
+        11,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Alex Knaggs",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 99.184,
+      "lap_times_url": null,
+      "laps": [
+        146.847,
+        110.118,
+        99.184,
+        101.137,
+        100.506,
+        100.281
+      ],
+      "lap_positions": [
+        15,
+        13,
+        12,
+        12,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Joshua Callen",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 92.471,
+      "lap_times_url": null,
+      "laps": [
+        127.897,
+        102.243,
+        95.694,
+        95.669,
+        92.471,
+        94.355
+      ],
+      "lap_positions": [
+        8,
+        12,
+        10,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Ayla Hammons",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 122.814,
+      "lap_times_url": null,
+      "laps": [
+        142.652,
+        132.688,
+        124.612,
+        124.92,
+        122.814
+      ],
+      "lap_positions": [
+        14,
+        15,
+        15,
+        16,
+        16
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79969"
+}

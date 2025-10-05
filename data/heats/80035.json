@@ -1,0 +1,83 @@
+{
+  "heat_no": 80035,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-02T11:00:00",
+  "drivers": [
+    {
+      "name": "Vikram Reddy",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.519,
+      "lap_times_url": null,
+      "laps": [
+        119.262,
+        87.786,
+        88.032,
+        87.519,
+        90.927,
+        107.184,
+        89.72
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "mat hennessy",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.8,
+      "lap_times_url": null,
+      "laps": [
+        116.086,
+        84.724,
+        85.052,
+        84.554,
+        84.6,
+        84.144,
+        83.8,
+        83.848
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Reddy",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.211,
+      "lap_times_url": null,
+      "laps": [
+        152.931,
+        101.009,
+        94.303,
+        96.198,
+        93.802,
+        90.211
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80035"
+}

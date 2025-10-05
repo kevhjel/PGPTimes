@@ -1,0 +1,33 @@
+{
+  "heat_no": 80020,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-02T12:45:00",
+  "drivers": [
+    {
+      "name": "Jouan Amate",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.981,
+      "lap_times_url": null,
+      "laps": [
+        81.906,
+        81.413,
+        81.388,
+        81.085,
+        80.992,
+        81.28,
+        80.981
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80020"
+}

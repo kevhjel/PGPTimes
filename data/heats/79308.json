@@ -1,0 +1,435 @@
+{
+  "heat_no": 79308,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-07T14:45:00",
+  "drivers": [
+    {
+      "name": "shang lu",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 83.759,
+      "lap_times_url": null,
+      "laps": [
+        100.108,
+        85.768,
+        84.6,
+        85.578,
+        86.233,
+        85.317,
+        85.525,
+        83.759
+      ],
+      "lap_positions": [
+        3,
+        8,
+        7,
+        7,
+        7,
+        7,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "Michael Fulk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.918,
+      "lap_times_url": null,
+      "laps": [
+        107.174,
+        83.921,
+        84.569,
+        83.872,
+        84.077,
+        84.172,
+        85.596,
+        82.918
+      ],
+      "lap_positions": [
+        8,
+        2,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Chase Rockwell",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 86.404,
+      "lap_times_url": null,
+      "laps": [
+        104.133,
+        90.121,
+        92.354,
+        89.966,
+        89.779,
+        86.404,
+        90.175
+      ],
+      "lap_positions": [
+        7,
+        12,
+        12,
+        12,
+        11,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "Frank Zhang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.827,
+      "lap_times_url": null,
+      "laps": [
+        100.243,
+        84.271,
+        84.172,
+        86.352,
+        83.471,
+        86.908,
+        85.085,
+        82.827
+      ],
+      "lap_positions": [
+        4,
+        4,
+        6,
+        6,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jimmy Zhao",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 83.051,
+      "lap_times_url": null,
+      "laps": [
+        99.71,
+        84.213,
+        83.051,
+        85.447,
+        83.618,
+        84.489,
+        83.382,
+        83.127
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "Michael Klingele",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 86.159,
+      "lap_times_url": null,
+      "laps": [
+        130.831,
+        89.916,
+        86.401,
+        86.159,
+        91.706,
+        86.476,
+        86.4
+      ],
+      "lap_positions": [
+        15,
+        11,
+        9,
+        9,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Marcos Siler",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 85.721,
+      "lap_times_url": null,
+      "laps": [
+        115.386,
+        89.102,
+        86.957,
+        87.127,
+        89.726,
+        87.946,
+        85.721
+      ],
+      "lap_positions": [
+        11,
+        9,
+        10,
+        10,
+        10,
+        11,
+        8
+      ]
+    },
+    {
+      "name": "Jens Steinhagen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.754,
+      "lap_times_url": null,
+      "laps": [
+        101.77,
+        84.632,
+        83.706,
+        85.851,
+        85.76,
+        83.641,
+        82.754,
+        83.12
+      ],
+      "lap_positions": [
+        5,
+        6,
+        3,
+        3,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lina Steinhagen",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 83.904,
+      "lap_times_url": null,
+      "laps": [
+        99.569,
+        84.551,
+        83.904,
+        85.629,
+        102.131,
+        85.555,
+        86.219
+      ],
+      "lap_positions": [
+        1,
+        5,
+        4,
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Christopher Me...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.642,
+      "lap_times_url": null,
+      "laps": [
+        107.305,
+        83.826,
+        82.028,
+        83.856,
+        84.204,
+        85.264,
+        84.429,
+        81.642
+      ],
+      "lap_positions": [
+        9,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ben Garcia",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 85.733,
+      "lap_times_url": null,
+      "laps": [
+        102.143,
+        85.733,
+        86.21,
+        85.733,
+        105.981,
+        86.198,
+        86.455
+      ],
+      "lap_positions": [
+        6,
+        7,
+        8,
+        8,
+        8,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Riley Thompson",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 92.799,
+      "lap_times_url": null,
+      "laps": [
+        119.742,
+        103.645,
+        100.495,
+        94.97,
+        92.996,
+        92.799
+      ],
+      "lap_positions": [
+        13,
+        14,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Laura Woito",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 95.581,
+      "lap_times_url": null,
+      "laps": [
+        145.023,
+        101.807,
+        101.073,
+        123.204,
+        98.144,
+        95.581
+      ],
+      "lap_positions": [
+        17,
+        13,
+        15,
+        15,
+        15,
+        16
+      ]
+    },
+    {
+      "name": "Thomas Olson",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 94.724,
+      "lap_times_url": null,
+      "laps": [
+        132.027,
+        109.799,
+        114.082,
+        111.556,
+        95.886,
+        94.724
+      ],
+      "lap_positions": [
+        16,
+        16,
+        16,
+        17,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Justin Tan",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 99.162,
+      "lap_times_url": null,
+      "laps": [
+        121.017,
+        105.037,
+        100.592,
+        99.162,
+        107.501,
+        108.534
+      ],
+      "lap_positions": [
+        14,
+        15,
+        14,
+        14,
+        16,
+        17
+      ]
+    },
+    {
+      "name": "Aaron Brier",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 89.83,
+      "lap_times_url": null,
+      "laps": [
+        108.271,
+        89.83,
+        93.113,
+        90.547,
+        91.843,
+        92.577,
+        90.279
+      ],
+      "lap_positions": [
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Moajarra Mosissa",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 94.924,
+      "lap_times_url": null,
+      "laps": [
+        119.55,
+        110.19,
+        112.695,
+        102.778,
+        99.967,
+        94.924
+      ],
+      "lap_positions": [
+        12,
+        17,
+        17,
+        16,
+        17,
+        15
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79308"
+}

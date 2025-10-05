@@ -1,0 +1,77 @@
+{
+  "heat_no": 79854,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T15:15:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.976,
+      "lap_times_url": null,
+      "laps": [
+        105.734,
+        81.043,
+        80.511,
+        84.445,
+        80.153,
+        83.288,
+        80.127,
+        79.976
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mirkamil Aghayev",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.404,
+      "lap_times_url": null,
+      "laps": [
+        123.002,
+        103.72,
+        175.985,
+        105.232,
+        103.404
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tahmina Rustam...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.637,
+      "lap_times_url": null,
+      "laps": [
+        124.969,
+        109.841,
+        165.493,
+        125.025,
+        104.637
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79854"
+}

@@ -1,0 +1,35 @@
+{
+  "heat_no": 79846,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T12:15:00",
+  "drivers": [
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.521,
+      "lap_times_url": null,
+      "laps": [
+        82.594,
+        80.954,
+        80.923,
+        80.976,
+        81.054,
+        80.521,
+        81.484,
+        83.056
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79846"
+}

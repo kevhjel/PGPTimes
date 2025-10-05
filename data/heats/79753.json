@@ -1,0 +1,113 @@
+{
+  "heat_no": 79753,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-06-22T09:00:00",
+  "drivers": [
+    {
+      "name": "Jensen Osborne",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 111.687,
+      "lap_times_url": null,
+      "laps": [
+        141.254,
+        129.787,
+        113.525,
+        111.687,
+        116.519
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Blake Hughes",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 116.223,
+      "lap_times_url": null,
+      "laps": [
+        148.744,
+        120.019,
+        116.223,
+        119.3,
+        125.469
+      ],
+      "lap_positions": [
+        3,
+        2,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ashton Reichold",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 116.19,
+      "lap_times_url": null,
+      "laps": [
+        148.793,
+        118.873,
+        116.19,
+        118.102,
+        125.711
+      ],
+      "lap_positions": [
+        4,
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Weston Fine",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.183,
+      "lap_times_url": null,
+      "laps": [
+        152.638,
+        126.065,
+        111.958,
+        110.183,
+        111.9
+      ],
+      "lap_positions": [
+        5,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Declan Brooke",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.451,
+      "lap_times_url": null,
+      "laps": [
+        140.409,
+        130.217,
+        113.155,
+        111.451,
+        117.672
+      ],
+      "lap_positions": [
+        1,
+        5,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79753"
+}

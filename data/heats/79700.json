@@ -1,0 +1,181 @@
+{
+  "heat_no": 79700,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-20T13:30:00",
+  "drivers": [
+    {
+      "name": "Luca Paolantonio",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.132,
+      "lap_times_url": null,
+      "laps": [
+        113.456,
+        85.829,
+        85.531,
+        85.132,
+        86.654,
+        85.239,
+        85.494
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Andrew Hoover",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.276,
+      "lap_times_url": null,
+      "laps": [
+        116.295,
+        91.174,
+        89.814,
+        91.62,
+        92.676,
+        88.276,
+        89.313
+      ],
+      "lap_positions": [
+        3,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Simon Pollack",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 89.907,
+      "lap_times_url": null,
+      "laps": [
+        116.241,
+        90.101,
+        89.907,
+        90.589,
+        90.441,
+        103.28,
+        93.959
+      ],
+      "lap_positions": [
+        2,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Adam Brenneman",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 89.775,
+      "lap_times_url": null,
+      "laps": [
+        116.751,
+        90.307,
+        89.775,
+        89.81,
+        91.295,
+        90.929,
+        90.736
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Zane Landreth",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 91.644,
+      "lap_times_url": null,
+      "laps": [
+        127.456,
+        99.9,
+        93.983,
+        94.939,
+        93.149,
+        91.644
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Colin Overland",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.575,
+      "lap_times_url": null,
+      "laps": [
+        124.094,
+        87.742,
+        86.575,
+        87.419,
+        90.746,
+        87.69,
+        95.509
+      ],
+      "lap_positions": [
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jake Brenneman",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.457,
+      "lap_times_url": null,
+      "laps": [
+        120.65,
+        88.268,
+        87.457,
+        88.77,
+        89.499,
+        89.713,
+        105.551
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79700"
+}

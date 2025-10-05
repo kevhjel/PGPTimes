@@ -1,0 +1,92 @@
+{
+  "heat_no": 80247,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-07-09T15:00:00",
+  "drivers": [
+    {
+      "name": "Maria Garcia-w...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.412,
+      "lap_times_url": null,
+      "laps": [
+        157.576,
+        118.048,
+        114.474,
+        117.351,
+        106.412
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Juan Alvaro",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.683,
+      "lap_times_url": null,
+      "laps": [
+        168.412,
+        126.977,
+        106.603,
+        102.683,
+        112.974
+      ],
+      "lap_positions": [
+        3,
+        4,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lincoln Bosh",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.801,
+      "lap_times_url": null,
+      "laps": [
+        171.832,
+        119.656,
+        136.667,
+        94.852,
+        94.801
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jason Bosh",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.082,
+      "lap_times_url": null,
+      "laps": [
+        161.385,
+        113.744,
+        110.42,
+        107.408,
+        104.082
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80247"
+}

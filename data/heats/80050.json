@@ -1,0 +1,33 @@
+{
+  "heat_no": 80050,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-07-02T17:45:00",
+  "drivers": [
+    {
+      "name": "Christopher E...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.104,
+      "lap_times_url": null,
+      "laps": [
+        80.762,
+        80.456,
+        80.396,
+        81.179,
+        80.16,
+        80.104,
+        80.413
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80050"
+}

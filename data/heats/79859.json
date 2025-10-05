@@ -1,0 +1,96 @@
+{
+  "heat_no": 79859,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T17:00:00",
+  "drivers": [
+    {
+      "name": "Jake Swanson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.374,
+      "lap_times_url": null,
+      "laps": [
+        114.145,
+        92.374,
+        93.502,
+        96.978,
+        130.033,
+        134.717
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Murphy Klemann",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.64,
+      "lap_times_url": null,
+      "laps": [
+        114.315,
+        91.465,
+        90.64,
+        94.415,
+        147.017,
+        133.053
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sam Boobar",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.328,
+      "lap_times_url": null,
+      "laps": [
+        129.266,
+        132.141,
+        106.328,
+        142.377,
+        157.897
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jonathan Cochran",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 113.789,
+      "lap_times_url": null,
+      "laps": [
+        127.157,
+        125.937,
+        113.789,
+        130.115,
+        166.039
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79859"
+}

@@ -1,0 +1,479 @@
+{
+  "heat_no": 79519,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-06-15T09:45:00",
+  "drivers": [
+    {
+      "name": "Nick Mires",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 87.108,
+      "lap_times_url": null,
+      "laps": [
+        116.065,
+        87.108,
+        87.501,
+        88.456,
+        88.105,
+        87.348,
+        90.223
+      ],
+      "lap_positions": [
+        10,
+        7,
+        9,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Will Mires",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 81.958,
+      "lap_times_url": null,
+      "laps": [
+        111.071,
+        83.044,
+        82.068,
+        82.784,
+        86.896,
+        81.958,
+        83.745,
+        82.65
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "chris dall",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.344,
+      "lap_times_url": null,
+      "laps": [
+        109.997,
+        81.344,
+        82.033,
+        81.914,
+        83.236,
+        81.815,
+        83.378,
+        81.433
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "mark jordan",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 81.484,
+      "lap_times_url": null,
+      "laps": [
+        112.089,
+        82.671,
+        84.474,
+        82.32,
+        83.675,
+        81.484,
+        84.573,
+        82.048
+      ],
+      "lap_positions": [
+        7,
+        3,
+        4,
+        3,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Kevin Murphy",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 84.986,
+      "lap_times_url": null,
+      "laps": [
+        110.543,
+        105.833,
+        86.092,
+        87.454,
+        86.703,
+        84.986,
+        88.536
+      ],
+      "lap_positions": [
+        2,
+        16,
+        8,
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Michelle Mires",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 88.259,
+      "lap_times_url": null,
+      "laps": [
+        116.41,
+        96.544,
+        88.259,
+        92.213,
+        90.456,
+        89.043,
+        90.754
+      ],
+      "lap_positions": [
+        11,
+        12,
+        12,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "bryan ernsdorff",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.058,
+      "lap_times_url": null,
+      "laps": [
+        133.929,
+        98.615,
+        86.058,
+        101.643,
+        89.847,
+        89.675,
+        86.218
+      ],
+      "lap_positions": [
+        18,
+        13,
+        7,
+        7,
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Don Ernsdorff",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 95.545,
+      "lap_times_url": null,
+      "laps": [
+        117.643,
+        99.893,
+        95.545,
+        96.696,
+        96.326,
+        108.151
+      ],
+      "lap_positions": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        18
+      ]
+    },
+    {
+      "name": "Cooper Gangwish",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.398,
+      "lap_times_url": null,
+      "laps": [
+        111.666,
+        84.251,
+        84.443,
+        82.771,
+        82.889,
+        81.398,
+        91.832
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Brad Gibson",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 86.904,
+      "lap_times_url": null,
+      "laps": [
+        115.613,
+        90.318,
+        88.167,
+        86.904,
+        87.061,
+        87.057,
+        87.689
+      ],
+      "lap_positions": [
+        9,
+        9,
+        10,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "James Niedens",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 88.315,
+      "lap_times_url": null,
+      "laps": [
+        133.536,
+        96.033,
+        89.885,
+        103.073,
+        88.315,
+        99.327
+      ],
+      "lap_positions": [
+        17,
+        11,
+        14,
+        16,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Taiyou Gibson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.328,
+      "lap_times_url": null,
+      "laps": [
+        111.057,
+        83.602,
+        85.355,
+        82.723,
+        82.565,
+        81.328,
+        95.443
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Quinton Kearsley",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.34,
+      "lap_times_url": null,
+      "laps": [
+        111.511,
+        82.658,
+        82.757,
+        82.629,
+        85.333,
+        81.34,
+        84.352,
+        82.199
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        4,
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JASMINE KEARSLEY",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 89.435,
+      "lap_times_url": null,
+      "laps": [
+        116.416,
+        115.348,
+        89.435,
+        90.62,
+        96.386,
+        105.394
+      ],
+      "lap_positions": [
+        12,
+        18,
+        13,
+        15,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Aaron Mitchell",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 87.263,
+      "lap_times_url": null,
+      "laps": [
+        113.124,
+        90.18,
+        88.216,
+        87.908,
+        87.263,
+        89.419,
+        101.358
+      ],
+      "lap_positions": [
+        8,
+        8,
+        11,
+        12,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Bryan Murphy",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 88.358,
+      "lap_times_url": null,
+      "laps": [
+        140.284,
+        109.546,
+        158.054,
+        88.358,
+        96.231,
+        89.404
+      ],
+      "lap_positions": [
+        19,
+        17,
+        19,
+        14,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Jessica Dinkins",
+      "position": 19,
+      "kart": null,
+      "best_lap_seconds": 99.529,
+      "lap_times_url": null,
+      "laps": [
+        119.066,
+        127.869,
+        101.081,
+        99.683,
+        99.529,
+        134.328
+      ],
+      "lap_positions": [
+        15,
+        19,
+        18,
+        18,
+        19,
+        19
+      ]
+    },
+    {
+      "name": "Ashritha Aroun",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 92.128,
+      "lap_times_url": null,
+      "laps": [
+        132.396,
+        99.721,
+        106.623,
+        102.882,
+        92.128,
+        94.044
+      ],
+      "lap_positions": [
+        16,
+        14,
+        17,
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "James Gangwish",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 87.432,
+      "lap_times_url": null,
+      "laps": [
+        116.706,
+        90.763,
+        90.163,
+        87.432,
+        87.866,
+        90.051,
+        92.263
+      ],
+      "lap_positions": [
+        13,
+        10,
+        15,
+        11,
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79519"
+}

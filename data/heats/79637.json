@@ -1,0 +1,62 @@
+{
+  "heat_no": 79637,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-06-18T17:45:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.349,
+      "lap_times_url": null,
+      "laps": [
+        85.931,
+        82.599,
+        81.537,
+        82.071,
+        81.349,
+        81.895,
+        81.9,
+        82.018
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.341,
+      "lap_times_url": null,
+      "laps": [
+        84.74,
+        82.28,
+        80.948,
+        80.693,
+        80.455,
+        81.264,
+        80.381,
+        80.341
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79637"
+}

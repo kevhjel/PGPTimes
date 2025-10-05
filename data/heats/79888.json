@@ -1,0 +1,125 @@
+{
+  "heat_no": 79888,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-27T10:45:00",
+  "drivers": [
+    {
+      "name": "Michal Rybak",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.56,
+      "lap_times_url": null,
+      "laps": [
+        126.479,
+        89.651,
+        89.237,
+        87.56,
+        87.805,
+        89.526,
+        89.139
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aidan Ma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.2,
+      "lap_times_url": null,
+      "laps": [
+        87.373,
+        83.746,
+        83.586,
+        83.096,
+        82.2,
+        85.376,
+        84.41,
+        84.848
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tara Safavi",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 140.281,
+      "lap_times_url": null,
+      "laps": [
+        169.865,
+        150.743,
+        149.974,
+        140.281
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Dennis Zanini",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.639,
+      "lap_times_url": null,
+      "laps": [
+        138.987,
+        113.908,
+        98.408,
+        99.712,
+        94.639,
+        100.107
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Dennis Jr. Zan...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.698,
+      "lap_times_url": null,
+      "laps": [
+        138.22,
+        135.727,
+        110.526,
+        99.256,
+        96.542,
+        93.698
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79888"
+}

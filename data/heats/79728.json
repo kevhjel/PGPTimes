@@ -1,0 +1,107 @@
+{
+  "heat_no": 79728,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-21T14:00:00",
+  "drivers": [
+    {
+      "name": "Jeffrey Thomas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 124.102,
+      "lap_times_url": null,
+      "laps": [
+        155.457,
+        125.924,
+        131.656,
+        124.102,
+        124.918
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Derek Thomas",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.015,
+      "lap_times_url": null,
+      "laps": [
+        152.615,
+        123.289,
+        123.515,
+        123.044,
+        123.015
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dale Simmons",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.302,
+      "lap_times_url": null,
+      "laps": [
+        158.805,
+        132.302,
+        144.247,
+        149.341
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Joe Simmons",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 137.116,
+      "lap_times_url": null,
+      "laps": [
+        181.042,
+        183.005,
+        137.116,
+        149.982
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Brad Thomas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.325,
+      "lap_times_url": null,
+      "laps": [
+        166.864,
+        142.954,
+        128.325,
+        135.182
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79728"
+}

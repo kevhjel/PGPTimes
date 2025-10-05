@@ -1,0 +1,114 @@
+{
+  "heat_no": 79691,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-20T11:15:00",
+  "drivers": [
+    {
+      "name": "Parker Chang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 168.732,
+      "lap_times_url": null,
+      "laps": [
+        207.2,
+        168.732,
+        202.835
+      ],
+      "lap_positions": [
+        6,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jason Hill",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 182.773,
+      "lap_times_url": null,
+      "laps": [
+        185.786,
+        186.144,
+        182.773
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jason Luu",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 179.803,
+      "lap_times_url": null,
+      "laps": [
+        179.803,
+        217.614,
+        209.979
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ross Perez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 144.634,
+      "lap_times_url": null,
+      "laps": [
+        171.569,
+        146.978,
+        145.777,
+        144.634
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Lee",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 159.573,
+      "lap_times_url": null,
+      "laps": [
+        183.481,
+        159.573,
+        196.488
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Lauron Placentia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 140.424,
+      "lap_times_url": null,
+      "laps": [
+        166.71,
+        144.239,
+        153.38,
+        140.424
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79691"
+}

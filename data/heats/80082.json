@@ -1,0 +1,123 @@
+{
+  "heat_no": 80082,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T14:45:00",
+  "drivers": [
+    {
+      "name": "Gabriel Molina",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.694,
+      "lap_times_url": null,
+      "laps": [
+        110.929,
+        82.117,
+        82.943,
+        83.695,
+        82.504,
+        83.836,
+        82.331,
+        81.694
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "BISI MUSTAPHA",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 105.001,
+      "lap_times_url": null,
+      "laps": [
+        125.589,
+        110.123,
+        105.001,
+        105.075,
+        108.358,
+        107.995
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Erin Carrier",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.408,
+      "lap_times_url": null,
+      "laps": [
+        127.052,
+        112.043,
+        108.315,
+        104.42,
+        101.408,
+        103.813
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Danica Chun",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 152.87,
+      "lap_times_url": null,
+      "laps": [
+        170.68,
+        155.828,
+        156.283,
+        152.87
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Andrew Brown",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.765,
+      "lap_times_url": null,
+      "laps": [
+        128.74,
+        114.446,
+        97.95,
+        98.028,
+        93.765,
+        115.773
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80082"
+}

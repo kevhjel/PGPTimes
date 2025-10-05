@@ -1,0 +1,83 @@
+{
+  "heat_no": 79824,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T16:45:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.773,
+      "lap_times_url": null,
+      "laps": [
+        93.451,
+        81.829,
+        81.275,
+        81.706,
+        80.773,
+        81.048,
+        81.016,
+        80.857
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.484,
+      "lap_times_url": null,
+      "laps": [
+        101.643,
+        89.484,
+        92.894,
+        95.783,
+        92.578,
+        91.408,
+        91.521
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sam Thompson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.446,
+      "lap_times_url": null,
+      "laps": [
+        100.055,
+        90.446,
+        138.362,
+        164.304,
+        91.716,
+        92.117
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79824"
+}

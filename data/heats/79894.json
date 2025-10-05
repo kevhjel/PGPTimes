@@ -1,0 +1,58 @@
+{
+  "heat_no": 79894,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-27T13:00:00",
+  "drivers": [
+    {
+      "name": "Mitchell Ditty",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.38,
+      "lap_times_url": null,
+      "laps": [
+        122.168,
+        98.383,
+        94.289,
+        92.512,
+        89.861,
+        88.38,
+        98.379
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jay Ditty",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.55,
+      "lap_times_url": null,
+      "laps": [
+        122.649,
+        96.994,
+        95.705,
+        93.062,
+        92.435,
+        91.55,
+        93.215
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79894"
+}

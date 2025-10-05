@@ -1,0 +1,150 @@
+{
+  "heat_no": 79340,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-06-08T10:00:00",
+  "drivers": [
+    {
+      "name": "Robert Vassallo",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.192,
+      "lap_times_url": null,
+      "laps": [
+        106.195,
+        105.481,
+        102.82,
+        98.192,
+        104.349,
+        106.209
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Will Schindel",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 104.125,
+      "lap_times_url": null,
+      "laps": [
+        119.329,
+        113.169,
+        110.916,
+        112.732,
+        109.115,
+        104.125
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Levi Barber",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.776,
+      "lap_times_url": null,
+      "laps": [
+        95.553,
+        95.787,
+        91.287,
+        90.776,
+        98.89,
+        95.067,
+        95.816
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Timo Kiriputt",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 104.214,
+      "lap_times_url": null,
+      "laps": [
+        143.444,
+        106.152,
+        104.214,
+        106.028,
+        105.085
+      ],
+      "lap_positions": [
+        6,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Philip Young",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.153,
+      "lap_times_url": null,
+      "laps": [
+        105.62,
+        115.595,
+        103.153,
+        129.065,
+        108.07,
+        107.847
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Anderson Enke",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.451,
+      "lap_times_url": null,
+      "laps": [
+        94.737,
+        85.468,
+        87.488,
+        91.58,
+        85.181,
+        84.451,
+        88.879,
+        87.306
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79340"
+}

@@ -1,0 +1,125 @@
+{
+  "heat_no": 79757,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-06-22T10:00:00",
+  "drivers": [
+    {
+      "name": "Jensen Osborne",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.979,
+      "lap_times_url": null,
+      "laps": [
+        99.702,
+        95.3,
+        95.56,
+        97.536,
+        98.048,
+        94.979,
+        105.592
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Blake Hughes",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.558,
+      "lap_times_url": null,
+      "laps": [
+        111.704,
+        102.097,
+        93.558,
+        98.153,
+        94.322,
+        94.162
+      ],
+      "lap_positions": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ashton Reichold",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 100.221,
+      "lap_times_url": null,
+      "laps": [
+        109.835,
+        107.711,
+        110.547,
+        102.098,
+        100.221,
+        119.308
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Weston Fine",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.283,
+      "lap_times_url": null,
+      "laps": [
+        112.362,
+        99.598,
+        96.129,
+        97.817,
+        94.283,
+        94.812
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Declan Brooke",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.559,
+      "lap_times_url": null,
+      "laps": [
+        102.774,
+        112.234,
+        103.721,
+        97.291,
+        94.559,
+        96.649
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79757"
+}

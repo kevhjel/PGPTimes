@@ -1,0 +1,409 @@
+{
+  "heat_no": 79529,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-06-15T12:15:00",
+  "drivers": [
+    {
+      "name": "Clayton Grisham",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.864,
+      "lap_times_url": null,
+      "laps": [
+        105.589,
+        83.307,
+        94.789,
+        86.574,
+        90.487,
+        83.904,
+        82.864
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Wisniewski",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.033,
+      "lap_times_url": null,
+      "laps": [
+        105.607,
+        83.316,
+        83.441,
+        83.696,
+        83.033,
+        83.116,
+        83.343,
+        84.487
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        1,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Alex Freeman-S...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 86.124,
+      "lap_times_url": null,
+      "laps": [
+        107.022,
+        86.124,
+        88.974,
+        88.884,
+        111.127,
+        97.81,
+        88.942
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Broderick Heid...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.649,
+      "lap_times_url": null,
+      "laps": [
+        105.63,
+        83.154,
+        83.3,
+        83.764,
+        83.899,
+        82.649,
+        82.822,
+        96.77
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Agni Bhattacha...",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 91.279,
+      "lap_times_url": null,
+      "laps": [
+        117.747,
+        91.399,
+        107.169,
+        91.884,
+        92.823,
+        91.279
+      ],
+      "lap_positions": [
+        8,
+        6,
+        6,
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "SURYODAY BASAK",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 100.751,
+      "lap_times_url": null,
+      "laps": [
+        130.039,
+        104.28,
+        100.751,
+        111.345,
+        101.147,
+        102.181
+      ],
+      "lap_positions": [
+        10,
+        10,
+        12,
+        12,
+        12,
+        13
+      ]
+    },
+    {
+      "name": "Ben Van Patten",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 93.315,
+      "lap_times_url": null,
+      "laps": [
+        111.255,
+        93.315,
+        94.718,
+        109.261,
+        95.13,
+        96.353,
+        95.091
+      ],
+      "lap_positions": [
+        6,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Stefan Van Pat...",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 95.226,
+      "lap_times_url": null,
+      "laps": [
+        113.99,
+        97.074,
+        95.226,
+        99.628,
+        96.045,
+        96.222,
+        96.508
+      ],
+      "lap_positions": [
+        7,
+        9,
+        9,
+        9,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Greg Van Patten",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 91.004,
+      "lap_times_url": null,
+      "laps": [
+        145.278,
+        93.241,
+        95.451,
+        93.545,
+        91.004,
+        94.5
+      ],
+      "lap_positions": [
+        15,
+        7,
+        7,
+        7,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Roger Chalfont",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.957,
+      "lap_times_url": null,
+      "laps": [
+        107.155,
+        84.179,
+        85.968,
+        84.9,
+        87.545,
+        84.804,
+        82.957
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Annabel Chalfont",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 138.903,
+      "lap_times_url": null,
+      "laps": [
+        150.251,
+        138.903,
+        142.526,
+        142.113
+      ],
+      "lap_positions": [
+        16,
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Christine Muna",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 100.955,
+      "lap_times_url": null,
+      "laps": [
+        137.523,
+        113.672,
+        102.819,
+        103.523,
+        105.367,
+        100.955
+      ],
+      "lap_positions": [
+        12,
+        14,
+        13,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Rachel Rainbolt",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 117.52,
+      "lap_times_url": null,
+      "laps": [
+        141.391,
+        122.241,
+        119.357,
+        117.52,
+        118.443
+      ],
+      "lap_positions": [
+        13,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Joshua Rainbolt",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 100.681,
+      "lap_times_url": null,
+      "laps": [
+        134.465,
+        106.654,
+        103.184,
+        102.57,
+        105.909,
+        100.681
+      ],
+      "lap_positions": [
+        11,
+        12,
+        14,
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "name": "Bailey Rainbolt",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 93.158,
+      "lap_times_url": null,
+      "laps": [
+        123.967,
+        112.227,
+        100.418,
+        97.406,
+        94.949,
+        93.158
+      ],
+      "lap_positions": [
+        9,
+        13,
+        11,
+        11,
+        9,
+        8
+      ]
+    },
+    {
+      "name": "Weston Rainbolt",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 122.973,
+      "lap_times_url": null,
+      "laps": [
+        166.588,
+        133.0,
+        129.835,
+        126.374,
+        122.973
+      ],
+      "lap_positions": [
+        17,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Sky Rainbolt",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 97.054,
+      "lap_times_url": null,
+      "laps": [
+        141.51,
+        104.512,
+        97.054,
+        109.383,
+        102.084,
+        114.849
+      ],
+      "lap_positions": [
+        14,
+        11,
+        10,
+        10,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79529"
+}

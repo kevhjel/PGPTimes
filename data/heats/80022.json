@@ -1,0 +1,60 @@
+{
+  "heat_no": 80022,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-02T13:15:00",
+  "drivers": [
+    {
+      "name": "Micah Salkind",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.35,
+      "lap_times_url": null,
+      "laps": [
+        112.247,
+        82.683,
+        83.276,
+        82.454,
+        82.556,
+        83.105,
+        82.35,
+        82.726
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aeson Akhras",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.432,
+      "lap_times_url": null,
+      "laps": [
+        115.201,
+        86.546,
+        86.931,
+        86.573,
+        85.804,
+        86.13,
+        85.432
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80022"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 79611,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-18T14:00:00",
+  "drivers": [
+    {
+      "name": "yusuf rahmani",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.778,
+      "lap_times_url": null,
+      "laps": [
+        112.418,
+        84.762,
+        84.988,
+        84.343,
+        84.24,
+        83.9,
+        83.778
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Josh Greene",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.859,
+      "lap_times_url": null,
+      "laps": [
+        112.077,
+        85.673,
+        84.859,
+        85.002,
+        84.991,
+        85.139,
+        85.495
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Justin Kubeck",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.926,
+      "lap_times_url": null,
+      "laps": [
+        113.808,
+        97.012,
+        84.926,
+        85.095,
+        85.141,
+        85.858,
+        91.599
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79611"
+}

@@ -1,0 +1,108 @@
+{
+  "heat_no": 79985,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-06-29T14:30:00",
+  "drivers": [
+    {
+      "name": "Gregory Yasuda",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.098,
+      "lap_times_url": null,
+      "laps": [
+        110.948,
+        83.047,
+        82.981,
+        82.413,
+        82.271,
+        82.416,
+        82.098,
+        84.892
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Davis Keddington",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.724,
+      "lap_times_url": null,
+      "laps": [
+        110.271,
+        80.428,
+        80.552,
+        79.92,
+        79.793,
+        80.093,
+        80.185,
+        79.724
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Molly Latin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 136.212,
+      "lap_times_url": null,
+      "laps": [
+        150.621,
+        136.548,
+        136.212,
+        137.792,
+        141.169
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Bob Overmars",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.011,
+      "lap_times_url": null,
+      "laps": [
+        125.015,
+        93.594,
+        91.087,
+        87.011,
+        90.646,
+        102.663,
+        94.818
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79985"
+}

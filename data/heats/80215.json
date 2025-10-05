@@ -1,0 +1,84 @@
+{
+  "heat_no": 80215,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-07-06T09:00:00",
+  "drivers": [
+    {
+      "name": "ENZO SPAGNOLA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.577,
+      "lap_times_url": null,
+      "laps": [
+        137.14,
+        126.051,
+        130.837,
+        118.966,
+        117.577
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jakob Burklund",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.058,
+      "lap_times_url": null,
+      "laps": [
+        137.087,
+        125.789,
+        130.724,
+        119.66,
+        119.058
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Gavin Ullrich",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 175.107,
+      "lap_times_url": null,
+      "laps": [
+        181.714,
+        179.184,
+        175.107
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Zeenia Gheewala",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 174.984,
+      "lap_times_url": null,
+      "laps": [
+        181.354,
+        179.239,
+        174.984
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80215"
+}

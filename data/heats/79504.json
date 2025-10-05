@@ -1,0 +1,227 @@
+{
+  "heat_no": 79504,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-13T18:45:00",
+  "drivers": [
+    {
+      "name": "Ilya Dreizin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.807,
+      "lap_times_url": null,
+      "laps": [
+        97.902,
+        80.957,
+        80.141,
+        79.807,
+        80.363,
+        80.727
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Federico Mira ...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.909,
+      "lap_times_url": null,
+      "laps": [
+        99.352,
+        83.061,
+        82.379,
+        82.536,
+        82.35,
+        81.909,
+        82.217,
+        82.401
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Gabe Brussa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.701,
+      "lap_times_url": null,
+      "laps": [
+        106.358,
+        88.943,
+        81.489,
+        81.011,
+        83.932,
+        80.701,
+        84.255,
+        82.752
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chrissy Shuh",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 93.943,
+      "lap_times_url": null,
+      "laps": [
+        110.824,
+        96.841,
+        96.104,
+        96.16,
+        95.084,
+        93.943,
+        94.638
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Kevin Yoakum",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.258,
+      "lap_times_url": null,
+      "laps": [
+        109.338,
+        88.417,
+        90.942,
+        86.823,
+        87.114,
+        86.258,
+        86.55
+      ],
+      "lap_positions": [
+        5,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jesica Hajduczyk",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 91.884,
+      "lap_times_url": null,
+      "laps": [
+        105.356,
+        92.471,
+        93.074,
+        93.028,
+        94.494,
+        91.884,
+        92.045
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Joe Nath",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 93.649,
+      "lap_times_url": null,
+      "laps": [
+        113.44,
+        108.804,
+        98.747,
+        95.612,
+        93.649,
+        102.624
+      ],
+      "lap_positions": [
+        7,
+        8,
+        7,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Brian Nath",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 100.76,
+      "lap_times_url": null,
+      "laps": [
+        115.852,
+        100.972,
+        108.502,
+        119.875,
+        102.956,
+        100.76
+      ],
+      "lap_positions": [
+        8,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Samantha Nath",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 103.89,
+      "lap_times_url": null,
+      "laps": [
+        120.778,
+        128.948,
+        103.89,
+        115.358,
+        108.754
+      ],
+      "lap_positions": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79504"
+}

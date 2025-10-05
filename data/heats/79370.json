@@ -1,0 +1,346 @@
+{
+  "heat_no": 79370,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-08T16:45:00",
+  "drivers": [
+    {
+      "name": "Arthur Radchuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.1,
+      "lap_times_url": null,
+      "laps": [
+        108.695,
+        86.083,
+        85.625,
+        85.79,
+        90.94,
+        84.656,
+        84.1
+      ],
+      "lap_positions": [
+        5,
+        3,
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "pavel radchuk",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 84.907,
+      "lap_times_url": null,
+      "laps": [
+        109.642,
+        87.686,
+        86.839,
+        87.159,
+        87.656,
+        87.098,
+        84.907
+      ],
+      "lap_positions": [
+        7,
+        4,
+        7,
+        7,
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "name": "Nikhith Vankir...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.222,
+      "lap_times_url": null,
+      "laps": [
+        107.249,
+        83.876,
+        83.42,
+        84.573,
+        88.313,
+        83.846,
+        83.222,
+        83.253
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Shep Jones",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 85.907,
+      "lap_times_url": null,
+      "laps": [
+        109.456,
+        85.907,
+        85.957,
+        90.503,
+        129.188,
+        146.987
+      ],
+      "lap_positions": [
+        6,
+        2,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Bradley Francke",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 88.193,
+      "lap_times_url": null,
+      "laps": [
+        110.953,
+        91.916,
+        106.935,
+        89.123,
+        89.268,
+        88.193,
+        89.222
+      ],
+      "lap_positions": [
+        8,
+        6,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Tomas Harrington",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.087,
+      "lap_times_url": null,
+      "laps": [
+        106.187,
+        102.297,
+        88.12,
+        87.087,
+        90.946,
+        97.698,
+        87.667
+      ],
+      "lap_positions": [
+        2,
+        10,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Amogh Garuda D...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.18,
+      "lap_times_url": null,
+      "laps": [
+        105.491,
+        92.069,
+        84.18,
+        84.761,
+        88.088,
+        86.337,
+        84.982
+      ],
+      "lap_positions": [
+        1,
+        7,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Ben Carlson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.965,
+      "lap_times_url": null,
+      "laps": [
+        106.348,
+        96.066,
+        84.206,
+        83.803,
+        86.168,
+        85.59,
+        82.965
+      ],
+      "lap_positions": [
+        3,
+        8,
+        3,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Andrey Radchuk",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 86.012,
+      "lap_times_url": null,
+      "laps": [
+        114.781,
+        89.069,
+        86.338,
+        86.012,
+        89.159,
+        89.426,
+        104.907
+      ],
+      "lap_positions": [
+        9,
+        5,
+        6,
+        6,
+        6,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "Leaember Romack",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 103.611,
+      "lap_times_url": null,
+      "laps": [
+        128.111,
+        111.358,
+        107.508,
+        103.611,
+        123.771,
+        104.034
+      ],
+      "lap_positions": [
+        11,
+        13,
+        13,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Jayce Romack",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 109.41,
+      "lap_times_url": null,
+      "laps": [
+        134.682,
+        118.808,
+        118.642,
+        114.345,
+        109.41
+      ],
+      "lap_positions": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Tyler Romack",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 99.862,
+      "lap_times_url": null,
+      "laps": [
+        133.954,
+        108.106,
+        102.794,
+        103.495,
+        100.635,
+        99.862
+      ],
+      "lap_positions": [
+        13,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Kraven Romack",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 92.294,
+      "lap_times_url": null,
+      "laps": [
+        121.355,
+        98.243,
+        98.227,
+        104.91,
+        94.45,
+        92.294
+      ],
+      "lap_positions": [
+        10,
+        9,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "MILLICENT GALU...",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 103.799,
+      "lap_times_url": null,
+      "laps": [
+        132.137,
+        109.376,
+        103.799,
+        107.575,
+        109.962,
+        106.92
+      ],
+      "lap_positions": [
+        12,
+        12,
+        12,
+        13,
+        13,
+        13
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79370"
+}

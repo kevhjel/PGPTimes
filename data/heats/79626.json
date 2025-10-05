@@ -1,0 +1,114 @@
+{
+  "heat_no": 79626,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-18T15:15:00",
+  "drivers": [
+    {
+      "name": "Jayden Jeffery",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.381,
+      "lap_times_url": null,
+      "laps": [
+        106.564,
+        88.07,
+        85.057,
+        84.751,
+        84.933,
+        84.381,
+        85.112,
+        88.881
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ian Holt",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.087,
+      "lap_times_url": null,
+      "laps": [
+        107.46,
+        88.999,
+        88.854,
+        84.307,
+        84.087,
+        84.5,
+        84.209,
+        85.124
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Zachary Corbin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.811,
+      "lap_times_url": null,
+      "laps": [
+        105.618,
+        90.117,
+        84.824,
+        84.996,
+        83.836,
+        83.811,
+        84.968,
+        109.693
+      ],
+      "lap_positions": [
+        1,
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.2,
+      "lap_times_url": null,
+      "laps": [
+        106.95,
+        90.647,
+        92.306,
+        89.2,
+        104.975,
+        91.085,
+        90.199
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79626"
+}

@@ -1,0 +1,35 @@
+{
+  "heat_no": 80282,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-10T13:00:00",
+  "drivers": [
+    {
+      "name": "Joseph Franco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.122,
+      "lap_times_url": null,
+      "laps": [
+        116.251,
+        84.003,
+        82.783,
+        82.781,
+        82.122,
+        82.53,
+        82.485,
+        82.143
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80282"
+}

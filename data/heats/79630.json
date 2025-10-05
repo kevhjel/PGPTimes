@@ -1,0 +1,54 @@
+{
+  "heat_no": 79630,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-18T16:30:00",
+  "drivers": [
+    {
+      "name": "ANDRE LEROUX",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.233,
+      "lap_times_url": null,
+      "laps": [
+        106.405,
+        109.58,
+        100.983,
+        99.233,
+        100.175,
+        112.668
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Roman Lesnikov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.827,
+      "lap_times_url": null,
+      "laps": [
+        105.153,
+        95.324,
+        90.939,
+        91.348,
+        89.827,
+        137.742
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79630"
+}

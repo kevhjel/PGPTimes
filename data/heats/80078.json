@@ -1,0 +1,62 @@
+{
+  "heat_no": 80078,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T13:45:00",
+  "drivers": [
+    {
+      "name": "Erik Helweg jr",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.224,
+      "lap_times_url": null,
+      "laps": [
+        97.411,
+        85.045,
+        83.224,
+        84.417,
+        85.037,
+        83.556,
+        84.621,
+        84.651
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dylan Hall",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.043,
+      "lap_times_url": null,
+      "laps": [
+        97.577,
+        84.294,
+        84.102,
+        83.162,
+        82.983,
+        82.043,
+        83.766,
+        89.279
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80078"
+}

@@ -1,0 +1,85 @@
+{
+  "heat_no": 79851,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T14:30:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.017,
+      "lap_times_url": null,
+      "laps": [
+        105.433,
+        80.57,
+        80.201,
+        80.113,
+        80.198,
+        80.017,
+        80.606,
+        80.35
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "michael pierce",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.546,
+      "lap_times_url": null,
+      "laps": [
+        115.823,
+        102.487,
+        98.315,
+        91.229,
+        89.826,
+        88.634,
+        87.546
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Robert Lohneis",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.292,
+      "lap_times_url": null,
+      "laps": [
+        117.594,
+        95.503,
+        91.861,
+        91.963,
+        91.357,
+        90.588,
+        90.292
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79851"
+}

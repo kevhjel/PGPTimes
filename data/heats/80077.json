@@ -1,0 +1,77 @@
+{
+  "heat_no": 80077,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-07-03T13:30:00",
+  "drivers": [
+    {
+      "name": "Garth Wojtanow...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.352,
+      "lap_times_url": null,
+      "laps": [
+        139.467,
+        101.705,
+        92.092,
+        90.557,
+        89.337,
+        89.097,
+        88.352
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Tabata Wojtano...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 116.763,
+      "lap_times_url": null,
+      "laps": [
+        155.465,
+        118.162,
+        116.813,
+        116.763,
+        118.898
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Max Figueroa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.669,
+      "lap_times_url": null,
+      "laps": [
+        144.217,
+        99.57,
+        91.335,
+        88.669,
+        88.888,
+        88.893
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=80077"
+}

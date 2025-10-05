@@ -1,0 +1,108 @@
+{
+  "heat_no": 79903,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-06-27T16:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.073,
+      "lap_times_url": null,
+      "laps": [
+        107.204,
+        81.386,
+        80.863,
+        80.383,
+        80.2,
+        80.073,
+        80.776,
+        81.111
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.004,
+      "lap_times_url": null,
+      "laps": [
+        106.876,
+        80.775,
+        80.466,
+        80.004,
+        80.315,
+        80.33,
+        81.075,
+        80.541
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dayton Gaine",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.293,
+      "lap_times_url": null,
+      "laps": [
+        115.788,
+        84.309,
+        84.293,
+        84.517,
+        86.891,
+        86.774,
+        85.519
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Sierra Brazelton",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 102.741,
+      "lap_times_url": null,
+      "laps": [
+        125.108,
+        107.462,
+        102.741,
+        122.881,
+        163.253
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79903"
+}

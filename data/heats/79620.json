@@ -1,0 +1,83 @@
+{
+  "heat_no": 79620,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-18T13:15:00",
+  "drivers": [
+    {
+      "name": "Jesse Doucet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.418,
+      "lap_times_url": null,
+      "laps": [
+        104.743,
+        87.133,
+        84.905,
+        84.646,
+        83.995,
+        83.448,
+        83.418
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Paco Castello",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.015,
+      "lap_times_url": null,
+      "laps": [
+        104.45,
+        88.649,
+        87.015,
+        87.824,
+        87.034,
+        87.319,
+        87.14
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.859,
+      "lap_times_url": null,
+      "laps": [
+        101.126,
+        85.68,
+        85.688,
+        84.859,
+        85.482,
+        85.116,
+        84.9
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79620"
+}

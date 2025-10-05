@@ -1,0 +1,108 @@
+{
+  "heat_no": 79662,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-19T10:45:00",
+  "drivers": [
+    {
+      "name": "Mark Sadang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.581,
+      "lap_times_url": null,
+      "laps": [
+        83.447,
+        81.386,
+        81.287,
+        80.581,
+        80.885,
+        80.722,
+        81.207,
+        81.002
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Enrique Valle",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.669,
+      "lap_times_url": null,
+      "laps": [
+        107.881,
+        86.318,
+        86.308,
+        85.045,
+        84.904,
+        83.669,
+        87.249
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "DAN NICKSIC",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.425,
+      "lap_times_url": null,
+      "laps": [
+        109.439,
+        88.777,
+        85.938,
+        84.6,
+        83.425,
+        83.627,
+        83.894
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Riley Houston",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.974,
+      "lap_times_url": null,
+      "laps": [
+        132.166,
+        100.181,
+        93.835,
+        96.324,
+        104.127,
+        92.974
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79662"
+}

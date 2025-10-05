@@ -1,0 +1,85 @@
+{
+  "heat_no": 79843,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-26T11:30:00",
+  "drivers": [
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.987,
+      "lap_times_url": null,
+      "laps": [
+        119.643,
+        83.404,
+        82.521,
+        81.987,
+        82.35,
+        82.018,
+        82.122,
+        81.999
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Charles Steinke",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.375,
+      "lap_times_url": null,
+      "laps": [
+        121.735,
+        84.682,
+        84.375,
+        85.347,
+        85.19,
+        85.086,
+        85.506
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sylvester Yang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.59,
+      "lap_times_url": null,
+      "laps": [
+        125.475,
+        93.59,
+        96.386,
+        95.502,
+        94.732,
+        95.03,
+        95.666
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79843"
+}

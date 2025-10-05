@@ -1,0 +1,83 @@
+{
+  "heat_no": 79865,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-25T12:30:00",
+  "drivers": [
+    {
+      "name": "Riley Houston",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.238,
+      "lap_times_url": null,
+      "laps": [
+        121.412,
+        92.047,
+        91.547,
+        89.238,
+        92.067,
+        92.128,
+        104.317
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Richard Wielbr...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.37,
+      "lap_times_url": null,
+      "laps": [
+        120.817,
+        93.575,
+        92.043,
+        90.37,
+        91.021,
+        92.523,
+        93.909
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Joseph Wielbruda",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.254,
+      "lap_times_url": null,
+      "laps": [
+        123.348,
+        91.463,
+        89.401,
+        88.254,
+        90.036,
+        89.652,
+        90.192
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79865"
+}

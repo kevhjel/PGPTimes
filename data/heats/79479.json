@@ -1,0 +1,81 @@
+{
+  "heat_no": 79479,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-13T11:45:00",
+  "drivers": [
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.316,
+      "lap_times_url": null,
+      "laps": [
+        121.554,
+        82.512,
+        82.335,
+        81.91,
+        84.386,
+        81.997,
+        81.316,
+        81.376
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Paul Miller",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.511,
+      "lap_times_url": null,
+      "laps": [
+        134.246,
+        113.983,
+        102.233,
+        114.707,
+        100.511,
+        100.963
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Irelynnn Miller",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.56,
+      "lap_times_url": null,
+      "laps": [
+        141.198,
+        108.878,
+        104.963,
+        103.76,
+        102.56,
+        107.573
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79479"
+}
