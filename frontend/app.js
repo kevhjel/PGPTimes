@@ -69,7 +69,7 @@ window.renderHeat = async function(heatNo) {
     const laps = Array.isArray(d.laps) ? d.laps.map(secondsToClock).join(", ") : "";
     tr.innerHTML = `
       <td>${d.position ?? ""}</td>
-      <td>${d.name ?? ""}</td>
+      <td>${d.name ? `<a href="./driver_charts.html#${encodeURIComponent(d.name)}">${d.name}</a>` : ""}</td>
       <td>${d.kart ?? ""}</td>
       <td>${secondsToClock(d.best_lap_seconds)}</td>
       <td style="font-family: ui-monospace, monospace;">${laps}</td>
@@ -93,7 +93,7 @@ window.renderWatchlist = async function() {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `<div class="row" style="justify-content: space-between;">
-      <div><strong>${name}</strong></div>
+      <div><strong><a href="./driver_charts.html#${encodeURIComponent(name)}">${name}</a></strong></div>
     </div>`;
     const list = drivers[name] || [];
     if (!list.length) {
