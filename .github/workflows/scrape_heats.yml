@@ -2,7 +2,6 @@ name: Scrape PGP Heats
 
 on:
   schedule:
-    # every 15 minutes (UTC)
     - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
@@ -11,14 +10,19 @@ on:
         required: false
         default: "200"
 
+concurrency:
+  group: scrape-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,21 +35,26 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper (max 200 heats)
-        shell: bash
         run: |
           MAX="${{ github.event.inputs.max_heats }}"
           MAX="${MAX:-200}"
           echo "Running scraper with max=$MAX"
           python -m scraper.run --max "$MAX"
 
-      - name: Commit & push updates
+      - name: Sync with remote (rebase)
         run: |
+          git fetch origin
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git pull --rebase
+
+      - name: Commit & push updates
+        run: |
           git add data/
           if git diff --cached --quiet; then
             echo "No new data to commit."
           else
             git commit -m "Update scraped heats"
-            git push
+            git push --force-with-lease
           fi
