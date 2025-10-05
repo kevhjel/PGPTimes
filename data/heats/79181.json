@@ -1,0 +1,62 @@
+{
+  "heat_no": 79181,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T11:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.26,
+      "lap_times_url": null,
+      "laps": [
+        87.918,
+        81.888,
+        82.08,
+        81.59,
+        81.72,
+        81.567,
+        81.301,
+        81.26
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.499,
+      "lap_times_url": null,
+      "laps": [
+        83.782,
+        81.171,
+        80.839,
+        80.561,
+        80.719,
+        80.499,
+        80.675,
+        80.95
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79181"
+}

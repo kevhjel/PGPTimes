@@ -1,0 +1,282 @@
+{
+  "heat_no": 79284,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-06T19:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.68,
+      "lap_times_url": null,
+      "laps": [
+        114.385,
+        81.23,
+        82.346,
+        82.021,
+        80.68,
+        83.92,
+        81.822,
+        81.173
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ian Jackson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.413,
+      "lap_times_url": null,
+      "laps": [
+        118.735,
+        88.554,
+        88.413,
+        94.46,
+        88.998,
+        88.562,
+        89.219
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.184,
+      "lap_times_url": null,
+      "laps": [
+        118.904,
+        88.184,
+        88.94,
+        94.352,
+        88.744,
+        88.926,
+        89.24
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ian Greer",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 97.627,
+      "lap_times_url": null,
+      "laps": [
+        127.931,
+        101.583,
+        97.627,
+        102.321,
+        114.449,
+        107.561
+      ],
+      "lap_positions": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "Emmanuel Bowen",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 99.632,
+      "lap_times_url": null,
+      "laps": [
+        129.513,
+        99.632,
+        100.357,
+        101.374,
+        100.009,
+        105.419
+      ],
+      "lap_positions": [
+        6,
+        4,
+        5,
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Sami Mccray",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 107.546,
+      "lap_times_url": null,
+      "laps": [
+        148.142,
+        127.489,
+        119.711,
+        110.157,
+        107.546
+      ],
+      "lap_positions": [
+        12,
+        12,
+        10,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Nasteha Abdille",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 107.161,
+      "lap_times_url": null,
+      "laps": [
+        147.339,
+        120.693,
+        136.084,
+        111.051,
+        107.161
+      ],
+      "lap_positions": [
+        11,
+        8,
+        11,
+        11,
+        9
+      ]
+    },
+    {
+      "name": "Badhatu A",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 94.035,
+      "lap_times_url": null,
+      "laps": [
+        127.359,
+        133.301,
+        107.96,
+        105.815,
+        98.091,
+        94.035
+      ],
+      "lap_positions": [
+        4,
+        11,
+        6,
+        7,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Magarsa Ahmed",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 109.107,
+      "lap_times_url": null,
+      "laps": [
+        144.313,
+        125.898,
+        131.039,
+        127.459,
+        109.107
+      ],
+      "lap_positions": [
+        10,
+        10,
+        12,
+        12,
+        11
+      ]
+    },
+    {
+      "name": "Remy Mo",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 97.004,
+      "lap_times_url": null,
+      "laps": [
+        141.274,
+        117.896,
+        122.042,
+        102.741,
+        98.341,
+        97.004
+      ],
+      "lap_positions": [
+        8,
+        6,
+        8,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Momoney Mo",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 110.899,
+      "lap_times_url": null,
+      "laps": [
+        144.122,
+        118.782,
+        134.622,
+        110.899,
+        122.989
+      ],
+      "lap_positions": [
+        9,
+        7,
+        9,
+        10,
+        12
+      ]
+    },
+    {
+      "name": "Taha Abdi",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 100.802,
+      "lap_times_url": null,
+      "laps": [
+        139.64,
+        123.736,
+        111.862,
+        107.574,
+        100.802
+      ],
+      "lap_positions": [
+        7,
+        9,
+        7,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79284"
+}

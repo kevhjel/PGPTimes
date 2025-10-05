@@ -1,0 +1,123 @@
+{
+  "heat_no": 79100,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-30T15:30:00",
+  "drivers": [
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.168,
+      "lap_times_url": null,
+      "laps": [
+        99.333,
+        80.878,
+        82.776,
+        81.453,
+        80.168,
+        80.845,
+        81.25,
+        80.381
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Barrera",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.717,
+      "lap_times_url": null,
+      "laps": [
+        112.333,
+        99.622,
+        99.471,
+        97.717,
+        103.426,
+        99.192
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.51,
+      "lap_times_url": null,
+      "laps": [
+        99.138,
+        81.27,
+        83.301,
+        82.052,
+        80.51,
+        81.019,
+        80.805,
+        80.528
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ciel Morgan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.227,
+      "lap_times_url": null,
+      "laps": [
+        137.599,
+        128.853,
+        121.524,
+        113.235,
+        111.227
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Arthur Cavalca...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 194.291,
+      "lap_times_url": null,
+      "laps": [
+        202.007,
+        195.997,
+        194.291
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79100"
+}

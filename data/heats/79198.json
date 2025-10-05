@@ -1,0 +1,62 @@
+{
+  "heat_no": 79198,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T15:15:00",
+  "drivers": [
+    {
+      "name": "Koen Shaw",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.434,
+      "lap_times_url": null,
+      "laps": [
+        83.78,
+        80.762,
+        80.793,
+        80.849,
+        80.809,
+        80.869,
+        80.434,
+        80.886
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "The Trumpet",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.286,
+      "lap_times_url": null,
+      "laps": [
+        84.601,
+        82.367,
+        82.26,
+        82.205,
+        82.244,
+        82.133,
+        81.286,
+        81.56
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79198"
+}

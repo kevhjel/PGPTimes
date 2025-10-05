@@ -1,0 +1,132 @@
+{
+  "heat_no": 79104,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-30T16:30:00",
+  "drivers": [
+    {
+      "name": "Tahir Ijaz",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 113.062,
+      "lap_times_url": null,
+      "laps": [
+        208.051,
+        130.352,
+        114.754,
+        113.062,
+        115.781
+      ],
+      "lap_positions": [
+        6,
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ashlee Witty",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 125.212,
+      "lap_times_url": null,
+      "laps": [
+        205.294,
+        147.336,
+        134.965,
+        125.212
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Melnik Olia",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.346,
+      "lap_times_url": null,
+      "laps": [
+        177.609,
+        117.09,
+        108.969,
+        107.987,
+        105.346
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Radionova Vikt...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.399,
+      "lap_times_url": null,
+      "laps": [
+        176.509,
+        114.754,
+        111.289,
+        107.279,
+        104.399
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Tucker Ramsay",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.233,
+      "lap_times_url": null,
+      "laps": [
+        170.764,
+        109.137,
+        106.233,
+        109.026,
+        107.046
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "Ramsay Deborah",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 120.1,
+      "lap_times_url": null,
+      "laps": [
+        174.307,
+        120.189,
+        121.886,
+        121.798,
+        120.1
+      ],
+      "lap_positions": [
+        2,
+        4,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79104"
+}

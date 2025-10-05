@@ -1,0 +1,112 @@
+{
+  "heat_no": 79019,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-28T14:45:00",
+  "drivers": [
+    {
+      "name": "Scott Ramey",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.881,
+      "lap_times_url": null,
+      "laps": [
+        112.418,
+        84.84,
+        83.881,
+        84.071,
+        84.769,
+        84.65,
+        84.362,
+        84.512
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.955,
+      "lap_times_url": null,
+      "laps": [
+        106.865,
+        82.298,
+        81.679,
+        80.955,
+        81.776,
+        81.395,
+        81.213,
+        81.34,
+        81.668
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.648,
+      "lap_times_url": null,
+      "laps": [
+        111.017,
+        85.342,
+        84.934,
+        86.394,
+        85.822,
+        86.356,
+        83.648,
+        83.693
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Luis Matencio ...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 123.453,
+      "lap_times_url": null,
+      "laps": [
+        148.578,
+        131.335,
+        127.469,
+        125.434,
+        123.453
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79019"
+}

@@ -1,0 +1,62 @@
+{
+  "heat_no": 79237,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-05T16:45:00",
+  "drivers": [
+    {
+      "name": "Evan Wold",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.677,
+      "lap_times_url": null,
+      "laps": [
+        100.712,
+        84.582,
+        83.103,
+        82.677,
+        83.75,
+        91.636,
+        84.796,
+        83.201
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Philip Wold",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.703,
+      "lap_times_url": null,
+      "laps": [
+        100.064,
+        82.299,
+        81.703,
+        86.718,
+        83.681,
+        85.98,
+        90.249,
+        82.861
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79237"
+}

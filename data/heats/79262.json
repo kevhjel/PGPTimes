@@ -1,0 +1,123 @@
+{
+  "heat_no": 79262,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-06T10:00:00",
+  "drivers": [
+    {
+      "name": "Bryce Flickinger",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.174,
+      "lap_times_url": null,
+      "laps": [
+        140.598,
+        109.369,
+        144.261,
+        102.072,
+        110.131,
+        95.174
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Peter Styffe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.566,
+      "lap_times_url": null,
+      "laps": [
+        136.253,
+        100.915,
+        97.929,
+        94.471,
+        94.098,
+        93.566
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "KiYong Kim",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 102.683,
+      "lap_times_url": null,
+      "laps": [
+        144.168,
+        109.728,
+        114.127,
+        119.131,
+        105.672,
+        102.683
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Benjamin Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.616,
+      "lap_times_url": null,
+      "laps": [
+        133.563,
+        102.553,
+        99.647,
+        96.329,
+        91.5,
+        91.474,
+        89.616
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eric Luber",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 112.747,
+      "lap_times_url": null,
+      "laps": [
+        150.839,
+        115.843,
+        119.041,
+        112.853,
+        112.747
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79262"
+}

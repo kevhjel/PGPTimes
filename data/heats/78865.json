@@ -1,0 +1,102 @@
+{
+  "heat_no": 78865,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-22T15:30:00",
+  "drivers": [
+    {
+      "name": "rodrigo jones",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.464,
+      "lap_times_url": null,
+      "laps": [
+        87.723,
+        83.97,
+        84.895,
+        83.692,
+        83.464,
+        85.97,
+        83.809,
+        83.545
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.366,
+      "lap_times_url": null,
+      "laps": [
+        83.366
+      ],
+      "lap_positions": [
+        1
+      ]
+    },
+    {
+      "name": "Tennis Ball",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.637,
+      "lap_times_url": null,
+      "laps": [
+        85.584,
+        85.659,
+        81.889,
+        81.637,
+        82.404,
+        82.181,
+        82.779,
+        82.047
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dmytro Maievskyi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.505,
+      "lap_times_url": null,
+      "laps": [
+        85.124,
+        83.83,
+        80.505,
+        81.104,
+        81.189,
+        80.874,
+        80.931,
+        81.248
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78865"
+}

@@ -1,0 +1,416 @@
+{
+  "heat_no": 78999,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Steven Lynch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.181,
+      "lap_times_url": null,
+      "laps": [
+        103.195,
+        83.23,
+        81.413,
+        81.934,
+        81.737,
+        82.193,
+        81.285,
+        81.181
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "nick wall",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 81.725,
+      "lap_times_url": null,
+      "laps": [
+        102.085,
+        87.448,
+        82.601,
+        82.709,
+        81.862,
+        82.443,
+        81.725,
+        83.2
+      ],
+      "lap_positions": [
+        1,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Federico Mira ...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.231,
+      "lap_times_url": null,
+      "laps": [
+        104.342,
+        83.126,
+        81.935,
+        81.936,
+        81.242,
+        82.876,
+        81.231,
+        84.626
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Gabe Brussa",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 81.54,
+      "lap_times_url": null,
+      "laps": [
+        107.486,
+        85.757,
+        82.369,
+        82.355,
+        81.54,
+        83.673,
+        82.173,
+        84.252
+      ],
+      "lap_positions": [
+        9,
+        6,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Maarten Kluit",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 81.878,
+      "lap_times_url": null,
+      "laps": [
+        102.717,
+        84.237,
+        82.231,
+        82.143,
+        81.988,
+        82.771,
+        81.878,
+        83.575
+      ],
+      "lap_positions": [
+        2,
+        5,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Eva Kluit",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.886,
+      "lap_times_url": null,
+      "laps": [
+        104.876,
+        82.097,
+        80.886,
+        81.898,
+        81.138,
+        82.301,
+        80.926,
+        81.744
+      ],
+      "lap_positions": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Junior Sandoval",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 82.906,
+      "lap_times_url": null,
+      "laps": [
+        105.577,
+        83.808,
+        82.906,
+        84.799,
+        83.356,
+        83.065,
+        84.605,
+        83.467
+      ],
+      "lap_positions": [
+        6,
+        4,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Eric Rocha",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 87.656,
+      "lap_times_url": null,
+      "laps": [
+        107.863,
+        91.697,
+        88.587,
+        87.656,
+        88.65,
+        88.6,
+        87.819
+      ],
+      "lap_positions": [
+        10,
+        14,
+        11,
+        8,
+        8,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Porav Malhotra",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 89.957,
+      "lap_times_url": null,
+      "laps": [
+        107.203,
+        91.332,
+        89.957,
+        90.668,
+        114.468,
+        90.968
+      ],
+      "lap_positions": [
+        7,
+        12,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Rohit Aggarwal",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 87.888,
+      "lap_times_url": null,
+      "laps": [
+        107.48,
+        90.178,
+        89.93,
+        89.504,
+        92.914,
+        88.663,
+        87.888
+      ],
+      "lap_positions": [
+        8,
+        9,
+        13,
+        13,
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "name": "Gowtham Vuppala",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 105.758,
+      "lap_times_url": null,
+      "laps": [
+        128.671,
+        111.549,
+        119.19,
+        111.382,
+        105.758,
+        107.86
+      ],
+      "lap_positions": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Jakob Klein",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 87.851,
+      "lap_times_url": null,
+      "laps": [
+        111.441,
+        91.662,
+        88.513,
+        87.851,
+        91.152,
+        114.653,
+        88.949
+      ],
+      "lap_positions": [
+        13,
+        13,
+        9,
+        9,
+        9,
+        9,
+        11
+      ]
+    },
+    {
+      "name": "Nicholas Walters",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 87.765,
+      "lap_times_url": null,
+      "laps": [
+        124.297,
+        90.803,
+        89.22,
+        88.359,
+        93.187,
+        94.001,
+        87.765
+      ],
+      "lap_positions": [
+        15,
+        11,
+        12,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Siu-Tung Tony ...",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 86.537,
+      "lap_times_url": null,
+      "laps": [
+        109.246,
+        89.384,
+        88.568,
+        89.505,
+        97.679,
+        92.88,
+        86.537
+      ],
+      "lap_positions": [
+        11,
+        8,
+        10,
+        12,
+        12,
+        12,
+        8
+      ]
+    },
+    {
+      "name": "Hannah Ayers",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 88.503,
+      "lap_times_url": null,
+      "laps": [
+        111.964,
+        90.783,
+        88.503,
+        88.783,
+        91.194,
+        92.739,
+        88.778
+      ],
+      "lap_positions": [
+        14,
+        10,
+        8,
+        11,
+        11,
+        11,
+        13
+      ]
+    },
+    {
+      "name": "Dale Booher",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 90.448,
+      "lap_times_url": null,
+      "laps": [
+        111.364,
+        92.502,
+        90.448,
+        90.518,
+        143.73,
+        94.738
+      ],
+      "lap_positions": [
+        12,
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78999"
+}

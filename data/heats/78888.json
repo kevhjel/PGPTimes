@@ -1,0 +1,54 @@
+{
+  "heat_no": 78888,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-23T14:00:00",
+  "drivers": [
+    {
+      "name": "Ilya Dreizin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.971,
+      "lap_times_url": null,
+      "laps": [
+        85.304,
+        81.397,
+        80.582,
+        80.62,
+        80.392,
+        80.48,
+        80.095,
+        79.971
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.037,
+      "lap_times_url": null,
+      "laps": [
+        82.939,
+        80.587,
+        80.315,
+        80.037
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78888"
+}

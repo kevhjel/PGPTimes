@@ -1,0 +1,83 @@
+{
+  "heat_no": 78826,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T18:00:00",
+  "drivers": [
+    {
+      "name": "joshua moore",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.785,
+      "lap_times_url": null,
+      "laps": [
+        107.514,
+        87.009,
+        87.288,
+        105.773,
+        86.445,
+        85.785,
+        86.546
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Minje Kim",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.317,
+      "lap_times_url": null,
+      "laps": [
+        105.687,
+        82.897,
+        83.172,
+        82.913,
+        82.42,
+        82.632,
+        87.467,
+        82.317
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mizpajoy Gamilla",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.343,
+      "lap_times_url": null,
+      "laps": [
+        121.814,
+        129.335,
+        103.302,
+        102.454,
+        101.884,
+        99.343
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78826"
+}

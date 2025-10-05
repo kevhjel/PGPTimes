@@ -1,0 +1,106 @@
+{
+  "heat_no": 78814,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T11:15:00",
+  "drivers": [
+    {
+      "name": "Easton Mellick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.118,
+      "lap_times_url": null,
+      "laps": [
+        112.805,
+        88.499,
+        87.917,
+        87.63,
+        88.933,
+        87.285,
+        87.118
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Grant Webb",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.56,
+      "lap_times_url": null,
+      "laps": [
+        114.14,
+        103.574,
+        92.83,
+        92.229,
+        92.613,
+        91.873,
+        90.56
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Aaron Glanz",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.611,
+      "lap_times_url": null,
+      "laps": [
+        115.487,
+        92.492,
+        92.313,
+        90.611,
+        92.804,
+        93.381,
+        91.192
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Austin Glanz",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.394,
+      "lap_times_url": null,
+      "laps": [
+        117.935,
+        125.758,
+        102.271,
+        96.009,
+        93.394,
+        93.593
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78814"
+}

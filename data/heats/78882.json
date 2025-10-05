@@ -1,0 +1,104 @@
+{
+  "heat_no": 78882,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-23T12:30:00",
+  "drivers": [
+    {
+      "name": "GERALD UGALE",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.826,
+      "lap_times_url": null,
+      "laps": [
+        109.8,
+        84.17,
+        85.016,
+        83.826,
+        85.541,
+        84.084,
+        84.064
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nate Dawson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.977,
+      "lap_times_url": null,
+      "laps": [
+        112.704,
+        120.391,
+        94.161,
+        93.359,
+        90.977,
+        91.957,
+        92.735
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dwan Edwards",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 105.334,
+      "lap_times_url": null,
+      "laps": [
+        133.125,
+        114.217,
+        109.263,
+        108.009,
+        109.781,
+        105.334
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Cyril Stansell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.336,
+      "lap_times_url": null,
+      "laps": [
+        132.266,
+        119.043,
+        106.389,
+        104.336,
+        120.699,
+        106.885
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78882"
+}

@@ -1,0 +1,282 @@
+{
+  "heat_no": 79166,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-31T19:15:00",
+  "drivers": [
+    {
+      "name": "Darius Forbes",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.675,
+      "lap_times_url": null,
+      "laps": [
+        105.944,
+        82.29,
+        81.675,
+        93.142,
+        129.448,
+        112.089,
+        96.489
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Andrew Luca",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 91.746,
+      "lap_times_url": null,
+      "laps": [
+        118.897,
+        97.618,
+        92.932,
+        130.485,
+        92.186,
+        91.746
+      ],
+      "lap_positions": [
+        8,
+        7,
+        4,
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "Timmy Nutu",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 92.71,
+      "lap_times_url": null,
+      "laps": [
+        116.928,
+        95.1,
+        93.597,
+        153.498,
+        96.097,
+        92.71
+      ],
+      "lap_positions": [
+        6,
+        3,
+        6,
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Christopher Te...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 90.954,
+      "lap_times_url": null,
+      "laps": [
+        115.666,
+        96.575,
+        93.109,
+        169.211,
+        94.403,
+        90.954
+      ],
+      "lap_positions": [
+        2,
+        5,
+        5,
+        5,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Nathan Bela",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.497,
+      "lap_times_url": null,
+      "laps": [
+        115.676,
+        96.843,
+        92.832,
+        135.975,
+        98.554,
+        90.497
+      ],
+      "lap_positions": [
+        3,
+        6,
+        3,
+        3,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Emanuel Termure",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 101.127,
+      "lap_times_url": null,
+      "laps": [
+        117.794,
+        141.074,
+        101.127,
+        114.669,
+        101.586
+      ],
+      "lap_positions": [
+        7,
+        12,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Bryan Carp",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.415,
+      "lap_times_url": null,
+      "laps": [
+        115.939,
+        94.614,
+        91.746,
+        121.122,
+        90.961,
+        90.415
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "AJ Termure",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.787,
+      "lap_times_url": null,
+      "laps": [
+        116.628,
+        96.086,
+        94.398,
+        117.252,
+        89.798,
+        89.787
+      ],
+      "lap_positions": [
+        5,
+        4,
+        7,
+        7,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nathan Horga",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 99.008,
+      "lap_times_url": null,
+      "laps": [
+        129.43,
+        115.951,
+        106.242,
+        125.696,
+        99.238,
+        99.008
+      ],
+      "lap_positions": [
+        10,
+        10,
+        10,
+        10,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Dennis Almaral",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 95.34,
+      "lap_times_url": null,
+      "laps": [
+        136.186,
+        101.001,
+        120.018,
+        103.875,
+        102.611,
+        95.34
+      ],
+      "lap_positions": [
+        11,
+        8,
+        8,
+        8,
+        9,
+        8
+      ]
+    },
+    {
+      "name": "Antonia Mendez",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 102.928,
+      "lap_times_url": null,
+      "laps": [
+        136.839,
+        109.874,
+        113.773,
+        114.209,
+        102.928,
+        105.338
+      ],
+      "lap_positions": [
+        12,
+        9,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Kendall Green",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 102.392,
+      "lap_times_url": null,
+      "laps": [
+        128.553,
+        117.41,
+        107.683,
+        134.004,
+        102.392
+      ],
+      "lap_positions": [
+        9,
+        11,
+        11,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79166"
+}

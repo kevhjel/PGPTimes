@@ -1,0 +1,69 @@
+{
+  "heat_no": 79045,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-29T11:45:00",
+  "drivers": [
+    {
+      "name": "Rob Larzelere",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.312,
+      "lap_times_url": null,
+      "laps": [
+        136.623,
+        128.094,
+        127.369,
+        126.312,
+        130.253
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christian Larz...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.137,
+      "lap_times_url": null,
+      "laps": [
+        185.255,
+        129.137,
+        158.563,
+        191.71
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nathan Hoffman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.253,
+      "lap_times_url": null,
+      "laps": [
+        140.404,
+        133.611,
+        123.792,
+        123.253,
+        126.074
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79045"
+}

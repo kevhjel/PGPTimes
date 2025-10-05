@@ -1,0 +1,58 @@
+{
+  "heat_no": 79002,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-28T10:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.313,
+      "lap_times_url": null,
+      "laps": [
+        106.547,
+        92.978,
+        88.23,
+        83.313,
+        84.061,
+        101.756,
+        90.262
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "brian hampton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.3,
+      "lap_times_url": null,
+      "laps": [
+        106.238,
+        92.21,
+        89.549,
+        89.433,
+        90.082,
+        90.074,
+        89.3
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79002"
+}

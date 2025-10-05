@@ -1,0 +1,60 @@
+{
+  "heat_no": 79263,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-06T10:15:00",
+  "drivers": [
+    {
+      "name": "Rashaun Johnson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.511,
+      "lap_times_url": null,
+      "laps": [
+        84.439,
+        80.695,
+        80.647,
+        80.188,
+        79.806,
+        81.628,
+        79.511,
+        80.208
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Enrique Valle",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.866,
+      "lap_times_url": null,
+      "laps": [
+        117.732,
+        96.324,
+        91.389,
+        95.8,
+        96.422,
+        90.016,
+        86.866
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79263"
+}

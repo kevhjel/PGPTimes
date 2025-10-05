@@ -1,0 +1,83 @@
+{
+  "heat_no": 78800,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-21T13:30:00",
+  "drivers": [
+    {
+      "name": "Kaden Greenlief",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.852,
+      "lap_times_url": null,
+      "laps": [
+        105.365,
+        82.11,
+        81.852,
+        82.869,
+        82.968,
+        82.629,
+        82.355,
+        82.624
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.696,
+      "lap_times_url": null,
+      "laps": [
+        105.765,
+        82.16,
+        81.696,
+        81.924,
+        82.587,
+        82.087,
+        81.704,
+        81.973
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Vince Brown",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.092,
+      "lap_times_url": null,
+      "laps": [
+        140.986,
+        119.647,
+        114.319,
+        112.092,
+        115.341
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78800"
+}

@@ -1,0 +1,56 @@
+{
+  "heat_no": 79162,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-31T18:15:00",
+  "drivers": [
+    {
+      "name": "Linnea Chilman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.061,
+      "lap_times_url": null,
+      "laps": [
+        147.064,
+        106.382,
+        133.419,
+        96.671,
+        103.267,
+        95.061
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lance Bowley",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.884,
+      "lap_times_url": null,
+      "laps": [
+        143.843,
+        99.0,
+        97.403,
+        95.47,
+        94.952,
+        92.371,
+        91.884
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79162"
+}

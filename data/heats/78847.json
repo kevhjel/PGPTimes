@@ -1,0 +1,35 @@
+{
+  "heat_no": 78847,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-22T12:45:00",
+  "drivers": [
+    {
+      "name": "Kayden Verkerk",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.59,
+      "lap_times_url": null,
+      "laps": [
+        86.237,
+        80.59,
+        80.639,
+        80.683,
+        80.876,
+        80.84,
+        80.898,
+        81.285
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78847"
+}

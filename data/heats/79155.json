@@ -1,0 +1,105 @@
+{
+  "heat_no": 79155,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-31T16:30:00",
+  "drivers": [
+    {
+      "name": "jayden lloyd",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.332,
+      "lap_times_url": null,
+      "laps": [
+        164.833,
+        132.809,
+        134.955,
+        121.332,
+        124.864
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Scott Cameron",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 141.985,
+      "lap_times_url": null,
+      "laps": [
+        169.112,
+        141.985,
+        151.163,
+        160.045
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Konen Irish",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.283,
+      "lap_times_url": null,
+      "laps": [
+        152.94,
+        126.933,
+        129.109,
+        123.42,
+        123.283
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Landon Monize",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 140.194,
+      "lap_times_url": null,
+      "laps": [
+        180.087,
+        172.061,
+        140.194,
+        141.68
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Camila Resende",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 186.295,
+      "lap_times_url": null,
+      "laps": [
+        198.971,
+        186.295,
+        233.73
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79155"
+}

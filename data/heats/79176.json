@@ -1,0 +1,62 @@
+{
+  "heat_no": 79176,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T09:15:00",
+  "drivers": [
+    {
+      "name": "Greg Jones",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.79,
+      "lap_times_url": null,
+      "laps": [
+        90.271,
+        87.238,
+        85.647,
+        86.317,
+        85.225,
+        85.271,
+        83.79,
+        84.784
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "JOSEPH HUBACH",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.991,
+      "lap_times_url": null,
+      "laps": [
+        90.747,
+        87.609,
+        86.468,
+        85.166,
+        84.904,
+        84.977,
+        83.991,
+        85.7
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79176"
+}

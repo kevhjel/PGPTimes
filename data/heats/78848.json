@@ -1,0 +1,33 @@
+{
+  "heat_no": 78848,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-22T13:00:00",
+  "drivers": [
+    {
+      "name": "Stephen Triebl",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.406,
+      "lap_times_url": null,
+      "laps": [
+        92.31,
+        96.926,
+        86.406,
+        96.093,
+        87.211,
+        88.542,
+        87.563
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78848"
+}

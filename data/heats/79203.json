@@ -1,0 +1,77 @@
+{
+  "heat_no": 79203,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T16:30:00",
+  "drivers": [
+    {
+      "name": "Oliver Larsson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.522,
+      "lap_times_url": null,
+      "laps": [
+        170.939,
+        92.476,
+        88.816,
+        95.161,
+        95.009,
+        87.522
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.636,
+      "lap_times_url": null,
+      "laps": [
+        121.908,
+        81.882,
+        81.58,
+        80.784,
+        80.843,
+        81.356,
+        80.636,
+        83.309
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Birgitta Larsson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.761,
+      "lap_times_url": null,
+      "laps": [
+        167.421,
+        140.605,
+        136.741,
+        134.761
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79203"
+}

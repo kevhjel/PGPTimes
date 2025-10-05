@@ -1,0 +1,62 @@
+{
+  "heat_no": 79192,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T14:15:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.288,
+      "lap_times_url": null,
+      "laps": [
+        84.576,
+        80.722,
+        80.369,
+        81.489,
+        80.501,
+        80.374,
+        80.288,
+        80.373
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.156,
+      "lap_times_url": null,
+      "laps": [
+        83.437,
+        80.841,
+        80.455,
+        81.996,
+        80.473,
+        80.355,
+        80.156,
+        80.619
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79192"
+}

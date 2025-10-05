@@ -1,0 +1,110 @@
+{
+  "heat_no": 78824,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T17:30:00",
+  "drivers": [
+    {
+      "name": "joshua moore",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.196,
+      "lap_times_url": null,
+      "laps": [
+        101.466,
+        86.196,
+        87.331,
+        88.161,
+        87.76,
+        86.367,
+        91.713
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Craig Beeson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.795,
+      "lap_times_url": null,
+      "laps": [
+        97.582,
+        83.242,
+        82.899,
+        82.563,
+        81.795,
+        82.107,
+        82.701,
+        82.342
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Minje Kim",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.925,
+      "lap_times_url": null,
+      "laps": [
+        96.11,
+        83.523,
+        84.358,
+        83.254,
+        83.297,
+        81.925,
+        84.552,
+        82.72
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mizpajoy Gamilla",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.84,
+      "lap_times_url": null,
+      "laps": [
+        118.086,
+        105.827,
+        103.375,
+        101.894,
+        99.84,
+        101.828
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78824"
+}

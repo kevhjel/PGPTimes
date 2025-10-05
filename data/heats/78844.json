@@ -1,0 +1,87 @@
+{
+  "heat_no": 78844,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-22T12:00:00",
+  "drivers": [
+    {
+      "name": "Stephen Triebl",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.181,
+      "lap_times_url": null,
+      "laps": [
+        116.32,
+        89.062,
+        90.034,
+        88.745,
+        87.181,
+        88.648,
+        88.288
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alper Ozdemir",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.296,
+      "lap_times_url": null,
+      "laps": [
+        104.903,
+        83.945,
+        83.296,
+        84.571,
+        84.188,
+        83.463,
+        83.933,
+        83.659
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zachary Thrasher",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.46,
+      "lap_times_url": null,
+      "laps": [
+        102.99,
+        86.213,
+        86.137,
+        86.306,
+        85.163,
+        84.483,
+        85.054,
+        84.46
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78844"
+}

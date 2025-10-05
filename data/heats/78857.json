@@ -1,0 +1,87 @@
+{
+  "heat_no": 78857,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-22T10:30:00",
+  "drivers": [
+    {
+      "name": "jeffrey martinez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.234,
+      "lap_times_url": null,
+      "laps": [
+        90.515,
+        85.501,
+        85.093,
+        84.843,
+        84.458,
+        84.234,
+        84.615,
+        84.441
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Ascheman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.777,
+      "lap_times_url": null,
+      "laps": [
+        94.646,
+        89.053,
+        87.325,
+        87.6,
+        86.668,
+        86.181,
+        86.016,
+        85.777
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Alper Ozdemir",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.816,
+      "lap_times_url": null,
+      "laps": [
+        99.782,
+        98.077,
+        95.851,
+        97.581,
+        88.401,
+        85.816,
+        91.912
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78857"
+}

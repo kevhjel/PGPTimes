@@ -1,0 +1,106 @@
+{
+  "heat_no": 78812,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T10:45:00",
+  "drivers": [
+    {
+      "name": "Easton Mellick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.553,
+      "lap_times_url": null,
+      "laps": [
+        113.23,
+        100.607,
+        102.469,
+        93.241,
+        91.328,
+        90.588,
+        89.553
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Abhijeet Santosh",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.039,
+      "lap_times_url": null,
+      "laps": [
+        121.855,
+        97.155,
+        100.335,
+        93.942,
+        92.709,
+        93.662,
+        92.039
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Grant Webb",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.951,
+      "lap_times_url": null,
+      "laps": [
+        122.167,
+        99.036,
+        93.717,
+        96.09,
+        91.587,
+        89.951,
+        92.096
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Brianna Webb",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.188,
+      "lap_times_url": null,
+      "laps": [
+        120.805,
+        99.188,
+        147.324,
+        101.091,
+        102.085,
+        100.85
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78812"
+}

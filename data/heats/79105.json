@@ -1,0 +1,108 @@
+{
+  "heat_no": 79105,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-30T16:45:00",
+  "drivers": [
+    {
+      "name": "Markus Gallasch",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.295,
+      "lap_times_url": null,
+      "laps": [
+        110.005,
+        84.501,
+        83.75,
+        83.982,
+        83.298,
+        84.546,
+        84.71,
+        83.295
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Xiong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.634,
+      "lap_times_url": null,
+      "laps": [
+        113.008,
+        99.491,
+        91.449,
+        88.905,
+        92.996,
+        89.784,
+        87.634
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Susheel Lakshm...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.439,
+      "lap_times_url": null,
+      "laps": [
+        110.975,
+        106.296,
+        97.643,
+        95.093,
+        92.104,
+        91.734,
+        90.439
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tam Dang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 93.206,
+      "lap_times_url": null,
+      "laps": [
+        124.401,
+        101.291,
+        98.756,
+        97.506,
+        95.759,
+        93.206
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79105"
+}

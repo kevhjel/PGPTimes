@@ -1,0 +1,114 @@
+{
+  "heat_no": 78842,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-22T11:30:00",
+  "drivers": [
+    {
+      "name": "jeffrey martinez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.593,
+      "lap_times_url": null,
+      "laps": [
+        107.139,
+        83.645,
+        83.085,
+        83.101,
+        82.593,
+        82.933,
+        82.888,
+        82.957
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Ascheman",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.795,
+      "lap_times_url": null,
+      "laps": [
+        108.039,
+        85.199,
+        84.415,
+        84.818,
+        84.324,
+        84.032,
+        83.795,
+        84.096
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alper Ozdemir",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.315,
+      "lap_times_url": null,
+      "laps": [
+        109.112,
+        86.018,
+        84.407,
+        83.844,
+        83.315,
+        84.165,
+        84.35,
+        83.839
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Zachary Thrasher",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.935,
+      "lap_times_url": null,
+      "laps": [
+        111.89,
+        90.324,
+        90.519,
+        88.705,
+        88.026,
+        88.203,
+        86.935
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78842"
+}

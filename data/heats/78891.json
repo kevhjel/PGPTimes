@@ -1,0 +1,85 @@
+{
+  "heat_no": 78891,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-23T09:15:00",
+  "drivers": [
+    {
+      "name": "Ryan Byers",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.29,
+      "lap_times_url": null,
+      "laps": [
+        116.261,
+        82.484,
+        81.088,
+        80.334,
+        80.431,
+        80.359,
+        80.641,
+        80.29
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rodney Higgins",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.823,
+      "lap_times_url": null,
+      "laps": [
+        128.916,
+        93.492,
+        92.634,
+        96.2,
+        90.948,
+        90.531,
+        88.823
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "William Hoke",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.937,
+      "lap_times_url": null,
+      "laps": [
+        127.505,
+        92.531,
+        91.281,
+        89.614,
+        90.042,
+        89.318,
+        88.937
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78891"
+}

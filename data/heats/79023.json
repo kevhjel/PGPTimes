@@ -1,0 +1,98 @@
+{
+  "heat_no": 79023,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-28T15:45:00",
+  "drivers": [
+    {
+      "name": "Kevin Urban",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.784,
+      "lap_times_url": null,
+      "laps": [
+        128.53,
+        96.212,
+        94.127,
+        89.841,
+        89.784,
+        96.888
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Urban",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.088,
+      "lap_times_url": null,
+      "laps": [
+        126.921,
+        96.658,
+        92.382,
+        88.333,
+        88.088,
+        97.344,
+        98.574
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Brian Greer",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 109.824,
+      "lap_times_url": null,
+      "laps": [
+        142.114,
+        115.57,
+        113.046,
+        109.842,
+        109.824
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Kaitlin Greer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 105.041,
+      "lap_times_url": null,
+      "laps": [
+        144.137,
+        115.305,
+        110.701,
+        109.217,
+        105.041
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79023"
+}

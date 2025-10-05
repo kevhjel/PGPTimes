@@ -1,0 +1,58 @@
+{
+  "heat_no": 78896,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-23T10:30:00",
+  "drivers": [
+    {
+      "name": "Kaylee Donarico",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.809,
+      "lap_times_url": null,
+      "laps": [
+        143.203,
+        89.455,
+        88.995,
+        89.111,
+        91.393,
+        88.809,
+        89.677
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dennis Yee",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.647,
+      "lap_times_url": null,
+      "laps": [
+        133.936,
+        88.714,
+        89.328,
+        88.647,
+        91.856,
+        88.753,
+        89.284
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78896"
+}

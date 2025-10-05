@@ -1,0 +1,89 @@
+{
+  "heat_no": 78801,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-21T13:45:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.392,
+      "lap_times_url": null,
+      "laps": [
+        83.072,
+        81.277,
+        82.292,
+        80.88,
+        80.577,
+        80.392,
+        80.401,
+        80.408
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.144,
+      "lap_times_url": null,
+      "laps": [
+        84.231,
+        81.241,
+        81.151,
+        80.929,
+        80.424,
+        80.911,
+        80.269,
+        80.144
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eduardo Ballen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.164,
+      "lap_times_url": null,
+      "laps": [
+        83.606,
+        81.455,
+        81.347,
+        81.164,
+        81.358,
+        81.631,
+        81.89,
+        81.493
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78801"
+}

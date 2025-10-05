@@ -1,0 +1,354 @@
+{
+  "heat_no": 79283,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-06T19:00:00",
+  "drivers": [
+    {
+      "name": "Kunal Gautam",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.725,
+      "lap_times_url": null,
+      "laps": [
+        111.322,
+        94.147,
+        84.797,
+        85.639,
+        86.643,
+        84.725,
+        85.536
+      ],
+      "lap_positions": [
+        2,
+        8,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Shivam Kendre",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.685,
+      "lap_times_url": null,
+      "laps": [
+        111.918,
+        82.364,
+        82.13,
+        81.881,
+        82.685,
+        83.547,
+        83.049,
+        81.685
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Michael Silver",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.987,
+      "lap_times_url": null,
+      "laps": [
+        120.514,
+        90.402,
+        82.902,
+        82.291,
+        81.987,
+        82.775,
+        82.053
+      ],
+      "lap_positions": [
+        9,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kumar Prabhu K...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.796,
+      "lap_times_url": null,
+      "laps": [
+        102.86,
+        83.762,
+        91.392,
+        82.796,
+        82.995,
+        83.878,
+        83.194
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Sujay Puvvadi",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 88.07,
+      "lap_times_url": null,
+      "laps": [
+        115.556,
+        96.682,
+        88.27,
+        88.07,
+        103.845,
+        91.503,
+        88.583
+      ],
+      "lap_positions": [
+        7,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Gustavo Diaz",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 85.137,
+      "lap_times_url": null,
+      "laps": [
+        112.614,
+        92.775,
+        85.162,
+        85.137,
+        85.332,
+        95.643,
+        88.943
+      ],
+      "lap_positions": [
+        4,
+        7,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Bryanna Robbins",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 100.016,
+      "lap_times_url": null,
+      "laps": [
+        120.41,
+        124.632,
+        105.539,
+        103.557,
+        101.3,
+        100.016
+      ],
+      "lap_positions": [
+        8,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Christopher Me...",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 88.828,
+      "lap_times_url": null,
+      "laps": [
+        115.084,
+        102.914,
+        108.139,
+        88.993,
+        98.971,
+        88.951,
+        88.828
+      ],
+      "lap_positions": [
+        5,
+        11,
+        12,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Harry Coutinho",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 86.182,
+      "lap_times_url": null,
+      "laps": [
+        127.514,
+        89.631,
+        87.924,
+        86.198,
+        86.232,
+        86.182,
+        87.589
+      ],
+      "lap_positions": [
+        14,
+        3,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Chris Hultberg",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 94.178,
+      "lap_times_url": null,
+      "laps": [
+        121.178,
+        99.887,
+        99.082,
+        95.775,
+        98.386,
+        94.178
+      ],
+      "lap_positions": [
+        10,
+        10,
+        11,
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "name": "Derek Han",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 85.643,
+      "lap_times_url": null,
+      "laps": [
+        123.501,
+        89.686,
+        87.776,
+        85.643,
+        86.34,
+        87.912,
+        97.256
+      ],
+      "lap_positions": [
+        11,
+        4,
+        7,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Kabir Snell",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.674,
+      "lap_times_url": null,
+      "laps": [
+        127.053,
+        90.655,
+        87.767,
+        87.745,
+        92.642,
+        87.674,
+        88.697
+      ],
+      "lap_positions": [
+        13,
+        6,
+        6,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Surya Pappu",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 94.874,
+      "lap_times_url": null,
+      "laps": [
+        124.064,
+        103.382,
+        94.874,
+        98.773,
+        109.833,
+        100.502
+      ],
+      "lap_positions": [
+        12,
+        12,
+        10,
+        12,
+        12,
+        13
+      ]
+    },
+    {
+      "name": "Yadnesh Gotey",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 92.343,
+      "lap_times_url": null,
+      "laps": [
+        115.12,
+        106.893,
+        103.989,
+        92.692,
+        92.343,
+        94.017,
+        93.047
+      ],
+      "lap_positions": [
+        6,
+        13,
+        13,
+        11,
+        11,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79283"
+}

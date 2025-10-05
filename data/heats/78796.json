@@ -1,0 +1,248 @@
+{
+  "heat_no": 78796,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-05-21T15:00:00",
+  "drivers": [
+    {
+      "name": "Jerry Zhou",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.856,
+      "lap_times_url": null,
+      "laps": [
+        146.035,
+        88.856,
+        93.126,
+        93.445,
+        92.327,
+        90.299,
+        89.571
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Michael Ma",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.123,
+      "lap_times_url": null,
+      "laps": [
+        143.393,
+        88.123,
+        92.696,
+        92.347,
+        97.332,
+        88.297,
+        91.849
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ali Issaoui",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.53,
+      "lap_times_url": null,
+      "laps": [
+        140.897,
+        86.397,
+        85.116,
+        84.53,
+        90.705,
+        85.968,
+        85.313
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Georgii Miskov...",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 93.764,
+      "lap_times_url": null,
+      "laps": [
+        158.49,
+        97.674,
+        96.932,
+        96.524,
+        99.835,
+        95.026,
+        93.764
+      ],
+      "lap_positions": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "William Flores",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.808,
+      "lap_times_url": null,
+      "laps": [
+        142.151,
+        87.808,
+        97.535,
+        89.136,
+        116.177,
+        88.108,
+        88.239
+      ],
+      "lap_positions": [
+        2,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Rohan Shah",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 100.17,
+      "lap_times_url": null,
+      "laps": [
+        150.738,
+        106.919,
+        109.9,
+        103.643,
+        102.426,
+        100.17
+      ],
+      "lap_positions": [
+        7,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "MOHAMED ABAKAR",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 95.857,
+      "lap_times_url": null,
+      "laps": [
+        164.453,
+        113.525,
+        107.664,
+        101.219,
+        95.857,
+        103.565
+      ],
+      "lap_positions": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "RYAN MALESIC",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 92.03,
+      "lap_times_url": null,
+      "laps": [
+        166.743,
+        94.76,
+        101.93,
+        92.03,
+        92.337,
+        95.427,
+        92.702
+      ],
+      "lap_positions": [
+        8,
+        7,
+        6,
+        6,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Sophia Klueter",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 99.295,
+      "lap_times_url": null,
+      "laps": [
+        149.959,
+        103.49,
+        126.787,
+        99.295,
+        100.533,
+        102.747
+      ],
+      "lap_positions": [
+        5,
+        6,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "JIE CHEN",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 121.838,
+      "lap_times_url": null,
+      "laps": [
+        170.085,
+        123.153,
+        121.838,
+        128.85,
+        136.652
+      ],
+      "lap_positions": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78796"
+}

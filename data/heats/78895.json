@@ -1,0 +1,58 @@
+{
+  "heat_no": 78895,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-23T10:15:00",
+  "drivers": [
+    {
+      "name": "Bryan Estill",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.84,
+      "lap_times_url": null,
+      "laps": [
+        100.478,
+        84.137,
+        83.803,
+        83.214,
+        83.993,
+        84.173,
+        84.002,
+        82.84
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Thomas Cathcart",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.909,
+      "lap_times_url": null,
+      "laps": [
+        130.751,
+        115.718,
+        111.803,
+        112.321,
+        108.909,
+        110.336
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78895"
+}

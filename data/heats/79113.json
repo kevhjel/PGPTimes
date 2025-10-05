@@ -1,0 +1,117 @@
+{
+  "heat_no": 79113,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-30T18:45:00",
+  "drivers": [
+    {
+      "name": "Decker Thomas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.085,
+      "lap_times_url": null,
+      "laps": [
+        150.205,
+        99.339,
+        100.122,
+        96.926,
+        94.085,
+        102.417
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "STANLEY TSAI",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.17,
+      "lap_times_url": null,
+      "laps": [
+        138.492,
+        101.869,
+        94.012,
+        91.17,
+        91.595,
+        97.093
+      ],
+      "lap_positions": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Liam Hawes",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.873,
+      "lap_times_url": null,
+      "laps": [
+        158.293,
+        115.121,
+        110.301,
+        106.873,
+        146.131
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Duane Rindy",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.176,
+      "lap_times_url": null,
+      "laps": [
+        171.047,
+        126.839,
+        137.912,
+        128.735,
+        121.176
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Beck Robertson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 100.513,
+      "lap_times_url": null,
+      "laps": [
+        152.207,
+        100.513,
+        142.928,
+        128.681,
+        115.298
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79113"
+}

@@ -1,0 +1,115 @@
+{
+  "heat_no": 79038,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-28T19:30:00",
+  "drivers": [
+    {
+      "name": "Dennis Ridener",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.081,
+      "lap_times_url": null,
+      "laps": [
+        135.946,
+        107.308,
+        107.812,
+        105.403,
+        102.081,
+        104.588
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alexandra Agui...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.33,
+      "lap_times_url": null,
+      "laps": [
+        131.718,
+        108.413,
+        109.331,
+        103.221,
+        100.395,
+        96.33
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "James Castilleja",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 106.035,
+      "lap_times_url": null,
+      "laps": [
+        157.001,
+        123.713,
+        118.128,
+        112.095,
+        106.035
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Carmen Ridener",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 151.807,
+      "lap_times_url": null,
+      "laps": [
+        195.892,
+        178.863,
+        161.69,
+        151.807
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Austin Ridener",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.513,
+      "lap_times_url": null,
+      "laps": [
+        145.292,
+        119.549,
+        117.794,
+        115.196,
+        111.513
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79038"
+}

@@ -1,0 +1,58 @@
+{
+  "heat_no": 78816,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T12:15:00",
+  "drivers": [
+    {
+      "name": "Ted Cairns",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.5,
+      "lap_times_url": null,
+      "laps": [
+        114.584,
+        90.639,
+        87.88,
+        87.026,
+        87.502,
+        86.5,
+        101.182
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nathan Helliar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.38,
+      "lap_times_url": null,
+      "laps": [
+        116.314,
+        91.818,
+        90.383,
+        90.414,
+        90.041,
+        88.957,
+        88.38
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78816"
+}

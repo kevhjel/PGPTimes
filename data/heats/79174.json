@@ -1,0 +1,353 @@
+{
+  "heat_no": 79174,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-06-04T12:00:00",
+  "drivers": [
+    {
+      "name": "alex smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.651,
+      "lap_times_url": null,
+      "laps": [
+        149.261,
+        84.469,
+        85.884,
+        84.493,
+        85.222,
+        83.9,
+        84.444,
+        83.651
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Robert Elliott...",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 89.197,
+      "lap_times_url": null,
+      "laps": [
+        159.261,
+        95.283,
+        92.134,
+        89.54,
+        89.197,
+        90.634,
+        99.018,
+        90.359
+      ],
+      "lap_positions": [
+        6,
+        5,
+        7,
+        7,
+        7,
+        8,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Tyman Stephens",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 85.965,
+      "lap_times_url": null,
+      "laps": [
+        142.945,
+        107.652,
+        87.929,
+        87.581,
+        87.835,
+        85.965,
+        89.368,
+        87.58
+      ],
+      "lap_positions": [
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jeffrey Michae...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.837,
+      "lap_times_url": null,
+      "laps": [
+        150.932,
+        88.121,
+        87.016,
+        88.036,
+        87.687,
+        85.837,
+        85.873,
+        86.277
+      ],
+      "lap_positions": [
+        7,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Victor Rice",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.878,
+      "lap_times_url": null,
+      "laps": [
+        144.105,
+        104.731,
+        86.032,
+        86.304,
+        85.684,
+        84.878,
+        87.033,
+        85.341
+      ],
+      "lap_positions": [
+        4,
+        6,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Aaron Johnson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 87.659,
+      "lap_times_url": null,
+      "laps": [
+        154.265,
+        89.034,
+        89.117,
+        87.659,
+        91.228,
+        90.168,
+        88.515,
+        88.191
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Phil Pandol",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 87.672,
+      "lap_times_url": null,
+      "laps": [
+        158.404,
+        90.178,
+        87.928,
+        89.577,
+        89.192,
+        89.174,
+        87.737,
+        87.672
+      ],
+      "lap_positions": [
+        9,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Ryan Robinson",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 90.743,
+      "lap_times_url": null,
+      "laps": [
+        166.651,
+        90.743,
+        122.431,
+        91.885,
+        91.08,
+        91.337,
+        90.992
+      ],
+      "lap_positions": [
+        10,
+        9,
+        12,
+        11,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Ganesh Gangane",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.566,
+      "lap_times_url": null,
+      "laps": [
+        151.561,
+        85.698,
+        86.351,
+        84.449,
+        84.96,
+        84.015,
+        84.501,
+        83.566
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tim Odykirk",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.459,
+      "lap_times_url": null,
+      "laps": [
+        153.371,
+        99.473,
+        89.83,
+        90.294,
+        87.617,
+        87.459,
+        88.216,
+        88.013
+      ],
+      "lap_positions": [
+        8,
+        10,
+        9,
+        9,
+        9,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Kenneth Carnem...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 87.428,
+      "lap_times_url": null,
+      "laps": [
+        165.262,
+        88.974,
+        89.197,
+        87.531,
+        87.552,
+        87.845,
+        89.124,
+        87.428
+      ],
+      "lap_positions": [
+        11,
+        11,
+        10,
+        10,
+        10,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Chris McPherson",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 90.879,
+      "lap_times_url": null,
+      "laps": [
+        190.387,
+        93.215,
+        92.026,
+        146.678,
+        90.879,
+        94.187,
+        91.779
+      ],
+      "lap_positions": [
+        12,
+        12,
+        11,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Harrison Stankey",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 85.504,
+      "lap_times_url": null,
+      "laps": [
+        188.009,
+        89.984,
+        98.362,
+        96.322,
+        86.62,
+        85.504,
+        85.85
+      ],
+      "lap_positions": [
+        13,
+        13,
+        13,
+        12,
+        12,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79174"
+}

@@ -1,0 +1,52 @@
+{
+  "heat_no": 79161,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-31T18:00:00",
+  "drivers": [
+    {
+      "name": "Barrett Strobel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.497,
+      "lap_times_url": null,
+      "laps": [
+        137.338,
+        148.14,
+        128.216,
+        118.983,
+        113.497
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Bennett Strobel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.655,
+      "lap_times_url": null,
+      "laps": [
+        135.222,
+        107.958,
+        106.417,
+        101.728,
+        98.253,
+        96.655
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79161"
+}

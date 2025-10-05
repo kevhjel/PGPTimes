@@ -1,0 +1,112 @@
+{
+  "heat_no": 79068,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-29T16:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.856,
+      "lap_times_url": null,
+      "laps": [
+        108.266,
+        82.858,
+        84.244,
+        81.904,
+        82.254,
+        81.824,
+        80.856,
+        80.948
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tennis Ball",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.225,
+      "lap_times_url": null,
+      "laps": [
+        108.647,
+        84.197,
+        82.917,
+        81.889,
+        82.297,
+        81.712,
+        81.474,
+        81.225
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Raven Timbas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.69,
+      "lap_times_url": null,
+      "laps": [
+        118.402,
+        91.206,
+        88.869,
+        88.933,
+        88.858,
+        88.439,
+        87.69
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Joash Aguilar",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.807,
+      "lap_times_url": null,
+      "laps": [
+        113.608,
+        90.076,
+        90.178,
+        89.339,
+        88.641,
+        87.807,
+        87.981
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        3,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79068"
+}

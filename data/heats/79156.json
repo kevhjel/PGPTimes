@@ -1,0 +1,71 @@
+{
+  "heat_no": 79156,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-31T16:45:00",
+  "drivers": [
+    {
+      "name": "Kolya Rice",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.742,
+      "lap_times_url": null,
+      "laps": [
+        151.673,
+        116.749,
+        113.7,
+        109.075,
+        104.742
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Colin Rice",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 115.854,
+      "lap_times_url": null,
+      "laps": [
+        160.087,
+        124.041,
+        118.882,
+        117.134,
+        115.854
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Myranda Rice",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.864,
+      "lap_times_url": null,
+      "laps": [
+        163.111,
+        127.998,
+        124.527,
+        117.855,
+        113.864
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79156"
+}

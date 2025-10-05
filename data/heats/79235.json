@@ -1,0 +1,108 @@
+{
+  "heat_no": 79235,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-05T16:15:00",
+  "drivers": [
+    {
+      "name": "Evan Wold",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.432,
+      "lap_times_url": null,
+      "laps": [
+        101.044,
+        84.805,
+        84.349,
+        83.437,
+        83.432,
+        83.526,
+        83.673,
+        84.767
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Philip Wold",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.37,
+      "lap_times_url": null,
+      "laps": [
+        99.377,
+        82.803,
+        82.474,
+        90.658,
+        82.927,
+        83.023,
+        82.765,
+        82.37
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Abigail Wanjiru",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 100.816,
+      "lap_times_url": null,
+      "laps": [
+        115.442,
+        106.009,
+        100.816,
+        106.259,
+        104.326,
+        108.574
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dee Chukwu",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.055,
+      "lap_times_url": null,
+      "laps": [
+        114.962,
+        106.288,
+        98.551,
+        106.946,
+        97.055,
+        115.96
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79235"
+}

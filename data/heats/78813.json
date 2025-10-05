@@ -1,0 +1,77 @@
+{
+  "heat_no": 78813,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-21T11:00:00",
+  "drivers": [
+    {
+      "name": "Aaron Glanz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.427,
+      "lap_times_url": null,
+      "laps": [
+        130.697,
+        101.629,
+        99.292,
+        97.252,
+        95.888,
+        94.427
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Chris Glanz",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.19,
+      "lap_times_url": null,
+      "laps": [
+        129.939,
+        112.192,
+        101.048,
+        99.549,
+        99.39,
+        99.19
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Austin Glanz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.883,
+      "lap_times_url": null,
+      "laps": [
+        137.404,
+        114.538,
+        104.502,
+        101.586,
+        99.727,
+        96.883
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78813"
+}

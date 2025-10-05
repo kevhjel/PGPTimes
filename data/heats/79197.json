@@ -1,0 +1,116 @@
+{
+  "heat_no": 79197,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-06-04T14:45:00",
+  "drivers": [
+    {
+      "name": "Koen Shaw",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.46,
+      "lap_times_url": null,
+      "laps": [
+        99.603,
+        80.956,
+        81.069,
+        80.792,
+        80.542,
+        80.582,
+        80.46,
+        81.006
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.295,
+      "lap_times_url": null,
+      "laps": [
+        101.098,
+        81.419,
+        81.112,
+        80.295,
+        80.436,
+        80.333,
+        80.426,
+        80.348
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.113,
+      "lap_times_url": null,
+      "laps": [
+        100.072,
+        81.089,
+        80.985,
+        80.33,
+        80.34,
+        80.351,
+        80.113,
+        80.433
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.154,
+      "lap_times_url": null,
+      "laps": [
+        106.216,
+        84.043,
+        83.162,
+        82.505,
+        82.154,
+        83.094,
+        82.541,
+        82.937
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=79197"
+}

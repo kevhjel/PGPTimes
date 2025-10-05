@@ -1,0 +1,89 @@
+{
+  "heat_no": 78903,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-23T16:30:00",
+  "drivers": [
+    {
+      "name": "Hunter Witherr...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.914,
+      "lap_times_url": null,
+      "laps": [
+        102.391,
+        81.278,
+        81.601,
+        81.366,
+        81.235,
+        81.423,
+        80.914,
+        81.238
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Markus Gallasch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.918,
+      "lap_times_url": null,
+      "laps": [
+        102.859,
+        84.837,
+        83.037,
+        83.325,
+        83.454,
+        83.081,
+        83.094,
+        82.918
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Taylor Ball",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.358,
+      "lap_times_url": null,
+      "laps": [
+        104.491,
+        84.541,
+        83.926,
+        83.37,
+        84.248,
+        83.358,
+        83.423,
+        83.753
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78903"
+}
