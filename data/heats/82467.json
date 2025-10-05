@@ -1,0 +1,115 @@
+{
+  "heat_no": 82467,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-10-05T09:30:00",
+  "drivers": [
+    {
+      "name": "Daniel Sharapov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 104.216,
+      "lap_times_url": null,
+      "laps": [
+        192.951,
+        109.837,
+        131.595,
+        104.216,
+        105.109
+      ],
+      "lap_positions": [
+        5,
+        2,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Logan De la to...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.769,
+      "lap_times_url": null,
+      "laps": [
+        117.817,
+        102.084,
+        166.607,
+        109.925,
+        99.596,
+        96.769
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ikenna McGill",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 112.745,
+      "lap_times_url": null,
+      "laps": [
+        119.967,
+        115.88,
+        166.481,
+        114.741,
+        112.745
+      ],
+      "lap_positions": [
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Rohan Devineni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.62,
+      "lap_times_url": null,
+      "laps": [
+        132.63,
+        161.015,
+        104.579,
+        112.737,
+        101.62
+      ],
+      "lap_positions": [
+        4,
+        5,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Patrick Mahoney",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 104.582,
+      "lap_times_url": null,
+      "laps": [
+        132.419,
+        161.091,
+        104.582,
+        104.621,
+        108.586
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82467"
+}

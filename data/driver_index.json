@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-10-05T19:48:31Z",
+  "last_updated_utc": "2025-10-05T19:53:10Z",
   "drivers": {
     "Severn Allen": [
       {
@@ -370070,6 +370070,20 @@
         "start_time_iso": "2025-09-28T10:00:00"
       },
       {
+        "heat_no": 82467,
+        "heat_type": "Event Session-Best Lap",
+        "position": 3,
+        "best_lap_seconds": 104.216,
+        "laps": [
+          192.951,
+          109.837,
+          131.595,
+          104.216,
+          105.109
+        ],
+        "start_time_iso": "2025-10-05T09:30:00"
+      },
+      {
         "heat_no": 82296,
         "heat_type": "Event Session-Best Lap",
         "position": 5,
@@ -620632,6 +620646,21 @@
           111.604
         ],
         "start_time_iso": "2025-10-05T09:00:00"
+      },
+      {
+        "heat_no": 82467,
+        "heat_type": "Event Session-Best Lap",
+        "position": 1,
+        "best_lap_seconds": 96.769,
+        "laps": [
+          117.817,
+          102.084,
+          166.607,
+          109.925,
+          99.596,
+          96.769
+        ],
+        "start_time_iso": "2025-10-05T09:30:00"
       }
     ],
     "Ikenna McGill": [
@@ -620648,6 +620677,20 @@
           111.71
         ],
         "start_time_iso": "2025-10-05T09:00:00"
+      },
+      {
+        "heat_no": 82467,
+        "heat_type": "Event Session-Best Lap",
+        "position": 5,
+        "best_lap_seconds": 112.745,
+        "laps": [
+          119.967,
+          115.88,
+          166.481,
+          114.741,
+          112.745
+        ],
+        "start_time_iso": "2025-10-05T09:30:00"
       }
     ],
     "Rohan Devineni": [
@@ -620663,6 +620706,20 @@
           112.164
         ],
         "start_time_iso": "2025-10-05T09:00:00"
+      },
+      {
+        "heat_no": 82467,
+        "heat_type": "Event Session-Best Lap",
+        "position": 2,
+        "best_lap_seconds": 101.62,
+        "laps": [
+          132.63,
+          161.015,
+          104.579,
+          112.737,
+          101.62
+        ],
+        "start_time_iso": "2025-10-05T09:30:00"
       }
     ],
     "Patrick Mahoney": [
@@ -620678,6 +620735,20 @@
           111.206
         ],
         "start_time_iso": "2025-10-05T09:00:00"
+      },
+      {
+        "heat_no": 82467,
+        "heat_type": "Event Session-Best Lap",
+        "position": 4,
+        "best_lap_seconds": 104.582,
+        "laps": [
+          132.419,
+          161.091,
+          104.582,
+          104.621,
+          108.586
+        ],
+        "start_time_iso": "2025-10-05T09:30:00"
       }
     ],
     "Jacob Loliva": [
