@@ -1,0 +1,89 @@
+{
+  "heat_no": 78534,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T16:00:00",
+  "drivers": [
+    {
+      "name": "Sergei Ognerubov",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.907,
+      "lap_times_url": null,
+      "laps": [
+        84.932,
+        81.257,
+        81.615,
+        81.765,
+        81.152,
+        81.564,
+        81.264,
+        80.907
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jack Ziemer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.621,
+      "lap_times_url": null,
+      "laps": [
+        85.553,
+        80.26,
+        80.344,
+        80.235,
+        79.799,
+        79.621,
+        80.257,
+        80.586
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Bremgart...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.266,
+      "lap_times_url": null,
+      "laps": [
+        84.868,
+        80.5,
+        80.277,
+        80.422,
+        80.436,
+        80.437,
+        80.266,
+        80.538
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78534"
+}

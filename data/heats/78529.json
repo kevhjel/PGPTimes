@@ -1,0 +1,108 @@
+{
+  "heat_no": 78529,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T14:45:00",
+  "drivers": [
+    {
+      "name": "Ryan Byers",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.397,
+      "lap_times_url": null,
+      "laps": [
+        106.181,
+        80.468,
+        80.853,
+        80.661,
+        80.626,
+        80.655,
+        80.873,
+        80.397
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.675,
+      "lap_times_url": null,
+      "laps": [
+        105.583,
+        80.463,
+        80.122,
+        80.138,
+        81.14,
+        79.793,
+        79.906,
+        79.675
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Castle",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.751,
+      "lap_times_url": null,
+      "laps": [
+        122.395,
+        107.01,
+        99.449,
+        99.092,
+        98.751,
+        100.364
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kristopher Davis",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.134,
+      "lap_times_url": null,
+      "laps": [
+        121.517,
+        102.669,
+        101.867,
+        99.134,
+        99.601,
+        100.221
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78529"
+}

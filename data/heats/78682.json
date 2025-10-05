@@ -1,0 +1,127 @@
+{
+  "heat_no": 78682,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-16T16:15:00",
+  "drivers": [
+    {
+      "name": "Avery Vail",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.33,
+      "lap_times_url": null,
+      "laps": [
+        114.023,
+        87.674,
+        85.904,
+        86.079,
+        85.33,
+        85.49,
+        94.177
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Oleksander Kaz...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.18,
+      "lap_times_url": null,
+      "laps": [
+        112.403,
+        87.318,
+        86.478,
+        87.154,
+        85.18,
+        85.651,
+        92.381
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Maksym Maistruk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.201,
+      "lap_times_url": null,
+      "laps": [
+        126.654,
+        95.954,
+        95.38,
+        111.707,
+        90.201,
+        114.7
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Almina Smajic",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 96.376,
+      "lap_times_url": null,
+      "laps": [
+        127.098,
+        97.092,
+        96.376,
+        96.785,
+        97.669,
+        126.903
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ivan Semak",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.259,
+      "lap_times_url": null,
+      "laps": [
+        130.477,
+        93.005,
+        99.647,
+        101.402,
+        90.259,
+        100.984
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78682"
+}

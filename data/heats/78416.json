@@ -1,0 +1,54 @@
+{
+  "heat_no": 78416,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T14:30:00",
+  "drivers": [
+    {
+      "name": "Yair Martinez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.019,
+      "lap_times_url": null,
+      "laps": [
+        144.598,
+        97.888,
+        111.679,
+        94.453,
+        94.019,
+        100.407
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Isain Lopes",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.184,
+      "lap_times_url": null,
+      "laps": [
+        146.979,
+        99.354,
+        107.728,
+        95.281,
+        97.07,
+        95.184
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78416"
+}

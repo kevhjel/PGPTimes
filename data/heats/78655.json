@@ -1,0 +1,114 @@
+{
+  "heat_no": 78655,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-15T17:00:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.447,
+      "lap_times_url": null,
+      "laps": [
+        108.255,
+        82.734,
+        81.686,
+        81.079,
+        80.681,
+        80.871,
+        80.628,
+        80.592,
+        80.447
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rohan Mathur",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.889,
+      "lap_times_url": null,
+      "laps": [
+        109.281,
+        83.631,
+        82.611,
+        82.153,
+        82.594,
+        82.992,
+        81.889,
+        85.138,
+        82.522
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Malek Oulmi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.549,
+      "lap_times_url": null,
+      "laps": [
+        116.229,
+        94.494,
+        95.274,
+        91.705,
+        94.623,
+        89.221,
+        88.072,
+        87.549
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Adonay Hasebu",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 98.883,
+      "lap_times_url": null,
+      "laps": [
+        314.143,
+        102.305,
+        112.381,
+        98.883,
+        105.954
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78655"
+}

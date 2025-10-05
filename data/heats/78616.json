@@ -1,0 +1,60 @@
+{
+  "heat_no": 78616,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-14T13:30:00",
+  "drivers": [
+    {
+      "name": "Ian Bauer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.134,
+      "lap_times_url": null,
+      "laps": [
+        104.78,
+        97.006,
+        92.927,
+        91.084,
+        90.973,
+        89.134,
+        89.647
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.234,
+      "lap_times_url": null,
+      "laps": [
+        97.466,
+        87.289,
+        86.395,
+        85.936,
+        85.6,
+        85.159,
+        84.234,
+        84.502
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78616"
+}

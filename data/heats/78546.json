@@ -1,0 +1,85 @@
+{
+  "heat_no": 78546,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T19:00:00",
+  "drivers": [
+    {
+      "name": "Junqing Deng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.219,
+      "lap_times_url": null,
+      "laps": [
+        102.059,
+        81.883,
+        82.845,
+        81.716,
+        81.219,
+        81.42,
+        81.831,
+        91.322
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.283,
+      "lap_times_url": null,
+      "laps": [
+        102.481,
+        81.337,
+        80.563,
+        80.78,
+        80.442,
+        80.409,
+        80.283,
+        80.293
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.119,
+      "lap_times_url": null,
+      "laps": [
+        112.088,
+        98.449,
+        97.898,
+        97.119,
+        102.146,
+        98.513
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78546"
+}

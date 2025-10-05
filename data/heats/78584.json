@@ -1,0 +1,77 @@
+{
+  "heat_no": 78584,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-14T10:45:00",
+  "drivers": [
+    {
+      "name": "Kenny Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.742,
+      "lap_times_url": null,
+      "laps": [
+        129.501,
+        105.178,
+        99.928,
+        97.001,
+        95.399,
+        93.742
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Austin New",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.87,
+      "lap_times_url": null,
+      "laps": [
+        134.021,
+        110.288,
+        106.898,
+        103.099,
+        103.851,
+        99.87
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brian Kent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.208,
+      "lap_times_url": null,
+      "laps": [
+        146.194,
+        108.481,
+        111.727,
+        100.532,
+        99.498,
+        99.208
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78584"
+}

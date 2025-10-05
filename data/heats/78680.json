@@ -1,0 +1,79 @@
+{
+  "heat_no": 78680,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-16T15:45:00",
+  "drivers": [
+    {
+      "name": "Avery Vail",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.347,
+      "lap_times_url": null,
+      "laps": [
+        113.36,
+        88.442,
+        87.299,
+        87.078,
+        86.347,
+        86.653,
+        86.596
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Albert Ramirez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.416,
+      "lap_times_url": null,
+      "laps": [
+        112.171,
+        87.529,
+        88.602,
+        87.045,
+        86.418,
+        88.333,
+        85.416
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Almina Smajic",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.174,
+      "lap_times_url": null,
+      "laps": [
+        137.608,
+        122.173,
+        117.174,
+        119.014,
+        118.432
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78680"
+}

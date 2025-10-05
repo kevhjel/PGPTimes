@@ -1,0 +1,79 @@
+{
+  "heat_no": 78429,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T18:15:00",
+  "drivers": [
+    {
+      "name": "jennifer Mulia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.831,
+      "lap_times_url": null,
+      "laps": [
+        132.995,
+        143.182,
+        98.118,
+        95.726,
+        96.828,
+        94.831
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ken Kanadi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.097,
+      "lap_times_url": null,
+      "laps": [
+        128.337,
+        88.674,
+        85.568,
+        85.749,
+        85.097,
+        86.234,
+        89.393
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Emil Kanadi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.907,
+      "lap_times_url": null,
+      "laps": [
+        134.507,
+        122.625,
+        96.792,
+        95.436,
+        102.95,
+        92.907
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78429"
+}

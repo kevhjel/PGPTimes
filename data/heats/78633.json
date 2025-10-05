@@ -1,0 +1,60 @@
+{
+  "heat_no": 78633,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-15T12:00:00",
+  "drivers": [
+    {
+      "name": "blake skogen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.157,
+      "lap_times_url": null,
+      "laps": [
+        109.985,
+        84.078,
+        83.64,
+        83.157,
+        83.179,
+        83.815,
+        83.496,
+        84.133
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Brett Bussard",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.143,
+      "lap_times_url": null,
+      "laps": [
+        112.29,
+        87.548,
+        86.807,
+        86.391,
+        86.193,
+        86.207,
+        86.143
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78633"
+}

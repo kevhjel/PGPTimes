@@ -1,0 +1,102 @@
+{
+  "heat_no": 78427,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T17:45:00",
+  "drivers": [
+    {
+      "name": "Evan Allen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.764,
+      "lap_times_url": null,
+      "laps": [
+        125.727,
+        84.738,
+        83.826,
+        83.267,
+        84.618,
+        83.048,
+        82.764
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "jennifer Mulia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 103.618,
+      "lap_times_url": null,
+      "laps": [
+        140.642,
+        111.93,
+        109.0,
+        105.235,
+        104.029,
+        103.618
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ken Kanadi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.472,
+      "lap_times_url": null,
+      "laps": [
+        121.79,
+        85.848,
+        88.887,
+        84.906,
+        86.651,
+        84.472,
+        85.091
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emil Kanadi",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 109.244,
+      "lap_times_url": null,
+      "laps": [
+        140.982,
+        116.836,
+        120.353,
+        111.019,
+        109.244
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78427"
+}

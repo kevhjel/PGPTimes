@@ -1,0 +1,167 @@
+{
+  "heat_no": 78600,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-14T17:45:00",
+  "drivers": [
+    {
+      "name": "Paolo Verstappen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.161,
+      "lap_times_url": null,
+      "laps": [
+        135.187,
+        80.981,
+        82.641,
+        90.829,
+        80.161,
+        80.581,
+        80.282
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Frank the Tank",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.695,
+      "lap_times_url": null,
+      "laps": [
+        135.36,
+        83.01,
+        84.031,
+        84.772,
+        82.695,
+        83.044,
+        86.119
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.429,
+      "lap_times_url": null,
+      "laps": [
+        135.202,
+        84.434,
+        84.142,
+        83.537,
+        81.111,
+        81.64,
+        80.429
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stella Luna",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 104.622,
+      "lap_times_url": null,
+      "laps": [
+        170.191,
+        113.988,
+        110.202,
+        107.978,
+        104.622
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Damaris Moreno",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 113.856,
+      "lap_times_url": null,
+      "laps": [
+        138.204,
+        119.812,
+        124.497,
+        118.122,
+        113.856
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Khusen Rabimov",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 113.852,
+      "lap_times_url": null,
+      "laps": [
+        172.913,
+        129.514,
+        123.857,
+        119.819,
+        113.852
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Briana Tuvey",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 119.009,
+      "lap_times_url": null,
+      "laps": [
+        179.444,
+        132.567,
+        131.166,
+        122.031,
+        119.009
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78600"
+}

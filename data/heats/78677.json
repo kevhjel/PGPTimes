@@ -1,0 +1,31 @@
+{
+  "heat_no": 78677,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-16T13:45:00",
+  "drivers": [
+    {
+      "name": "bryten norfleet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.93,
+      "lap_times_url": null,
+      "laps": [
+        101.005,
+        100.713,
+        96.88,
+        93.289,
+        89.128,
+        86.93
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78677"
+}

@@ -1,0 +1,534 @@
+{
+  "heat_no": 78434,
+  "heat_type": "Group Event Qualifying",
+  "start_time_iso": "2025-05-08T12:00:00",
+  "drivers": [
+    {
+      "name": "Austin Eacret",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 87.719,
+      "lap_times_url": null,
+      "laps": [
+        126.441,
+        97.152,
+        91.48,
+        91.56,
+        87.719,
+        99.787
+      ],
+      "lap_positions": [
+        12,
+        11,
+        14,
+        15,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "Cullen Johnson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.875,
+      "lap_times_url": null,
+      "laps": [
+        116.353,
+        83.946,
+        83.558,
+        82.875,
+        85.32,
+        85.807,
+        83.986
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "tom anderson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.548,
+      "lap_times_url": null,
+      "laps": [
+        125.339,
+        88.156,
+        86.495,
+        85.238,
+        84.548,
+        87.049,
+        86.579
+      ],
+      "lap_positions": [
+        10,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Lance Bakki",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.498,
+      "lap_times_url": null,
+      "laps": [
+        113.467,
+        85.189,
+        83.757,
+        82.498,
+        82.774,
+        84.37,
+        86.008
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Scott Erickson",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 87.207,
+      "lap_times_url": null,
+      "laps": [
+        132.443,
+        90.732,
+        87.319,
+        88.122,
+        94.226,
+        87.207,
+        87.438
+      ],
+      "lap_positions": [
+        14,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "scott speelman",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 87.669,
+      "lap_times_url": null,
+      "laps": [
+        121.616,
+        91.883,
+        90.049,
+        88.382,
+        87.669,
+        88.884,
+        101.8
+      ],
+      "lap_positions": [
+        4,
+        8,
+        12,
+        7,
+        9,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Everett Hall",
+      "position": 20,
+      "kart": null,
+      "best_lap_seconds": 93.133,
+      "lap_times_url": null,
+      "laps": [
+        130.746,
+        107.226,
+        94.525,
+        93.133,
+        114.165,
+        95.814
+      ],
+      "lap_positions": [
+        13,
+        16,
+        20,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "name": "Liza Watson",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 90.675,
+      "lap_times_url": null,
+      "laps": [
+        146.439,
+        116.295,
+        91.325,
+        90.675,
+        93.031,
+        93.085
+      ],
+      "lap_positions": [
+        22,
+        20,
+        13,
+        14,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "JT Heppell",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 89.033,
+      "lap_times_url": null,
+      "laps": [
+        123.255,
+        91.764,
+        89.033,
+        91.206,
+        89.261,
+        92.111,
+        91.939
+      ],
+      "lap_positions": [
+        8,
+        7,
+        10,
+        11,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Jett Scholz",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 87.591,
+      "lap_times_url": null,
+      "laps": [
+        135.144,
+        92.964,
+        89.565,
+        89.054,
+        87.591,
+        87.721,
+        88.908
+      ],
+      "lap_positions": [
+        16,
+        9,
+        11,
+        12,
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Michael Cheesman",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 87.783,
+      "lap_times_url": null,
+      "laps": [
+        125.385,
+        93.25,
+        88.761,
+        88.498,
+        87.897,
+        88.366,
+        87.783
+      ],
+      "lap_positions": [
+        11,
+        10,
+        8,
+        8,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Nicholas Weinb...",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 87.605,
+      "lap_times_url": null,
+      "laps": [
+        132.617,
+        101.232,
+        100.956,
+        92.093,
+        87.605,
+        101.907
+      ],
+      "lap_positions": [
+        15,
+        13,
+        22,
+        17,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Anthony Lipston",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 87.362,
+      "lap_times_url": null,
+      "laps": [
+        136.035,
+        117.477,
+        88.683,
+        90.258,
+        116.057,
+        87.362
+      ],
+      "lap_positions": [
+        17,
+        21,
+        7,
+        9,
+        12,
+        7
+      ]
+    },
+    {
+      "name": "Andres Pina",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 91.218,
+      "lap_times_url": null,
+      "laps": [
+        125.226,
+        105.107,
+        93.37,
+        93.172,
+        91.218,
+        103.35
+      ],
+      "lap_positions": [
+        9,
+        15,
+        17,
+        19,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Eric Henriksen",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 92.013,
+      "lap_times_url": null,
+      "laps": [
+        138.535,
+        101.414,
+        92.013,
+        92.469,
+        93.454,
+        93.579
+      ],
+      "lap_positions": [
+        21,
+        14,
+        15,
+        16,
+        18,
+        18
+      ]
+    },
+    {
+      "name": "John Charles",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 90.026,
+      "lap_times_url": null,
+      "laps": [
+        137.096,
+        108.108,
+        92.574,
+        90.026,
+        93.362,
+        90.436
+      ],
+      "lap_positions": [
+        19,
+        17,
+        16,
+        13,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Michael Thompson",
+      "position": 19,
+      "kart": null,
+      "best_lap_seconds": 92.696,
+      "lap_times_url": null,
+      "laps": [
+        138.279,
+        108.751,
+        93.809,
+        93.415,
+        96.046,
+        92.696
+      ],
+      "lap_positions": [
+        20,
+        18,
+        18,
+        20,
+        20,
+        19
+      ]
+    },
+    {
+      "name": "MICHAEL RHODES",
+      "position": 22,
+      "kart": null,
+      "best_lap_seconds": 96.158,
+      "lap_times_url": null,
+      "laps": [
+        136.329,
+        112.21,
+        97.864,
+        96.158,
+        102.288,
+        101.569
+      ],
+      "lap_positions": [
+        18,
+        19,
+        21,
+        22,
+        22,
+        22
+      ]
+    },
+    {
+      "name": "Wooyong Jung",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 88.997,
+      "lap_times_url": null,
+      "laps": [
+        122.288,
+        118.623,
+        88.997,
+        91.639,
+        108.981,
+        89.95
+      ],
+      "lap_positions": [
+        6,
+        22,
+        9,
+        10,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Joshua Hawkinson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 86.593,
+      "lap_times_url": null,
+      "laps": [
+        121.759,
+        90.623,
+        87.323,
+        87.056,
+        88.286,
+        87.256,
+        86.593
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Todd Robinson",
+      "position": 21,
+      "kart": null,
+      "best_lap_seconds": 94.015,
+      "lap_times_url": null,
+      "laps": [
+        123.105,
+        97.637,
+        94.015,
+        109.441,
+        98.209,
+        97.742
+      ],
+      "lap_positions": [
+        7,
+        12,
+        19,
+        21,
+        21,
+        21
+      ]
+    },
+    {
+      "name": "Chase Johnson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.366,
+      "lap_times_url": null,
+      "laps": [
+        113.901,
+        86.684,
+        83.621,
+        82.366,
+        83.34,
+        83.843,
+        84.588
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78434"
+}

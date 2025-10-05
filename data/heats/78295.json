@@ -1,0 +1,52 @@
+{
+  "heat_no": 78295,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-02T15:00:00",
+  "drivers": [
+    {
+      "name": "Jakobbi Johnso...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 95.02,
+      "lap_times_url": null,
+      "laps": [
+        108.72,
+        105.353,
+        100.51,
+        99.962,
+        97.555,
+        95.02
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Grace Marin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.034,
+      "lap_times_url": null,
+      "laps": [
+        122.191,
+        112.76,
+        117.735,
+        112.585,
+        111.034
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78295"
+}

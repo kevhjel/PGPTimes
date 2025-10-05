@@ -1,0 +1,83 @@
+{
+  "heat_no": 78673,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-16T12:45:00",
+  "drivers": [
+    {
+      "name": "jordan soler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.805,
+      "lap_times_url": null,
+      "laps": [
+        117.956,
+        93.236,
+        92.091,
+        92.532,
+        91.414,
+        90.805,
+        91.407
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "bryten norfleet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.352,
+      "lap_times_url": null,
+      "laps": [
+        110.018,
+        83.113,
+        82.839,
+        83.091,
+        82.352,
+        82.655,
+        82.675,
+        82.395
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Sawyer Solomon",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 97.307,
+      "lap_times_url": null,
+      "laps": [
+        125.632,
+        102.972,
+        100.209,
+        99.493,
+        98.151,
+        97.307
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78673"
+}

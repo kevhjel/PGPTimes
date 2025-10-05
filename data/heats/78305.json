@@ -1,0 +1,87 @@
+{
+  "heat_no": 78305,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-02T18:15:00",
+  "drivers": [
+    {
+      "name": "tanner williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.875,
+      "lap_times_url": null,
+      "laps": [
+        104.75,
+        83.816,
+        82.875,
+        83.832,
+        83.635,
+        84.095,
+        84.122,
+        83.316
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "jacob morcom",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.937,
+      "lap_times_url": null,
+      "laps": [
+        103.918,
+        83.68,
+        82.937,
+        83.562,
+        83.174,
+        84.357,
+        84.535,
+        83.215
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Fenton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.295,
+      "lap_times_url": null,
+      "laps": [
+        108.163,
+        89.296,
+        90.476,
+        89.616,
+        89.109,
+        88.837,
+        87.295
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78305"
+}

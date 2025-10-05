@@ -1,0 +1,106 @@
+{
+  "heat_no": 78695,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-16T19:30:00",
+  "drivers": [
+    {
+      "name": "Abdiel Ocon",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.689,
+      "lap_times_url": null,
+      "laps": [
+        122.37,
+        85.406,
+        87.174,
+        85.811,
+        84.742,
+        84.689,
+        93.222
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JJ Fernandez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.902,
+      "lap_times_url": null,
+      "laps": [
+        129.172,
+        125.755,
+        86.593,
+        85.073,
+        84.53,
+        83.902,
+        86.637
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.747,
+      "lap_times_url": null,
+      "laps": [
+        116.886,
+        90.747,
+        91.736,
+        91.078,
+        91.591,
+        93.649,
+        92.583
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Garrett Bradeen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.063,
+      "lap_times_url": null,
+      "laps": [
+        122.788,
+        100.845,
+        94.264,
+        90.063,
+        91.667,
+        90.389
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78695"
+}

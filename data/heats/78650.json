@@ -1,0 +1,87 @@
+{
+  "heat_no": 78650,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-15T15:45:00",
+  "drivers": [
+    {
+      "name": "Ashton Leeds",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.223,
+      "lap_times_url": null,
+      "laps": [
+        107.774,
+        83.528,
+        83.223,
+        84.382,
+        84.868,
+        84.118,
+        84.28,
+        84.223
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "PARKER METZ",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.841,
+      "lap_times_url": null,
+      "laps": [
+        108.546,
+        83.365,
+        82.841,
+        84.676,
+        85.091,
+        84.127,
+        84.056,
+        84.424
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shayne Leeds",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.477,
+      "lap_times_url": null,
+      "laps": [
+        114.544,
+        94.343,
+        93.836,
+        93.618,
+        92.477,
+        93.136,
+        100.952
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78650"
+}

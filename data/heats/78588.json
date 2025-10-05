@@ -1,0 +1,83 @@
+{
+  "heat_no": 78588,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-14T13:45:00",
+  "drivers": [
+    {
+      "name": "Aizat Murtaza",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.435,
+      "lap_times_url": null,
+      "laps": [
+        109.144,
+        87.4,
+        86.058,
+        85.91,
+        85.392,
+        84.435,
+        84.605
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alec Seil",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.158,
+      "lap_times_url": null,
+      "laps": [
+        113.656,
+        110.538,
+        92.51,
+        91.519,
+        90.586,
+        89.249,
+        89.158
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Gary Seil",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.462,
+      "lap_times_url": null,
+      "laps": [
+        111.896,
+        101.258,
+        91.903,
+        90.753,
+        90.039,
+        89.462,
+        89.486
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78588"
+}

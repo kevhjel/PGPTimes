@@ -1,0 +1,58 @@
+{
+  "heat_no": 78634,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-15T12:15:00",
+  "drivers": [
+    {
+      "name": "Sean Fairweather",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.568,
+      "lap_times_url": null,
+      "laps": [
+        103.157,
+        89.344,
+        88.423,
+        87.568,
+        87.825,
+        88.162,
+        88.525
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jacob Balbi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.626,
+      "lap_times_url": null,
+      "laps": [
+        103.087,
+        88.494,
+        87.6,
+        87.596,
+        86.71,
+        86.626,
+        86.72
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78634"
+}

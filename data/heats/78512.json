@@ -1,0 +1,116 @@
+{
+  "heat_no": 78512,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T10:30:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.252,
+      "lap_times_url": null,
+      "laps": [
+        85.017,
+        83.152,
+        80.005,
+        80.911,
+        79.73,
+        79.706,
+        80.873,
+        79.252
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Tennis Ball",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.22,
+      "lap_times_url": null,
+      "laps": [
+        96.526,
+        84.227,
+        83.175,
+        82.694,
+        83.768,
+        86.035,
+        82.22,
+        102.044
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Maxim Sergeev",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.658,
+      "lap_times_url": null,
+      "laps": [
+        85.666,
+        80.901,
+        80.553,
+        80.513,
+        80.356,
+        79.915,
+        79.658,
+        79.694
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Vladimir Zhura...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.269,
+      "lap_times_url": null,
+      "laps": [
+        89.414,
+        84.269,
+        86.52,
+        85.897,
+        85.067,
+        86.223,
+        86.236,
+        85.264
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78512"
+}

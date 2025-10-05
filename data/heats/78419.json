@@ -1,0 +1,62 @@
+{
+  "heat_no": 78419,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T15:45:00",
+  "drivers": [
+    {
+      "name": "Paul Thomas",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.155,
+      "lap_times_url": null,
+      "laps": [
+        85.135,
+        81.164,
+        81.426,
+        82.185,
+        82.749,
+        81.18,
+        81.029,
+        80.155
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Lonnie Adamson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.769,
+      "lap_times_url": null,
+      "laps": [
+        83.002,
+        83.325,
+        81.963,
+        82.311,
+        82.47,
+        81.119,
+        80.769,
+        80.811
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78419"
+}

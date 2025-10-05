@@ -1,0 +1,113 @@
+{
+  "heat_no": 78360,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-05-04T10:00:00",
+  "drivers": [
+    {
+      "name": "Benjamin Byfield",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 102.407,
+      "lap_times_url": null,
+      "laps": [
+        123.644,
+        171.749,
+        102.407,
+        127.991,
+        109.153
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "OLIVER CABRERA",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 110.812,
+      "lap_times_url": null,
+      "laps": [
+        123.038,
+        175.831,
+        110.812,
+        116.491,
+        111.128
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jacob Seiler",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 112.733,
+      "lap_times_url": null,
+      "laps": [
+        146.081,
+        138.954,
+        118.345,
+        140.119,
+        112.733
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Ronquillo",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 117.461,
+      "lap_times_url": null,
+      "laps": [
+        146.767,
+        152.425,
+        133.841,
+        130.121,
+        117.461
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "ALEX HOWER",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.5,
+      "lap_times_url": null,
+      "laps": [
+        122.047,
+        163.357,
+        102.5,
+        149.453,
+        105.642
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78360"
+}

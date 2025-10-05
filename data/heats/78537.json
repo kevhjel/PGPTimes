@@ -1,0 +1,62 @@
+{
+  "heat_no": 78537,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T16:45:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.132,
+      "lap_times_url": null,
+      "laps": [
+        81.346,
+        81.317,
+        80.034,
+        79.386,
+        79.382,
+        79.403,
+        79.24,
+        79.132
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.061,
+      "lap_times_url": null,
+      "laps": [
+        82.594,
+        80.111,
+        79.542,
+        79.387,
+        79.309,
+        79.233,
+        79.077,
+        79.061
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78537"
+}

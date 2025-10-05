@@ -1,0 +1,52 @@
+{
+  "heat_no": 78681,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-05-16T16:00:00",
+  "drivers": [
+    {
+      "name": "Anastasiia Mai...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.652,
+      "lap_times_url": null,
+      "laps": [
+        174.311,
+        109.396,
+        104.936,
+        101.652,
+        107.32
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Polina Semak",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.945,
+      "lap_times_url": null,
+      "laps": [
+        155.388,
+        107.537,
+        98.945,
+        101.015,
+        106.229,
+        104.373
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78681"
+}

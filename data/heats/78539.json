@@ -1,0 +1,154 @@
+{
+  "heat_no": 78539,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-09T17:15:00",
+  "drivers": [
+    {
+      "name": "Alexey Parfenov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.124,
+      "lap_times_url": null,
+      "laps": [
+        116.511,
+        80.359,
+        79.554,
+        79.586,
+        81.001,
+        79.212,
+        79.184,
+        79.124
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.039,
+      "lap_times_url": null,
+      "laps": [
+        115.649,
+        80.4,
+        79.497,
+        79.153,
+        80.922,
+        79.343,
+        79.039,
+        79.281
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ben Streck",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.925,
+      "lap_times_url": null,
+      "laps": [
+        120.067,
+        87.415,
+        86.782,
+        84.925,
+        92.97,
+        85.3,
+        92.433
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Philip Neill",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.65,
+      "lap_times_url": null,
+      "laps": [
+        149.921,
+        101.613,
+        98.123,
+        95.65,
+        105.243,
+        114.872
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Stephanie Kraus",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 97.113,
+      "lap_times_url": null,
+      "laps": [
+        136.706,
+        102.496,
+        98.98,
+        97.228,
+        99.039,
+        97.113
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Kate Streck",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 115.614,
+      "lap_times_url": null,
+      "laps": [
+        159.656,
+        134.66,
+        129.308,
+        120.621,
+        115.614
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78539"
+}

@@ -1,0 +1,102 @@
+{
+  "heat_no": 78754,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-05-18T09:30:00",
+  "drivers": [
+    {
+      "name": "Ashton Blais",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.348,
+      "lap_times_url": null,
+      "laps": [
+        112.589,
+        101.565,
+        105.023,
+        97.738,
+        94.348,
+        99.78
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Diego Payne",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.064,
+      "lap_times_url": null,
+      "laps": [
+        112.275,
+        102.955,
+        106.289,
+        110.739,
+        101.353,
+        98.064
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "HARLAN ANDERSON",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.191,
+      "lap_times_url": null,
+      "laps": [
+        111.879,
+        98.728,
+        95.826,
+        93.682,
+        92.191,
+        94.394,
+        92.564
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Liam Stoddard",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 106.744,
+      "lap_times_url": null,
+      "laps": [
+        113.161,
+        110.186,
+        109.421,
+        141.335,
+        106.744,
+        109.487
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78754"
+}

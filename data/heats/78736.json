@@ -1,0 +1,96 @@
+{
+  "heat_no": 78736,
+  "heat_type": "Arrive and Drive - 20 Karts",
+  "start_time_iso": "2025-05-17T17:00:00",
+  "drivers": [
+    {
+      "name": "Jordan Oliveira",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.885,
+      "lap_times_url": null,
+      "laps": [
+        110.53,
+        88.885,
+        95.647,
+        89.701,
+        90.38,
+        90.604,
+        89.516
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Luis Martinez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.38,
+      "lap_times_url": null,
+      "laps": [
+        127.45,
+        112.27,
+        110.475,
+        111.489,
+        106.346,
+        102.38
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Alex Ruedas",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.465,
+      "lap_times_url": null,
+      "laps": [
+        139.827,
+        121.541,
+        115.184,
+        110.034,
+        105.465
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kaetlyn Morales",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 134.591,
+      "lap_times_url": null,
+      "laps": [
+        157.213,
+        140.263,
+        139.166,
+        134.591
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78736"
+}

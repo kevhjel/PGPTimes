@@ -1,0 +1,83 @@
+{
+  "heat_no": 78421,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T16:15:00",
+  "drivers": [
+    {
+      "name": "Michael St. Am...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.35,
+      "lap_times_url": null,
+      "laps": [
+        119.717,
+        139.56,
+        89.013,
+        87.157,
+        87.393,
+        86.35,
+        86.463
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Calvin Le",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.552,
+      "lap_times_url": null,
+      "laps": [
+        117.591,
+        136.968,
+        93.253,
+        91.444,
+        90.105,
+        88.552
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Keith Ma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.562,
+      "lap_times_url": null,
+      "laps": [
+        119.843,
+        84.851,
+        82.634,
+        81.851,
+        81.583,
+        81.562,
+        81.569,
+        81.677
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78421"
+}

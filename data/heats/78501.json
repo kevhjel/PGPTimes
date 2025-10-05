@@ -1,0 +1,85 @@
+{
+  "heat_no": 78501,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-08T16:15:00",
+  "drivers": [
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.447,
+      "lap_times_url": null,
+      "laps": [
+        100.061,
+        80.257,
+        79.918,
+        79.714,
+        79.883,
+        79.447,
+        79.486,
+        79.883
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Altay Uras",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.79,
+      "lap_times_url": null,
+      "laps": [
+        106.75,
+        89.025,
+        95.465,
+        87.559,
+        86.948,
+        87.263,
+        85.79
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mason Lepkowski",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.308,
+      "lap_times_url": null,
+      "laps": [
+        117.292,
+        94.755,
+        92.224,
+        89.435,
+        88.93,
+        88.945,
+        87.308
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78501"
+}

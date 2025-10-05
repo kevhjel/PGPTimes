@@ -1,0 +1,114 @@
+{
+  "heat_no": 78405,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T13:00:00",
+  "drivers": [
+    {
+      "name": "\"Good Boy\"",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.24,
+      "lap_times_url": null,
+      "laps": [
+        112.222,
+        81.487,
+        81.213,
+        80.885,
+        80.762,
+        80.692,
+        82.06,
+        80.546,
+        80.24
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Owen Sofich",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.987,
+      "lap_times_url": null,
+      "laps": [
+        117.382,
+        143.315,
+        104.382,
+        90.847,
+        103.78,
+        99.909,
+        86.987
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Charlie Giovi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.126,
+      "lap_times_url": null,
+      "laps": [
+        117.403,
+        89.631,
+        87.863,
+        88.422,
+        87.128,
+        87.068,
+        87.149,
+        86.126
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Dawson Schmidt",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.317,
+      "lap_times_url": null,
+      "laps": [
+        117.108,
+        108.16,
+        91.361,
+        92.34,
+        108.673,
+        131.307,
+        87.317
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78405"
+}

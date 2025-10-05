@@ -1,0 +1,77 @@
+{
+  "heat_no": 78403,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-07T12:30:00",
+  "drivers": [
+    {
+      "name": "Owen Sofich",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.157,
+      "lap_times_url": null,
+      "laps": [
+        120.627,
+        100.874,
+        96.354,
+        87.157,
+        113.777,
+        90.365
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Charlie Giovi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.712,
+      "lap_times_url": null,
+      "laps": [
+        127.095,
+        92.374,
+        94.104,
+        88.712,
+        116.503,
+        89.522
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Dawson Schmidt",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.8,
+      "lap_times_url": null,
+      "laps": [
+        128.713,
+        88.8,
+        100.145,
+        89.515,
+        111.206,
+        89.435
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78403"
+}

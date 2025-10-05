@@ -1,0 +1,62 @@
+{
+  "heat_no": 78502,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-05-08T16:30:00",
+  "drivers": [
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.073,
+      "lap_times_url": null,
+      "laps": [
+        81.845,
+        79.983,
+        79.647,
+        79.961,
+        79.533,
+        79.298,
+        79.152,
+        79.073
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.13,
+      "lap_times_url": null,
+      "laps": [
+        80.967,
+        79.449,
+        79.464,
+        79.395,
+        79.371,
+        79.435,
+        79.13,
+        79.139
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=78502"
+}
