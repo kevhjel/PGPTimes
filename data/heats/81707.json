@@ -1,0 +1,58 @@
+{
+  "heat_no": 81707,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T15:45:00",
+  "drivers": [
+    {
+      "name": "Abdilatif Abdi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.258,
+      "lap_times_url": null,
+      "laps": [
+        81.795,
+        81.699,
+        81.756,
+        81.537,
+        81.966,
+        81.36,
+        81.258
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hank Menzie",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.928,
+      "lap_times_url": null,
+      "laps": [
+        85.498,
+        87.953,
+        85.232,
+        84.646,
+        84.014,
+        83.928,
+        83.946
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81707"
+}

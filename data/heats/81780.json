@@ -1,0 +1,85 @@
+{
+  "heat_no": 81780,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-05T10:00:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.975,
+      "lap_times_url": null,
+      "laps": [
+        108.784,
+        81.959,
+        81.634,
+        81.421,
+        82.08,
+        81.26,
+        80.987,
+        80.975
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.683,
+      "lap_times_url": null,
+      "laps": [
+        108.624,
+        82.193,
+        83.899,
+        82.455,
+        84.087,
+        83.022,
+        82.539,
+        81.683
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samuel Velazqu...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.552,
+      "lap_times_url": null,
+      "laps": [
+        130.521,
+        106.153,
+        104.904,
+        98.516,
+        94.552,
+        94.855
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81780"
+}

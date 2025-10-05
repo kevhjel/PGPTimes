@@ -1,0 +1,92 @@
+{
+  "heat_no": 81514,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-27T17:45:00",
+  "drivers": [
+    {
+      "name": "Javan Razor",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 110.642,
+      "lap_times_url": null,
+      "laps": [
+        122.567,
+        115.635,
+        110.679,
+        120.531,
+        110.642
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Isaac Enriquez",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.369,
+      "lap_times_url": null,
+      "laps": [
+        130.981,
+        108.314,
+        107.369,
+        121.9,
+        110.473
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Adele Razor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 105.419,
+      "lap_times_url": null,
+      "laps": [
+        133.699,
+        121.916,
+        117.233,
+        111.785,
+        105.419
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "Linda Razor",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 108.032,
+      "lap_times_url": null,
+      "laps": [
+        123.709,
+        108.032,
+        109.771,
+        121.329,
+        111.89
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81514"
+}

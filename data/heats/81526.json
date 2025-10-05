@@ -1,0 +1,100 @@
+{
+  "heat_no": 81526,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-27T09:15:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.497,
+      "lap_times_url": null,
+      "laps": [
+        121.698,
+        87.122,
+        86.199,
+        86.502,
+        84.497,
+        86.877,
+        84.505
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Calvin Stremel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.004,
+      "lap_times_url": null,
+      "laps": [
+        135.415,
+        101.488,
+        97.474,
+        97.598,
+        96.004,
+        96.711
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jed Stremel",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 100.17,
+      "lap_times_url": null,
+      "laps": [
+        140.296,
+        110.418,
+        104.886,
+        100.193,
+        101.247,
+        100.17
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alexander Yonke",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 113.574,
+      "lap_times_url": null,
+      "laps": [
+        156.694,
+        126.092,
+        117.597,
+        116.719,
+        113.574
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81526"
+}

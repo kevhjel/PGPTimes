@@ -1,0 +1,113 @@
+{
+  "heat_no": 81647,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-08-31T09:30:00",
+  "drivers": [
+    {
+      "name": "Troy Cook",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 120.194,
+      "lap_times_url": null,
+      "laps": [
+        120.194,
+        128.449,
+        184.334,
+        139.556
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "Shreyansh Bhus...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 113.471,
+      "lap_times_url": null,
+      "laps": [
+        130.645,
+        136.955,
+        124.32,
+        114.326,
+        113.471
+      ],
+      "lap_positions": [
+        4,
+        4,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "James Gale",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 105.57,
+      "lap_times_url": null,
+      "laps": [
+        121.125,
+        124.761,
+        110.42,
+        105.57,
+        108.643
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Quince Chanway",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.297,
+      "lap_times_url": null,
+      "laps": [
+        107.775,
+        101.297,
+        112.126,
+        111.365,
+        120.162,
+        107.261
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dallin Harvey",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.303,
+      "lap_times_url": null,
+      "laps": [
+        132.157,
+        133.037,
+        124.151,
+        114.804,
+        113.303
+      ],
+      "lap_positions": [
+        5,
+        5,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81647"
+}

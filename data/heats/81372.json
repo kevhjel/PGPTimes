@@ -1,0 +1,312 @@
+{
+  "heat_no": 81372,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-22T10:15:00",
+  "drivers": [
+    {
+      "name": "The Trumpet",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.708,
+      "lap_times_url": null,
+      "laps": [
+        110.561,
+        82.267,
+        82.272,
+        83.624,
+        80.777,
+        80.708,
+        82.251,
+        81.442
+      ],
+      "lap_positions": [
+        7,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Myles Braxton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.898,
+      "lap_times_url": null,
+      "laps": [
+        105.163,
+        84.467,
+        81.976,
+        86.075,
+        80.898,
+        81.611,
+        82.0,
+        82.152
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "James Bottorff",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 88.616,
+      "lap_times_url": null,
+      "laps": [
+        107.997,
+        90.27,
+        91.972,
+        91.425,
+        90.673,
+        88.851,
+        88.616,
+        90.518
+      ],
+      "lap_positions": [
+        5,
+        7,
+        7,
+        7,
+        8,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Ben Bottorff",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 86.056,
+      "lap_times_url": null,
+      "laps": [
+        108.72,
+        89.323,
+        91.714,
+        89.019,
+        91.053,
+        86.056,
+        88.83,
+        86.864
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "James Hays",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.561,
+      "lap_times_url": null,
+      "laps": [
+        103.288,
+        82.917,
+        82.928,
+        83.775,
+        82.205,
+        81.561,
+        83.394,
+        83.142
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 83.722,
+      "lap_times_url": null,
+      "laps": [
+        103.879,
+        85.031,
+        85.223,
+        85.816,
+        86.58,
+        83.963,
+        83.722,
+        94.119
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Luis Martinez",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.581,
+      "lap_times_url": null,
+      "laps": [
+        106.314,
+        86.449,
+        86.128,
+        86.821,
+        84.506,
+        84.881,
+        84.644,
+        83.581
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Walter Hoefer",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 112.065,
+      "lap_times_url": null,
+      "laps": [
+        130.599,
+        118.459,
+        114.06,
+        112.824,
+        112.065,
+        124.508
+      ],
+      "lap_positions": [
+        9,
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Nathan Andres",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 98.325,
+      "lap_times_url": null,
+      "laps": [
+        166.922,
+        107.62,
+        105.986,
+        99.949,
+        98.325,
+        99.519
+      ],
+      "lap_positions": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Isabella Baird",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 93.82,
+      "lap_times_url": null,
+      "laps": [
+        349.006,
+        98.798,
+        101.675,
+        95.466,
+        93.82
+      ],
+      "lap_positions": [
+        12,
+        10,
+        10,
+        10,
+        9
+      ]
+    },
+    {
+      "name": "Tyler Quinton",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 94.372,
+      "lap_times_url": null,
+      "laps": [
+        158.435,
+        94.846,
+        149.705,
+        101.244,
+        94.372,
+        121.856
+      ],
+      "lap_positions": [
+        10,
+        9,
+        9,
+        9,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Peter Hoefer",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 89.978,
+      "lap_times_url": null,
+      "laps": [
+        114.541,
+        92.493,
+        90.929,
+        92.844,
+        89.978,
+        103.969,
+        90.054
+      ],
+      "lap_positions": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81372"
+}

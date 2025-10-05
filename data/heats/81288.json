@@ -1,0 +1,54 @@
+{
+  "heat_no": 81288,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-20T13:00:00",
+  "drivers": [
+    {
+      "name": "Jacob Gronquist",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.655,
+      "lap_times_url": null,
+      "laps": [
+        118.878,
+        84.953,
+        84.655,
+        86.372,
+        85.198,
+        84.723,
+        84.703
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Carl Gronquist",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.253,
+      "lap_times_url": null,
+      "laps": [
+        147.285,
+        119.951,
+        114.646,
+        111.478,
+        109.253
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81288"
+}

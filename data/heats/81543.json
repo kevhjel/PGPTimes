@@ -1,0 +1,33 @@
+{
+  "heat_no": 81543,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-28T10:45:00",
+  "drivers": [
+    {
+      "name": "Tim Shaw",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.682,
+      "lap_times_url": null,
+      "laps": [
+        125.969,
+        90.663,
+        90.472,
+        90.313,
+        88.9,
+        89.812,
+        88.682
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81543"
+}

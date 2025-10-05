@@ -1,0 +1,89 @@
+{
+  "heat_no": 81397,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-22T18:30:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.009,
+      "lap_times_url": null,
+      "laps": [
+        83.099,
+        81.305,
+        81.71,
+        81.117,
+        82.584,
+        80.009,
+        83.264,
+        80.294
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Matt Petrich",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.37,
+      "lap_times_url": null,
+      "laps": [
+        84.032,
+        81.135,
+        81.118,
+        80.556,
+        83.752,
+        81.282,
+        80.521,
+        80.37
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.918,
+      "lap_times_url": null,
+      "laps": [
+        82.889,
+        80.918,
+        82.535,
+        81.543,
+        81.427,
+        82.22,
+        80.956,
+        81.188
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81397"
+}

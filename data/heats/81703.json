@@ -1,0 +1,89 @@
+{
+  "heat_no": 81703,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T14:00:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.147,
+      "lap_times_url": null,
+      "laps": [
+        103.841,
+        81.517,
+        81.418,
+        81.147,
+        81.738,
+        81.46,
+        81.216,
+        81.822,
+        81.267
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mitchell Hughey",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.443,
+      "lap_times_url": null,
+      "laps": [
+        118.142,
+        94.224,
+        94.459,
+        123.511,
+        81.007,
+        80.443,
+        81.945,
+        81.049
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shy Helean",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.386,
+      "lap_times_url": null,
+      "laps": [
+        125.21,
+        86.386,
+        110.475,
+        159.418,
+        89.118,
+        88.496,
+        90.091
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81703"
+}

@@ -1,0 +1,290 @@
+{
+  "heat_no": 81452,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-24T10:00:00",
+  "drivers": [
+    {
+      "name": "Stephen Greene",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.78,
+      "lap_times_url": null,
+      "laps": [
+        151.261,
+        80.531,
+        80.043,
+        79.78,
+        80.184,
+        80.595,
+        87.019
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Andrei Romanenko",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.119,
+      "lap_times_url": null,
+      "laps": [
+        155.104,
+        84.643,
+        84.119,
+        84.369,
+        84.546,
+        84.322,
+        84.559
+      ],
+      "lap_positions": [
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Patrick Liu",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.603,
+      "lap_times_url": null,
+      "laps": [
+        141.387,
+        85.688,
+        86.249,
+        86.846,
+        84.603,
+        86.101,
+        88.671
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jason Mutuc",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 88.589,
+      "lap_times_url": null,
+      "laps": [
+        155.598,
+        91.406,
+        88.589,
+        117.39,
+        89.4,
+        98.815
+      ],
+      "lap_positions": [
+        7,
+        6,
+        5,
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Mason Zhao",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 87.731,
+      "lap_times_url": null,
+      "laps": [
+        156.775,
+        90.345,
+        88.703,
+        99.262,
+        87.731,
+        123.691
+      ],
+      "lap_positions": [
+        8,
+        5,
+        6,
+        6,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Mason McGuire",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 96.213,
+      "lap_times_url": null,
+      "laps": [
+        246.843,
+        96.213,
+        103.034,
+        97.689,
+        102.006
+      ],
+      "lap_positions": [
+        12,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Mike Mcguire",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 98.005,
+      "lap_times_url": null,
+      "laps": [
+        167.327,
+        103.384,
+        102.137,
+        100.001,
+        98.614,
+        98.005
+      ],
+      "lap_positions": [
+        11,
+        10,
+        11,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Daniel Hirahoka",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 87.475,
+      "lap_times_url": null,
+      "laps": [
+        154.219,
+        91.666,
+        91.211,
+        92.761,
+        88.517,
+        87.475,
+        87.958
+      ],
+      "lap_positions": [
+        5,
+        7,
+        7,
+        7,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ricki Mudd",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 99.507,
+      "lap_times_url": null,
+      "laps": [
+        158.97,
+        115.765,
+        102.013,
+        102.211,
+        100.9,
+        99.507
+      ],
+      "lap_positions": [
+        9,
+        11,
+        10,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Graham Coleman",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 104.131,
+      "lap_times_url": null,
+      "laps": [
+        164.733,
+        115.907,
+        108.807,
+        104.131,
+        104.731
+      ],
+      "lap_positions": [
+        10,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Pablo Clavel",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 85.82,
+      "lap_times_url": null,
+      "laps": [
+        144.184,
+        87.266,
+        105.119,
+        86.751,
+        85.82,
+        86.45,
+        86.109
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Richard Mel-Bo...",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 91.494,
+      "lap_times_url": null,
+      "laps": [
+        152.741,
+        100.869,
+        94.793,
+        93.477,
+        91.494,
+        95.294
+      ],
+      "lap_positions": [
+        4,
+        9,
+        8,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81452"
+}

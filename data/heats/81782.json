@@ -1,0 +1,114 @@
+{
+  "heat_no": 81782,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-05T10:30:00",
+  "drivers": [
+    {
+      "name": "Max Baker",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.262,
+      "lap_times_url": null,
+      "laps": [
+        98.152,
+        82.352,
+        82.617,
+        82.123,
+        81.494,
+        81.403,
+        81.262,
+        82.162
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "lucas baker",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.437,
+      "lap_times_url": null,
+      "laps": [
+        96.563,
+        83.074,
+        82.492,
+        82.14,
+        81.458,
+        81.936,
+        81.437,
+        81.471
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Caleb Becker",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.576,
+      "lap_times_url": null,
+      "laps": [
+        103.701,
+        95.601,
+        89.976,
+        88.117,
+        88.633,
+        87.999,
+        87.576
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Zachary Hanken",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.954,
+      "lap_times_url": null,
+      "laps": [
+        97.564,
+        90.21,
+        81.317,
+        80.892,
+        80.098,
+        80.211,
+        79.954,
+        80.055
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81782"
+}

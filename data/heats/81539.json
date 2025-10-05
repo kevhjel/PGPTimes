@@ -1,0 +1,58 @@
+{
+  "heat_no": 81539,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-28T09:45:00",
+  "drivers": [
+    {
+      "name": "Calvin Stremel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.016,
+      "lap_times_url": null,
+      "laps": [
+        94.607,
+        90.182,
+        87.891,
+        87.178,
+        87.868,
+        88.392,
+        87.016
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jed Stremel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.182,
+      "lap_times_url": null,
+      "laps": [
+        94.2,
+        88.971,
+        91.151,
+        87.237,
+        87.864,
+        87.827,
+        87.182
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81539"
+}

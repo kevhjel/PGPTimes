@@ -1,0 +1,137 @@
+{
+  "heat_no": 81784,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-05T11:00:00",
+  "drivers": [
+    {
+      "name": "Max Baker",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.951,
+      "lap_times_url": null,
+      "laps": [
+        111.402,
+        82.66,
+        81.281,
+        81.114,
+        81.383,
+        81.196,
+        80.951,
+        81.124
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "lucas baker",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.207,
+      "lap_times_url": null,
+      "laps": [
+        109.601,
+        82.151,
+        81.338,
+        81.207,
+        81.315,
+        82.681,
+        90.817,
+        81.432
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Caleb Becker",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 83.932,
+      "lap_times_url": null,
+      "laps": [
+        106.85,
+        85.423,
+        85.653,
+        85.529,
+        85.135,
+        85.65,
+        83.932
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Eric Gustavson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 100.164,
+      "lap_times_url": null,
+      "laps": [
+        124.933,
+        102.981,
+        102.674,
+        104.904,
+        105.831,
+        100.164
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Zachary Hanken",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.136,
+      "lap_times_url": null,
+      "laps": [
+        105.081,
+        82.818,
+        81.359,
+        81.216,
+        81.49,
+        81.183,
+        81.295,
+        81.136
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81784"
+}

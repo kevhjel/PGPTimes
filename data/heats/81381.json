@@ -1,0 +1,98 @@
+{
+  "heat_no": 81381,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-22T14:00:00",
+  "drivers": [
+    {
+      "name": "Joshua Porter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.779,
+      "lap_times_url": null,
+      "laps": [
+        134.987,
+        87.732,
+        86.779,
+        87.572,
+        90.455,
+        90.033,
+        88.519
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Malaki Williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.26,
+      "lap_times_url": null,
+      "laps": [
+        157.823,
+        104.987,
+        98.127,
+        98.115,
+        97.444,
+        97.26
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aliiah Starr",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.231,
+      "lap_times_url": null,
+      "laps": [
+        157.141,
+        119.409,
+        110.536,
+        101.231,
+        102.892
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jason Starr",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 105.967,
+      "lap_times_url": null,
+      "laps": [
+        154.831,
+        115.981,
+        114.315,
+        111.222,
+        105.967
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81381"
+}

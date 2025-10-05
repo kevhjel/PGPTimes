@@ -1,0 +1,46 @@
+{
+  "heat_no": 81527,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-27T09:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.12,
+      "lap_times_url": null,
+      "laps": [
+        83.717,
+        83.296,
+        83.689,
+        83.12
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Yonke",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 102.511,
+      "lap_times_url": null,
+      "laps": [
+        105.183,
+        104.497,
+        102.511,
+        103.458
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81527"
+}

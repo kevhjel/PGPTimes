@@ -1,0 +1,175 @@
+{
+  "heat_no": 81578,
+  "heat_type": "Group Event Qualifying",
+  "start_time_iso": "2025-08-29T13:30:00",
+  "drivers": [
+    {
+      "name": "Victor Wang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.261,
+      "lap_times_url": null,
+      "laps": [
+        120.124,
+        92.902,
+        96.234,
+        93.5,
+        93.901,
+        92.261,
+        99.821
+      ],
+      "lap_positions": [
+        4,
+        1,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Adam DEnsman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.915,
+      "lap_times_url": null,
+      "laps": [
+        118.424,
+        99.984,
+        89.329,
+        97.702,
+        91.188,
+        89.121,
+        88.915
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Benjamin Prins",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 92.5,
+      "lap_times_url": null,
+      "laps": [
+        118.422,
+        101.626,
+        92.5,
+        100.024,
+        95.283,
+        193.487
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "Henderson Mach",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 116.384,
+      "lap_times_url": null,
+      "laps": [
+        155.42,
+        118.747,
+        119.776,
+        129.089,
+        116.384
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Charles Walters",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 98.033,
+      "lap_times_url": null,
+      "laps": [
+        123.856,
+        102.142,
+        98.033,
+        98.044,
+        99.753,
+        106.693
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "James Erickson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.015,
+      "lap_times_url": null,
+      "laps": [
+        126.483,
+        104.366,
+        91.978,
+        90.744,
+        90.663,
+        101.811,
+        90.015
+      ],
+      "lap_positions": [
+        6,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cameron Feaster",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.144,
+      "lap_times_url": null,
+      "laps": [
+        116.445,
+        99.387,
+        92.64,
+        96.313,
+        94.269,
+        91.144,
+        91.478
+      ],
+      "lap_positions": [
+        1,
+        2,
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81578"
+}

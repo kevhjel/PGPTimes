@@ -1,0 +1,85 @@
+{
+  "heat_no": 81548,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-28T12:45:00",
+  "drivers": [
+    {
+      "name": "John Gessner",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.497,
+      "lap_times_url": null,
+      "laps": [
+        114.854,
+        83.032,
+        82.2,
+        81.497,
+        81.719,
+        81.8,
+        81.759,
+        81.724
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gabe Salvador",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.696,
+      "lap_times_url": null,
+      "laps": [
+        116.035,
+        86.105,
+        86.163,
+        84.696,
+        86.432,
+        88.632,
+        86.917
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Austin Clay",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.56,
+      "lap_times_url": null,
+      "laps": [
+        115.696,
+        85.56,
+        85.986,
+        85.986,
+        86.832,
+        87.257,
+        88.364
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81548"
+}

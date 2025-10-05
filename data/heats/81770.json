@@ -1,0 +1,35 @@
+{
+  "heat_no": 81770,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-04T14:00:00",
+  "drivers": [
+    {
+      "name": "Johnny Guo",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.276,
+      "lap_times_url": null,
+      "laps": [
+        89.637,
+        86.56,
+        87.619,
+        86.905,
+        87.048,
+        86.701,
+        86.276,
+        86.427
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81770"
+}

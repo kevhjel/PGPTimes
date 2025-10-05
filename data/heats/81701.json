@@ -1,0 +1,62 @@
+{
+  "heat_no": 81701,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T13:30:00",
+  "drivers": [
+    {
+      "name": "Micah Salkind",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.409,
+      "lap_times_url": null,
+      "laps": [
+        87.388,
+        83.561,
+        82.847,
+        83.015,
+        82.409,
+        82.434,
+        82.784,
+        82.426
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.762,
+      "lap_times_url": null,
+      "laps": [
+        88.345,
+        83.784,
+        83.79,
+        83.577,
+        83.529,
+        83.389,
+        82.762,
+        83.153
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81701"
+}

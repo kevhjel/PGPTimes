@@ -1,0 +1,85 @@
+{
+  "heat_no": 81689,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-09-03T10:00:00",
+  "drivers": [
+    {
+      "name": "Jonathan Norwood",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.912,
+      "lap_times_url": null,
+      "laps": [
+        109.512,
+        87.037,
+        83.867,
+        85.738,
+        83.673,
+        82.912,
+        83.182,
+        83.648
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Preston Suster...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.555,
+      "lap_times_url": null,
+      "laps": [
+        109.883,
+        95.012,
+        84.008,
+        85.594,
+        84.194,
+        84.175,
+        82.555,
+        83.146
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ron Delamarter",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 98.629,
+      "lap_times_url": null,
+      "laps": [
+        126.575,
+        142.2,
+        106.908,
+        101.109,
+        98.741,
+        98.629
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81689"
+}

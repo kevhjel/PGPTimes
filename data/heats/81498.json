@@ -1,0 +1,79 @@
+{
+  "heat_no": 81498,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-27T13:00:00",
+  "drivers": [
+    {
+      "name": "Micah Salkind",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.429,
+      "lap_times_url": null,
+      "laps": [
+        111.985,
+        85.17,
+        84.075,
+        84.431,
+        83.856,
+        83.429,
+        83.976,
+        83.557
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ranit Bhamra",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 149.982,
+      "lap_times_url": null,
+      "laps": [
+        192.758,
+        160.232,
+        149.982,
+        150.58
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Bobby Bhamra",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.873,
+      "lap_times_url": null,
+      "laps": [
+        111.532,
+        93.832,
+        93.464,
+        91.372,
+        91.248,
+        90.873,
+        99.017
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81498"
+}

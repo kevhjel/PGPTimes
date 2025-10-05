@@ -1,0 +1,110 @@
+{
+  "heat_no": 81501,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-27T13:45:00",
+  "drivers": [
+    {
+      "name": "monroe jordan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.258,
+      "lap_times_url": null,
+      "laps": [
+        112.716,
+        81.863,
+        81.663,
+        81.258,
+        81.433,
+        81.495,
+        81.96,
+        81.687
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jeremy Bolstad",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.246,
+      "lap_times_url": null,
+      "laps": [
+        110.47,
+        81.631,
+        82.969,
+        81.118,
+        80.719,
+        80.449,
+        80.387,
+        80.246
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Riley Van Winkle",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.929,
+      "lap_times_url": null,
+      "laps": [
+        113.93,
+        90.005,
+        87.526,
+        86.911,
+        85.929,
+        86.565,
+        87.209
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.502,
+      "lap_times_url": null,
+      "laps": [
+        122.714,
+        114.531,
+        99.647,
+        97.697,
+        99.159,
+        95.502
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81501"
+}

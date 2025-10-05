@@ -1,0 +1,54 @@
+{
+  "heat_no": 81502,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-27T14:00:00",
+  "drivers": [
+    {
+      "name": "Colleen Hood",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.954,
+      "lap_times_url": null,
+      "laps": [
+        122.977,
+        105.517,
+        97.761,
+        102.221,
+        99.608,
+        94.954
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Damon Wallace",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.255,
+      "lap_times_url": null,
+      "laps": [
+        119.684,
+        116.583,
+        93.005,
+        98.316,
+        94.498,
+        92.255
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81502"
+}

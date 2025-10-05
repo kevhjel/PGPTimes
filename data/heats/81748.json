@@ -1,0 +1,31 @@
+{
+  "heat_no": 81748,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-04T09:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.777,
+      "lap_times_url": null,
+      "laps": [
+        86.051,
+        85.852,
+        84.993,
+        84.857,
+        84.607,
+        83.777
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81748"
+}

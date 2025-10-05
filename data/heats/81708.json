@@ -1,0 +1,71 @@
+{
+  "heat_no": 81708,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T16:00:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.807,
+      "lap_times_url": null,
+      "laps": [
+        142.561,
+        80.942,
+        81.348,
+        80.809,
+        80.97,
+        80.807,
+        81.937
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Amangeldi Iman...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.367,
+      "lap_times_url": null,
+      "laps": [
+        172.346,
+        114.367,
+        119.945,
+        116.82,
+        125.259
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Adele O",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 152.072,
+      "lap_times_url": null,
+      "laps": [
+        160.011,
+        163.547,
+        152.072
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81708"
+}

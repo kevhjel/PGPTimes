@@ -1,0 +1,108 @@
+{
+  "heat_no": 81700,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T13:15:00",
+  "drivers": [
+    {
+      "name": "Peter Blexrud",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.451,
+      "lap_times_url": null,
+      "laps": [
+        101.513,
+        83.101,
+        84.169,
+        83.656,
+        82.724,
+        82.634,
+        82.451,
+        82.529
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Hunter Holeman...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.056,
+      "lap_times_url": null,
+      "laps": [
+        102.756,
+        86.39,
+        86.056,
+        86.408,
+        86.16,
+        88.588,
+        86.753
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Steven Croteau",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.988,
+      "lap_times_url": null,
+      "laps": [
+        103.196,
+        86.619,
+        85.988,
+        88.477,
+        86.63,
+        90.001,
+        86.813
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sarah Devoll",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 103.856,
+      "lap_times_url": null,
+      "laps": [
+        118.62,
+        108.056,
+        107.727,
+        106.516,
+        104.311,
+        103.856
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81700"
+}

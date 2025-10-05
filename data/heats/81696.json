@@ -1,0 +1,104 @@
+{
+  "heat_no": 81696,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-09-03T12:15:00",
+  "drivers": [
+    {
+      "name": "Peter Blexrud",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.049,
+      "lap_times_url": null,
+      "laps": [
+        110.794,
+        84.165,
+        83.456,
+        83.679,
+        83.175,
+        83.049,
+        83.33
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nils Maetzel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.193,
+      "lap_times_url": null,
+      "laps": [
+        116.047,
+        88.587,
+        88.043,
+        86.193,
+        90.627,
+        87.544,
+        88.883
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "RENATA TORELLI",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 114.133,
+      "lap_times_url": null,
+      "laps": [
+        135.31,
+        114.133,
+        114.385,
+        114.349,
+        114.265
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Haakon Ersvik",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.722,
+      "lap_times_url": null,
+      "laps": [
+        118.55,
+        92.453,
+        91.908,
+        90.603,
+        90.106,
+        91.421,
+        88.722
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81696"
+}

@@ -1,0 +1,50 @@
+{
+  "heat_no": 81496,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-08-27T12:30:00",
+  "drivers": [
+    {
+      "name": "Mark Tyler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 102.561,
+      "lap_times_url": null,
+      "laps": [
+        127.859,
+        102.561,
+        106.077,
+        120.145,
+        105.048,
+        103.959
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lisa Hageselle",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 154.661,
+      "lap_times_url": null,
+      "laps": [
+        174.049,
+        154.661,
+        158.204,
+        158.768
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81496"
+}

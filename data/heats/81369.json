@@ -1,0 +1,79 @@
+{
+  "heat_no": 81369,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-08-22T09:30:00",
+  "drivers": [
+    {
+      "name": "Mike Smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 90.187,
+      "lap_times_url": null,
+      "laps": [
+        126.698,
+        101.972,
+        95.828,
+        92.184,
+        92.544,
+        91.952,
+        90.187
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cooper Smith",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.316,
+      "lap_times_url": null,
+      "laps": [
+        131.392,
+        110.279,
+        97.609,
+        95.031,
+        97.281,
+        93.316
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Noah Hamilton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.081,
+      "lap_times_url": null,
+      "laps": [
+        131.332,
+        95.206,
+        95.829,
+        100.165,
+        104.943,
+        94.081
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81369"
+}

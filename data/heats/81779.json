@@ -1,0 +1,114 @@
+{
+  "heat_no": 81779,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-09-05T09:45:00",
+  "drivers": [
+    {
+      "name": "Steve Anton",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.748,
+      "lap_times_url": null,
+      "laps": [
+        106.517,
+        84.625,
+        82.052,
+        81.94,
+        84.026,
+        81.901,
+        81.604,
+        80.748
+      ],
+      "lap_positions": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tate Mandel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.912,
+      "lap_times_url": null,
+      "laps": [
+        100.49,
+        84.43,
+        83.096,
+        82.902,
+        82.894,
+        82.456,
+        82.361,
+        81.912
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Easton Mellick",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.038,
+      "lap_times_url": null,
+      "laps": [
+        100.674,
+        82.688,
+        83.51,
+        83.515,
+        82.212,
+        83.068,
+        83.036,
+        82.038
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Tyson Tepes",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.392,
+      "lap_times_url": null,
+      "laps": [
+        100.331,
+        86.933,
+        87.876,
+        87.49,
+        87.242,
+        87.061,
+        86.392
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81779"
+}

@@ -1,0 +1,56 @@
+{
+  "heat_no": 81519,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-27T19:00:00",
+  "drivers": [
+    {
+      "name": "Nikolas Reierson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.9,
+      "lap_times_url": null,
+      "laps": [
+        139.649,
+        101.845,
+        90.744,
+        90.645,
+        90.405,
+        89.848,
+        88.9
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "alexa steffens",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.05,
+      "lap_times_url": null,
+      "laps": [
+        150.349,
+        100.191,
+        98.38,
+        96.945,
+        97.284,
+        95.05
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81519"
+}

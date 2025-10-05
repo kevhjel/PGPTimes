@@ -1,0 +1,58 @@
+{
+  "heat_no": 81342,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-21T09:15:00",
+  "drivers": [
+    {
+      "name": "Alexander West",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.557,
+      "lap_times_url": null,
+      "laps": [
+        122.852,
+        86.474,
+        84.921,
+        83.525,
+        83.622,
+        83.334,
+        82.557
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Keaton West",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.593,
+      "lap_times_url": null,
+      "laps": [
+        131.019,
+        90.469,
+        88.708,
+        89.243,
+        87.927,
+        87.783,
+        87.593
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81342"
+}

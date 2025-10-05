@@ -1,0 +1,33 @@
+{
+  "heat_no": 81399,
+  "heat_type": "Arrive and Drive-12 Karts",
+  "start_time_iso": "2025-08-22T18:45:00",
+  "drivers": [
+    {
+      "name": "Joshua Beal",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.555,
+      "lap_times_url": null,
+      "laps": [
+        120.595,
+        92.926,
+        91.347,
+        89.49,
+        89.498,
+        88.555,
+        89.359
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=81399"
+}
