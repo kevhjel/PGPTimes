@@ -79,33 +79,58 @@ window.renderHeat = async function(heatNo) {
   el.appendChild(table);
 };
 
+// ---- Driver Watchlist with live filter ----
 window.renderWatchlist = async function() {
   const container = document.getElementById("drivers");
   container.innerHTML = "";
-  const watch = await loadWatchlist();
-  const idx = await loadDriverIndex();
+
+  // Load data
+  const [watch, idx] = await Promise.all([loadWatchlist(), loadDriverIndex()]);
   const drivers = idx.drivers || {};
-  if (!watch.length) {
-    container.innerHTML = `<div class="card small">No drivers in watchlist yet.</div>`;
+
+  // Wire the filter input once
+  const filterEl = document.getElementById("filterInput");
+  if (filterEl && !filterEl._wired) {
+    filterEl.addEventListener("input", () => {
+      // Re-render on each keystroke
+      window.renderWatchlist();
+    });
+    filterEl._wired = true;
+  }
+
+  // Filter names by “contains” (case-insensitive)
+  const q = (filterEl?.value || "").trim().toLowerCase();
+  const names = Array.isArray(watch) ? watch.filter(n => !q || (n || "").toLowerCase().includes(q)) : [];
+
+  if (!names.length) {
+    const msg = Array.isArray(watch) && watch.length
+      ? `No drivers match "${q}".`
+      : "No drivers in watchlist yet.";
+    container.innerHTML = `<div class="card small">${msg}</div>`;
     return;
   }
-  watch.forEach(name => {
+
+  // Render each driver card
+  names.forEach(name => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `<div class="row" style="justify-content: space-between;">
       <div><strong><a href="./driver_charts.html#${encodeURIComponent(name)}">${name}</a></strong></div>
     </div>`;
+
     const list = drivers[name] || [];
     if (!list.length) {
       card.innerHTML += `<div class="small">No entries scraped yet.</div>`;
       container.appendChild(card);
       return;
     }
+
     const t = document.createElement("table");
     t.innerHTML = `<thead><tr>
       <th>Heat</th><th>Type</th><th>Pos</th><th>Kart</th><th>Best Lap</th><th># Laps</th><th>Start</th>
     </tr></thead><tbody></tbody>`;
     const tb = t.querySelector("tbody");
+
     list.forEach(e => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
@@ -119,6 +144,7 @@ window.renderWatchlist = async function() {
       `;
       tb.appendChild(tr);
     });
+
     card.appendChild(t);
     container.appendChild(card);
   });
