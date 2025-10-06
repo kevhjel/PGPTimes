@@ -53,7 +53,7 @@
           <th>Heat</th>
           <th>Type</th>
           <th>When</th>
-          <th>Laps in Heat</th>
+          <th>Total Laps</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -203,7 +203,20 @@ function buildRowsFor(typeFilter, nameQuery) {
   const rows = [];
   for (const name of names) {
     const series = G.byName[name] || [];
+  
+    // apply the same heat type filter used for "best"
+    const filteredSeries = (typeFilter && typeFilter !== "All")
+      ? series.filter(e => (e.heat_type || "").toLowerCase().includes(typeFilter.toLowerCase()))
+      : series;
+  
+    // total laps across all filtered heats
+    const totalLaps = filteredSeries.reduce((sum, e) => {
+      const n = Array.isArray(e.laps) ? e.laps.length : 0;
+      return sum + n;
+    }, 0);
+  
     const best = bestEntryForDriver(series, typeFilter);
+  
     if (best && typeof best.fastest_lap_seconds === "number") {
       rows.push({
         name,
@@ -211,10 +224,10 @@ function buildRowsFor(typeFilter, nameQuery) {
         heat_no: best.heat_no ?? "",
         heat_type: best.heat_type ?? "",
         when: best.start_time_iso ?? "",
-        laps_count: Array.isArray(best.laps) ? best.laps.length : (best.best_lap_seconds != null ? "—" : "")
+        laps_count: totalLaps || ""  // <-- total laps, not laps from best heat
       });
     } else {
-      rows.push({ name, fastest: null, heat_no: "", heat_type: "", when: "", laps_count: "" });
+      rows.push({ name, fastest: null, heat_no: "", heat_type: "", when: "", laps_count: totalLaps || "" });
     }
   }
 
