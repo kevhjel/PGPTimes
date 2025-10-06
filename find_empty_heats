@@ -1,0 +1,20 @@
+import os, json
+
+heats_dir = os.path.join("data", "heats")
+empty = []
+
+for fname in os.listdir(heats_dir):
+    if not fname.endswith(".json"):
+        continue
+    path = os.path.join(heats_dir, fname)
+    try:
+        obj = json.load(open(path, "r", encoding="utf-8"))
+    except Exception:
+        empty.append(fname)
+        continue
+    drivers = obj.get("drivers")
+    if not drivers or not isinstance(drivers, list) or len(drivers) == 0:
+        empty.append(fname)
+
+print("Empty heats:", empty)
+print("Count:", len(empty))
