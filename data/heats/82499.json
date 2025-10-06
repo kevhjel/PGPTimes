@@ -1,0 +1,54 @@
+{
+  "heat_no": 82499,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-05T17:15:00",
+  "drivers": [
+    {
+      "name": "Danylo Karazhov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.863,
+      "lap_times_url": null,
+      "laps": [
+        130.788,
+        86.863,
+        86.984,
+        105.967,
+        87.955,
+        107.57,
+        88.848
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Diana Yevchuk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.352,
+      "lap_times_url": null,
+      "laps": [
+        173.925,
+        127.509,
+        101.299,
+        103.574,
+        100.352
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82499"
+}
