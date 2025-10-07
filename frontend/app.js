@@ -9,6 +9,133 @@ function secondsToClock(s) {
   return `${parseFloat(s).toFixed(3)} s`;
 }
 
+
+// ---------- GAP CHART HELPERS ----------
+let GAP_CHART = null;
+
+function niceSeconds(s) {
+  if (s == null || isNaN(s)) return "";
+  return Number(s).toFixed(3) + " s";
+}
+function colorForIndex(i) {
+  const palette = [
+    "#36A2EB","#FF6384","#4BC0C0","#FF9F40","#9966FF",
+    "#FFCD56","#2ecc71","#e67e22","#1abc9c","#c0392b",
+    "#8e44ad","#16a085","#2c3e50","#d35400","#7f8c8d"
+  ];
+  return palette[i % palette.length];
+}
+
+// Build gap-from-leader series from a heat doc
+function buildGapSeriesFromHeat(heat) {
+  const drivers = Array.isArray(heat.drivers) ? heat.drivers.slice() : [];
+  const series = drivers
+    .filter(d => Array.isArray(d.laps) && d.laps.length > 0 && typeof d.name === "string")
+    .map(d => {
+      const cum = [];
+      let sum = 0;
+      for (const t of d.laps) {
+        const v = Number(t);
+        if (!isNaN(v)) sum += v;
+        cum.push(sum);
+      }
+      return { name: d.name, cumulative: cum };
+    });
+
+  if (!series.length) return { labels: [], datasets: [] };
+
+  const maxLaps = Math.max(...series.map(s => s.cumulative.length));
+  const labels = Array.from({length: maxLaps}, (_,i) => i+1);
+
+  const leaderCum = labels.map((_, i) => {
+    let minVal = Infinity;
+    for (const s of series) {
+      if (s.cumulative.length > i) {
+        const val = s.cumulative[i];
+        if (val < minVal) minVal = val;
+      }
+    }
+    return isFinite(minVal) ? minVal : null;
+  });
+
+  const datasets = series.map((s, idx) => {
+    const data = s.cumulative.map((v, i) => {
+      const base = leaderCum[i];
+      return (base == null) ? null : v - base;
+    });
+    return {
+      label: s.name,
+      data,
+      borderColor: colorForIndex(idx),
+      backgroundColor: colorForIndex(idx),
+      showLine: true,
+      type: "line",
+      pointRadius: 0,
+      borderWidth: 2,
+      tension: 0.15,
+      spanGaps: true
+    };
+  });
+
+  return { labels, datasets };
+}
+
+function renderGapChartInto(containerEl, heat) {
+  // create (or reuse) a card with canvas
+  let card = document.getElementById("gapChartCard");
+  if (!card) {
+    card = document.createElement("div");
+    card.className = "card";
+    card.id = "gapChartCard";
+    card.innerHTML = `
+      <div class="row" style="justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+        <div><strong>Gap from Leader by Lap</strong> 
+          <span id="gapChartSubtitle" class="small mono"></span>
+        </div>
+      </div>
+      <canvas id="gapChart" height="140"></canvas>
+    `;
+    // Insert the chart card just after the header row the page renders
+    containerEl.appendChild(card);
+  }
+
+  const ctx = document.getElementById("gapChart").getContext("2d");
+  const { labels, datasets } = buildGapSeriesFromHeat(heat);
+
+  if (GAP_CHART) GAP_CHART.destroy();
+  GAP_CHART = new Chart(ctx, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      scales: {
+        x: { title: { display: true, text: "Lap Index" }, ticks: { autoSkip: true } },
+        y: { title: { display: true, text: "Gap from Leader (s)" } }
+      },
+      plugins: {
+        legend: { display: true },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              const name = ctx.dataset?.label || "";
+              const val = ctx.parsed?.y;
+              return `${name}: ${niceSeconds(val)}`;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  const sub = document.getElementById("gapChartSubtitle");
+  if (sub) {
+    const tt = heat.heat_type || "";
+    const ts = heat.start_time_iso || "";
+    sub.textContent = ts ? `• ${tt} • ${ts}` : tt;
+  }
+}
+
+
 async function loadSummary() {
   try {
     return await jget("../data/summary.json");
