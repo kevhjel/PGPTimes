@@ -186,6 +186,8 @@ window.renderHeat = async function(heatNo) {
     <div class="small"><a href="${doc.source_url}" target="_blank">Open on site</a></div>`;
   el.appendChild(head);
 
+   renderGapChartInto(el, doc);
+  
   const table = document.createElement("table");
   table.innerHTML = `<thead><tr>
     <th>Pos</th><th>Driver</th><th>Kart</th><th>Best</th><th>Laps</th>
