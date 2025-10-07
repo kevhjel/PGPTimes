@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Endurance Races</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<header>
+  <h1>Endurance Races</h1>
+</header>
+<main>
+  <div class="card">
+    <div class="row" style="gap:8px; flex-wrap:wrap;">
+      <a class="badge" href="./index.html">← Heats Browser</a>
+      <a class="badge" href="./drivers_leaderboard.html">Leaderboard →</a>
+      <a class="badge" href="./drivers.html">Watchlist →</a>
+    </div>
+    <div class="small" id="status" style="margin-top:6px;">Loading…</div>
+  </div>
+
+  <div class="card">
+    <table id="enduranceTable">
+      <thead>
+        <tr>
+          <th>Race</th>
+          <th>First</th>
+          <th>Second</th>
+          <th>Third</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="notice" class="small"></div>
+</main>
+
+<script>
+/* ------------ helpers: robust fetch (Pages + local) ------------ */
+async function jgetCandidates(paths) {
+  let lastErr;
+  for (const p of paths) {
+    try {
+      const r = await fetch(p, { cache: "no-store" });
+      if (r.ok) return r.json();
+      lastErr = new Error(`${p} -> HTTP ${r.status}`);
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr ?? new Error("Failed fetching " + paths.join(" | "));
+}
+function loadSummary() {
+  return jgetCandidates(["/PGPTimes/data/summary.json","../data/summary.json","./data/summary.json"]);
+}
+function loadManifest() {
+  return jgetCandidates(["/PGPTimes/data/manifest.json","../data/manifest.json","./data/manifest.json"]);
+}
+function loadHeat(n) {
+  const p = String(n) + ".json";
+  return jgetCandidates([
+    "/PGPTimes/data/heats/" + p,
+    "../data/heats/" + p,
+    "./data/heats/" + p
+  ]);
+}
+
+/* ------------ domain helpers ------------ */
+function isEndurance(heatType) {
+  return (heatType || "").toLowerCase().includes("endurance");
+}
+function podiumFromDrivers(drivers) {
+  // choose by numeric position ascending; ignore missing/NaN positions
+  const arr = (drivers || []).filter(d => typeof d.position === "number");
+  arr.sort((a,b) => a.position - b.position);
+  return [arr[0]?.name || "", arr[1]?.name || "", arr[2]?.name || ""];
+}
+
+/* ------------ render ------------ */
+function renderRows(rows) {
+  const tbody = document.querySelector("#enduranceTable tbody");
+  tbody.innerHTML = "";
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><a href="./index.html#${r.heat_no}">${r.heat_no}</a></td>
+      <td>${r.first || ""}</td>
+      <td>${r.second || ""}</td>
+      <td>${r.third || ""}</td>
+    `;
+    tbody.appendChild(tr);
+  }
+}
+
+/* ------------ main load ------------ */
+(async () => {
+  const status = document.getElementById("status");
+  const notice = document.getElementById("notice");
+
+  status.textContent = "Loading manifest…";
+  let heatNos = null;
+
+  // Try manifest first (fast); otherwise fall back to scanning by range
+  try {
+    const manifest = await loadManifest();
+    if (manifest && Array.isArray(manifest.heats)) {
+      heatNos = manifest.heats.slice(); // array of heat numbers
+    }
+  } catch { /* ignore; we'll fall back */ }
+
+  if (!heatNos) {
+    status.textContent = "Manifest not found. Loading summary…";
+    let startNo = 75533; // safe default
+    let maxNo = null;
+    try {
+      const s = await loadSummary();
+      if (typeof s.max_heat_no === "number") maxNo = s.max_heat_no;
+      if (typeof s.min_heat_no === "number") startNo = s.min_heat_no;
+    } catch { /* ignore */ }
+    if (maxNo == null) {
+      notice.textContent = "Could not determine heat range (no manifest/summary).";
+      status.textContent = "Failed.";
+      return;
+    }
+    // Build a descending scan list. Cap to avoid excessive fetches.
+    const CAP = 3000; // adjust if needed
+    const size = Math.min(CAP, maxNo - startNo + 1);
+    heatNos = Array.from({length: size}, (_,i) => maxNo - i);
+  }
+
+  status.textContent = "Fetching endurance heats…";
+  const rows = [];
+  // Fetch sequentially to be gentle; change to batching if you prefer
+  for (const hn of heatNos) {
+    try {
+      const h = await loadHeat(hn);
+      if (!h || !isEndurance(h.heat_type)) continue;
+      const drivers = Array.isArray(h.drivers) ? h.drivers : [];
+      if (!drivers.length) continue;
+      const [first, second, third] = podiumFromDrivers(drivers);
+      rows.push({
+        heat_no: h.heat_no || hn,
+        start_time_iso: h.start_time_iso || "",
+        first, second, third
+      });
+    } catch {
+      /* missing file; skip */
+    }
+  }
+
+  // Sort by time desc (fallback to heat_no desc)
+  rows.sort((a,b) => {
+    const ta = a.start_time_iso || "", tb = b.start_time_iso || "";
+    if (ta && tb && ta !== tb) return tb.localeCompare(ta);
+    return (b.heat_no || 0) - (a.heat_no || 0);
+  });
+
+  renderRows(rows);
+  status.textContent = `Loaded ${rows.length} endurance race(s).`;
+})();
+</script>
+
+<style>
+/* optional: make links look like normal text with underline on hover */
+table a { color: inherit; text-decoration: none; }
+table a:hover { text-decoration: underline; }
+</style>
+</body>
+</html>
