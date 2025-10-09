@@ -1,0 +1,58 @@
+{
+  "heat_no": 82520,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-08T16:30:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.166,
+      "lap_times_url": null,
+      "laps": [
+        81.498,
+        81.638,
+        80.191,
+        80.961,
+        81.85,
+        80.894,
+        80.166
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.788,
+      "lap_times_url": null,
+      "laps": [
+        81.744,
+        81.96,
+        80.081,
+        80.575,
+        81.621,
+        79.788,
+        79.959
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82520"
+}

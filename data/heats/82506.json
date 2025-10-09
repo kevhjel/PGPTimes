@@ -1,0 +1,77 @@
+{
+  "heat_no": 82506,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-08T13:00:00",
+  "drivers": [
+    {
+      "name": "Alan WU",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.119,
+      "lap_times_url": null,
+      "laps": [
+        117.127,
+        88.119,
+        89.09,
+        88.455,
+        93.19,
+        98.438,
+        89.997
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Virgil Moisii",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.722,
+      "lap_times_url": null,
+      "laps": [
+        122.005,
+        99.71,
+        97.992,
+        96.056,
+        95.661,
+        94.722
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cody Frarey",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.776,
+      "lap_times_url": null,
+      "laps": [
+        131.249,
+        113.776,
+        117.636,
+        114.48,
+        115.872
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82506"
+}

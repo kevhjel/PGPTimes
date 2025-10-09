@@ -1,0 +1,114 @@
+{
+  "heat_no": 82528,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-08T16:00:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 79.581,
+      "lap_times_url": null,
+      "laps": [
+        97.048,
+        81.566,
+        80.138,
+        80.557,
+        80.334,
+        81.051,
+        79.581,
+        80.502
+      ],
+      "lap_positions": [
+        1,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.503,
+      "lap_times_url": null,
+      "laps": [
+        97.306,
+        80.666,
+        80.931,
+        79.823,
+        80.687,
+        80.818,
+        79.503,
+        80.775
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mukhil Dhanase...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 79.882,
+      "lap_times_url": null,
+      "laps": [
+        97.221,
+        81.37,
+        80.774,
+        80.18,
+        80.358,
+        80.752,
+        79.882,
+        80.857
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "William Demarest",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 87.622,
+      "lap_times_url": null,
+      "laps": [
+        101.596,
+        88.36,
+        89.288,
+        88.318,
+        87.622,
+        87.796,
+        88.398
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82528"
+}

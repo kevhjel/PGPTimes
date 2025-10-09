@@ -1,0 +1,129 @@
+{
+  "heat_no": 82503,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-08T12:15:00",
+  "drivers": [
+    {
+      "name": "Miles McDaniel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.521,
+      "lap_times_url": null,
+      "laps": [
+        118.14,
+        83.608,
+        83.536,
+        84.107,
+        82.552,
+        82.521,
+        82.638,
+        82.758
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bret Dillion",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.524,
+      "lap_times_url": null,
+      "laps": [
+        122.727,
+        101.707,
+        89.206,
+        87.453,
+        87.998,
+        87.147,
+        86.524
+      ],
+      "lap_positions": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jake Emery",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.105,
+      "lap_times_url": null,
+      "laps": [
+        125.65,
+        97.288,
+        95.91,
+        95.869,
+        101.14,
+        94.105
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kevin Ford",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 97.122,
+      "lap_times_url": null,
+      "laps": [
+        135.313,
+        101.578,
+        99.564,
+        98.822,
+        97.748,
+        97.122
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Daniel Harrie",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 103.088,
+      "lap_times_url": null,
+      "laps": [
+        143.668,
+        116.665,
+        112.557,
+        107.409,
+        104.739,
+        103.088
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82503"
+}

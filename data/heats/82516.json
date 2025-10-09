@@ -1,0 +1,77 @@
+{
+  "heat_no": 82516,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-08T11:15:00",
+  "drivers": [
+    {
+      "name": "Nicholas Vrana",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.852,
+      "lap_times_url": null,
+      "laps": [
+        143.747,
+        91.403,
+        85.954,
+        85.595,
+        84.973,
+        87.411,
+        84.852
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Edward Sohn",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 109.656,
+      "lap_times_url": null,
+      "laps": [
+        153.651,
+        114.543,
+        112.291,
+        109.666,
+        109.656
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nathan Smith",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.14,
+      "lap_times_url": null,
+      "laps": [
+        136.313,
+        124.301,
+        107.053,
+        104.823,
+        105.867,
+        104.14
+      ],
+      "lap_positions": [
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82516"
+}
