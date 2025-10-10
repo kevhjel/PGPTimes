@@ -1,0 +1,35 @@
+{
+  "heat_no": 82540,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-09T11:45:00",
+  "drivers": [
+    {
+      "name": "John Gessner",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.255,
+      "lap_times_url": null,
+      "laps": [
+        90.923,
+        85.251,
+        84.319,
+        83.45,
+        82.897,
+        82.587,
+        82.255,
+        82.967
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82540"
+}

@@ -1,0 +1,56 @@
+{
+  "heat_no": 82565,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-09T15:00:00",
+  "drivers": [
+    {
+      "name": "IVAN YAOVLEV",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.012,
+      "lap_times_url": null,
+      "laps": [
+        123.316,
+        98.163,
+        96.288,
+        94.754,
+        93.012,
+        93.155,
+        95.628
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Egor Iakovlev",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.105,
+      "lap_times_url": null,
+      "laps": [
+        121.622,
+        96.364,
+        94.164,
+        104.53,
+        95.182,
+        94.105
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82565"
+}
