@@ -1,0 +1,62 @@
+{
+  "heat_no": 82585,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-10T13:45:00",
+  "drivers": [
+    {
+      "name": "Jose Valenzuela",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.658,
+      "lap_times_url": null,
+      "laps": [
+        89.789,
+        83.963,
+        83.276,
+        83.056,
+        83.332,
+        83.301,
+        83.004,
+        82.658
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mace Schram",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.249,
+      "lap_times_url": null,
+      "laps": [
+        88.938,
+        83.662,
+        82.249,
+        82.392,
+        82.687,
+        82.865,
+        82.643,
+        82.583
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82585"
+}
