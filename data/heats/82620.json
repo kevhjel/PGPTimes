@@ -1,0 +1,50 @@
+{
+  "heat_no": 82620,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-11T14:15:00",
+  "drivers": [
+    {
+      "name": "Jens Steinhagen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.091,
+      "lap_times_url": null,
+      "laps": [
+        132.16,
+        142.061,
+        125.296,
+        123.327,
+        109.091
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Lina Steinhagen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.562,
+      "lap_times_url": null,
+      "laps": [
+        135.202,
+        134.888,
+        121.428,
+        126.556,
+        109.562
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82620"
+}

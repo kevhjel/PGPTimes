@@ -1,0 +1,92 @@
+{
+  "heat_no": 82621,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-11T14:30:00",
+  "drivers": [
+    {
+      "name": "Brandon Marcus",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.719,
+      "lap_times_url": null,
+      "laps": [
+        153.37,
+        118.872,
+        110.564,
+        108.497,
+        106.719
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Dobm...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 107.326,
+      "lap_times_url": null,
+      "laps": [
+        149.961,
+        117.064,
+        111.642,
+        109.958,
+        107.326
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Abel Dawson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.145,
+      "lap_times_url": null,
+      "laps": [
+        156.913,
+        118.569,
+        129.911,
+        107.145,
+        134.57
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Rohan Chandy",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.527,
+      "lap_times_url": null,
+      "laps": [
+        163.129,
+        135.995,
+        126.716,
+        117.527,
+        126.202
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82621"
+}
