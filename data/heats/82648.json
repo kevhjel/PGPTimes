@@ -1,0 +1,88 @@
+{
+  "heat_no": 82648,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-12T11:45:00",
+  "drivers": [
+    {
+      "name": "Aaron Brown",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.455,
+      "lap_times_url": null,
+      "laps": [
+        146.727,
+        123.244,
+        117.397,
+        113.455,
+        114.376
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Elena Brown",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.007,
+      "lap_times_url": null,
+      "laps": [
+        147.739,
+        128.021,
+        128.415,
+        130.456,
+        123.007
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "ROWAN BROWN",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 141.463,
+      "lap_times_url": null,
+      "laps": [
+        178.672,
+        153.283,
+        141.463,
+        145.266
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Isabel Waier",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 138.78,
+      "lap_times_url": null,
+      "laps": [
+        179.025,
+        153.01,
+        142.587,
+        138.78
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82648"
+}

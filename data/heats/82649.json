@@ -1,0 +1,83 @@
+{
+  "heat_no": 82649,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-12T12:15:00",
+  "drivers": [
+    {
+      "name": "Richard Lewis",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 89.108,
+      "lap_times_url": null,
+      "laps": [
+        103.544,
+        90.553,
+        89.211,
+        89.108,
+        90.166,
+        90.739,
+        90.101
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Broderick Heid...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.584,
+      "lap_times_url": null,
+      "laps": [
+        101.358,
+        84.999,
+        83.584,
+        84.123,
+        93.502,
+        87.658,
+        84.369
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Matt Dors",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.018,
+      "lap_times_url": null,
+      "laps": [
+        107.296,
+        94.296,
+        92.281,
+        93.499,
+        94.587,
+        91.473,
+        91.018
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82649"
+}

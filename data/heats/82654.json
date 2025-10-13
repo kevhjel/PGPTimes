@@ -1,0 +1,58 @@
+{
+  "heat_no": 82654,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-12T13:45:00",
+  "drivers": [
+    {
+      "name": "daniel diaz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.525,
+      "lap_times_url": null,
+      "laps": [
+        110.435,
+        89.151,
+        90.636,
+        87.478,
+        89.08,
+        86.263,
+        85.525
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Daniel Diaz jr",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.506,
+      "lap_times_url": null,
+      "laps": [
+        109.473,
+        90.506,
+        90.597,
+        91.551,
+        91.721,
+        91.117,
+        94.149
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82654"
+}

@@ -1,0 +1,65 @@
+{
+  "heat_no": 82637,
+  "heat_type": "Event Session-Best Lap",
+  "start_time_iso": "2025-10-12T10:00:00",
+  "drivers": [
+    {
+      "name": "Sophia Miniken",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 160.931,
+      "lap_times_url": null,
+      "laps": [
+        172.958,
+        165.483,
+        164.738,
+        160.931
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stephen Siler",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 172.811,
+      "lap_times_url": null,
+      "laps": [
+        172.811,
+        195.226,
+        191.081
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Axel Anderson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 130.104,
+      "lap_times_url": null,
+      "laps": [
+        142.373,
+        138.779,
+        130.104,
+        144.849,
+        130.838
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82637"
+}
