@@ -1,0 +1,85 @@
+{
+  "heat_no": 82687,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-15T11:15:00",
+  "drivers": [
+    {
+      "name": "BALKATRAZ",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.595,
+      "lap_times_url": null,
+      "laps": [
+        120.804,
+        85.363,
+        83.52,
+        82.595,
+        83.121,
+        82.848,
+        82.737
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Garrett Kramer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.862,
+      "lap_times_url": null,
+      "laps": [
+        126.695,
+        87.659,
+        85.722,
+        86.114,
+        84.978,
+        84.436,
+        83.862
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jackson Parma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.767,
+      "lap_times_url": null,
+      "laps": [
+        120.323,
+        84.087,
+        82.716,
+        82.355,
+        82.009,
+        82.106,
+        81.767,
+        82.412
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82687"
+}

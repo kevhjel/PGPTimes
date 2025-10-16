@@ -1,0 +1,56 @@
+{
+  "heat_no": 82697,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-15T16:00:00",
+  "drivers": [
+    {
+      "name": "Ross Newsom Jr.",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.247,
+      "lap_times_url": null,
+      "laps": [
+        117.891,
+        84.668,
+        95.387,
+        84.291,
+        83.549,
+        83.247,
+        85.608
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Ambler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 98.348,
+      "lap_times_url": null,
+      "laps": [
+        121.261,
+        105.002,
+        104.51,
+        101.476,
+        102.052,
+        98.348
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82697"
+}

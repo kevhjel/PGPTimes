@@ -1,0 +1,58 @@
+{
+  "heat_no": 82691,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-15T13:00:00",
+  "drivers": [
+    {
+      "name": "Ian Fiedler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.861,
+      "lap_times_url": null,
+      "laps": [
+        120.366,
+        90.289,
+        84.731,
+        83.126,
+        83.473,
+        83.453,
+        82.861
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "BEN REYNOLDS",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.701,
+      "lap_times_url": null,
+      "laps": [
+        128.192,
+        95.357,
+        94.816,
+        92.695,
+        92.775,
+        92.3,
+        90.701
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82691"
+}

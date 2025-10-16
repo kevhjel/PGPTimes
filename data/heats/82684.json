@@ -1,0 +1,56 @@
+{
+  "heat_no": 82684,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-15T10:30:00",
+  "drivers": [
+    {
+      "name": "Talese Heckler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 104.713,
+      "lap_times_url": null,
+      "laps": [
+        115.821,
+        111.18,
+        108.362,
+        106.787,
+        105.513,
+        104.713
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Deitrick",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.303,
+      "lap_times_url": null,
+      "laps": [
+        102.773,
+        97.492,
+        97.267,
+        93.872,
+        92.648,
+        92.303,
+        100.14
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82684"
+}
