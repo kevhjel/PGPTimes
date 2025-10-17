@@ -1,0 +1,106 @@
+{
+  "heat_no": 82713,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T12:00:00",
+  "drivers": [
+    {
+      "name": "Dylan Stephenson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.918,
+      "lap_times_url": null,
+      "laps": [
+        130.404,
+        92.328,
+        90.356,
+        92.899,
+        89.62,
+        90.206,
+        88.918
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Anderson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.806,
+      "lap_times_url": null,
+      "laps": [
+        102.993,
+        88.525,
+        86.173,
+        87.247,
+        84.806,
+        98.15,
+        97.134
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Andre Ingram",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.805,
+      "lap_times_url": null,
+      "laps": [
+        110.932,
+        92.877,
+        91.79,
+        100.196,
+        90.805,
+        100.252,
+        91.11
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ebrima Khan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.7,
+      "lap_times_url": null,
+      "laps": [
+        106.742,
+        100.81,
+        97.862,
+        108.473,
+        92.7,
+        104.404
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82713"
+}

@@ -1,0 +1,58 @@
+{
+  "heat_no": 82720,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T13:45:00",
+  "drivers": [
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.76,
+      "lap_times_url": null,
+      "laps": [
+        119.952,
+        83.918,
+        93.99,
+        81.76,
+        83.616,
+        82.069,
+        81.885
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dave White",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.083,
+      "lap_times_url": null,
+      "laps": [
+        109.666,
+        88.793,
+        88.748,
+        87.083,
+        88.087,
+        88.143,
+        88.439
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82720"
+}

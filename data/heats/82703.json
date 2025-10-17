@@ -1,0 +1,54 @@
+{
+  "heat_no": 82703,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T09:30:00",
+  "drivers": [
+    {
+      "name": "Riley Smith",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.979,
+      "lap_times_url": null,
+      "laps": [
+        123.132,
+        97.979,
+        107.282,
+        98.475,
+        104.036,
+        105.234
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mike Smith",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.356,
+      "lap_times_url": null,
+      "laps": [
+        128.981,
+        109.655,
+        102.163,
+        94.356,
+        94.646,
+        104.815
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82703"
+}

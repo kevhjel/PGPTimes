@@ -1,0 +1,100 @@
+{
+  "heat_no": 82712,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T11:45:00",
+  "drivers": [
+    {
+      "name": "Philip Bergman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.169,
+      "lap_times_url": null,
+      "laps": [
+        131.742,
+        90.062,
+        97.681,
+        88.25,
+        87.169,
+        107.33,
+        89.549
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pat Mcclure",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 93.429,
+      "lap_times_url": null,
+      "laps": [
+        135.437,
+        94.069,
+        93.476,
+        93.518,
+        93.429,
+        108.365
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Nathaniel Berg...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.124,
+      "lap_times_url": null,
+      "laps": [
+        132.876,
+        93.025,
+        94.335,
+        90.924,
+        92.974,
+        91.365,
+        90.124
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "John Bryce",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 126.112,
+      "lap_times_url": null,
+      "laps": [
+        184.09,
+        149.328,
+        134.257,
+        126.112
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82712"
+}

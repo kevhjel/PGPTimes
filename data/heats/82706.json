@@ -1,0 +1,75 @@
+{
+  "heat_no": 82706,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T10:15:00",
+  "drivers": [
+    {
+      "name": "Philip Bergman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.958,
+      "lap_times_url": null,
+      "laps": [
+        196.72,
+        103.255,
+        98.392,
+        93.958,
+        96.147,
+        95.159
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nathaniel Berg...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.172,
+      "lap_times_url": null,
+      "laps": [
+        161.694,
+        101.306,
+        112.167,
+        100.911,
+        97.172,
+        106.696
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tara Bergman",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 138.767,
+      "lap_times_url": null,
+      "laps": [
+        176.338,
+        147.808,
+        145.29,
+        144.979,
+        138.767
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82706"
+}

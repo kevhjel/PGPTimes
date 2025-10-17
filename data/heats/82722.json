@@ -1,0 +1,58 @@
+{
+  "heat_no": 82722,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T14:15:00",
+  "drivers": [
+    {
+      "name": "Jack Bass",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.265,
+      "lap_times_url": null,
+      "laps": [
+        130.005,
+        86.105,
+        85.027,
+        85.626,
+        85.317,
+        84.265,
+        84.518
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dave White",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.571,
+      "lap_times_url": null,
+      "laps": [
+        120.554,
+        101.816,
+        91.822,
+        89.262,
+        89.343,
+        88.654,
+        87.571
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82722"
+}

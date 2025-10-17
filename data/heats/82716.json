@@ -1,0 +1,94 @@
+{
+  "heat_no": 82716,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-16T12:45:00",
+  "drivers": [
+    {
+      "name": "John Bryce",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.348,
+      "lap_times_url": null,
+      "laps": [
+        142.717,
+        109.291,
+        106.625,
+        109.499,
+        107.55,
+        104.348
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "CHANCE LAFLEY",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 107.816,
+      "lap_times_url": null,
+      "laps": [
+        146.051,
+        118.613,
+        111.899,
+        110.207,
+        107.816
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Justis Fritz",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.809,
+      "lap_times_url": null,
+      "laps": [
+        165.298,
+        132.746,
+        126.035,
+        124.748,
+        119.809
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Justin Berg",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 114.935,
+      "lap_times_url": null,
+      "laps": [
+        157.451,
+        130.23,
+        127.047,
+        118.908,
+        114.935
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82716"
+}
