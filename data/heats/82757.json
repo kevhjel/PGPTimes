@@ -1,0 +1,106 @@
+{
+  "heat_no": 82757,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-17T14:00:00",
+  "drivers": [
+    {
+      "name": "Myles Braxton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.303,
+      "lap_times_url": null,
+      "laps": [
+        118.594,
+        81.855,
+        81.932,
+        82.181,
+        81.536,
+        82.356,
+        81.303,
+        81.486
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Enzo Novak",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.989,
+      "lap_times_url": null,
+      "laps": [
+        118.651,
+        82.339,
+        81.6,
+        82.495,
+        80.989,
+        82.077,
+        81.224,
+        82.154
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Immanuel Hart",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 122.464,
+      "lap_times_url": null,
+      "laps": [
+        147.575,
+        123.055,
+        125.405,
+        136.961,
+        122.464
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Juan Reaves",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.891,
+      "lap_times_url": null,
+      "laps": [
+        126.937,
+        103.985,
+        106.215,
+        95.891,
+        121.117,
+        99.67
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82757"
+}

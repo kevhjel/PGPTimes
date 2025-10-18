@@ -1,0 +1,90 @@
+{
+  "heat_no": 82752,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-17T12:45:00",
+  "drivers": [
+    {
+      "name": "Alexander Sagi...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.887,
+      "lap_times_url": null,
+      "laps": [
+        216.361,
+        148.118,
+        95.818,
+        93.887,
+        133.131
+      ],
+      "lap_positions": [
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dasha Sagiyan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 145.375,
+      "lap_times_url": null,
+      "laps": [
+        220.146,
+        167.215,
+        155.816,
+        145.375
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Enzo Novak",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.391,
+      "lap_times_url": null,
+      "laps": [
+        102.714,
+        101.326,
+        97.084,
+        96.217,
+        94.391
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Graham Switzer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.672,
+      "lap_times_url": null,
+      "laps": [
+        178.796,
+        136.282,
+        124.982,
+        121.148,
+        119.672
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82752"
+}
