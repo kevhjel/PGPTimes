@@ -1,0 +1,46 @@
+{
+  "heat_no": 82807,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-19T09:30:00",
+  "drivers": [
+    {
+      "name": "Brian Hayes",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 159.716,
+      "lap_times_url": null,
+      "laps": [
+        193.158,
+        166.039,
+        159.716,
+        170.319
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Anahi Isidro",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 158.249,
+      "lap_times_url": null,
+      "laps": [
+        188.296,
+        172.656,
+        158.249,
+        170.171
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82807"
+}

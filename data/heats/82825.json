@@ -1,0 +1,125 @@
+{
+  "heat_no": 82825,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-19T14:45:00",
+  "drivers": [
+    {
+      "name": "Jackson Dale",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.495,
+      "lap_times_url": null,
+      "laps": [
+        112.715,
+        90.023,
+        88.651,
+        90.629,
+        87.495,
+        98.693,
+        88.062
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Luca Paolantonio",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.12,
+      "lap_times_url": null,
+      "laps": [
+        110.104,
+        86.204,
+        86.758,
+        88.902,
+        85.12,
+        85.718,
+        87.341
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rowan Perez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.372,
+      "lap_times_url": null,
+      "laps": [
+        135.325,
+        92.115,
+        90.575,
+        99.448,
+        89.556,
+        89.387,
+        88.372
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mia Flores",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 105.952,
+      "lap_times_url": null,
+      "laps": [
+        140.459,
+        108.953,
+        132.5,
+        105.952,
+        106.954
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Brian Cortes",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 112.215,
+      "lap_times_url": null,
+      "laps": [
+        138.129,
+        112.215,
+        160.533,
+        118.477,
+        113.3
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82825"
+}

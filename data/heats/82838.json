@@ -1,0 +1,63 @@
+{
+  "heat_no": 82838,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-17T12:15:00",
+  "drivers": [
+    {
+      "name": "Graham Switzer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 133.554,
+      "lap_times_url": null,
+      "laps": [
+        161.974,
+        133.554,
+        186.184,
+        190.71
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mary Switzer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 170.988,
+      "lap_times_url": null,
+      "laps": [
+        179.316,
+        170.988,
+        187.055
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dieter Switzer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.193,
+      "lap_times_url": null,
+      "laps": [
+        159.647,
+        127.193,
+        171.449,
+        167.253
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82838"
+}

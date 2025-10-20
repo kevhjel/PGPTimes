@@ -1,0 +1,58 @@
+{
+  "heat_no": 82830,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-19T16:00:00",
+  "drivers": [
+    {
+      "name": "james hamburg",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.393,
+      "lap_times_url": null,
+      "laps": [
+        113.215,
+        93.797,
+        93.15,
+        93.209,
+        91.381,
+        90.393,
+        90.644
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "derek fox,jr",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.117,
+      "lap_times_url": null,
+      "laps": [
+        112.214,
+        88.598,
+        87.876,
+        104.265,
+        91.512,
+        87.713,
+        86.117
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82830"
+}
