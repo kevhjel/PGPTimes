@@ -1,0 +1,115 @@
+{
+  "heat_no": 82865,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-22T14:45:00",
+  "drivers": [
+    {
+      "name": "Haolin Wesley ...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.05,
+      "lap_times_url": null,
+      "laps": [
+        152.747,
+        96.076,
+        84.05,
+        116.698,
+        108.793,
+        84.515
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mark Anderson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.711,
+      "lap_times_url": null,
+      "laps": [
+        112.253,
+        102.711,
+        102.895,
+        122.078,
+        119.421
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Horace Chen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.922,
+      "lap_times_url": null,
+      "laps": [
+        157.012,
+        122.917,
+        95.215,
+        94.027,
+        88.922,
+        139.106
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kenyetta Ander...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 135.022,
+      "lap_times_url": null,
+      "laps": [
+        171.761,
+        135.022,
+        140.857,
+        147.359
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jeremiah Ander...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 117.541,
+      "lap_times_url": null,
+      "laps": [
+        137.386,
+        117.541,
+        130.451,
+        118.432,
+        136.502
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82865"
+}

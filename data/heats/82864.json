@@ -1,0 +1,110 @@
+{
+  "heat_no": 82864,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-22T14:15:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.781,
+      "lap_times_url": null,
+      "laps": [
+        106.339,
+        81.755,
+        80.781,
+        81.965,
+        81.361,
+        80.968,
+        81.193,
+        81.271
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.44,
+      "lap_times_url": null,
+      "laps": [
+        107.117,
+        81.711,
+        80.44,
+        80.458,
+        83.725,
+        81.031,
+        81.149,
+        81.418
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eugene Lim",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.383,
+      "lap_times_url": null,
+      "laps": [
+        134.521,
+        112.977,
+        89.708,
+        84.055,
+        84.741,
+        83.383,
+        84.496
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Claire Cho",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 102.548,
+      "lap_times_url": null,
+      "laps": [
+        135.619,
+        113.43,
+        112.214,
+        106.32,
+        102.548,
+        103.224
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82864"
+}
