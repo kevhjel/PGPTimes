@@ -1,0 +1,108 @@
+{
+  "heat_no": 82902,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-23T16:00:00",
+  "drivers": [
+    {
+      "name": "Paco Castello",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.716,
+      "lap_times_url": null,
+      "laps": [
+        111.647,
+        87.382,
+        90.601,
+        88.148,
+        87.278,
+        86.716,
+        86.914
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andi Szikszay",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.813,
+      "lap_times_url": null,
+      "laps": [
+        119.562,
+        96.249,
+        95.491,
+        101.192,
+        93.407,
+        92.06,
+        91.813
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.149,
+      "lap_times_url": null,
+      "laps": [
+        108.312,
+        83.074,
+        82.22,
+        81.149,
+        82.69,
+        81.627,
+        82.436,
+        81.875
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Margie Szikszay",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.076,
+      "lap_times_url": null,
+      "laps": [
+        133.202,
+        102.054,
+        99.076,
+        99.275,
+        101.124,
+        99.772
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82902"
+}

@@ -1,0 +1,110 @@
+{
+  "heat_no": 82906,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-23T17:00:00",
+  "drivers": [
+    {
+      "name": "FastCat",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.826,
+      "lap_times_url": null,
+      "laps": [
+        102.762,
+        82.388,
+        82.022,
+        81.231,
+        81.044,
+        81.231,
+        80.826,
+        81.035
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gamard Arius",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.19,
+      "lap_times_url": null,
+      "laps": [
+        104.431,
+        100.326,
+        93.583,
+        93.767,
+        89.367,
+        92.876,
+        88.19
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dillon Watson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.564,
+      "lap_times_url": null,
+      "laps": [
+        104.901,
+        83.86,
+        83.564,
+        110.294,
+        96.641,
+        96.163,
+        87.43
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Hunter Tobin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.251,
+      "lap_times_url": null,
+      "laps": [
+        110.806,
+        93.891,
+        93.307,
+        93.507,
+        90.689,
+        91.282,
+        90.251
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82906"
+}

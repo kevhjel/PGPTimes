@@ -1,0 +1,112 @@
+{
+  "heat_no": 82903,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-23T16:15:00",
+  "drivers": [
+    {
+      "name": "Ilya Dreizin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.365,
+      "lap_times_url": null,
+      "laps": [
+        83.664,
+        80.29,
+        79.636,
+        79.49,
+        79.397,
+        79.572,
+        79.467,
+        79.365
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Markus Gallasch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.194,
+      "lap_times_url": null,
+      "laps": [
+        90.257,
+        84.635,
+        85.15,
+        84.324,
+        83.877,
+        83.542,
+        83.194,
+        83.929
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Apollo Dent",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.363,
+      "lap_times_url": null,
+      "laps": [
+        96.201,
+        90.918,
+        91.975,
+        90.94,
+        88.363,
+        91.343,
+        88.852
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Xia",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.877,
+      "lap_times_url": null,
+      "laps": [
+        95.377,
+        86.987,
+        96.228,
+        89.47,
+        85.565,
+        94.334,
+        84.877
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82903"
+}
