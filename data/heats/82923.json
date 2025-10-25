@@ -1,0 +1,44 @@
+{
+  "heat_no": 82923,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-24T11:15:00",
+  "drivers": [
+    {
+      "name": "Stephen Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.604,
+      "lap_times_url": null,
+      "laps": [
+        138.211,
+        132.878,
+        150.108,
+        126.604
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Olivia Massa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 170.376,
+      "lap_times_url": null,
+      "laps": [
+        180.433,
+        219.262,
+        170.376
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82923"
+}

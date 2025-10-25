@@ -1,0 +1,50 @@
+{
+  "heat_no": 82946,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-24T15:15:00",
+  "drivers": [
+    {
+      "name": "Vasil Vasilev",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.072,
+      "lap_times_url": null,
+      "laps": [
+        113.981,
+        113.072,
+        113.195,
+        113.478,
+        113.496
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.295,
+      "lap_times_url": null,
+      "laps": [
+        112.952,
+        113.281,
+        112.295,
+        113.389,
+        113.929
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82946"
+}
