@@ -1,0 +1,86 @@
+{
+  "heat_no": 82954,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-25T11:15:00",
+  "drivers": [
+    {
+      "name": "Pratik Kapoor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 129.606,
+      "lap_times_url": null,
+      "laps": [
+        165.215,
+        130.973,
+        179.309,
+        129.606
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Pranav Kapoor",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.924,
+      "lap_times_url": null,
+      "laps": [
+        160.373,
+        148.352,
+        129.924,
+        171.643
+      ],
+      "lap_positions": [
+        3,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Andrew Engles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 120.724,
+      "lap_times_url": null,
+      "laps": [
+        142.654,
+        123.845,
+        122.597,
+        121.601,
+        120.724
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rohan Devineni",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 139.347,
+      "lap_times_url": null,
+      "laps": [
+        159.442,
+        139.347,
+        145.159,
+        147.639
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82954"
+}
