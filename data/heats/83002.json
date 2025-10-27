@@ -1,0 +1,46 @@
+{
+  "heat_no": 83002,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T15:15:00",
+  "drivers": [
+    {
+      "name": "arman jaberi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 154.104,
+      "lap_times_url": null,
+      "laps": [
+        169.722,
+        189.419,
+        154.104,
+        166.343
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Katerina Hill",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 156.999,
+      "lap_times_url": null,
+      "laps": [
+        166.617,
+        193.58,
+        156.999,
+        167.474
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83002"
+}

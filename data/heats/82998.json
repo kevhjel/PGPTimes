@@ -1,0 +1,103 @@
+{
+  "heat_no": 82998,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T14:15:00",
+  "drivers": [
+    {
+      "name": "Andrey Kholodyuk",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 158.395,
+      "lap_times_url": null,
+      "laps": [
+        169.053,
+        167.503,
+        158.395,
+        160.317
+      ],
+      "lap_positions": [
+        2,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "david kukharets",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 141.737,
+      "lap_times_url": null,
+      "laps": [
+        209.271,
+        141.737,
+        147.465,
+        161.192
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Paul Kholodyuk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 150.005,
+      "lap_times_url": null,
+      "laps": [
+        175.656,
+        152.223,
+        150.24,
+        150.005
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Eddie Gubarik",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.617,
+      "lap_times_url": null,
+      "laps": [
+        176.062,
+        147.576,
+        136.617,
+        146.12
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Max Shestak",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 132.443,
+      "lap_times_url": null,
+      "laps": [
+        164.204,
+        136.559,
+        132.443,
+        139.804
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82998"
+}

@@ -1,0 +1,65 @@
+{
+  "heat_no": 83003,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T15:30:00",
+  "drivers": [
+    {
+      "name": "Parth Bhavsar",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 165.266,
+      "lap_times_url": null,
+      "laps": [
+        195.333,
+        258.052,
+        165.266
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Luca Paolantonio",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 130.38,
+      "lap_times_url": null,
+      "laps": [
+        151.024,
+        130.38,
+        130.913,
+        137.291,
+        145.053
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Taha Kothawala",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 148.819,
+      "lap_times_url": null,
+      "laps": [
+        183.382,
+        179.74,
+        160.305,
+        148.819
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83003"
+}

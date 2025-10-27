@@ -1,0 +1,29 @@
+{
+  "heat_no": 82988,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T11:15:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.582,
+      "lap_times_url": null,
+      "laps": [
+        124.123,
+        117.582,
+        120.086,
+        132.762,
+        142.208
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82988"
+}

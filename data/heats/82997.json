@@ -1,0 +1,44 @@
+{
+  "heat_no": 82997,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T14:00:00",
+  "drivers": [
+    {
+      "name": "HAMDI EL cHAMI",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 137.729,
+      "lap_times_url": null,
+      "laps": [
+        174.01,
+        154.474,
+        137.729,
+        148.931
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexei Babanov",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.974,
+      "lap_times_url": null,
+      "laps": [
+        141.974,
+        143.83,
+        142.303
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82997"
+}

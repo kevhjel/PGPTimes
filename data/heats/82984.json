@@ -1,0 +1,88 @@
+{
+  "heat_no": 82984,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-26T10:00:00",
+  "drivers": [
+    {
+      "name": "Ryan Wolfe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.521,
+      "lap_times_url": null,
+      "laps": [
+        187.4,
+        153.381,
+        147.294,
+        128.521
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "Blake Hughes",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.301,
+      "lap_times_url": null,
+      "laps": [
+        171.636,
+        139.52,
+        130.301,
+        137.019,
+        131.05
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jim Hughes",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.273,
+      "lap_times_url": null,
+      "laps": [
+        194.86,
+        136.441,
+        134.062,
+        132.273
+      ],
+      "lap_positions": [
+        4,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Jackson Parma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.486,
+      "lap_times_url": null,
+      "laps": [
+        173.838,
+        141.529,
+        127.16,
+        127.411,
+        123.486
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=82984"
+}
