@@ -1,0 +1,106 @@
+{
+  "heat_no": 83027,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-29T16:45:00",
+  "drivers": [
+    {
+      "name": "Phil McGill",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.909,
+      "lap_times_url": null,
+      "laps": [
+        99.587,
+        85.862,
+        86.408,
+        85.606,
+        84.936,
+        85.66,
+        85.275,
+        84.909
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cody DeGracia",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.807,
+      "lap_times_url": null,
+      "laps": [
+        102.794,
+        93.381,
+        89.044,
+        88.763,
+        87.871,
+        88.212,
+        87.807
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lucas Baker",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.212,
+      "lap_times_url": null,
+      "laps": [
+        122.015,
+        101.316,
+        102.595,
+        110.531,
+        92.212,
+        98.889
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Daylen Schnitt...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 98.216,
+      "lap_times_url": null,
+      "laps": [
+        114.067,
+        105.43,
+        99.8,
+        99.281,
+        98.216,
+        105.29
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83027"
+}

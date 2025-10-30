@@ -1,0 +1,71 @@
+{
+  "heat_no": 83016,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-29T14:00:00",
+  "drivers": [
+    {
+      "name": "Steve Prachyl",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.807,
+      "lap_times_url": null,
+      "laps": [
+        86.762,
+        87.012,
+        84.949,
+        85.34,
+        84.807
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cody Holland",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.118,
+      "lap_times_url": null,
+      "laps": [
+        88.534,
+        88.008,
+        87.118,
+        87.958,
+        87.463
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Amber Wilmink",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.959,
+      "lap_times_url": null,
+      "laps": [
+        103.465,
+        95.448,
+        95.505,
+        94.533,
+        91.959
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83016"
+}

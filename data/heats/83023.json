@@ -1,0 +1,33 @@
+{
+  "heat_no": 83023,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-29T15:45:00",
+  "drivers": [
+    {
+      "name": "Apollo Dent",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.007,
+      "lap_times_url": null,
+      "laps": [
+        96.593,
+        91.868,
+        89.698,
+        89.56,
+        89.632,
+        89.95,
+        89.007
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83023"
+}
