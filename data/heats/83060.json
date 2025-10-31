@@ -1,0 +1,35 @@
+{
+  "heat_no": 83060,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T13:30:00",
+  "drivers": [
+    {
+      "name": "Jack Bass",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.494,
+      "lap_times_url": null,
+      "laps": [
+        84.958,
+        83.873,
+        84.554,
+        83.855,
+        83.494,
+        84.655,
+        83.533,
+        84.436
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83060"
+}

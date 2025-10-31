@@ -1,0 +1,89 @@
+{
+  "heat_no": 83059,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T13:15:00",
+  "drivers": [
+    {
+      "name": "William Lee",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.279,
+      "lap_times_url": null,
+      "laps": [
+        89.904,
+        84.12,
+        90.415,
+        82.72,
+        82.646,
+        82.279,
+        82.861,
+        82.69
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        1,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rubber Farmer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.417,
+      "lap_times_url": null,
+      "laps": [
+        88.661,
+        86.469,
+        83.604,
+        84.798,
+        82.442,
+        82.092,
+        90.548,
+        81.417
+      ],
+      "lap_positions": [
+        1,
+        3,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jung Lee",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.446,
+      "lap_times_url": null,
+      "laps": [
+        89.006,
+        83.374,
+        83.592,
+        83.032,
+        82.446,
+        89.019,
+        85.707,
+        82.98
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83059"
+}

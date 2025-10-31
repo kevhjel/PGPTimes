@@ -1,0 +1,75 @@
+{
+  "heat_no": 83066,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T15:00:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.531,
+      "lap_times_url": null,
+      "laps": [
+        82.743,
+        82.104,
+        82.534,
+        82.559,
+        81.531,
+        82.19,
+        82.364
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tharen Greenfi...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 100.035,
+      "lap_times_url": null,
+      "laps": [
+        244.908,
+        106.377,
+        103.487,
+        103.862,
+        100.035
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Bryce Greenfield",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.977,
+      "lap_times_url": null,
+      "laps": [
+        244.194,
+        107.16,
+        101.977,
+        103.126,
+        105.858
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83066"
+}

@@ -1,0 +1,79 @@
+{
+  "heat_no": 83068,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T15:30:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.048,
+      "lap_times_url": null,
+      "laps": [
+        85.598,
+        83.706,
+        83.518,
+        82.117,
+        81.306,
+        82.376,
+        81.048,
+        82.268
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Erial Sahagon",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 96.839,
+      "lap_times_url": null,
+      "laps": [
+        143.499,
+        116.725,
+        98.78,
+        96.839,
+        102.165,
+        117.399
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lawrence Weru",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.941,
+      "lap_times_url": null,
+      "laps": [
+        148.875,
+        134.587,
+        106.832,
+        117.378,
+        99.941
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83068"
+}

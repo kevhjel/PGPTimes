@@ -1,0 +1,106 @@
+{
+  "heat_no": 83052,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T11:30:00",
+  "drivers": [
+    {
+      "name": "Ruslan Vulf",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.206,
+      "lap_times_url": null,
+      "laps": [
+        117.128,
+        105.917,
+        95.501,
+        93.696,
+        92.032,
+        91.206,
+        92.631
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Bogdan Gozhiy",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.258,
+      "lap_times_url": null,
+      "laps": [
+        134.376,
+        91.317,
+        88.215,
+        88.159,
+        87.968,
+        87.773,
+        86.258
+      ],
+      "lap_positions": [
+        4,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Andy Lutsyuk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.632,
+      "lap_times_url": null,
+      "laps": [
+        119.136,
+        122.438,
+        104.716,
+        92.821,
+        107.573,
+        91.632
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dylan Covert",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.258,
+      "lap_times_url": null,
+      "laps": [
+        116.284,
+        95.062,
+        87.213,
+        86.258,
+        94.997,
+        86.556,
+        86.609
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83052"
+}

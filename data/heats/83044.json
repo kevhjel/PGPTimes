@@ -1,0 +1,60 @@
+{
+  "heat_no": 83044,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T09:30:00",
+  "drivers": [
+    {
+      "name": "Darren O'Connor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.951,
+      "lap_times_url": null,
+      "laps": [
+        99.933,
+        84.593,
+        83.72,
+        83.211,
+        83.688,
+        82.951,
+        83.243,
+        100.363
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Thomas Huebner",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.062,
+      "lap_times_url": null,
+      "laps": [
+        106.148,
+        93.722,
+        92.626,
+        91.062,
+        100.828,
+        104.668,
+        117.314
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83044"
+}

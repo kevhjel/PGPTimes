@@ -1,0 +1,58 @@
+{
+  "heat_no": 83069,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-30T15:45:00",
+  "drivers": [
+    {
+      "name": "Michael Goertzen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.477,
+      "lap_times_url": null,
+      "laps": [
+        112.583,
+        95.806,
+        94.636,
+        94.477,
+        94.558,
+        94.998,
+        98.725
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Babe Witter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.183,
+      "lap_times_url": null,
+      "laps": [
+        111.202,
+        94.186,
+        92.287,
+        92.183,
+        103.711,
+        93.95,
+        96.502
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83069"
+}
