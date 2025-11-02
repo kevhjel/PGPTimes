@@ -1,0 +1,88 @@
+{
+  "heat_no": 83161,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-31T16:00:00",
+  "drivers": [
+    {
+      "name": "Aaron McCarty",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 127.842,
+      "lap_times_url": null,
+      "laps": [
+        154.896,
+        127.842,
+        131.899,
+        136.414,
+        135.956
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jose Valle-Med...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.399,
+      "lap_times_url": null,
+      "laps": [
+        160.264,
+        132.742,
+        140.565,
+        128.399
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Van Ho",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 131.264,
+      "lap_times_url": null,
+      "laps": [
+        160.13,
+        183.775,
+        145.472,
+        131.264
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Huy Tran",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.549,
+      "lap_times_url": null,
+      "laps": [
+        148.898,
+        135.252,
+        142.909,
+        128.549,
+        133.669
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83161"
+}

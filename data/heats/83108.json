@@ -1,0 +1,108 @@
+{
+  "heat_no": 83108,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-01T17:15:00",
+  "drivers": [
+    {
+      "name": "Thomas Goldingay",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.452,
+      "lap_times_url": null,
+      "laps": [
+        110.804,
+        121.604,
+        88.502,
+        88.694,
+        87.635,
+        88.457,
+        87.452
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "The Boar",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.758,
+      "lap_times_url": null,
+      "laps": [
+        110.735,
+        89.261,
+        87.824,
+        87.868,
+        87.442,
+        86.002,
+        85.758
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jaxx Salazar",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.569,
+      "lap_times_url": null,
+      "laps": [
+        118.673,
+        99.381,
+        93.181,
+        93.23,
+        90.717,
+        91.784,
+        89.569
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Hunter Tobin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.456,
+      "lap_times_url": null,
+      "laps": [
+        111.079,
+        88.284,
+        86.456,
+        87.186,
+        98.277,
+        113.8,
+        86.569
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83108"
+}

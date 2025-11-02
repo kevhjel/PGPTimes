@@ -1,0 +1,192 @@
+{
+  "heat_no": 83100,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-01T15:15:00",
+  "drivers": [
+    {
+      "name": "Colin Sam",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.738,
+      "lap_times_url": null,
+      "laps": [
+        113.132,
+        86.574,
+        85.738,
+        86.891,
+        87.192,
+        94.079,
+        87.101
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Farrell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.21,
+      "lap_times_url": null,
+      "laps": [
+        115.091,
+        89.932,
+        88.36,
+        89.2,
+        88.838,
+        92.347,
+        88.21
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chelsey Rivera",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 114.991,
+      "lap_times_url": null,
+      "laps": [
+        137.435,
+        114.991,
+        116.205,
+        120.239,
+        117.459
+      ],
+      "lap_positions": [
+        6,
+        7,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Stephen Gamble",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 104.67,
+      "lap_times_url": null,
+      "laps": [
+        122.376,
+        106.89,
+        104.67,
+        108.031,
+        121.637,
+        112.302
+      ],
+      "lap_positions": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Chad Carlson",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 109.745,
+      "lap_times_url": null,
+      "laps": [
+        139.095,
+        115.312,
+        112.647,
+        118.785,
+        109.745
+      ],
+      "lap_positions": [
+        7,
+        8,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Austin West",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 101.881,
+      "lap_times_url": null,
+      "laps": [
+        126.731,
+        101.881,
+        103.999,
+        121.255,
+        115.026,
+        108.092
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Samuel Armer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.255,
+      "lap_times_url": null,
+      "laps": [
+        142.345,
+        101.817,
+        94.576,
+        103.493,
+        102.743,
+        92.255
+      ],
+      "lap_positions": [
+        8,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Morgan Armer",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 99.103,
+      "lap_times_url": null,
+      "laps": [
+        124.643,
+        101.816,
+        101.626,
+        100.192,
+        99.923,
+        99.103
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83100"
+}

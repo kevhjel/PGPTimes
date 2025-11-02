@@ -1,0 +1,58 @@
+{
+  "heat_no": 83134,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-31T09:15:00",
+  "drivers": [
+    {
+      "name": "Tharen Greenfi...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.52,
+      "lap_times_url": null,
+      "laps": [
+        117.593,
+        96.853,
+        94.345,
+        94.607,
+        93.881,
+        93.023,
+        91.52
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Bryce Greenfield",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.673,
+      "lap_times_url": null,
+      "laps": [
+        116.964,
+        95.341,
+        93.677,
+        99.608,
+        105.042,
+        90.288,
+        89.673
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83134"
+}

@@ -1,0 +1,109 @@
+{
+  "heat_no": 83092,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-01T13:15:00",
+  "drivers": [
+    {
+      "name": "4U2NV",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 124.277,
+      "lap_times_url": null,
+      "laps": [
+        157.87,
+        138.869,
+        132.499,
+        128.926,
+        124.277
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Owen Kizer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.988,
+      "lap_times_url": null,
+      "laps": [
+        152.209,
+        149.561,
+        132.873,
+        127.237,
+        120.988
+      ],
+      "lap_positions": [
+        2,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.663,
+      "lap_times_url": null,
+      "laps": [
+        136.776,
+        128.479,
+        117.115,
+        114.292,
+        111.663
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Scott Vreeken",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.892,
+      "lap_times_url": null,
+      "laps": [
+        160.294,
+        150.265,
+        131.254,
+        119.892
+      ],
+      "lap_positions": [
+        5,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jeffrey Vreeken",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 134.773,
+      "lap_times_url": null,
+      "laps": [
+        157.601,
+        149.51,
+        136.83,
+        134.773
+      ],
+      "lap_positions": [
+        3,
+        3,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83092"
+}

@@ -1,0 +1,83 @@
+{
+  "heat_no": 83098,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-01T14:45:00",
+  "drivers": [
+    {
+      "name": "ALEX ACOSTA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.503,
+      "lap_times_url": null,
+      "laps": [
+        102.364,
+        83.128,
+        83.185,
+        83.038,
+        82.503,
+        82.768,
+        82.775,
+        83.021
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nathanial Welch",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.837,
+      "lap_times_url": null,
+      "laps": [
+        108.778,
+        90.09,
+        90.976,
+        88.837,
+        88.945,
+        89.176,
+        91.186
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "David Welch",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 105.164,
+      "lap_times_url": null,
+      "laps": [
+        123.212,
+        108.946,
+        108.05,
+        105.164,
+        106.772,
+        106.818
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83098"
+}

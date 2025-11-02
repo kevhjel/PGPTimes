@@ -1,0 +1,50 @@
+{
+  "heat_no": 83158,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-10-31T15:15:00",
+  "drivers": [
+    {
+      "name": "Clay Matthews",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.585,
+      "lap_times_url": null,
+      "laps": [
+        113.7,
+        121.859,
+        113.468,
+        113.96,
+        112.585
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Randy Swole",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.445,
+      "lap_times_url": null,
+      "laps": [
+        116.364,
+        115.527,
+        114.159,
+        114.723,
+        113.445
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83158"
+}
