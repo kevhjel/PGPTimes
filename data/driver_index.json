@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-11-02T06:20:11Z",
+  "last_updated_utc": "2025-11-03T06:22:35Z",
   "drivers": {
     "Severn Allen": [
       {
@@ -152931,6 +152931,22 @@
         "start_time_iso": "2025-06-19T09:45:00"
       },
       {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 86.91,
+        "laps": [
+          130.265,
+          92.844,
+          91.45,
+          89.821,
+          87.948,
+          86.91,
+          87.471
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
+      },
+      {
         "heat_no": 82356,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 3,
@@ -287335,6 +287351,22 @@
           82.765
         ],
         "start_time_iso": "2025-05-04T10:45:00"
+      },
+      {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 86.068,
+        "laps": [
+          127.413,
+          89.12,
+          87.601,
+          86.981,
+          86.088,
+          86.068,
+          89.047
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
       }
     ],
     "preston sullivan": [
@@ -287676,6 +287708,22 @@
           82.486
         ],
         "start_time_iso": "2025-05-04T10:45:00"
+      },
+      {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 85.201,
+        "laps": [
+          127.87,
+          88.379,
+          88.449,
+          85.366,
+          85.556,
+          86.305,
+          85.201
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
       }
     ],
     "danny lee": [
@@ -329326,6 +329374,22 @@
           83.501
         ],
         "start_time_iso": "2025-05-04T10:45:00"
+      },
+      {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 85.41,
+        "laps": [
+          127.261,
+          90.121,
+          87.48,
+          86.506,
+          85.41,
+          86.465,
+          86.955
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
       },
       {
         "heat_no": 78838,
@@ -695818,6 +695882,98 @@
         "start_time_iso": "2025-09-12T15:00:00"
       }
     ],
+    "Russell Goodloe": [
+      {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 83.35,
+        "laps": [
+          123.271,
+          88.626,
+          86.814,
+          84.732,
+          84.681,
+          83.734,
+          83.35
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
+      },
+      {
+        "heat_no": 75813,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 82.245,
+        "laps": [
+          128.008,
+          92.507,
+          85.681,
+          83.056,
+          82.262,
+          82.245
+        ],
+        "start_time_iso": "2025-01-12T12:15:00"
+      },
+      {
+        "heat_no": 75811,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 82.613,
+        "laps": [
+          126.067,
+          82.852,
+          83.755,
+          82.613,
+          82.758,
+          97.838,
+          84.19
+        ],
+        "start_time_iso": "2025-01-12T11:45:00"
+      },
+      {
+        "heat_no": 75814,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 106.862,
+        "laps": [
+          106.862
+        ],
+        "start_time_iso": "2025-01-12T12:30:00"
+      },
+      {
+        "heat_no": 75810,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 82.268,
+        "laps": [
+          103.617,
+          82.939,
+          82.527,
+          83.502,
+          82.922,
+          82.268,
+          82.469,
+          82.286
+        ],
+        "start_time_iso": "2025-01-12T11:30:00"
+      }
+    ],
+    "Marissa Imel": [
+      {
+        "heat_no": 83169,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 112.861,
+        "laps": [
+          153.914,
+          130.901,
+          143.706,
+          117.595,
+          112.861
+        ],
+        "start_time_iso": "2025-11-02T10:15:00"
+      }
+    ],
     "Girish Chhabra": [
       {
         "heat_no": 82231,
@@ -851312,66 +851468,6 @@
           103.788
         ],
         "start_time_iso": "2025-03-07T12:30:00"
-      }
-    ],
-    "Russell Goodloe": [
-      {
-        "heat_no": 75813,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 82.245,
-        "laps": [
-          128.008,
-          92.507,
-          85.681,
-          83.056,
-          82.262,
-          82.245
-        ],
-        "start_time_iso": "2025-01-12T12:15:00"
-      },
-      {
-        "heat_no": 75811,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 82.613,
-        "laps": [
-          126.067,
-          82.852,
-          83.755,
-          82.613,
-          82.758,
-          97.838,
-          84.19
-        ],
-        "start_time_iso": "2025-01-12T11:45:00"
-      },
-      {
-        "heat_no": 75814,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 106.862,
-        "laps": [
-          106.862
-        ],
-        "start_time_iso": "2025-01-12T12:30:00"
-      },
-      {
-        "heat_no": 75810,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 82.268,
-        "laps": [
-          103.617,
-          82.939,
-          82.527,
-          83.502,
-          82.922,
-          82.268,
-          82.469,
-          82.286
-        ],
-        "start_time_iso": "2025-01-12T11:30:00"
       }
     ],
     "Max Otterby": [
