@@ -1,0 +1,27 @@
+{
+  "heat_no": 83171,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-05T10:15:00",
+  "drivers": [
+    {
+      "name": "Talese Heckler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 151.731,
+      "lap_times_url": null,
+      "laps": [
+        151.731,
+        184.741,
+        162.015,
+        163.636
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83171"
+}
