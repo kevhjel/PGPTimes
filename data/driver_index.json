@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-11-06T06:21:44Z",
+  "last_updated_utc": "2025-11-07T06:21:29Z",
   "drivers": {
     "Severn Allen": [
       {
@@ -38582,6 +38582,22 @@
         "start_time_iso": "2025-04-06T13:00:00"
       },
       {
+        "heat_no": 83187,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 2,
+        "best_lap_seconds": 119.084,
+        "laps": [
+          130.493,
+          126.221,
+          120.902,
+          119.084,
+          131.694,
+          133.685,
+          119.472
+        ],
+        "start_time_iso": "2025-11-06T12:30:00"
+      },
+      {
         "heat_no": 78600,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 2,
@@ -50260,6 +50276,22 @@
         "start_time_iso": "2025-06-06T15:15:00"
       },
       {
+        "heat_no": 83187,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 1,
+        "best_lap_seconds": 117.114,
+        "laps": [
+          125.756,
+          131.707,
+          118.498,
+          136.01,
+          117.114,
+          128.06,
+          124.898
+        ],
+        "start_time_iso": "2025-11-06T12:30:00"
+      },
+      {
         "heat_no": 79853,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -50326,6 +50358,19 @@
           80.807
         ],
         "start_time_iso": "2025-02-20T15:30:00"
+      },
+      {
+        "heat_no": 83186,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 115.521,
+        "laps": [
+          117.148,
+          116.04,
+          115.521,
+          116.09
+        ],
+        "start_time_iso": "2025-11-06T12:00:00"
       },
       {
         "heat_no": 81397,
@@ -51740,6 +51785,20 @@
           80.697
         ],
         "start_time_iso": "2025-10-22T13:00:00"
+      },
+      {
+        "heat_no": 83185,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 112.557,
+        "laps": [
+          119.219,
+          114.925,
+          112.557,
+          212.796,
+          114.742
+        ],
+        "start_time_iso": "2025-11-06T11:30:00"
       },
       {
         "heat_no": 79463,
@@ -872569,6 +872628,20 @@
           112.128
         ],
         "start_time_iso": "2025-04-10T11:00:00"
+      }
+    ],
+    "brandon wiedeman": [
+      {
+        "heat_no": 83183,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 143.871,
+        "laps": [
+          153.248,
+          143.871,
+          160.503
+        ],
+        "start_time_iso": "2025-11-06T11:15:00"
       }
     ],
     "Jon Belknap": [
