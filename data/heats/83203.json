@@ -1,0 +1,90 @@
+{
+  "heat_no": 83203,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-07T11:15:00",
+  "drivers": [
+    {
+      "name": "Joakim Vinberg",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 95.215,
+      "lap_times_url": null,
+      "laps": [
+        121.403,
+        101.196,
+        98.591,
+        105.891,
+        97.527,
+        95.215
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Debra Shelton",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 138.78,
+      "lap_times_url": null,
+      "laps": [
+        148.434,
+        154.625,
+        139.172,
+        138.78
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Matthew Shelton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 129.146,
+      "lap_times_url": null,
+      "laps": [
+        155.663,
+        142.53,
+        141.44,
+        129.146
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "ROBIN BECKMAN",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.949,
+      "lap_times_url": null,
+      "laps": [
+        151.786,
+        139.433,
+        133.366,
+        129.949,
+        132.769
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83203"
+}

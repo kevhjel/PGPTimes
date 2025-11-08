@@ -1,0 +1,58 @@
+{
+  "heat_no": 83208,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-07T12:45:00",
+  "drivers": [
+    {
+      "name": "james spiering",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.048,
+      "lap_times_url": null,
+      "laps": [
+        110.851,
+        86.915,
+        85.919,
+        85.048,
+        85.33,
+        85.521,
+        85.127
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zay Taylor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 91.429,
+      "lap_times_url": null,
+      "laps": [
+        112.633,
+        94.628,
+        92.23,
+        91.429,
+        92.608,
+        92.962,
+        91.782
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83208"
+}

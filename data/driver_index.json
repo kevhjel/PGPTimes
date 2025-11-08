@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-11-07T06:21:29Z",
+  "last_updated_utc": "2025-11-08T06:19:09Z",
   "drivers": {
     "Severn Allen": [
       {
@@ -45620,6 +45620,23 @@
           103.832
         ],
         "start_time_iso": "2025-02-16T09:00:00"
+      },
+      {
+        "heat_no": 83213,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 81.119,
+        "laps": [
+          96.467,
+          82.237,
+          81.962,
+          81.529,
+          81.482,
+          81.119,
+          81.173,
+          81.231
+        ],
+        "start_time_iso": "2025-11-07T14:45:00"
       },
       {
         "heat_no": 76741,
@@ -117646,6 +117663,36 @@
         "start_time_iso": "2025-09-27T12:45:00"
       },
       {
+        "heat_no": 83206,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 107.641,
+        "laps": [
+          115.9,
+          111.507,
+          110.475,
+          107.641,
+          110.634
+        ],
+        "start_time_iso": "2025-11-07T12:00:00"
+      },
+      {
+        "heat_no": 83208,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 91.429,
+        "laps": [
+          112.633,
+          94.628,
+          92.23,
+          91.429,
+          92.608,
+          92.962,
+          91.782
+        ],
+        "start_time_iso": "2025-11-07T12:45:00"
+      },
+      {
         "heat_no": 82580,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 6,
@@ -117702,6 +117749,21 @@
           137.908
         ],
         "start_time_iso": "2025-04-27T09:00:00"
+      },
+      {
+        "heat_no": 83204,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 100.792,
+        "laps": [
+          114.435,
+          106.652,
+          103.904,
+          111.315,
+          108.672,
+          100.792
+        ],
+        "start_time_iso": "2025-11-07T11:30:00"
       },
       {
         "heat_no": 78156,
@@ -162681,6 +162743,22 @@
         "start_time_iso": "2025-09-05T15:15:00"
       },
       {
+        "heat_no": 83216,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 86.875,
+        "laps": [
+          110.331,
+          88.8,
+          87.994,
+          86.875,
+          87.017,
+          87.63,
+          88.537
+        ],
+        "start_time_iso": "2025-11-07T16:00:00"
+      },
+      {
         "heat_no": 83094,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 6,
@@ -162740,6 +162818,37 @@
           94.173
         ],
         "start_time_iso": "2025-10-10T14:45:00"
+      },
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 87.023,
+        "laps": [
+          134.385,
+          88.373,
+          87.332,
+          88.577,
+          87.023,
+          89.046,
+          89.306
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 89.418,
+        "laps": [
+          93.55,
+          92.872,
+          90.269,
+          90.069,
+          89.418,
+          89.8
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       },
       {
         "heat_no": 82253,
@@ -163750,6 +163859,22 @@
         "start_time_iso": "2025-09-05T15:15:00"
       },
       {
+        "heat_no": 83216,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 88.567,
+        "laps": [
+          114.358,
+          92.92,
+          93.529,
+          89.193,
+          88.567,
+          91.646,
+          89.682
+        ],
+        "start_time_iso": "2025-11-07T16:00:00"
+      },
+      {
         "heat_no": 83094,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 5,
@@ -163809,6 +163934,36 @@
           92.188
         ],
         "start_time_iso": "2025-10-10T14:45:00"
+      },
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 8,
+        "best_lap_seconds": 89.073,
+        "laps": [
+          145.565,
+          94.169,
+          90.538,
+          89.195,
+          91.452,
+          90.112,
+          89.073
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 9,
+        "best_lap_seconds": 89.983,
+        "laps": [
+          91.77,
+          126.52,
+          90.202,
+          126.274,
+          89.983
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       },
       {
         "heat_no": 82253,
@@ -189440,6 +189595,22 @@
         "start_time_iso": "2025-05-17T17:15:00"
       },
       {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 84.067,
+        "laps": [
+          106.789,
+          84.851,
+          84.107,
+          84.067,
+          95.456,
+          85.106,
+          84.94
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
         "heat_no": 78229,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 3,
@@ -189554,6 +189725,22 @@
           84.12
         ],
         "start_time_iso": "2025-03-05T15:45:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 83.726,
+        "laps": [
+          85.695,
+          85.407,
+          85.151,
+          84.169,
+          85.413,
+          83.797,
+          83.726
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       },
       {
         "heat_no": 80329,
@@ -302109,6 +302296,38 @@
           86.012
         ],
         "start_time_iso": "2025-10-29T17:15:00"
+      },
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 84.068,
+        "laps": [
+          117.426,
+          88.929,
+          85.797,
+          85.484,
+          84.875,
+          84.106,
+          84.068
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 85.073,
+        "laps": [
+          89.423,
+          86.219,
+          85.073,
+          85.498,
+          86.64,
+          85.182,
+          85.122
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       }
     ],
     "Ryan Skiba": [
@@ -342404,6 +342623,20 @@
         "start_time_iso": "2025-08-01T12:15:00"
       },
       {
+        "heat_no": 83199,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 125.584,
+        "laps": [
+          141.728,
+          137.279,
+          128.654,
+          130.481,
+          125.584
+        ],
+        "start_time_iso": "2025-11-07T10:15:00"
+      },
+      {
         "heat_no": 78060,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -342485,6 +342718,20 @@
         "start_time_iso": "2025-04-24T10:30:00"
       },
       {
+        "heat_no": 83205,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 92.711,
+        "laps": [
+          93.273,
+          143.767,
+          97.546,
+          93.62,
+          92.711
+        ],
+        "start_time_iso": "2025-11-07T11:45:00"
+      },
+      {
         "heat_no": 80824,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 4,
@@ -342500,6 +342747,21 @@
           82.688
         ],
         "start_time_iso": "2025-08-01T12:45:00"
+      },
+      {
+        "heat_no": 83203,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 95.215,
+        "laps": [
+          121.403,
+          101.196,
+          98.591,
+          105.891,
+          97.527,
+          95.215
+        ],
+        "start_time_iso": "2025-11-07T11:15:00"
       },
       {
         "heat_no": 80826,
@@ -342533,6 +342795,21 @@
           84.036
         ],
         "start_time_iso": "2025-09-19T11:45:00"
+      },
+      {
+        "heat_no": 83201,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 107.271,
+        "laps": [
+          118.192,
+          111.275,
+          110.894,
+          109.656,
+          107.676,
+          107.271
+        ],
+        "start_time_iso": "2025-11-07T10:45:00"
       },
       {
         "heat_no": 82074,
@@ -431488,6 +431765,22 @@
         "start_time_iso": "2025-10-19T10:30:00"
       },
       {
+        "heat_no": 83216,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 85.475,
+        "laps": [
+          108.299,
+          86.476,
+          94.94,
+          85.475,
+          86.024,
+          136.854,
+          88.433
+        ],
+        "start_time_iso": "2025-11-07T16:00:00"
+      },
+      {
         "heat_no": 82814,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -431500,6 +431793,38 @@
           123.527
         ],
         "start_time_iso": "2025-10-19T11:15:00"
+      },
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 84.904,
+        "laps": [
+          109.904,
+          86.469,
+          87.398,
+          88.212,
+          89.251,
+          85.172,
+          84.904
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 85.93,
+        "laps": [
+          88.881,
+          87.341,
+          86.962,
+          86.64,
+          89.118,
+          86.681,
+          85.93
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       }
     ],
     "Alexander Au": [
@@ -431517,6 +431842,22 @@
         "start_time_iso": "2025-10-19T10:30:00"
       },
       {
+        "heat_no": 83216,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 87.242,
+        "laps": [
+          109.776,
+          88.238,
+          87.242,
+          87.993,
+          87.276,
+          87.759,
+          88.3
+        ],
+        "start_time_iso": "2025-11-07T16:00:00"
+      },
+      {
         "heat_no": 82814,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 4,
@@ -431529,6 +431870,37 @@
           145.546
         ],
         "start_time_iso": "2025-10-19T11:15:00"
+      },
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 85.734,
+        "laps": [
+          131.287,
+          88.19,
+          88.412,
+          88.695,
+          86.076,
+          85.734,
+          88.008
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 8,
+        "best_lap_seconds": 89.631,
+        "laps": [
+          94.048,
+          92.752,
+          91.569,
+          89.916,
+          89.631,
+          90.587
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       }
     ],
     "Shiv Jhalani": [
@@ -436033,6 +436405,22 @@
         "start_time_iso": "2025-08-27T11:00:00"
       },
       {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 3,
+        "best_lap_seconds": 89.027,
+        "laps": [
+          111.957,
+          90.091,
+          89.027,
+          95.361,
+          90.93,
+          104.793,
+          90.72
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
         "heat_no": 81489,
         "heat_type": "Group Event Final",
         "position": 8,
@@ -436047,6 +436435,36 @@
           89.55
         ],
         "start_time_iso": "2025-08-27T11:30:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 1,
+        "best_lap_seconds": 86.076,
+        "laps": [
+          161.07,
+          89.776,
+          87.136,
+          88.314,
+          87.934,
+          86.076
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 2,
+        "best_lap_seconds": 92.923,
+        "laps": [
+          144.959,
+          92.923,
+          97.153,
+          93.991,
+          97.164,
+          95.19
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
       }
     ],
     "Thomas Niciase": [
@@ -518423,6 +518841,22 @@
         "start_time_iso": "2025-09-25T13:45:00"
       },
       {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 84.84,
+        "laps": [
+          110.224,
+          98.057,
+          85.363,
+          92.81,
+          85.015,
+          84.84,
+          85.548
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
         "heat_no": 82481,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 13,
@@ -518484,6 +518918,22 @@
           83.356
         ],
         "start_time_iso": "2025-10-23T16:45:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 83.81,
+        "laps": [
+          86.651,
+          84.712,
+          85.673,
+          83.81,
+          86.798,
+          84.804,
+          94.904
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       },
       {
         "heat_no": 82219,
@@ -542225,6 +542675,22 @@
           90.324
         ],
         "start_time_iso": "2025-06-27T14:45:00"
+      },
+      {
+        "heat_no": 83213,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 89.115,
+        "laps": [
+          100.69,
+          91.417,
+          91.533,
+          89.115,
+          89.938,
+          90.297,
+          90.795
+        ],
+        "start_time_iso": "2025-11-07T14:45:00"
       },
       {
         "heat_no": 79899,
@@ -577734,6 +578200,800 @@
         "start_time_iso": "2025-03-13T17:00:00"
       }
     ],
+    "Sasha Berchenko": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 3,
+        "best_lap_seconds": 94.311,
+        "laps": [
+          165.669,
+          103.091,
+          100.161,
+          97.182,
+          94.453,
+          94.311
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 1,
+        "best_lap_seconds": 87.876,
+        "laps": [
+          131.51,
+          90.725,
+          90.514,
+          91.536,
+          87.876,
+          90.074,
+          100.529
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 76955,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 8,
+        "best_lap_seconds": 91.953,
+        "laps": [
+          153.073,
+          100.152,
+          122.067,
+          91.953,
+          92.498,
+          93.56
+        ],
+        "start_time_iso": "2025-03-08T15:45:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 2,
+        "best_lap_seconds": 86.623,
+        "laps": [
+          147.269,
+          89.887,
+          87.578,
+          88.3,
+          86.623,
+          97.384,
+          206.183
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      },
+      {
+        "heat_no": 76957,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 8,
+        "best_lap_seconds": 89.52,
+        "laps": [
+          114.535,
+          91.68,
+          89.52,
+          90.452,
+          106.881,
+          94.854
+        ],
+        "start_time_iso": "2025-03-08T16:15:00"
+      }
+    ],
+    "DHAVAL DEDHIA": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 8,
+        "best_lap_seconds": 106.68,
+        "laps": [
+          164.923,
+          176.929,
+          117.077,
+          106.68,
+          108.169
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 11,
+        "best_lap_seconds": 97.912,
+        "laps": [
+          146.342,
+          115.778,
+          102.724,
+          98.58,
+          98.646,
+          97.912
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 12,
+        "best_lap_seconds": 93.84,
+        "laps": [
+          142.513,
+          95.03,
+          95.365,
+          93.84,
+          107.397,
+          140.302
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "BRANDON MORGAN": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 4,
+        "best_lap_seconds": 98.046,
+        "laps": [
+          160.155,
+          134.837,
+          114.851,
+          98.046,
+          120.026
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 4,
+        "best_lap_seconds": 93.249,
+        "laps": [
+          136.396,
+          103.477,
+          114.39,
+          97.274,
+          104.712,
+          93.249
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 4,
+        "best_lap_seconds": 91.302,
+        "laps": [
+          156.665,
+          93.625,
+          91.302,
+          91.834,
+          92.385,
+          98.341
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Li Zhao": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 13,
+        "best_lap_seconds": 113.332,
+        "laps": [
+          170.068,
+          133.033,
+          120.501,
+          113.332,
+          115.141
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 14,
+        "best_lap_seconds": 105.647,
+        "laps": [
+          144.97,
+          157.648,
+          108.004,
+          105.647,
+          117.147
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 13,
+        "best_lap_seconds": 100.235,
+        "laps": [
+          150.754,
+          105.038,
+          102.926,
+          100.235,
+          108.875,
+          210.069
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Parth Darji": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 7,
+        "best_lap_seconds": 102.629,
+        "laps": [
+          167.8,
+          118.621,
+          107.727,
+          102.629,
+          110.593
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 8,
+        "best_lap_seconds": 96.798,
+        "laps": [
+          145.033,
+          99.404,
+          100.255,
+          96.963,
+          98.023,
+          96.798
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 10,
+        "best_lap_seconds": 96.997,
+        "laps": [
+          154.287,
+          100.594,
+          96.997,
+          99.074,
+          112.288,
+          99.689
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "PAWEL KAPUSTA": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 6,
+        "best_lap_seconds": 100.233,
+        "laps": [
+          158.43,
+          104.218,
+          100.366,
+          102.25,
+          100.233,
+          100.647
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 7,
+        "best_lap_seconds": 95.546,
+        "laps": [
+          137.11,
+          96.018,
+          96.714,
+          95.686,
+          109.348,
+          95.546
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 6,
+        "best_lap_seconds": 93.129,
+        "laps": [
+          152.637,
+          105.582,
+          96.143,
+          96.891,
+          93.129,
+          93.163
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Mobolaji Olawale": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 9,
+        "best_lap_seconds": 107.712,
+        "laps": [
+          168.639,
+          113.85,
+          128.147,
+          113.913,
+          107.712
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 8,
+        "best_lap_seconds": 98.51,
+        "laps": [
+          133.703,
+          98.51,
+          114.011,
+          99.187,
+          171.103
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 15,
+        "best_lap_seconds": 95.419,
+        "laps": [
+          142.772,
+          98.822,
+          95.419,
+          108.636,
+          148.5
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Brandon Cho": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 5,
+        "best_lap_seconds": 99.566,
+        "laps": [
+          164.542,
+          115.84,
+          106.681,
+          99.566,
+          143.047
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 5,
+        "best_lap_seconds": 93.825,
+        "laps": [
+          134.452,
+          122.074,
+          110.572,
+          96.53,
+          101.649,
+          93.825
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 5,
+        "best_lap_seconds": 92.454,
+        "laps": [
+          154.321,
+          108.103,
+          96.429,
+          94.027,
+          94.588,
+          92.454
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Christopher Wa...": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 10,
+        "best_lap_seconds": 110.48,
+        "laps": [
+          162.895,
+          135.217,
+          117.257,
+          110.48,
+          115.703
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 78131,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 1,
+        "best_lap_seconds": 84.235,
+        "laps": [
+          114.657,
+          85.351,
+          86.444,
+          84.976,
+          84.837,
+          99.331,
+          84.235
+        ],
+        "start_time_iso": "2025-04-26T12:45:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 6,
+        "best_lap_seconds": 95.49,
+        "laps": [
+          127.241,
+          106.523,
+          105.366,
+          104.304,
+          111.62,
+          95.49
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 78133,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 2,
+        "best_lap_seconds": 82.889,
+        "laps": [
+          111.117,
+          82.889,
+          85.834,
+          83.814,
+          84.314,
+          86.437,
+          84.215
+        ],
+        "start_time_iso": "2025-04-26T13:15:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 11,
+        "best_lap_seconds": 93.499,
+        "laps": [
+          166.226,
+          103.219,
+          102.071,
+          93.499,
+          105.092,
+          96.212
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Christopher Ha...": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 10,
+        "best_lap_seconds": 111.972,
+        "laps": [
+          186.994,
+          131.473,
+          117.5,
+          111.972
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 9,
+        "best_lap_seconds": 97.574,
+        "laps": [
+          139.267,
+          112.552,
+          104.75,
+          99.09,
+          106.48,
+          97.574
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 79815,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 10,
+        "best_lap_seconds": 93.861,
+        "laps": [
+          149.894,
+          115.131,
+          102.269,
+          98.536,
+          95.04,
+          93.861
+        ],
+        "start_time_iso": "2025-06-25T13:30:00"
+      },
+      {
+        "heat_no": 79672,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 13,
+        "best_lap_seconds": 105.531,
+        "laps": [
+          150.312,
+          110.697,
+          107.054,
+          105.531,
+          107.3
+        ],
+        "start_time_iso": "2025-06-19T13:45:00"
+      },
+      {
+        "heat_no": 79670,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 11,
+        "best_lap_seconds": 120.856,
+        "laps": [
+          155.36,
+          124.699,
+          127.315,
+          121.324,
+          120.856
+        ],
+        "start_time_iso": "2025-06-19T13:15:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 7,
+        "best_lap_seconds": 94.134,
+        "laps": [
+          149.778,
+          99.017,
+          94.382,
+          98.497,
+          105.556,
+          94.134
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Bill Town": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 2,
+        "best_lap_seconds": 93.714,
+        "laps": [
+          138.481,
+          110.576,
+          95.889,
+          93.714,
+          97.428,
+          103.545
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 3,
+        "best_lap_seconds": 89.749,
+        "laps": [
+          128.421,
+          92.624,
+          92.381,
+          90.388,
+          90.93,
+          90.345,
+          89.749
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 3,
+        "best_lap_seconds": 87.726,
+        "laps": [
+          155.446,
+          87.726,
+          88.644,
+          88.804,
+          89.211,
+          89.851
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Yang Jiang": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 15,
+        "best_lap_seconds": 136.21,
+        "laps": [
+          184.862,
+          156.212,
+          137.272,
+          136.21
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 15,
+        "best_lap_seconds": 108.382,
+        "laps": [
+          145.464,
+          118.17,
+          121.169,
+          109.767,
+          108.382
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 14,
+        "best_lap_seconds": 102.614,
+        "laps": [
+          149.442,
+          105.084,
+          116.0,
+          102.862,
+          102.614
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Stanley Novak": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 14,
+        "best_lap_seconds": 119.376,
+        "laps": [
+          179.434,
+          130.299,
+          119.376,
+          150.571
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 10,
+        "best_lap_seconds": 97.776,
+        "laps": [
+          139.003,
+          113.73,
+          108.069,
+          101.153,
+          103.103,
+          97.776
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 9,
+        "best_lap_seconds": 95.006,
+        "laps": [
+          151.932,
+          100.008,
+          103.067,
+          95.006,
+          95.637,
+          106.104
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Rudresh Amin": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 11,
+        "best_lap_seconds": 112.639,
+        "laps": [
+          218.838,
+          120.499,
+          112.639,
+          114.582
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 13,
+        "best_lap_seconds": 99.43,
+        "laps": [
+          135.534,
+          109.411,
+          104.829,
+          103.938,
+          99.43,
+          105.4
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 8,
+        "best_lap_seconds": 92.984,
+        "laps": [
+          140.829,
+          114.729,
+          94.089,
+          101.578,
+          93.322,
+          92.984
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
+    "Nikolay Krasil...": [
+      {
+        "heat_no": 83191,
+        "heat_type": "Group Event Practice",
+        "position": 1,
+        "best_lap_seconds": 92.283,
+        "laps": [
+          158.457,
+          105.233,
+          97.456,
+          92.35,
+          93.617,
+          92.283
+        ],
+        "start_time_iso": "2025-11-07T14:30:00"
+      },
+      {
+        "heat_no": 83192,
+        "heat_type": "Group Event Qualifying",
+        "position": 2,
+        "best_lap_seconds": 89.26,
+        "laps": [
+          119.353,
+          102.945,
+          90.532,
+          89.26,
+          97.428,
+          97.463
+        ],
+        "start_time_iso": "2025-11-07T15:00:00"
+      },
+      {
+        "heat_no": 83193,
+        "heat_type": "Group Event Final",
+        "position": 1,
+        "best_lap_seconds": 86.599,
+        "laps": [
+          145.994,
+          88.584,
+          86.764,
+          86.599,
+          89.502,
+          90.016,
+          211.301
+        ],
+        "start_time_iso": "2025-11-07T15:30:00"
+      }
+    ],
     "xiaohua sun": [
       {
         "heat_no": 78448,
@@ -595118,40 +596378,6 @@
           102.66,
           84.596,
           85.573
-        ],
-        "start_time_iso": "2025-04-26T13:15:00"
-      }
-    ],
-    "Christopher Wa...": [
-      {
-        "heat_no": 78131,
-        "heat_type": "Arrive and Drive - 20 Karts",
-        "position": 1,
-        "best_lap_seconds": 84.235,
-        "laps": [
-          114.657,
-          85.351,
-          86.444,
-          84.976,
-          84.837,
-          99.331,
-          84.235
-        ],
-        "start_time_iso": "2025-04-26T12:45:00"
-      },
-      {
-        "heat_no": 78133,
-        "heat_type": "Arrive and Drive - 20 Karts",
-        "position": 2,
-        "best_lap_seconds": 82.889,
-        "laps": [
-          111.117,
-          82.889,
-          85.834,
-          83.814,
-          84.314,
-          86.437,
-          84.215
         ],
         "start_time_iso": "2025-04-26T13:15:00"
       }
@@ -616651,6 +617877,644 @@
           99.932
         ],
         "start_time_iso": "2025-06-07T18:45:00"
+      }
+    ],
+    "mason mcrae": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 1,
+        "best_lap_seconds": 87.017,
+        "laps": [
+          118.989,
+          91.202,
+          88.348,
+          88.293,
+          91.269,
+          92.579,
+          87.017
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 5,
+        "best_lap_seconds": 85.57,
+        "laps": [
+          161.981,
+          90.285,
+          87.545,
+          88.586,
+          115.7,
+          85.57
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 3,
+        "best_lap_seconds": 94.877,
+        "laps": [
+          161.187,
+          105.621,
+          101.381,
+          98.099,
+          94.877,
+          98.522
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "David Janik": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 2,
+        "best_lap_seconds": 88.494,
+        "laps": [
+          120.576,
+          91.034,
+          92.721,
+          89.638,
+          89.929,
+          89.726,
+          88.494
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 3,
+        "best_lap_seconds": 87.98,
+        "laps": [
+          161.382,
+          88.649,
+          88.066,
+          88.573,
+          101.595,
+          87.98
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 1,
+        "best_lap_seconds": 92.684,
+        "laps": [
+          153.31,
+          96.322,
+          96.607,
+          93.375,
+          92.684,
+          93.205
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Tracey Janzen": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 12,
+        "best_lap_seconds": 102.14,
+        "laps": [
+          135.224,
+          109.955,
+          112.609,
+          108.996,
+          105.864,
+          102.14
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 14,
+        "best_lap_seconds": 111.406,
+        "laps": [
+          179.458,
+          118.836,
+          115.755,
+          120.972,
+          111.406
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 13,
+        "best_lap_seconds": 124.856,
+        "laps": [
+          199.297,
+          147.076,
+          127.463,
+          124.856
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Hayley Lawrence": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 14,
+        "best_lap_seconds": 112.649,
+        "laps": [
+          140.863,
+          118.574,
+          122.726,
+          116.078,
+          112.649
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 13,
+        "best_lap_seconds": 101.303,
+        "laps": [
+          171.01,
+          115.102,
+          107.039,
+          102.682,
+          101.303
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 15,
+        "best_lap_seconds": 166.241,
+        "laps": [
+          220.806,
+          173.784,
+          166.241
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "TYLER BOYER": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 10,
+        "best_lap_seconds": 95.849,
+        "laps": [
+          122.419,
+          99.834,
+          102.131,
+          118.125,
+          96.517,
+          95.849
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 11,
+        "best_lap_seconds": 91.183,
+        "laps": [
+          173.559,
+          102.283,
+          102.69,
+          93.093,
+          91.183,
+          93.433
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 10,
+        "best_lap_seconds": 104.963,
+        "laps": [
+          170.465,
+          107.187,
+          110.041,
+          104.963,
+          118.647
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "SKYLAR SEALY": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 15,
+        "best_lap_seconds": 141.268,
+        "laps": [
+          171.554,
+          150.006,
+          143.831,
+          141.268
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 15,
+        "best_lap_seconds": 116.659,
+        "laps": [
+          170.627,
+          116.775,
+          118.009,
+          124.57,
+          116.659
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 16,
+        "best_lap_seconds": 168.907,
+        "laps": [
+          213.865,
+          170.551,
+          168.907
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Andrew Murphy": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 9,
+        "best_lap_seconds": 95.061,
+        "laps": [
+          122.545,
+          98.073,
+          113.066,
+          126.518,
+          100.175,
+          95.061
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 9,
+        "best_lap_seconds": 90.693,
+        "laps": [
+          172.283,
+          93.584,
+          91.088,
+          90.693,
+          107.784,
+          100.95
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 9,
+        "best_lap_seconds": 104.472,
+        "laps": [
+          167.324,
+          104.472,
+          126.887,
+          117.594,
+          106.844
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "RICH VEDAA": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 8,
+        "best_lap_seconds": 94.796,
+        "laps": [
+          122.049,
+          100.916,
+          96.14,
+          96.689,
+          95.236,
+          94.796
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 7,
+        "best_lap_seconds": 93.346,
+        "laps": [
+          166.076,
+          93.754,
+          95.041,
+          94.514,
+          96.753,
+          93.346
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 7,
+        "best_lap_seconds": 102.281,
+        "laps": [
+          150.823,
+          105.311,
+          106.325,
+          102.281,
+          110.917
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Luis Garcia-Luna": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 6,
+        "best_lap_seconds": 92.127,
+        "laps": [
+          131.534,
+          99.179,
+          105.299,
+          95.874,
+          92.786,
+          92.127
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 4,
+        "best_lap_seconds": 88.657,
+        "laps": [
+          167.697,
+          90.702,
+          91.319,
+          92.064,
+          91.58,
+          88.657
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 6,
+        "best_lap_seconds": 99.095,
+        "laps": [
+          163.677,
+          105.177,
+          135.825,
+          99.095,
+          111.181
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "TRACY CANIDA": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 13,
+        "best_lap_seconds": 105.094,
+        "laps": [
+          137.283,
+          109.198,
+          109.747,
+          112.373,
+          105.53,
+          105.094
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 12,
+        "best_lap_seconds": 95.103,
+        "laps": [
+          162.196,
+          103.516,
+          100.991,
+          98.713,
+          95.854,
+          95.103
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 12,
+        "best_lap_seconds": 111.688,
+        "laps": [
+          186.28,
+          124.664,
+          112.856,
+          113.336,
+          111.688
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Joe Moran": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 7,
+        "best_lap_seconds": 94.599,
+        "laps": [
+          179.72,
+          94.599,
+          97.09,
+          96.87,
+          116.681
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 8,
+        "best_lap_seconds": 93.624,
+        "laps": [
+          178.065,
+          94.664,
+          93.624,
+          95.652,
+          99.775,
+          98.005
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 8,
+        "best_lap_seconds": 102.99,
+        "laps": [
+          159.174,
+          103.432,
+          118.637,
+          102.99,
+          110.743
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Keith Janssen": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 4,
+        "best_lap_seconds": 89.788,
+        "laps": [
+          170.319,
+          92.409,
+          105.83,
+          96.527,
+          92.422,
+          89.788
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 2,
+        "best_lap_seconds": 87.707,
+        "laps": [
+          164.085,
+          88.89,
+          88.809,
+          87.707,
+          90.588,
+          92.367
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 5,
+        "best_lap_seconds": 95.774,
+        "laps": [
+          150.166,
+          101.431,
+          100.31,
+          96.061,
+          95.774,
+          96.129
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Alex Walkup": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 5,
+        "best_lap_seconds": 92.021,
+        "laps": [
+          143.234,
+          93.021,
+          97.084,
+          93.83,
+          92.228,
+          92.021
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 6,
+        "best_lap_seconds": 92.299,
+        "laps": [
+          165.304,
+          93.232,
+          92.299,
+          95.2,
+          102.119,
+          94.27
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 4,
+        "best_lap_seconds": 95.629,
+        "laps": [
+          147.743,
+          103.973,
+          99.987,
+          98.552,
+          105.899,
+          95.629
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
+      }
+    ],
+    "Courtnety Ell...": [
+      {
+        "heat_no": 83189,
+        "heat_type": "Group Event Qualifying",
+        "position": 11,
+        "best_lap_seconds": 100.272,
+        "laps": [
+          129.736,
+          116.364,
+          105.219,
+          104.364,
+          100.272,
+          106.889
+        ],
+        "start_time_iso": "2025-11-07T13:00:00"
+      },
+      {
+        "heat_no": 83190,
+        "heat_type": "Group Event Final",
+        "position": 10,
+        "best_lap_seconds": 92.432,
+        "laps": [
+          172.158,
+          99.289,
+          92.432,
+          101.384,
+          92.794,
+          96.479
+        ],
+        "start_time_iso": "2025-11-07T13:30:00"
+      },
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 11,
+        "best_lap_seconds": 107.823,
+        "laps": [
+          148.086,
+          109.068,
+          123.636,
+          110.554,
+          107.823
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
       }
     ],
     "Calvin Kimbro": [
@@ -656745,6 +658609,57 @@
           121.8
         ],
         "start_time_iso": "2025-09-17T09:15:00"
+      }
+    ],
+    "Nat Storer": [
+      {
+        "heat_no": 83216,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 82.691,
+        "laps": [
+          106.361,
+          83.845,
+          83.465,
+          83.491,
+          82.691,
+          83.163,
+          85.066,
+          84.538
+        ],
+        "start_time_iso": "2025-11-07T16:00:00"
+      },
+      {
+        "heat_no": 83213,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 83.229,
+        "laps": [
+          99.598,
+          85.839,
+          84.695,
+          83.978,
+          83.625,
+          83.229,
+          83.411,
+          83.528
+        ],
+        "start_time_iso": "2025-11-07T14:45:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 83.343,
+        "laps": [
+          131.076,
+          87.203,
+          85.149,
+          84.115,
+          83.541,
+          83.343
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       }
     ],
     "cyrus volk": [
@@ -780180,6 +782095,24 @@
         "start_time_iso": "2025-07-03T14:45:00"
       }
     ],
+    "james spiering": [
+      {
+        "heat_no": 83208,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 85.048,
+        "laps": [
+          110.851,
+          86.915,
+          85.919,
+          85.048,
+          85.33,
+          85.521,
+          85.127
+        ],
+        "start_time_iso": "2025-11-07T12:45:00"
+      }
+    ],
     "Joseph Bik": [
       {
         "heat_no": 80501,
@@ -780877,51 +782810,6 @@
           90.192
         ],
         "start_time_iso": "2025-06-25T12:30:00"
-      }
-    ],
-    "Christopher Ha...": [
-      {
-        "heat_no": 79815,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 10,
-        "best_lap_seconds": 93.861,
-        "laps": [
-          149.894,
-          115.131,
-          102.269,
-          98.536,
-          95.04,
-          93.861
-        ],
-        "start_time_iso": "2025-06-25T13:30:00"
-      },
-      {
-        "heat_no": 79672,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 13,
-        "best_lap_seconds": 105.531,
-        "laps": [
-          150.312,
-          110.697,
-          107.054,
-          105.531,
-          107.3
-        ],
-        "start_time_iso": "2025-06-19T13:45:00"
-      },
-      {
-        "heat_no": 79670,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 11,
-        "best_lap_seconds": 120.856,
-        "laps": [
-          155.36,
-          124.699,
-          127.315,
-          121.324,
-          120.856
-        ],
-        "start_time_iso": "2025-06-19T13:15:00"
       }
     ],
     "Emily Hadland": [
@@ -834962,38 +836850,6 @@
         "start_time_iso": "2025-03-08T17:00:00"
       }
     ],
-    "Sasha Berchenko": [
-      {
-        "heat_no": 76955,
-        "heat_type": "Arrive and Drive - 20 Karts",
-        "position": 8,
-        "best_lap_seconds": 91.953,
-        "laps": [
-          153.073,
-          100.152,
-          122.067,
-          91.953,
-          92.498,
-          93.56
-        ],
-        "start_time_iso": "2025-03-08T15:45:00"
-      },
-      {
-        "heat_no": 76957,
-        "heat_type": "Arrive and Drive - 20 Karts",
-        "position": 8,
-        "best_lap_seconds": 89.52,
-        "laps": [
-          114.535,
-          91.68,
-          89.52,
-          90.452,
-          106.881,
-          94.854
-        ],
-        "start_time_iso": "2025-03-08T16:15:00"
-      }
-    ],
     "Riya Venkatesh": [
       {
         "heat_no": 76955,
@@ -846926,6 +848782,52 @@
           118.584
         ],
         "start_time_iso": "2025-04-12T14:15:00"
+      }
+    ],
+    "Debra Shelton": [
+      {
+        "heat_no": 83203,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 138.78,
+        "laps": [
+          148.434,
+          154.625,
+          139.172,
+          138.78
+        ],
+        "start_time_iso": "2025-11-07T11:15:00"
+      }
+    ],
+    "Matthew Shelton": [
+      {
+        "heat_no": 83203,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 129.146,
+        "laps": [
+          155.663,
+          142.53,
+          141.44,
+          129.146
+        ],
+        "start_time_iso": "2025-11-07T11:15:00"
+      }
+    ],
+    "ROBIN BECKMAN": [
+      {
+        "heat_no": 83203,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 129.949,
+        "laps": [
+          151.786,
+          139.433,
+          133.366,
+          129.949,
+          132.769
+        ],
+        "start_time_iso": "2025-11-07T11:15:00"
       }
     ],
     "Daylen Cox": [
@@ -864551,6 +866453,39 @@
           110.133
         ],
         "start_time_iso": "2025-03-29T13:15:00"
+      }
+    ],
+    "Clay Dedrick": [
+      {
+        "heat_no": 83217,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 85.464,
+        "laps": [
+          122.21,
+          88.408,
+          87.068,
+          86.882,
+          86.43,
+          89.756,
+          85.464
+        ],
+        "start_time_iso": "2025-11-07T16:15:00"
+      },
+      {
+        "heat_no": 83215,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 88.314,
+        "laps": [
+          95.251,
+          90.21,
+          90.527,
+          90.362,
+          88.614,
+          88.314
+        ],
+        "start_time_iso": "2025-11-07T15:45:00"
       }
     ],
     "Ken Stewart": [
@@ -890706,6 +892641,87 @@
         "start_time_iso": "2025-07-11T14:00:00"
       }
     ],
+    "Laura Toledo": [
+      {
+        "heat_no": 83200,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 157.84,
+        "laps": [
+          187.281,
+          162.551,
+          157.84
+        ],
+        "start_time_iso": "2025-11-07T10:30:00"
+      },
+      {
+        "heat_no": 83198,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 160.463,
+        "laps": [
+          193.537,
+          165.966,
+          160.463
+        ],
+        "start_time_iso": "2025-11-07T10:00:00"
+      }
+    ],
+    "Po Hsien Hsu": [
+      {
+        "heat_no": 83200,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 135.584,
+        "laps": [
+          153.898,
+          136.006,
+          135.584,
+          146.993
+        ],
+        "start_time_iso": "2025-11-07T10:30:00"
+      },
+      {
+        "heat_no": 83198,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 151.673,
+        "laps": [
+          179.512,
+          166.721,
+          168.201,
+          151.673
+        ],
+        "start_time_iso": "2025-11-07T10:00:00"
+      }
+    ],
+    "Fredy Barrero": [
+      {
+        "heat_no": 83200,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 139.706,
+        "laps": [
+          169.592,
+          144.569,
+          146.194,
+          139.706
+        ],
+        "start_time_iso": "2025-11-07T10:30:00"
+      },
+      {
+        "heat_no": 83198,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 151.157,
+        "laps": [
+          243.233,
+          154.992,
+          151.157
+        ],
+        "start_time_iso": "2025-11-07T10:00:00"
+      }
+    ],
     "Taonga Kandiwo": [
       {
         "heat_no": 82323,
@@ -892276,6 +894292,21 @@
           140.578
         ],
         "start_time_iso": "2025-04-16T11:30:00"
+      }
+    ],
+    "TRISH CARLE": [
+      {
+        "heat_no": 83188,
+        "heat_type": "Group Event Practice",
+        "position": 14,
+        "best_lap_seconds": 153.048,
+        "laps": [
+          199.199,
+          160.063,
+          157.89,
+          153.048
+        ],
+        "start_time_iso": "2025-11-07T12:30:00"
       }
     ],
     "Armon Khaleghi": [

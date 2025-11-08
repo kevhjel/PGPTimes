@@ -1,0 +1,31 @@
+{
+  "heat_no": 83201,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-07T10:45:00",
+  "drivers": [
+    {
+      "name": "Joakim Vinberg",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.271,
+      "lap_times_url": null,
+      "laps": [
+        118.192,
+        111.275,
+        110.894,
+        109.656,
+        107.676,
+        107.271
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83201"
+}
