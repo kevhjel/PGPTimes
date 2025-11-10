@@ -1,0 +1,59 @@
+{
+  "heat_no": 83275,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-06T14:45:00",
+  "drivers": [
+    {
+      "name": "Vasil Vasilev",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.364,
+      "lap_times_url": null,
+      "laps": [
+        184.037,
+        118.85,
+        118.426,
+        117.364,
+        145.694
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Breaun Dozier",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 245.663,
+      "lap_times_url": null,
+      "laps": [
+        322.475,
+        245.663
+      ],
+      "lap_positions": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Leyasha Jones",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 209.892,
+      "lap_times_url": null,
+      "laps": [
+        289.453,
+        209.892
+      ],
+      "lap_positions": [
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83275"
+}

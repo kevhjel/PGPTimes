@@ -1,0 +1,29 @@
+{
+  "heat_no": 83273,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-06T14:30:00",
+  "drivers": [
+    {
+      "name": "Vasil Vasilev",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.673,
+      "lap_times_url": null,
+      "laps": [
+        115.689,
+        115.205,
+        114.713,
+        116.014,
+        114.673
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83273"
+}
