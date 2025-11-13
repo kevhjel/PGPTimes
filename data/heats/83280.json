@@ -1,0 +1,33 @@
+{
+  "heat_no": 83280,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T09:45:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.923,
+      "lap_times_url": null,
+      "laps": [
+        83.875,
+        83.408,
+        84.198,
+        83.172,
+        83.012,
+        83.084,
+        82.923
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83280"
+}

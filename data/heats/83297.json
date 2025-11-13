@@ -1,0 +1,98 @@
+{
+  "heat_no": 83297,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T14:00:00",
+  "drivers": [
+    {
+      "name": "Anna Hansen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.142,
+      "lap_times_url": null,
+      "laps": [
+        135.156,
+        105.647,
+        96.471,
+        94.176,
+        94.919,
+        94.522,
+        93.142
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mark Hansen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.396,
+      "lap_times_url": null,
+      "laps": [
+        136.373,
+        97.249,
+        94.533,
+        94.488,
+        107.969,
+        93.169,
+        92.396
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Trey Andrews",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.725,
+      "lap_times_url": null,
+      "laps": [
+        136.938,
+        126.092,
+        124.873,
+        131.176,
+        120.725
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kimberly Joslin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 149.266,
+      "lap_times_url": null,
+      "laps": [
+        178.017,
+        157.692,
+        149.266,
+        150.254
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83297"
+}

@@ -1,0 +1,115 @@
+{
+  "heat_no": 83298,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T14:15:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 80.09,
+      "lap_times_url": null,
+      "laps": [
+        81.977,
+        81.566,
+        81.078,
+        81.586,
+        80.155,
+        80.369,
+        80.09
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.084,
+      "lap_times_url": null,
+      "laps": [
+        82.512,
+        80.868,
+        80.832,
+        81.057,
+        80.26,
+        80.185,
+        80.084
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.723,
+      "lap_times_url": null,
+      "laps": [
+        82.881,
+        81.247,
+        80.418,
+        82.136,
+        79.723,
+        79.897,
+        80.071
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ziauddin Sedeqi",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 122.209,
+      "lap_times_url": null,
+      "laps": [
+        152.53,
+        135.667,
+        136.472,
+        122.209
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Halima Faizi",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 194.863,
+      "lap_times_url": null,
+      "laps": [
+        194.863
+      ],
+      "lap_positions": [
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83298"
+}

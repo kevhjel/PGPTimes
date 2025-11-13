@@ -1,0 +1,77 @@
+{
+  "heat_no": 83286,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T11:15:00",
+  "drivers": [
+    {
+      "name": "Aditya Viswesw...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.076,
+      "lap_times_url": null,
+      "laps": [
+        133.542,
+        97.27,
+        102.534,
+        97.83,
+        95.076,
+        95.882
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Chandrasekar V",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 94.906,
+      "lap_times_url": null,
+      "laps": [
+        134.266,
+        99.03,
+        95.228,
+        104.496,
+        108.579,
+        94.906
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Ashwin A",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 100.722,
+      "lap_times_url": null,
+      "laps": [
+        136.14,
+        111.877,
+        108.275,
+        104.771,
+        102.201,
+        100.722
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83286"
+}

@@ -1,0 +1,58 @@
+{
+  "heat_no": 83299,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T14:30:00",
+  "drivers": [
+    {
+      "name": "Anna Hansen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 89.926,
+      "lap_times_url": null,
+      "laps": [
+        113.452,
+        91.839,
+        90.608,
+        91.211,
+        90.327,
+        90.285,
+        89.926
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mark Hansen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.451,
+      "lap_times_url": null,
+      "laps": [
+        121.375,
+        93.912,
+        92.591,
+        90.728,
+        90.754,
+        90.451,
+        91.253
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83299"
+}

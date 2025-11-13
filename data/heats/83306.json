@@ -1,0 +1,160 @@
+{
+  "heat_no": 83306,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T16:15:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.36,
+      "lap_times_url": null,
+      "laps": [
+        99.725,
+        81.596,
+        80.934,
+        80.399,
+        80.505,
+        80.36,
+        80.517,
+        80.445
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Apollo Dent",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 87.743,
+      "lap_times_url": null,
+      "laps": [
+        105.639,
+        88.415,
+        88.472,
+        87.743,
+        88.516,
+        89.072,
+        88.26
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Phil McGill",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.408,
+      "lap_times_url": null,
+      "laps": [
+        103.92,
+        88.684,
+        88.425,
+        87.365,
+        85.41,
+        84.408,
+        86.161
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alexander Au",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.848,
+      "lap_times_url": null,
+      "laps": [
+        103.367,
+        88.028,
+        85.614,
+        85.215,
+        83.848,
+        83.905,
+        85.723,
+        84.757
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Joseph Talbot",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 91.14,
+      "lap_times_url": null,
+      "laps": [
+        107.371,
+        111.744,
+        91.14,
+        95.603,
+        92.128,
+        119.385
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Ethan Stone",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.771,
+      "lap_times_url": null,
+      "laps": [
+        102.99,
+        87.759,
+        88.113,
+        85.201,
+        86.608,
+        84.838,
+        84.771
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        2,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83306"
+}

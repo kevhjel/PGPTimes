@@ -1,0 +1,124 @@
+{
+  "heat_no": 83303,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-12T15:30:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.505,
+      "lap_times_url": null,
+      "laps": [
+        86.468,
+        84.769,
+        153.145,
+        82.234,
+        81.614,
+        81.02,
+        80.745,
+        80.505,
+        81.245
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Phil McGill",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.33,
+      "lap_times_url": null,
+      "laps": [
+        94.313,
+        86.625,
+        86.68,
+        85.44,
+        85.069,
+        85.015,
+        85.338,
+        84.875,
+        84.33
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Anna Hansen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.88,
+      "lap_times_url": null,
+      "laps": [
+        98.107,
+        91.541,
+        90.522,
+        88.62,
+        87.88,
+        89.254,
+        88.63,
+        87.917,
+        89.407
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Mark Hansen",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.871,
+      "lap_times_url": null,
+      "laps": [
+        96.288,
+        92.188,
+        91.163,
+        88.871,
+        89.781,
+        90.704,
+        88.878,
+        89.111,
+        89.402
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83303"
+}
