@@ -1,0 +1,46 @@
+{
+  "heat_no": 83362,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-13T15:15:00",
+  "drivers": [
+    {
+      "name": "Nick Armstrong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.647,
+      "lap_times_url": null,
+      "laps": [
+        122.354,
+        124.806,
+        120.725,
+        117.647
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.772,
+      "lap_times_url": null,
+      "laps": [
+        119.949,
+        121.808,
+        126.008,
+        116.772
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83362"
+}
