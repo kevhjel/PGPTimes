@@ -1,0 +1,27 @@
+{
+  "heat_no": 83377,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-15T11:00:00",
+  "drivers": [
+    {
+      "name": "Olivia Massa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 140.034,
+      "lap_times_url": null,
+      "laps": [
+        140.034,
+        143.711,
+        145.519,
+        177.68
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83377"
+}

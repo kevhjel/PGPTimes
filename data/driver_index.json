@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-11-15T06:20:07Z",
+  "last_updated_utc": "2025-11-16T06:20:14Z",
   "drivers": {
     "Severn Allen": [
       {
@@ -1339,6 +1339,20 @@
         "start_time_iso": "2025-01-26T14:15:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 10,
+        "best_lap_seconds": 113.74,
+        "laps": [
+          119.504,
+          115.472,
+          114.239,
+          113.74,
+          114.146
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 75816,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 3,
@@ -1532,6 +1546,24 @@
           80.908
         ],
         "start_time_iso": "2025-08-27T17:00:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 22,
+        "best_lap_seconds": 111.416,
+        "laps": [
+          134.715,
+          113.94,
+          114.029,
+          115.696,
+          114.556,
+          114.793,
+          112.226,
+          111.424,
+          111.416
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -2168,6 +2200,19 @@
           81.487
         ],
         "start_time_iso": "2025-01-29T15:15:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 12,
+        "best_lap_seconds": 118.653,
+        "laps": [
+          122.919,
+          120.859,
+          118.696,
+          118.653
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 81505,
@@ -3021,6 +3066,25 @@
           79.338
         ],
         "start_time_iso": "2025-05-31T10:25:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 13,
+        "best_lap_seconds": 108.787,
+        "laps": [
+          118.842,
+          113.132,
+          111.685,
+          110.944,
+          111.076,
+          111.202,
+          111.629,
+          110.39,
+          109.945,
+          108.787
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 76854,
@@ -5788,6 +5852,19 @@
         "start_time_iso": "2025-03-21T14:00:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 7,
+        "best_lap_seconds": 113.621,
+        "laps": [
+          122.098,
+          114.749,
+          114.594,
+          113.621
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 83073,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -6041,6 +6118,20 @@
           79.783
         ],
         "start_time_iso": "2025-05-03T09:45:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 6,
+        "best_lap_seconds": 110.165,
+        "laps": [
+          117.629,
+          111.626,
+          110.707,
+          110.165,
+          111.315
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78713,
@@ -7305,6 +7396,24 @@
           81.169
         ],
         "start_time_iso": "2025-02-12T16:45:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 21,
+        "best_lap_seconds": 112.482,
+        "laps": [
+          124.451,
+          117.966,
+          115.736,
+          114.321,
+          114.176,
+          113.357,
+          115.428,
+          112.482,
+          112.955
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 76036,
@@ -9164,6 +9273,19 @@
         "start_time_iso": "2025-01-29T15:15:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 11,
+        "best_lap_seconds": 117.555,
+        "laps": [
+          122.861,
+          121.157,
+          119.111,
+          117.555
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 75884,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -10314,6 +10436,20 @@
           84.213
         ],
         "start_time_iso": "2025-01-11T13:15:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 12,
+        "best_lap_seconds": 116.706,
+        "laps": [
+          120.974,
+          131.977,
+          118.329,
+          120.036,
+          116.706
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 76706,
@@ -18960,6 +19096,20 @@
         "start_time_iso": "2025-01-11T10:00:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 6,
+        "best_lap_seconds": 110.341,
+        "laps": [
+          113.698,
+          113.32,
+          111.397,
+          111.878,
+          110.341
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82192,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -19099,6 +19249,25 @@
           79.895
         ],
         "start_time_iso": "2025-05-08T17:15:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 10,
+        "best_lap_seconds": 107.944,
+        "laps": [
+          116.284,
+          110.41,
+          110.058,
+          109.001,
+          110.034,
+          111.095,
+          109.374,
+          109.448,
+          107.944,
+          108.278
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 82522,
@@ -20679,6 +20848,19 @@
           81.526
         ],
         "start_time_iso": "2025-01-25T14:30:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 8,
+        "best_lap_seconds": 113.674,
+        "laps": [
+          121.188,
+          115.658,
+          116.447,
+          113.674
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 80383,
@@ -23402,6 +23584,20 @@
         "start_time_iso": "2025-06-04T14:00:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 1,
+        "best_lap_seconds": 109.162,
+        "laps": [
+          110.754,
+          110.278,
+          110.077,
+          109.726,
+          109.162
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82094,
         "heat_type": "League Heat",
         "position": 4,
@@ -23637,6 +23833,25 @@
           80.163
         ],
         "start_time_iso": "2025-07-02T13:45:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 4,
+        "best_lap_seconds": 106.638,
+        "laps": [
+          109.443,
+          108.724,
+          110.812,
+          108.34,
+          108.088,
+          109.05,
+          108.362,
+          107.538,
+          109.441,
+          106.638
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -25496,6 +25711,19 @@
         "start_time_iso": "2025-08-20T14:00:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 4,
+        "best_lap_seconds": 110.865,
+        "laps": [
+          113.702,
+          113.361,
+          110.883,
+          110.865
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 77586,
         "heat_type": "League Qualifier",
         "position": 5,
@@ -26019,6 +26247,25 @@
           80.131
         ],
         "start_time_iso": "2025-07-26T09:00:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 2,
+        "best_lap_seconds": 105.798,
+        "laps": [
+          112.154,
+          108.078,
+          109.418,
+          107.323,
+          106.567,
+          106.997,
+          106.707,
+          105.798,
+          106.955,
+          106.102
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 75773,
@@ -26822,6 +27069,19 @@
         "start_time_iso": "2025-03-15T09:30:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 5,
+        "best_lap_seconds": 112.606,
+        "laps": [
+          117.76,
+          115.243,
+          113.637,
+          112.606
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 82095,
         "heat_type": "League Heat",
         "position": 1,
@@ -27300,6 +27560,20 @@
           80.645
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 3,
+        "best_lap_seconds": 108.779,
+        "laps": [
+          116.112,
+          110.253,
+          110.336,
+          108.779,
+          109.374
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 81023,
@@ -28115,6 +28389,25 @@
           104.966
         ],
         "start_time_iso": "2025-02-08T09:45:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 6,
+        "best_lap_seconds": 107.243,
+        "laps": [
+          114.83,
+          109.437,
+          109.515,
+          108.473,
+          108.49,
+          107.249,
+          107.243,
+          110.436,
+          107.828,
+          107.638
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -29740,6 +30033,19 @@
         "start_time_iso": "2025-07-26T09:15:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 1,
+        "best_lap_seconds": 110.348,
+        "laps": [
+          116.484,
+          113.589,
+          113.477,
+          110.348
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 77586,
         "heat_type": "League Qualifier",
         "position": 3,
@@ -29809,6 +30115,20 @@
           79.01
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 2,
+        "best_lap_seconds": 108.235,
+        "laps": [
+          112.716,
+          110.356,
+          108.235,
+          108.652,
+          108.288
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 81023,
@@ -30319,6 +30639,25 @@
           79.01
         ],
         "start_time_iso": "2025-05-31T10:25:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 1,
+        "best_lap_seconds": 105.905,
+        "laps": [
+          109.76,
+          108.457,
+          107.947,
+          107.013,
+          106.472,
+          106.409,
+          107.294,
+          105.905,
+          106.395,
+          106.333
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -30932,6 +31271,19 @@
         "start_time_iso": "2025-07-12T09:00:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 1,
+        "best_lap_seconds": 109.874,
+        "laps": [
+          114.67,
+          110.823,
+          110.185,
+          109.874
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 75772,
         "heat_type": "League Heat",
         "position": 3,
@@ -31297,6 +31649,20 @@
           79.45
         ],
         "start_time_iso": "2025-05-03T09:45:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 1,
+        "best_lap_seconds": 106.419,
+        "laps": [
+          112.881,
+          108.104,
+          106.743,
+          106.419,
+          107.156
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78713,
@@ -32421,6 +32787,20 @@
         "start_time_iso": "2025-06-04T19:30:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 5,
+        "best_lap_seconds": 109.843,
+        "laps": [
+          113.753,
+          111.244,
+          114.353,
+          109.843,
+          109.859
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 76568,
         "heat_type": "League Heat",
         "position": 10,
@@ -32631,6 +33011,25 @@
           80.619
         ],
         "start_time_iso": "2025-03-19T15:45:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 11,
+        "best_lap_seconds": 107.765,
+        "laps": [
+          127.135,
+          110.013,
+          108.561,
+          109.783,
+          110.583,
+          108.848,
+          108.042,
+          108.516,
+          107.765,
+          108.941
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 79419,
@@ -33898,6 +34297,19 @@
           80.69
         ],
         "start_time_iso": "2025-10-04T09:30:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 6,
+        "best_lap_seconds": 113.173,
+        "laps": [
+          118.761,
+          114.082,
+          119.772,
+          113.173
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
       },
       {
         "heat_no": 78818,
@@ -36094,6 +36506,25 @@
         "start_time_iso": "2025-05-31T10:25:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 5,
+        "best_lap_seconds": 106.458,
+        "laps": [
+          113.389,
+          108.73,
+          108.869,
+          107.204,
+          107.084,
+          109.335,
+          108.841,
+          106.549,
+          111.722,
+          106.458
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 79924,
         "heat_type": "League Final",
         "position": 7,
@@ -36933,6 +37364,19 @@
         "start_time_iso": "2025-06-28T09:00:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 3,
+        "best_lap_seconds": 110.776,
+        "laps": [
+          115.354,
+          114.676,
+          110.776,
+          116.136
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 76549,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -36970,6 +37414,20 @@
           78.949
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 4,
+        "best_lap_seconds": 109.493,
+        "laps": [
+          113.862,
+          113.051,
+          110.878,
+          109.493,
+          110.946
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 76285,
@@ -41957,6 +42415,20 @@
         "start_time_iso": "2025-07-09T19:00:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 8,
+        "best_lap_seconds": 110.131,
+        "laps": [
+          116.788,
+          113.266,
+          112.34,
+          110.343,
+          110.131
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82094,
         "heat_type": "League Heat",
         "position": 1,
@@ -42277,6 +42749,25 @@
           81.173
         ],
         "start_time_iso": "2025-06-06T19:30:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 17,
+        "best_lap_seconds": 108.459,
+        "laps": [
+          135.872,
+          111.858,
+          112.773,
+          110.136,
+          110.31,
+          109.244,
+          109.736,
+          109.232,
+          108.459,
+          108.661
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -44028,6 +44519,19 @@
           106.62
         ],
         "start_time_iso": "2025-02-08T09:15:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 10,
+        "best_lap_seconds": 114.686,
+        "laps": [
+          138.005,
+          116.171,
+          117.267,
+          114.686
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 79496,
@@ -61111,6 +61615,25 @@
         "start_time_iso": "2025-05-31T10:25:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 8,
+        "best_lap_seconds": 106.496,
+        "laps": [
+          118.889,
+          110.575,
+          112.882,
+          108.555,
+          106.636,
+          106.496,
+          106.611,
+          106.686,
+          106.692,
+          107.289
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 80690,
         "heat_type": "League Heat",
         "position": 3,
@@ -61860,6 +62383,19 @@
         "start_time_iso": "2025-07-12T09:00:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 3,
+        "best_lap_seconds": 111.855,
+        "laps": [
+          117.299,
+          114.084,
+          112.128,
+          111.855
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 75913,
         "heat_type": "Endurance Race",
         "position": 6,
@@ -62576,6 +63112,20 @@
           78.894
         ],
         "start_time_iso": "2025-05-03T09:45:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 7,
+        "best_lap_seconds": 109.929,
+        "laps": [
+          118.991,
+          111.933,
+          111.005,
+          109.929,
+          110.15
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78713,
@@ -89255,6 +89805,25 @@
         "start_time_iso": "2025-03-20T15:15:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 18,
+        "best_lap_seconds": 108.705,
+        "laps": [
+          121.123,
+          115.447,
+          110.99,
+          118.995,
+          112.024,
+          109.87,
+          109.578,
+          110.524,
+          109.114,
+          108.705
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 77232,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 1,
@@ -89625,6 +90194,19 @@
         "start_time_iso": "2025-03-27T10:15:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 9,
+        "best_lap_seconds": 114.281,
+        "laps": [
+          120.383,
+          117.756,
+          114.802,
+          114.281
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 75772,
         "heat_type": "League Heat",
         "position": 11,
@@ -89818,6 +90400,20 @@
           80.159
         ],
         "start_time_iso": "2025-05-03T10:00:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 9,
+        "best_lap_seconds": 112.764,
+        "laps": [
+          128.232,
+          117.518,
+          112.764,
+          113.025,
+          112.822
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78318,
@@ -98021,6 +98617,20 @@
         "start_time_iso": "2025-10-25T13:15:00"
       },
       {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 110.603,
+        "laps": [
+          151.434,
+          112.774,
+          110.992,
+          112.62,
+          110.603
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
         "heat_no": 82955,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 1,
@@ -98033,6 +98643,22 @@
           122.025
         ],
         "start_time_iso": "2025-10-25T11:45:00"
+      },
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 87.972,
+        "laps": [
+          122.971,
+          98.699,
+          92.203,
+          88.812,
+          88.731,
+          87.972,
+          88.077
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
       },
       {
         "heat_no": 82252,
@@ -98135,6 +98761,20 @@
           84.119
         ],
         "start_time_iso": "2025-09-19T13:45:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 113.183,
+        "laps": [
+          151.38,
+          114.833,
+          113.183,
+          114.943,
+          144.385
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
       },
       {
         "heat_no": 76052,
@@ -98478,6 +99118,36 @@
           83.583
         ],
         "start_time_iso": "2025-11-08T15:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 84.951,
+        "laps": [
+          115.277,
+          84.951,
+          92.725,
+          94.587,
+          101.145,
+          104.988
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 107.906,
+        "laps": [
+          133.638,
+          107.906,
+          110.599,
+          109.187,
+          113.524,
+          116.035
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
       }
     ],
     "Andrei Vulcan": [
@@ -125531,6 +126201,20 @@
         "start_time_iso": "2025-05-30T18:30:00"
       },
       {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 120.29,
+        "laps": [
+          158.025,
+          132.195,
+          123.229,
+          132.637,
+          120.29
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
         "heat_no": 79108,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 5,
@@ -125577,6 +126261,19 @@
           84.795
         ],
         "start_time_iso": "2025-05-30T19:00:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 133.352,
+        "laps": [
+          159.276,
+          154.168,
+          133.945,
+          133.352
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
       }
     ],
     "RYLAN ORMAN": [
@@ -135409,6 +136106,34 @@
           85.525
         ],
         "start_time_iso": "2025-10-12T13:45:00"
+      },
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 100.425,
+        "laps": [
+          142.364,
+          110.266,
+          101.806,
+          100.425,
+          103.001
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 105.452,
+        "laps": [
+          170.781,
+          137.259,
+          112.442,
+          114.175,
+          105.452
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
       }
     ],
     "Daniel Diaz jr": [
@@ -139041,6 +139766,20 @@
         "start_time_iso": "2025-09-20T09:15:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 4,
+        "best_lap_seconds": 109.485,
+        "laps": [
+          112.972,
+          112.282,
+          110.807,
+          110.728,
+          109.485
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 79920,
         "heat_type": "League Qualifier",
         "position": 7,
@@ -139143,6 +139882,25 @@
           79.835
         ],
         "start_time_iso": "2025-05-31T10:25:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 14,
+        "best_lap_seconds": 108.721,
+        "laps": [
+          117.649,
+          111.953,
+          114.013,
+          110.87,
+          113.782,
+          109.494,
+          109.65,
+          111.095,
+          111.365,
+          108.721
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 75773,
@@ -139663,6 +140421,19 @@
           111.412
         ],
         "start_time_iso": "2025-02-08T09:15:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 4,
+        "best_lap_seconds": 111.966,
+        "laps": [
+          119.631,
+          115.213,
+          113.627,
+          111.966
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 82095,
@@ -140762,6 +141533,20 @@
         "start_time_iso": "2025-09-20T09:15:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 7,
+        "best_lap_seconds": 110.219,
+        "laps": [
+          114.837,
+          112.32,
+          112.799,
+          110.644,
+          110.219
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 79920,
         "heat_type": "League Qualifier",
         "position": 9,
@@ -140880,6 +141665,25 @@
           80.376
         ],
         "start_time_iso": "2025-05-31T10:25:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 12,
+        "best_lap_seconds": 109.487,
+        "laps": [
+          121.121,
+          111.311,
+          110.956,
+          111.513,
+          110.822,
+          110.232,
+          110.361,
+          111.508,
+          109.487,
+          109.581
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -141295,6 +142099,19 @@
           110.443
         ],
         "start_time_iso": "2025-02-08T09:15:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 6,
+        "best_lap_seconds": 113.068,
+        "laps": [
+          118.508,
+          116.779,
+          115.502,
+          113.068
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 76282,
@@ -141964,6 +142781,20 @@
         "start_time_iso": "2025-09-20T09:15:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 2,
+        "best_lap_seconds": 109.536,
+        "laps": [
+          112.185,
+          110.274,
+          109.964,
+          109.536,
+          109.57
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 79920,
         "heat_type": "League Qualifier",
         "position": 4,
@@ -142068,6 +142899,25 @@
           79.845
         ],
         "start_time_iso": "2025-05-31T10:25:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 7,
+        "best_lap_seconds": 107.384,
+        "laps": [
+          112.982,
+          110.49,
+          108.446,
+          108.421,
+          107.732,
+          108.544,
+          107.704,
+          108.136,
+          111.923,
+          107.384
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 77872,
@@ -143063,6 +143913,19 @@
         "start_time_iso": "2025-04-05T09:45:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 2,
+        "best_lap_seconds": 110.595,
+        "laps": [
+          115.218,
+          114.35,
+          112.274,
+          110.595
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 80341,
         "heat_type": "League Heat",
         "position": 5,
@@ -143395,6 +144258,20 @@
         "start_time_iso": "2025-07-09T19:00:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 11,
+        "best_lap_seconds": 116.364,
+        "laps": [
+          121.52,
+          118.287,
+          116.721,
+          120.917,
+          116.364
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82094,
         "heat_type": "League Heat",
         "position": 14,
@@ -143457,6 +144334,24 @@
           81.967
         ],
         "start_time_iso": "2025-08-09T10:00:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 23,
+        "best_lap_seconds": 112.647,
+        "laps": [
+          117.404,
+          113.562,
+          113.07,
+          112.647,
+          112.724,
+          115.712,
+          141.517,
+          119.84,
+          113.447
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -143803,6 +144698,19 @@
           82.703
         ],
         "start_time_iso": "2025-07-26T10:00:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 14,
+        "best_lap_seconds": 119.375,
+        "laps": [
+          126.134,
+          119.375,
+          122.019,
+          124.351
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
       },
       {
         "heat_no": 82260,
@@ -146408,6 +147316,20 @@
         "start_time_iso": "2025-07-09T19:00:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 3,
+        "best_lap_seconds": 109.244,
+        "laps": [
+          112.292,
+          110.706,
+          109.976,
+          109.244,
+          109.638
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82094,
         "heat_type": "League Heat",
         "position": 7,
@@ -146545,6 +147467,25 @@
           82.158
         ],
         "start_time_iso": "2025-07-16T18:30:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 3,
+        "best_lap_seconds": 107.116,
+        "laps": [
+          110.539,
+          107.768,
+          108.581,
+          107.116,
+          107.796,
+          107.14,
+          108.817,
+          108.807,
+          108.331,
+          107.91
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 79419,
@@ -147713,6 +148654,19 @@
         "start_time_iso": "2025-02-08T09:15:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 2,
+        "best_lap_seconds": 111.208,
+        "laps": [
+          115.579,
+          112.685,
+          112.288,
+          111.208
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 76282,
         "heat_type": "League Heat",
         "position": 8,
@@ -148689,6 +149643,20 @@
         "start_time_iso": "2025-10-04T09:45:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 12,
+        "best_lap_seconds": 120.566,
+        "laps": [
+          121.32,
+          121.354,
+          120.577,
+          120.566,
+          128.301
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 82094,
         "heat_type": "League Heat",
         "position": 15,
@@ -148770,6 +149738,24 @@
           82.346
         ],
         "start_time_iso": "2025-08-09T10:00:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 24,
+        "best_lap_seconds": 117.948,
+        "laps": [
+          122.149,
+          119.855,
+          119.775,
+          118.433,
+          117.948,
+          120.029,
+          118.461,
+          118.769,
+          118.203
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 80690,
@@ -149463,6 +150449,19 @@
           84.829
         ],
         "start_time_iso": "2025-04-05T09:45:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 12,
+        "best_lap_seconds": 124.849,
+        "laps": [
+          126.927,
+          124.849,
+          125.545,
+          124.916
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
       },
       {
         "heat_no": 79204,
@@ -152985,6 +153984,37 @@
         "start_time_iso": "2025-04-27T13:00:00"
       },
       {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 87.602,
+        "laps": [
+          119.557,
+          92.943,
+          89.506,
+          88.153,
+          87.756,
+          89.028,
+          87.602
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 104.188,
+        "laps": [
+          144.626,
+          110.587,
+          107.712,
+          106.986,
+          104.188,
+          105.381
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
         "heat_no": 82476,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 2,
@@ -153752,6 +154782,21 @@
           82.067
         ],
         "start_time_iso": "2025-08-13T18:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 85.117,
+        "laps": [
+          115.093,
+          85.117,
+          91.56,
+          111.424,
+          112.471,
+          108.701
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
       },
       {
         "heat_no": 80512,
@@ -163885,6 +164930,19 @@
         "start_time_iso": "2025-10-18T13:00:00"
       },
       {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 126.698,
+        "laps": [
+          151.636,
+          186.297,
+          128.352,
+          126.698
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
         "heat_no": 82786,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 9,
@@ -163914,6 +164972,33 @@
           90.423
         ],
         "start_time_iso": "2025-10-18T14:00:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 146.574,
+        "laps": [
+          157.902,
+          158.503,
+          147.391,
+          146.574
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
+        "heat_no": 83393,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 125.753,
+        "laps": [
+          154.05,
+          125.753,
+          127.648,
+          130.022,
+          126.403
+        ],
+        "start_time_iso": "2025-11-15T15:45:00"
       }
     ],
     "Angie Apperson": [
@@ -173109,6 +174194,21 @@
         "start_time_iso": "2025-08-29T10:45:00"
       },
       {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 95.813,
+        "laps": [
+          121.146,
+          107.721,
+          99.512,
+          96.31,
+          95.813,
+          101.296
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
         "heat_no": 82072,
         "heat_type": "Arrive and Drive -15 Karts",
         "position": 3,
@@ -173123,6 +174223,20 @@
           98.386
         ],
         "start_time_iso": "2025-09-19T11:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 111.136,
+        "laps": [
+          153.456,
+          115.93,
+          114.825,
+          114.697,
+          111.136
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
       },
       {
         "heat_no": 81572,
@@ -173155,6 +174269,33 @@
           90.481
         ],
         "start_time_iso": "2025-08-29T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 121.059,
+        "laps": [
+          147.086,
+          127.7,
+          121.059,
+          130.906,
+          155.617
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      },
+      {
+        "heat_no": 83377,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 140.034,
+        "laps": [
+          140.034,
+          143.711,
+          145.519,
+          177.68
+        ],
+        "start_time_iso": "2025-11-15T11:00:00"
       },
       {
         "heat_no": 82923,
@@ -173215,6 +174356,21 @@
           84.688
         ],
         "start_time_iso": "2025-09-19T12:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 89.869,
+        "laps": [
+          120.98,
+          89.869,
+          98.672,
+          106.277,
+          140.84,
+          115.098
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
       }
     ],
     "Dario De Agost...": [
@@ -174011,6 +175167,398 @@
         "start_time_iso": "2025-10-19T09:45:00"
       }
     ],
+    "Jeremy Mushailov": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 2,
+        "best_lap_seconds": 124.364,
+        "laps": [
+          125.981,
+          130.686,
+          133.555,
+          124.364
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 7,
+        "best_lap_seconds": 117.344,
+        "laps": [
+          146.195,
+          125.198,
+          119.455,
+          119.08,
+          117.344
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 3,
+        "best_lap_seconds": 94.037,
+        "laps": [
+          138.637,
+          97.961,
+          95.246,
+          94.679,
+          94.037,
+          95.804
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Nicole Buzzelli": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 3,
+        "best_lap_seconds": 142.705,
+        "laps": [
+          146.281,
+          147.851,
+          142.705
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 6,
+        "best_lap_seconds": 116.245,
+        "laps": [
+          143.366,
+          125.44,
+          135.099,
+          122.929,
+          116.245
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 7,
+        "best_lap_seconds": 102.955,
+        "laps": [
+          154.552,
+          109.374,
+          102.955,
+          108.139,
+          106.501,
+          105.854
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Sidney Donzella": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 7,
+        "best_lap_seconds": 144.586,
+        "laps": [
+          180.633,
+          154.23,
+          149.524,
+          144.586
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 2,
+        "best_lap_seconds": 110.04,
+        "laps": [
+          152.09,
+          121.435,
+          120.527,
+          118.013,
+          110.04
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 2,
+        "best_lap_seconds": 92.213,
+        "laps": [
+          143.971,
+          96.319,
+          95.376,
+          92.213,
+          98.117,
+          93.827
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Jon Lobel": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 9,
+        "best_lap_seconds": 160.009,
+        "laps": [
+          196.943,
+          165.705,
+          160.009
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 8,
+        "best_lap_seconds": 118.635,
+        "laps": [
+          147.59,
+          130.446,
+          128.429,
+          118.635,
+          134.154
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 5,
+        "best_lap_seconds": 103.237,
+        "laps": [
+          151.504,
+          107.018,
+          103.269,
+          103.237,
+          111.68,
+          105.44
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Levi Schmitt": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 1,
+        "best_lap_seconds": 121.364,
+        "laps": [
+          121.976,
+          121.364,
+          122.512,
+          123.674
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 1,
+        "best_lap_seconds": 98.138,
+        "laps": [
+          141.124,
+          109.076,
+          104.08,
+          106.55,
+          100.583,
+          98.138
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 1,
+        "best_lap_seconds": 87.156,
+        "laps": [
+          146.593,
+          90.534,
+          91.121,
+          87.156,
+          90.017,
+          105.878
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Jacob Kinney": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 3,
+        "best_lap_seconds": 128.609,
+        "laps": [
+          162.507,
+          143.633,
+          144.369,
+          128.609
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 4,
+        "best_lap_seconds": 114.47,
+        "laps": [
+          148.835,
+          128.858,
+          127.949,
+          116.34,
+          114.47
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 4,
+        "best_lap_seconds": 94.15,
+        "laps": [
+          143.946,
+          97.518,
+          94.665,
+          94.15,
+          96.46,
+          99.489
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Gia Escobar": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 8,
+        "best_lap_seconds": 149.885,
+        "laps": [
+          173.154,
+          156.714,
+          165.974,
+          149.885
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 9,
+        "best_lap_seconds": 129.15,
+        "laps": [
+          162.071,
+          133.734,
+          129.15,
+          152.896
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 9,
+        "best_lap_seconds": 109.023,
+        "laps": [
+          150.068,
+          109.023,
+          135.235,
+          112.693,
+          109.134
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Sophia Mun": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 4,
+        "best_lap_seconds": 140.883,
+        "laps": [
+          171.743,
+          146.019,
+          179.853,
+          140.883
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 5,
+        "best_lap_seconds": 114.569,
+        "laps": [
+          148.749,
+          125.562,
+          124.294,
+          123.009,
+          114.569
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 8,
+        "best_lap_seconds": 101.662,
+        "laps": [
+          163.018,
+          105.315,
+          101.662,
+          101.801,
+          127.275
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
+    "Robbie Schneid...": [
+      {
+        "heat_no": 83367,
+        "heat_type": "Group Event Practice",
+        "position": 6,
+        "best_lap_seconds": 143.332,
+        "laps": [
+          163.081,
+          182.8,
+          143.332,
+          146.037
+        ],
+        "start_time_iso": "2025-11-15T11:30:00"
+      },
+      {
+        "heat_no": 83368,
+        "heat_type": "Group Event Qualifying",
+        "position": 3,
+        "best_lap_seconds": 111.889,
+        "laps": [
+          149.856,
+          123.489,
+          124.376,
+          117.116,
+          111.889
+        ],
+        "start_time_iso": "2025-11-15T12:00:00"
+      },
+      {
+        "heat_no": 83369,
+        "heat_type": "Group Event Final",
+        "position": 6,
+        "best_lap_seconds": 98.354,
+        "laps": [
+          179.62,
+          109.431,
+          104.23,
+          99.74,
+          98.354,
+          101.098
+        ],
+        "start_time_iso": "2025-11-15T12:30:00"
+      }
+    ],
     "Rahul Ghai": [
       {
         "heat_no": 82436,
@@ -174623,6 +176171,25 @@
         "start_time_iso": "2025-07-26T09:00:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 19,
+        "best_lap_seconds": 106.839,
+        "laps": [
+          151.728,
+          109.346,
+          109.388,
+          110.702,
+          115.595,
+          109.503,
+          108.53,
+          107.976,
+          108.064,
+          106.839
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 77872,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 3,
@@ -175199,6 +176766,19 @@
         "start_time_iso": "2025-02-08T09:15:00"
       },
       {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 7,
+        "best_lap_seconds": 113.311,
+        "laps": [
+          117.36,
+          115.256,
+          113.35,
+          113.311
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
         "heat_no": 75772,
         "heat_type": "League Heat",
         "position": 10,
@@ -175705,6 +177285,20 @@
           79.73
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 8,
+        "best_lap_seconds": 109.799,
+        "laps": [
+          117.93,
+          111.413,
+          111.301,
+          109.799,
+          118.918
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78713,
@@ -176610,6 +178204,23 @@
         "start_time_iso": "2025-10-04T09:45:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 27,
+        "best_lap_seconds": 125.248,
+        "laps": [
+          130.351,
+          128.792,
+          126.069,
+          125.377,
+          127.303,
+          130.579,
+          125.248,
+          144.961
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 81467,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 2,
@@ -176732,6 +178343,32 @@
           84.668
         ],
         "start_time_iso": "2025-10-04T10:00:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 13,
+        "best_lap_seconds": 133.185,
+        "laps": [
+          135.173,
+          140.824,
+          133.185
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 14,
+        "best_lap_seconds": 124.445,
+        "laps": [
+          125.793,
+          128.319,
+          138.528,
+          125.811,
+          124.445
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       }
     ],
     "Alexander Yonke": [
@@ -186618,6 +188255,66 @@
         "start_time_iso": "2025-11-09T13:00:00"
       },
       {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 119.285,
+        "laps": [
+          186.908,
+          187.307,
+          119.396,
+          119.285
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 86.63,
+        "laps": [
+          119.001,
+          91.187,
+          88.762,
+          86.63,
+          88.184,
+          86.979,
+          87.145
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 86.322,
+        "laps": [
+          123.891,
+          98.716,
+          92.448,
+          89.102,
+          86.986,
+          86.322,
+          86.839
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 102.895,
+        "laps": [
+          147.032,
+          108.555,
+          108.46,
+          108.344,
+          103.411,
+          102.895
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
         "heat_no": 76796,
         "heat_type": "Event Session- Position",
         "position": 4,
@@ -187090,6 +188787,21 @@
           82.519
         ],
         "start_time_iso": "2025-11-08T12:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 83.943,
+        "laps": [
+          115.406,
+          83.943,
+          100.203,
+          91.754,
+          102.638,
+          104.08
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
       }
     ],
     "H3nry G": [
@@ -209320,6 +211032,20 @@
         "start_time_iso": "2025-04-12T09:30:00"
       },
       {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 9,
+        "best_lap_seconds": 110.492,
+        "laps": [
+          117.435,
+          113.313,
+          112.749,
+          110.745,
+          110.492
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
         "heat_no": 81955,
         "heat_type": "Endurance Race",
         "position": 8,
@@ -209389,6 +211115,25 @@
           81.331
         ],
         "start_time_iso": "2025-09-13T09:30:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 16,
+        "best_lap_seconds": 107.892,
+        "laps": [
+          118.297,
+          125.278,
+          110.941,
+          113.83,
+          110.855,
+          109.97,
+          109.534,
+          109.174,
+          107.892,
+          107.929
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
       },
       {
         "heat_no": 82264,
@@ -209637,6 +211382,19 @@
           114.809
         ],
         "start_time_iso": "2025-11-01T10:25:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 8,
+        "best_lap_seconds": 113.913,
+        "laps": [
+          117.886,
+          115.722,
+          115.06,
+          113.913
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
       },
       {
         "heat_no": 82606,
@@ -240824,6 +242582,85 @@
         "start_time_iso": "2025-06-27T11:45:00"
       }
     ],
+    "Mason Holt": [
+      {
+        "heat_no": 83373,
+        "heat_type": "League Heat",
+        "position": 13,
+        "best_lap_seconds": 121.435,
+        "laps": [
+          125.639,
+          121.772,
+          121.645,
+          121.435,
+          136.122
+        ],
+        "start_time_iso": "2025-11-15T09:45:00"
+      },
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 25,
+        "best_lap_seconds": 118.079,
+        "laps": [
+          135.752,
+          120.276,
+          120.235,
+          119.433,
+          119.309,
+          119.113,
+          118.079,
+          118.098,
+          118.502
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
+        "heat_no": 83230,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 84.59,
+        "laps": [
+          121.476,
+          95.665,
+          86.191,
+          85.043,
+          84.919,
+          84.617,
+          84.59
+        ],
+        "start_time_iso": "2025-11-08T13:30:00"
+      },
+      {
+        "heat_no": 83228,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 87.775,
+        "laps": [
+          122.283,
+          90.738,
+          96.387,
+          92.208,
+          90.537,
+          87.863,
+          87.775
+        ],
+        "start_time_iso": "2025-11-08T13:00:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 10,
+        "best_lap_seconds": 123.666,
+        "laps": [
+          125.833,
+          138.757,
+          123.666,
+          126.211
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      }
+    ],
     "JOEMAR ROMAN": [
       {
         "heat_no": 75816,
@@ -241738,6 +243575,25 @@
         "start_time_iso": "2025-05-31T10:25:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 9,
+        "best_lap_seconds": 107.492,
+        "laps": [
+          113.884,
+          109.376,
+          108.403,
+          108.864,
+          108.616,
+          107.682,
+          107.681,
+          111.579,
+          108.679,
+          107.492
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 81025,
         "heat_type": "League Final",
         "position": 14,
@@ -242488,6 +244344,19 @@
         "start_time_iso": "2025-04-05T09:45:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 5,
+        "best_lap_seconds": 112.892,
+        "laps": [
+          124.624,
+          115.161,
+          113.946,
+          112.892
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 77586,
         "heat_type": "League Qualifier",
         "position": 12,
@@ -242524,6 +244393,20 @@
           81.107
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 5,
+        "best_lap_seconds": 110.014,
+        "laps": [
+          116.991,
+          110.698,
+          110.472,
+          110.014,
+          111.157
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 81022,
@@ -280700,6 +282583,25 @@
         "start_time_iso": "2025-05-31T10:25:00"
       },
       {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 15,
+        "best_lap_seconds": 108.862,
+        "laps": [
+          120.801,
+          113.351,
+          112.07,
+          111.636,
+          111.375,
+          111.658,
+          110.783,
+          110.533,
+          108.862,
+          110.51
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
         "heat_no": 79127,
         "heat_type": "League Qualifier",
         "position": 12,
@@ -281045,6 +282947,19 @@
         "start_time_iso": "2025-04-05T09:45:00"
       },
       {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 9,
+        "best_lap_seconds": 116.779,
+        "laps": [
+          125.164,
+          117.79,
+          117.291,
+          116.779
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
         "heat_no": 77586,
         "heat_type": "League Qualifier",
         "position": 2,
@@ -281097,6 +283012,20 @@
           80.248
         ],
         "start_time_iso": "2025-04-05T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 10,
+        "best_lap_seconds": 112.134,
+        "laps": [
+          118.417,
+          133.475,
+          114.605,
+          113.057,
+          112.134
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       },
       {
         "heat_no": 78314,
@@ -334919,6 +336848,21 @@
         "start_time_iso": "2025-03-01T11:00:00"
       },
       {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 106.321,
+        "laps": [
+          149.336,
+          110.671,
+          111.389,
+          108.863,
+          106.321,
+          108.068
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
         "heat_no": 80146,
         "heat_type": "Arrive and Drive - 20 Karts",
         "position": 2,
@@ -335017,6 +336961,20 @@
           83.33
         ],
         "start_time_iso": "2025-05-24T12:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 114.631,
+        "laps": [
+          147.213,
+          118.301,
+          114.631,
+          122.546,
+          118.84
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
       },
       {
         "heat_no": 82484,
@@ -374280,6 +376238,22 @@
         "start_time_iso": "2025-08-23T14:45:00"
       },
       {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 87.989,
+        "laps": [
+          128.84,
+          106.892,
+          98.111,
+          94.025,
+          89.87,
+          89.107,
+          87.989
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
         "heat_no": 81425,
         "heat_type": "Arrive and Drive - 20 Karts",
         "position": 1,
@@ -374463,6 +376437,20 @@
           82.82
         ],
         "start_time_iso": "2025-05-10T15:15:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 114.316,
+        "laps": [
+          146.411,
+          116.643,
+          128.692,
+          117.553,
+          114.316
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
       },
       {
         "heat_no": 79166,
@@ -374863,6 +376851,21 @@
           83.415
         ],
         "start_time_iso": "2025-11-08T15:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 86.857,
+        "laps": [
+          116.023,
+          86.857,
+          97.166,
+          115.63,
+          110.9,
+          123.47
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
       },
       {
         "heat_no": 76061,
@@ -417297,6 +419300,19 @@
         "start_time_iso": "2025-08-08T19:45:00"
       },
       {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 140.826,
+        "laps": [
+          174.108,
+          140.826,
+          144.904,
+          153.912
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
         "heat_no": 81018,
         "heat_type": "Arrive and Drive-12 Karts",
         "position": 2,
@@ -424943,6 +426959,363 @@
           103.324
         ],
         "start_time_iso": "2025-09-10T13:45:00"
+      }
+    ],
+    "Jeremy Webster": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 128.119,
+        "laps": [
+          160.581,
+          143.753,
+          132.583,
+          128.986,
+          128.119
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 124.851,
+        "laps": [
+          171.011,
+          136.501,
+          140.207,
+          124.851
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 124.799,
+        "laps": [
+          163.085,
+          135.408,
+          124.799,
+          129.339,
+          129.939
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "tyler silva": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 146.974,
+        "laps": [
+          177.295,
+          149.658,
+          147.641,
+          146.974
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 123.704,
+        "laps": [
+          158.078,
+          140.541,
+          136.281,
+          129.337,
+          123.704
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 120.137,
+        "laps": [
+          140.722,
+          121.902,
+          120.137,
+          120.712,
+          121.158
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "Nick Lowery": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 129.979,
+        "laps": [
+          225.171,
+          132.092,
+          150.554,
+          129.979
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 125.381,
+        "laps": [
+          153.948,
+          140.334,
+          125.381,
+          130.919,
+          134.097
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 121.933,
+        "laps": [
+          149.403,
+          135.191,
+          124.307,
+          139.686,
+          121.933
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "nate Lepley": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 142.068,
+        "laps": [
+          187.331,
+          142.068,
+          151.264,
+          173.557
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 124.89,
+        "laps": [
+          165.058,
+          141.401,
+          124.89,
+          133.069
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 122.371,
+        "laps": [
+          143.388,
+          140.826,
+          125.465,
+          123.591,
+          122.371
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "Joe Szirmai": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 122.336,
+        "laps": [
+          157.315,
+          135.432,
+          141.034,
+          122.336,
+          122.619
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 121.55,
+        "laps": [
+          165.426,
+          144.327,
+          122.251,
+          121.55,
+          128.665
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 119.144,
+        "laps": [
+          140.489,
+          120.475,
+          119.526,
+          119.144,
+          128.804
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "alex ramirez": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 127.603,
+        "laps": [
+          163.524,
+          144.292,
+          130.889,
+          127.603
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 122.089,
+        "laps": [
+          153.77,
+          126.132,
+          125.969,
+          124.153,
+          122.089
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 126.457,
+        "laps": [
+          152.147,
+          133.937,
+          126.457,
+          129.175,
+          128.778
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "Jason Deschamb...": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 138.586,
+        "laps": [
+          165.731,
+          173.092,
+          141.563,
+          138.586
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 126.804,
+        "laps": [
+          158.463,
+          135.88,
+          136.85,
+          126.804,
+          126.891
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 125.91,
+        "laps": [
+          156.256,
+          135.972,
+          125.91,
+          126.925,
+          128.241
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "Lisa Moore": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 150.549,
+        "laps": [
+          192.229,
+          163.072,
+          150.549,
+          151.746
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 9,
+        "best_lap_seconds": 138.974,
+        "laps": [
+          166.354,
+          156.195,
+          138.974,
+          148.671
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
+      }
+    ],
+    "Matthew Moore": [
+      {
+        "heat_no": 83390,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 143.009,
+        "laps": [
+          180.242,
+          149.803,
+          143.009,
+          148.114
+        ],
+        "start_time_iso": "2025-11-15T15:00:00"
+      },
+      {
+        "heat_no": 83392,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 8,
+        "best_lap_seconds": 131.099,
+        "laps": [
+          154.415,
+          136.915,
+          141.322,
+          131.099
+        ],
+        "start_time_iso": "2025-11-15T15:30:00"
       }
     ],
     "B. Sherman 42 ...": [
@@ -434509,6 +436882,545 @@
           147.601
         ],
         "start_time_iso": "2025-01-12T14:30:00"
+      }
+    ],
+    "Chinmay Kapoor": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 123.261,
+        "laps": [
+          181.989,
+          124.89,
+          123.261,
+          124.918,
+          126.41
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 104.383,
+        "laps": [
+          135.916,
+          119.058,
+          109.369,
+          104.383,
+          110.957
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 122.131,
+        "laps": [
+          142.312,
+          122.962,
+          122.131,
+          212.843
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
+      }
+    ],
+    "Tanmay Kapoor": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 138.439,
+        "laps": [
+          176.621,
+          169.262,
+          144.773,
+          138.439
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 103.331,
+        "laps": [
+          143.608,
+          128.639,
+          119.913,
+          103.331,
+          107.648
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 130.972,
+        "laps": [
+          165.025,
+          137.845,
+          130.972,
+          133.011
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
+      }
+    ],
+    "Xavier Keith": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 119.877,
+        "laps": [
+          155.957,
+          120.022,
+          119.877,
+          121.816,
+          122.279
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 81135,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 82.998,
+        "laps": [
+          100.38,
+          82.998,
+          83.379,
+          83.189,
+          83.417,
+          83.427,
+          84.332,
+          84.641
+        ],
+        "start_time_iso": "2025-08-13T16:45:00"
+      },
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 88.591,
+        "laps": [
+          125.692,
+          101.116,
+          95.912,
+          93.549,
+          89.597,
+          88.591,
+          89.734
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 93.319,
+        "laps": [
+          149.627,
+          159.65,
+          95.679,
+          103.229,
+          93.319
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 81133,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 83.048,
+        "laps": [
+          113.66,
+          83.909,
+          83.853,
+          83.048,
+          84.147,
+          83.473,
+          83.596
+        ],
+        "start_time_iso": "2025-08-13T16:15:00"
+      },
+      {
+        "heat_no": 83138,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 83.245,
+        "laps": [
+          85.685,
+          83.616,
+          83.717,
+          83.746,
+          83.636,
+          83.319,
+          83.245
+        ],
+        "start_time_iso": "2025-10-31T10:15:00"
+      },
+      {
+        "heat_no": 83141,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 81.242,
+        "laps": [
+          85.791,
+          82.184,
+          81.813,
+          81.242,
+          81.912,
+          81.984,
+          82.86,
+          81.914
+        ],
+        "start_time_iso": "2025-10-31T11:00:00"
+      },
+      {
+        "heat_no": 81127,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 84.064,
+        "laps": [
+          109.471,
+          85.421,
+          86.372,
+          85.53,
+          85.725,
+          85.666,
+          84.064
+        ],
+        "start_time_iso": "2025-08-13T15:15:00"
+      },
+      {
+        "heat_no": 83136,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 82.581,
+        "laps": [
+          106.444,
+          87.038,
+          85.874,
+          83.404,
+          82.976,
+          82.581,
+          83.104
+        ],
+        "start_time_iso": "2025-10-31T09:45:00"
+      },
+      {
+        "heat_no": 83140,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 81.322,
+        "laps": [
+          89.589,
+          210.405,
+          83.411,
+          82.314,
+          81.955,
+          82.037,
+          81.322
+        ],
+        "start_time_iso": "2025-10-31T10:45:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 85.544,
+        "laps": [
+          114.891,
+          85.544,
+          96.204,
+          126.647,
+          113.597,
+          153.047
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      },
+      {
+        "heat_no": 81131,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 83.211,
+        "laps": [
+          115.576,
+          84.043,
+          83.341,
+          85.341,
+          83.211,
+          84.192,
+          84.197
+        ],
+        "start_time_iso": "2025-08-13T15:45:00"
+      }
+    ],
+    "Samuel Lee": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 124.108,
+        "laps": [
+          160.329,
+          136.107,
+          130.926,
+          136.045,
+          124.108
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 124.32,
+        "laps": [
+          157.704,
+          130.389,
+          132.635,
+          128.182,
+          124.32
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 136.9,
+        "laps": [
+          181.088,
+          155.298,
+          143.141,
+          136.9
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
+        "heat_no": 81851,
+        "heat_type": "Group Event Practice",
+        "position": 12,
+        "best_lap_seconds": 114.224,
+        "laps": [
+          180.652,
+          143.631,
+          121.293,
+          114.224
+        ],
+        "start_time_iso": "2025-09-10T10:30:00"
+      },
+      {
+        "heat_no": 83229,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 91.2,
+        "laps": [
+          128.56,
+          92.253,
+          91.2,
+          103.099,
+          105.314,
+          99.295
+        ],
+        "start_time_iso": "2025-11-08T13:15:00"
+      },
+      {
+        "heat_no": 81854,
+        "heat_type": "Group Event Final",
+        "position": 3,
+        "best_lap_seconds": 88.369,
+        "laps": [
+          169.978,
+          91.33,
+          90.075,
+          91.924,
+          88.369,
+          95.285,
+          106.429
+        ],
+        "start_time_iso": "2025-09-10T12:00:00"
+      },
+      {
+        "heat_no": 81863,
+        "heat_type": "Event Session-Best Lap",
+        "position": 1,
+        "best_lap_seconds": 87.518,
+        "laps": [
+          143.531,
+          90.966,
+          87.518,
+          100.622,
+          91.333,
+          90.856
+        ],
+        "start_time_iso": "2025-09-10T13:00:00"
+      },
+      {
+        "heat_no": 81852,
+        "heat_type": "Group Event Qualifying",
+        "position": 1,
+        "best_lap_seconds": 94.345,
+        "laps": [
+          157.65,
+          120.977,
+          104.364,
+          98.426,
+          94.345,
+          103.238
+        ],
+        "start_time_iso": "2025-09-10T11:00:00"
+      },
+      {
+        "heat_no": 81853,
+        "heat_type": "Group Event Pre-Final",
+        "position": 4,
+        "best_lap_seconds": 91.348,
+        "laps": [
+          181.033,
+          102.713,
+          98.036,
+          91.834,
+          91.348,
+          104.67,
+          94.831
+        ],
+        "start_time_iso": "2025-09-10T11:30:00"
+      },
+      {
+        "heat_no": 83231,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 87.455,
+        "laps": [
+          87.932,
+          89.038,
+          103.023,
+          89.114,
+          87.455,
+          98.882,
+          88.548
+        ],
+        "start_time_iso": "2025-11-08T13:45:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 119.724,
+        "laps": [
+          152.365,
+          119.724,
+          158.833,
+          135.486
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
+      }
+    ],
+    "Kiran Phaniharam": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 136.231,
+        "laps": [
+          164.964,
+          146.953,
+          147.12,
+          136.231
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 135.562,
+        "laps": [
+          174.934,
+          142.575,
+          155.757,
+          135.562
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
+        "heat_no": 83264,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 92.908,
+        "laps": [
+          136.652,
+          94.739,
+          94.903,
+          102.187,
+          92.908,
+          95.077,
+          131.816
+        ],
+        "start_time_iso": "2025-11-09T14:30:00"
+      },
+      {
+        "heat_no": 83262,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 96.206,
+        "laps": [
+          134.631,
+          105.881,
+          96.784,
+          110.344,
+          100.954,
+          96.206
+        ],
+        "start_time_iso": "2025-11-09T14:00:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 122.823,
+        "laps": [
+          148.247,
+          129.349,
+          129.394,
+          122.823,
+          133.233
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
+      }
+    ],
+    "Ella Woodward": [
+      {
+        "heat_no": 83385,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 151.566,
+        "laps": [
+          177.021,
+          166.11,
+          151.566,
+          160.957
+        ],
+        "start_time_iso": "2025-11-15T13:45:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 145.774,
+        "laps": [
+          173.3,
+          154.067,
+          155.665,
+          145.774
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
       }
     ],
     "Brandon massey": [
@@ -448959,138 +451871,6 @@
         "start_time_iso": "2025-08-13T15:45:00"
       }
     ],
-    "Xavier Keith": [
-      {
-        "heat_no": 81135,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 82.998,
-        "laps": [
-          100.38,
-          82.998,
-          83.379,
-          83.189,
-          83.417,
-          83.427,
-          84.332,
-          84.641
-        ],
-        "start_time_iso": "2025-08-13T16:45:00"
-      },
-      {
-        "heat_no": 81133,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 83.048,
-        "laps": [
-          113.66,
-          83.909,
-          83.853,
-          83.048,
-          84.147,
-          83.473,
-          83.596
-        ],
-        "start_time_iso": "2025-08-13T16:15:00"
-      },
-      {
-        "heat_no": 83138,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 83.245,
-        "laps": [
-          85.685,
-          83.616,
-          83.717,
-          83.746,
-          83.636,
-          83.319,
-          83.245
-        ],
-        "start_time_iso": "2025-10-31T10:15:00"
-      },
-      {
-        "heat_no": 83141,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 81.242,
-        "laps": [
-          85.791,
-          82.184,
-          81.813,
-          81.242,
-          81.912,
-          81.984,
-          82.86,
-          81.914
-        ],
-        "start_time_iso": "2025-10-31T11:00:00"
-      },
-      {
-        "heat_no": 81127,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 5,
-        "best_lap_seconds": 84.064,
-        "laps": [
-          109.471,
-          85.421,
-          86.372,
-          85.53,
-          85.725,
-          85.666,
-          84.064
-        ],
-        "start_time_iso": "2025-08-13T15:15:00"
-      },
-      {
-        "heat_no": 83136,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 82.581,
-        "laps": [
-          106.444,
-          87.038,
-          85.874,
-          83.404,
-          82.976,
-          82.581,
-          83.104
-        ],
-        "start_time_iso": "2025-10-31T09:45:00"
-      },
-      {
-        "heat_no": 83140,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 81.322,
-        "laps": [
-          89.589,
-          210.405,
-          83.411,
-          82.314,
-          81.955,
-          82.037,
-          81.322
-        ],
-        "start_time_iso": "2025-10-31T10:45:00"
-      },
-      {
-        "heat_no": 81131,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 83.211,
-        "laps": [
-          115.576,
-          84.043,
-          83.341,
-          85.341,
-          83.211,
-          84.192,
-          84.197
-        ],
-        "start_time_iso": "2025-08-13T15:45:00"
-      }
-    ],
     "Preston Kimbrel": [
       {
         "heat_no": 81135,
@@ -454585,6 +457365,276 @@
           84.852
         ],
         "start_time_iso": "2025-04-09T11:45:00"
+      }
+    ],
+    "Gabriel Newton": [
+      {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 136.443,
+        "laps": [
+          170.544,
+          145.231,
+          142.432,
+          136.443
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
+        "heat_no": 77824,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 93.744,
+        "laps": [
+          142.268,
+          112.335,
+          98.356,
+          97.49,
+          95.936,
+          93.744
+        ],
+        "start_time_iso": "2025-04-13T14:30:00"
+      },
+      {
+        "heat_no": 79540,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 90.439,
+        "laps": [
+          124.903,
+          104.901,
+          92.674,
+          93.472,
+          93.019,
+          92.047,
+          90.439
+        ],
+        "start_time_iso": "2025-06-15T15:00:00"
+      },
+      {
+        "heat_no": 77826,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 92.482,
+        "laps": [
+          115.951,
+          106.944,
+          93.457,
+          95.494,
+          104.779,
+          92.482
+        ],
+        "start_time_iso": "2025-04-13T15:00:00"
+      },
+      {
+        "heat_no": 80841,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 89.805,
+        "laps": [
+          119.515,
+          90.544,
+          91.679,
+          91.123,
+          93.439,
+          93.28,
+          89.805
+        ],
+        "start_time_iso": "2025-08-01T17:00:00"
+      },
+      {
+        "heat_no": 82138,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 90.284,
+        "laps": [
+          149.651,
+          93.483,
+          92.277,
+          103.885,
+          91.408,
+          90.284
+        ],
+        "start_time_iso": "2025-09-21T13:15:00"
+      }
+    ],
+    "Tess Newton": [
+      {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 144.98,
+        "laps": [
+          174.785,
+          157.239,
+          161.888,
+          144.98
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
+        "heat_no": 79747,
+        "heat_type": "Arrive and Drive-12 Karts",
+        "position": 3,
+        "best_lap_seconds": 86.498,
+        "laps": [
+          114.363,
+          96.726,
+          103.151,
+          161.915,
+          88.367,
+          86.498
+        ],
+        "start_time_iso": "2025-06-21T18:30:00"
+      },
+      {
+        "heat_no": 77824,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 92.918,
+        "laps": [
+          128.642,
+          120.119,
+          102.117,
+          102.614,
+          92.918,
+          101.545
+        ],
+        "start_time_iso": "2025-04-13T14:30:00"
+      },
+      {
+        "heat_no": 79540,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 91.463,
+        "laps": [
+          126.212,
+          101.901,
+          100.84,
+          91.463,
+          117.029,
+          95.135
+        ],
+        "start_time_iso": "2025-06-15T15:00:00"
+      },
+      {
+        "heat_no": 77826,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 89.923,
+        "laps": [
+          135.987,
+          104.321,
+          90.041,
+          102.448,
+          97.18,
+          89.923
+        ],
+        "start_time_iso": "2025-04-13T15:00:00"
+      },
+      {
+        "heat_no": 80841,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 87.808,
+        "laps": [
+          119.572,
+          90.943,
+          91.299,
+          92.353,
+          96.07,
+          90.485,
+          87.808
+        ],
+        "start_time_iso": "2025-08-01T17:00:00"
+      },
+      {
+        "heat_no": 82138,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 88.46,
+        "laps": [
+          151.233,
+          93.299,
+          91.265,
+          92.251,
+          89.661,
+          88.46,
+          89.1
+        ],
+        "start_time_iso": "2025-09-21T13:15:00"
+      }
+    ],
+    "Dadi He": [
+      {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 128.123,
+        "laps": [
+          155.62,
+          140.328,
+          134.6,
+          128.123,
+          136.657
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 137.099,
+        "laps": [
+          196.677,
+          137.099,
+          149.403,
+          154.579
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      }
+    ],
+    "Jayden Lim": [
+      {
+        "heat_no": 83391,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 140.743,
+        "laps": [
+          161.157,
+          140.743,
+          171.417,
+          142.969
+        ],
+        "start_time_iso": "2025-11-15T15:15:00"
+      },
+      {
+        "heat_no": 83395,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 124.998,
+        "laps": [
+          160.777,
+          127.9,
+          129.491,
+          124.998,
+          132.966
+        ],
+        "start_time_iso": "2025-11-15T16:15:00"
+      },
+      {
+        "heat_no": 83393,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 134.098,
+        "laps": [
+          154.79,
+          145.735,
+          134.098,
+          148.804
+        ],
+        "start_time_iso": "2025-11-15T15:45:00"
       }
     ],
     "Nathanial Welch": [
@@ -477066,6 +480116,967 @@
         "start_time_iso": "2025-08-08T13:45:00"
       }
     ],
+    "eric cruz": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 94.691,
+        "laps": [
+          127.347,
+          103.811,
+          110.063,
+          100.805,
+          98.762,
+          94.691
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 82288,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 88.927,
+        "laps": [
+          165.446,
+          91.373,
+          90.694,
+          90.057,
+          91.074,
+          88.927
+        ],
+        "start_time_iso": "2025-09-27T16:45:00"
+      },
+      {
+        "heat_no": 82290,
+        "heat_type": "Arrive and Drive-12 Karts",
+        "position": 4,
+        "best_lap_seconds": 87.356,
+        "laps": [
+          120.709,
+          88.775,
+          89.782,
+          88.991,
+          87.356,
+          87.64,
+          95.863
+        ],
+        "start_time_iso": "2025-09-27T17:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 90.313,
+        "laps": [
+          116.676,
+          90.313,
+          97.004,
+          111.522,
+          118.004,
+          145.2
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "OSCAR AYALA": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 93.762,
+        "laps": [
+          127.744,
+          101.931,
+          98.892,
+          97.043,
+          96.17,
+          93.762
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 82288,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 90.764,
+        "laps": [
+          167.03,
+          95.513,
+          93.536,
+          92.218,
+          98.39,
+          90.764
+        ],
+        "start_time_iso": "2025-09-27T16:45:00"
+      },
+      {
+        "heat_no": 82290,
+        "heat_type": "Arrive and Drive-12 Karts",
+        "position": 3,
+        "best_lap_seconds": 86.703,
+        "laps": [
+          115.943,
+          88.065,
+          88.568,
+          99.936,
+          87.052,
+          86.703,
+          88.517
+        ],
+        "start_time_iso": "2025-09-27T17:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 92.032,
+        "laps": [
+          113.84,
+          92.032,
+          130.888,
+          126.684,
+          169.541
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Naw Naw": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 93.007,
+        "laps": [
+          125.956,
+          110.256,
+          105.101,
+          96.428,
+          94.62,
+          93.007
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 81439,
+        "heat_type": "Arrive and Drive-12 Karts",
+        "position": 2,
+        "best_lap_seconds": 88.934,
+        "laps": [
+          138.28,
+          93.141,
+          90.862,
+          91.998,
+          92.875,
+          89.488,
+          88.934
+        ],
+        "start_time_iso": "2025-08-23T17:45:00"
+      },
+      {
+        "heat_no": 82460,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 88.95,
+        "laps": [
+          116.924,
+          89.659,
+          89.999,
+          102.142,
+          93.578,
+          99.964,
+          88.95
+        ],
+        "start_time_iso": "2025-10-04T16:00:00"
+      }
+    ],
+    "Ashwin Gadupudi": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 94.756,
+        "laps": [
+          127.609,
+          112.272,
+          100.833,
+          97.055,
+          96.781,
+          94.756
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 79775,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 92.453,
+        "laps": [
+          136.275,
+          115.28,
+          99.252,
+          92.453,
+          100.398,
+          126.358
+        ],
+        "start_time_iso": "2025-06-22T14:30:00"
+      },
+      {
+        "heat_no": 79777,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 89.542,
+        "laps": [
+          103.555,
+          92.479,
+          98.428,
+          89.542,
+          99.913,
+          89.98,
+          90.383
+        ],
+        "start_time_iso": "2025-06-22T15:00:00"
+      },
+      {
+        "heat_no": 81621,
+        "heat_type": "Arrive and Drive - 20 Karts",
+        "position": 8,
+        "best_lap_seconds": 90.272,
+        "laps": [
+          119.839,
+          94.468,
+          90.272,
+          101.534,
+          113.35,
+          131.797
+        ],
+        "start_time_iso": "2025-08-30T14:00:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 93.205,
+        "laps": [
+          117.823,
+          93.205,
+          169.717,
+          130.128,
+          139.732
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Abhishek Nalla": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 94.117,
+        "laps": [
+          174.103,
+          108.205,
+          95.84,
+          94.117,
+          101.599,
+          114.494
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 79775,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 88.84,
+        "laps": [
+          118.148,
+          90.646,
+          102.206,
+          90.481,
+          90.116,
+          88.989,
+          88.84
+        ],
+        "start_time_iso": "2025-06-22T14:30:00"
+      },
+      {
+        "heat_no": 79777,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 88.905,
+        "laps": [
+          120.476,
+          99.238,
+          98.848,
+          94.086,
+          89.731,
+          88.905,
+          100.295
+        ],
+        "start_time_iso": "2025-06-22T15:00:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 94.823,
+        "laps": [
+          116.367,
+          94.823,
+          106.395,
+          211.435,
+          120.108
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Alexander Robles": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 93.602,
+        "laps": [
+          126.032,
+          99.743,
+          96.204,
+          98.3,
+          94.317,
+          93.602
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 106.679,
+        "laps": [
+          145.574,
+          110.347,
+          113.73,
+          108.413,
+          106.679
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 82901,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 84.509,
+        "laps": [
+          102.083,
+          84.742,
+          100.882,
+          85.619,
+          84.509,
+          84.891,
+          84.762,
+          85.088
+        ],
+        "start_time_iso": "2025-10-23T15:45:00"
+      },
+      {
+        "heat_no": 82898,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 85.276,
+        "laps": [
+          113.59,
+          86.189,
+          93.503,
+          89.066,
+          86.098,
+          86.326,
+          85.276
+        ],
+        "start_time_iso": "2025-10-23T14:45:00"
+      },
+      {
+        "heat_no": 83095,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 88.282,
+        "laps": [
+          116.734,
+          92.536,
+          89.188,
+          93.116,
+          90.445,
+          118.008,
+          88.282
+        ],
+        "start_time_iso": "2025-11-01T14:00:00"
+      },
+      {
+        "heat_no": 83233,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 83.456,
+        "laps": [
+          117.068,
+          88.13,
+          85.149,
+          85.996,
+          84.347,
+          83.66,
+          83.456
+        ],
+        "start_time_iso": "2025-11-08T14:15:00"
+      },
+      {
+        "heat_no": 82115,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 84.551,
+        "laps": [
+          109.854,
+          85.673,
+          84.551,
+          84.757,
+          85.151,
+          87.424,
+          85.532
+        ],
+        "start_time_iso": "2025-09-20T15:00:00"
+      },
+      {
+        "heat_no": 82899,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 83.748,
+        "laps": [
+          109.411,
+          83.748,
+          84.019,
+          88.547,
+          86.945,
+          85.489,
+          83.828
+        ],
+        "start_time_iso": "2025-10-23T15:15:00"
+      },
+      {
+        "heat_no": 83235,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 82.514,
+        "laps": [
+          109.038,
+          84.197,
+          82.563,
+          82.514,
+          82.943,
+          83.758,
+          84.429,
+          83.214,
+          84.702
+        ],
+        "start_time_iso": "2025-11-08T14:45:00"
+      },
+      {
+        "heat_no": 82696,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 82.975,
+        "laps": [
+          87.553,
+          96.882,
+          84.277,
+          83.71,
+          83.947,
+          84.01,
+          82.975,
+          83.892
+        ],
+        "start_time_iso": "2025-10-15T15:45:00"
+      },
+      {
+        "heat_no": 82111,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 88.184,
+        "laps": [
+          119.034,
+          89.135,
+          88.676,
+          88.603,
+          90.538,
+          91.423,
+          88.184
+        ],
+        "start_time_iso": "2025-09-20T14:00:00"
+      },
+      {
+        "heat_no": 82612,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 86.084,
+        "laps": [
+          137.52,
+          103.648,
+          93.78,
+          92.582,
+          86.084,
+          87.674
+        ],
+        "start_time_iso": "2025-10-11T11:45:00"
+      },
+      {
+        "heat_no": 83097,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 86.01,
+        "laps": [
+          120.549,
+          89.013,
+          92.082,
+          86.061,
+          102.398,
+          86.01,
+          86.52,
+          86.265
+        ],
+        "start_time_iso": "2025-11-01T14:30:00"
+      },
+      {
+        "heat_no": 82113,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 86.136,
+        "laps": [
+          120.609,
+          86.136,
+          86.606,
+          100.836,
+          90.436,
+          87.048,
+          87.114
+        ],
+        "start_time_iso": "2025-09-20T14:30:00"
+      },
+      {
+        "heat_no": 82614,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 94.742,
+        "laps": [
+          144.512,
+          111.438,
+          102.38,
+          98.651,
+          97.465,
+          94.742
+        ],
+        "start_time_iso": "2025-10-11T12:45:00"
+      },
+      {
+        "heat_no": 82613,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 86.513,
+        "laps": [
+          103.62,
+          86.672,
+          88.649,
+          86.513,
+          88.913,
+          91.058,
+          100.293
+        ],
+        "start_time_iso": "2025-10-11T12:15:00"
+      },
+      {
+        "heat_no": 82693,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 84.462,
+        "laps": [
+          117.865,
+          85.404,
+          84.504,
+          87.084,
+          84.462,
+          85.242,
+          85.078
+        ],
+        "start_time_iso": "2025-10-15T14:30:00"
+      },
+      {
+        "heat_no": 81503,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 87.053,
+        "laps": [
+          100.557,
+          92.002,
+          90.207,
+          88.37,
+          90.246,
+          89.552,
+          87.053
+        ],
+        "start_time_iso": "2025-08-27T14:15:00"
+      },
+      {
+        "heat_no": 81816,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 98.492,
+        "laps": [
+          132.953,
+          117.808,
+          121.923,
+          111.508,
+          98.492
+        ],
+        "start_time_iso": "2025-09-07T15:30:00"
+      },
+      {
+        "heat_no": 83237,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 83.087,
+        "laps": [
+          105.479,
+          85.422,
+          83.637,
+          83.58,
+          83.612,
+          83.365,
+          83.087,
+          83.185
+        ],
+        "start_time_iso": "2025-11-08T15:15:00"
+      },
+      {
+        "heat_no": 81501,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 95.502,
+        "laps": [
+          122.714,
+          114.531,
+          99.647,
+          97.697,
+          99.159,
+          95.502
+        ],
+        "start_time_iso": "2025-08-27T13:45:00"
+      },
+      {
+        "heat_no": 82694,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 84.428,
+        "laps": [
+          84.833,
+          85.336,
+          84.428,
+          84.514,
+          84.674,
+          84.437,
+          85.163
+        ],
+        "start_time_iso": "2025-10-15T15:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 89.656,
+        "laps": [
+          116.268,
+          89.656,
+          95.426,
+          101.024,
+          114.702,
+          112.399
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      },
+      {
+        "heat_no": 81818,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 90.88,
+        "laps": [
+          123.069,
+          100.859,
+          98.013,
+          94.174,
+          90.88,
+          100.839
+        ],
+        "start_time_iso": "2025-09-07T16:00:00"
+      }
+    ],
+    "Michael Gu": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 97.93,
+        "laps": [
+          143.524,
+          111.519,
+          103.346,
+          101.153,
+          98.576,
+          97.93
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 121.283,
+        "laps": [
+          158.142,
+          131.233,
+          125.251,
+          121.283,
+          126.206
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 135.231,
+        "laps": [
+          169.485,
+          150.797,
+          136.777,
+          135.231
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      }
+    ],
+    "Joshua Glaspey": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 99.331,
+        "laps": [
+          141.898,
+          111.52,
+          103.405,
+          100.966,
+          99.331,
+          100.772
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 120.793,
+        "laps": [
+          158.748,
+          130.234,
+          120.793,
+          126.431,
+          124.168
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 142.041,
+        "laps": [
+          189.418,
+          164.834,
+          167.489,
+          142.041
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      }
+    ],
+    "Max Bagatini a...": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 15,
+        "best_lap_seconds": 103.441,
+        "laps": [
+          143.929,
+          109.026,
+          104.421,
+          103.441,
+          103.498,
+          110.473
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 119.502,
+        "laps": [
+          156.458,
+          128.531,
+          133.741,
+          126.296,
+          119.502
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 4,
+        "best_lap_seconds": 137.701,
+        "laps": [
+          181.943,
+          167.904,
+          143.993,
+          137.701
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      }
+    ],
+    "Chance Allen": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 95.08,
+        "laps": [
+          138.77,
+          108.33,
+          104.191,
+          99.847,
+          95.08,
+          97.426
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 125.478,
+        "laps": [
+          163.492,
+          138.995,
+          129.935,
+          125.478
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 95.608,
+        "laps": [
+          146.429,
+          107.497,
+          104.893,
+          95.608,
+          98.809,
+          118.39
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 98.139,
+        "laps": [
+          154.095,
+          112.121,
+          107.82,
+          101.162,
+          99.607,
+          98.139
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Mahesh Joseph ...": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 16,
+        "best_lap_seconds": 115.786,
+        "laps": [
+          174.793,
+          128.144,
+          129.349,
+          117.252,
+          115.786
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 16,
+        "best_lap_seconds": 118.14,
+        "laps": [
+          138.54,
+          118.14,
+          175.195,
+          145.879
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Miguel Garfias": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 14,
+        "best_lap_seconds": 103.031,
+        "laps": [
+          148.632,
+          130.569,
+          119.95,
+          105.547,
+          103.031
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 97.728,
+        "laps": [
+          119.708,
+          97.728,
+          107.909,
+          127.019,
+          143.392
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Chairnet Muche": [
+      {
+        "heat_no": 83380,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 17,
+        "best_lap_seconds": 152.585,
+        "laps": [
+          190.357,
+          165.663,
+          152.585
+        ],
+        "start_time_iso": "2025-11-15T12:15:00"
+      }
+    ],
     "Andrew Smithey": [
       {
         "heat_no": 83099,
@@ -484727,6 +488738,256 @@
           92.301
         ],
         "start_time_iso": "2025-07-30T12:45:00"
+      }
+    ],
+    "Randy Bell": [
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 20,
+        "best_lap_seconds": 112.491,
+        "laps": [
+          119.794,
+          116.615,
+          113.844,
+          113.247,
+          121.944,
+          114.329,
+          115.377,
+          112.645,
+          112.491
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
+        "heat_no": 76193,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 112.654,
+        "laps": [
+          192.149,
+          118.886,
+          115.519,
+          112.654,
+          155.317
+        ],
+        "start_time_iso": "2025-02-01T11:15:00"
+      },
+      {
+        "heat_no": 83080,
+        "heat_type": "League Final",
+        "position": 3,
+        "best_lap_seconds": 117.354,
+        "laps": [
+          125.244,
+          120.523,
+          119.774,
+          119.328,
+          119.192,
+          117.684,
+          117.354,
+          118.46,
+          119.502
+        ],
+        "start_time_iso": "2025-11-01T10:00:00"
+      },
+      {
+        "heat_no": 76195,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 5,
+        "best_lap_seconds": 85.888,
+        "laps": [
+          115.546,
+          88.194,
+          86.685,
+          86.241,
+          87.441,
+          85.888,
+          86.422
+        ],
+        "start_time_iso": "2025-02-01T12:15:00"
+      },
+      {
+        "heat_no": 83371,
+        "heat_type": "League Qualifier",
+        "position": 13,
+        "best_lap_seconds": 119.181,
+        "laps": [
+          121.662,
+          120.624,
+          119.195,
+          119.181
+        ],
+        "start_time_iso": "2025-11-15T09:15:00"
+      },
+      {
+        "heat_no": 83079,
+        "heat_type": "League Heat",
+        "position": 11,
+        "best_lap_seconds": 117.315,
+        "laps": [
+          128.876,
+          134.855,
+          117.935,
+          118.372,
+          117.315
+        ],
+        "start_time_iso": "2025-11-01T09:45:00"
+      },
+      {
+        "heat_no": 76194,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 9,
+        "best_lap_seconds": 95.88,
+        "laps": [
+          128.825,
+          110.046,
+          102.127,
+          97.619,
+          103.41,
+          95.88
+        ],
+        "start_time_iso": "2025-02-01T11:45:00"
+      },
+      {
+        "heat_no": 83076,
+        "heat_type": "League Qualifier",
+        "position": 12,
+        "best_lap_seconds": 120.915,
+        "laps": [
+          125.304,
+          124.357,
+          120.915,
+          120.961,
+          121.352
+        ],
+        "start_time_iso": "2025-11-01T09:00:00"
+      },
+      {
+        "heat_no": 83081,
+        "heat_type": "League Final",
+        "position": 21,
+        "best_lap_seconds": 114.323,
+        "laps": [
+          128.304,
+          123.305,
+          116.136,
+          115.576,
+          115.758,
+          115.103,
+          115.256,
+          114.323,
+          114.654,
+          114.505
+        ],
+        "start_time_iso": "2025-11-01T10:25:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 11,
+        "best_lap_seconds": 115.924,
+        "laps": [
+          127.182,
+          127.857,
+          116.755,
+          117.882,
+          115.924
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
+      }
+    ],
+    "Martynas Grigo...": [
+      {
+        "heat_no": 83375,
+        "heat_type": "League Final",
+        "position": 26,
+        "best_lap_seconds": 116.856,
+        "laps": [
+          123.859,
+          149.677,
+          122.852,
+          119.136,
+          122.091,
+          118.45,
+          123.23,
+          117.858,
+          116.856
+        ],
+        "start_time_iso": "2025-11-15T10:25:00"
+      },
+      {
+        "heat_no": 83080,
+        "heat_type": "League Final",
+        "position": 5,
+        "best_lap_seconds": 119.0,
+        "laps": [
+          135.924,
+          122.617,
+          122.257,
+          122.11,
+          122.658,
+          120.632,
+          119.0,
+          121.99,
+          128.103
+        ],
+        "start_time_iso": "2025-11-01T10:00:00"
+      },
+      {
+        "heat_no": 83077,
+        "heat_type": "League Qualifier",
+        "position": 10,
+        "best_lap_seconds": 121.375,
+        "laps": [
+          145.473,
+          124.926,
+          127.368,
+          122.167,
+          121.375
+        ],
+        "start_time_iso": "2025-11-01T09:15:00"
+      },
+      {
+        "heat_no": 83079,
+        "heat_type": "League Heat",
+        "position": 13,
+        "best_lap_seconds": 124.771,
+        "laps": [
+          129.089,
+          134.72,
+          124.837,
+          125.304,
+          124.771
+        ],
+        "start_time_iso": "2025-11-01T09:45:00"
+      },
+      {
+        "heat_no": 83370,
+        "heat_type": "League Qualifier",
+        "position": 11,
+        "best_lap_seconds": 124.305,
+        "laps": [
+          125.976,
+          126.243,
+          124.358,
+          124.305
+        ],
+        "start_time_iso": "2025-11-15T09:00:00"
+      },
+      {
+        "heat_no": 83372,
+        "heat_type": "League Heat",
+        "position": 13,
+        "best_lap_seconds": 120.659,
+        "laps": [
+          123.613,
+          126.062,
+          120.73,
+          120.659,
+          140.286
+        ],
+        "start_time_iso": "2025-11-15T09:30:00"
       }
     ],
     "Levi Chapuis": [
@@ -495494,40 +499755,6 @@
         "start_time_iso": "2025-06-20T12:00:00"
       }
     ],
-    "Naw Naw": [
-      {
-        "heat_no": 81439,
-        "heat_type": "Arrive and Drive-12 Karts",
-        "position": 2,
-        "best_lap_seconds": 88.934,
-        "laps": [
-          138.28,
-          93.141,
-          90.862,
-          91.998,
-          92.875,
-          89.488,
-          88.934
-        ],
-        "start_time_iso": "2025-08-23T17:45:00"
-      },
-      {
-        "heat_no": 82460,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 6,
-        "best_lap_seconds": 88.95,
-        "laps": [
-          116.924,
-          89.659,
-          89.999,
-          102.142,
-          93.578,
-          99.964,
-          88.95
-        ],
-        "start_time_iso": "2025-10-04T16:00:00"
-      }
-    ],
     "Jai Devmane": [
       {
         "heat_no": 81439,
@@ -498587,6 +502814,216 @@
           101.455
         ],
         "start_time_iso": "2025-09-21T16:45:00"
+      }
+    ],
+    "Nathan King": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 95.499,
+        "laps": [
+          134.021,
+          124.385,
+          109.902,
+          102.39,
+          98.736,
+          95.499
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 82311,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 92.458,
+        "laps": [
+          134.599,
+          94.376,
+          94.636,
+          102.628,
+          92.458,
+          100.43
+        ],
+        "start_time_iso": "2025-09-28T13:30:00"
+      },
+      {
+        "heat_no": 82309,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 95.282,
+        "laps": [
+          142.724,
+          105.495,
+          96.84,
+          104.997,
+          95.282
+        ],
+        "start_time_iso": "2025-09-28T13:00:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 104.794,
+        "laps": [
+          124.873,
+          104.794,
+          108.026,
+          116.036,
+          124.62
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Paige Rowe": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 111.26,
+        "laps": [
+          145.12,
+          128.666,
+          123.532,
+          117.067,
+          111.26
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 18,
+        "best_lap_seconds": 129.41,
+        "laps": [
+          142.256,
+          129.41,
+          130.877,
+          162.164
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Julia Moua": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 103.085,
+        "laps": [
+          143.095,
+          129.332,
+          119.795,
+          103.085,
+          104.704
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 19,
+        "best_lap_seconds": 131.878,
+        "laps": [
+          131.878,
+          212.669,
+          153.254,
+          138.91
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Ines Mendes": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 95.33,
+        "laps": [
+          131.305,
+          114.542,
+          107.654,
+          102.938,
+          98.16,
+          95.33
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 14,
+        "best_lap_seconds": 108.276,
+        "laps": [
+          126.749,
+          112.294,
+          108.276,
+          126.605,
+          117.006
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Mason Cole": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 98.874,
+        "laps": [
+          136.424,
+          123.28,
+          109.819,
+          102.033,
+          110.483,
+          98.874
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 17,
+        "best_lap_seconds": 127.162,
+        "laps": [
+          127.162,
+          184.016,
+          129.936,
+          169.347
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
+      }
+    ],
+    "Douwe Boerland": [
+      {
+        "heat_no": 83383,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 96.459,
+        "laps": [
+          150.961,
+          116.252,
+          106.723,
+          99.952,
+          97.541,
+          96.459
+        ],
+        "start_time_iso": "2025-11-15T13:15:00"
+      },
+      {
+        "heat_no": 83381,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 15,
+        "best_lap_seconds": 116.737,
+        "laps": [
+          127.936,
+          153.785,
+          116.737,
+          142.461,
+          124.623
+        ],
+        "start_time_iso": "2025-11-15T12:45:00"
       }
     ],
     "Narek Karapetian": [
@@ -507590,88 +512027,6 @@
           112.065,
           113.094,
           139.661
-        ],
-        "start_time_iso": "2025-06-22T15:00:00"
-      }
-    ],
-    "Ashwin Gadupudi": [
-      {
-        "heat_no": 79775,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 8,
-        "best_lap_seconds": 92.453,
-        "laps": [
-          136.275,
-          115.28,
-          99.252,
-          92.453,
-          100.398,
-          126.358
-        ],
-        "start_time_iso": "2025-06-22T14:30:00"
-      },
-      {
-        "heat_no": 79777,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 9,
-        "best_lap_seconds": 89.542,
-        "laps": [
-          103.555,
-          92.479,
-          98.428,
-          89.542,
-          99.913,
-          89.98,
-          90.383
-        ],
-        "start_time_iso": "2025-06-22T15:00:00"
-      },
-      {
-        "heat_no": 81621,
-        "heat_type": "Arrive and Drive - 20 Karts",
-        "position": 8,
-        "best_lap_seconds": 90.272,
-        "laps": [
-          119.839,
-          94.468,
-          90.272,
-          101.534,
-          113.35,
-          131.797
-        ],
-        "start_time_iso": "2025-08-30T14:00:00"
-      }
-    ],
-    "Abhishek Nalla": [
-      {
-        "heat_no": 79775,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 4,
-        "best_lap_seconds": 88.84,
-        "laps": [
-          118.148,
-          90.646,
-          102.206,
-          90.481,
-          90.116,
-          88.989,
-          88.84
-        ],
-        "start_time_iso": "2025-06-22T14:30:00"
-      },
-      {
-        "heat_no": 79777,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 7,
-        "best_lap_seconds": 88.905,
-        "laps": [
-          120.476,
-          99.238,
-          98.848,
-          94.086,
-          89.731,
-          88.905,
-          100.295
         ],
         "start_time_iso": "2025-06-22T15:00:00"
       }
@@ -522424,6 +526779,118 @@
           91.938
         ],
         "start_time_iso": "2025-04-16T16:30:00"
+      }
+    ],
+    "Shelley Drury": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 134.219,
+        "laps": [
+          161.299,
+          173.762,
+          134.219,
+          135.612
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 6,
+        "best_lap_seconds": 147.831,
+        "laps": [
+          172.458,
+          147.831,
+          167.257,
+          154.945
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      }
+    ],
+    "David Dettra": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 132.936,
+        "laps": [
+          164.312,
+          135.387,
+          132.936,
+          134.601
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      },
+      {
+        "heat_no": 83378,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 7,
+        "best_lap_seconds": 160.521,
+        "laps": [
+          173.464,
+          160.7,
+          195.075,
+          160.521
+        ],
+        "start_time_iso": "2025-11-15T11:15:00"
+      }
+    ],
+    "Darrel Frame": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 150.292,
+        "laps": [
+          172.152,
+          189.487,
+          150.292
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      }
+    ],
+    "Joshua Frame": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 152.799,
+        "laps": [
+          196.427,
+          152.799,
+          159.013
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      }
+    ],
+    "Antonio Aramburu": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 14,
+        "best_lap_seconds": 153.409,
+        "laps": [
+          179.767,
+          153.409,
+          169.132
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
+      }
+    ],
+    "Aviel Aramburu": [
+      {
+        "heat_no": 83379,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 15,
+        "best_lap_seconds": 170.325,
+        "laps": [
+          193.595,
+          170.325,
+          171.465
+        ],
+        "start_time_iso": "2025-11-15T11:45:00"
       }
     ],
     "Samir Abdul": [
@@ -562631,118 +567098,6 @@
         "start_time_iso": "2025-04-19T15:45:00"
       }
     ],
-    "Randy Bell": [
-      {
-        "heat_no": 76193,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 112.654,
-        "laps": [
-          192.149,
-          118.886,
-          115.519,
-          112.654,
-          155.317
-        ],
-        "start_time_iso": "2025-02-01T11:15:00"
-      },
-      {
-        "heat_no": 83080,
-        "heat_type": "League Final",
-        "position": 3,
-        "best_lap_seconds": 117.354,
-        "laps": [
-          125.244,
-          120.523,
-          119.774,
-          119.328,
-          119.192,
-          117.684,
-          117.354,
-          118.46,
-          119.502
-        ],
-        "start_time_iso": "2025-11-01T10:00:00"
-      },
-      {
-        "heat_no": 76195,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 5,
-        "best_lap_seconds": 85.888,
-        "laps": [
-          115.546,
-          88.194,
-          86.685,
-          86.241,
-          87.441,
-          85.888,
-          86.422
-        ],
-        "start_time_iso": "2025-02-01T12:15:00"
-      },
-      {
-        "heat_no": 83079,
-        "heat_type": "League Heat",
-        "position": 11,
-        "best_lap_seconds": 117.315,
-        "laps": [
-          128.876,
-          134.855,
-          117.935,
-          118.372,
-          117.315
-        ],
-        "start_time_iso": "2025-11-01T09:45:00"
-      },
-      {
-        "heat_no": 76194,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 9,
-        "best_lap_seconds": 95.88,
-        "laps": [
-          128.825,
-          110.046,
-          102.127,
-          97.619,
-          103.41,
-          95.88
-        ],
-        "start_time_iso": "2025-02-01T11:45:00"
-      },
-      {
-        "heat_no": 83076,
-        "heat_type": "League Qualifier",
-        "position": 12,
-        "best_lap_seconds": 120.915,
-        "laps": [
-          125.304,
-          124.357,
-          120.915,
-          120.961,
-          121.352
-        ],
-        "start_time_iso": "2025-11-01T09:00:00"
-      },
-      {
-        "heat_no": 83081,
-        "heat_type": "League Final",
-        "position": 21,
-        "best_lap_seconds": 114.323,
-        "laps": [
-          128.304,
-          123.305,
-          116.136,
-          115.576,
-          115.758,
-          115.103,
-          115.256,
-          114.323,
-          114.654,
-          114.505
-        ],
-        "start_time_iso": "2025-11-01T10:25:00"
-      }
-    ],
     "Turis Corning": [
       {
         "heat_no": 76193,
@@ -579822,54 +584177,6 @@
         "start_time_iso": "2025-05-07T14:30:00"
       }
     ],
-    "Martynas Grigo...": [
-      {
-        "heat_no": 83080,
-        "heat_type": "League Final",
-        "position": 5,
-        "best_lap_seconds": 119.0,
-        "laps": [
-          135.924,
-          122.617,
-          122.257,
-          122.11,
-          122.658,
-          120.632,
-          119.0,
-          121.99,
-          128.103
-        ],
-        "start_time_iso": "2025-11-01T10:00:00"
-      },
-      {
-        "heat_no": 83077,
-        "heat_type": "League Qualifier",
-        "position": 10,
-        "best_lap_seconds": 121.375,
-        "laps": [
-          145.473,
-          124.926,
-          127.368,
-          122.167,
-          121.375
-        ],
-        "start_time_iso": "2025-11-01T09:15:00"
-      },
-      {
-        "heat_no": 83079,
-        "heat_type": "League Heat",
-        "position": 13,
-        "best_lap_seconds": 124.771,
-        "laps": [
-          129.089,
-          134.72,
-          124.837,
-          125.304,
-          124.771
-        ],
-        "start_time_iso": "2025-11-01T09:45:00"
-      }
-    ],
     "Neil Nunan": [
       {
         "heat_no": 77742,
@@ -590464,72 +594771,6 @@
           98.073
         ],
         "start_time_iso": "2025-08-21T11:15:00"
-      }
-    ],
-    "eric cruz": [
-      {
-        "heat_no": 82288,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 88.927,
-        "laps": [
-          165.446,
-          91.373,
-          90.694,
-          90.057,
-          91.074,
-          88.927
-        ],
-        "start_time_iso": "2025-09-27T16:45:00"
-      },
-      {
-        "heat_no": 82290,
-        "heat_type": "Arrive and Drive-12 Karts",
-        "position": 4,
-        "best_lap_seconds": 87.356,
-        "laps": [
-          120.709,
-          88.775,
-          89.782,
-          88.991,
-          87.356,
-          87.64,
-          95.863
-        ],
-        "start_time_iso": "2025-09-27T17:15:00"
-      }
-    ],
-    "OSCAR AYALA": [
-      {
-        "heat_no": 82288,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 90.764,
-        "laps": [
-          167.03,
-          95.513,
-          93.536,
-          92.218,
-          98.39,
-          90.764
-        ],
-        "start_time_iso": "2025-09-27T16:45:00"
-      },
-      {
-        "heat_no": 82290,
-        "heat_type": "Arrive and Drive-12 Karts",
-        "position": 3,
-        "best_lap_seconds": 86.703,
-        "laps": [
-          115.943,
-          88.065,
-          88.568,
-          99.936,
-          87.052,
-          86.703,
-          88.517
-        ],
-        "start_time_iso": "2025-09-27T17:15:00"
       }
     ],
     "Shadab Khan": [
@@ -607975,344 +612216,6 @@
           191.319
         ],
         "start_time_iso": "2025-10-23T15:45:00"
-      }
-    ],
-    "Alexander Robles": [
-      {
-        "heat_no": 82901,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 7,
-        "best_lap_seconds": 84.509,
-        "laps": [
-          102.083,
-          84.742,
-          100.882,
-          85.619,
-          84.509,
-          84.891,
-          84.762,
-          85.088
-        ],
-        "start_time_iso": "2025-10-23T15:45:00"
-      },
-      {
-        "heat_no": 82898,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 85.276,
-        "laps": [
-          113.59,
-          86.189,
-          93.503,
-          89.066,
-          86.098,
-          86.326,
-          85.276
-        ],
-        "start_time_iso": "2025-10-23T14:45:00"
-      },
-      {
-        "heat_no": 83095,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 88.282,
-        "laps": [
-          116.734,
-          92.536,
-          89.188,
-          93.116,
-          90.445,
-          118.008,
-          88.282
-        ],
-        "start_time_iso": "2025-11-01T14:00:00"
-      },
-      {
-        "heat_no": 83233,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 6,
-        "best_lap_seconds": 83.456,
-        "laps": [
-          117.068,
-          88.13,
-          85.149,
-          85.996,
-          84.347,
-          83.66,
-          83.456
-        ],
-        "start_time_iso": "2025-11-08T14:15:00"
-      },
-      {
-        "heat_no": 82115,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 2,
-        "best_lap_seconds": 84.551,
-        "laps": [
-          109.854,
-          85.673,
-          84.551,
-          84.757,
-          85.151,
-          87.424,
-          85.532
-        ],
-        "start_time_iso": "2025-09-20T15:00:00"
-      },
-      {
-        "heat_no": 82899,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 83.748,
-        "laps": [
-          109.411,
-          83.748,
-          84.019,
-          88.547,
-          86.945,
-          85.489,
-          83.828
-        ],
-        "start_time_iso": "2025-10-23T15:15:00"
-      },
-      {
-        "heat_no": 83235,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 5,
-        "best_lap_seconds": 82.514,
-        "laps": [
-          109.038,
-          84.197,
-          82.563,
-          82.514,
-          82.943,
-          83.758,
-          84.429,
-          83.214,
-          84.702
-        ],
-        "start_time_iso": "2025-11-08T14:45:00"
-      },
-      {
-        "heat_no": 82696,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 4,
-        "best_lap_seconds": 82.975,
-        "laps": [
-          87.553,
-          96.882,
-          84.277,
-          83.71,
-          83.947,
-          84.01,
-          82.975,
-          83.892
-        ],
-        "start_time_iso": "2025-10-15T15:45:00"
-      },
-      {
-        "heat_no": 82111,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 6,
-        "best_lap_seconds": 88.184,
-        "laps": [
-          119.034,
-          89.135,
-          88.676,
-          88.603,
-          90.538,
-          91.423,
-          88.184
-        ],
-        "start_time_iso": "2025-09-20T14:00:00"
-      },
-      {
-        "heat_no": 82612,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 6,
-        "best_lap_seconds": 86.084,
-        "laps": [
-          137.52,
-          103.648,
-          93.78,
-          92.582,
-          86.084,
-          87.674
-        ],
-        "start_time_iso": "2025-10-11T11:45:00"
-      },
-      {
-        "heat_no": 83097,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 86.01,
-        "laps": [
-          120.549,
-          89.013,
-          92.082,
-          86.061,
-          102.398,
-          86.01,
-          86.52,
-          86.265
-        ],
-        "start_time_iso": "2025-11-01T14:30:00"
-      },
-      {
-        "heat_no": 82113,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 2,
-        "best_lap_seconds": 86.136,
-        "laps": [
-          120.609,
-          86.136,
-          86.606,
-          100.836,
-          90.436,
-          87.048,
-          87.114
-        ],
-        "start_time_iso": "2025-09-20T14:30:00"
-      },
-      {
-        "heat_no": 82614,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 7,
-        "best_lap_seconds": 94.742,
-        "laps": [
-          144.512,
-          111.438,
-          102.38,
-          98.651,
-          97.465,
-          94.742
-        ],
-        "start_time_iso": "2025-10-11T12:45:00"
-      },
-      {
-        "heat_no": 82613,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 5,
-        "best_lap_seconds": 86.513,
-        "laps": [
-          103.62,
-          86.672,
-          88.649,
-          86.513,
-          88.913,
-          91.058,
-          100.293
-        ],
-        "start_time_iso": "2025-10-11T12:15:00"
-      },
-      {
-        "heat_no": 82693,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 5,
-        "best_lap_seconds": 84.462,
-        "laps": [
-          117.865,
-          85.404,
-          84.504,
-          87.084,
-          84.462,
-          85.242,
-          85.078
-        ],
-        "start_time_iso": "2025-10-15T14:30:00"
-      },
-      {
-        "heat_no": 81503,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 7,
-        "best_lap_seconds": 87.053,
-        "laps": [
-          100.557,
-          92.002,
-          90.207,
-          88.37,
-          90.246,
-          89.552,
-          87.053
-        ],
-        "start_time_iso": "2025-08-27T14:15:00"
-      },
-      {
-        "heat_no": 81816,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 12,
-        "best_lap_seconds": 98.492,
-        "laps": [
-          132.953,
-          117.808,
-          121.923,
-          111.508,
-          98.492
-        ],
-        "start_time_iso": "2025-09-07T15:30:00"
-      },
-      {
-        "heat_no": 83237,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 6,
-        "best_lap_seconds": 83.087,
-        "laps": [
-          105.479,
-          85.422,
-          83.637,
-          83.58,
-          83.612,
-          83.365,
-          83.087,
-          83.185
-        ],
-        "start_time_iso": "2025-11-08T15:15:00"
-      },
-      {
-        "heat_no": 81501,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 4,
-        "best_lap_seconds": 95.502,
-        "laps": [
-          122.714,
-          114.531,
-          99.647,
-          97.697,
-          99.159,
-          95.502
-        ],
-        "start_time_iso": "2025-08-27T13:45:00"
-      },
-      {
-        "heat_no": 82694,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 5,
-        "best_lap_seconds": 84.428,
-        "laps": [
-          84.833,
-          85.336,
-          84.428,
-          84.514,
-          84.674,
-          84.437,
-          85.163
-        ],
-        "start_time_iso": "2025-10-15T15:15:00"
-      },
-      {
-        "heat_no": 81818,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 4,
-        "best_lap_seconds": 90.88,
-        "laps": [
-          123.069,
-          100.859,
-          98.013,
-          94.174,
-          90.88,
-          100.839
-        ],
-        "start_time_iso": "2025-09-07T16:00:00"
       }
     ],
     "Deep Patel": [
@@ -647486,6 +651389,450 @@
         "start_time_iso": "2025-10-12T13:30:00"
       }
     ],
+    "nathan barrett": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 98.669,
+        "laps": [
+          141.588,
+          108.199,
+          109.496,
+          98.669,
+          103.978,
+          119.999
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 122.725,
+        "laps": [
+          151.492,
+          122.725,
+          126.364,
+          128.057,
+          126.371
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      }
+    ],
+    "Davion Darden-...": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 100.398,
+        "laps": [
+          142.327,
+          108.065,
+          100.398,
+          100.52,
+          101.346,
+          115.753
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 119.853,
+        "laps": [
+          148.066,
+          124.523,
+          119.853,
+          120.439,
+          121.613
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 109.876,
+        "laps": [
+          156.295,
+          115.485,
+          113.216,
+          110.046,
+          109.876
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Pedro Diaz": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 115.206,
+        "laps": [
+          155.925,
+          115.206,
+          125.245,
+          117.095,
+          157.58
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 150.469,
+        "laps": [
+          191.07,
+          218.668,
+          150.469
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Pablo Diaz": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 109.922,
+        "laps": [
+          174.975,
+          110.277,
+          158.2,
+          109.922
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 113.119,
+        "laps": [
+          167.25,
+          126.439,
+          150.141,
+          129.144,
+          113.119
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Jose Ochoa": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 118.013,
+        "laps": [
+          148.749,
+          139.367,
+          118.013,
+          118.618,
+          129.601
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 9,
+        "best_lap_seconds": 133.208,
+        "laps": [
+          189.875,
+          147.35,
+          133.208,
+          134.146
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Derek Giovacch...": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 112.552,
+        "laps": [
+          158.428,
+          124.101,
+          132.919,
+          112.552,
+          143.071
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 124.961,
+        "laps": [
+          166.49,
+          127.157,
+          124.961,
+          202.347
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Connor Hartman": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 116.479,
+        "laps": [
+          164.019,
+          121.217,
+          116.479,
+          116.77,
+          140.07
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 10,
+        "best_lap_seconds": 134.342,
+        "laps": [
+          231.539,
+          167.169,
+          146.509,
+          134.342
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Spencer Neiffer": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 108.845,
+        "laps": [
+          156.967,
+          119.132,
+          108.845,
+          116.787,
+          130.67
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 11,
+        "best_lap_seconds": 134.927,
+        "laps": [
+          164.417,
+          134.927,
+          136.51,
+          138.858
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Tyler Griffin": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 90.741,
+        "laps": [
+          131.906,
+          100.089,
+          92.39,
+          90.741,
+          91.797,
+          126.596
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 82057,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 84.968,
+        "laps": [
+          106.288,
+          86.65,
+          86.062,
+          86.629,
+          84.968,
+          85.417,
+          85.492
+        ],
+        "start_time_iso": "2025-09-18T10:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 114.377,
+        "laps": [
+          144.743,
+          125.039,
+          118.79,
+          120.938,
+          114.377
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 1,
+        "best_lap_seconds": 94.894,
+        "laps": [
+          149.858,
+          108.857,
+          102.089,
+          97.958,
+          94.894,
+          95.011
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      },
+      {
+        "heat_no": 82059,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 84.639,
+        "laps": [
+          135.523,
+          86.743,
+          85.477,
+          85.502,
+          84.639,
+          84.989,
+          85.208
+        ],
+        "start_time_iso": "2025-09-18T11:00:00"
+      },
+      {
+        "heat_no": 82055,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 1,
+        "best_lap_seconds": 88.244,
+        "laps": [
+          145.266,
+          92.695,
+          100.002,
+          89.868,
+          88.709,
+          88.244,
+          88.329
+        ],
+        "start_time_iso": "2025-09-18T10:00:00"
+      }
+    ],
+    "Anatolioy Bond...": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 106.992,
+        "laps": [
+          148.799,
+          114.13,
+          119.484,
+          106.992,
+          121.034
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 129.077,
+        "laps": [
+          147.669,
+          129.077,
+          141.847,
+          133.776,
+          134.828
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      },
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 4,
+        "best_lap_seconds": 108.981,
+        "laps": [
+          156.672,
+          119.379,
+          129.641,
+          113.18,
+          108.981
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Matthew Bird": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 14,
+        "best_lap_seconds": 125.419,
+        "laps": [
+          165.07,
+          130.567,
+          125.419,
+          130.65
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 136.701,
+        "laps": [
+          151.518,
+          144.215,
+          179.313,
+          136.701
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      }
+    ],
+    "Crew Barrett": [
+      {
+        "heat_no": 83384,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 103.272,
+        "laps": [
+          157.129,
+          117.34,
+          108.583,
+          103.272,
+          115.844
+        ],
+        "start_time_iso": "2025-11-15T13:30:00"
+      },
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 125.885,
+        "laps": [
+          154.272,
+          147.633,
+          125.885,
+          127.081
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
+      }
+    ],
     "Josh Schultz": [
       {
         "heat_no": 78373,
@@ -647879,6 +652226,19 @@
           87.816
         ],
         "start_time_iso": "2025-05-04T12:45:00"
+      },
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 3,
+        "best_lap_seconds": 126.97,
+        "laps": [
+          165.047,
+          133.977,
+          136.172,
+          126.97
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
       }
     ],
     "Mike Budd": [
@@ -652579,6 +656939,20 @@
         "start_time_iso": "2025-07-11T18:45:00"
       },
       {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 2,
+        "best_lap_seconds": 122.931,
+        "laps": [
+          165.914,
+          136.574,
+          122.931,
+          135.001,
+          135.422
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
         "heat_no": 75787,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 10,
@@ -652643,6 +657017,19 @@
           88.707
         ],
         "start_time_iso": "2025-01-11T13:15:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 5,
+        "best_lap_seconds": 130.591,
+        "laps": [
+          141.83,
+          130.591,
+          161.383,
+          140.84
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
       }
     ],
     "Bharat Balla": [
@@ -665854,56 +670241,6 @@
         "start_time_iso": "2025-09-18T10:00:00"
       }
     ],
-    "Tyler Griffin": [
-      {
-        "heat_no": 82057,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 84.968,
-        "laps": [
-          106.288,
-          86.65,
-          86.062,
-          86.629,
-          84.968,
-          85.417,
-          85.492
-        ],
-        "start_time_iso": "2025-09-18T10:30:00"
-      },
-      {
-        "heat_no": 82059,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 84.639,
-        "laps": [
-          135.523,
-          86.743,
-          85.477,
-          85.502,
-          84.639,
-          84.989,
-          85.208
-        ],
-        "start_time_iso": "2025-09-18T11:00:00"
-      },
-      {
-        "heat_no": 82055,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 88.244,
-        "laps": [
-          145.266,
-          92.695,
-          100.002,
-          89.868,
-          88.709,
-          88.244,
-          88.329
-        ],
-        "start_time_iso": "2025-09-18T10:00:00"
-      }
-    ],
     "mason rizik": [
       {
         "heat_no": 81364,
@@ -673085,6 +677422,36 @@
           90.829
         ],
         "start_time_iso": "2025-02-26T15:15:00"
+      }
+    ],
+    "Diana Tyrsina": [
+      {
+        "heat_no": 83395,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 3,
+        "best_lap_seconds": 153.36,
+        "laps": [
+          173.942,
+          153.36,
+          159.848,
+          155.276
+        ],
+        "start_time_iso": "2025-11-15T16:15:00"
+      }
+    ],
+    "Daniel Puris": [
+      {
+        "heat_no": 83395,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 2,
+        "best_lap_seconds": 134.201,
+        "laps": [
+          168.062,
+          134.201,
+          139.619,
+          140.472
+        ],
+        "start_time_iso": "2025-11-15T16:15:00"
       }
     ],
     "xChristine": [
@@ -688657,6 +693024,18 @@
           112.657
         ],
         "start_time_iso": "2025-07-11T19:00:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 157.452,
+        "laps": [
+          186.008,
+          166.598,
+          157.452
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
       }
     ],
     "Yu Zhong": [
@@ -695369,6 +699748,21 @@
           104.373
         ],
         "start_time_iso": "2025-05-16T16:00:00"
+      }
+    ],
+    "Kadin Warren": [
+      {
+        "heat_no": 83386,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 8,
+        "best_lap_seconds": 148.585,
+        "laps": [
+          175.027,
+          155.61,
+          151.297,
+          148.585
+        ],
+        "start_time_iso": "2025-11-15T14:00:00"
       }
     ],
     "Vincent La": [
@@ -760092,6 +764486,62 @@
         "start_time_iso": "2025-05-03T13:30:00"
       }
     ],
+    "Ekansh Gupta": [
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 137.027,
+        "laps": [
+          179.55,
+          156.515,
+          150.504,
+          137.027
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      },
+      {
+        "heat_no": 83387,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 7,
+        "best_lap_seconds": 143.886,
+        "laps": [
+          170.49,
+          147.582,
+          143.886,
+          151.329
+        ],
+        "start_time_iso": "2025-11-15T14:15:00"
+      }
+    ],
+    "Micah Bautista": [
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 12,
+        "best_lap_seconds": 164.37,
+        "laps": [
+          176.272,
+          164.37,
+          230.354
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      }
+    ],
+    "Bianca Beskow": [
+      {
+        "heat_no": 83389,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 171.901,
+        "laps": [
+          185.098,
+          171.901,
+          175.716
+        ],
+        "start_time_iso": "2025-11-15T14:45:00"
+      }
+    ],
     "Scott Jones": [
       {
         "heat_no": 77259,
@@ -762368,114 +766818,6 @@
           105.57
         ],
         "start_time_iso": "2025-09-10T11:30:00"
-      }
-    ],
-    "Samuel Lee": [
-      {
-        "heat_no": 81851,
-        "heat_type": "Group Event Practice",
-        "position": 12,
-        "best_lap_seconds": 114.224,
-        "laps": [
-          180.652,
-          143.631,
-          121.293,
-          114.224
-        ],
-        "start_time_iso": "2025-09-10T10:30:00"
-      },
-      {
-        "heat_no": 83229,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 7,
-        "best_lap_seconds": 91.2,
-        "laps": [
-          128.56,
-          92.253,
-          91.2,
-          103.099,
-          105.314,
-          99.295
-        ],
-        "start_time_iso": "2025-11-08T13:15:00"
-      },
-      {
-        "heat_no": 81854,
-        "heat_type": "Group Event Final",
-        "position": 3,
-        "best_lap_seconds": 88.369,
-        "laps": [
-          169.978,
-          91.33,
-          90.075,
-          91.924,
-          88.369,
-          95.285,
-          106.429
-        ],
-        "start_time_iso": "2025-09-10T12:00:00"
-      },
-      {
-        "heat_no": 81863,
-        "heat_type": "Event Session-Best Lap",
-        "position": 1,
-        "best_lap_seconds": 87.518,
-        "laps": [
-          143.531,
-          90.966,
-          87.518,
-          100.622,
-          91.333,
-          90.856
-        ],
-        "start_time_iso": "2025-09-10T13:00:00"
-      },
-      {
-        "heat_no": 81852,
-        "heat_type": "Group Event Qualifying",
-        "position": 1,
-        "best_lap_seconds": 94.345,
-        "laps": [
-          157.65,
-          120.977,
-          104.364,
-          98.426,
-          94.345,
-          103.238
-        ],
-        "start_time_iso": "2025-09-10T11:00:00"
-      },
-      {
-        "heat_no": 81853,
-        "heat_type": "Group Event Pre-Final",
-        "position": 4,
-        "best_lap_seconds": 91.348,
-        "laps": [
-          181.033,
-          102.713,
-          98.036,
-          91.834,
-          91.348,
-          104.67,
-          94.831
-        ],
-        "start_time_iso": "2025-09-10T11:30:00"
-      },
-      {
-        "heat_no": 83231,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 6,
-        "best_lap_seconds": 87.455,
-        "laps": [
-          87.932,
-          89.038,
-          103.023,
-          89.114,
-          87.455,
-          98.882,
-          88.548
-        ],
-        "start_time_iso": "2025-11-08T13:45:00"
       }
     ],
     "Salil Bhagurkar": [
@@ -768358,37 +772700,6 @@
           106.857,
           125.251,
           113.138
-        ],
-        "start_time_iso": "2025-09-28T13:00:00"
-      }
-    ],
-    "Nathan King": [
-      {
-        "heat_no": 82311,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 11,
-        "best_lap_seconds": 92.458,
-        "laps": [
-          134.599,
-          94.376,
-          94.636,
-          102.628,
-          92.458,
-          100.43
-        ],
-        "start_time_iso": "2025-09-28T13:30:00"
-      },
-      {
-        "heat_no": 82309,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 12,
-        "best_lap_seconds": 95.282,
-        "laps": [
-          142.724,
-          105.495,
-          96.84,
-          104.997,
-          95.282
         ],
         "start_time_iso": "2025-09-28T13:00:00"
       }
@@ -780940,100 +785251,6 @@
         "start_time_iso": "2025-06-21T18:45:00"
       }
     ],
-    "Tess Newton": [
-      {
-        "heat_no": 79747,
-        "heat_type": "Arrive and Drive-12 Karts",
-        "position": 3,
-        "best_lap_seconds": 86.498,
-        "laps": [
-          114.363,
-          96.726,
-          103.151,
-          161.915,
-          88.367,
-          86.498
-        ],
-        "start_time_iso": "2025-06-21T18:30:00"
-      },
-      {
-        "heat_no": 77824,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 11,
-        "best_lap_seconds": 92.918,
-        "laps": [
-          128.642,
-          120.119,
-          102.117,
-          102.614,
-          92.918,
-          101.545
-        ],
-        "start_time_iso": "2025-04-13T14:30:00"
-      },
-      {
-        "heat_no": 79540,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 11,
-        "best_lap_seconds": 91.463,
-        "laps": [
-          126.212,
-          101.901,
-          100.84,
-          91.463,
-          117.029,
-          95.135
-        ],
-        "start_time_iso": "2025-06-15T15:00:00"
-      },
-      {
-        "heat_no": 77826,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 9,
-        "best_lap_seconds": 89.923,
-        "laps": [
-          135.987,
-          104.321,
-          90.041,
-          102.448,
-          97.18,
-          89.923
-        ],
-        "start_time_iso": "2025-04-13T15:00:00"
-      },
-      {
-        "heat_no": 80841,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 1,
-        "best_lap_seconds": 87.808,
-        "laps": [
-          119.572,
-          90.943,
-          91.299,
-          92.353,
-          96.07,
-          90.485,
-          87.808
-        ],
-        "start_time_iso": "2025-08-01T17:00:00"
-      },
-      {
-        "heat_no": 82138,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 1,
-        "best_lap_seconds": 88.46,
-        "laps": [
-          151.233,
-          93.299,
-          91.265,
-          92.251,
-          89.661,
-          88.46,
-          89.1
-        ],
-        "start_time_iso": "2025-09-21T13:15:00"
-      }
-    ],
     "Dylan Munly": [
       {
         "heat_no": 79747,
@@ -782030,85 +786247,6 @@
           114.839
         ],
         "start_time_iso": "2025-04-05T14:15:00"
-      }
-    ],
-    "Gabriel Newton": [
-      {
-        "heat_no": 77824,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 12,
-        "best_lap_seconds": 93.744,
-        "laps": [
-          142.268,
-          112.335,
-          98.356,
-          97.49,
-          95.936,
-          93.744
-        ],
-        "start_time_iso": "2025-04-13T14:30:00"
-      },
-      {
-        "heat_no": 79540,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 10,
-        "best_lap_seconds": 90.439,
-        "laps": [
-          124.903,
-          104.901,
-          92.674,
-          93.472,
-          93.019,
-          92.047,
-          90.439
-        ],
-        "start_time_iso": "2025-06-15T15:00:00"
-      },
-      {
-        "heat_no": 77826,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 10,
-        "best_lap_seconds": 92.482,
-        "laps": [
-          115.951,
-          106.944,
-          93.457,
-          95.494,
-          104.779,
-          92.482
-        ],
-        "start_time_iso": "2025-04-13T15:00:00"
-      },
-      {
-        "heat_no": 80841,
-        "heat_type": "Arrive and Drive -15 Karts",
-        "position": 2,
-        "best_lap_seconds": 89.805,
-        "laps": [
-          119.515,
-          90.544,
-          91.679,
-          91.123,
-          93.439,
-          93.28,
-          89.805
-        ],
-        "start_time_iso": "2025-08-01T17:00:00"
-      },
-      {
-        "heat_no": 82138,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 4,
-        "best_lap_seconds": 90.284,
-        "laps": [
-          149.651,
-          93.483,
-          92.277,
-          103.885,
-          91.408,
-          90.284
-        ],
-        "start_time_iso": "2025-09-21T13:15:00"
       }
     ],
     "MICHELLE ZHANG": [
@@ -799634,40 +803772,6 @@
         "start_time_iso": "2025-11-08T13:00:00"
       }
     ],
-    "Mason Holt": [
-      {
-        "heat_no": 83230,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 7,
-        "best_lap_seconds": 84.59,
-        "laps": [
-          121.476,
-          95.665,
-          86.191,
-          85.043,
-          84.919,
-          84.617,
-          84.59
-        ],
-        "start_time_iso": "2025-11-08T13:30:00"
-      },
-      {
-        "heat_no": 83228,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 9,
-        "best_lap_seconds": 87.775,
-        "laps": [
-          122.283,
-          90.738,
-          96.387,
-          92.208,
-          90.537,
-          87.863,
-          87.775
-        ],
-        "start_time_iso": "2025-11-08T13:00:00"
-      }
-    ],
     "Eduar Castrillo": [
       {
         "heat_no": 83230,
@@ -803482,39 +807586,6 @@
           107.501
         ],
         "start_time_iso": "2025-08-02T16:15:00"
-      }
-    ],
-    "Kiran Phaniharam": [
-      {
-        "heat_no": 83264,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 9,
-        "best_lap_seconds": 92.908,
-        "laps": [
-          136.652,
-          94.739,
-          94.903,
-          102.187,
-          92.908,
-          95.077,
-          131.816
-        ],
-        "start_time_iso": "2025-11-09T14:30:00"
-      },
-      {
-        "heat_no": 83262,
-        "heat_type": "Arrive and Drive- 18 Karts",
-        "position": 13,
-        "best_lap_seconds": 96.206,
-        "laps": [
-          134.631,
-          105.881,
-          96.784,
-          110.344,
-          100.954,
-          96.206
-        ],
-        "start_time_iso": "2025-11-09T14:00:00"
       }
     ],
     "Colin Whitney": [
@@ -828241,6 +832312,36 @@
         "start_time_iso": "2025-09-20T16:00:00"
       }
     ],
+    "Jason Jones": [
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 6,
+        "best_lap_seconds": 112.102,
+        "laps": [
+          177.415,
+          127.361,
+          119.359,
+          117.652,
+          112.102
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
+    "Denise Reed": [
+      {
+        "heat_no": 83382,
+        "heat_type": "Arrive and Drive- 18 Karts",
+        "position": 13,
+        "best_lap_seconds": 167.964,
+        "laps": [
+          265.883,
+          177.784,
+          167.964
+        ],
+        "start_time_iso": "2025-11-15T13:00:00"
+      }
+    ],
     "Vikram Reddy": [
       {
         "heat_no": 80033,
@@ -843615,6 +847716,19 @@
         "start_time_iso": "2025-08-24T16:00:00"
       },
       {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 9,
+        "best_lap_seconds": 147.356,
+        "laps": [
+          189.527,
+          165.021,
+          147.356,
+          160.697
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      },
+      {
         "heat_no": 77937,
         "heat_type": "Arrive and Drive- 18 Karts",
         "position": 9,
@@ -843646,6 +847760,19 @@
           103.712
         ],
         "start_time_iso": "2025-08-24T16:00:00"
+      },
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 11,
+        "best_lap_seconds": 157.704,
+        "laps": [
+          157.704,
+          159.042,
+          165.313,
+          171.469
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
       },
       {
         "heat_no": 77937,
@@ -899617,6 +903744,36 @@
           89.969
         ],
         "start_time_iso": "2025-01-22T15:15:00"
+      }
+    ],
+    "Yousif Aljuburi": [
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 10,
+        "best_lap_seconds": 156.686,
+        "laps": [
+          212.77,
+          157.687,
+          157.178,
+          156.686
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
+      }
+    ],
+    "Yaser Aljuburi": [
+      {
+        "heat_no": 83394,
+        "heat_type": "Arrive and Drive -15 Karts",
+        "position": 8,
+        "best_lap_seconds": 144.019,
+        "laps": [
+          191.637,
+          164.509,
+          144.019,
+          154.624
+        ],
+        "start_time_iso": "2025-11-15T16:00:00"
       }
     ],
     "Roslynn Peterson": [

@@ -1,0 +1,48 @@
+{
+  "heat_no": 83393,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-15T15:45:00",
+  "drivers": [
+    {
+      "name": "Jacob Nguyen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 125.753,
+      "lap_times_url": null,
+      "laps": [
+        154.05,
+        125.753,
+        127.648,
+        130.022,
+        126.403
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jayden Lim",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 134.098,
+      "lap_times_url": null,
+      "laps": [
+        154.79,
+        145.735,
+        134.098,
+        148.804
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83393"
+}
