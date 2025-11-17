@@ -1,0 +1,50 @@
+{
+  "heat_no": 83408,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-16T11:15:00",
+  "drivers": [
+    {
+      "name": "Shreyansh Bhus...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.573,
+      "lap_times_url": null,
+      "laps": [
+        136.145,
+        118.728,
+        124.677,
+        116.573,
+        126.238
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "David Anderson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.44,
+      "lap_times_url": null,
+      "laps": [
+        138.14,
+        133.768,
+        119.44,
+        120.692,
+        119.47
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83408"
+}

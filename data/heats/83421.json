@@ -1,0 +1,48 @@
+{
+  "heat_no": 83421,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-16T15:15:00",
+  "drivers": [
+    {
+      "name": "Andrei Vulcan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 133.308,
+      "lap_times_url": null,
+      "laps": [
+        149.159,
+        145.088,
+        133.308,
+        146.824
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kiran Tomlinson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 119.411,
+      "lap_times_url": null,
+      "laps": [
+        149.618,
+        120.324,
+        125.637,
+        119.411,
+        125.171
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83421"
+}

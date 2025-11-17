@@ -1,0 +1,50 @@
+{
+  "heat_no": 83416,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-16T14:00:00",
+  "drivers": [
+    {
+      "name": "Vladimir Stoya...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.247,
+      "lap_times_url": null,
+      "laps": [
+        135.706,
+        120.137,
+        115.546,
+        115.247,
+        118.379
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Vitali Stoyanov",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.184,
+      "lap_times_url": null,
+      "laps": [
+        136.045,
+        123.405,
+        115.184,
+        115.931,
+        116.327
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83416"
+}

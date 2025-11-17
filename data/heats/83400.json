@@ -1,0 +1,113 @@
+{
+  "heat_no": 83400,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-16T09:15:00",
+  "drivers": [
+    {
+      "name": "Kevin Hjelstrom",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 125.234,
+      "lap_times_url": null,
+      "laps": [
+        149.58,
+        130.108,
+        126.606,
+        125.234,
+        129.12
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dario De Agost...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.495,
+      "lap_times_url": null,
+      "laps": [
+        138.121,
+        144.163,
+        122.499,
+        121.137,
+        120.495
+      ],
+      "lap_positions": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Pratt",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 128.126,
+      "lap_times_url": null,
+      "laps": [
+        145.184,
+        130.467,
+        129.858,
+        138.765,
+        128.126
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.805,
+      "lap_times_url": null,
+      "laps": [
+        134.011,
+        116.5,
+        114.303,
+        114.347,
+        113.805
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mike Kellerman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 125.637,
+      "lap_times_url": null,
+      "laps": [
+        166.048,
+        135.845,
+        139.388,
+        125.637,
+        127.448
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83400"
+}

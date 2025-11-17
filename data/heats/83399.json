@@ -1,0 +1,50 @@
+{
+  "heat_no": 83399,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-16T09:00:00",
+  "drivers": [
+    {
+      "name": "Gavin Cutler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.745,
+      "lap_times_url": null,
+      "laps": [
+        131.547,
+        135.421,
+        138.368,
+        136.959,
+        128.745
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.972,
+      "lap_times_url": null,
+      "laps": [
+        122.857,
+        120.824,
+        123.556,
+        118.642,
+        116.972
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83399"
+}

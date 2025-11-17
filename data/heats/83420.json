@@ -1,0 +1,69 @@
+{
+  "heat_no": 83420,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-16T15:00:00",
+  "drivers": [
+    {
+      "name": "kelton drotz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.494,
+      "lap_times_url": null,
+      "laps": [
+        140.118,
+        123.494,
+        125.014,
+        149.843,
+        138.666
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jose Castro",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 124.068,
+      "lap_times_url": null,
+      "laps": [
+        146.007,
+        144.55,
+        124.068,
+        126.005
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "CARTER PRELLWITZ",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.249,
+      "lap_times_url": null,
+      "laps": [
+        142.803,
+        121.249,
+        131.485,
+        144.804,
+        137.981
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83420"
+}
