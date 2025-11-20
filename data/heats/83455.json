@@ -1,0 +1,96 @@
+{
+  "heat_no": 83455,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-19T14:45:00",
+  "drivers": [
+    {
+      "name": "Scott Ti",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.146,
+      "lap_times_url": null,
+      "laps": [
+        130.973,
+        90.673,
+        88.906,
+        87.516,
+        87.146,
+        89.868,
+        87.896
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Skip Jones",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 112.603,
+      "lap_times_url": null,
+      "laps": [
+        140.385,
+        118.692,
+        115.538,
+        112.603,
+        113.228
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Robert Calloway",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 103.929,
+      "lap_times_url": null,
+      "laps": [
+        136.356,
+        107.135,
+        104.345,
+        109.005,
+        103.929,
+        110.454
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "NATHAN VU",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 129.25,
+      "lap_times_url": null,
+      "laps": [
+        169.559,
+        148.668,
+        140.403,
+        129.25
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83455"
+}

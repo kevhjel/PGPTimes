@@ -1,0 +1,98 @@
+{
+  "heat_no": 83450,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-19T13:30:00",
+  "drivers": [
+    {
+      "name": "Giuliano Cataf...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.921,
+      "lap_times_url": null,
+      "laps": [
+        135.716,
+        112.533,
+        99.921,
+        100.002,
+        107.184,
+        100.054
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lilly Geiger",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 118.879,
+      "lap_times_url": null,
+      "laps": [
+        147.953,
+        132.122,
+        156.455,
+        125.184,
+        118.879
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Blake Irwin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.715,
+      "lap_times_url": null,
+      "laps": [
+        134.897,
+        112.959,
+        96.578,
+        92.715,
+        108.047,
+        104.559
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dale Irwin",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 102.732,
+      "lap_times_url": null,
+      "laps": [
+        131.477,
+        107.641,
+        104.158,
+        102.732,
+        106.11,
+        106.521
+      ],
+      "lap_positions": [
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83450"
+}

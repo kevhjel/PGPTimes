@@ -1,0 +1,31 @@
+{
+  "heat_no": 83449,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-19T13:15:00",
+  "drivers": [
+    {
+      "name": "Micah Salkind",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 88.438,
+      "lap_times_url": null,
+      "laps": [
+        88.438,
+        89.206,
+        91.053,
+        91.369,
+        91.848,
+        89.661
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83449"
+}
