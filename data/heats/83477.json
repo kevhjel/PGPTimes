@@ -1,0 +1,81 @@
+{
+  "heat_no": 83477,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-20T12:45:00",
+  "drivers": [
+    {
+      "name": "Cranston Riely",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.382,
+      "lap_times_url": null,
+      "laps": [
+        130.227,
+        96.722,
+        103.451,
+        89.338,
+        87.076,
+        86.947,
+        86.382
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Federico Mira ...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.538,
+      "lap_times_url": null,
+      "laps": [
+        117.478,
+        84.883,
+        84.529,
+        84.108,
+        83.858,
+        83.538,
+        83.553
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Leana Harper",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.935,
+      "lap_times_url": null,
+      "laps": [
+        134.418,
+        99.334,
+        99.112,
+        96.444,
+        98.014,
+        95.935
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83477"
+}

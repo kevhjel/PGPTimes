@@ -1,0 +1,60 @@
+{
+  "heat_no": 83491,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-20T16:15:00",
+  "drivers": [
+    {
+      "name": "Christopher E...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.594,
+      "lap_times_url": null,
+      "laps": [
+        96.513,
+        82.831,
+        91.032,
+        87.56,
+        81.038,
+        80.945,
+        80.813,
+        80.594
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Apollo Dent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.352,
+      "lap_times_url": null,
+      "laps": [
+        98.192,
+        88.749,
+        87.305,
+        86.872,
+        86.859,
+        86.825,
+        86.352
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83491"
+}

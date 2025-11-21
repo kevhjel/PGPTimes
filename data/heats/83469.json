@@ -1,0 +1,50 @@
+{
+  "heat_no": 83469,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-20T10:45:00",
+  "drivers": [
+    {
+      "name": "matt ording",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.494,
+      "lap_times_url": null,
+      "laps": [
+        138.347,
+        134.741,
+        122.566,
+        123.227,
+        122.494
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Nate Ogura",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 121.95,
+      "lap_times_url": null,
+      "laps": [
+        145.501,
+        131.419,
+        124.358,
+        123.11,
+        121.95
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83469"
+}
