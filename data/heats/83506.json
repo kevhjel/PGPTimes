@@ -1,0 +1,56 @@
+{
+  "heat_no": 83506,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-21T12:30:00",
+  "drivers": [
+    {
+      "name": "Graeson Campbell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.528,
+      "lap_times_url": null,
+      "laps": [
+        85.372,
+        84.528,
+        84.897,
+        93.357,
+        85.959,
+        95.775
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Lucian Zahorjan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.272,
+      "lap_times_url": null,
+      "laps": [
+        85.143,
+        84.246,
+        83.866,
+        83.76,
+        83.683,
+        83.407,
+        83.272
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83506"
+}

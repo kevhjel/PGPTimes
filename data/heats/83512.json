@@ -1,0 +1,102 @@
+{
+  "heat_no": 83512,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-21T14:00:00",
+  "drivers": [
+    {
+      "name": "shane homan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.192,
+      "lap_times_url": null,
+      "laps": [
+        98.644,
+        87.052,
+        85.192,
+        85.923,
+        87.06,
+        90.643
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Richard Thio",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 91.17,
+      "lap_times_url": null,
+      "laps": [
+        93.545,
+        92.081,
+        92.032,
+        91.17,
+        91.313,
+        91.496
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jeff DeLeeuw",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.036,
+      "lap_times_url": null,
+      "laps": [
+        86.271,
+        84.728,
+        84.139,
+        83.658,
+        83.078,
+        83.094,
+        83.036
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bernard Kogoya",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 89.57,
+      "lap_times_url": null,
+      "laps": [
+        93.913,
+        93.238,
+        90.763,
+        89.57,
+        91.148,
+        90.385
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83512"
+}

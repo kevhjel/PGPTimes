@@ -1,0 +1,85 @@
+{
+  "heat_no": 83511,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-21T13:45:00",
+  "drivers": [
+    {
+      "name": "Cole Mcknight",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.249,
+      "lap_times_url": null,
+      "laps": [
+        107.658,
+        83.13,
+        82.602,
+        82.58,
+        81.249,
+        81.278,
+        81.738,
+        81.371
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.816,
+      "lap_times_url": null,
+      "laps": [
+        107.627,
+        83.864,
+        82.863,
+        83.476,
+        81.816,
+        82.386,
+        83.459,
+        82.972
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Gregg McKnight",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 94.505,
+      "lap_times_url": null,
+      "laps": [
+        117.14,
+        98.675,
+        96.861,
+        96.923,
+        104.429,
+        94.505
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83511"
+}

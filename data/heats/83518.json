@@ -1,0 +1,131 @@
+{
+  "heat_no": 83518,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-21T15:30:00",
+  "drivers": [
+    {
+      "name": "Brian Iroz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.811,
+      "lap_times_url": null,
+      "laps": [
+        110.421,
+        83.434,
+        84.418,
+        82.949,
+        82.121,
+        82.234,
+        82.351,
+        81.811
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Brent Flatness",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.972,
+      "lap_times_url": null,
+      "laps": [
+        110.341,
+        86.12,
+        85.277,
+        84.917,
+        83.998,
+        83.972,
+        84.648
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Carter Flatness",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.169,
+      "lap_times_url": null,
+      "laps": [
+        112.459,
+        85.02,
+        85.726,
+        86.728,
+        83.169,
+        84.003,
+        83.53
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Greg Offerman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.881,
+      "lap_times_url": null,
+      "laps": [
+        116.776,
+        88.886,
+        88.483,
+        88.599,
+        96.751,
+        86.881,
+        98.037
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Brooke Flatness",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 112.242,
+      "lap_times_url": null,
+      "laps": [
+        141.313,
+        136.29,
+        123.447,
+        125.347,
+        112.242
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83518"
+}
