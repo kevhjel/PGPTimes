@@ -1,0 +1,83 @@
+{
+  "heat_no": 83565,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-22T16:00:00",
+  "drivers": [
+    {
+      "name": "Maximus Crateau",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.902,
+      "lap_times_url": null,
+      "laps": [
+        121.516,
+        87.13,
+        85.997,
+        85.128,
+        85.334,
+        84.902,
+        96.19
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alex Saveau",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.379,
+      "lap_times_url": null,
+      "laps": [
+        111.849,
+        87.615,
+        87.81,
+        88.256,
+        87.379,
+        87.933,
+        88.996
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sergiy Bezruchuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.484,
+      "lap_times_url": null,
+      "laps": [
+        111.628,
+        88.936,
+        87.945,
+        88.227,
+        88.358,
+        87.484,
+        92.871
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83565"
+}

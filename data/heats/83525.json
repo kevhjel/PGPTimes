@@ -1,0 +1,86 @@
+{
+  "heat_no": 83525,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-22T11:00:00",
+  "drivers": [
+    {
+      "name": "Chris Paquette",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 104.256,
+      "lap_times_url": null,
+      "laps": [
+        136.984,
+        107.564,
+        105.024,
+        104.256,
+        104.59
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alinea Paquette",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.774,
+      "lap_times_url": null,
+      "laps": [
+        184.816,
+        139.825,
+        121.648,
+        113.774
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alyssa Paquette",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 127.543,
+      "lap_times_url": null,
+      "laps": [
+        181.783,
+        135.201,
+        131.663,
+        127.543
+      ],
+      "lap_positions": [
+        3,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Will Paquette",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.608,
+      "lap_times_url": null,
+      "laps": [
+        177.777,
+        140.869,
+        118.787,
+        113.608
+      ],
+      "lap_positions": [
+        2,
+        4,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83525"
+}

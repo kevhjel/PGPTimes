@@ -1,0 +1,83 @@
+{
+  "heat_no": 83535,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-22T14:00:00",
+  "drivers": [
+    {
+      "name": "Tony Soffe",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.913,
+      "lap_times_url": null,
+      "laps": [
+        106.192,
+        89.796,
+        88.018,
+        88.463,
+        88.276,
+        87.913,
+        88.565
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Wilfred Dela R...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.775,
+      "lap_times_url": null,
+      "laps": [
+        105.08,
+        87.987,
+        85.738,
+        84.775,
+        86.706,
+        86.335,
+        87.172
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kevin Winter",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.923,
+      "lap_times_url": null,
+      "laps": [
+        106.929,
+        90.416,
+        92.345,
+        89.73,
+        88.923,
+        89.206,
+        102.701
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83535"
+}
