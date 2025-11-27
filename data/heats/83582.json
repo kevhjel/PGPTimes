@@ -1,0 +1,46 @@
+{
+  "heat_no": 83582,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-26T09:30:00",
+  "drivers": [
+    {
+      "name": "Ben Kuksyuk",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 142.618,
+      "lap_times_url": null,
+      "laps": [
+        177.717,
+        190.837,
+        142.618,
+        150.099
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christopher Co...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 137.96,
+      "lap_times_url": null,
+      "laps": [
+        165.528,
+        157.337,
+        137.96,
+        169.058
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83582"
+}

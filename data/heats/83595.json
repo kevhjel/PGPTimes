@@ -1,0 +1,54 @@
+{
+  "heat_no": 83595,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-26T14:45:00",
+  "drivers": [
+    {
+      "name": "Luca Paolantonio",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.665,
+      "lap_times_url": null,
+      "laps": [
+        136.01,
+        124.283,
+        124.08,
+        123.68,
+        123.082,
+        121.665
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrei Vulcan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.0,
+      "lap_times_url": null,
+      "laps": [
+        115.895,
+        113.706,
+        113.512,
+        117.503,
+        119.289,
+        112.0
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83595"
+}

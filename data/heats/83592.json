@@ -1,0 +1,101 @@
+{
+  "heat_no": 83592,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-26T13:45:00",
+  "drivers": [
+    {
+      "name": "Maxwell Petersen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 124.254,
+      "lap_times_url": null,
+      "laps": [
+        156.584,
+        207.582,
+        127.272,
+        124.254
+      ],
+      "lap_positions": [
+        2,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Don Kinnison",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.148,
+      "lap_times_url": null,
+      "laps": [
+        155.067,
+        132.98,
+        128.148,
+        130.072,
+        132.521
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Hunter Mckittr...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.611,
+      "lap_times_url": null,
+      "laps": [
+        167.464,
+        135.181,
+        182.571,
+        126.611
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Lanya Elsa",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 186.768,
+      "lap_times_url": null,
+      "laps": [
+        198.095,
+        189.258,
+        186.768
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jaynie Penhart",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 164.938,
+      "lap_times_url": null,
+      "laps": [
+        198.277,
+        164.938,
+        186.115
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83592"
+}

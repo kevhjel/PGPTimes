@@ -1,0 +1,80 @@
+{
+  "heat_no": 83593,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-26T14:00:00",
+  "drivers": [
+    {
+      "name": "Hunter Mckittr...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.807,
+      "lap_times_url": null,
+      "laps": [
+        142.201,
+        132.783,
+        127.501,
+        133.37,
+        123.807
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lanya Elsa",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 193.86,
+      "lap_times_url": null,
+      "laps": [
+        202.278,
+        196.299,
+        193.86
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Jaynie Penhart",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 167.779,
+      "lap_times_url": null,
+      "laps": [
+        210.44,
+        167.779,
+        170.332
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Michael Ontive...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 178.653,
+      "lap_times_url": null,
+      "laps": [
+        201.123,
+        208.402,
+        178.653
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83593"
+}

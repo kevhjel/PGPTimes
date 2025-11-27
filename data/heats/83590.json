@@ -1,0 +1,138 @@
+{
+  "heat_no": 83590,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-11-26T12:00:00",
+  "drivers": [
+    {
+      "name": "Landis Terwill...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.402,
+      "lap_times_url": null,
+      "laps": [
+        162.498,
+        130.003,
+        123.402,
+        124.093,
+        134.906,
+        128.68
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Casey Terwille...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.639,
+      "lap_times_url": null,
+      "laps": [
+        149.922,
+        129.962,
+        129.639,
+        143.264,
+        132.856,
+        134.426
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "William Muilen...",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 139.241,
+      "lap_times_url": null,
+      "laps": [
+        183.627,
+        150.839,
+        153.843,
+        148.929,
+        139.241
+      ],
+      "lap_positions": [
+        6,
+        5,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jeremiah Boivin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.934,
+      "lap_times_url": null,
+      "laps": [
+        176.491,
+        143.387,
+        134.157,
+        132.934,
+        132.963
+      ],
+      "lap_positions": [
+        5,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Maxwell Petersen",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 100.312,
+      "lap_times_url": null,
+      "laps": [
+        169.45,
+        165.471,
+        162.456,
+        100.312,
+        139.161
+      ],
+      "lap_positions": [
+        4,
+        6,
+        6,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Don Kinnison",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 133.41,
+      "lap_times_url": null,
+      "laps": [
+        165.78,
+        137.713,
+        135.411,
+        134.051,
+        133.41
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83590"
+}
