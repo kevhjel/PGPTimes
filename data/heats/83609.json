@@ -1,0 +1,138 @@
+{
+  "heat_no": 83609,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-28T11:00:00",
+  "drivers": [
+    {
+      "name": "Kevin Hjelstrom",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 109.681,
+      "lap_times_url": null,
+      "laps": [
+        123.053,
+        109.681,
+        111.786,
+        112.4,
+        111.652,
+        111.771
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Behnen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.844,
+      "lap_times_url": null,
+      "laps": [
+        123.681,
+        113.39,
+        119.452,
+        110.906,
+        110.367,
+        109.844
+      ],
+      "lap_positions": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "James Hays",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 111.777,
+      "lap_times_url": null,
+      "laps": [
+        126.456,
+        126.48,
+        112.607,
+        111.777,
+        141.659
+      ],
+      "lap_positions": [
+        4,
+        4,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 111.817,
+      "lap_times_url": null,
+      "laps": [
+        124.255,
+        113.419,
+        112.704,
+        111.817,
+        113.734,
+        112.258
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Emerson Gregor...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 127.603,
+      "lap_times_url": null,
+      "laps": [
+        141.471,
+        158.387,
+        127.603,
+        130.954,
+        132.65
+      ],
+      "lap_positions": [
+        6,
+        6,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Emily Gregorios",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 131.03,
+      "lap_times_url": null,
+      "laps": [
+        135.609,
+        181.353,
+        137.709,
+        131.03
+      ],
+      "lap_positions": [
+        5,
+        5,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83609"
+}

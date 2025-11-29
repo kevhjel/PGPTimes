@@ -1,0 +1,92 @@
+{
+  "heat_no": 83601,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-11-28T09:00:00",
+  "drivers": [
+    {
+      "name": "Kevin Hjelstrom",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.322,
+      "lap_times_url": null,
+      "laps": [
+        127.64,
+        119.169,
+        118.828,
+        118.316,
+        117.322
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nick Behnen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.002,
+      "lap_times_url": null,
+      "laps": [
+        135.919,
+        125.652,
+        122.388,
+        121.002,
+        121.761
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "James Hays",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 124.795,
+      "lap_times_url": null,
+      "laps": [
+        144.854,
+        131.335,
+        124.795,
+        127.475,
+        128.712
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Kyle Wescott",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.56,
+      "lap_times_url": null,
+      "laps": [
+        127.171,
+        123.71,
+        121.601,
+        121.621,
+        121.56
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83601"
+}
