@@ -1,0 +1,110 @@
+{
+  "heat_no": 83714,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-03T14:45:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.931,
+      "lap_times_url": null,
+      "laps": [
+        94.927,
+        83.484,
+        81.722,
+        81.375,
+        81.098,
+        81.116,
+        81.471,
+        80.931
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.696,
+      "lap_times_url": null,
+      "laps": [
+        95.905,
+        83.221,
+        81.576,
+        81.225,
+        81.254,
+        81.339,
+        81.929,
+        80.696
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Gerardo Campos",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.385,
+      "lap_times_url": null,
+      "laps": [
+        99.56,
+        91.037,
+        88.543,
+        86.878,
+        85.995,
+        110.761,
+        85.385
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Calvin Bishop",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 96.491,
+      "lap_times_url": null,
+      "laps": [
+        112.114,
+        106.726,
+        105.392,
+        118.829,
+        144.486,
+        96.491
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83714"
+}
