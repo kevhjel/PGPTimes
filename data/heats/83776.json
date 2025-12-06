@@ -1,0 +1,52 @@
+{
+  "heat_no": 83776,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-05T15:45:00",
+  "drivers": [
+    {
+      "name": "Devin James",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.931,
+      "lap_times_url": null,
+      "laps": [
+        121.321,
+        114.569,
+        115.188,
+        114.458,
+        115.963,
+        113.931
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Natanael Gonza...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 127.868,
+      "lap_times_url": null,
+      "laps": [
+        147.263,
+        138.374,
+        127.868,
+        138.688,
+        131.226
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83776"
+}

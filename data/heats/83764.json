@@ -1,0 +1,67 @@
+{
+  "heat_no": 83764,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-05T10:30:00",
+  "drivers": [
+    {
+      "name": "Andrew Engles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.613,
+      "lap_times_url": null,
+      "laps": [
+        134.104,
+        117.681,
+        114.239,
+        113.184,
+        112.613
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kris Shelton",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 132.317,
+      "lap_times_url": null,
+      "laps": [
+        153.281,
+        142.862,
+        140.854,
+        132.317
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Elijah Shelton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 159.352,
+      "lap_times_url": null,
+      "laps": [
+        165.71,
+        159.352,
+        176.118,
+        165.686
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83764"
+}
