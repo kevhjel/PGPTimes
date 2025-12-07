@@ -1,0 +1,106 @@
+{
+  "heat_no": 83790,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-06T13:15:00",
+  "drivers": [
+    {
+      "name": "Brian Peasley",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.959,
+      "lap_times_url": null,
+      "laps": [
+        110.202,
+        86.578,
+        83.405,
+        82.959,
+        84.415,
+        83.997,
+        85.866
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ricky Situ",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.573,
+      "lap_times_url": null,
+      "laps": [
+        130.228,
+        92.311,
+        92.532,
+        91.956,
+        90.573,
+        137.782
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Rowlland Kung",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.286,
+      "lap_times_url": null,
+      "laps": [
+        116.369,
+        93.302,
+        89.993,
+        90.751,
+        92.575,
+        88.286,
+        99.93
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tejas Redkar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.219,
+      "lap_times_url": null,
+      "laps": [
+        109.973,
+        85.159,
+        83.636,
+        83.219,
+        85.375,
+        83.677,
+        85.795
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83790"
+}

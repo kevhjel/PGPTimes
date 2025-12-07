@@ -1,0 +1,87 @@
+{
+  "heat_no": 83778,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-06T11:00:00",
+  "drivers": [
+    {
+      "name": "Amanda LaFranco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.347,
+      "lap_times_url": null,
+      "laps": [
+        116.375,
+        84.836,
+        84.033,
+        83.118,
+        83.402,
+        83.075,
+        85.579,
+        83.546,
+        82.347
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Cooper Smith",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 93.038,
+      "lap_times_url": null,
+      "laps": [
+        121.683,
+        101.669,
+        100.591,
+        95.699,
+        94.334,
+        93.038,
+        93.589
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Bart Smith",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 95.237,
+      "lap_times_url": null,
+      "laps": [
+        119.312,
+        105.118,
+        102.641,
+        96.532,
+        95.243,
+        95.486,
+        95.237
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83778"
+}

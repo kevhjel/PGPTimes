@@ -1,0 +1,52 @@
+{
+  "heat_no": 83796,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-06T14:45:00",
+  "drivers": [
+    {
+      "name": "Rick Taylor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 93.281,
+      "lap_times_url": null,
+      "laps": [
+        129.809,
+        99.968,
+        95.024,
+        93.281,
+        97.278,
+        105.54
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Wesley Carr",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.499,
+      "lap_times_url": null,
+      "laps": [
+        147.261,
+        124.168,
+        123.305,
+        118.131,
+        114.499
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83796"
+}

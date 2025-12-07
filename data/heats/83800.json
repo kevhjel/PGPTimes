@@ -1,0 +1,107 @@
+{
+  "heat_no": 83800,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-06T15:45:00",
+  "drivers": [
+    {
+      "name": "Tony Bagniy",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 126.642,
+      "lap_times_url": null,
+      "laps": [
+        186.452,
+        127.504,
+        133.091,
+        126.642
+      ],
+      "lap_positions": [
+        4,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Michael Ramirez",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.406,
+      "lap_times_url": null,
+      "laps": [
+        144.78,
+        140.102,
+        131.229,
+        126.406,
+        141.973
+      ],
+      "lap_positions": [
+        1,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cade Carter",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.778,
+      "lap_times_url": null,
+      "laps": [
+        149.766,
+        133.508,
+        122.778,
+        132.036,
+        143.194
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Preston Givog...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 131.555,
+      "lap_times_url": null,
+      "laps": [
+        192.557,
+        138.107,
+        131.555,
+        138.222
+      ],
+      "lap_positions": [
+        5,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Tyler Ramirez",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 119.626,
+      "lap_times_url": null,
+      "laps": [
+        160.535,
+        149.578,
+        136.784,
+        119.626
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83800"
+}

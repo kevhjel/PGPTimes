@@ -1,0 +1,87 @@
+{
+  "heat_no": 83779,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-06T11:15:00",
+  "drivers": [
+    {
+      "name": "Amanda LaFranco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.7,
+      "lap_times_url": null,
+      "laps": [
+        104.674,
+        83.469,
+        83.067,
+        82.618,
+        82.431,
+        83.018,
+        82.45,
+        81.7
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.286,
+      "lap_times_url": null,
+      "laps": [
+        106.701,
+        83.588,
+        83.269,
+        82.683,
+        82.664,
+        82.673,
+        82.478,
+        82.286
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tejas Redkar",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.275,
+      "lap_times_url": null,
+      "laps": [
+        112.835,
+        91.171,
+        88.873,
+        88.406,
+        87.421,
+        88.338,
+        87.275
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83779"
+}

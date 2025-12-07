@@ -1,0 +1,52 @@
+{
+  "heat_no": 83830,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-05T14:30:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.134,
+      "lap_times_url": null,
+      "laps": [
+        107.134,
+        108.432,
+        110.425,
+        108.772,
+        108.349,
+        108.01
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Devin James",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.915,
+      "lap_times_url": null,
+      "laps": [
+        163.192,
+        116.547,
+        124.021,
+        132.991,
+        114.915
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83830"
+}

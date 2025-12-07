@@ -1,0 +1,109 @@
+{
+  "heat_no": 83829,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-05T14:15:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.965,
+      "lap_times_url": null,
+      "laps": [
+        125.22,
+        110.916,
+        109.827,
+        108.521,
+        107.965,
+        109.411
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "kevin Tolento",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 127.307,
+      "lap_times_url": null,
+      "laps": [
+        141.975,
+        153.888,
+        137.805,
+        127.307,
+        132.042
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Devin James",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.793,
+      "lap_times_url": null,
+      "laps": [
+        132.308,
+        118.587,
+        118.153,
+        115.793,
+        133.95
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JOSE SANTANA",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 161.474,
+      "lap_times_url": null,
+      "laps": [
+        207.694,
+        181.679,
+        161.474
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Robert Roman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 141.957,
+      "lap_times_url": null,
+      "laps": [
+        167.536,
+        141.957,
+        162.454,
+        142.957
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83829"
+}

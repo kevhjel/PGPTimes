@@ -1,0 +1,65 @@
+{
+  "heat_no": 83798,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-06T15:15:00",
+  "drivers": [
+    {
+      "name": "Rick Taylor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 141.919,
+      "lap_times_url": null,
+      "laps": [
+        178.641,
+        143.322,
+        143.634,
+        141.919
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tony Bagniy",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 136.219,
+      "lap_times_url": null,
+      "laps": [
+        167.647,
+        136.219,
+        146.803,
+        140.173
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Wesley Carr",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 156.296,
+      "lap_times_url": null,
+      "laps": [
+        171.847,
+        172.274,
+        160.625,
+        156.296
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83798"
+}
