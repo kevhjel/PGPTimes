@@ -1,0 +1,155 @@
+{
+  "heat_no": 83836,
+  "heat_type": "Group Event Final",
+  "start_time_iso": "2025-12-07T12:30:00",
+  "drivers": [
+    {
+      "name": "Angus Crane",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 125.985,
+      "lap_times_url": null,
+      "laps": [
+        163.421,
+        136.439,
+        126.53,
+        134.692,
+        125.985
+      ],
+      "lap_positions": [
+        3,
+        4,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Andy Wang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 125.189,
+      "lap_times_url": null,
+      "laps": [
+        165.602,
+        125.189,
+        136.517,
+        133.882,
+        125.199
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Robbie Marchand",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 129.135,
+      "lap_times_url": null,
+      "laps": [
+        169.025,
+        134.271,
+        143.967,
+        129.135,
+        162.85
+      ],
+      "lap_positions": [
+        7,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jimmy Cangiano",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 123.247,
+      "lap_times_url": null,
+      "laps": [
+        169.4,
+        135.573,
+        123.247,
+        137.769,
+        125.064
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "NOAH CHAMBERLAIN",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 122.521,
+      "lap_times_url": null,
+      "laps": [
+        171.377,
+        177.09,
+        122.521,
+        124.952,
+        163.757
+      ],
+      "lap_positions": [
+        6,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Vittorio Ng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.118,
+      "lap_times_url": null,
+      "laps": [
+        171.166,
+        121.118,
+        127.557,
+        134.461,
+        130.446
+      ],
+      "lap_positions": [
+        5,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Spencer Duan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 124.624,
+      "lap_times_url": null,
+      "laps": [
+        166.184,
+        126.242,
+        124.624,
+        125.923,
+        127.095
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83836"
+}
