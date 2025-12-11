@@ -1,0 +1,65 @@
+{
+  "heat_no": 83849,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-10T14:00:00",
+  "drivers": [
+    {
+      "name": "Mark Gosselin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.274,
+      "lap_times_url": null,
+      "laps": [
+        153.311,
+        149.95,
+        126.274,
+        163.852
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Roo Gosselin",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.245,
+      "lap_times_url": null,
+      "laps": [
+        153.25,
+        149.102,
+        126.245,
+        164.405
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gabriel Diamond",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.035,
+      "lap_times_url": null,
+      "laps": [
+        150.538,
+        149.972,
+        128.035,
+        161.35
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83849"
+}

@@ -1,0 +1,44 @@
+{
+  "heat_no": 83852,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-10T15:45:00",
+  "drivers": [
+    {
+      "name": "Sam Peng",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 151.426,
+      "lap_times_url": null,
+      "laps": [
+        214.957,
+        151.426,
+        154.397
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "William Jiang",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 139.42,
+      "lap_times_url": null,
+      "laps": [
+        162.927,
+        222.518,
+        139.42,
+        145.49
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83852"
+}

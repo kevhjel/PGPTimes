@@ -1,0 +1,117 @@
+{
+  "heat_no": 83850,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-10T14:30:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.405,
+      "lap_times_url": null,
+      "laps": [
+        118.604,
+        114.785,
+        114.52,
+        115.621,
+        112.405,
+        116.275
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.808,
+      "lap_times_url": null,
+      "laps": [
+        115.501,
+        114.59,
+        114.014,
+        116.932,
+        111.808,
+        115.537
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mark Gosselin",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 123.624,
+      "lap_times_url": null,
+      "laps": [
+        151.922,
+        124.51,
+        138.064,
+        123.624,
+        131.047
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Roo Gosselin",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 119.12,
+      "lap_times_url": null,
+      "laps": [
+        131.593,
+        120.831,
+        161.629,
+        119.12,
+        121.564
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Gabriel Diamond",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 116.45,
+      "lap_times_url": null,
+      "laps": [
+        137.314,
+        120.562,
+        123.104,
+        127.224,
+        116.45
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83850"
+}
