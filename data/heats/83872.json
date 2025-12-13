@@ -1,0 +1,58 @@
+{
+  "heat_no": 83872,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-12T13:45:00",
+  "drivers": [
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 92.154,
+      "lap_times_url": null,
+      "laps": [
+        98.983,
+        96.152,
+        96.498,
+        93.114,
+        92.876,
+        93.165,
+        92.154
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 94.485,
+      "lap_times_url": null,
+      "laps": [
+        102.132,
+        97.608,
+        95.642,
+        95.002,
+        95.016,
+        95.081,
+        94.485
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83872"
+}

@@ -1,0 +1,33 @@
+{
+  "heat_no": 83879,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-12T15:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.878,
+      "lap_times_url": null,
+      "laps": [
+        90.518,
+        90.429,
+        89.524,
+        88.672,
+        88.138,
+        88.257,
+        86.878
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83879"
+}

@@ -1,0 +1,31 @@
+{
+  "heat_no": 83871,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-12T13:30:00",
+  "drivers": [
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.691,
+      "lap_times_url": null,
+      "laps": [
+        171.264,
+        105.452,
+        97.522,
+        96.691,
+        97.529,
+        109.191
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83871"
+}
