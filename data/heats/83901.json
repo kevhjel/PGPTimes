@@ -1,0 +1,125 @@
+{
+  "heat_no": 83901,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-13T14:15:00",
+  "drivers": [
+    {
+      "name": "Kosei Takahashi",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.644,
+      "lap_times_url": null,
+      "laps": [
+        111.77,
+        142.151,
+        105.685,
+        85.644,
+        98.397,
+        85.708
+      ],
+      "lap_positions": [
+        1,
+        4,
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Devon Corpuz",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.283,
+      "lap_times_url": null,
+      "laps": [
+        112.207,
+        90.802,
+        88.492,
+        88.71,
+        87.001,
+        87.171,
+        86.283
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Dee K",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 86.734,
+      "lap_times_url": null,
+      "laps": [
+        120.716,
+        94.393,
+        88.231,
+        89.029,
+        86.734,
+        92.272,
+        111.661
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Adam Folk",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.039,
+      "lap_times_url": null,
+      "laps": [
+        124.305,
+        110.379,
+        96.873,
+        101.791,
+        95.039,
+        96.865
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Abi Baldwin",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 115.512,
+      "lap_times_url": null,
+      "laps": [
+        153.673,
+        124.52,
+        118.888,
+        117.86,
+        115.512
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83901"
+}
