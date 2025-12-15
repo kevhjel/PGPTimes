@@ -1,0 +1,111 @@
+{
+  "heat_no": 83929,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T14:15:00",
+  "drivers": [
+    {
+      "name": "Luca Paolantonio",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.297,
+      "lap_times_url": null,
+      "laps": [
+        152.252,
+        124.466,
+        123.732,
+        122.483,
+        121.297
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Michael Paolan...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.987,
+      "lap_times_url": null,
+      "laps": [
+        186.504,
+        124.31,
+        123.516,
+        124.21,
+        120.987
+      ],
+      "lap_positions": [
+        5,
+        1,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Alex Urena",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 133.323,
+      "lap_times_url": null,
+      "laps": [
+        166.766,
+        133.323,
+        134.693,
+        134.66
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Sergio Resendiz",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.529,
+      "lap_times_url": null,
+      "laps": [
+        161.565,
+        132.169,
+        125.113,
+        125.054,
+        116.529
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "Angel Contreras",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 122.415,
+      "lap_times_url": null,
+      "laps": [
+        150.769,
+        129.089,
+        127.285,
+        122.415,
+        127.859
+      ],
+      "lap_positions": [
+        1,
+        3,
+        4,
+        1,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83929"
+}

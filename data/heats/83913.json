@@ -1,0 +1,29 @@
+{
+  "heat_no": 83913,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T09:30:00",
+  "drivers": [
+    {
+      "name": "Stephen Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 124.014,
+      "lap_times_url": null,
+      "laps": [
+        125.808,
+        124.014,
+        163.843,
+        128.897,
+        162.155
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83913"
+}

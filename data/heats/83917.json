@@ -1,0 +1,67 @@
+{
+  "heat_no": 83917,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T10:30:00",
+  "drivers": [
+    {
+      "name": "Yehya Aboughaz...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 139.675,
+      "lap_times_url": null,
+      "laps": [
+        155.788,
+        156.736,
+        187.888,
+        139.675
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Zander Anderson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.875,
+      "lap_times_url": null,
+      "laps": [
+        128.628,
+        116.177,
+        117.227,
+        112.875,
+        119.368
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ali Issaoui",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 140.594,
+      "lap_times_url": null,
+      "laps": [
+        151.969,
+        146.697,
+        140.594,
+        141.216
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83917"
+}

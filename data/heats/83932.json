@@ -1,0 +1,50 @@
+{
+  "heat_no": 83932,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T15:00:00",
+  "drivers": [
+    {
+      "name": "Colin Saad",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 124.801,
+      "lap_times_url": null,
+      "laps": [
+        138.099,
+        144.194,
+        125.687,
+        136.39,
+        124.801
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Chris Puduski`",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.854,
+      "lap_times_url": null,
+      "laps": [
+        136.354,
+        117.854,
+        123.573,
+        130.071,
+        118.098
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83932"
+}

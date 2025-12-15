@@ -1,0 +1,52 @@
+{
+  "heat_no": 83915,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T10:00:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.37,
+      "lap_times_url": null,
+      "laps": [
+        117.703,
+        114.216,
+        111.738,
+        111.37,
+        116.65,
+        116.078
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.69,
+      "lap_times_url": null,
+      "laps": [
+        118.69,
+        127.011,
+        119.643,
+        120.118,
+        167.261
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83915"
+}

@@ -1,0 +1,132 @@
+{
+  "heat_no": 83918,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T10:45:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.326,
+      "lap_times_url": null,
+      "laps": [
+        135.682,
+        305.812,
+        128.228,
+        111.532,
+        109.326
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Blake Mattson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 125.362,
+      "lap_times_url": null,
+      "laps": [
+        186.053,
+        188.23,
+        134.702,
+        125.362,
+        126.278
+      ],
+      "lap_positions": [
+        4,
+        6,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Zander Anderson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.921,
+      "lap_times_url": null,
+      "laps": [
+        132.407,
+        109.509,
+        110.553,
+        111.34,
+        107.921,
+        109.628,
+        108.266
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ucre Mattson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 137.585,
+      "lap_times_url": null,
+      "laps": [
+        176.084,
+        159.316,
+        146.542,
+        137.585,
+        141.025
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Cody Mattson",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 173.275,
+      "lap_times_url": null,
+      "laps": [
+        204.05,
+        173.275,
+        247.807
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Tori Mattson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 158.271,
+      "lap_times_url": null,
+      "laps": [
+        196.208,
+        162.188,
+        158.271,
+        198.841
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83918"
+}

@@ -1,0 +1,94 @@
+{
+  "heat_no": 83925,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T13:15:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.089,
+      "lap_times_url": null,
+      "laps": [
+        126.8,
+        112.209,
+        112.099,
+        110.089,
+        110.908,
+        111.344
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Miles Hickey",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.073,
+      "lap_times_url": null,
+      "laps": [
+        137.233,
+        115.375,
+        116.561,
+        113.745,
+        113.073
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.77,
+      "lap_times_url": null,
+      "laps": [
+        128.029,
+        116.458,
+        125.116,
+        115.106,
+        113.77
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Christian Orton",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 116.365,
+      "lap_times_url": null,
+      "laps": [
+        132.957,
+        118.193,
+        116.715,
+        116.365,
+        123.305
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83925"
+}

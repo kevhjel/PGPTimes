@@ -1,0 +1,115 @@
+{
+  "heat_no": 83923,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T12:45:00",
+  "drivers": [
+    {
+      "name": "Samurai Zoni",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.262,
+      "lap_times_url": null,
+      "laps": [
+        128.274,
+        109.608,
+        116.386,
+        109.194,
+        108.754,
+        108.262
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Miles Hickey",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.425,
+      "lap_times_url": null,
+      "laps": [
+        136.114,
+        124.848,
+        128.25,
+        143.6,
+        120.425
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.84,
+      "lap_times_url": null,
+      "laps": [
+        131.656,
+        115.432,
+        113.819,
+        114.439,
+        112.84,
+        113.969
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Flora Ataran",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 135.318,
+      "lap_times_url": null,
+      "laps": [
+        143.226,
+        159.125,
+        135.318,
+        139.882
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Christian Orton",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.343,
+      "lap_times_url": null,
+      "laps": [
+        148.12,
+        127.509,
+        129.071,
+        141.763,
+        119.343
+      ],
+      "lap_positions": [
+        5,
+        4,
+        4,
+        4,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83923"
+}

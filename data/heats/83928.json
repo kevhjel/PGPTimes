@@ -1,0 +1,107 @@
+{
+  "heat_no": 83928,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T14:00:00",
+  "drivers": [
+    {
+      "name": "Colin Saad",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 125.641,
+      "lap_times_url": null,
+      "laps": [
+        155.805,
+        137.829,
+        126.567,
+        125.641,
+        130.933
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Matt Berry",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 141.607,
+      "lap_times_url": null,
+      "laps": [
+        155.415,
+        141.607,
+        143.036,
+        146.535
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jake Berry",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 142.043,
+      "lap_times_url": null,
+      "laps": [
+        152.161,
+        142.231,
+        153.782,
+        142.043
+      ],
+      "lap_positions": [
+        2,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Blake Berry",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 117.372,
+      "lap_times_url": null,
+      "laps": [
+        144.397,
+        122.246,
+        121.36,
+        120.365,
+        117.372
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Chris Puduski`",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.393,
+      "lap_times_url": null,
+      "laps": [
+        161.156,
+        134.393,
+        150.919,
+        136.544
+      ],
+      "lap_positions": [
+        5,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83928"
+}

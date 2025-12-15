@@ -1,0 +1,67 @@
+{
+  "heat_no": 83926,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-14T13:30:00",
+  "drivers": [
+    {
+      "name": "Matt Berry",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 148.239,
+      "lap_times_url": null,
+      "laps": [
+        163.136,
+        148.239,
+        150.234,
+        150.904
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jake Berry",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 136.531,
+      "lap_times_url": null,
+      "laps": [
+        161.051,
+        136.531,
+        143.106,
+        138.897
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Blake Berry",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 124.656,
+      "lap_times_url": null,
+      "laps": [
+        151.807,
+        135.102,
+        128.364,
+        126.523,
+        124.656
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83926"
+}

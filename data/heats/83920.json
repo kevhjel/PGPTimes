@@ -1,0 +1,120 @@
+{
+  "heat_no": 83920,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T11:15:00",
+  "drivers": [
+    {
+      "name": "Blake Mattson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.953,
+      "lap_times_url": null,
+      "laps": [
+        161.138,
+        137.291,
+        142.962,
+        123.953
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Ucre Mattson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 125.133,
+      "lap_times_url": null,
+      "laps": [
+        159.029,
+        133.715,
+        125.133,
+        143.28,
+        131.556
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cody Mattson",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 177.146,
+      "lap_times_url": null,
+      "laps": [
+        196.761,
+        177.146,
+        211.212
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Tori Mattson",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 146.498,
+      "lap_times_url": null,
+      "laps": [
+        172.298,
+        147.584,
+        146.498,
+        148.945
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Adam Skogen",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 165.288,
+      "lap_times_url": null,
+      "laps": [
+        174.835,
+        165.288,
+        220.212
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Sawyer Skogen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.585,
+      "lap_times_url": null,
+      "laps": [
+        175.735,
+        144.997,
+        154.549,
+        128.585
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83920"
+}

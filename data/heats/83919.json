@@ -1,0 +1,96 @@
+{
+  "heat_no": 83919,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-14T11:00:00",
+  "drivers": [
+    {
+      "name": "Daniel Kimmel",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.312,
+      "lap_times_url": null,
+      "laps": [
+        125.166,
+        113.662,
+        108.082,
+        107.958,
+        114.808,
+        107.312
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yehya Aboughaz...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 122.236,
+      "lap_times_url": null,
+      "laps": [
+        151.146,
+        122.548,
+        122.779,
+        122.236,
+        123.987
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Zander Anderson",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.721,
+      "lap_times_url": null,
+      "laps": [
+        140.114,
+        114.239,
+        113.253,
+        111.322,
+        109.897,
+        108.721
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ali Issaoui",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 123.094,
+      "lap_times_url": null,
+      "laps": [
+        148.382,
+        134.153,
+        123.094,
+        127.69,
+        135.386
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83919"
+}
