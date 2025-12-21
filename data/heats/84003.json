@@ -1,0 +1,92 @@
+{
+  "heat_no": 84003,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-20T14:00:00",
+  "drivers": [
+    {
+      "name": "Miles Hickey",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.438,
+      "lap_times_url": null,
+      "laps": [
+        127.022,
+        113.63,
+        110.947,
+        120.148,
+        110.438,
+        116.907
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Varun Kaundinya",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 136.895,
+      "lap_times_url": null,
+      "laps": [
+        176.233,
+        141.743,
+        136.895,
+        174.7
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jacob Campfield",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.753,
+      "lap_times_url": null,
+      "laps": [
+        125.85,
+        114.977,
+        113.128,
+        113.575,
+        112.97,
+        112.753
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aprameya Bhara...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 145.917,
+      "lap_times_url": null,
+      "laps": [
+        199.847,
+        183.166,
+        161.816,
+        145.917
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84003"
+}

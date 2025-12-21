@@ -1,0 +1,71 @@
+{
+  "heat_no": 84064,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-19T15:30:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.616,
+      "lap_times_url": null,
+      "laps": [
+        129.964,
+        114.643,
+        114.759,
+        111.616,
+        112.464,
+        111.994
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ryan Xia",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.371,
+      "lap_times_url": null,
+      "laps": [
+        137.257,
+        127.235,
+        126.255,
+        160.018,
+        122.371
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rueven Jarrett",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 148.771,
+      "lap_times_url": null,
+      "laps": [
+        172.332,
+        160.299,
+        151.48,
+        148.771
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84064"
+}

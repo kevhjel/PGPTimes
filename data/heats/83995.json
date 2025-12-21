@@ -1,0 +1,67 @@
+{
+  "heat_no": 83995,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-20T12:30:00",
+  "drivers": [
+    {
+      "name": "Jakob Archer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 133.854,
+      "lap_times_url": null,
+      "laps": [
+        155.164,
+        142.053,
+        152.313,
+        133.854
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Brody Archer",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 156.266,
+      "lap_times_url": null,
+      "laps": [
+        177.385,
+        165.842,
+        184.28,
+        156.266
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jeff Archer",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 123.112,
+      "lap_times_url": null,
+      "laps": [
+        155.972,
+        134.116,
+        131.544,
+        123.112,
+        129.007
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83995"
+}

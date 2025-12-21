@@ -1,0 +1,50 @@
+{
+  "heat_no": 84002,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-20T13:45:00",
+  "drivers": [
+    {
+      "name": "Marintia Banue...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 131.937,
+      "lap_times_url": null,
+      "laps": [
+        150.042,
+        141.638,
+        132.462,
+        131.937,
+        132.236
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emilio Banuelos",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.01,
+      "lap_times_url": null,
+      "laps": [
+        140.077,
+        117.72,
+        116.01,
+        117.667,
+        119.864
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84002"
+}

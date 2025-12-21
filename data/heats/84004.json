@@ -1,0 +1,86 @@
+{
+  "heat_no": 84004,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-20T14:15:00",
+  "drivers": [
+    {
+      "name": "Marintia Banue...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 121.606,
+      "lap_times_url": null,
+      "laps": [
+        153.947,
+        122.448,
+        121.606,
+        125.764,
+        135.113
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Emilio Banuelos",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.694,
+      "lap_times_url": null,
+      "laps": [
+        146.705,
+        127.981,
+        116.694,
+        146.108,
+        119.704
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Teja Nethi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 134.973,
+      "lap_times_url": null,
+      "laps": [
+        163.152,
+        157.041,
+        171.194,
+        134.973
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Geethika Patch...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 165.54,
+      "lap_times_url": null,
+      "laps": [
+        196.168,
+        165.54,
+        186.498
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84004"
+}

@@ -1,0 +1,73 @@
+{
+  "heat_no": 83994,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-20T11:15:00",
+  "drivers": [
+    {
+      "name": "Adam Zivin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.085,
+      "lap_times_url": null,
+      "laps": [
+        137.669,
+        117.984,
+        115.235,
+        115.417,
+        113.085
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Josh Lun",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.985,
+      "lap_times_url": null,
+      "laps": [
+        134.761,
+        112.442,
+        118.504,
+        110.985,
+        112.824,
+        113.194
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shane Barber",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 113.956,
+      "lap_times_url": null,
+      "laps": [
+        135.655,
+        113.956,
+        128.084,
+        125.273,
+        132.945
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=83994"
+}

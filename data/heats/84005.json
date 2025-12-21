@@ -1,0 +1,48 @@
+{
+  "heat_no": 84005,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-20T14:30:00",
+  "drivers": [
+    {
+      "name": "Varun Kaundinya",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 125.562,
+      "lap_times_url": null,
+      "laps": [
+        169.487,
+        130.586,
+        145.57,
+        125.562,
+        129.697
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aprameya Bhara...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.176,
+      "lap_times_url": null,
+      "laps": [
+        154.206,
+        126.176,
+        141.514,
+        148.715
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84005"
+}

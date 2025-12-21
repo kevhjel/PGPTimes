@@ -1,0 +1,52 @@
+{
+  "heat_no": 84062,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-19T15:00:00",
+  "drivers": [
+    {
+      "name": "Apollo Dent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.385,
+      "lap_times_url": null,
+      "laps": [
+        108.792,
+        101.385,
+        106.9,
+        129.216,
+        130.441,
+        124.704
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ryan Xia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.237,
+      "lap_times_url": null,
+      "laps": [
+        106.646,
+        96.237,
+        122.393,
+        133.682,
+        124.824
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84062"
+}

@@ -1,0 +1,48 @@
+{
+  "heat_no": 84060,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-19T14:15:00",
+  "drivers": [
+    {
+      "name": "Apollo Dent",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.374,
+      "lap_times_url": null,
+      "laps": [
+        146.334,
+        122.919,
+        120.906,
+        114.001,
+        113.374
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Naomi Dent",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 142.869,
+      "lap_times_url": null,
+      "laps": [
+        174.139,
+        158.031,
+        152.244,
+        142.869
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84060"
+}
