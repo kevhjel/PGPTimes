@@ -1,0 +1,113 @@
+{
+  "heat_no": 84072,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-21T10:30:00",
+  "drivers": [
+    {
+      "name": "Cole Llapitan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.893,
+      "lap_times_url": null,
+      "laps": [
+        113.803,
+        111.893,
+        112.145,
+        112.547,
+        112.356
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Aydin Pavalunas",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 115.328,
+      "lap_times_url": null,
+      "laps": [
+        117.239,
+        115.663,
+        186.259,
+        115.328,
+        115.485
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Peter Odonoghue",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.946,
+      "lap_times_url": null,
+      "laps": [
+        122.701,
+        122.617,
+        127.181,
+        120.946,
+        126.991
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Finn Odonoghue",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.046,
+      "lap_times_url": null,
+      "laps": [
+        114.146,
+        119.497,
+        131.186,
+        112.046,
+        112.58
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "CJ Hernandez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.923,
+      "lap_times_url": null,
+      "laps": [
+        134.183,
+        124.388,
+        135.393,
+        121.923,
+        123.721
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84072"
+}

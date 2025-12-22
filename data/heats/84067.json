@@ -1,0 +1,105 @@
+{
+  "heat_no": 84067,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-21T09:15:00",
+  "drivers": [
+    {
+      "name": "Kaytlyn Nather",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 142.721,
+      "lap_times_url": null,
+      "laps": [
+        183.18,
+        149.442,
+        142.721,
+        147.276
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jacob Graber",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 120.446,
+      "lap_times_url": null,
+      "laps": [
+        158.506,
+        148.007,
+        129.973,
+        120.446
+      ],
+      "lap_positions": [
+        2,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jordan Loukusa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.315,
+      "lap_times_url": null,
+      "laps": [
+        148.939,
+        120.509,
+        114.986,
+        113.367,
+        113.315
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Robert Nather",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 137.578,
+      "lap_times_url": null,
+      "laps": [
+        170.864,
+        137.578,
+        138.155,
+        137.906
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Neil Graber",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 133.981,
+      "lap_times_url": null,
+      "laps": [
+        170.702,
+        133.981,
+        139.714,
+        149.453
+      ],
+      "lap_positions": [
+        3,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84067"
+}

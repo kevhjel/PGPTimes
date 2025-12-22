@@ -1,0 +1,132 @@
+{
+  "heat_no": 84087,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-21T14:15:00",
+  "drivers": [
+    {
+      "name": "Jason Kuhn",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.364,
+      "lap_times_url": null,
+      "laps": [
+        132.695,
+        115.683,
+        116.469,
+        117.452,
+        115.364
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Engles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.423,
+      "lap_times_url": null,
+      "laps": [
+        129.005,
+        109.12,
+        108.489,
+        108.661,
+        108.984,
+        108.423
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jillian Kuhn",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 132.283,
+      "lap_times_url": null,
+      "laps": [
+        144.206,
+        140.508,
+        137.277,
+        133.088,
+        132.283
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Demian Bedard",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 150.299,
+      "lap_times_url": null,
+      "laps": [
+        150.299,
+        160.86,
+        171.577,
+        150.375
+      ],
+      "lap_positions": [
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Jessica Jones",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.12,
+      "lap_times_url": null,
+      "laps": [
+        147.872,
+        140.236,
+        133.12,
+        140.65,
+        128.12
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "Adam Jones",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.509,
+      "lap_times_url": null,
+      "laps": [
+        151.049,
+        137.386,
+        131.509,
+        151.004
+      ],
+      "lap_positions": [
+        6,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84087"
+}

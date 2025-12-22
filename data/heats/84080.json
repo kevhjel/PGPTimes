@@ -1,0 +1,96 @@
+{
+  "heat_no": 84080,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-21T12:30:00",
+  "drivers": [
+    {
+      "name": "Pratik Kapoor",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.637,
+      "lap_times_url": null,
+      "laps": [
+        124.194,
+        111.919,
+        110.882,
+        135.265,
+        112.045,
+        110.637
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pranav Kapoor",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.477,
+      "lap_times_url": null,
+      "laps": [
+        126.013,
+        117.231,
+        115.477,
+        122.549,
+        125.49,
+        118.19
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jeffrey Appleg...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.62,
+      "lap_times_url": null,
+      "laps": [
+        145.8,
+        131.535,
+        130.518,
+        138.056,
+        121.62
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Tristan Knowlton",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 132.059,
+      "lap_times_url": null,
+      "laps": [
+        156.122,
+        132.059,
+        165.576,
+        144.377,
+        133.113
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84080"
+}
