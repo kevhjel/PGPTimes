@@ -1,0 +1,71 @@
+{
+  "heat_no": 84116,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T15:45:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 99.433,
+      "lap_times_url": null,
+      "laps": [
+        126.109,
+        102.102,
+        101.297,
+        99.857,
+        99.723,
+        99.433
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ashwin Vannarath",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.72,
+      "lap_times_url": null,
+      "laps": [
+        147.808,
+        118.784,
+        133.048,
+        138.244,
+        116.72
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Harsh Vora",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 164.434,
+      "lap_times_url": null,
+      "laps": [
+        171.438,
+        164.434,
+        173.79,
+        165.892
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84116"
+}

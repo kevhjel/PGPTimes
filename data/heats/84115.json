@@ -1,0 +1,117 @@
+{
+  "heat_no": 84115,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T15:30:00",
+  "drivers": [
+    {
+      "name": "Mason Wood",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 101.09,
+      "lap_times_url": null,
+      "laps": [
+        110.975,
+        103.58,
+        102.416,
+        102.145,
+        101.09,
+        102.367
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mike Wood",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 118.471,
+      "lap_times_url": null,
+      "laps": [
+        131.859,
+        118.471,
+        130.108,
+        122.228,
+        124.964
+      ],
+      "lap_positions": [
+        5,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Randy Swole",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 101.532,
+      "lap_times_url": null,
+      "laps": [
+        110.923,
+        103.963,
+        102.298,
+        101.927,
+        101.532,
+        102.451
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sam Chase",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 116.339,
+      "lap_times_url": null,
+      "laps": [
+        127.384,
+        119.601,
+        132.737,
+        116.339,
+        118.059
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Oliver Chase",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.88,
+      "lap_times_url": null,
+      "laps": [
+        126.472,
+        121.88,
+        131.661,
+        129.86,
+        123.852
+      ],
+      "lap_positions": [
+        3,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84115"
+}

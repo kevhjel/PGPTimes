@@ -1,0 +1,113 @@
+{
+  "heat_no": 84114,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T15:00:00",
+  "drivers": [
+    {
+      "name": "Mason Wood",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.639,
+      "lap_times_url": null,
+      "laps": [
+        130.801,
+        110.113,
+        108.529,
+        107.383,
+        115.995,
+        106.639
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Mike Wood",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 124.842,
+      "lap_times_url": null,
+      "laps": [
+        139.314,
+        128.492,
+        135.831,
+        131.72,
+        124.842
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ryan Tsai",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.674,
+      "lap_times_url": null,
+      "laps": [
+        132.825,
+        116.674,
+        117.622,
+        126.614,
+        119.369
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sam Chase",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 120.539,
+      "lap_times_url": null,
+      "laps": [
+        134.769,
+        120.539,
+        121.284,
+        121.933,
+        121.768
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Oliver Chase",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 123.493,
+      "lap_times_url": null,
+      "laps": [
+        137.506,
+        123.493,
+        136.161,
+        178.979
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84114"
+}

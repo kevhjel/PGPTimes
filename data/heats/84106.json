@@ -1,0 +1,90 @@
+{
+  "heat_no": 84106,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T12:30:00",
+  "drivers": [
+    {
+      "name": "hudson orozco",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.152,
+      "lap_times_url": null,
+      "laps": [
+        140.728,
+        116.737,
+        115.152,
+        119.151,
+        124.651
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ricky Orozco",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.491,
+      "lap_times_url": null,
+      "laps": [
+        143.689,
+        118.656,
+        116.355,
+        123.904,
+        115.491
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Noah Santos",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.676,
+      "lap_times_url": null,
+      "laps": [
+        156.247,
+        118.312,
+        128.502,
+        126.352,
+        117.676
+      ],
+      "lap_positions": [
+        4,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jubin Mirkhan",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 144.66,
+      "lap_times_url": null,
+      "laps": [
+        148.954,
+        145.149,
+        190.223,
+        144.66
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84106"
+}

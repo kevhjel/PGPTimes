@@ -1,0 +1,103 @@
+{
+  "heat_no": 84100,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T10:30:00",
+  "drivers": [
+    {
+      "name": "Chantel Baird",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 137.523,
+      "lap_times_url": null,
+      "laps": [
+        163.76,
+        155.653,
+        137.523,
+        152.408
+      ],
+      "lap_positions": [
+        1,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Colin Sammons",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 150.55,
+      "lap_times_url": null,
+      "laps": [
+        203.021,
+        156.513,
+        153.579,
+        150.55
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Leland Sammons",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 124.159,
+      "lap_times_url": null,
+      "laps": [
+        172.151,
+        145.437,
+        124.159,
+        163.864
+      ],
+      "lap_positions": [
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Scott Speer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 131.679,
+      "lap_times_url": null,
+      "laps": [
+        165.208,
+        137.982,
+        141.737,
+        131.679
+      ],
+      "lap_positions": [
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Mike Speer",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 147.445,
+      "lap_times_url": null,
+      "laps": [
+        181.199,
+        155.081,
+        148.943,
+        147.445
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84100"
+}

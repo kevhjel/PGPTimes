@@ -1,0 +1,54 @@
+{
+  "heat_no": 84096,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T09:30:00",
+  "drivers": [
+    {
+      "name": "Miles Hennegan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.269,
+      "lap_times_url": null,
+      "laps": [
+        112.605,
+        110.144,
+        115.776,
+        109.782,
+        108.59,
+        108.269
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jordan Loukusa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.605,
+      "lap_times_url": null,
+      "laps": [
+        112.871,
+        109.312,
+        108.493,
+        108.516,
+        108.386,
+        107.605
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84096"
+}

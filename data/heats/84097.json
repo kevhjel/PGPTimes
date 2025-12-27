@@ -1,0 +1,71 @@
+{
+  "heat_no": 84097,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-26T09:45:00",
+  "drivers": [
+    {
+      "name": "Jordan Loukusa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.686,
+      "lap_times_url": null,
+      "laps": [
+        128.474,
+        110.399,
+        109.093,
+        108.686,
+        118.618,
+        109.599
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Kevin Chatre",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.29,
+      "lap_times_url": null,
+      "laps": [
+        141.226,
+        128.958,
+        139.454,
+        122.29,
+        129.521
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Martin Chatre",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.79,
+      "lap_times_url": null,
+      "laps": [
+        147.786,
+        137.749,
+        143.379,
+        130.79
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84097"
+}
