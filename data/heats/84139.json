@@ -1,0 +1,169 @@
+{
+  "heat_no": 84139,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-27T15:15:00",
+  "drivers": [
+    {
+      "name": "Jacob Gronquist",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.292,
+      "lap_times_url": null,
+      "laps": [
+        123.939,
+        85.746,
+        85.861,
+        85.015,
+        87.48,
+        85.598,
+        84.292
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Luca Paolantonio",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.212,
+      "lap_times_url": null,
+      "laps": [
+        118.972,
+        89.589,
+        88.637,
+        87.459,
+        89.694,
+        90.656,
+        87.212
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rohith Saradhy",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 90.279,
+      "lap_times_url": null,
+      "laps": [
+        123.562,
+        103.128,
+        93.163,
+        95.947,
+        92.717,
+        90.279
+      ],
+      "lap_positions": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Arjun Bindu",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.483,
+      "lap_times_url": null,
+      "laps": [
+        128.868,
+        98.477,
+        93.842,
+        97.109,
+        101.495,
+        92.483
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Alexys Olvera",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 113.388,
+      "lap_times_url": null,
+      "laps": [
+        144.866,
+        127.716,
+        171.226,
+        120.501,
+        113.388
+      ],
+      "lap_positions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "Edwin Gonzalez",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 99.033,
+      "lap_times_url": null,
+      "laps": [
+        136.067,
+        118.092,
+        119.682,
+        101.255,
+        99.033
+      ],
+      "lap_positions": [
+        6,
+        5,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Erick Gonzalez",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 101.425,
+      "lap_times_url": null,
+      "laps": [
+        135.383,
+        119.655,
+        105.684,
+        105.041,
+        101.425,
+        108.307
+      ],
+      "lap_positions": [
+        5,
+        6,
+        5,
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84139"
+}
