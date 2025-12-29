@@ -1,0 +1,60 @@
+{
+  "heat_no": 84162,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2025-12-28T14:00:00",
+  "drivers": [
+    {
+      "name": "Federico Mira ...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.178,
+      "lap_times_url": null,
+      "laps": [
+        83.975,
+        81.5,
+        81.217,
+        81.675,
+        81.572,
+        81.178,
+        81.448,
+        81.358
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Tejas Redkar",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.851,
+      "lap_times_url": null,
+      "laps": [
+        89.253,
+        84.309,
+        84.466,
+        125.159,
+        83.851,
+        83.994,
+        84.577
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84162"
+}

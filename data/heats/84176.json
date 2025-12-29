@@ -1,0 +1,54 @@
+{
+  "heat_no": 84176,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-19T12:45:00",
+  "drivers": [
+    {
+      "name": "Ben Hawkins",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.436,
+      "lap_times_url": null,
+      "laps": [
+        100.829,
+        90.863,
+        89.335,
+        88.283,
+        87.436,
+        87.865
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 87.111,
+      "lap_times_url": null,
+      "laps": [
+        100.993,
+        90.347,
+        89.218,
+        88.568,
+        87.689,
+        87.111
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84176"
+}
