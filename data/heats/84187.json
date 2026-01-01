@@ -1,0 +1,62 @@
+{
+  "heat_no": 84187,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2025-12-31T10:45:00",
+  "drivers": [
+    {
+      "name": "Jordan Loukusa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.73,
+      "lap_times_url": null,
+      "laps": [
+        89.898,
+        84.914,
+        84.261,
+        83.791,
+        83.172,
+        83.291,
+        83.706,
+        82.73
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.769,
+      "lap_times_url": null,
+      "laps": [
+        89.854,
+        85.947,
+        85.84,
+        84.376,
+        83.769,
+        84.209,
+        84.277,
+        84.051
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84187"
+}
