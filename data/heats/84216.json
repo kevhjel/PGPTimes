@@ -1,0 +1,75 @@
+{
+  "heat_no": 84216,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-01T10:30:00",
+  "drivers": [
+    {
+      "name": "Marc Whitten",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.775,
+      "lap_times_url": null,
+      "laps": [
+        156.533,
+        109.078,
+        113.919,
+        129.063,
+        91.775,
+        99.733
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alex Whitten",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.05,
+      "lap_times_url": null,
+      "laps": [
+        155.508,
+        113.162,
+        98.352,
+        97.05,
+        112.449,
+        97.767
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jack Whitten",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 109.893,
+      "lap_times_url": null,
+      "laps": [
+        174.419,
+        132.429,
+        109.893,
+        111.782,
+        121.153
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84216"
+}

@@ -1,0 +1,88 @@
+{
+  "heat_no": 84219,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-01T12:00:00",
+  "drivers": [
+    {
+      "name": "Jacob Gronquist",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.378,
+      "lap_times_url": null,
+      "laps": [
+        145.233,
+        120.179,
+        113.355,
+        117.416,
+        112.378
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Carl Gronquist",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 131.895,
+      "lap_times_url": null,
+      "laps": [
+        146.342,
+        134.237,
+        133.015,
+        131.895,
+        132.834
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aidan Thiele",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 137.039,
+      "lap_times_url": null,
+      "laps": [
+        153.855,
+        137.039,
+        141.112,
+        141.514
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "David Thiele",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 140.381,
+      "lap_times_url": null,
+      "laps": [
+        167.763,
+        144.583,
+        165.056,
+        140.381
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84219"
+}

@@ -1,0 +1,115 @@
+{
+  "heat_no": 84220,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-01T12:30:00",
+  "drivers": [
+    {
+      "name": "Jacob Gronquist",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.64,
+      "lap_times_url": null,
+      "laps": [
+        129.922,
+        109.488,
+        113.685,
+        111.093,
+        106.64,
+        114.474
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Carl Gronquist",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 127.104,
+      "lap_times_url": null,
+      "laps": [
+        142.029,
+        128.273,
+        129.641,
+        127.104,
+        135.352
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Junyu Huo",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.082,
+      "lap_times_url": null,
+      "laps": [
+        143.582,
+        130.258,
+        123.984,
+        123.082,
+        130.33
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Aidan Thiele",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 128.243,
+      "lap_times_url": null,
+      "laps": [
+        146.899,
+        137.52,
+        129.273,
+        128.243,
+        135.925
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "David Thiele",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 133.304,
+      "lap_times_url": null,
+      "laps": [
+        148.997,
+        136.222,
+        133.304,
+        133.833,
+        134.518
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84220"
+}
