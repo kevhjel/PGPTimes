@@ -1,0 +1,128 @@
+{
+  "heat_no": 84246,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T12:30:00",
+  "drivers": [
+    {
+      "name": "John Gessner",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 114.223,
+      "lap_times_url": null,
+      "laps": [
+        135.034,
+        125.341,
+        115.582,
+        116.078,
+        114.223
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Andrea Stowell",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 142.617,
+      "lap_times_url": null,
+      "laps": [
+        157.157,
+        156.16,
+        143.09,
+        142.617
+      ],
+      "lap_positions": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Micah Walsh",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.508,
+      "lap_times_url": null,
+      "laps": [
+        147.685,
+        132.062,
+        129.009,
+        128.508,
+        130.548
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Julian Seutter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 113.988,
+      "lap_times_url": null,
+      "laps": [
+        134.905,
+        123.954,
+        116.979,
+        120.799,
+        113.988
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Secal Cavazos",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 129.154,
+      "lap_times_url": null,
+      "laps": [
+        152.6,
+        157.721,
+        133.242,
+        129.154
+      ],
+      "lap_positions": [
+        4,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "James Williams",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 136.832,
+      "lap_times_url": null,
+      "laps": [
+        152.953,
+        144.54,
+        136.832,
+        140.505
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5,
+        5
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84246"
+}

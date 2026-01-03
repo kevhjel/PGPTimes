@@ -1,0 +1,92 @@
+{
+  "heat_no": 84241,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T11:15:00",
+  "drivers": [
+    {
+      "name": "Andrei Vulcan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.154,
+      "lap_times_url": null,
+      "laps": [
+        119.406,
+        117.007,
+        121.163,
+        120.203,
+        115.154
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Oliver Gaard",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 117.615,
+      "lap_times_url": null,
+      "laps": [
+        141.086,
+        122.975,
+        119.291,
+        118.124,
+        117.615
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "CHRIS FAIRMAN",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 123.041,
+      "lap_times_url": null,
+      "laps": [
+        139.415,
+        132.665,
+        123.205,
+        123.041,
+        136.432
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Davion Fairman",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 125.198,
+      "lap_times_url": null,
+      "laps": [
+        140.473,
+        145.734,
+        135.678,
+        145.797,
+        125.198
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84241"
+}

@@ -1,0 +1,59 @@
+{
+  "heat_no": 84234,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T09:15:00",
+  "drivers": [
+    {
+      "name": "Minoru Oikawa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 139.014,
+      "lap_times_url": null,
+      "laps": [
+        217.815,
+        156.265,
+        139.014
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ian McGaw",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 177.53,
+      "lap_times_url": null,
+      "laps": [
+        229.115,
+        177.53,
+        185.052
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "luca Buell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 163.806,
+      "lap_times_url": null,
+      "laps": [
+        229.833,
+        177.543,
+        163.806
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84234"
+}

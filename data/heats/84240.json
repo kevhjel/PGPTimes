@@ -1,0 +1,52 @@
+{
+  "heat_no": 84240,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T11:00:00",
+  "drivers": [
+    {
+      "name": "Ashray Jain",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.191,
+      "lap_times_url": null,
+      "laps": [
+        110.145,
+        110.517,
+        109.232,
+        108.944,
+        108.191
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jordan Loukusa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 108.439,
+      "lap_times_url": null,
+      "laps": [
+        115.85,
+        110.72,
+        110.794,
+        109.572,
+        108.565,
+        108.439
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84240"
+}

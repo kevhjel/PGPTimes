@@ -1,0 +1,92 @@
+{
+  "heat_no": 84249,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T13:15:00",
+  "drivers": [
+    {
+      "name": "Tony Nguyen",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.708,
+      "lap_times_url": null,
+      "laps": [
+        133.543,
+        129.982,
+        128.152,
+        149.765,
+        119.708
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Jose Valle-Med...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 121.982,
+      "lap_times_url": null,
+      "laps": [
+        127.462,
+        157.985,
+        128.165,
+        121.982,
+        124.594
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Van Ho",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.167,
+      "lap_times_url": null,
+      "laps": [
+        153.164,
+        122.322,
+        118.941,
+        125.149,
+        118.167
+      ],
+      "lap_positions": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Huy Tran",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.657,
+      "lap_times_url": null,
+      "laps": [
+        127.309,
+        115.657,
+        115.923,
+        122.17,
+        123.722
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84249"
+}

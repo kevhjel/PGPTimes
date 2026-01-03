@@ -1,0 +1,31 @@
+{
+  "heat_no": 84242,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T11:30:00",
+  "drivers": [
+    {
+      "name": "Jordan Loukusa",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 106.298,
+      "lap_times_url": null,
+      "laps": [
+        113.299,
+        109.011,
+        107.808,
+        107.233,
+        106.298,
+        106.89
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84242"
+}

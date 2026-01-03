@@ -1,0 +1,69 @@
+{
+  "heat_no": 84243,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T11:45:00",
+  "drivers": [
+    {
+      "name": "Logan De la to...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 128.603,
+      "lap_times_url": null,
+      "laps": [
+        155.049,
+        133.63,
+        180.998,
+        128.603
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Andrei Vulcan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 122.808,
+      "lap_times_url": null,
+      "laps": [
+        142.335,
+        122.808,
+        124.287,
+        127.839,
+        124.046
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Oliver Gaard",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.025,
+      "lap_times_url": null,
+      "laps": [
+        137.377,
+        117.48,
+        125.843,
+        119.309,
+        115.025
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84243"
+}

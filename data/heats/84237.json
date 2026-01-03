@@ -1,0 +1,29 @@
+{
+  "heat_no": 84237,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T10:15:00",
+  "drivers": [
+    {
+      "name": "Andrei Vulcan",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.001,
+      "lap_times_url": null,
+      "laps": [
+        132.046,
+        119.529,
+        129.193,
+        119.395,
+        116.001
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84237"
+}

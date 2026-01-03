@@ -1,0 +1,105 @@
+{
+  "heat_no": 84256,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T15:00:00",
+  "drivers": [
+    {
+      "name": "Aiden Akseki",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 115.121,
+      "lap_times_url": null,
+      "laps": [
+        158.097,
+        116.521,
+        115.121,
+        120.585,
+        130.048
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eren Akseki",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.219,
+      "lap_times_url": null,
+      "laps": [
+        160.131,
+        115.98,
+        115.219,
+        122.229,
+        116.31
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Tiffany Stanley",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 172.573,
+      "lap_times_url": null,
+      "laps": [
+        196.82,
+        174.532,
+        172.573
+      ],
+      "lap_positions": [
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "KEvin Stanley",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 146.882,
+      "lap_times_url": null,
+      "laps": [
+        176.124,
+        167.511,
+        177.986,
+        146.882
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Miles Stanley",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 137.183,
+      "lap_times_url": null,
+      "laps": [
+        185.531,
+        187.531,
+        145.099,
+        137.183
+      ],
+      "lap_positions": [
+        4,
+        5,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84256"
+}

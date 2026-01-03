@@ -1,0 +1,67 @@
+{
+  "heat_no": 84244,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T12:00:00",
+  "drivers": [
+    {
+      "name": "Andrea Stowell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 152.347,
+      "lap_times_url": null,
+      "laps": [
+        189.33,
+        152.938,
+        168.081,
+        152.347
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Micah Walsh",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 133.968,
+      "lap_times_url": null,
+      "laps": [
+        180.004,
+        138.694,
+        133.968,
+        144.477
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Julian Seutter",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 120.985,
+      "lap_times_url": null,
+      "laps": [
+        176.653,
+        127.877,
+        133.584,
+        120.985,
+        122.881
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84244"
+}

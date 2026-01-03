@@ -1,0 +1,71 @@
+{
+  "heat_no": 84258,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-02T15:30:00",
+  "drivers": [
+    {
+      "name": "Aiden Akseki",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.433,
+      "lap_times_url": null,
+      "laps": [
+        129.383,
+        118.028,
+        116.994,
+        116.433,
+        125.138
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Eren Akseki",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.546,
+      "lap_times_url": null,
+      "laps": [
+        129.55,
+        118.31,
+        116.911,
+        116.794,
+        116.546
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Hunter Mcinelly",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.097,
+      "lap_times_url": null,
+      "laps": [
+        138.905,
+        126.161,
+        124.755,
+        136.511,
+        119.097
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84258"
+}
