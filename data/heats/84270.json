@@ -1,0 +1,92 @@
+{
+  "heat_no": 84270,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-03T13:15:00",
+  "drivers": [
+    {
+      "name": "Mohamed Al-She...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 122.179,
+      "lap_times_url": null,
+      "laps": [
+        157.49,
+        129.945,
+        126.02,
+        124.161,
+        122.348,
+        122.179
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ahmed Al-sheb...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 123.377,
+      "lap_times_url": null,
+      "laps": [
+        158.106,
+        183.519,
+        227.164,
+        123.785,
+        123.377
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Patrick DeMeyere",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 129.391,
+      "lap_times_url": null,
+      "laps": [
+        157.075,
+        186.336,
+        131.197,
+        144.897,
+        129.391
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Francesca Casdia",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 173.154,
+      "lap_times_url": null,
+      "laps": [
+        208.834,
+        197.501,
+        178.93,
+        173.154
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84270"
+}
