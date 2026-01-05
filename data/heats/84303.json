@@ -1,0 +1,73 @@
+{
+  "heat_no": 84303,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-04T14:15:00",
+  "drivers": [
+    {
+      "name": "Alexander West",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 116.314,
+      "lap_times_url": null,
+      "laps": [
+        142.02,
+        129.415,
+        119.758,
+        140.956,
+        116.314
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Keaton West",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 126.713,
+      "lap_times_url": null,
+      "laps": [
+        142.917,
+        133.639,
+        137.006,
+        126.713,
+        130.127
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 112.026,
+      "lap_times_url": null,
+      "laps": [
+        131.829,
+        115.644,
+        114.35,
+        112.026,
+        112.226,
+        112.237
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84303"
+}

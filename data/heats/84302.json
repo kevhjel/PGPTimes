@@ -1,0 +1,107 @@
+{
+  "heat_no": 84302,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-04T14:00:00",
+  "drivers": [
+    {
+      "name": "Fekadu Wakeman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 118.246,
+      "lap_times_url": null,
+      "laps": [
+        136.479,
+        126.602,
+        125.561,
+        118.246,
+        144.097
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Yahya Ahmed",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 130.61,
+      "lap_times_url": null,
+      "laps": [
+        152.139,
+        130.61,
+        133.129,
+        201.74
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alexander Supanc",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 126.42,
+      "lap_times_url": null,
+      "laps": [
+        160.172,
+        134.095,
+        129.317,
+        128.867,
+        126.42
+      ],
+      "lap_positions": [
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Hedia Lewis",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 153.492,
+      "lap_times_url": null,
+      "laps": [
+        180.682,
+        153.492,
+        159.501,
+        184.893
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Isaac Ames",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 134.847,
+      "lap_times_url": null,
+      "laps": [
+        154.269,
+        146.49,
+        134.847,
+        167.588
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84302"
+}

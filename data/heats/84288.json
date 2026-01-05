@@ -1,0 +1,67 @@
+{
+  "heat_no": 84288,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-04T10:30:00",
+  "drivers": [
+    {
+      "name": "Rimmy Le",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 107.85,
+      "lap_times_url": null,
+      "laps": [
+        119.344,
+        108.439,
+        107.85,
+        115.868,
+        112.762
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jean-Luc Quere",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 109.237,
+      "lap_times_url": null,
+      "laps": [
+        139.55,
+        152.023,
+        110.22,
+        109.237
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Devin Kang",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 117.415,
+      "lap_times_url": null,
+      "laps": [
+        131.465,
+        120.459,
+        117.415,
+        121.134
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84288"
+}

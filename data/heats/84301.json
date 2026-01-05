@@ -1,0 +1,33 @@
+{
+  "heat_no": 84301,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-04T13:45:00",
+  "drivers": [
+    {
+      "name": "Alexander Robles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 103.394,
+      "lap_times_url": null,
+      "laps": [
+        104.855,
+        103.394,
+        112.169,
+        110.571,
+        119.743,
+        111.872,
+        111.591
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84301"
+}

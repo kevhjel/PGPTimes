@@ -1,0 +1,29 @@
+{
+  "heat_no": 84285,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-04T09:45:00",
+  "drivers": [
+    {
+      "name": "Gavin Cutler",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.341,
+      "lap_times_url": null,
+      "laps": [
+        143.865,
+        125.221,
+        138.709,
+        141.41,
+        116.341
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84285"
+}
