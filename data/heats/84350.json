@@ -1,0 +1,62 @@
+{
+  "heat_no": 84350,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-08T15:00:00",
+  "drivers": [
+    {
+      "name": "Eric Fan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.635,
+      "lap_times_url": null,
+      "laps": [
+        88.226,
+        86.217,
+        85.895,
+        85.168,
+        85.087,
+        84.688,
+        85.607,
+        84.635
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cool Hand",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.778,
+      "lap_times_url": null,
+      "laps": [
+        87.185,
+        84.196,
+        83.412,
+        83.28,
+        83.089,
+        82.928,
+        82.849,
+        82.778
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84350"
+}

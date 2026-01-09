@@ -1,0 +1,106 @@
+{
+  "heat_no": 84345,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-08T13:45:00",
+  "drivers": [
+    {
+      "name": "Samiir Jeylani",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.973,
+      "lap_times_url": null,
+      "laps": [
+        133.88,
+        94.71,
+        91.806,
+        88.555,
+        90.894,
+        89.392,
+        87.973
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Lincoln Bosh",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.034,
+      "lap_times_url": null,
+      "laps": [
+        128.345,
+        98.755,
+        86.097,
+        85.307,
+        84.034,
+        84.315,
+        84.727
+      ],
+      "lap_positions": [
+        1,
+        3,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.523,
+      "lap_times_url": null,
+      "laps": [
+        148.547,
+        84.376,
+        84.639,
+        85.056,
+        84.462,
+        83.523,
+        84.249
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Peter Kroger",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.449,
+      "lap_times_url": null,
+      "laps": [
+        151.866,
+        108.398,
+        100.325,
+        100.965,
+        95.449,
+        97.259
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84345"
+}

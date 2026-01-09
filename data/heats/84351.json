@@ -1,0 +1,62 @@
+{
+  "heat_no": 84351,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-08T15:15:00",
+  "drivers": [
+    {
+      "name": "Kaden Greenlief",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.115,
+      "lap_times_url": null,
+      "laps": [
+        88.114,
+        83.234,
+        83.259,
+        82.115,
+        83.893,
+        83.063,
+        82.865,
+        82.431
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Lincoln Bosh",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 82.625,
+      "lap_times_url": null,
+      "laps": [
+        89.282,
+        86.577,
+        83.599,
+        83.208,
+        82.698,
+        83.322,
+        82.823,
+        82.625
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84351"
+}
