@@ -1,0 +1,108 @@
+{
+  "heat_no": 84368,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-09T12:30:00",
+  "drivers": [
+    {
+      "name": "charlie may",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.586,
+      "lap_times_url": null,
+      "laps": [
+        112.289,
+        85.754,
+        85.968,
+        85.704,
+        85.611,
+        85.586,
+        88.034
+      ],
+      "lap_positions": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Grant Vurpillat",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 86.229,
+      "lap_times_url": null,
+      "laps": [
+        101.868,
+        88.233,
+        89.165,
+        86.939,
+        87.856,
+        86.229,
+        87.028
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "idan katan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.728,
+      "lap_times_url": null,
+      "laps": [
+        102.097,
+        87.122,
+        121.597,
+        85.855,
+        86.365,
+        85.728,
+        85.752
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ittai Kohavi",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.662,
+      "lap_times_url": null,
+      "laps": [
+        105.024,
+        97.524,
+        90.145,
+        93.638,
+        86.426,
+        85.662,
+        86.478
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84368"
+}

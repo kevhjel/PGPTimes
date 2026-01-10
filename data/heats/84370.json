@@ -1,0 +1,162 @@
+{
+  "heat_no": 84370,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-09T13:00:00",
+  "drivers": [
+    {
+      "name": "charlie may",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 84.622,
+      "lap_times_url": null,
+      "laps": [
+        107.246,
+        84.941,
+        107.604,
+        86.167,
+        85.5,
+        85.059,
+        84.622
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Grant Vurpillat",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.404,
+      "lap_times_url": null,
+      "laps": [
+        108.222,
+        93.762,
+        85.322,
+        84.404,
+        84.561,
+        84.524,
+        84.498
+      ],
+      "lap_positions": [
+        5,
+        6,
+        5,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "idan katan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 84.275,
+      "lap_times_url": null,
+      "laps": [
+        108.368,
+        85.17,
+        84.928,
+        85.857,
+        84.275,
+        84.438,
+        85.065
+      ],
+      "lap_positions": [
+        6,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Ittai Kohavi",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 86.119,
+      "lap_times_url": null,
+      "laps": [
+        107.793,
+        86.425,
+        86.311,
+        86.119,
+        97.356,
+        86.509,
+        86.556
+      ],
+      "lap_positions": [
+        3,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.105,
+      "lap_times_url": null,
+      "laps": [
+        106.261,
+        83.147,
+        83.319,
+        82.608,
+        81.105,
+        84.208,
+        82.17,
+        83.641
+      ],
+      "lap_positions": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jose Valenzuela",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.505,
+      "lap_times_url": null,
+      "laps": [
+        107.944,
+        83.25,
+        83.024,
+        82.576,
+        81.505,
+        82.759,
+        82.155,
+        83.855
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84370"
+}

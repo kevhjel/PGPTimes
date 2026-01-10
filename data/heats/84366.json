@@ -1,0 +1,75 @@
+{
+  "heat_no": 84366,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-09T12:00:00",
+  "drivers": [
+    {
+      "name": "Donut King",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.968,
+      "lap_times_url": null,
+      "laps": [
+        85.935,
+        81.699,
+        80.968
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "idan katan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 87.004,
+      "lap_times_url": null,
+      "laps": [
+        105.511,
+        87.004,
+        87.167,
+        87.764,
+        87.951,
+        88.071,
+        88.108
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ittai Kohavi",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.635,
+      "lap_times_url": null,
+      "laps": [
+        114.24,
+        93.601,
+        90.182,
+        88.635,
+        91.103,
+        89.046,
+        88.785
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84366"
+}

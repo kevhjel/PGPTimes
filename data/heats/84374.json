@@ -1,0 +1,58 @@
+{
+  "heat_no": 84374,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-09T14:00:00",
+  "drivers": [
+    {
+      "name": "Kaden Greenlief",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.821,
+      "lap_times_url": null,
+      "laps": [
+        82.192,
+        81.388,
+        81.313,
+        81.313,
+        80.821,
+        81.717,
+        81.305
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jordan Loukusa",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.073,
+      "lap_times_url": null,
+      "laps": [
+        82.7,
+        82.236,
+        82.009,
+        81.979,
+        81.709,
+        81.691,
+        81.073
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84374"
+}

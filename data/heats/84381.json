@@ -1,0 +1,89 @@
+{
+  "heat_no": 84381,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-09T15:45:00",
+  "drivers": [
+    {
+      "name": "Gamard Arius",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 81.923,
+      "lap_times_url": null,
+      "laps": [
+        108.859,
+        83.591,
+        82.642,
+        84.01,
+        89.648,
+        86.3,
+        81.981,
+        81.923
+      ],
+      "lap_positions": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dillon Watson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.112,
+      "lap_times_url": null,
+      "laps": [
+        107.471,
+        84.176,
+        83.126,
+        84.353,
+        92.566,
+        84.07,
+        82.112,
+        82.274
+      ],
+      "lap_positions": [
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Hunter Tobin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.958,
+      "lap_times_url": null,
+      "laps": [
+        106.322,
+        83.884,
+        83.581,
+        84.293,
+        90.881,
+        86.096,
+        82.155,
+        81.958
+      ],
+      "lap_positions": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84381"
+}
