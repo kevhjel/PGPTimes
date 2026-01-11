@@ -1,0 +1,81 @@
+{
+  "heat_no": 84398,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-10T14:45:00",
+  "drivers": [
+    {
+      "name": "ALEX ACOSTA",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.288,
+      "lap_times_url": null,
+      "laps": [
+        99.624,
+        81.683,
+        81.278,
+        80.867,
+        81.639,
+        80.361,
+        80.288,
+        80.496
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Jacob Nguyen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 84.131,
+      "lap_times_url": null,
+      "laps": [
+        108.315,
+        84.252,
+        86.293,
+        84.131,
+        86.29,
+        84.177,
+        84.281,
+        86.267
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Gertrude Bett",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.286,
+      "lap_times_url": null,
+      "laps": [
+        180.064,
+        134.629,
+        131.724,
+        131.286
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84398"
+}
