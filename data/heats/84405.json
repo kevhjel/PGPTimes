@@ -1,0 +1,82 @@
+{
+  "heat_no": 84405,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T11:00:00",
+  "drivers": [
+    {
+      "name": "Erik Gross",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 119.832,
+      "lap_times_url": null,
+      "laps": [
+        126.111,
+        122.082,
+        122.292,
+        119.832
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Alex Gross",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 114.545,
+      "lap_times_url": null,
+      "laps": [
+        127.931,
+        117.332,
+        122.11,
+        114.545
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Phillip Gross",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 122.615,
+      "lap_times_url": null,
+      "laps": [
+        130.342,
+        141.728,
+        122.615
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Shreyansh Bhus...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 115.762,
+      "lap_times_url": null,
+      "laps": [
+        121.611,
+        118.643,
+        115.762,
+        124.472
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84405"
+}

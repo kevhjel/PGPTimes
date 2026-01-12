@@ -1,0 +1,107 @@
+{
+  "heat_no": 84425,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T09:15:00",
+  "drivers": [
+    {
+      "name": "Antoine Zalzal",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 108.568,
+      "lap_times_url": null,
+      "laps": [
+        112.179,
+        111.481,
+        118.867,
+        109.729,
+        108.568
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Dario De Agost...",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 121.365,
+      "lap_times_url": null,
+      "laps": [
+        127.371,
+        124.144,
+        122.769,
+        121.365
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Pratt",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 121.665,
+      "lap_times_url": null,
+      "laps": [
+        124.8,
+        122.169,
+        122.245,
+        121.665
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Gordon Coerver",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.361,
+      "lap_times_url": null,
+      "laps": [
+        127.115,
+        123.54,
+        121.361,
+        128.651
+      ],
+      "lap_positions": [
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.848,
+      "lap_times_url": null,
+      "laps": [
+        115.868,
+        115.552,
+        116.021,
+        112.848,
+        112.855
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84425"
+}

@@ -1,0 +1,92 @@
+{
+  "heat_no": 84420,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T14:45:00",
+  "drivers": [
+    {
+      "name": "Abhinav Dua",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 118.028,
+      "lap_times_url": null,
+      "laps": [
+        143.307,
+        125.238,
+        137.644,
+        118.028,
+        129.034
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Eeshpaul Saggu",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 127.593,
+      "lap_times_url": null,
+      "laps": [
+        150.18,
+        136.582,
+        130.599,
+        149.79,
+        127.593
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ryan Xia",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 111.875,
+      "lap_times_url": null,
+      "laps": [
+        133.747,
+        114.908,
+        139.119,
+        112.526,
+        111.875
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shubham Saxena",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 123.53,
+      "lap_times_url": null,
+      "laps": [
+        149.571,
+        139.141,
+        138.465,
+        126.672,
+        123.53
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84420"
+}

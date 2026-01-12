@@ -1,0 +1,113 @@
+{
+  "heat_no": 84431,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T10:45:00",
+  "drivers": [
+    {
+      "name": "Eric Gustavson",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 134.744,
+      "lap_times_url": null,
+      "laps": [
+        152.221,
+        172.653,
+        134.744,
+        160.338
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Labib Joarder",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 118.196,
+      "lap_times_url": null,
+      "laps": [
+        140.177,
+        126.813,
+        126.253,
+        118.196,
+        119.395
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Stephen Williams",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 110.265,
+      "lap_times_url": null,
+      "laps": [
+        135.57,
+        111.726,
+        110.461,
+        110.265,
+        115.913
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Alexander Robles",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 111.233,
+      "lap_times_url": null,
+      "laps": [
+        138.677,
+        113.174,
+        112.342,
+        111.554,
+        118.251,
+        111.233
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Rohan Devineni",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 120.459,
+      "lap_times_url": null,
+      "laps": [
+        140.346,
+        120.459,
+        121.031,
+        133.065,
+        165.319
+      ],
+      "lap_positions": [
+        4,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84431"
+}

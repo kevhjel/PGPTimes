@@ -1,0 +1,65 @@
+{
+  "heat_no": 84421,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T15:00:00",
+  "drivers": [
+    {
+      "name": "Patrick Melgar",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 130.281,
+      "lap_times_url": null,
+      "laps": [
+        158.977,
+        130.281,
+        157.628,
+        151.251
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Micah Spegman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 134.355,
+      "lap_times_url": null,
+      "laps": [
+        169.254,
+        134.355,
+        142.207,
+        148.454
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ivan Ortiz-Bucio",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 162.568,
+      "lap_times_url": null,
+      "laps": [
+        185.345,
+        162.568,
+        165.322,
+        166.656
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84421"
+}

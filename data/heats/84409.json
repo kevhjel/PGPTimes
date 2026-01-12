@@ -1,0 +1,69 @@
+{
+  "heat_no": 84409,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T12:00:00",
+  "drivers": [
+    {
+      "name": "reed cantrell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 131.318,
+      "lap_times_url": null,
+      "laps": [
+        163.516,
+        131.318,
+        146.957,
+        132.026
+      ],
+      "lap_positions": [
+        3,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Colton Miller",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 126.68,
+      "lap_times_url": null,
+      "laps": [
+        156.923,
+        137.407,
+        131.831,
+        130.696,
+        126.68
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Connor PHelps",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 128.967,
+      "lap_times_url": null,
+      "laps": [
+        161.459,
+        135.988,
+        129.861,
+        128.967,
+        131.564
+      ],
+      "lap_positions": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84409"
+}

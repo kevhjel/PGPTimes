@@ -1,0 +1,90 @@
+{
+  "heat_no": 84423,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-11T15:30:00",
+  "drivers": [
+    {
+      "name": "jared le",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 116.717,
+      "lap_times_url": null,
+      "laps": [
+        148.527,
+        126.158,
+        124.332,
+        118.382,
+        116.717
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "JaVieontae Joh...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 121.66,
+      "lap_times_url": null,
+      "laps": [
+        137.94,
+        124.802,
+        127.297,
+        127.9,
+        121.66
+      ],
+      "lap_positions": [
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Micah Spegman",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 119.355,
+      "lap_times_url": null,
+      "laps": [
+        152.865,
+        130.469,
+        124.083,
+        119.355,
+        126.462
+      ],
+      "lap_positions": [
+        4,
+        3,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ivan Ortiz-Bucio",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 133.356,
+      "lap_times_url": null,
+      "laps": [
+        150.394,
+        133.356,
+        140.364,
+        145.247
+      ],
+      "lap_positions": [
+        3,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84423"
+}
