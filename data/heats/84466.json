@@ -1,0 +1,39 @@
+{
+  "heat_no": 84466,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-14T15:15:00",
+  "drivers": [
+    {
+      "name": "Test Testerson",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.314,
+      "lap_times_url": null,
+      "laps": [
+        85.243,
+        82.369,
+        81.46,
+        81.781,
+        84.958,
+        81.459,
+        89.06,
+        84.584,
+        80.838,
+        80.314
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84466"
+}

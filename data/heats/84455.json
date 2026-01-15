@@ -1,0 +1,54 @@
+{
+  "heat_no": 84455,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-14T12:30:00",
+  "drivers": [
+    {
+      "name": "Jayson Broetje",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.967,
+      "lap_times_url": null,
+      "laps": [
+        108.571,
+        91.024,
+        88.346,
+        86.739,
+        88.725,
+        87.05,
+        85.967
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Huyen Nguyen",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 113.506,
+      "lap_times_url": null,
+      "laps": [
+        124.766,
+        118.651,
+        115.588,
+        118.392,
+        113.506
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84455"
+}

@@ -1,0 +1,33 @@
+{
+  "heat_no": 84447,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-14T10:30:00",
+  "drivers": [
+    {
+      "name": "Alexander Robles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.305,
+      "lap_times_url": null,
+      "laps": [
+        85.587,
+        84.262,
+        83.896,
+        83.976,
+        83.598,
+        83.708,
+        83.305
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84447"
+}

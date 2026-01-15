@@ -1,0 +1,108 @@
+{
+  "heat_no": 84463,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-14T14:30:00",
+  "drivers": [
+    {
+      "name": "Angel Strong",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.031,
+      "lap_times_url": null,
+      "laps": [
+        99.414,
+        81.261,
+        80.192,
+        83.301,
+        80.993,
+        80.031,
+        82.111,
+        80.359
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Kirk Strong",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.807,
+      "lap_times_url": null,
+      "laps": [
+        99.478,
+        80.148,
+        79.807,
+        85.391,
+        81.007,
+        79.973,
+        82.148,
+        80.348
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Farhaan Siddiqui",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 83.973,
+      "lap_times_url": null,
+      "laps": [
+        102.639,
+        85.576,
+        85.446,
+        87.448,
+        83.973,
+        84.403,
+        84.389,
+        84.469
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Brenden Nago",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 104.526,
+      "lap_times_url": null,
+      "laps": [
+        207.148,
+        145.583,
+        104.526,
+        125.462
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84463"
+}

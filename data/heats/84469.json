@@ -1,0 +1,60 @@
+{
+  "heat_no": 84469,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-14T16:00:00",
+  "drivers": [
+    {
+      "name": "Jack Basher",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.955,
+      "lap_times_url": null,
+      "laps": [
+        103.874,
+        104.462,
+        83.412,
+        81.082,
+        81.212,
+        80.955,
+        81.019,
+        86.013
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Nellie Basher",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 95.524,
+      "lap_times_url": null,
+      "laps": [
+        104.352,
+        104.274,
+        102.202,
+        98.202,
+        99.246,
+        97.195,
+        95.524
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84469"
+}
