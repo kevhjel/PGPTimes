@@ -1,0 +1,60 @@
+{
+  "heat_no": 84497,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-16T15:45:00",
+  "drivers": [
+    {
+      "name": "Reiff Castillote",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.325,
+      "lap_times_url": null,
+      "laps": [
+        100.858,
+        86.077,
+        86.167,
+        86.597,
+        85.325,
+        95.339,
+        85.344
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mace Schram",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.443,
+      "lap_times_url": null,
+      "laps": [
+        93.509,
+        81.219,
+        82.195,
+        81.572,
+        81.11,
+        81.469,
+        80.443,
+        81.386
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84497"
+}

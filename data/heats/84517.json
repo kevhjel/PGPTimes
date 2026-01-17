@@ -1,0 +1,35 @@
+{
+  "heat_no": 84517,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-15T15:45:00",
+  "drivers": [
+    {
+      "name": "edward whitman",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.642,
+      "lap_times_url": null,
+      "laps": [
+        88.569,
+        84.132,
+        82.931,
+        83.465,
+        83.042,
+        83.501,
+        83.609,
+        82.642
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84517"
+}

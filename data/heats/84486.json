@@ -1,0 +1,112 @@
+{
+  "heat_no": 84486,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-16T11:00:00",
+  "drivers": [
+    {
+      "name": "derek mitchell",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.408,
+      "lap_times_url": null,
+      "laps": [
+        103.992,
+        108.057,
+        93.657,
+        88.092,
+        86.033,
+        85.474,
+        85.408
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jake Mitchell",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.26,
+      "lap_times_url": null,
+      "laps": [
+        104.918,
+        97.0,
+        105.278,
+        94.431,
+        92.83,
+        92.728,
+        92.26
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Jack Mitchell",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.436,
+      "lap_times_url": null,
+      "laps": [
+        86.121,
+        82.229,
+        82.544,
+        80.71,
+        80.741,
+        80.468,
+        80.436,
+        80.566
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "WrightHandMan",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.786,
+      "lap_times_url": null,
+      "laps": [
+        87.626,
+        82.874,
+        83.129,
+        82.494,
+        82.47,
+        81.786,
+        84.3,
+        81.909
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84486"
+}

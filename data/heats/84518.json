@@ -1,0 +1,116 @@
+{
+  "heat_no": 84518,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-15T16:00:00",
+  "drivers": [
+    {
+      "name": "edward whitman",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 82.039,
+      "lap_times_url": null,
+      "laps": [
+        85.049,
+        83.034,
+        82.039,
+        82.629,
+        82.562,
+        82.908,
+        92.627,
+        83.249
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Chih Yu",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.111,
+      "lap_times_url": null,
+      "laps": [
+        84.797,
+        80.507,
+        80.009,
+        79.39,
+        79.111,
+        79.121,
+        79.268,
+        79.354
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Markus Gallasch",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 84.367,
+      "lap_times_url": null,
+      "laps": [
+        89.783,
+        86.152,
+        86.253,
+        84.687,
+        84.597,
+        84.367,
+        84.417,
+        85.147
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 81.167,
+      "lap_times_url": null,
+      "laps": [
+        86.423,
+        82.173,
+        81.167,
+        81.596,
+        81.456,
+        81.281,
+        81.178,
+        81.56
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84518"
+}

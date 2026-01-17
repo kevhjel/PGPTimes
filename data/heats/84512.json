@@ -1,0 +1,58 @@
+{
+  "heat_no": 84512,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-15T14:30:00",
+  "drivers": [
+    {
+      "name": "Sathya Venkate...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.162,
+      "lap_times_url": null,
+      "laps": [
+        81.169,
+        80.611,
+        80.784,
+        80.162,
+        80.614,
+        80.855,
+        82.317
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.752,
+      "lap_times_url": null,
+      "laps": [
+        80.977,
+        80.946,
+        80.366,
+        79.896,
+        80.117,
+        79.752,
+        85.505
+      ],
+      "lap_positions": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84512"
+}

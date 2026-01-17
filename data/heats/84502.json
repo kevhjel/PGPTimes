@@ -1,0 +1,85 @@
+{
+  "heat_no": 84502,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-15T12:00:00",
+  "drivers": [
+    {
+      "name": "kepler stanley...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.942,
+      "lap_times_url": null,
+      "laps": [
+        120.308,
+        91.537,
+        90.453,
+        89.886,
+        89.501,
+        88.406,
+        87.942
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Dylan Hampden",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.939,
+      "lap_times_url": null,
+      "laps": [
+        122.643,
+        93.664,
+        90.985,
+        90.133,
+        88.753,
+        87.803,
+        86.939
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "DOUG DiXON",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.89,
+      "lap_times_url": null,
+      "laps": [
+        115.091,
+        84.74,
+        85.143,
+        82.89,
+        83.329,
+        83.891,
+        84.957,
+        83.558
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84502"
+}

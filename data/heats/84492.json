@@ -1,0 +1,108 @@
+{
+  "heat_no": 84492,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-16T12:30:00",
+  "drivers": [
+    {
+      "name": "John Ward",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 92.44,
+      "lap_times_url": null,
+      "laps": [
+        111.15,
+        97.31,
+        100.4,
+        94.919,
+        93.061,
+        92.44,
+        93.458
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Jacob King",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 92.117,
+      "lap_times_url": null,
+      "laps": [
+        108.963,
+        92.117,
+        94.61,
+        94.672,
+        93.828,
+        92.423,
+        99.489
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Andrew Bryden",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 91.312,
+      "lap_times_url": null,
+      "laps": [
+        108.385,
+        93.404,
+        112.432,
+        93.961,
+        94.643,
+        92.245,
+        91.312
+      ],
+      "lap_positions": [
+        1,
+        3,
+        3,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Jacob Kobes",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 92.614,
+      "lap_times_url": null,
+      "laps": [
+        109.472,
+        92.82,
+        94.85,
+        94.747,
+        93.702,
+        92.614,
+        95.156
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84492"
+}

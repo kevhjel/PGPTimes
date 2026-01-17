@@ -1,0 +1,58 @@
+{
+  "heat_no": 84485,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-16T10:45:00",
+  "drivers": [
+    {
+      "name": "Nickolas Whitw...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.278,
+      "lap_times_url": null,
+      "laps": [
+        128.21,
+        89.349,
+        86.955,
+        85.931,
+        84.836,
+        84.315,
+        84.784,
+        83.278
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Madeleine Whit...",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 112.666,
+      "lap_times_url": null,
+      "laps": [
+        150.108,
+        164.763,
+        125.078,
+        117.193,
+        112.666,
+        115.509
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84485"
+}

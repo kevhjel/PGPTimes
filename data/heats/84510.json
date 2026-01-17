@@ -1,0 +1,83 @@
+{
+  "heat_no": 84510,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-15T14:00:00",
+  "drivers": [
+    {
+      "name": "Rubber Farmer",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.619,
+      "lap_times_url": null,
+      "laps": [
+        81.687,
+        80.991,
+        81.381,
+        80.656,
+        80.793,
+        81.402,
+        80.619
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Sathya Venkate...",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.001,
+      "lap_times_url": null,
+      "laps": [
+        83.159,
+        81.403,
+        81.473,
+        81.292,
+        81.586,
+        81.485,
+        81.001
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Cory Boersma",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.82,
+      "lap_times_url": null,
+      "laps": [
+        81.239,
+        80.432,
+        80.32,
+        79.939,
+        79.82,
+        89.448,
+        80.13
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84510"
+}
