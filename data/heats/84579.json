@@ -1,0 +1,384 @@
+{
+  "heat_no": 84579,
+  "heat_type": "Arrive and Drive- 18 Karts",
+  "start_time_iso": "2026-01-18T14:00:00",
+  "drivers": [
+    {
+      "name": "Keith Ricketts",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 85.656,
+      "lap_times_url": null,
+      "laps": [
+        130.111,
+        88.163,
+        93.92,
+        88.548,
+        86.596,
+        90.696,
+        85.656
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "JR GRANSTRAND",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 88.758,
+      "lap_times_url": null,
+      "laps": [
+        130.528,
+        100.398,
+        93.525,
+        88.758,
+        92.012,
+        95.776,
+        89.94
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "jeremy li",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.067,
+      "lap_times_url": null,
+      "laps": [
+        117.818,
+        98.324,
+        90.467,
+        91.0,
+        87.067,
+        107.853
+      ],
+      "lap_positions": [
+        2,
+        3,
+        3,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Vikas Patil",
+      "position": 9,
+      "kart": null,
+      "best_lap_seconds": 103.522,
+      "lap_times_url": null,
+      "laps": [
+        149.136,
+        117.944,
+        109.468,
+        104.168,
+        103.522
+      ],
+      "lap_positions": [
+        7,
+        9,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Andrew Engles",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 82.55,
+      "lap_times_url": null,
+      "laps": [
+        111.478,
+        85.712,
+        86.783,
+        82.55,
+        82.721,
+        85.702,
+        83.062
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Zihao Zhou",
+      "position": 10,
+      "kart": null,
+      "best_lap_seconds": 105.285,
+      "lap_times_url": null,
+      "laps": [
+        159.806,
+        117.75,
+        105.285,
+        115.066,
+        108.596
+      ],
+      "lap_positions": [
+        10,
+        8,
+        7,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Yunfei Niu",
+      "position": 6,
+      "kart": null,
+      "best_lap_seconds": 100.286,
+      "lap_times_url": null,
+      "laps": [
+        167.403,
+        136.925,
+        106.661,
+        102.309,
+        100.286
+      ],
+      "lap_positions": [
+        13,
+        11,
+        8,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "Jaylynn Granst...",
+      "position": 7,
+      "kart": null,
+      "best_lap_seconds": 100.652,
+      "lap_times_url": null,
+      "laps": [
+        153.619,
+        112.011,
+        100.652,
+        103.367,
+        148.995
+      ],
+      "lap_positions": [
+        8,
+        5,
+        5,
+        5,
+        7
+      ]
+    },
+    {
+      "name": "Jayden Granstr...",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 99.324,
+      "lap_times_url": null,
+      "laps": [
+        148.401,
+        121.279,
+        100.659,
+        102.44,
+        99.324,
+        103.217
+      ],
+      "lap_positions": [
+        6,
+        10,
+        6,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Rujing Wang",
+      "position": 13,
+      "kart": null,
+      "best_lap_seconds": 123.359,
+      "lap_times_url": null,
+      "laps": [
+        168.726,
+        147.223,
+        123.359,
+        129.369
+      ],
+      "lap_positions": [
+        14,
+        14,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "HUITING ZHENG",
+      "position": 16,
+      "kart": null,
+      "best_lap_seconds": 139.993,
+      "lap_times_url": null,
+      "laps": [
+        175.822,
+        142.99,
+        139.993,
+        146.539
+      ],
+      "lap_positions": [
+        15,
+        13,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Jingtun Zhang",
+      "position": 14,
+      "kart": null,
+      "best_lap_seconds": 123.976,
+      "lap_times_url": null,
+      "laps": [
+        164.599,
+        154.631,
+        134.4,
+        123.976
+      ],
+      "lap_positions": [
+        11,
+        16,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Tianlong Lai",
+      "position": 15,
+      "kart": null,
+      "best_lap_seconds": 131.136,
+      "lap_times_url": null,
+      "laps": [
+        203.053,
+        140.602,
+        136.968,
+        131.136
+      ],
+      "lap_positions": [
+        17,
+        12,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Tingting Lu",
+      "position": 17,
+      "kart": null,
+      "best_lap_seconds": 141.83,
+      "lap_times_url": null,
+      "laps": [
+        178.206,
+        147.299,
+        143.022,
+        141.83
+      ],
+      "lap_positions": [
+        16,
+        15,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Yang Song",
+      "position": 12,
+      "kart": null,
+      "best_lap_seconds": 117.778,
+      "lap_times_url": null,
+      "laps": [
+        165.662,
+        155.808,
+        121.464,
+        117.778
+      ],
+      "lap_positions": [
+        12,
+        17,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "Yufan Zhang",
+      "position": 18,
+      "kart": null,
+      "best_lap_seconds": 207.962,
+      "lap_times_url": null,
+      "laps": [
+        248.553,
+        207.962
+      ],
+      "lap_positions": [
+        18,
+        18
+      ]
+    },
+    {
+      "name": "Pranav Sonawane",
+      "position": 8,
+      "kart": null,
+      "best_lap_seconds": 103.03,
+      "lap_times_url": null,
+      "laps": [
+        141.354,
+        113.737,
+        110.771,
+        103.03,
+        104.11
+      ],
+      "lap_positions": [
+        5,
+        7,
+        11,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Rohan Vaidya",
+      "position": 11,
+      "kart": null,
+      "best_lap_seconds": 107.918,
+      "lap_times_url": null,
+      "laps": [
+        156.874,
+        113.04,
+        107.918,
+        108.737,
+        114.92
+      ],
+      "lap_positions": [
+        9,
+        6,
+        9,
+        11,
+        11
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84579"
+}
