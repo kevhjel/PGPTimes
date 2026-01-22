@@ -1,0 +1,116 @@
+{
+  "heat_no": 84618,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-21T16:15:00",
+  "drivers": [
+    {
+      "name": "Randy Swole",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 80.333,
+      "lap_times_url": null,
+      "laps": [
+        87.063,
+        82.617,
+        81.29,
+        80.898,
+        80.48,
+        80.831,
+        80.333,
+        80.411
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Ilya Dreizin",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 80.374,
+      "lap_times_url": null,
+      "laps": [
+        86.606,
+        81.939,
+        81.075,
+        81.002,
+        80.374,
+        80.882,
+        80.499,
+        80.498
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Christopher Mai",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 82.432,
+      "lap_times_url": null,
+      "laps": [
+        93.723,
+        89.115,
+        82.992,
+        82.454,
+        82.432,
+        82.432,
+        86.29,
+        82.902
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Mace Schram",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 81.552,
+      "lap_times_url": null,
+      "laps": [
+        87.241,
+        82.823,
+        82.283,
+        81.783,
+        81.681,
+        81.755,
+        81.618,
+        81.552
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84618"
+}

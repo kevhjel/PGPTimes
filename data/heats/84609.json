@@ -1,0 +1,121 @@
+{
+  "heat_no": 84609,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-21T14:00:00",
+  "drivers": [
+    {
+      "name": "nathan park",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 86.688,
+      "lap_times_url": null,
+      "laps": [
+        108.179,
+        86.801,
+        86.688,
+        87.391,
+        99.369,
+        86.74,
+        86.913
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Travis Garrison",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 101.8,
+      "lap_times_url": null,
+      "laps": [
+        144.412,
+        127.768,
+        102.898,
+        107.697,
+        101.893,
+        101.8
+      ],
+      "lap_positions": [
+        5,
+        4,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Bo Buchanan",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 99.884,
+      "lap_times_url": null,
+      "laps": [
+        115.373,
+        104.776,
+        136.482,
+        116.76,
+        99.884,
+        102.693
+      ],
+      "lap_positions": [
+        2,
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Kevin Hong",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 109.407,
+      "lap_times_url": null,
+      "laps": [
+        134.17,
+        134.059,
+        163.224,
+        109.407
+      ],
+      "lap_positions": [
+        4,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Jaxton Phillips",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 97.659,
+      "lap_times_url": null,
+      "laps": [
+        127.491,
+        102.471,
+        119.567,
+        97.659,
+        101.038,
+        110.891
+      ],
+      "lap_positions": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84609"
+}

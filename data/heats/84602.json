@@ -1,0 +1,133 @@
+{
+  "heat_no": 84602,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-21T12:15:00",
+  "drivers": [
+    {
+      "name": "Thomas Kading",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.262,
+      "lap_times_url": null,
+      "laps": [
+        107.356,
+        87.248,
+        86.925,
+        86.084,
+        85.262,
+        86.338,
+        85.773
+      ],
+      "lap_positions": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "parks freilinger",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.945,
+      "lap_times_url": null,
+      "laps": [
+        113.264,
+        90.324,
+        85.833,
+        84.859,
+        84.156,
+        83.945,
+        84.178
+      ],
+      "lap_positions": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Charlie Freili...",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.7,
+      "lap_times_url": null,
+      "laps": [
+        105.689,
+        115.741,
+        93.083,
+        88.106,
+        96.163,
+        94.777,
+        83.7
+      ],
+      "lap_positions": [
+        1,
+        5,
+        4,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "Ella Bines",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 96.385,
+      "lap_times_url": null,
+      "laps": [
+        112.223,
+        97.048,
+        97.221,
+        96.444,
+        96.751,
+        96.868,
+        96.385
+      ],
+      "lap_positions": [
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Ian Bell",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 90.502,
+      "lap_times_url": null,
+      "laps": [
+        117.594,
+        103.249,
+        92.941,
+        90.968,
+        98.476,
+        90.502,
+        101.948
+      ],
+      "lap_positions": [
+        5,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84602"
+}

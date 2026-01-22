@@ -1,0 +1,83 @@
+{
+  "heat_no": 84598,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-21T11:15:00",
+  "drivers": [
+    {
+      "name": "Matthew Roy",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 99.309,
+      "lap_times_url": null,
+      "laps": [
+        123.154,
+        102.709,
+        108.262,
+        117.488,
+        112.216,
+        100.696,
+        99.309
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "MARCUS JONES",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.456,
+      "lap_times_url": null,
+      "laps": [
+        123.055,
+        101.298,
+        99.74,
+        98.456,
+        99.321,
+        100.695,
+        101.184
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Esteban Aliste",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 101.388,
+      "lap_times_url": null,
+      "laps": [
+        124.233,
+        107.062,
+        101.954,
+        105.074,
+        101.388,
+        105.667,
+        103.877
+      ],
+      "lap_positions": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84598"
+}

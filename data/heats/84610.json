@@ -1,0 +1,106 @@
+{
+  "heat_no": 84610,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-21T14:15:00",
+  "drivers": [
+    {
+      "name": "Eric Nelson",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 88.57,
+      "lap_times_url": null,
+      "laps": [
+        111.491,
+        88.696,
+        89.025,
+        88.695,
+        88.57,
+        89.676,
+        90.083
+      ],
+      "lap_positions": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "David Lambert",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 88.014,
+      "lap_times_url": null,
+      "laps": [
+        114.586,
+        95.879,
+        89.298,
+        90.011,
+        88.416,
+        88.521,
+        88.014
+      ],
+      "lap_positions": [
+        3,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Mace Schram",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 83.238,
+      "lap_times_url": null,
+      "laps": [
+        111.576,
+        87.186,
+        87.037,
+        114.653,
+        84.768,
+        84.837,
+        83.238
+      ],
+      "lap_positions": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "John Song",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 95.474,
+      "lap_times_url": null,
+      "laps": [
+        118.783,
+        95.865,
+        95.474,
+        98.394,
+        108.52,
+        99.138
+      ],
+      "lap_positions": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84610"
+}
