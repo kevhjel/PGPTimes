@@ -1,0 +1,104 @@
+{
+  "heat_no": 84634,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-22T12:45:00",
+  "drivers": [
+    {
+      "name": "Arthur Adesp",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 85.254,
+      "lap_times_url": null,
+      "laps": [
+        113.987,
+        86.653,
+        85.734,
+        85.688,
+        85.266,
+        87.582,
+        85.254
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Charles Bulski",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 91.541,
+      "lap_times_url": null,
+      "laps": [
+        122.683,
+        93.357,
+        93.855,
+        92.901,
+        97.373,
+        91.541
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Rayvon Murrell",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 90.114,
+      "lap_times_url": null,
+      "laps": [
+        117.967,
+        92.669,
+        91.786,
+        91.893,
+        95.363,
+        90.114,
+        91.357
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Ilgiz Zamaleev",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 102.603,
+      "lap_times_url": null,
+      "laps": [
+        124.597,
+        106.052,
+        102.603,
+        102.638,
+        106.9,
+        106.909
+      ],
+      "lap_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84634"
+}

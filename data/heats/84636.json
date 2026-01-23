@@ -1,0 +1,31 @@
+{
+  "heat_no": 84636,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-22T13:15:00",
+  "drivers": [
+    {
+      "name": "Ilgiz Zamaleev",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 98.807,
+      "lap_times_url": null,
+      "laps": [
+        127.592,
+        114.021,
+        109.515,
+        101.054,
+        99.257,
+        98.807
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84636"
+}

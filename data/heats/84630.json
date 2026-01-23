@@ -1,0 +1,31 @@
+{
+  "heat_no": 84630,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-22T11:45:00",
+  "drivers": [
+    {
+      "name": "Charles Bulski",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 96.465,
+      "lap_times_url": null,
+      "laps": [
+        136.253,
+        116.03,
+        99.541,
+        99.574,
+        107.498,
+        96.465
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84630"
+}
