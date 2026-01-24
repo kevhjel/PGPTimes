@@ -1,0 +1,83 @@
+{
+  "heat_no": 84668,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-23T12:45:00",
+  "drivers": [
+    {
+      "name": "James Bergeles",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 85.56,
+      "lap_times_url": null,
+      "laps": [
+        87.074,
+        86.788,
+        85.721,
+        85.56,
+        85.641,
+        86.372,
+        85.628
+      ],
+      "lap_positions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Young Rog",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 79.512,
+      "lap_times_url": null,
+      "laps": [
+        82.842,
+        80.81,
+        81.63,
+        80.102,
+        80.542,
+        79.512,
+        79.834
+      ],
+      "lap_positions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Gavin Cutler",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 83.642,
+      "lap_times_url": null,
+      "laps": [
+        85.777,
+        85.128,
+        84.06,
+        83.999,
+        84.154,
+        83.642,
+        83.739
+      ],
+      "lap_positions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84668"
+}
