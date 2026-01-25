@@ -1,0 +1,131 @@
+{
+  "heat_no": 84700,
+  "heat_type": "Arrive and Drive -15 Karts",
+  "start_time_iso": "2026-01-24T16:15:00",
+  "drivers": [
+    {
+      "name": "zahar korchak",
+      "position": 1,
+      "kart": null,
+      "best_lap_seconds": 84.78,
+      "lap_times_url": null,
+      "laps": [
+        110.628,
+        99.074,
+        86.6,
+        84.78,
+        85.734,
+        86.151,
+        85.411
+      ],
+      "lap_positions": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Bohdan Biliuk",
+      "position": 3,
+      "kart": null,
+      "best_lap_seconds": 87.572,
+      "lap_times_url": null,
+      "laps": [
+        113.128,
+        90.797,
+        88.128,
+        88.054,
+        95.794,
+        97.675,
+        87.572
+      ],
+      "lap_positions": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Martin Hud",
+      "position": 2,
+      "kart": null,
+      "best_lap_seconds": 86.785,
+      "lap_times_url": null,
+      "laps": [
+        115.974,
+        89.437,
+        87.995,
+        94.857,
+        86.785,
+        87.118,
+        87.446
+      ],
+      "lap_positions": [
+        4,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Runtian Wan",
+      "position": 5,
+      "kart": null,
+      "best_lap_seconds": 98.306,
+      "lap_times_url": null,
+      "laps": [
+        119.849,
+        100.475,
+        106.955,
+        101.509,
+        98.306,
+        109.402
+      ],
+      "lap_positions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Yikai Zhang",
+      "position": 4,
+      "kart": null,
+      "best_lap_seconds": 89.911,
+      "lap_times_url": null,
+      "laps": [
+        115.099,
+        98.78,
+        89.911,
+        103.418,
+        92.459,
+        90.409,
+        89.997
+      ],
+      "lap_positions": [
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "source_url": "https://pgpkent.clubspeedtiming.com/sp_center/HeatDetails.aspx?HeatNo=84700"
+}
